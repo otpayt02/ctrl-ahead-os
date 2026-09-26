@@ -1,0 +1,16 @@
+{
+  "name": "ctrl-ahead-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orchestration OS for AheadofRush content pipeline, piano improvisation, and flameworking glass art",
+  "scripts": {
+    "dev:landing": "pnpm --filter landing dev",
+    "dev:os": "pnpm --filter os dev",
+    "intel:scrape": "ts-node scripts/scrape-creators.ts",
+    "improv:analyze": "python scripts/analyze_improv.py",
+    "trial:generate": "ts-node scripts/generate-trials.ts"
+  },
+  "keywords": ["ai-pipeline", "content-engine", "piano-improv", "trial-reels", "automation"],
+  "author": "Oliver Payton",
+  "license": "MIT"
+}

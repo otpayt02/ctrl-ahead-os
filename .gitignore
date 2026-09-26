@@ -1,0 +1,11 @@
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.local
+*.log
+data/improvs/raw/*
+!data/improvs/raw/.gitkeep
+data/training/*
+!data/training/.gitkeep
