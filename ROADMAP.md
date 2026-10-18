@@ -20,6 +20,14 @@
   - Variation 4: Question caption vs bold statement
   - Variation 5: Suno instrumental background bed vs clean room audio
 - [ ] Performance logging & non-follower reach analytics
+- [ ] First-party YouTube Studio loop from upload #1: log Shorts viewed-versus-swiped,
+  shown-in-feed, and derived swipe rate; log long-video CTR, first-30s retention,
+  and AVD at 24h, 48h, and 7d. Use working targets, then recalibrate by own cohort.
+- [ ] Collab/KOL seeding: shortlist relevant creators, obtain consent, track seeded
+  posts and referral results separately from organic distribution.
+- [ ] Long-video title/thumbnail A/B testing: prepare distinct variants at publish;
+  inspect the first 24-48h in Studio, then record the native test's eventual
+  watch-time-share result. Native A/B testing is not available for Shorts.
 
 ## Phase 4: Audio & Improvisation Pipeline
 - [ ] Local Demucs stem splitting pipeline

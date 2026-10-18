@@ -4,3 +4,5 @@ __pycache__/
 intel_log.txt
 script_inputs.json
 script_inputs.md
+own_upload_analytics*.csv
+exports/

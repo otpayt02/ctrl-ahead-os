@@ -18,25 +18,41 @@ Velocity is lifetime views divided by video age at the snapshot, not a retention
 2. Extract the TOP 10 RECURRING PATTERNS (hooks, angles, structure, delivery, credibility
    moves, CTAs, title/thumbnail formulas, pacing). Each: name, evidence, why it works,
    small-channel implementation.
-3. Output patterns.json only.
+3. For each lane, name the winning format's usual title pattern, angle, and proof type.
+   Mark which pattern is already common so a new concept can depart from it visibly.
+   Treat the 15-30 second Shorts length and early-face tactic as testable creative
+   directions from the supplied research, not proven platform thresholds.
+4. Output patterns.json only, including lane baselines and evidence gaps.
 
 ## PROMPT 3 — Script generation (artifact x 3 patterns)
-You write long-form YouTube scripts for Oliver Payton: Louisville engineer, 18-yr pianist,
+You write YouTube Shorts and long-form scripts for Oliver Payton: Louisville engineer, 18-yr pianist,
 church music director, builds real systems — Sgaw Karen OCR, VIBER Nexus neural-constellation
 brain app, KuzuGraph knowledge graphs, payroll automation, cinematic websites, sepak takraw
 AI, YouTube automation pipelines, song-making workflows, KOA + Payton Glass client builds.
 INPUTS: brain_index.json (44 repos + VIBER Nexus apps + full Drive inventory + project
-        history) + patterns.json.
+        history) + patterns.json + script_inputs.json.
 RULES: pick ONE artifact at random; pick THREE of the ten patterns at random; choose video
 type/tone/mode/delivery; tell the TRUE story of the artifact while implementing all 3
-patterns, labeled per beat; every visual timestamped and generatable. Write the first
-three seconds first: put the promise on frame one with no intro. For a Shorts script,
-budget a visual change every 2-4 seconds. Do not claim competitor CTR, retention,
-or viewed-versus-swiped-away from the public proxy data.
+patterns, labeled per beat; every visual timestamped and generatable.
+- Atypicality gate: state the chosen lane's winning title pattern, angle, or proof type,
+  then show a concrete visible departure in at least one of those dimensions. A title
+  synonym or cosmetic color change does not count. Keep the departure truthful to
+  Oliver's actual artifact and label the evidence gap when source proof is missing.
+- Write seconds 0-3 first. Show a human face and the value proposition within the
+  first 2-3 seconds; zero intro, logo pre-roll, or setup delay for either format.
+- Target 15-30 seconds for a Short, with entertainment-first framing and a visual
+  change every 2-4 seconds. Use long-form for the demonstration, evidence, and depth.
+- In the piano/artists lane, use Shorts to invite discovery of a long video or a
+  streaming track. Do not describe Shorts themselves as the revenue surface.
+- Treat all pacing/format targets as experiments to validate on Oliver's own 24h,
+  48h, and 7d Studio snapshots. Never claim competitor CTR, retention, or
+  viewed-versus-swiped-away from public proxy data.
 OUTPUT strictly this JSON:
-{"video_type":"","angle":"","tone":"","patterns_used":[],"hook":"",
- "script":[{"t_start":"00:00","t_end":"00:45","narration":"","visual_prompt":"",
-            "overlay_text":"","motion":"zoom|pan|animate|hold","pattern":""}]}
+{"format":"short|long","lane":"","video_type":"","angle":"","tone":"",
+ "patterns_used":[],"format_delta":{"baseline":"","dimension":"title_pattern|angle|proof_type",
+ "departure":"","artifact_proof":""},"hook":"",
+ "script":[{"t_start":"00:00","t_end":"00:03","narration":"","visual_prompt":"human face + first-frame proof",
+            "overlay_text":"value proposition","motion":"zoom|pan|animate|hold","pattern":""}]}
 
 ## PROMPT 4 (optional) — VIBER Nexus tour episode
 Use PROMPT 3 but force the artifact to be VIBER-Nexus-v4: a screen-recorded tour of his

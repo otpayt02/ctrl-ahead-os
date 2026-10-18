@@ -30,6 +30,27 @@ Public data cannot reveal competitor CTR, retention, or viewed-versus-swiped-awa
 The comments command reads at most 40 videos per run; transcripts target at most
 three velocity leaders per lane, capped at 40 videos.
 
+## Own-upload analytics (local, manual Studio entry)
+
+`own_upload_analytics.py` stores owner-only measurements separately from public
+competitor snapshots. Register each upload, then record Studio values after 24h,
+48h, and 7d. The database and default CSV export are ignored by Git. No OAuth
+or channel connection is configured.
+
+```text
+python own_upload_analytics.py register --video-id VIDEO_ID --format short --title "Video title" --published-at 2026-10-18T12:00:00-04:00 --lane "AI tools"
+python own_upload_analytics.py snapshot --video-id VIDEO_ID --window 24h --measured-at 2026-10-19T12:00:00-04:00 --viewed-pct 72 --shown-in-feed 1000
+python own_upload_analytics.py status
+python own_upload_analytics.py export
+```
+
+For a long video, enter `--ctr-pct`, `--retention-30s-pct`, and `--avd-seconds`
+instead. `swipe_pct` is derived as `100 - viewed_pct` when a Shorts viewed value
+is supplied. Missing Studio values remain empty. The 70% Shorts viewed target
+(60% working floor), 3-6% long CTR range, and 60-75% first-30s retention range
+are starting review targets from the supplied brief, not YouTube distribution rules.
+See [the pre-build check](research/first-party-analytics-sanity-check.md).
+
 ## Daily: harvest + spikes + rank   |   Weekly: transcripts + AI Studio prompts 1-3
 Everything runs on free tiers: YouTube API free quota, Gemini Flash free tier, home-IP
 transcripts, local SQLite.
