@@ -1,4 +1,4 @@
-import {copyFile, mkdir, readdir, writeFile} from 'node:fs/promises';
+import {copyFile, mkdir, readdir, readFile, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -10,8 +10,30 @@ const videos = path.resolve(project, '..');
 const manifestPath = process.env.VIDEO_MANIFEST
   ? path.resolve(process.env.VIDEO_MANIFEST)
   : path.join(videos, '001-ai-lost-cause', 'manifest.json');
-const manifest = JSON.parse(await (await import('node:fs/promises')).readFile(manifestPath, 'utf8'));
+const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const videoFolder = path.dirname(manifestPath);
+const ledgerPath = path.join(videoFolder, 'evidence', 'evidence_manifest.json');
+if (existsSync(ledgerPath)) {
+  const ledger = JSON.parse(await readFile(ledgerPath, 'utf8'));
+  const pointers = Array.isArray(ledger) ? ledger : (ledger.pointers ?? ledger.snippets ?? []);
+  for (const pointer of pointers) {
+    const slot = pointer.manifest_slot;
+    const scene = manifest.scenes.find((item) => item.id === slot?.scene);
+    if (!scene || !Array.isArray(slot.time_range)) continue;
+    scene.manifest_slots ??= [];
+    scene.manifest_slots.push({
+      id: pointer.id,
+      start: Math.max(0, slot.time_range[0] - scene.start),
+      end: Math.min(scene.end - scene.start, slot.time_range[1] - scene.start),
+      text: pointer.extracted_text || `${pointer.snippet_type} / ${pointer.id}`,
+      asset: pointer.uri,
+      type: pointer.snippet_type,
+      recommended_animation: pointer.recommended_animation,
+      annotation: pointer.annotation,
+      provenance: pointer.provenance,
+    });
+  }
+}
 const assetFolder = path.join(project, 'public', 'scene-assets');
 const voOutput = path.join(project, 'public', 'vo');
 await mkdir(assetFolder, {recursive: true});

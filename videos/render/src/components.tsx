@@ -21,8 +21,11 @@ const ImagePlane: React.FC<{asset?: string; media: MediaInventory; placeholderMo
 export const KenBurns: React.FC<SceneProps> = ({scene, media, placeholderMode}) => {
   const frame = useCurrentFrame(), motion = scene.motion?.toLowerCase() ?? '';
   const pull = motion.includes('pull-back'), drift = motion.includes('lateral drift');
-  const scale = interpolate(frame,[0,scene.durationInFrames],[pull?1.16:1.02,pull?1.02:motion.includes('1.2x')?1.2:1.12],{extrapolateRight:'clamp'});
-  const x = drift ? interpolate(frame,[0,scene.durationInFrames],[-50,50],{extrapolateRight:'clamp'}) : 0;
+  const {fps} = useVideoConfig(), beatFrames = 7 * fps, beat = Math.floor(frame / beatFrames), localFrame = frame % beatFrames;
+  const start = pull ? 1.16 : 1.02, end = pull ? 1.02 : motion.includes('1.2x') ? 1.2 : 1.12;
+  const progress = (beat + localFrame / beatFrames) / Math.max(1, Math.ceil(scene.durationInFrames / beatFrames));
+  const scale = start + (end - start) * progress + .025 * (localFrame / beatFrames);
+  const x = drift ? interpolate(frame,[0,scene.durationInFrames],[-50,50],{extrapolateRight:'clamp'}) : (beat % 3 - 1) * 28;
   return <AbsoluteFill style={{transform:`translateX(${x}px) scale(${scale})`}}><ImagePlane asset={scene.assets?.find(a=>a.startsWith('assets/'))} media={media} placeholderMode={placeholderMode}/></AbsoluteFill>;
 };
 
@@ -36,7 +39,8 @@ export const ScreenCapture: React.FC<SceneProps> = ({scene, media, placeholderMo
 export const CrossFadeSequence: React.FC<SceneProps> = ({scene, media, placeholderMode}) => {
   const frame = useCurrentFrame(), {fps}=useVideoConfig(), midpoint=Math.round(scene.durationInFrames*.52);
   const blend=interpolate(frame,[midpoint,midpoint+Math.round(1.5*fps)],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
-  return <AbsoluteFill><ImagePlane asset={scene.assets?.[0]} media={media} placeholderMode={placeholderMode}/><AbsoluteFill style={{opacity:blend}}><ImagePlane asset={scene.assets?.[1]} media={media} placeholderMode={placeholderMode}/></AbsoluteFill></AbsoluteFill>;
+  const beat = Math.floor(frame/(7*fps)), scale = 1.03 + (frame%(7*fps))/(7*fps)*.035;
+  return <AbsoluteFill style={{transform:`scale(${scale}) translateX(${(beat%3-1)*20}px)`}}><ImagePlane asset={scene.assets?.[0]} media={media} placeholderMode={placeholderMode}/><AbsoluteFill style={{opacity:blend}}><ImagePlane asset={scene.assets?.[1]} media={media} placeholderMode={placeholderMode}/></AbsoluteFill></AbsoluteFill>;
 };
 
 export const KineticType: React.FC<{text:string; scene:TimelineScene}> = ({text,scene}) => {

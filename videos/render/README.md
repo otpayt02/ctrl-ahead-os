@@ -1,54 +1,11 @@
-# Remotion video
+# Manifest-driven Remotion renderer
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Scaffolded with `npx create-video@latest --yes --blank --no-tailwind render`. `prepare` copies the selected source manifest into the renderer and discovers media. Set `VIDEO_MANIFEST` to another video's manifest path for future videos; no component edit is needed. The source manifest is not rewritten.
 
-Welcome to your Remotion project!
+From this folder run `npm.cmd ci`, `npm.cmd run lint`, then `npm.cmd run render:draft`. Use `npm.cmd run dev` for Studio. The draft command writes a full-duration H.264 MP4 with an explicit silent audio track when no VO exists. `out/`, generated media copies, and recorded VO are ignored by Git.
 
-## Commands
+Scenes read `id`, `chapter`, `start`, `end`, `component`, `motion`, `assets`, and `on_screen_text`. Missing media displays a labeled placeholder. The opening 3 seconds mark Oliver's face footage as pending. The model comparison and tracker screenshot remain real-media placeholders. The eight PNGs are AI illustrations, labeled in their asset provenance file.
 
-**Install Dependencies**
+An optional `evidence/evidence_manifest.json` with pointers following the evidence-capture skill merges each `manifest_slot` into its chapter as a time filler. The renderer shows extracted text and a provenance label; the capture process remains separate. Visual crop states shift about every 7 seconds for pacing review.
 
-```console
-npm i --loglevel=error
-```
-
-**Start Preview**
-
-```console
-npm run dev
-```
-
-**Render video**
-
-```console
-npx remotion render
-```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+After script approval, put recorded `S1.wav`, `S1.mp3`, or `S1.m4a` (likewise S2–S8) in the video's ignored `vo/` folder. `prepare` measures each actual file and extends its chapter if needed, shifting later chapters. This project does not synthesize VO.

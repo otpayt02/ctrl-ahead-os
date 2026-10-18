@@ -8,7 +8,7 @@ export type ManifestScene = {
   motion?: string;
   on_screen_text?: string;
   producer_note?: string;
-  manifest_slots?: Array<{start?: number; end?: number; text?: string; asset?: string; type?: string; recommended_animation?: string}>;
+  manifest_slots?: Array<{id?: string; start?: number; end?: number; text?: string; asset?: string; type?: string; recommended_animation?: string; annotation?: Record<string,string>; provenance?: Record<string,string>}>;
 };
 
 export type VideoManifest = {
@@ -21,6 +21,7 @@ export type VideoManifest = {
   asset_prompts?: Record<string, string>;
   style?: {palette?: string[]; typefaces?: Record<string, string>; grade?: string};
   transitions?: string;
+  pacing_sec?: number;
 };
 
 export type MediaInventory = {
