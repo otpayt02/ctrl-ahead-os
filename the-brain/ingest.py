@@ -2,17 +2,20 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import html
 import json
 import math
 import re
 import sqlite3
+import subprocess
 import sys
 import xml.etree.ElementTree as ET
 import zipfile
 from collections import Counter
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_DB = ROOT / "artifacts" / "brain.db"
@@ -157,6 +160,45 @@ def search(db: sqlite3.Connection, query: str, limit: int = 10):
     return sorted(scores, key=lambda pair: pair[0], reverse=True)[:limit]
 
 
+def gh_json(endpoint: str):
+    result = subprocess.run(["gh", "api", endpoint], check=True, capture_output=True, text=True, encoding="utf-8")
+    return json.loads(result.stdout)
+
+
+def ingest_github(db: sqlite3.Connection, owner: str = "otpayt02") -> dict:
+    """Import README/spec Markdown from repos visible to the logged-in gh identity."""
+    if not re.fullmatch(r"[A-Za-z0-9-]+", owner):
+        raise ValueError("invalid owner")
+    repos = gh_json("user/repos?per_page=100&affiliation=owner")
+    repos = [r for r in repos if r.get("owner", {}).get("login", "").lower() == owner.lower()]
+    changed = documents = errors = 0
+    for repo in repos:
+        full = repo["full_name"]
+        try:
+            tree = gh_json(f"repos/{full}/git/trees/{repo['default_branch']}?recursive=1")
+        except subprocess.CalledProcessError:
+            errors += 1
+            continue
+        paths = [item["path"] for item in tree.get("tree", [])
+                 if item.get("type") == "blob" and len(item["path"].split("/")) <= 4
+                 and re.search(r"(?:^|/)(?:readme|spec|specification|design|architecture)[^/]*\.md$", item["path"], re.I)]
+        for path in paths[:20]:
+            try:
+                encoded_path = "/".join(quote(part, safe="") for part in path.split("/"))
+                payload = gh_json(f"repos/{full}/contents/{encoded_path}?ref={repo['default_branch']}")
+                raw = base64.b64decode(payload.get("content", ""))
+                if len(raw) > MAX_FILE:
+                    continue
+                source = payload.get("html_url") or f"https://github.com/{full}/blob/{repo['default_branch']}/{path}"
+                for record in records(path, raw, "github", source):
+                    changed += add(db, *record, "github")
+                    documents += 1
+            except (subprocess.CalledProcessError, ValueError):
+                errors += 1
+        db.commit()
+    return {"repos_seen": len(repos), "documents": documents, "changed": changed, "errors": errors}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
@@ -169,6 +211,8 @@ def main():
     find.add_argument("query")
     find.add_argument("--limit", type=int, default=10)
     sub.add_parser("stats")
+    github = sub.add_parser("github")
+    github.add_argument("--owner", default="otpayt02")
     args = parser.parse_args()
     db = connect(args.db)
     if args.command == "import":
@@ -177,6 +221,8 @@ def main():
     elif args.command == "search":
         for score, row in search(db, args.query, args.limit):
             print(json.dumps({"score": round(score, 4), "id": row["id"], "kind": row["kind"], "title": row["title"], "source_uri": row["source_uri"]}))
+    elif args.command == "github":
+        print(json.dumps(ingest_github(db, args.owner)))
     else:
         print(json.dumps({r[0]: r[1] for r in db.execute("SELECT kind,COUNT(*) FROM artifacts GROUP BY kind")}))
 
