@@ -55,6 +55,26 @@ def pointer(evidence: dict) -> dict:
             "source_type": "drive" if "google.com/" in uri else "github" if "github.com/" in uri else "local"}
 
 
+def synopsis(domain: str, lane: str, justification: str, receipts: list[dict]) -> str:
+    lead = receipts[0]
+    quote = lead["extracted_text"].replace("\n", " ")[:115].strip()
+    return (
+        f"An earnest documentary essay begins with Oliver on screen and a source artifact from {domain}, "
+        f"then asks what that artifact can teach us about {lane}. The first visible receipt contains "
+        f"the passage ‘{quote}’ ({lead['uri']}). That passage anchors the human side of the argument; "
+        "it does not, by itself, prove anything about an AI system. The video follows the original "
+        "practice step by step, showing its inputs, decisions, corrections, and human judgment. "
+        f"The proposed structural link is precise: {justification} Next, a real agent run is recorded "
+        "and checked against the same standard. The audience sees the original artifact beside the "
+        "agent's behavior, with any missing evidence marked on screen. If the comparison fails, the "
+        "video says so and revises the connection. If it survives, the close returns to the first "
+        "receipt and names what changed in the viewer's understanding. The mood is curious and "
+        "accountable rather than triumphant. The point is to reveal a mechanism that was easy to "
+        "miss, while keeping the person and source behind it visible. Every screen capture and "
+        "quotation remains a production gate until verified against the original file."
+    )
+
+
 def concept(candidate: dict, slider: int, mode: str, twists: list[str], lane_data: dict,
             recurring: set[str], rank: int) -> dict:
     domain, lane = candidate["source_domain"], candidate["target_lane"]
@@ -75,6 +95,7 @@ def concept(candidate: dict, slider: int, mode: str, twists: list[str], lane_dat
         "length": "long", "presenter_mode": "faceless with requested human hook cameo",
         "target_lane": lane, "source_domain": domain,
         "caption": f"{domain} supplies a test for {lane}: {justification}",
+        "synopsis": synopsis(domain, lane, justification, receipts),
         "bridge": candidate["bridge"], "bridge_justification": justification,
         "artifact_receipts": candidate["evidence"], "evidence_pointers": receipts,
         "atypicality": {"passed": passed, "overlapping_title_bigrams": overlap,
