@@ -1,0 +1,18 @@
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.local
+*.log
+data/improvs/raw/*
+!data/improvs/raw/.gitkeep
+data/training/*
+!data/training/.gitkeep
+
+# Private generated storyboards and desktop-worker data.
+/storyboards/
+/.sites-v15-publish/.local/
+*.db
+yt-niche-intel/*.csv.bak
+yt-niche-intel/intel_log.txt
