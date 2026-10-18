@@ -8,7 +8,10 @@ Attached: subniche_lanes.csv, snapshots export, channels ranking.
 3. Output JSON: {lane, top_channels[], verdict, why}[]
 
 ## PROMPT 2 — Video-type taxonomy + THE TOP 10 PATTERNS
-Attached: 7-30 days of scraped AI-niche videos (titles, view deltas, sub spikes, transcripts).
+Attached: script_inputs.json from `python yt_niche_intel.py mine`.
+Use the per-lane velocity winners, available transcript openings, comments, title bigrams,
+and tags as day-one evidence. Missing hooks or comments are unknown, not weak performance.
+Velocity is lifetime views divided by video age at the snapshot, not a retention measure.
 1. Classify each video: review/teardown, top-10 roundup, build-with-me, deep-dive explainer,
    news recap, tutorial, tool-vs-tool, workflow showcase, prediction, myth-bust, case study,
    interview, constellation/brain-tour (his unique angle).
@@ -26,7 +29,10 @@ INPUTS: brain_index.json (44 repos + VIBER Nexus apps + full Drive inventory + p
         history) + patterns.json.
 RULES: pick ONE artifact at random; pick THREE of the ten patterns at random; choose video
 type/tone/mode/delivery; tell the TRUE story of the artifact while implementing all 3
-patterns, labeled per beat; every visual timestamped and generatable.
+patterns, labeled per beat; every visual timestamped and generatable. Write the first
+three seconds first: put the promise on frame one with no intro. For a Shorts script,
+budget a visual change every 2-4 seconds. Do not claim competitor CTR, retention,
+or viewed-versus-swiped-away from the public proxy data.
 OUTPUT strictly this JSON:
 {"video_type":"","angle":"","tone":"","patterns_used":[],"hook":"",
  "script":[{"t_start":"00:00","t_end":"00:45","narration":"","visual_prompt":"",
