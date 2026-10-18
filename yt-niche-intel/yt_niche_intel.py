@@ -391,9 +391,10 @@ def resolve():
 
 
 if __name__ == "__main__":
+    from livestreams import main as streams
     commands = {"resolve": resolve, "harvest": harvest, "enrich": enrich,
                 "velocity": velocity, "comments": comments, "transcripts": transcripts,
-                "mine": mine, "spikes": spikes, "rank": rank}
+                "mine": mine, "spikes": spikes, "rank": rank, "streams": streams}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         print("usage: python yt_niche_intel.py " + "|".join(commands), file=sys.stderr)
         sys.exit(2)
