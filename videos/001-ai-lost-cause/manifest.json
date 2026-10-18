@@ -1,0 +1,35 @@
+{
+  "video_id": "001-ai-lost-cause",
+  "title": "AI Has a Lost Cause Problem (I Found It in My College Notes)",
+  "runtime_sec": 660,
+  "fps": 30,
+  "resolution": "1920x1080",
+  "render": "Remotion",
+  "style": {
+    "palette": ["#0a1628 deep navy", "#e8a33d amber", "#c9d6df cool cyan", "#f5efe6 paper"],
+    "typefaces": { "display": "EB Garamond / Playfair Display (chapter cards)", "data": "JetBrains Mono" },
+    "grade": "film grain, lifted blacks, vignette"
+  },
+  "scenes": [
+    { "id": "S1", "chapter": "HOOK", "start": 0, "end": 25, "assets": ["assets/001-hook.png"], "component": "KenBurns+KineticType", "motion": "slow push-in 1.0x→1.12x; title fades in at 0:08 with letter-spacing animating closed", "on_screen_text": "AI HAS A LOST CAUSE PROBLEM" },
+    { "id": "S2", "chapter": "THE TEXTBOOK", "start": 25, "end": 100, "assets": ["assets/002-two-memories.png"], "component": "SplitFrame", "motion": "seam pulses on 'three forces'; lower-thirds name each force as spoken", "on_screen_text": "WHITE SUPREMACISM / EMANCIPATIONISM / RECONCILIATIONISM" },
+    { "id": "S3", "chapter": "THE MAPPING", "start": 100, "end": 190, "assets": ["assets/003-internet-textbook.png"], "component": "KenBurns+KineticType", "motion": "lateral drift following lantern figure; equations build on screen", "on_screen_text": "TEXTBOOK = CORPUS · LOST CAUSE = MAJORITY-TEXT BIAS · 'DIDN'T THINK TWICE' = ZERO-COST TRUST" },
+    { "id": "S4", "chapter": "THE EXPERIMENT", "start": 190, "end": 300, "assets": ["screen-recording: two model prompts + answers"], "component": "ScreenCapture", "motion": "zoom to answers; red underline on uncited claim", "producer_note": "record real demo, 2 models" },
+    { "id": "S5", "chapter": "RECONCILIATIONISM IS RLHF", "start": 300, "end": 390, "assets": ["assets/004-rlhf-sphere.png"], "component": "KenBurns", "motion": "push-in 1.05x→1.2x with slight rotation; kinetic type at chapter end", "on_screen_text": "ACCEPTABILITY ≠ TRUTH" },
+    { "id": "S6", "chapter": "EMANCIPATIONISM IS PROVENANCE", "start": 390, "end": 470, "assets": ["assets/005-provenance.png", "screen: KOA tracker row"], "component": "KenBurns+ScreenCapture", "motion": "documents→ledger push-in; cut to tracker screenshot, spotlight row 'Store validated training pairs and consent records'" },
+    { "id": "S7", "chapter": "THE LANGUAGE THE INTERNET FORGOT", "start": 470, "end": 580, "assets": ["assets/006-karen-corpus.png", "assets/007-single-shelf.png"], "component": "CrossFadeSequence", "motion": "glyphs push-in, 1.5s crossfade to lit shelf, hold; type at hold end", "on_screen_text": "AI CANNOT REMEMBER WHAT NOBODY WROTE DOWN" },
+    { "id": "S8", "chapter": "VERDICT + CTA", "start": 580, "end": 660, "assets": ["assets/008-callback.png"], "component": "KenBurns+KineticType", "motion": "slow pull-back; three numbered takeaway cards; end card with subscribe + next-episode teaser", "on_screen_text": "1) ASK FOR SOURCES 2) FLUENCY IS PACKAGING 3) BUILD THE CORPUS" }
+  ],
+  "transitions": "0.5s crossfade within chapters; 12-frame whip-pan between chapters",
+  "audio": { "vo": "recorded narration (Oliver, face on screen for hook)", "music": "low ambient pad, riser at each chapter card, silence drop-out at 9:40 callback" },
+  "asset_prompts": {
+    "001-hook.png": "vintage 19th-century history textbook open on dark desk, pages dissolving into streams of glowing amber data particles flowing right, volumetric light, deep navy and amber palette, cinematic film grain, 16:9",
+    "002-two-memories.png": "split-screen: sepia 1860s veterans reunion parade engraving left, glowing cyan neural lattice mirroring the formation right, thin vertical seam of light between, cinematic, 16:9",
+    "003-internet-textbook.png": "endless dark library at night, some aisles blazing warm light, vast sections pitch dark with empty shelves, lone figure with lantern in central aisle, dust motes, epic scale, 16:9",
+    "004-rlhf-sphere.png": "rough jagged dark stone on workshop pedestal polished by ghostly hands of light into a smooth featureless white sphere, single overhead lamp, chiaroscuro, 16:9",
+    "005-provenance.png": "old documents with wax seals and signatures cascading downward into a glowing vertical digital ledger of linked hexagonal records, amber light transitioning to cyan, 16:9",
+    "006-karen-corpus.png": "abstract non-Latin script glyphs floating upward from worn handwritten pages into a constellation of glowing light points against night sky, dignified, no faces, 16:9",
+    "007-single-shelf.png": "one illuminated bookshelf in a vast pitch-dark archive, narrow beam of light on rows of old books, dust motes, reverent mood, 16:9",
+    "008-callback.png": "two identical antique books side by side on dark table, right one open with brilliant warm light pouring from its pages, left one closed and dim, chiaroscuro, 16:9"
+  }
+}
