@@ -13,7 +13,7 @@ LANES = ROOT.parent / "yt-niche-intel" / "script_inputs.json"
 DOMAINS = {
     "piano/improvisation": ("piano", "improvis", "chord", "music"),
     "church music": ("church", "hymn", "worship", "choir"),
-    "automotive diagnostics": ("automotive", "diagnos", "car repair", "vehicle"),
+    "automotive diagnostics": ("automotive", "car repair", "vehicle", "mechanic", "chevy", "malibu", "obd"),
     "S'gaw Karen preservation": ("s'gaw", "karen", "ocr", "translation"),
     "essays": ("essay", "speech", "writing", "rhetoric"),
 }
@@ -63,7 +63,9 @@ def mine(db, lanes: list[str]):
     for domain, terms in DOMAINS.items():
         evidence = []
         for row in rows:
-            hay = f"{row['title']} {row['domain']} {row['body']}".lower()
+            hay = f"{row['title']} {row['domain']} {row['source_uri']} {row['body']}".lower()
+            if domain == "automotive diagnostics" and "chevy-malibu-2022-lt" not in row["source_uri"].lower() and "automotive" not in f"{row['title']} {row['domain']}".lower():
+                continue
             term = next((t for t in terms if t in hay), None)
             if term:
                 evidence.append({"artifact_id": row["id"], "source_uri": row["source_uri"], "excerpt": excerpt(row["body"], term)})
