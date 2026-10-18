@@ -16,3 +16,5 @@ data/training/*
 *.db
 yt-niche-intel/*.csv.bak
 yt-niche-intel/intel_log.txt
+yt-niche-intel/.venv/
+yt-niche-intel/__pycache__/

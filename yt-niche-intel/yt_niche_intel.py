@@ -34,16 +34,20 @@ def harvest():
     week = (now - datetime.timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ")
     month = (now - datetime.timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
     searched = 0
+    search_limit = int(os.environ.get("YT_SEARCH_LIMIT", "95"))
+    if not 1 <= search_limit <= 95:
+        raise ValueError("YT_SEARCH_LIMIT must be between 1 and 95")
     for row in rows:
         for q, window in [(row["seed_query"], week), (row["seed_query"], month)]:
-            if searched >= 95:
-                DB.commit(); print("search bucket nearly used; resume tomorrow"); return
+            if searched >= search_limit:
+                DB.commit(); print("done:", searched, "searches"); return
             try:
                 r = YT.search().list(q=q, type="video", videoDuration="long",
                     order="viewCount", publishedAfter=window, part="id",
                     maxResults=25, relevanceLanguage="en").execute()
             except Exception as e:
-                print("search failed:", q, e); continue
+                DB.commit()
+                raise RuntimeError(f"search failed after {searched} searches for {q}") from e
             searched += 1
             ids = [i["id"]["videoId"] for i in r["items"]]
             for i in range(0, len(ids), 50):
