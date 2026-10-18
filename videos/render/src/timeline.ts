@@ -22,6 +22,7 @@ export type VideoManifest = {
   style?: {palette?: string[]; typefaces?: Record<string, string>; grade?: string};
   transitions?: string;
   pacing_sec?: number;
+  end_card?: {headline?: string; series?: string; teaser?: string};
 };
 
 export type MediaInventory = {

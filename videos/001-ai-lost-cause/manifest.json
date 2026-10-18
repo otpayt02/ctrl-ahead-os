@@ -21,6 +21,7 @@
     { "id": "S8", "chapter": "VERDICT + CTA", "start": 580, "end": 660, "assets": ["assets/008-callback.png"], "component": "KenBurns+KineticType", "motion": "slow pull-back; three numbered takeaway cards; end card with subscribe + next-episode teaser", "on_screen_text": "1) ASK FOR SOURCES 2) FLUENCY IS PACKAGING 3) BUILD THE CORPUS" }
   ],
   "transitions": "0.5s crossfade within chapters; 12-frame whip-pan between chapters",
+  "end_card": {"headline": "The next chapter is the build.", "series": "CTRL AHEAD / BUILD IN PUBLIC", "teaser": "NEXT EPISODE · THE PIPELINE ITSELF"},
   "audio": { "vo": "recorded narration (Oliver, face on screen for hook)", "music": "low ambient pad, riser at each chapter card, silence drop-out at 9:40 callback" },
   "asset_prompts": {
     "001-hook.png": "vintage 19th-century history textbook open on dark desk, pages dissolving into streams of glowing amber data particles flowing right, volumetric light, deep navy and amber palette, cinematic film grain, 16:9",
