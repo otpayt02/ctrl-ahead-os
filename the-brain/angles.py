@@ -65,7 +65,9 @@ def concept(candidate: dict, slider: int, mode: str, twists: list[str], lane_dat
     receipts = [pointer(e) for e in candidate["evidence"]]
     proof = "personal artifact with source-linked comparison"
     passed = bool(receipts) and not overlap and len(justification.split('.')) == 2
-    score = round((1 if receipts else 0) * .45 + (1 if not overlap else 0) * .35 + .2, 2)
+    source_strength = min(len(receipts), 3) / 3
+    first_party = any(p["source_type"] == "drive" for p in receipts)
+    score = round(.45 * source_strength + .2 * first_party + .25 * (not overlap) + .1, 2)
     stretch = "The structural analogy is a hypothesis for viewer testing, not a claim that the domains are identical."
     return {
         "rank": rank, "title": title, "title_options": [title], "mode": mode,
@@ -88,7 +90,8 @@ def concept(candidate: dict, slider: int, mode: str, twists: list[str], lane_dat
             "atypicality_check": {"title_bigrams_overlapping": overlap, "passed": passed},
             "evidence_resolution": {"pointers": len(receipts), "captured": 0,
                                     "status": "visual evidence capture pending; concept is a draft"},
-            "verdict_rank": {"score": score, "rank": rank, "release_ready": False},
+            "verdict_rank": {"score": score, "rank": rank, "release_ready": False,
+                             "weights": "source breadth .45 + original Drive source .20 + title atypicality .25 + lane match .10"},
         },
         "ctv_stretch_note": stretch,
         "review_required": True,
