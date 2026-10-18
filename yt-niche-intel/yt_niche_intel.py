@@ -12,6 +12,7 @@ Quota: search.list = 100 units (100/day bucket); all other reads = 1 unit (10,00
 """
 import sqlite3, sys, time, datetime, os, statistics, csv
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
 YT = build("youtube", "v3", developerKey=os.environ["YT_API_KEY"])
 DB = sqlite3.connect("yt_ai_niche.db")
@@ -45,9 +46,12 @@ def harvest():
                 r = YT.search().list(q=q, type="video", videoDuration="long",
                     order="viewCount", publishedAfter=window, part="id",
                     maxResults=25, relevanceLanguage="en").execute()
-            except Exception as e:
+            except HttpError as e:
                 DB.commit()
-                raise RuntimeError(f"search failed after {searched} searches for {q}") from e
+                raise RuntimeError(
+                    f"search stopped after {searched} searches (HTTP {e.resp.status}); "
+                    "check YouTube API quotas and permissions"
+                ) from None
             searched += 1
             ids = [i["id"]["videoId"] for i in r["items"]]
             for i in range(0, len(ids), 50):
@@ -132,5 +136,9 @@ def resolve():
                       "https://youtube.com/channel/" + it["id"]["channelId"])
 
 if __name__ == "__main__":
-    {"harvest": harvest, "spikes": spikes, "rank": rank,
-     "transcripts": transcripts, "resolve": resolve}[sys.argv[1]]()
+    try:
+        {"harvest": harvest, "spikes": spikes, "rank": rank,
+         "transcripts": transcripts, "resolve": resolve}[sys.argv[1]]()
+    except HttpError as e:
+        print(f"YouTube API HTTP {e.resp.status}; check quotas and permissions", file=sys.stderr)
+        sys.exit(1)
