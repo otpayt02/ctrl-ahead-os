@@ -1,5 +1,7 @@
 @echo off
 cd /d C:\Users\olive\Projects\ctrl-ahead-os\yt-niche-intel || exit /b 1
+for /f "delims=" %%K in ('powershell.exe -NoProfile -Command "[Environment]::GetEnvironmentVariable('YT_API_KEY','User')"') do set "YT_API_KEY=%%K"
+if not defined YT_API_KEY exit /b 1
 set "PYTHONIOENCODING=utf-8"
 set "PYTHON=C:\Users\olive\Projects\ctrl-ahead-os\yt-niche-intel\.venv\Scripts\python.exe"
 "%PYTHON%" yt_niche_intel.py harvest >> intel_log.txt 2>&1 || exit /b 1
