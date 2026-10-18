@@ -28,3 +28,5 @@ yt-niche-intel/__pycache__/
 /the-brain/**/*.enex
 __pycache__/
 *.pyc
+/videos/*/vo/
+/videos/*/recordings/
