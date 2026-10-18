@@ -1,0 +1,70 @@
+{
+  "video_id": "001-ai-lost-cause",
+  "source_manifest": "../manifest.json",
+  "images": [
+    {
+      "file": "001-hook.png",
+      "source_prompt_key": "001-hook.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "a90f26c5c2106e614f3afcb328a6f7d66adf75492a12c0abc8e89155f7fe5284",
+      "label": "AI-generated illustration; not documentary evidence"
+    },
+    {
+      "file": "002-two-memories.png",
+      "source_prompt_key": "002-two-memories.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "4bc63d3343059410bcb83172a192cb786057b238c84e1d763dd49044cc9c5b3d",
+      "label": "AI-generated illustration; not documentary evidence"
+    },
+    {
+      "file": "003-internet-textbook.png",
+      "source_prompt_key": "003-internet-textbook.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "09c35393264c88866f3ba497c038c903dedad195a7802ef1cff4c6f3c8ab46c5",
+      "label": "AI-generated illustration; not documentary evidence"
+    },
+    {
+      "file": "004-rlhf-sphere.png",
+      "source_prompt_key": "004-rlhf-sphere.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "68859d10dd9e86f21ced9933fb274394581db355c5846a58ec6b4e884dc05d5d",
+      "label": "AI-generated illustration; not documentary evidence"
+    },
+    {
+      "file": "005-provenance.png",
+      "source_prompt_key": "005-provenance.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "d0d48550fc8030256c6cd5041af1c71f17d58851cd946b991fe94e825d93417d",
+      "label": "AI-generated illustration; not documentary evidence"
+    },
+    {
+      "file": "006-karen-corpus.png",
+      "source_prompt_key": "006-karen-corpus.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "85c9147755e561d9041ddf9151ff9b62ea57ed8074097f6730a0d70a307c6277",
+      "label": "AI-generated illustration; not documentary evidence"
+    },
+    {
+      "file": "007-single-shelf.png",
+      "source_prompt_key": "007-single-shelf.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "97d0d119a8bea70436ff8c4f2050124d7810c2fea000b7d592fff01f2d7f3bdb",
+      "label": "AI-generated illustration; not documentary evidence"
+    },
+    {
+      "file": "008-callback.png",
+      "source_prompt_key": "008-callback.png",
+      "generator": "Codex image_gen tool",
+      "generated_date": "2026-10-18",
+      "sha256": "fd8b8e51afb59d8b41879c8cc09c31b3af9317c7d43da4b4cff014c40bd5772e",
+      "label": "AI-generated illustration; not documentary evidence"
+    }
+  ]
+}
