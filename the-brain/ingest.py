@@ -102,6 +102,11 @@ def records(name: str, raw: bytes, kind: str, source: str):
         title = data.get("title", Path(name).stem) if isinstance(data, dict) else Path(name).stem
         yield (source, str(title), json.dumps(data, ensure_ascii=False), kind)
         return
+    if kind == "drive" and decoded.startswith("Source: https://"):
+        header, _, remaining = decoded.partition("\n")
+        uri = header.removeprefix("Source: ").strip()
+        if uri.startswith(("https://docs.google.com/", "https://drive.google.com/")):
+            source, decoded = uri, remaining
     body = clean_markup(decoded) if suffix in {".html", ".htm"} else decoded.strip()
     if body:
         yield (source, Path(name).stem, body, kind)

@@ -48,6 +48,7 @@ def load_lanes(path: Path):
 
 def mine(db, lanes: list[str]):
     rows = [dict(r) for r in db.execute("SELECT id,title,source_uri,body,kind,domain FROM artifacts")]
+    rows.sort(key=lambda r: (0 if r["source_uri"].startswith(("https://docs.google.com/", "https://drive.google.com/")) else 1 if r["kind"] == "github" else 2, r["title"]))
     candidates = []
     for name, terms in CONSTANTS.items():
         evidence = []
