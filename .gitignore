@@ -18,3 +18,11 @@ yt-niche-intel/*.csv.bak
 yt-niche-intel/intel_log.txt
 yt-niche-intel/.venv/
 yt-niche-intel/__pycache__/
+/the-brain/artifacts/private/
+/the-brain/artifacts/imports/
+/the-brain/exports/
+/the-brain/concepts/
+/the-brain/**/*.sqlite*
+/the-brain/**/*.db*
+/the-brain/**/*.zip
+/the-brain/**/*.enex
