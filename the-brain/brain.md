@@ -22,6 +22,22 @@ Provenance over portrait; middleman instinct; human-in-the-loop absolutism; fami
 
 Choose tone from the user's current intent and evidence: a personal essay can use confession and imagery; a specification needs complete operational detail; a research brief needs source and uncertainty labels. Keep humor, ambition, and deflation where the source supports them. Do not copy a register across contexts automatically.
 
+| Intent | Register and devices | Tone / mood | Source-described preparation |
+| --- | --- | --- | --- |
+| Persuade a live audience | Homiletic; confession opener and callback | Playful, earnest / electric | Drafts under pressure |
+| Explain or dissect | Analytical; taxonomy, receipts, verdict close | Disciplined / sober to hopeful | Reads and cites before concluding |
+| Preserve or serve | Steward specification; permission and provenance gates | Humble, precise / protective | Checks ownership and community consent |
+| Execute through a machine | Vent dump; exhaustive restatement and guardian asides | Urgent, warm / exhaling | Dumps all requirements, repeats load-bearing details |
+| Understand himself | Cartographer; mirrors and cross-era comparisons | Reflective / searching | Gathers sources before inferring a pattern |
+
+The PDF describes repeated rhetorical features as hypotheses for the writer to preserve when appropriate: repetition that adds a detail; care instructions embedded within technical specifications; naming projects aloud; and ambition alongside self-deflating humor. Dictation roughness can be a useful provenance clue, but it is not a license to imitate typos or invent quotations.
+
+## Graph and update protocol
+
+Use `Era`, `Project`, `Person`, `Intent`, `Device`, `Value`, and `Source` as node types. Suggested edges include `project_serves_person`, `intent_uses_device`, `era_shifts_purpose`, `value_constrains_device`, and `source_grounded_in`. A source can support a pattern candidate; the candidate does not become a verified life fact solely because it appears in this summary.
+
+When a new selected source arrives: classify its era and intent, extract supported devices, compare it with the nine proposed constants, and record any change as a dated delta. Keep superseded claims visible with their source instead of silently deleting them. Oliver reviews changes before they inform writing in his name.
+
 ## Release gate
 
 The `mine.py` and `angles.py` outputs are drafts. Oliver reviews source links, bridge mechanics, and whether an interpretation sounds like him before publication.
