@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CTRL AHEAD — Pacing Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0a1628;--amber:#e8a33d;--cyan:#c9d6df;--paper:#f5efe6;--line:#1d3450}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--navy);color:var(--paper);font-family:'JetBrains Mono',monospace;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(55% 45% at 12% -5%,#16344e66,transparent 70%),radial-gradient(45% 40% at 96% 105%,#e8a33d1a,transparent 70%)}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;background:repeating-linear-gradient(91deg,transparent 0 2px,#ffffff05 2px 3px)}
+main{position:relative;max-width:1180px;margin:0 auto;padding:58px 34px 120px}
+.kicker{color:var(--amber);font-size:12px;letter-spacing:7px}
+h1{font-family:'EB Garamond',Georgia,serif;font-weight:600;font-size:clamp(38px,6vw,72px);line-height:1.05;margin:14px 0 12px}
+.sub{color:var(--cyan);font-size:13.5px;line-height:1.75;max-width:680px}
+.studio{margin-top:44px;background:linear-gradient(160deg,#0e2036,#0a1628 62%);border:1px solid var(--line);border-radius:18px;padding:38px;box-shadow:0 34px 100px #0009}
+.readrow{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:30px}
+.bigval{font-family:'EB Garamond',serif;font-size:92px;line-height:.85;color:var(--amber)}
+.bigval small{font-size:34px;color:var(--paper);opacity:.65}
+.readmeta{text-align:right;font-size:11px;letter-spacing:2px;color:var(--cyan);line-height:2}
+.readmeta b{color:var(--amber);font-weight:600}
+.track{position:relative;height:14px;border-radius:8px;background:#071120;border:1px solid var(--line);cursor:pointer;touch-action:none;outline:none}
+.track:focus-visible{border-color:var(--amber)}
+.fill{position:absolute;left:0;top:0;bottom:0;border-radius:8px;background:linear-gradient(90deg,#8a5f1e,var(--amber));box-shadow:0 0 26px #e8a33d55;pointer-events:none}
+.handle{position:absolute;top:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffdf9e,var(--amber) 62%,#a6701d);border:2px solid #ffe9c2;cursor:grab;box-shadow:0 6px 26px #e8a33d88;transition:transform .15s;pointer-events:none}
+.scale{position:relative;height:28px;margin-top:6px}
+.scale span{position:absolute;transform:translateX(-50%);font-size:10px;color:#5d7590}
+.scale i{display:block;width:1px;height:7px;background:#2c4664;margin:0 auto 4px}
+.controls{display:flex;gap:28px;flex-wrap:wrap;margin:34px 0 4px;align-items:flex-end}
+.ctrl label{display:block;font-size:10px;letter-spacing:3px;color:var(--cyan);margin-bottom:9px}
+.seg{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{background:transparent;border:0;border-right:1px solid var(--line);color:var(--cyan);font-family:inherit;font-size:11px;letter-spacing:1px;padding:11px 15px;cursor:pointer}
+.seg button:last-child{border-right:0}
+.seg button.on{background:var(--amber);color:#0a1628;font-weight:600}
+input[type=number]{background:#071120;border:1px solid var(--line);color:var(--paper);font-family:inherit;font-size:14px;padding:11px 13px;border-radius:10px;width:110px}
+.hint{font-size:10px;color:#5d7590;letter-spacing:1px;margin-top:10px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin:28px 0 6px}
+.stat{border:1px solid var(--line);border-radius:12px;padding:15px 17px;background:#081526}
+.stat .v{font-family:'EB Garamond',serif;font-size:32px;color:var(--amber)}
+.stat .k{font-size:9px;letter-spacing:2px;color:var(--cyan);margin-top:5px}
+.planhead{display:flex;justify-content:space-between;align-items:baseline;margin:52px 0 20px;border-bottom:1px solid var(--line);padding-bottom:14px;flex-wrap:wrap;gap:12px}
+.planhead h2{font-family:'EB Garamond',serif;font-size:30px;font-weight:600}
+.planhead .meta{font-size:10px;letter-spacing:2px;color:var(--cyan)}
+.plan{display:flex;flex-direction:column;gap:18px}
+.scene{border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:14px;background:linear-gradient(150deg,#0d1c31,#0a1628);padding:22px 24px}
+.shead{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:15px}
+.shead .ch{font-family:'EB Garamond',serif;font-size:24px}
+.shead .meta{font-size:10px;letter-spacing:2px;color:var(--cyan)}
+.vrow{display:flex;gap:5px}
+.vbar{position:relative;min-width:14px;height:46px;border-radius:8px;background:#12233a;border:1px solid #274463;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.vbar span{font-size:9.5px;color:var(--paper);white-space:nowrap;opacity:.9;padding:0 3px}
+.vbar .ov{position:absolute;top:0;bottom:0;width:2px;background:var(--amber);box-shadow:0 0 9px var(--amber)}
+.pool{margin-top:13px;font-size:10.5px;color:var(--cyan);letter-spacing:.5px;line-height:1.8}
+.pool b{color:var(--amber);letter-spacing:2px;font-size:9px}
+.actions{display:flex;gap:14px;margin-top:44px;flex-wrap:wrap}
+.btn{background:var(--amber);color:#0a1628;font-family:inherit;font-weight:600;letter-spacing:1.5px;font-size:12px;border:0;border-radius:10px;padding:15px 24px;cursor:pointer;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--cyan);border:1px solid var(--line)}
+#toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,80px);background:var(--amber);color:#0a1628;font-weight:600;font-size:12px;letter-spacing:2px;padding:13px 26px;border-radius:10px;transition:transform .3s;z-index:9}
+#toast.show{transform:translate(-50%,0)}
+footer{margin-top:52px;font-size:10px;letter-spacing:1px;color:#5d7590;line-height:2}
+</style>
+</head>
+<body>
+<main>
+<div class="kicker">CTRL AHEAD · VIDEOS · PACING STUDIO</div>
+<h1>Faceless Pacing Studio</h1>
+<p class="sub">Drag the average dwell. The engine re-cuts every visual live: durations jittered around your target (never uniform), a visible change at least every 3–5 seconds, hard cap 15s per image. Deterministic — same seed, same cut list, every render.</p>
+<section class="studio">
+<div class="readrow">
+<div class="bigval"><span id="avgOut">7.0</span><small>s</small></div>
+<div class="readmeta">AVERAGE DWELL PER VISUAL<br>HARD CAP <b>15.0s PER IMAGE · LOCKED</b><br>MIN FLOOR <b>2.5s · CHANGE FLOOR 3–5s</b></div>
+</div>
+<div class="track" id="track" tabindex="0" role="slider" aria-label="Average dwell seconds" aria-valuemin="0" aria-valuemax="20"><div class="fill" id="fill"></div><div class="handle" id="handle"></div></div>
+<div class="scale" id="scale"></div>
+<div class="controls">
+<div class="ctrl"><label>FORMAT PRESET</label><div class="seg" id="fmtSeg"><button data-v="7" class="on">LONGS · 7s</button><button data-v="3">SHORTS · 3s</button><button data-v="10">SLOW DOC · 10s</button><button data-v="2.5">MAX CUT · 2.5s</button></div></div>
+<div class="ctrl"><label>SEED</label><input type="number" id="seed" min="1" max="99999" value="7"></div>
+<div class="ctrl"><label>PRESENTER MODE</label><div class="seg" id="pSeg"><button data-v="faceless" class="on">FACELESS</button><button data-v="face-cam box">FACE-CAM</button><button data-v="avatar">AVATAR</button><button data-v="ai voice clone">AI VOICE</button></div></div>
+</div>
+<div class="hint">JITTER ±20–35% · KEY EVIDENCE BEATS DWELL ~30% LONGER · ARROW KEYS FINE-TUNE THE LINE</div>
+<div class="stats" id="stats"></div>
+</section>
+<div class="planhead"><h2>Video 001 · AI Has a Lost Cause Problem</h2><div class="meta" id="planMeta"></div></div>
+<section class="plan" id="plan"></section>
+<div class="actions">
+<button class="btn" id="copyCfg">COPY PACING CONFIG</button>
+<button class="btn ghost" id="copyPlan">COPY FULL VISUAL PLAN</button>
+<button class="btn ghost" id="copyPrompt">COPY CODEX WIRING PROMPT</button>
+</div>
+<footer>CTRL AHEAD OS · FACELESS VISUAL SYSTEM · every claim on screen · mobile-first text sizing · consistent palette and fonts so the channel reads with the sound off.</footer>
+</main>
+<div id="toast">COPIED</div>
+<script>
+var MOTIONS=['push-in 1.02x->1.12x','pull-back 1.16x->1.02x','lateral drift L->R','push-in 1.05x->1.2x','lateral drift R->L','hold + overlay build'];
+var SCENES=[
+{id:'S1',chapter:'HOOK',start:0,end:25,assets:['assets/001-hook.png'],pool:['A textbook written by the losers','The corpus trains the machine','Question: who wrote your model\u2019s history?']},
+{id:'S2',chapter:'THE TEXTBOOK',start:25,end:100,assets:['assets/002-two-memories.png'],pool:['Force 1: white supremacism \u2014 the dominant voice','Force 2: emancipationism \u2014 the counter-memory','Force 3: reconciliationism \u2014 the polite middle']},
+{id:'S3',chapter:'THE MAPPING',start:100,end:190,assets:['assets/003-internet-textbook.png'],pool:['CORPUS: everything the model was fed','MAJORITY-TEXT BIAS: the loudest shelf wins','ZERO-COST TRUST: fluent = believed']},
+{id:'S4',chapter:'THE EXPERIMENT',start:190,end:300,assets:['screen-recording: two model prompts + answers'],note:'record real demo, 2 models',pool:['Live test: same question, two models','Rule: every claim needs a receipt','Watch the citation column']},
+{id:'S5',chapter:'RECONCILIATIONISM IS RLHF',start:300,end:390,assets:['assets/004-rlhf-sphere.png'],pool:['RLHF optimizes acceptability, not accuracy','Polished stone: smooth, featureless, agreeable','Truth doesn\u2019t vote']},
+{id:'S6',chapter:'EMANCIPATIONISM IS PROVENANCE',start:390,end:470,assets:['assets/005-provenance.png','screen: KOA tracker row'],pool:['PROVENANCE: who said it, when, and why','KOA tracker: consent records per training pair','Emancipationism = provenance engineering']},
+{id:'S7',chapter:'THE LANGUAGE THE INTERNET FORGOT',start:470,end:580,assets:['assets/006-karen-corpus.png','assets/007-single-shelf.png'],pool:['S\u2019gaw Karen: millions of speakers, thin corpus','One shelf vs. the archive','Unwritten \u2260 unimportant']},
+{id:'S8',chapter:'VERDICT + CTA',start:580,end:660,assets:['assets/008-callback.png'],pool:['Rule 1: ask for sources','Rule 2: fluency is packaging','Rule 3: build the corpus']}
+];
+var CODEX_PROMPT='New on main (commit 79399c3): videos/render/src/pacing.ts (deterministic pacing engine) plus a pacing block and per-scene overlay_pool in videos/001-ai-lost-cause/manifest.json. Wire pacing into the existing manifest-driven renderer without changing chapter boundaries or the evidence-slot system: (1) Run applyPacing(manifest) from src/pacing.ts in the pipeline that builds generated-manifest.json (or in Root.tsx before buildTimeline) so every scene carries scene.visuals. (2) In SceneView, cut each scene into one nested Sequence per visual using duration_sec * fps; drive Ken Burns direction/zoom from the visual motion string so cuts coincide with motion changes. (3) Render each visual overlays as KineticType-style chips (kind stat = JetBrains Mono data chip, kind term = amber-bordered display chip) animating in at their at offset, fading 0.6s before the visual ends, inside the mobile-safe title area. (4) When recorded VO extends a scene beyond manifest bounds, proportionally stretch that scene visual durations instead of dead air on the last visual. (5) Evidence/snippet-ledger manifest_slots keep merging as time fillers; on collision the ledger slot wins and the pacing overlay skips. (6) Deterministic only, no Math.random; all variation from pacing.ts seeds. (7) Keep the AI-illustration provenance label as a fixed overlay on every visual cut. (8) Follow UI_RULES.md cinematic style. Then render a new silent draft of video 001, verify duration, inspect frames at chapter boundaries and overlay beats.';
+var cfg={average_dwell_sec:7,max_dwell_sec:15,jitter:[0.2,0.35],visual_change_floor_sec:4,seed:7,presenter_mode:'faceless'};
+function $(id){return document.getElementById(id);}
+function round1(n){return Math.round(n*10)/10;}
+function clamp(n,lo,hi){return Math.min(hi,Math.max(lo,n));}
+function mulberry32(seed){var state=seed>>>0;return function(){state=(state+0x6d2b79f5)>>>0;var t=state;t=Math.imul(t^(t>>>15),t);t=Math.imul(t^(t>>>7),t|0x61);return((t^(t>>>14))>>>0)/4294967296;};}
+function normalizeDurations(durs,total,cap){var lo=2.5;for(var p=0;p<8;p++){var s=0;for(var i=0;i<durs.length;i++)s+=durs[i];var diff=total-s;if(Math.abs(diff)<0.05)break;var roomy=[];for(var i2=0;i2<durs.length;i2++){if(diff>0?durs[i2]<cap-0.1:durs[i2]>lo+0.1)roomy.push(i2);}if(!roomy.length)break;var per=diff/roomy.length;for(var j=0;j<roomy.length;j++){var k=roomy[j];durs[k]=round1(clamp(durs[k]+per,lo,cap));}}var sum=0;for(var i3=0;i3<durs.length;i3++)sum+=durs[i3];var residual=round1(total-sum);if(Math.abs(residual)>=0.1){for(var i4=0;i4<durs.length;i4++){var nd=round1(durs[i4]+residual);if(nd>=lo&&nd<=cap){durs[i4]=nd;break;}}}return durs;}
+function planSceneVisuals(sc,cfg,rand){var D=sc.end-sc.start;var target=Math.min(cfg.average_dwell_sec,cfg.max_dwell_sec);var n=Math.max(1,Math.round(D/Math.max(target,2.5)));var base=D/n;var assets=sc.assets&&sc.assets.length?sc.assets:['assets/placeholder.png'];var keyScene=!!sc.note||sc.chapter.indexOf('VERDICT')>=0;var raw=[];for(var i=0;i<n;i++){var mag=cfg.jitter[0]+rand()*(cfg.jitter[1]-cfg.jitter[0]);var sign=rand()>0.5?1:-1;var boost=(keyScene&&i%3===1)?1.3:1;raw.push(clamp(base*(1+sign*mag*boost),2.5,cfg.max_dwell_sec));}var durs=normalizeDurations(raw,D,cfg.max_dwell_sec);var out=[];for(var i5=0;i5<durs.length;i5++){var d=durs[i5];var beats=[];var t=1.2+rand()*1.3;while(t<d-0.8){beats.push(round1(t));t+=cfg.visual_change_floor_sec+rand()*1.6;}var overlays=[];var limit=d>4.5?2:1;for(var j2=0;j2<Math.min(limit,beats.length);j2++){if(sc.pool&&sc.pool.length){var text=sc.pool[(i5+j2)%sc.pool.length];overlays.push({at:beats[j2],kind:/\d/.test(text)?'stat':'term',text:text});}}out.push({asset:assets[i5%assets.length],duration_sec:d,motion:MOTIONS[(i5+(keyScene?1:0))%MOTIONS.length],overlays:overlays});}return out;}
+function applyPacing(){var rand=mulberry32(cfg.seed);return SCENES.map(function(sc){return Object.assign({},sc,{visuals:planSceneVisuals(sc,cfg,rand)});});}
+(function(){var s=$('scale');for(var v=0;v<=20;v++){var sp=document.createElement('span');sp.style.left=(v/20*100)+'%';sp.innerHTML='<i></i>'+v;s.appendChild(sp);}})();
+var track=$('track');
+function setAvg(v){cfg.average_dwell_sec=round1(clamp(v,0,20));render();}
+function trackValue(e){var r=track.getBoundingClientRect();return clamp((e.clientX-r.left)/r.width*20,0,20);}
+track.addEventListener('pointerdown',function(e){track.setPointerCapture(e.pointerId);setAvg(trackValue(e));});
+track.addEventListener('pointermove',function(e){if(e.buttons===1)setAvg(trackValue(e));});
+track.addEventListener('keydown',function(e){if(e.key==='ArrowLeft'){setAvg(cfg.average_dwell_sec-0.5);e.preventDefault();}if(e.key==='ArrowRight'){setAvg(cfg.average_dwell_sec+0.5);e.preventDefault();}});
+function seg(id,fn){var bs=$(id).querySelectorAll('button');for(var i=0;i<bs.length;i++){(function(b){b.addEventListener('click',function(){for(var j=0;j<bs.length;j++)bs[j].classList.remove('on');b.classList.add('on');fn(b);});})(bs[i]);}}
+seg('fmtSeg',function(b){setAvg(parseFloat(b.getAttribute('data-v')));});
+seg('pSeg',function(b){cfg.presenter_mode=b.getAttribute('data-v');render();});
+$('seed').addEventListener('change',function(){var v=parseInt(this.value,10);cfg.seed=isNaN(v)?7:Math.max(1,v);render();});
+function toast(msg){var t=$('toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(function(){t.classList.remove('show');},1600);}
+function copy(text,msg){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){toast(msg);},function(){fallback(text,msg);});}else{fallback(text,msg);}}
+function fallback(text,msg){var ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');toast(msg);}catch(e){toast('COPY FAILED');}document.body.removeChild(ta);}
+$('copyCfg').onclick=function(){copy(JSON.stringify({pacing:cfg},null,2),'CONFIG COPIED');};
+$('copyPlan').onclick=function(){var plan=applyPacing();copy(JSON.stringify({pacing:cfg,scenes:plan.map(function(s){return{id:s.id,chapter:s.chapter,visuals:s.visuals};})},null,1),'PLAN COPIED');};
+$('copyPrompt').onclick=function(){copy(CODEX_PROMPT,'CODEX PROMPT COPIED');};
+function render(){$('avgOut').textContent=cfg.average_dwell_sec.toFixed(1);track.setAttribute('aria-valuenow',cfg.average_dwell_sec);$('fill').style.width=(cfg.average_dwell_sec/20*100)+'%';$('handle').style.left=(cfg.average_dwell_sec/20*100)+'%';var plan=applyPacing();var all=[];plan.forEach(function(s){s.visuals.forEach(function(v){all.push(v.duration_sec);});});var avg=all.reduce(function(a,b){return a+b;},0)/all.length;var mx=Math.max.apply(null,all),mn=Math.min.apply(null,all);var distinct={};all.forEach(function(d){distinct[d]=1;});$('stats').innerHTML='<div class="stat"><div class="v">'+all.length+'</div><div class="k">VISUALS TOTAL</div></div>'+'<div class="stat"><div class="v">'+avg.toFixed(1)+'s</div><div class="k">ACTUAL AVG DWELL</div></div>'+'<div class="stat"><div class="v">'+mx.toFixed(1)+'s</div><div class="k">LONGEST · CAP 15.0s</div></div>'+'<div class="stat"><div class="v">'+mn.toFixed(1)+'s</div><div class="k">SHORTEST · FLOOR 2.5s</div></div>'+'<div class="stat"><div class="v">'+Object.keys(distinct).length+'</div><div class="k">DISTINCT DURATIONS · NON-UNIFORM</div></div>';var html='';plan.forEach(function(s){var D=s.end-s.start;html+='<div class="scene"><div class="shead"><div class="ch">'+s.chapter+'</div><div class="meta">'+s.id+' · '+D+'s · '+s.visuals.length+' VISUALS</div></div><div class="vrow">';s.visuals.forEach(function(v){var pct=v.duration_sec/D*100;var ovTitles=v.overlays.map(function(o){return o.at+'s: '+o.text;}).join(' | ');var title=v.duration_sec.toFixed(1)+'s · '+v.motion+(ovTitles?' · '+ovTitles:'');var ovs=v.overlays.map(function(o){return '<i class="ov" style="left:'+(o.at/v.duration_sec*100)+'%"></i>';}).join('');html+='<div class="vbar" style="width:'+pct+'%" title="'+title.replace(/"/g,'&quot;')+'">'+ovs+'<span>'+v.duration_sec.toFixed(1)+'s</span></div>';});html+='</div><div class="pool"><b>L1 ANCHOR POOL</b> · '+s.pool.join(' · ')+'</div></div>';});$('plan').innerHTML=html;$('planMeta').textContent=all.length+' VISUALS · 660s · 1080p';}
+render();
+</script>
+</body>
+</html>
