@@ -1,4 +1,4 @@
-// Veo clip + your VO recording -> lipsynced face-hook.mp4.
+// Veo clip + owner VO -> full-length face-hook.mp4 (optional local lip sync).
 // Veo's synthesized voice is dropped; your recording is the audio track.
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';

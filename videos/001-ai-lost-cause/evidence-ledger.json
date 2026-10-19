@@ -6,15 +6,20 @@
     "end": 8,
     "type": "face-footage",
     "asset": "assets/face-hook.mp4",
-    "text": "Veo image-to-video face hook with recorded voice replacing source audio.",
-    "annotation": {"reason": "A human face carries the opening value proposition."},
+    "text": "Face hook: Veo image-to-video with recorded VO replacing source audio.",
+    "annotation": {
+      "reason": "S1 human face hook — real voice, AI-assisted likeness clip."
+    },
     "provenance": {
-      "generator": "Google Veo image-to-video",
+      "generator": "Google Veo (image-to-video)",
       "source_video": "videos/capture/capture-inputs/veo-face.mp4",
       "voice_recording": "videos/capture/capture-inputs/hook-vo.wav",
       "voice_recording_duration_sec": 1.290667,
       "processing": "Leading silence removed; highpass, presence EQ, -16 LUFS target; padded to 8 seconds; source audio replaced",
-      "lipsync": "none"
+      "lipsync": "none",
+      "captured_by": "ctrl-ahead-capture",
+      "at": "2026-10-19T19:00:29.073Z",
+      "vo_source": "recorded"
     }
   },
   {
@@ -25,7 +30,9 @@
     "type": "tracker-receipt",
     "asset": "assets/koa-tracker-row.png",
     "text": "KOA Website v4 Project Tracker · Row 29 · In Progress · P0",
-    "annotation": {"reason": "The source workbook names consent records as a priority task; it does not prove the task is complete."},
+    "annotation": {
+      "reason": "The source workbook names consent records as a priority task; it does not prove the task is complete."
+    },
     "provenance": {
       "source_workbook": "KOA-v4-project-tracker.xlsx",
       "sheet": "Project Plan",

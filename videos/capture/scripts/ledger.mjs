@@ -16,7 +16,7 @@ export function addEntry(entry) {
   const record = {
     id: existingIndex >= 0 ? items[existingIndex].id : `CAP-${stamp}-${String(items.length).padStart(3, '0')}`,
     ...entry,
-    provenance: {captured_by: 'ctrl-ahead-capture', at: new Date().toISOString(), ...(entry.provenance ?? {})},
+    provenance: {...(existingIndex >= 0 ? items[existingIndex].provenance : {}), captured_by: 'ctrl-ahead-capture', at: new Date().toISOString(), ...(entry.provenance ?? {})},
   };
   if (existingIndex >= 0) items[existingIndex] = record;
   else items.push(record);
