@@ -1,0 +1,37 @@
+[
+  {
+    "id": "S1-FACE-HOOK",
+    "scene_id": "S1",
+    "start": 0,
+    "end": 8,
+    "type": "face-footage",
+    "asset": "assets/face-hook.mp4",
+    "text": "Veo image-to-video face hook with recorded voice replacing source audio.",
+    "annotation": {"reason": "A human face carries the opening value proposition."},
+    "provenance": {
+      "generator": "Google Veo image-to-video",
+      "source_video": "videos/capture/capture-inputs/veo-face.mp4",
+      "voice_recording": "videos/capture/capture-inputs/hook-vo.wav",
+      "voice_recording_duration_sec": 1.290667,
+      "processing": "Leading silence removed; highpass, presence EQ, -16 LUFS target; padded to 8 seconds; source audio replaced",
+      "lipsync": "none"
+    }
+  },
+  {
+    "id": "S6-KOA-TRACKER-ROW-29",
+    "scene_id": "S6",
+    "start": 430,
+    "end": 448,
+    "type": "tracker-receipt",
+    "asset": "assets/koa-tracker-row.png",
+    "text": "KOA Website v4 Project Tracker · Row 29 · In Progress · P0",
+    "annotation": {"reason": "The source workbook names consent records as a priority task; it does not prove the task is complete."},
+    "provenance": {
+      "source_workbook": "KOA-v4-project-tracker.xlsx",
+      "sheet": "Project Plan",
+      "cells": "B29:F29",
+      "workbook_sha256": "8cce93c80656cff516d4f59b7f99b40b1598cda48ecd95c24d9aed4446cd3707",
+      "rendering": "Locally rendered graphic from source cells; not a screenshot of a live sheet"
+    }
+  }
+]

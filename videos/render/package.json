@@ -32,6 +32,7 @@
     "lint": "eslint src && tsc",
     "prepare": "node scripts/prepare-media.mjs",
     "render:draft": "npm run prepare && remotion render src/index.ts LostCauseDraft out/001-ai-lost-cause-draft.mp4 --codec h264 --crf 24 --concurrency 4 --enforce-audio-track",
+    "render": "npm run prepare && remotion render src/index.ts LostCauseDraft out/001-ai-lost-cause-assets-draft.mp4 --codec h264 --crf 24 --scale 0.5 --concurrency 4 --enforce-audio-track",
     "predev": "npm run prepare",
     "prelint": "npm run prepare",
     "prebuild": "npm run prepare"

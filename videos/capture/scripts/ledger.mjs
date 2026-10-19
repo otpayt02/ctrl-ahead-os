@@ -12,12 +12,14 @@ export function addEntry(entry) {
     try { items = JSON.parse(fs.readFileSync(file, 'utf8')); } catch { items = []; }
   }
   const stamp = new Date().toISOString().replace(/[-:TZ.]/g, '').slice(0, 14);
+  const existingIndex = items.findIndex((item) => item.scene_id === entry.scene_id && item.type === entry.type && item.asset === entry.asset);
   const record = {
-    id: `CAP-${stamp}-${String(items.length).padStart(3, '0')}`,
+    id: existingIndex >= 0 ? items[existingIndex].id : `CAP-${stamp}-${String(items.length).padStart(3, '0')}`,
     ...entry,
     provenance: {captured_by: 'ctrl-ahead-capture', at: new Date().toISOString(), ...(entry.provenance ?? {})},
   };
-  items.push(record);
+  if (existingIndex >= 0) items[existingIndex] = record;
+  else items.push(record);
   fs.mkdirSync(path.dirname(file), {recursive: true});
   fs.writeFileSync(file, JSON.stringify(items, null, 2));
   console.log(`ledger + ${record.id} -> ${file}`);

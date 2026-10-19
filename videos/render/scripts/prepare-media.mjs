@@ -34,6 +34,26 @@ if (existsSync(ledgerPath)) {
     });
   }
 }
+const captureLedgerPath = path.join(videoFolder, 'evidence-ledger.json');
+if (existsSync(captureLedgerPath)) {
+  const entries = JSON.parse(await readFile(captureLedgerPath, 'utf8'));
+  if (!Array.isArray(entries)) throw new Error('Capture evidence ledger must be an array');
+  for (const entry of entries) {
+    const scene = manifest.scenes.find((item) => item.id === entry.scene_id);
+    if (!scene || !Number.isFinite(entry.start) || !Number.isFinite(entry.end) || entry.end <= entry.start) continue;
+    scene.manifest_slots ??= [];
+    scene.manifest_slots.push({
+      id: entry.id,
+      start: Math.max(0, entry.start - scene.start),
+      end: Math.min(scene.end - scene.start, entry.end - scene.start),
+      text: entry.text,
+      asset: entry.asset,
+      type: entry.type,
+      annotation: entry.annotation,
+      provenance: entry.provenance,
+    });
+  }
+}
 const assetFolder = path.join(project, 'public', 'scene-assets');
 const voOutput = path.join(project, 'public', 'vo');
 await mkdir(assetFolder, {recursive: true});
@@ -41,7 +61,8 @@ await mkdir(voOutput, {recursive: true});
 
 const availableAssets = [];
 for (const scene of manifest.scenes) {
-  for (const source of scene.assets ?? []) {
+  for (const source of [...(scene.assets ?? []), ...(scene.manifest_slots ?? []).map((slot) => slot.asset)]) {
+    if (typeof source !== 'string') continue;
     if (!source.startsWith('assets/')) continue;
     const filename = path.basename(source);
     const input = path.join(videoFolder, 'assets', filename);
@@ -70,4 +91,4 @@ if (existsSync(voiceFolder)) {
 const output = {videoId: manifest.video_id, availableAssets: [...new Set(availableAssets)], voiceovers};
 await writeFile(path.join(project, 'src', 'generated-media.json'), JSON.stringify(output, null, 2));
 await writeFile(path.join(project, 'src', 'generated-manifest.json'), JSON.stringify(manifest, null, 2));
-console.log(`${manifest.video_id}: ${output.availableAssets.length} images; ${Object.keys(voiceovers).length} VO tracks`);
+console.log(`${manifest.video_id}: ${output.availableAssets.length} assets; ${Object.keys(voiceovers).length} VO tracks`);

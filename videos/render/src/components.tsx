@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Img, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, Img, OffthreadVideo, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {MediaInventory, TimelineScene, VideoManifest} from './timeline';
 import type {VisualBeat} from './pacing';
 import '@fontsource/eb-garamond/400.css';
@@ -98,13 +98,37 @@ const VisualView: React.FC<SceneProps & {visual:VisualBeat; visualFrames:number;
   })}</AbsoluteFill>;
 };
 
+type EvidencePointer = NonNullable<TimelineScene['manifest_slots']>[number];
+const EvidenceSlot: React.FC<{slot:EvidencePointer; media:MediaInventory}> = ({slot,media}) => {
+  const filename=slot.asset?.startsWith('assets/') ? slot.asset.slice(7) : null;
+  const source=filename&&media.availableAssets.includes(filename) ? staticFile(`scene-assets/${filename}`) : null;
+  if (source&&slot.type==='face-footage') return <AbsoluteFill><OffthreadVideo src={source} style={{width:'100%',height:'100%',objectFit:'cover'}}/><div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>AI-ASSISTED LIKENESS · RECORDED VO</div></AbsoluteFill>;
+  if (source&&slot.type==='tracker-receipt') return <AbsoluteFill style={{background:NAVY}}><Img src={source} style={{width:'100%',height:'100%',objectFit:'contain'}}/></AbsoluteFill>;
+  return <div style={{position:'absolute',top:'68%',right:110,maxWidth:850,padding:'20px 30px',background:'#0a1628dd',borderTop:`3px solid ${CYAN}`,fontFamily:DATA,fontSize:23,color:PAPER}}>{slot.text??`${slot.type??'EVIDENCE'} SLOT · ${slot.asset??'MEDIA PENDING'}`}</div>;
+};
+
 const SceneView: React.FC<SceneProps> = ({scene,media,placeholderMode,isFirst,isLast,endCard}) => {
   const frame=useCurrentFrame(),{fps}=useVideoConfig(),kind=scene.component;
   let visualStart=0;
   const cuts=(scene.visuals??[]).map((visual,index)=>{const from=visualStart,durationInFrames=scene.visualFrames[index];visualStart+=durationInFrames;return <Sequence key={index} from={from} durationInFrames={durationInFrames} name={`${scene.id} visual ${index+1}`}><VisualView scene={scene} media={media} placeholderMode={placeholderMode} visual={visual} visualFrames={durationInFrames} visualStart={from}/></Sequence>});
   const flash=isFirst?0:interpolate(frame,[0,6,12],[.4,.08,0],{extrapolateRight:'clamp'});
   const vo=media.voiceovers[scene.id];
-  return <AbsoluteFill style={{background:NAVY,overflow:'hidden'}}>{cuts}{kind.includes('ScreenCapture')&&!kind.startsWith('ScreenCapture')&&frame>scene.durationInFrames*.65&&<AbsoluteFill style={{inset:'14% 12%',border:`3px solid ${AMBER}`,boxShadow:'0 20px 100px #000d'}}><Placeholder label="TRACKER SCREENSHOT / REAL RECEIPT PENDING"/></AbsoluteFill>}{isFirst&&frame<3*fps&&<AbsoluteFill><Placeholder label="OLIVER FACE FOOTAGE / FIRST 2–3 SECONDS"/></AbsoluteFill>}<AbsoluteFill style={{background:`linear-gradient(0deg, ${NAVY}dd 0%, transparent 48%)`,pointerEvents:'none'}}/>{!isFirst&&<ChapterCard scene={scene}/ >}{scene.on_screen_text&&scene.id!=='S8'&&<KineticType text={scene.on_screen_text} scene={scene}/ >}{isLast&&<TakeawayCards scene={scene}/ >}{isLast&&<EndCard scene={scene} content={endCard}/ >}{scene.manifest_slots?.map((slot,index)=>{const start=Math.round((slot.start??0)*fps),end=Math.round((slot.end??Math.min(scene.durationInFrames/fps,(slot.start??0)+5))*fps);return <Sequence key={index} from={start} durationInFrames={Math.max(1,end-start)}><div style={{position:'absolute',top:'68%',right:110,maxWidth:850,padding:'20px 30px',background:'#0a1628dd',borderTop:`3px solid ${CYAN}`,fontFamily:DATA,fontSize:23,color:PAPER}}>{slot.text??`${slot.type??'EVIDENCE'} SLOT · ${slot.asset??'MEDIA PENDING'}`}</div></Sequence>})}<FilmTexture/><AbsoluteFill style={{pointerEvents:'none',background:'#f5efe6',opacity:flash}}/>{vo&&<Audio src={staticFile(`vo/${vo.file}`)}/>}</AbsoluteFill>;
+  const hasFace=scene.manifest_slots?.some(slot=>slot.type==='face-footage'&&slot.asset?.startsWith('assets/')&&media.availableAssets.includes(slot.asset.slice(7)));
+  const hasTracker=scene.manifest_slots?.some(slot=>slot.type==='tracker-receipt'&&slot.asset?.startsWith('assets/')&&media.availableAssets.includes(slot.asset.slice(7)));
+  return <AbsoluteFill style={{background:NAVY,overflow:'hidden'}}>
+    {cuts}
+    {kind.includes('ScreenCapture')&&!kind.startsWith('ScreenCapture')&&!hasTracker&&frame>scene.durationInFrames*.65&&<AbsoluteFill style={{inset:'14% 12%',border:`3px solid ${AMBER}`,boxShadow:'0 20px 100px #000d'}}><Placeholder label="TRACKER SCREENSHOT / REAL RECEIPT PENDING"/></AbsoluteFill>}
+    {isFirst&&!hasFace&&frame<3*fps&&<AbsoluteFill><Placeholder label="OLIVER FACE FOOTAGE / FIRST 2–3 SECONDS"/></AbsoluteFill>}
+    <AbsoluteFill style={{background:`linear-gradient(0deg, ${NAVY}dd 0%, transparent 48%)`,pointerEvents:'none'}}/>
+    {!isFirst&&<ChapterCard scene={scene}/>}
+    {scene.on_screen_text&&scene.id!=='S8'&&<KineticType text={scene.on_screen_text} scene={scene}/>}
+    {isLast&&<TakeawayCards scene={scene}/>}
+    {isLast&&<EndCard scene={scene} content={endCard}/>}
+    {scene.manifest_slots?.map((slot,index)=>{const start=Math.round((slot.start??0)*fps),end=Math.round((slot.end??Math.min(scene.durationInFrames/fps,(slot.start??0)+5))*fps);return <Sequence key={slot.id??index} from={start} durationInFrames={Math.max(1,end-start)}><EvidenceSlot slot={slot} media={media}/></Sequence>})}
+    <FilmTexture/>
+    <AbsoluteFill style={{pointerEvents:'none',background:'#f5efe6',opacity:flash}}/>
+    {vo&&<Audio src={staticFile(`vo/${vo.file}`)}/>}
+  </AbsoluteFill>;
 };
 
 export const Documentary: React.FC<{manifest:VideoManifest;media:MediaInventory;timeline:{scenes:TimelineScene[];durationInFrames:number};placeholderMode:boolean}> = ({manifest,media,timeline,placeholderMode}) => <AbsoluteFill style={{background:NAVY}}>{timeline.scenes.map(scene=><Sequence key={scene.id} from={scene.fromFrame} durationInFrames={scene.durationInFrames} name={`${scene.id} ${scene.chapter}`}><SceneView scene={scene} media={media} placeholderMode={placeholderMode} isFirst={scene.fromFrame===0} isLast={scene.fromFrame+scene.durationInFrames===timeline.durationInFrames} endCard={manifest.end_card}/></Sequence>)}<div style={{display:'none'}}>{manifest.title}</div></AbsoluteFill>;
