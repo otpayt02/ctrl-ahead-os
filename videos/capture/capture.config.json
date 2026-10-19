@@ -1,0 +1,33 @@
+{
+  "outputs": {
+    "assets": "../001-ai-lost-cause/assets",
+    "ledger": "../001-ai-lost-cause/evidence-ledger.json",
+    "tmp": "out"
+  },
+  "sites": {
+    "chatgpt": { "url": "https://chatgpt.com/" },
+    "gemini": { "url": "https://gemini.google.com/app" },
+    "claude": { "url": "https://claude.ai/" },
+    "google": { "url": "https://drive.google.com/" }
+  },
+  "model_demo": {
+    "question": "How did Southern history textbooks published between 1890 and 1920 describe Reconstruction, and who wrote them?",
+    "sites": [
+      { "name": "chatgpt", "url": "https://chatgpt.com/", "input_selector": "#prompt-textarea, textarea, [contenteditable=\"true\"]", "warmup_ms": 4000 },
+      { "name": "gemini", "url": "https://gemini.google.com/app", "input_selector": "rich-textarea, div[contenteditable=\"true\"], textarea", "warmup_ms": 5000 }
+    ],
+    "settle": { "stable_ms": 9000, "timeout_ms": 240000 },
+    "out": "screen-compare.mp4"
+  },
+  "tracker": {
+    "drive_file_id": "1ZeUjs2wwbyvznXUKsAP9v_Y_kYNA1xNI",
+    "row_hint": "Store validated training pairs and consent records",
+    "out": "koa-tracker-row.png"
+  },
+  "face": {
+    "webcam_out": "face-hook.mp4",
+    "seconds": 6,
+    "github_avatar": "https://avatars.githubusercontent.com/u/193388418?v=4",
+    "local_still_hint": "Copy a picture from your local Pictures folder (mirrored in Drive 'My Computers') to assets/face-still.png."
+  }
+}

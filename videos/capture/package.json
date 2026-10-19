@@ -1,0 +1,15 @@
+{
+  "name": "ctrl-ahead-capture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "node scripts/auth-login.mjs",
+    "demo": "node scripts/record-model-demo.mjs",
+    "tracker": "node scripts/snap-tracker.mjs",
+    "snap": "node scripts/snap.mjs",
+    "webcam": "powershell -ExecutionPolicy Bypass -File scripts/record-webcam.ps1"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
