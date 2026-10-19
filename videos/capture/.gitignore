@@ -2,3 +2,4 @@ node_modules/
 auth/
 out/
 capture-inputs/
+!capture-inputs/.gitkeep
