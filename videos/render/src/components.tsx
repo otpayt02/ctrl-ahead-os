@@ -1,6 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Img, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {MediaInventory, TimelineScene, VideoManifest} from './timeline';
+import type {VisualBeat} from './pacing';
 import '@fontsource/eb-garamond/400.css';
 import '@fontsource/eb-garamond/600.css';
 import '@fontsource/jetbrains-mono/400.css';
@@ -20,21 +21,20 @@ const ImagePlane: React.FC<{asset?: string; media: MediaInventory; placeholderMo
 
 export const KenBurns: React.FC<SceneProps> = ({scene, media, placeholderMode}) => {
   const frame = useCurrentFrame(), motion = scene.motion?.toLowerCase() ?? '';
-  const pull = motion.includes('pull-back'), drift = motion.includes('lateral drift');
-  const {fps} = useVideoConfig(), beatFrames = 7 * fps, beat = Math.floor(frame / beatFrames), localFrame = frame % beatFrames;
-  const start = pull ? 1.16 : 1.02, end = pull ? 1.02 : motion.includes('1.2x') ? 1.2 : 1.12;
-  const progress = (beat + localFrame / beatFrames) / Math.max(1, Math.ceil(scene.durationInFrames / beatFrames));
-  const scale = start + (end - start) * progress + .025 * (localFrame / beatFrames);
-  const x = drift ? interpolate(frame,[0,scene.durationInFrames],[-50,50],{extrapolateRight:'clamp'}) : (beat % 3 - 1) * 28;
+  const drift = motion.includes('lateral drift'), reverse = motion.includes('r->l');
+  const zoom = motion.match(/(\d+(?:\.\d+)?)x->(\d+(?:\.\d+)?)x/);
+  const start = zoom ? Number(zoom[1]) : 1.04, end = zoom ? Number(zoom[2]) : start;
+  const scale = interpolate(frame,[0,Math.max(1,scene.durationInFrames-1)],[start,end],{extrapolateRight:'clamp'});
+  const x = drift ? interpolate(frame,[0,Math.max(1,scene.durationInFrames-1)],reverse?[50,-50]:[-50,50],{extrapolateRight:'clamp'}) : 0;
   return <AbsoluteFill style={{transform:`translateX(${x}px) scale(${scale})`}}><ImagePlane asset={scene.assets?.find(a=>a.startsWith('assets/'))} media={media} placeholderMode={placeholderMode}/></AbsoluteFill>;
 };
 
 export const SplitFrame: React.FC<SceneProps> = ({scene, media, placeholderMode}) => {
   const frame = useCurrentFrame();
-  return <AbsoluteFill><ImagePlane asset={scene.assets?.[0]} media={media} placeholderMode={placeholderMode}/><div style={{position:'absolute',left:'50%',top:0,bottom:0,width:5,background:CYAN,boxShadow:`0 0 ${30+10*Math.sin(frame/15)}px ${CYAN}`}}/><div style={{position:'absolute',left:85,bottom:165,padding:'18px 26px',background:'#0a1628bb',fontFamily:DATA,fontSize:24,color:PAPER}}>MEMORY / SOURCE</div><div style={{position:'absolute',right:85,bottom:165,padding:'18px 26px',background:'#0a1628bb',fontFamily:DATA,fontSize:24,color:CYAN}}>MODEL / CORPUS</div></AbsoluteFill>;
+  return <AbsoluteFill><KenBurns scene={scene} media={media} placeholderMode={placeholderMode}/><div style={{position:'absolute',left:'50%',top:0,bottom:0,width:5,background:CYAN,boxShadow:`0 0 ${30+10*Math.sin(frame/15)}px ${CYAN}`}}/><div style={{position:'absolute',left:85,bottom:165,padding:'18px 26px',background:'#0a1628bb',fontFamily:DATA,fontSize:24,color:PAPER}}>MEMORY / SOURCE</div><div style={{position:'absolute',right:85,bottom:165,padding:'18px 26px',background:'#0a1628bb',fontFamily:DATA,fontSize:24,color:CYAN}}>MODEL / CORPUS</div></AbsoluteFill>;
 };
 
-export const ScreenCapture: React.FC<SceneProps> = ({scene, media, placeholderMode}) => {const frame=useCurrentFrame(),zoom=interpolate(frame,[0,scene.durationInFrames],[1,1.12],{extrapolateRight:'clamp'});return <AbsoluteFill style={{background:NAVY}}><div style={{position:'absolute',inset:'9% 8%',overflow:'hidden',border:`2px solid ${CYAN}77`,borderRadius:22,boxShadow:'0 35px 100px #0009'}}><AbsoluteFill style={{transform:`scale(${zoom})`}}><ImagePlane asset={scene.assets?.find(a=>a.startsWith('assets/'))} media={media} placeholderMode={placeholderMode}/></AbsoluteFill><div style={{position:'absolute',left:50,right:50,bottom:54,height:5,background:'#c96258',boxShadow:'0 0 25px #c96258'}}/></div><div style={{position:'absolute',left:175,top:140,fontFamily:DATA,color:AMBER,fontSize:22,letterSpacing:4}}>VERIFY THE CLAIM / ORIGINAL RECORDING PENDING</div></AbsoluteFill>};
+export const ScreenCapture: React.FC<SceneProps> = ({scene, media, placeholderMode}) => <AbsoluteFill style={{background:NAVY}}><div style={{position:'absolute',inset:'9% 8%',overflow:'hidden',border:`2px solid ${CYAN}77`,borderRadius:22,boxShadow:'0 35px 100px #0009'}}><KenBurns scene={scene} media={media} placeholderMode={placeholderMode}/><div style={{position:'absolute',left:50,right:50,bottom:54,height:5,background:'#c96258',boxShadow:'0 0 25px #c96258'}}/></div><div style={{position:'absolute',left:175,top:140,fontFamily:DATA,color:AMBER,fontSize:22,letterSpacing:4}}>VERIFY THE CLAIM / ORIGINAL RECORDING PENDING</div></AbsoluteFill>;
 
 export const CrossFadeSequence: React.FC<SceneProps> = ({scene, media, placeholderMode}) => {
   const frame = useCurrentFrame(), {fps}=useVideoConfig(), midpoint=Math.round(scene.durationInFrames*.52);
@@ -76,14 +76,35 @@ const FilmTexture: React.FC = () => {
   return <AbsoluteFill style={{pointerEvents:'none',opacity:.44,background:`radial-gradient(ellipse at center, transparent 42%, #0009 100%), repeating-linear-gradient(${91+phase}deg, transparent 0px, #ffffff08 1px, transparent 3px, transparent 7px)`,mixBlendMode:'multiply'}}/>;
 };
 
+const PacingChip: React.FC<{visual:VisualBeat; kind:string; text:string; atFrame:number; durationInFrames:number}> = ({visual,kind,text,atFrame,durationInFrames}) => {
+  const frame=useCurrentFrame(),{fps}=useVideoConfig();
+  const fadeStart=Math.max(atFrame+1,durationInFrames-Math.round(.6*fps));
+  const opacity=interpolate(frame,[atFrame,atFrame+Math.round(.3*fps),fadeStart,durationInFrames],[0,1,1,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+  const rise=interpolate(frame,[atFrame,atFrame+Math.round(.45*fps)],[12,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+  return <div data-overlay-kind={kind} data-visual-asset={visual.asset} style={{position:'absolute',left:112,right:112,top:kind==='stat'?310:390,pointerEvents:'none',opacity,transform:`translateY(${rise}px)`,textAlign:'center'}}><span style={{display:'inline-block',maxWidth:'76%',padding:kind==='stat'?'13px 22px':'18px 30px',background:'#0a1628e8',border:`2px solid ${kind==='stat'?CYAN:AMBER}`,color:kind==='stat'?CYAN:PAPER,fontFamily:kind==='stat'?DATA:DISPLAY,fontSize:kind==='stat'?24:42,lineHeight:1.25,boxShadow:'0 14px 38px #0009'}}>{text}</span></div>;
+};
+
+const VisualView: React.FC<SceneProps & {visual:VisualBeat; visualFrames:number; visualStart:number}> = ({scene,media,placeholderMode,visual,visualFrames,visualStart}) => {
+  const {fps}=useVideoConfig(),kind=scene.component;
+  const shot={...scene,assets:[visual.asset],motion:visual.motion,durationInFrames:visualFrames};
+  const content=kind.includes('SplitFrame')?<SplitFrame scene={shot} media={media} placeholderMode={placeholderMode}/>:kind.startsWith('ScreenCapture')?<ScreenCapture scene={shot} media={media} placeholderMode={placeholderMode}/>:<KenBurns scene={shot} media={media} placeholderMode={placeholderMode}/>;
+  const scale=visualFrames/Math.max(1,visual.duration_sec*fps);
+  return <AbsoluteFill>{content}{visual.asset.startsWith('assets/')&&!placeholderMode&&media.availableAssets.includes(visual.asset.slice(7))&&<div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>AI-GENERATED ILLUSTRATION</div>}{visual.overlays.map((overlay,index)=>{
+    const atFrame=Math.round(overlay.at*fps*scale);
+    const start=visualStart+atFrame;
+    const end=visualStart+visualFrames;
+    const collides=scene.manifest_slots?.some(slot=>Math.round((slot.start??0)*fps)<end&&Math.round((slot.end??slot.start??0)*fps)>start);
+    return collides?null:<PacingChip key={index} visual={visual} kind={overlay.kind} text={overlay.text} atFrame={atFrame} durationInFrames={visualFrames}/>;
+  })}</AbsoluteFill>;
+};
+
 const SceneView: React.FC<SceneProps> = ({scene,media,placeholderMode,isFirst,isLast,endCard}) => {
   const frame=useCurrentFrame(),{fps}=useVideoConfig(),kind=scene.component;
-  const content=kind.includes('CrossFadeSequence')?<CrossFadeSequence scene={scene} media={media} placeholderMode={placeholderMode}/>:kind.includes('SplitFrame')?<SplitFrame scene={scene} media={media} placeholderMode={placeholderMode}/>:kind.startsWith('ScreenCapture')?<ScreenCapture scene={scene} media={media} placeholderMode={placeholderMode}/>:<KenBurns scene={scene} media={media} placeholderMode={placeholderMode}/>;
-  const fadeIn=isFirst?1:interpolate(frame,[0,15],[0,1],{extrapolateRight:'clamp'});
-  const fadeOut=interpolate(frame,[scene.durationInFrames-15,scene.durationInFrames],[1,0],{extrapolateLeft:'clamp'});
+  let visualStart=0;
+  const cuts=(scene.visuals??[]).map((visual,index)=>{const from=visualStart,durationInFrames=scene.visualFrames[index];visualStart+=durationInFrames;return <Sequence key={index} from={from} durationInFrames={durationInFrames} name={`${scene.id} visual ${index+1}`}><VisualView scene={scene} media={media} placeholderMode={placeholderMode} visual={visual} visualFrames={durationInFrames} visualStart={from}/></Sequence>});
   const flash=isFirst?0:interpolate(frame,[0,6,12],[.4,.08,0],{extrapolateRight:'clamp'});
   const vo=media.voiceovers[scene.id];
-  return <AbsoluteFill style={{background:NAVY,opacity:Math.min(fadeIn,fadeOut),overflow:'hidden'}}>{content}{scene.assets?.some(a=>a.startsWith('assets/'))&&!placeholderMode&&<div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>AI-GENERATED ILLUSTRATION</div>}{kind.includes('ScreenCapture')&&!kind.startsWith('ScreenCapture')&&frame>scene.durationInFrames*.65&&<AbsoluteFill style={{inset:'14% 12%',border:`3px solid ${AMBER}`,boxShadow:'0 20px 100px #000d'}}><Placeholder label="TRACKER SCREENSHOT / REAL RECEIPT PENDING"/></AbsoluteFill>}{isFirst&&frame<3*fps&&<AbsoluteFill><Placeholder label="OLIVER FACE FOOTAGE / FIRST 2–3 SECONDS"/></AbsoluteFill>}<AbsoluteFill style={{background:`linear-gradient(0deg, ${NAVY}dd 0%, transparent 48%)`}}/>{!isFirst&&<ChapterCard scene={scene}/ >}{scene.on_screen_text&&scene.id!=='S8'&&<KineticType text={scene.on_screen_text} scene={scene}/ >}{isLast&&<TakeawayCards scene={scene}/ >}{isLast&&<EndCard scene={scene} content={endCard}/ >}{scene.manifest_slots?.map((slot,index)=>{const start=Math.round((slot.start??0)*fps),end=Math.round((slot.end??Math.min(scene.durationInFrames/fps,(slot.start??0)+5))*fps);return <Sequence key={index} from={start} durationInFrames={Math.max(1,end-start)}><div style={{position:'absolute',top:'68%',right:110,maxWidth:850,padding:'20px 30px',background:'#0a1628dd',borderTop:`3px solid ${CYAN}`,fontFamily:DATA,fontSize:23,color:PAPER}}>{slot.text??`${slot.type??'EVIDENCE'} SLOT · ${slot.asset??'MEDIA PENDING'}`}</div></Sequence>})}<FilmTexture/><AbsoluteFill style={{pointerEvents:'none',background:'#f5efe6',opacity:flash}}/>{vo&&<Audio src={staticFile(`vo/${vo.file}`)}/>}</AbsoluteFill>;
+  return <AbsoluteFill style={{background:NAVY,overflow:'hidden'}}>{cuts}{kind.includes('ScreenCapture')&&!kind.startsWith('ScreenCapture')&&frame>scene.durationInFrames*.65&&<AbsoluteFill style={{inset:'14% 12%',border:`3px solid ${AMBER}`,boxShadow:'0 20px 100px #000d'}}><Placeholder label="TRACKER SCREENSHOT / REAL RECEIPT PENDING"/></AbsoluteFill>}{isFirst&&frame<3*fps&&<AbsoluteFill><Placeholder label="OLIVER FACE FOOTAGE / FIRST 2–3 SECONDS"/></AbsoluteFill>}<AbsoluteFill style={{background:`linear-gradient(0deg, ${NAVY}dd 0%, transparent 48%)`,pointerEvents:'none'}}/>{!isFirst&&<ChapterCard scene={scene}/ >}{scene.on_screen_text&&scene.id!=='S8'&&<KineticType text={scene.on_screen_text} scene={scene}/ >}{isLast&&<TakeawayCards scene={scene}/ >}{isLast&&<EndCard scene={scene} content={endCard}/ >}{scene.manifest_slots?.map((slot,index)=>{const start=Math.round((slot.start??0)*fps),end=Math.round((slot.end??Math.min(scene.durationInFrames/fps,(slot.start??0)+5))*fps);return <Sequence key={index} from={start} durationInFrames={Math.max(1,end-start)}><div style={{position:'absolute',top:'68%',right:110,maxWidth:850,padding:'20px 30px',background:'#0a1628dd',borderTop:`3px solid ${CYAN}`,fontFamily:DATA,fontSize:23,color:PAPER}}>{slot.text??`${slot.type??'EVIDENCE'} SLOT · ${slot.asset??'MEDIA PENDING'}`}</div></Sequence>})}<FilmTexture/><AbsoluteFill style={{pointerEvents:'none',background:'#f5efe6',opacity:flash}}/>{vo&&<Audio src={staticFile(`vo/${vo.file}`)}/>}</AbsoluteFill>;
 };
 
 export const Documentary: React.FC<{manifest:VideoManifest;media:MediaInventory;timeline:{scenes:TimelineScene[];durationInFrames:number};placeholderMode:boolean}> = ({manifest,media,timeline,placeholderMode}) => <AbsoluteFill style={{background:NAVY}}>{timeline.scenes.map(scene=><Sequence key={scene.id} from={scene.fromFrame} durationInFrames={scene.durationInFrames} name={`${scene.id} ${scene.chapter}`}><SceneView scene={scene} media={media} placeholderMode={placeholderMode} isFirst={scene.fromFrame===0} isLast={scene.fromFrame+scene.durationInFrames===timeline.durationInFrames} endCard={manifest.end_card}/></Sequence>)}<div style={{display:'none'}}>{manifest.title}</div></AbsoluteFill>;

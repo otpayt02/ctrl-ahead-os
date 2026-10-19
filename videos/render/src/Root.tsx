@@ -3,8 +3,9 @@ import manifestJson from './generated-manifest.json';
 import mediaJson from './generated-media.json';
 import {Documentary} from './components';
 import {buildTimeline, type MediaInventory, type VideoManifest} from './timeline';
+import {applyPacing} from './pacing';
 
-const manifest = manifestJson as VideoManifest;
+const manifest = applyPacing(manifestJson as unknown as VideoManifest);
 const media = mediaJson as MediaInventory;
 const timeline = buildTimeline(manifest, media);
 
