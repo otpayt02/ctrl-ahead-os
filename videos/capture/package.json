@@ -7,6 +7,8 @@
     "demo": "node scripts/record-model-demo.mjs",
     "tracker": "node scripts/snap-tracker.mjs",
     "snap": "node scripts/snap.mjs",
+    "face": "node scripts/face-hook.mjs",
+    "vo": "powershell -ExecutionPolicy Bypass -File scripts/record-vo.ps1",
     "webcam": "powershell -ExecutionPolicy Bypass -File scripts/record-webcam.ps1"
   },
   "devDependencies": {

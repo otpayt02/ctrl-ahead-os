@@ -25,8 +25,16 @@
     "out": "koa-tracker-row.png"
   },
   "face": {
-    "webcam_out": "face-hook.mp4",
-    "seconds": 6,
+    "inputs_dir": "capture-inputs",
+    "veo_clip": "veo-face.mp4",
+    "vo_file": "hook-vo.wav",
+    "out": "face-hook.mp4",
+    "trim_seconds": 8,
+    "lipsync": {
+      "mode": "command",
+      "command": "",
+      "note": "One-time: set this to your local lipsync tool command. It receives {video} {audio} {out} and must write a lipsynced MP4 to {out}. Wav2Lip example: python C:/tools/Wav2Lip/inference.py --checkpoint C:/tools/Wav2Lip/checkpoints/wav2lip_gan.pth --face {video} --audio {audio} --outfile {out} . Leave empty to skip lipsync and just mux your VO over the Veo clip."
+    },
     "github_avatar": "https://avatars.githubusercontent.com/u/193388418?v=4",
     "local_still_hint": "Copy a picture from your local Pictures folder (mirrored in Drive 'My Computers') to assets/face-still.png."
   }
