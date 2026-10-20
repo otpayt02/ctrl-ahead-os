@@ -1,0 +1,138 @@
+[
+  {
+    "name": "lost-cause",
+    "requested_url": "https://encyclopediavirginia.org/entries/lost-cause-the/",
+    "opened_at_utc": "2026-10-20T18:03:22.060Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "Lost Cause answers: both models rejected the flattering textbook framing and supplied sources.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "loaded",
+    "visible_text": "Skip to content Virginia Facts Blog Podcast About Sponsors FAQ Contact Alphabetically Biographies Map Media Virtual Tours Donate Search: Human Confederate Flag Postcard ENTRY The Lost Cause SUMMARY The Lost Cause is an interpretation of the American Civil War (1861–1865) that seeks to present the war from the perspecti",
+    "files": [
+      "lost-cause.full.jpg",
+      "lost-cause.png"
+    ],
+    "final_url": "https://encyclopediavirginia.org/entries/lost-cause-the/",
+    "http_status": 200
+  },
+  {
+    "name": "united-daughters",
+    "requested_url": "https://encyclopediavirginia.org/entries/united-daughters-of-the-confederacy/",
+    "opened_at_utc": "2026-10-20T18:03:28.160Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "Lost Cause answer: Sonnet spread citations across secondary pages.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "loaded",
+    "visible_text": "Skip to content Virginia Facts Blog Podcast About Sponsors FAQ Contact Alphabetically Biographies Map Media Virtual Tours Donate Search: Tribute to the United Daughters of the Confederacy ENTRY United Daughters of the Confederacy SUMMARY The United Daughters of the Confederacy (UDC) was formed in 1894 to protect and ve",
+    "files": [
+      "united-daughters.full.jpg",
+      "united-daughters.png"
+    ],
+    "final_url": "https://encyclopediavirginia.org/entries/united-daughters-of-the-confederacy/",
+    "http_status": 200
+  },
+  {
+    "name": "atlanta-textbooks",
+    "requested_url": "https://www.atlantahistorycenter.com/blog/spreading-memory-georgia-history-textbooks-and-the-lost-cause/",
+    "opened_at_utc": "2026-10-20T18:03:34.035Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "Lost Cause answer: Sonnet spread citations across secondary pages.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "loaded",
+    "visible_text": "We use cookies to improve your experience on our site. To find out more, see our Privacy Policy. OK Skip to main content Visit Experience Learning & Research Support Donate Tickets Open search Search our collections for artifacts, photography, historical documents, and more. Stories Spreading Memory: Georgia History Te",
+    "files": [
+      "atlanta-textbooks.full.jpg",
+      "atlanta-textbooks.png"
+    ],
+    "final_url": "https://www.atlantahistorycenter.com/blog/spreading-memory-georgia-history-textbooks-and-the-lost-cause/",
+    "http_status": 200
+  },
+  {
+    "name": "mississippi-declaration",
+    "requested_url": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+    "opened_at_utc": "2026-10-20T18:03:41.310Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "Lost Cause answer: the second model placed Mississippi's 1861 declaration under the slavery claim.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "loaded",
+    "visible_text": "Avalon Home Document Collections Ancient 4000bce - 399 Medieval 400 - 1399 15th Century 1400 - 1499 16th Century 1500 - 1599 17th Century 1600 - 1699 18th Century 1700 - 1799 19th Century 1800 - 1899 20th Century 1900 - 1999 21st Century 2000 - Confederate States of America - Mississippi Secession A Declaration of the ",
+    "files": [
+      "mississippi-declaration.full.jpg",
+      "mississippi-declaration.png"
+    ],
+    "final_url": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+    "http_status": 200
+  },
+  {
+    "name": "omniglot-karen",
+    "requested_url": "https://www.omniglot.com/writing/karen.htm",
+    "opened_at_utc": "2026-10-20T18:03:43.682Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "S’gaw Karen answer: Sonnet gave about 2 million speakers from Omniglot.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "blocked",
+    "visible_text": "www.omniglot.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a4d9f0e60d9f1ae0 Performance and Security by Cloudflare Privacy",
+    "files": [
+      "omniglot-karen.full.jpg",
+      "omniglot-karen.png"
+    ],
+    "final_url": "https://www.omniglot.com/writing/karen.htm",
+    "http_status": 403
+  },
+  {
+    "name": "wikipedia-sgaw",
+    "requested_url": "https://en.wikipedia.org/wiki/S%27gaw_Karen_language",
+    "opened_at_utc": "2026-10-20T18:03:46.042Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "S’gaw Karen answer: Sonnet gave 2.2 million speakers from Wikipedia.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "loaded",
+    "visible_text": "Jump to content Main menu Search Donate Create account Log in Contents hide (Top) History Distribution and varieties Dialects Phonology Toggle Phonology subsection Consonants Vowels Tones Alphabet (Burmese script) Toggle Alphabet (Burmese script) subsection Vowels Tones Double consonants Alphabet (Latin script) Toggle ",
+    "files": [
+      "wikipedia-sgaw.full.jpg",
+      "wikipedia-sgaw.png"
+    ],
+    "final_url": "https://en.wikipedia.org/wiki/S%27gaw_Karen_language",
+    "http_status": 200
+  },
+  {
+    "name": "oxford-sgaw",
+    "requested_url": "https://www.oxfordreference.com/display/10.1093/acref/9780195139778.001.0001/acref-9780195139778-e-0541",
+    "opened_at_utc": "2026-10-20T18:03:51.502Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "S’gaw Karen answer: Sonnet gave 1,050,000 speakers from Oxford Reference.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "blocked",
+    "visible_text": "403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps t",
+    "files": [
+      "oxford-sgaw.full.jpg",
+      "oxford-sgaw.png"
+    ],
+    "final_url": "https://www.oxfordreference.com/display/10.1093/acref/9780195139778.001.0001/acref-9780195139778-e-0541",
+    "http_status": 403
+  },
+  {
+    "name": "google-privacy",
+    "requested_url": "https://research.google/blog/privacy-considerations-in-large-language-models/",
+    "opened_at_utc": "2026-10-20T18:03:53.555Z",
+    "tool": "Playwright Chromium",
+    "model_reply_sentence": null,
+    "model_test_summary_paraphrase": "S’gaw Karen answer: the second model cited a general Google Research memorization page, not a S’gaw measurement.",
+    "summary_provenance": "Owner-provided test summary; raw model reply unavailable locally",
+    "status": "loaded",
+    "visible_text": "Skip to main content Google Research Research Resources Conferences & events Careers Blog About Search Home Blog Privacy Considerations in Large Language Models December 15, 2020 Posted by Nicholas Carlini, Research Scientist, Google Research Machine learning-based language models trained to predict the next word in a ",
+    "files": [
+      "google-privacy.full.jpg",
+      "google-privacy.png"
+    ],
+    "final_url": "https://research.google/blog/privacy-considerations-in-large-language-models/",
+    "http_status": 200
+  }
+]
