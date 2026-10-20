@@ -1,0 +1,239 @@
+{
+  "video_id": "001-ai-lost-cause",
+  "timing_status": "editorial_estimate_no_chapter_vo",
+  "note": "Update starts from approved recorded word timestamps before final render.",
+  "cues": [
+    {
+      "scene": "S1",
+      "start": 8.333,
+      "end": 12.833,
+      "text": "I read it and I didn't think twice",
+      "spoken_anchor": "I read it and I didn't think twice",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S1",
+      "start": 19.445,
+      "end": 23.945,
+      "text": "TWO DIFFERENT FRONTIER MODELS",
+      "spoken_anchor": "two different frontier models",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S2",
+      "start": 39.844,
+      "end": 43.75,
+      "text": "THE FLATTERING STORY",
+      "spoken_anchor": "The Lost Cause offered a flattering story",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S2",
+      "start": 90.625,
+      "end": 95.125,
+      "text": "A CLAIM HAS A TRAIL",
+      "spoken_anchor": "A claim has a trail",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S3",
+      "start": 120.0,
+      "end": 124.5,
+      "text": "A CITATION CAN FEEL INSPECTED",
+      "spoken_anchor": "A citation can make a sentence feel inspected",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S3",
+      "start": 144.0,
+      "end": 148.5,
+      "text": "WAS THE SOURCE OPENED?",
+      "spoken_anchor": "Was the source opened",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S3",
+      "start": 185.556,
+      "end": 190.0,
+      "text": "THAT'S NOT WHAT HAPPENED",
+      "spoken_anchor": "That's not what happened",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 200.0,
+      "end": 204.5,
+      "text": "BOTH REFUSED · BOTH SOURCED",
+      "spoken_anchor": "Both refused that framing and attached sources",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 205.385,
+      "end": 209.885,
+      "text": "THE CONTROL, NOT THE FAILURE",
+      "spoken_anchor": "That's the control, not the failure",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 225.882,
+      "end": 230.0,
+      "text": "OWN FRAMING: UNCITED",
+      "spoken_anchor": "one sentence of its own framing UNCITED",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 230.0,
+      "end": 234.5,
+      "text": "TWO SOURCES: EXCERPT ONLY",
+      "spoken_anchor": "Two sources were used from excerpts only",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 241.667,
+      "end": 246.167,
+      "text": "ORIGINAL PAMPHLET: NOT OPENED",
+      "spoken_anchor": "did not open Rutherford's original pamphlet",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 245.417,
+      "end": 249.917,
+      "text": "LINKS ≠ OPENED PAGES",
+      "spoken_anchor": "Fluency with links is not the same as opening the page",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 260.541,
+      "end": 265.041,
+      "text": "THREE COUNTS THAT DISAGREE",
+      "spoken_anchor": "three speaker counts that do not agree",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 277.857,
+      "end": 280.0,
+      "text": "GENERAL MEMORIZATION PAGE",
+      "spoken_anchor": "general Google Research page about memorization",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S4",
+      "start": 281.429,
+      "end": 285.929,
+      "text": "NO S'GAW RETENTION MEASUREMENT",
+      "spoken_anchor": "not a measurement of S’gaw Karen retention",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S5",
+      "start": 310.0,
+      "end": 314.5,
+      "text": "TRAINING DATA NOT INSPECTED",
+      "spoken_anchor": "I didn't inspect the training data",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S5",
+      "start": 360.0,
+      "end": 364.5,
+      "text": "A LINK STARTS THE CHECK",
+      "spoken_anchor": "A row of links can be helpful",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S5",
+      "start": 377.5,
+      "end": 380.0,
+      "text": "LEAVE THE DISAGREEMENT VISIBLE",
+      "spoken_anchor": "I will show the disagreement",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S6",
+      "start": 405.0,
+      "end": 409.5,
+      "text": "VALIDATED PAIRS + CONSENT RECORDS",
+      "spoken_anchor": "Store validated training pairs and consent records",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S6",
+      "start": 410.0,
+      "end": 414.5,
+      "text": "ROW 29 · P0 · IN PROGRESS",
+      "spoken_anchor": "Status: In Progress",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S6",
+      "start": 420.0,
+      "end": 424.5,
+      "text": "A TASK, NOT A SHIPPED SYSTEM",
+      "spoken_anchor": "It is a task, not a shipped system",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S7",
+      "start": 470.0,
+      "end": 474.5,
+      "text": "PUBLIC PAGES EXIST",
+      "spoken_anchor": "S’gaw Karen is not absent from the internet",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S7",
+      "start": 505.862,
+      "end": 510.0,
+      "text": "RETENTION NOT MEASURED",
+      "spoken_anchor": "neither answer showed a S’gaw-specific measurement",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S7",
+      "start": 566.0,
+      "end": 570.0,
+      "text": "THE LOUD STORY HAS DOCUMENTS",
+      "spoken_anchor": "The loud story now has documents",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S7",
+      "start": 574.091,
+      "end": 578.591,
+      "text": "NO RETENTION RECEIPT",
+      "spoken_anchor": "no retention receipt in this test",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S8",
+      "start": 590.0,
+      "end": 594.5,
+      "text": "DID I OPEN THE SOURCE?",
+      "spoken_anchor": "Did I inspect the source",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S8",
+      "start": 627.778,
+      "end": 630.0,
+      "text": "BOTH PASSED THE CONTROL",
+      "spoken_anchor": "Both models passed the first test",
+      "timing_status": "editorial_estimate"
+    },
+    {
+      "scene": "S8",
+      "start": 655.238,
+      "end": 659.738,
+      "text": "OPEN THE PAGE",
+      "spoken_anchor": "For now, don't stop at the link. Open the page",
+      "timing_status": "editorial_estimate"
+    }
+  ]
+}

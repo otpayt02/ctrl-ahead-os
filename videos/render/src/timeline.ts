@@ -12,6 +12,7 @@ export type ManifestScene = {
   producer_note?: string;
   overlay_pool?: string[];
   visuals?: VisualBeat[];
+  narration_cues?: Array<{scene: string; start: number; end: number; text: string; spoken_anchor: string; timing_status: string}>;
   manifest_slots?: Array<{id?: string; start?: number; end?: number; text?: string; asset?: string; type?: string; recommended_animation?: string; annotation?: Record<string,string>; provenance?: Record<string,string>}>;
 };
 
@@ -73,6 +74,11 @@ export function buildTimeline(manifest: VideoManifest, media: MediaInventory) {
     }
     const voSeconds = media.voiceovers[scene.id]?.durationSeconds ?? 0;
     const durationInFrames = Math.max(originalFrames, Math.ceil((voSeconds + (voSeconds ? 0.5 : 0)) * manifest.fps));
+    for (const cue of scene.narration_cues ?? []) {
+      if (cue.timing_status === 'recorded_word_alignment' && Math.ceil(cue.end * manifest.fps) > durationInFrames) {
+        throw new Error(`Recorded narration cue extends beyond ${scene.id}; check VO and word timestamps`);
+      }
+    }
     const visualFrames = visualFrameDurations(scene.visuals ?? [], durationInFrames);
     const result = {...scene, fromFrame: frame, durationInFrames, originalDurationInFrames: originalFrames, visualFrames};
     frame += durationInFrames;

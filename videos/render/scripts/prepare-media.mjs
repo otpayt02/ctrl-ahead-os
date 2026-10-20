@@ -12,6 +12,23 @@ const manifestPath = process.env.VIDEO_MANIFEST
   : path.join(videos, '001-ai-lost-cause', 'manifest.json');
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const videoFolder = path.dirname(manifestPath);
+const cuePath = path.join(videoFolder, 'narration-cues.json');
+if (existsSync(cuePath)) {
+  const cueDocument = JSON.parse(await readFile(cuePath, 'utf8'));
+  if (cueDocument.video_id !== manifest.video_id || !Array.isArray(cueDocument.cues)) {
+    throw new Error('Narration cue document does not match the video manifest');
+  }
+  for (const cue of cueDocument.cues) {
+    const scene = manifest.scenes.find((item) => item.id === cue.scene);
+    if (!scene || !Number.isFinite(cue.start) || !Number.isFinite(cue.end) ||
+        cue.start < scene.start || cue.end <= cue.start ||
+        !cue.text || !cue.spoken_anchor) {
+      throw new Error(`Invalid narration cue: ${JSON.stringify(cue)}`);
+    }
+    scene.narration_cues ??= [];
+    scene.narration_cues.push({...cue, start: cue.start - scene.start, end: cue.end - scene.start});
+  }
+}
 const ledgerPath = path.join(videoFolder, 'evidence', 'evidence_manifest.json');
 if (existsSync(ledgerPath)) {
   const ledger = JSON.parse(await readFile(ledgerPath, 'utf8'));

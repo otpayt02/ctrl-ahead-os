@@ -30,3 +30,4 @@ __pycache__/
 *.pyc
 /videos/*/vo/
 /videos/*/recordings/
+/videos/*/vo-word-timings.json

@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Img, OffthreadVideo, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, Easing, Img, OffthreadVideo, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {MediaInventory, TimelineScene, VideoManifest} from './timeline';
 import type {VisualBeat} from './pacing';
 import '@fontsource/eb-garamond/400.css';
@@ -52,7 +52,22 @@ export const KineticType: React.FC<{text:string; scene:TimelineScene}> = ({text,
 
 export const ChapterCard: React.FC<{scene:TimelineScene}> = ({scene}) => {
   const frame=useCurrentFrame(),opacity=interpolate(frame,[0,12,50,70],[0,1,1,0],{extrapolateRight:'clamp'});
-  return <div style={{position:'absolute',left:110,top:92,opacity,color:PAPER,textShadow:'0 3px 20px #000'}}><div style={{fontFamily:DATA,fontSize:19,letterSpacing:5,color:AMBER}}>CHAPTER {scene.id.slice(1).padStart(2,'0')}</div><div style={{fontFamily:DISPLAY,fontSize:70,lineHeight:1.1,marginTop:14}}>{scene.chapter}</div></div>;
+  const reveal=interpolate(frame,[0,24],[100,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(.22,1,.36,1)});
+  return <div style={{position:'absolute',left:110,top:92,opacity,clipPath:`inset(0 ${reveal}% 0 0)`,color:PAPER,textShadow:'0 3px 20px #000'}}><div style={{fontFamily:DATA,fontSize:19,letterSpacing:5,color:AMBER}}>CHAPTER {scene.id.slice(1).padStart(2,'0')}</div><div style={{fontFamily:DISPLAY,fontSize:70,lineHeight:1.1,marginTop:14}}>{scene.chapter}</div></div>;
+};
+
+const SpokenCue: React.FC<{text: string; durationInFrames: number}> = ({text,durationInFrames}) => {
+  const frame=useCurrentFrame(),{fps}=useVideoConfig();
+  const words=text.split(/\s+/);
+  const fade=interpolate(frame,[Math.max(0,durationInFrames-Math.round(.45*fps)),durationInFrames],[1,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+  return <div style={{position:'absolute',left:150,right:150,bottom:155,display:'flex',flexWrap:'wrap',gap:'0 16px',justifyContent:'center',padding:'24px 32px',background:'#0a1628e8',borderBottom:`3px solid ${AMBER}`,boxShadow:'0 20px 60px #000a',opacity:fade,fontFamily:DATA,fontSize:38,fontWeight:600,lineHeight:1.35,color:PAPER,textAlign:'center'}}>
+    {words.map((word,index)=>{
+      const offset=Math.min(index,7)*Math.round(.055*fps);
+      const reveal=interpolate(frame,[offset,offset+Math.round(.65*fps)],[100,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(.22,1,.36,1)});
+      const rise=interpolate(frame,[offset,offset+Math.round(.65*fps)],[12,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(.22,1,.36,1)});
+      return <span key={index} style={{display:'inline-block',clipPath:`inset(0 ${reveal}% 0 0)`,transform:`translateY(${rise}px)`}}>{word}</span>;
+    })}
+  </div>;
 };
 
 export const EndCard: React.FC<{scene:TimelineScene; content?:VideoManifest['end_card']}> = ({scene,content}) => {
@@ -89,7 +104,7 @@ const VisualView: React.FC<SceneProps & {visual:VisualBeat; visualFrames:number;
   const shot={...scene,assets:[visual.asset],motion:visual.motion,durationInFrames:visualFrames};
   const content=kind.includes('SplitFrame')?<SplitFrame scene={shot} media={media} placeholderMode={placeholderMode}/>:kind.startsWith('ScreenCapture')?<ScreenCapture scene={shot} media={media} placeholderMode={placeholderMode}/>:<KenBurns scene={shot} media={media} placeholderMode={placeholderMode}/>;
   const scale=visualFrames/Math.max(1,visual.duration_sec*fps);
-  return <AbsoluteFill>{content}{visual.asset.startsWith('assets/')&&!placeholderMode&&media.availableAssets.includes(visual.asset.slice(7))&&<div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>GRAPHIC, NOT A CAPTURE</div>}{visual.overlays.map((overlay,index)=>{
+  return <AbsoluteFill>{content}{visual.asset.startsWith('assets/')&&!placeholderMode&&media.availableAssets.includes(visual.asset.slice(7))&&<div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>GRAPHIC, NOT A CAPTURE</div>}{(scene.narration_cues?.length?[]:visual.overlays).map((overlay,index)=>{
     const atFrame=Math.round(overlay.at*fps*scale);
     const start=visualStart+atFrame;
     const end=visualStart+visualFrames;
@@ -100,11 +115,15 @@ const VisualView: React.FC<SceneProps & {visual:VisualBeat; visualFrames:number;
 
 type EvidencePointer = NonNullable<TimelineScene['manifest_slots']>[number];
 const EvidenceSlot: React.FC<{slot:EvidencePointer; media:MediaInventory}> = ({slot,media}) => {
+  const frame=useCurrentFrame();
   const filename=slot.asset?.startsWith('assets/') ? slot.asset.slice(7) : null;
   const source=filename&&media.availableAssets.includes(filename) ? staticFile(`scene-assets/${filename}`) : null;
   if (source&&slot.type==='face-footage') return <AbsoluteFill><OffthreadVideo src={source} style={{width:'100%',height:'100%',objectFit:'cover'}}/><div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>AI-ASSISTED LIKENESS · RECORDED VO</div></AbsoluteFill>;
-  if (source&&(slot.type==='tracker-receipt'||slot.type==='labeled-graphic')) return <AbsoluteFill style={{background:NAVY}}><Img src={source} style={{width:'100%',height:'100%',objectFit:'contain'}}/><div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>GRAPHIC, NOT A CAPTURE</div></AbsoluteFill>;
-  return <div style={{position:'absolute',top:'68%',right:110,maxWidth:850,padding:'20px 30px',background:'#0a1628dd',borderTop:`3px solid ${CYAN}`,fontFamily:DATA,fontSize:23,color:PAPER}}>{slot.text??`${slot.type??'EVIDENCE'} SLOT · ${slot.asset??'MEDIA PENDING'}`}</div>;
+  if (source&&(slot.type==='tracker-receipt'||slot.type==='labeled-graphic')) {
+    const reveal=interpolate(frame,[0,24],[100,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(.22,1,.36,1)});
+    return <AbsoluteFill style={{background:NAVY}}><Img src={source} style={{width:'100%',height:'100%',objectFit:'contain',clipPath:`inset(0 ${reveal}% 0 0)`}}/><div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>GRAPHIC, NOT A CAPTURE</div></AbsoluteFill>;
+  }
+  return <div style={{position:'absolute',top:'68%',right:110,maxWidth:850,padding:'20px 30px',background:'#0a1628dd',borderTop:`3px solid ${CYAN}`,fontFamily:DATA,fontSize:23,color:PAPER,clipPath:`inset(0 ${interpolate(frame,[0,24],[100,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.bezier(.22,1,.36,1)})}% 0 0)`}}>{slot.text??`${slot.type??'EVIDENCE'} SLOT · ${slot.asset??'MEDIA PENDING'}`}</div>;
 };
 
 const SceneView: React.FC<SceneProps> = ({scene,media,placeholderMode,isFirst,isLast,endCard}) => {
@@ -121,10 +140,16 @@ const SceneView: React.FC<SceneProps> = ({scene,media,placeholderMode,isFirst,is
     {isFirst&&!hasFace&&frame<3*fps&&<AbsoluteFill><Placeholder label="OLIVER FACE FOOTAGE / FIRST 2–3 SECONDS"/></AbsoluteFill>}
     <AbsoluteFill style={{background:`linear-gradient(0deg, ${NAVY}dd 0%, transparent 48%)`,pointerEvents:'none'}}/>
     {!isFirst&&<ChapterCard scene={scene}/>}
-    {scene.on_screen_text&&scene.id!=='S8'&&<KineticType text={scene.on_screen_text} scene={scene}/>}
-    {isLast&&<TakeawayCards scene={scene}/>}
+    {!scene.narration_cues?.length&&scene.on_screen_text&&scene.id!=='S8'&&<KineticType text={scene.on_screen_text} scene={scene}/>}
+    {isLast&&!scene.narration_cues?.length&&<TakeawayCards scene={scene}/>}
     {isLast&&<EndCard scene={scene} content={endCard}/>}
     {scene.manifest_slots?.map((slot,index)=>{const start=Math.round((slot.start??0)*fps),end=Math.round((slot.end??Math.min(scene.durationInFrames/fps,(slot.start??0)+5))*fps);return <Sequence key={slot.id??index} from={start} durationInFrames={Math.max(1,end-start)}><EvidenceSlot slot={slot} media={media}/></Sequence>})}
+    {scene.narration_cues?.map((cue,index)=>{
+      const stretch=cue.timing_status==='recorded_word_alignment'?1:scene.durationInFrames/scene.originalDurationInFrames;
+      const start=Math.round(cue.start*fps*stretch);
+      const end=Math.min(scene.durationInFrames,Math.round(cue.end*fps*stretch));
+      return <Sequence key={index} from={start} durationInFrames={Math.max(1,end-start)} name={`${scene.id} spoken cue ${index+1}`}><SpokenCue text={cue.text} durationInFrames={Math.max(1,end-start)}/></Sequence>;
+    })}
     <FilmTexture/>
     <AbsoluteFill style={{pointerEvents:'none',background:'#f5efe6',opacity:flash}}/>
     {vo&&<Audio src={staticFile(`vo/${vo.file}`)}/>}
