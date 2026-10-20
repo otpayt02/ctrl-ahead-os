@@ -1,5 +1,9 @@
 # Silent pacing draft
 
+## Model-test revision gate (2026-10-20)
+
+The narration now reflects Oliver's reported two-frontier-model tests: both models rejected the flattering Lost Cause prompt; the S'gaw Karen replies left conflicting counts and no model-retention measurement. Chapter 4's real two-model screen recording is still pending, so **do not render or publish a final video**. The three new test graphics say “GRAPHIC, NOT A CAPTURE” and cite Oliver's pasted summary, not a website or a raw model transcript. The editorial choreography covers 0–660 seconds; its timings must be aligned to the approved voice recording. Browser captures and blocked-page evidence are documented in `assets/captures/provenance.json`. The old MP4s remain ignored review copies of the superseded script. The manifest's inaccurate old overlays were corrected, but its final S4 timing and cuts must be checked against the approved capture before rendering.
+
 The local draft is `../render/out/001-ai-lost-cause-draft-final.mp4`. It is intentionally git-ignored; render it again with `cd videos/render && npm.cmd run render`.
 
 Verified on 2026-10-18 with Remotion's bundled `ffprobe`: 660.011 seconds, 30 fps, 960×540 H.264 video, AAC audio stream, 71,011,107 bytes. The AAC stream is silent. The draft uses all eight chapter slots from `manifest.json` and the eight generated illustrations in `assets/`.

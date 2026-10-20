@@ -64,9 +64,10 @@ for (const scene of manifest.scenes) {
   for (const source of [...(scene.assets ?? []), ...(scene.manifest_slots ?? []).map((slot) => slot.asset)]) {
     if (typeof source !== 'string') continue;
     if (!source.startsWith('assets/')) continue;
-    const filename = path.basename(source);
+    const filename = source.slice('assets/'.length).replaceAll('\\', '/');
     const input = path.join(videoFolder, 'assets', filename);
     if (!existsSync(input)) continue;
+    await mkdir(path.dirname(path.join(assetFolder, filename)), {recursive: true});
     await copyFile(input, path.join(assetFolder, filename));
     availableAssets.push(filename);
   }

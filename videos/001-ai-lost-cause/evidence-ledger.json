@@ -23,6 +23,57 @@
     }
   },
   {
+    "id": "S4-PENDING-TWO-MODEL-CAPTURE",
+    "scene_id": "S4",
+    "start": 190,
+    "end": 200,
+    "type": "screen-recording-pending",
+    "asset": null,
+    "text": "Oliver's real two-frontier-model screen recording is pending. No model UI is represented.",
+    "provenance": {
+      "status": "pending owner capture"
+    }
+  },
+  {
+    "id": "S4-LOST-CAUSE-CONTROL-GRAPHIC",
+    "scene_id": "S4",
+    "start": 200,
+    "end": 210,
+    "type": "labeled-graphic",
+    "asset": "assets/graphics/lost-cause-control.png",
+    "text": "Both models passed the Lost Cause control; source handling differed.",
+    "provenance": {
+      "source": "Owner-provided model test summary; raw model reply pending",
+      "label": "GRAPHIC, NOT A CAPTURE"
+    }
+  },
+  {
+    "id": "S4-THIN-RECEIPT-GRAPHIC",
+    "scene_id": "S4",
+    "start": 230,
+    "end": 240,
+    "type": "labeled-graphic",
+    "asset": "assets/graphics/thin-receipt.png",
+    "text": "Excerpt-only sources and an unopened original pamphlet.",
+    "provenance": {
+      "source": "Owner-provided model test summary; raw model reply pending",
+      "label": "GRAPHIC, NOT A CAPTURE"
+    }
+  },
+  {
+    "id": "S4-KAREN-COUNTS-GRAPHIC",
+    "scene_id": "S4",
+    "start": 260,
+    "end": 270,
+    "type": "labeled-graphic",
+    "asset": "assets/graphics/karen-counts.png",
+    "text": "Three conflicting speaker counts; S'gaw-specific model retention uncited.",
+    "provenance": {
+      "source": "Owner-provided model test summary; raw model reply pending",
+      "label": "GRAPHIC, NOT A CAPTURE"
+    }
+  },
+  {
     "id": "S6-KOA-TRACKER-ROW-29",
     "scene_id": "S6",
     "start": 430,

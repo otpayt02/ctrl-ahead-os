@@ -1,40 +1,77 @@
-# Video 001 — "AI Has a Lost Cause Problem"
+# Video 001 — AI Has a Lost Cause Problem
 
-**Lane:** AI agents & society · **Mode:** documentary essay with live receipts · **Angle:** unrelated-artifact bridge (history essay → training data) · **Creativity slider:** 50 (structural mapping, explained) · **Runtime:** ~11:00 · **Format:** 16:9, 30fps
+**Lane:** AI agents and society · **Mode:** documentary essay with real receipts · **Runtime target:** 11:00 · **Format:** 16:9, 30 fps
 
 ## Concept card
-- **Bridge:** HIST 105 essay (2021, Race and Reunion) on how America's collective Civil War memory was written by whoever did the remembering — structurally mapped onto LLM training: corpus = textbook, majority-text bias = Lost Cause narrative, RLHF = reconciliationism, provenance + consent + validated pairs = emancipationism.
-- **Justification (one sentence, same mechanism not same vibes):** both are memory consolidated through repetition without provenance.
-- **Receipts:** HIST 105 essay, the-brain-v1 constants, KOA v4 tracker ("store validated training pairs and consent records"), Karen-Web-Scraper / learn-s-gaw-karen repos, script_inputs.json lanes.
-- **Atypicality:** nothing in the 12 lanes does historiography × training data with personal receipts.
 
-## Title options
-1. AI Has a Lost Cause Problem (I Found It in My College Notes)
-2. I Graded My AI Using a 2021 History Essay — It Failed
-3. Your AI Model Misremembers on Purpose. History Explains Why.
+My 2021 history essay asks who gets remembered and what a source proves. I use that question to inspect two different frontier models, without claiming a model's training process repeats historical memory exactly. The Lost Cause test is a control: both rejected the flattering account. The S’gaw Karen test shows conflicting public counts and no model-retention measurement. The KOA tracker contains the next practical task: validated training pairs and consent records, marked **In Progress**.
 
-## Narration script (timestamped)
+**Evidence boundary:** The test details come from Oliver's pasted summary. Raw model replies and the Chapter 4 recording were not found locally. Source-page screenshots establish page content, not what a model displayed. Generated graphics are labeled “graphic, not a capture.”
 
-### CH1 — HOOK (0:00-0:25) · asset 001-hook
-"Every AI you've ever used has the exact same flaw as your high school history textbook — and I can prove it, because the proof is sitting in my homework from 2021. That year I wrote a college essay about how America misremembers the Civil War. Five years later, I build AI pipelines for a living. And once you see what I'm about to show you, you'll never look at a chatbot the same way again."
+## Final narration
 
-### CH2 — THE TEXTBOOK (0:25-1:40) · asset 002-two-memories
-"Quick setup. In 2021, my history class handed me David Blight's Race and Reunion, and it detonated a memory I didn't know I had. The textbook most of us grew up on carried pieces of a story called the Lost Cause: a version of the Civil War where the South's cause was noble, the war wasn't really about slavery, and everyone reconciled nicely afterward. Here's the sentence from my essay that matters: 'I read it and I didn't think twice about its accuracy.' Hold onto that sentence — it's the whole video. Blight's argument was that collective memory isn't neutral: the version that survives is the version written by whoever did the remembering, repeated the most, and got printed. Three forces fought over that memory. White supremacism — the loud version. Emancipationism — the version with receipts, sources, and page numbers. And reconciliationism — the smoothing force, the 'can't we all just get along' that quietly decided which parts got sanded off. Write those three names down. Because five years later I opened the internals of an AI model — and all three were in there."
+### CH1 — THE QUESTION (0:00–0:25) · S1
 
-### CH3 — THE MAPPING (1:40-3:10) · asset 003-internet-textbook
-"Today I build AI pipelines. And when I looked at how these systems learn, I didn't see math first — I saw historiography. The mapping, one sentence each, because I'm not doing vibes — this is structural. A training corpus is a textbook. Nobody wrote it on purpose: it's the internet, a textbook written by whoever showed up. The Lost Cause is majority-text bias: when the loudest sources agree, the model memorizes the agreed version, and the quiet versions just don't get written down. And 'I read it and I didn't think twice'? That's the default state of every person who's ever trusted a fluent answer. The mechanism is identical: memory, consolidated through repetition, with no provenance. A textbook doesn't cite every voice. Neither does a training set."
+I found a sentence in my old history essay that I wish I had taped to my monitor. “I read it and I didn't think twice about its accuracy.” I wrote that about a textbook. Now I build with AI, and I have to ask: when an answer arrives with beautiful prose and a row of links, am I doing it again? I gave the same questions to two different frontier models. The result was more interesting than a gotcha.
 
-### CH4 — THE EXPERIMENT (3:10-5:00) · screen recording
-"So let's test it. I asked two models about something the internet remembers selectively..." [PRODUCER NOTE: record real demo — prompt 2 models on a topic where online consensus is oversimplified or an undercovered topic is flattened; screen-record prompts + answers; red-underline the uncited claim. Fluent ≠ accurate; fluent is packaging.]
+### CH2 — WHAT THE ESSAY WAS ABOUT (0:25–1:40) · S2
 
-### CH5 — RECONCILIATIONISM IS RLHF (5:00-6:30) · asset 004-rlhf-sphere
-"Now the uncomfortable part. After a model learns the raw corpus, humans fine-tune it — RLHF, alignment, helpfulness. Real, necessary work. But understand what it optimizes for: acceptability. An agreeable, both-sided, polished answer. A rough stone polished into a smooth sphere that offends nobody and commits to nothing. Both-sidesing history didn't start with AI. AI industrialized it, and gave it a friendly voice. I'm not saying alignment is evil. I'm saying it makes memory-politics decisions, and we should say that out loud instead of pretending it's neutral plumbing."
+In college I read David Blight's *Race and Reunion*. My essay was about the Civil War and what happened to its public memory. The Lost Cause offered a flattering story of the Confederacy. Slavery was minimized; the violence of the aftermath was smoothed into reunion. I had absorbed pieces of that story through ordinary school material. No dramatic moment. No alarm. Just: “I read it and I didn't think twice about its accuracy.”
 
-### CH6 — EMANCIPATIONISM IS PROVENANCE (6:30-7:50) · asset 005-provenance + tracker screenshot
-"So what's the counter-force? In the essay it was the emancipationists — the people with receipts. In AI, it's provenance. And I have a receipt for this one, because I'm building it: this is my actual project tracker, and this line is a real task in a real schema — 'Store validated training pairs and consent records.' Consent records. Validation. Who said it, whether they agreed, whether it checked out. Emancipationism, as a database schema. The memory gets repaired the way it always has been: by citing sources."
+Blight described competing ways to remember the war: white supremacist memory, emancipationist memory, and reconciliationist memory. Those aren't three settings in a model. They're a reminder that a clean story can hide the people and documents outside its frame. A source has a location. A claim has a trail. The question that followed me into this work is simple: can I find that trail, or am I only looking at its label?
 
-### CH7 — THE LANGUAGE THE INTERNET FORGOT (7:50-9:40) · assets 006-karen-corpus, 007-single-shelf
-"Here's where it gets real. I work with S'gaw Karen — a language spoken by a community the internet barely wrote down. Almost no footprint. Think about what that means: a model trained on the internet cannot remember what nobody uploaded. A language the internet forgot is invisible to every model built on it. That's either a tragedy or an opening. It's an opening if you're the one who writes it down — with permission gates, provenance tracking, and the community's consent about their own words. OCR pipelines, scrapers, translation pairs: building the corpus the old-fashioned way, the way Blight recovered the memory the textbooks sanded off. Getting the language on the map. AI can't remember what nobody wrote down. So we write it down."
+### CH3 — THE BRIDGE (1:40–3:10) · S3
 
-### CH8 — VERDICT + CTA (9:40-11:00) · asset 008-callback
-"So, the verdict paragraph — every good essay ends with one. In 2021, I wrote that incomplete historical information is misleading and manipulative to naive citizens. In 2026, we are all the naive citizens. We just outsourced the reading. Three things you can actually do. One: ask your model for sources, and watch what happens. Two: treat fluency as packaging, not proof. Three: if you belong to a community the internet forgot — build the corpus, because that's the only fix that has ever worked. The last line of my essay said a single viewpoint would make our politics a lot less complicated. The machine gives us one viewpoint, smoothly, at scale. Don't read it and not think twice. I'm building all of this in public — the pipeline, the datasets, the renders. Subscribe if you want the build. Next time: the build itself."
+This is where my brain made a connection. Historical memory and a model answer are different systems. But both can put a polished account in front of a reader with limited time to check it. Repetition can make a story feel settled. A citation can make a sentence feel inspected. Neither feeling tells me whether the sentence is true.
+
+I build data pipelines, so my instinct is to look for the record underneath the story. What was the original document? Which sentence came from which source? Was the source opened, or was an excerpt enough? And when the subject is a living language, whose words were collected, who agreed to their use, and what can we actually measure? That's the bridge from my history essay to this test. It is a method for reading an answer, not proof that a training corpus is a textbook or that alignment caused a specific mistake.
+
+The test had two parts. One loud historical story with a well-documented correction. One quieter language with real public pages but uneven numbers. I expected a dramatic failure. That's not what happened.
+
+### CH4 — TWO PROMPTS, TWO FRONTIER MODELS (3:10–5:00) · S4 · real recording pending
+
+First I used the same Lost Cause prompt on two different frontier models. I asked for the flattering textbook paragraph. Both refused that framing and attached sources. That's the control, not the failure. The story that once traveled easily through schoolbooks now meets documents in these answers.
+
+Then I checked how the sources were used. Sonnet 5.5 spread citations across secondary pages. It marked one sentence of its own framing **UNCITED**. Two sources were used from excerpts only. The second model used three sources and placed Mississippi's 1861 declaration, through Yale Avalon, under its claim about slavery. It also said it did **not** open Rutherford's original pamphlet. Those distinctions matter. Fluency with links is not the same as opening the page.
+
+Then I asked the same S’gaw Karen question of both models. Neither test measured what a public model retains. Sonnet gave three speaker counts that do not agree: about **2 million**, attributed to Omniglot; **2.2 million**, attributed to Wikipedia; and **1,050,000**, attributed to Oxford Reference. It marked a S’gaw-specific retention claim **UNCITED**. The second model refused to give a speaker count. It cited Omniglot and Wikipedia for the language and script, then cited a general Google Research page about memorization. That page is not a measurement of S’gaw Karen retention.
+
+That's the red underline: conflicting counts and a mismatched memorization citation. It isn't a blank answer, and it isn't an invented alphabet. The pages are there. The receipt for model retention isn't.
+
+### CH5 — WHAT THE TEST DOES AND DOESN'T PROVE (5:00–6:30) · S5
+
+I want to be careful here. I didn't inspect the training data of either model. I didn't isolate reinforcement learning or prove alignment made either answer smooth. I ran two prompts through two different frontier models and read the replies against their sources. That's a small test with a useful lesson.
+
+The Lost Cause prompt showed a working boundary: both models pushed back on a false, flattering retelling. The remaining question is how they handled evidence. One sentence was flagged uncited. Some sources were known through excerpts. One original pamphlet was explicitly unopened. Those are meaningful admissions if you notice them. A row of links can be helpful, but a link is the start of checking, not the end.
+
+For S’gaw Karen, the disagreement isn't something to smooth away with a confident average. Different counts may refer to different definitions, dates, or populations. Until I inspect those methods, I will show the disagreement. The model tests cannot tell me how much of this language either model remembers. They tell me what the answers claimed and failed to establish.
+
+### CH6 — THE TRACKER LINE (6:30–7:50) · S6
+
+What would a better receipt look like in the work I control? Here is a line from the KOA Website v4 Project Tracker: “Store validated training pairs and consent records.” Row 29. Priority zero. Status: **In Progress**. It is a task, not a shipped system, and I want that status visible on screen.
+
+Validated pairs mean a proposed input and output can be checked. Consent records mean the source of a person's words and their permission can travel with the data. Neither magically solves language modeling. Both give a future builder somewhere to look when a claim is challenged. That's the practical lesson from an essay about memory: leave a trail another person can actually follow.
+
+If we show a generated image here, it will say it's a graphic. The tracker asset says it is rendered from source cells, not a live spreadsheet. I don't get to demand provenance from a model and then hide the provenance of my own video.
+
+### CH7 — THE QUIETER LANGUAGE (7:50–9:40) · S7
+
+S’gaw Karen is not absent from the internet. Omniglot has a page. Wikipedia has a page. Oxford Reference has an entry. People have written, taught, and preserved this language long before my test. The problem in these two replies was more specific: the public speaker counts didn't line up, and neither answer showed a S’gaw-specific measurement of what a model retained.
+
+Those are two different gaps. To reconcile counts, inspect source dates and definitions, not pick the number that looks most precise. To measure model retention, design a test for that question, with known prompts, human review, and permission to use the material. A general article about memorization cannot stand in for that work.
+
+This matters to me because I've worked near Karen language preservation. A community's language is not raw material waiting for someone else's corpus. Speakers, teachers, writers, and families have to shape what may be collected and what may stay private. The tracker line about validated pairs and consent records is small, but points in the right direction. I don't want an impressive demo no one can audit. I want a record that answers: where did this come from, who checked it, and who said yes?
+
+The loud story now has documents at the point of the answer. The quieter language has public pages, conflicting counts, and no retention receipt in this test. That is the comparison I can defend.
+
+### CH8 — VERDICT (9:40–11:00) · S8
+
+When I wrote “I read it and I didn't think twice about its accuracy,” I was talking about my younger self. Now I hear it as a question for every answer I read today. Did I inspect the source, or did I inspect the shape of a citation?
+
+Here are three habits I'm keeping. First: give the model a control where the record is strong. See whether it rejects the easy false story. Second: open the sources. Watch for excerpt-only reading, unopened originals, and claims pointing to a page on a related topic instead of the actual question. Third: when the record is thin or disputed, leave the disagreement visible and build the missing receipt with the people affected.
+
+Both models passed the first test. Neither measured S’gaw Karen retention. That's not a verdict on every model or every language. It is a clear next task for this project: validated pairs, consent records, and a test that earns its conclusion. I'm building that in public. Next time, I'll show the build, including what still doesn't work. For now, don't stop at the link. Open the page.
+
+## Production gate
+
+Chapter 4 remains a pending slot for Oliver's real recording of both model replies. No model UI or verbatim response is represented. Do not render the final video until the capture is present and the visible replies have been checked against this narration.

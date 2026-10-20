@@ -34,7 +34,7 @@ export const SplitFrame: React.FC<SceneProps> = ({scene, media, placeholderMode}
   return <AbsoluteFill><KenBurns scene={scene} media={media} placeholderMode={placeholderMode}/><div style={{position:'absolute',left:'50%',top:0,bottom:0,width:5,background:CYAN,boxShadow:`0 0 ${30+10*Math.sin(frame/15)}px ${CYAN}`}}/><div style={{position:'absolute',left:85,bottom:165,padding:'18px 26px',background:'#0a1628bb',fontFamily:DATA,fontSize:24,color:PAPER}}>MEMORY / SOURCE</div><div style={{position:'absolute',right:85,bottom:165,padding:'18px 26px',background:'#0a1628bb',fontFamily:DATA,fontSize:24,color:CYAN}}>MODEL / CORPUS</div></AbsoluteFill>;
 };
 
-export const ScreenCapture: React.FC<SceneProps> = ({scene, media, placeholderMode}) => <AbsoluteFill style={{background:NAVY}}><div style={{position:'absolute',inset:'9% 8%',overflow:'hidden',border:`2px solid ${CYAN}77`,borderRadius:22,boxShadow:'0 35px 100px #0009'}}><KenBurns scene={scene} media={media} placeholderMode={placeholderMode}/><div style={{position:'absolute',left:50,right:50,bottom:54,height:5,background:'#c96258',boxShadow:'0 0 25px #c96258'}}/></div><div style={{position:'absolute',left:175,top:140,fontFamily:DATA,color:AMBER,fontSize:22,letterSpacing:4}}>VERIFY THE CLAIM / ORIGINAL RECORDING PENDING</div></AbsoluteFill>;
+export const ScreenCapture: React.FC<SceneProps> = ({scene, media, placeholderMode}) => <AbsoluteFill style={{background:NAVY}}><div style={{position:'absolute',inset:'9% 8%',overflow:'hidden',border:`2px solid ${CYAN}77`,borderRadius:22,boxShadow:'0 35px 100px #0009'}}><KenBurns scene={scene} media={media} placeholderMode={placeholderMode}/></div><div style={{position:'absolute',left:175,top:140,fontFamily:DATA,color:AMBER,fontSize:22,letterSpacing:4}}>TWO-MODEL RECORDING PENDING</div></AbsoluteFill>;
 
 export const CrossFadeSequence: React.FC<SceneProps> = ({scene, media, placeholderMode}) => {
   const frame = useCurrentFrame(), {fps}=useVideoConfig(), midpoint=Math.round(scene.durationInFrames*.52);
@@ -89,7 +89,7 @@ const VisualView: React.FC<SceneProps & {visual:VisualBeat; visualFrames:number;
   const shot={...scene,assets:[visual.asset],motion:visual.motion,durationInFrames:visualFrames};
   const content=kind.includes('SplitFrame')?<SplitFrame scene={shot} media={media} placeholderMode={placeholderMode}/>:kind.startsWith('ScreenCapture')?<ScreenCapture scene={shot} media={media} placeholderMode={placeholderMode}/>:<KenBurns scene={shot} media={media} placeholderMode={placeholderMode}/>;
   const scale=visualFrames/Math.max(1,visual.duration_sec*fps);
-  return <AbsoluteFill>{content}{visual.asset.startsWith('assets/')&&!placeholderMode&&media.availableAssets.includes(visual.asset.slice(7))&&<div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>AI-GENERATED ILLUSTRATION</div>}{visual.overlays.map((overlay,index)=>{
+  return <AbsoluteFill>{content}{visual.asset.startsWith('assets/')&&!placeholderMode&&media.availableAssets.includes(visual.asset.slice(7))&&<div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>GRAPHIC, NOT A CAPTURE</div>}{visual.overlays.map((overlay,index)=>{
     const atFrame=Math.round(overlay.at*fps*scale);
     const start=visualStart+atFrame;
     const end=visualStart+visualFrames;
@@ -103,7 +103,7 @@ const EvidenceSlot: React.FC<{slot:EvidencePointer; media:MediaInventory}> = ({s
   const filename=slot.asset?.startsWith('assets/') ? slot.asset.slice(7) : null;
   const source=filename&&media.availableAssets.includes(filename) ? staticFile(`scene-assets/${filename}`) : null;
   if (source&&slot.type==='face-footage') return <AbsoluteFill><OffthreadVideo src={source} style={{width:'100%',height:'100%',objectFit:'cover'}}/><div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>AI-ASSISTED LIKENESS · RECORDED VO</div></AbsoluteFill>;
-  if (source&&slot.type==='tracker-receipt') return <AbsoluteFill style={{background:NAVY}}><Img src={source} style={{width:'100%',height:'100%',objectFit:'contain'}}/></AbsoluteFill>;
+  if (source&&(slot.type==='tracker-receipt'||slot.type==='labeled-graphic')) return <AbsoluteFill style={{background:NAVY}}><Img src={source} style={{width:'100%',height:'100%',objectFit:'contain'}}/><div style={{position:'absolute',right:70,top:50,padding:'10px 16px',background:'#0a1628dd',border:`1px solid ${CYAN}`,fontFamily:DATA,fontSize:17,letterSpacing:2,color:CYAN}}>GRAPHIC, NOT A CAPTURE</div></AbsoluteFill>;
   return <div style={{position:'absolute',top:'68%',right:110,maxWidth:850,padding:'20px 30px',background:'#0a1628dd',borderTop:`3px solid ${CYAN}`,fontFamily:DATA,fontSize:23,color:PAPER}}>{slot.text??`${slot.type??'EVIDENCE'} SLOT · ${slot.asset??'MEDIA PENDING'}`}</div>;
 };
 

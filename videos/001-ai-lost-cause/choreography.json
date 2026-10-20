@@ -1,0 +1,677 @@
+{
+  "video_id": "001-ai-lost-cause",
+  "timing_status": "editorial estimate; align to approved recorded VO",
+  "source_status": "model behavior paraphrased from owner test summary; S4 recording pending",
+  "visual_changes": [
+    {
+      "scene": "S1",
+      "start": 0.0,
+      "end": 8.333,
+      "spoken_line": "I found a sentence in my old history essay that I wish I had taped to my monitor.",
+      "on_screen_text": "",
+      "asset_path": "assets/face-hook.mp4",
+      "receipt_uri": null,
+      "asset_kind": "real file"
+    },
+    {
+      "scene": "S1",
+      "start": 8.333,
+      "end": 16.667,
+      "spoken_line": "“I read it and I didn't think twice about its accuracy.” I wrote that about a textbook. Now I build with AI, and I have to ask: when an answer arrives with beautiful prose and a row of links, am I doing it again?",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/001-hook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S1",
+      "start": 16.667,
+      "end": 25.0,
+      "spoken_line": "I gave the same questions to two different frontier models. The result was more interesting than a gotcha.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/001-hook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S2",
+      "start": 25.0,
+      "end": 34.375,
+      "spoken_line": "In college I read David Blight's Race and Reunion.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/002-two-memories.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S2",
+      "start": 34.375,
+      "end": 43.75,
+      "spoken_line": "My essay was about the Civil War and what happened to its public memory. The Lost Cause offered a flattering story of the Confederacy.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/002-two-memories.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S2",
+      "start": 43.75,
+      "end": 53.125,
+      "spoken_line": "Slavery was minimized; the violence of the aftermath was smoothed into reunion.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/002-two-memories.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S2",
+      "start": 53.125,
+      "end": 62.5,
+      "spoken_line": "I had absorbed pieces of that story through ordinary school material. No dramatic moment.",
+      "on_screen_text": "",
+      "asset_path": "assets/captures/lost-cause.png",
+      "receipt_uri": "https://encyclopediavirginia.org/entries/lost-cause-the/",
+      "asset_kind": "real file"
+    },
+    {
+      "scene": "S2",
+      "start": 62.5,
+      "end": 71.875,
+      "spoken_line": "No alarm. Just: “I read it and I didn't think twice about its accuracy.” Blight described competing ways to remember the war: white supremacist memory, emancipationist memory, and reconciliationist memory.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/002-two-memories.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S2",
+      "start": 71.875,
+      "end": 81.25,
+      "spoken_line": "Those aren't three settings in a model.",
+      "on_screen_text": "",
+      "asset_path": "assets/captures/united-daughters.png",
+      "receipt_uri": "https://encyclopediavirginia.org/entries/united-daughters-of-the-confederacy/",
+      "asset_kind": "real file"
+    },
+    {
+      "scene": "S2",
+      "start": 81.25,
+      "end": 90.625,
+      "spoken_line": "They're a reminder that a clean story can hide the people and documents outside its frame. A source has a location.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/002-two-memories.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S2",
+      "start": 90.625,
+      "end": 100.0,
+      "spoken_line": "A claim has a trail. The question that followed me into this work is simple: can I find that trail, or am I only looking at its label?",
+      "on_screen_text": "",
+      "asset_path": "assets/captures/atlanta-textbooks.png",
+      "receipt_uri": "https://www.atlantahistorycenter.com/blog/spreading-memory-georgia-history-textbooks-and-the-lost-cause/",
+      "asset_kind": "real file"
+    },
+    {
+      "scene": "S3",
+      "start": 100.0,
+      "end": 110.0,
+      "spoken_line": "This is where my brain made a connection. Historical memory and a model answer are different systems.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 110.0,
+      "end": 120.0,
+      "spoken_line": "But both can put a polished account in front of a reader with limited time to check it. Repetition can make a story feel settled.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 120.0,
+      "end": 130.0,
+      "spoken_line": "A citation can make a sentence feel inspected. Neither feeling tells me whether the sentence is true.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 130.0,
+      "end": 140.0,
+      "spoken_line": "I build data pipelines, so my instinct is to look for the record underneath the story. What was the original document?",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 140.0,
+      "end": 150.0,
+      "spoken_line": "Which sentence came from which source? Was the source opened, or was an excerpt enough?",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 150.0,
+      "end": 160.0,
+      "spoken_line": "And when the subject is a living language, whose words were collected, who agreed to their use, and what can we actually measure? That's the bridge from my history essay to this test.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 160.0,
+      "end": 170.0,
+      "spoken_line": "It is a method for reading an answer, not proof that a training corpus is a textbook or that alignment caused a specific mistake. The test had two parts.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 170.0,
+      "end": 180.0,
+      "spoken_line": "One loud historical story with a well-documented correction. One quieter language with real public pages but uneven numbers.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S3",
+      "start": 180.0,
+      "end": 190.0,
+      "spoken_line": "I expected a dramatic failure. That's not what happened.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/003-internet-textbook.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S4",
+      "start": 190.0,
+      "end": 200.0,
+      "spoken_line": "First I used the same Lost Cause prompt on two different frontier models. I asked for the flattering textbook paragraph.",
+      "on_screen_text": "SCREEN RECORDING PENDING",
+      "asset_path": null,
+      "receipt_uri": null,
+      "asset_kind": "pending real file: two-model screen recording"
+    },
+    {
+      "scene": "S4",
+      "start": 200.0,
+      "end": 210.0,
+      "spoken_line": "Both refused that framing and attached sources. That's the control, not the failure.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/graphics/lost-cause-control.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S4",
+      "start": 210.0,
+      "end": 220.0,
+      "spoken_line": "The story that once traveled easily through schoolbooks now meets documents in these answers. Then I checked how the sources were used.",
+      "on_screen_text": "SCREEN RECORDING PENDING",
+      "asset_path": null,
+      "receipt_uri": null,
+      "asset_kind": "pending real file: two-model screen recording"
+    },
+    {
+      "scene": "S4",
+      "start": 220.0,
+      "end": 230.0,
+      "spoken_line": "Sonnet 5.5 spread citations across secondary pages. It marked one sentence of its own framing UNCITED.",
+      "on_screen_text": "",
+      "asset_path": "assets/captures/mississippi-declaration.png",
+      "receipt_uri": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+      "asset_kind": "real file"
+    },
+    {
+      "scene": "S4",
+      "start": 230.0,
+      "end": 240.0,
+      "spoken_line": "Two sources were used from excerpts only. The second model used three sources and placed Mississippi's 1861 declaration, through Yale Avalon, under its claim about slavery.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/graphics/thin-receipt.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S4",
+      "start": 240.0,
+      "end": 250.0,
+      "spoken_line": "It also said it did not open Rutherford's original pamphlet. Those distinctions matter. Fluency with links is not the same as opening the page.",
+      "on_screen_text": "SCREEN RECORDING PENDING",
+      "asset_path": null,
+      "receipt_uri": null,
+      "asset_kind": "pending real file: two-model screen recording"
+    },
+    {
+      "scene": "S4",
+      "start": 250.0,
+      "end": 260.0,
+      "spoken_line": "Then I asked the same S’gaw Karen question of both models. Neither test measured what a public model retains.",
+      "on_screen_text": "SCREEN RECORDING PENDING",
+      "asset_path": null,
+      "receipt_uri": null,
+      "asset_kind": "pending real file: two-model screen recording"
+    },
+    {
+      "scene": "S4",
+      "start": 260.0,
+      "end": 270.0,
+      "spoken_line": "Sonnet gave three speaker counts that do not agree: about 2 million, attributed to Omniglot; 2.2 million, attributed to Wikipedia; and 1,050,000, attributed to Oxford Reference. It marked a S’gaw-specific retention claim UNCITED.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/graphics/karen-counts.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S4",
+      "start": 270.0,
+      "end": 280.0,
+      "spoken_line": "The second model refused to give a speaker count. It cited Omniglot and Wikipedia for the language and script, then cited a general Google Research page about memorization.",
+      "on_screen_text": "SCREEN RECORDING PENDING",
+      "asset_path": null,
+      "receipt_uri": null,
+      "asset_kind": "pending real file: two-model screen recording"
+    },
+    {
+      "scene": "S4",
+      "start": 280.0,
+      "end": 290.0,
+      "spoken_line": "That page is not a measurement of S’gaw Karen retention. That's the red underline: conflicting counts and a mismatched memorization citation.",
+      "on_screen_text": "",
+      "asset_path": "assets/captures/google-privacy.png",
+      "receipt_uri": "https://research.google/blog/privacy-considerations-in-large-language-models/",
+      "asset_kind": "real file"
+    },
+    {
+      "scene": "S4",
+      "start": 290.0,
+      "end": 300.0,
+      "spoken_line": "It isn't a blank answer, and it isn't an invented alphabet. The pages are there. The receipt for model retention isn't.",
+      "on_screen_text": "SCREEN RECORDING PENDING",
+      "asset_path": null,
+      "receipt_uri": null,
+      "asset_kind": "pending real file: two-model screen recording"
+    },
+    {
+      "scene": "S5",
+      "start": 300.0,
+      "end": 310.0,
+      "spoken_line": "I want to be careful here.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 310.0,
+      "end": 320.0,
+      "spoken_line": "I didn't inspect the training data of either model. I didn't isolate reinforcement learning or prove alignment made either answer smooth.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 320.0,
+      "end": 330.0,
+      "spoken_line": "I ran two prompts through two different frontier models and read the replies against their sources. That's a small test with a useful lesson.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 330.0,
+      "end": 340.0,
+      "spoken_line": "The Lost Cause prompt showed a working boundary: both models pushed back on a false, flattering retelling. The remaining question is how they handled evidence.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 340.0,
+      "end": 350.0,
+      "spoken_line": "One sentence was flagged uncited. Some sources were known through excerpts.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 350.0,
+      "end": 360.0,
+      "spoken_line": "One original pamphlet was explicitly unopened. Those are meaningful admissions if you notice them.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 360.0,
+      "end": 370.0,
+      "spoken_line": "A row of links can be helpful, but a link is the start of checking, not the end. For S’gaw Karen, the disagreement isn't something to smooth away with a confident average.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 370.0,
+      "end": 380.0,
+      "spoken_line": "Different counts may refer to different definitions, dates, or populations. Until I inspect those methods, I will show the disagreement.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S5",
+      "start": 380.0,
+      "end": 390.0,
+      "spoken_line": "The model tests cannot tell me how much of this language either model remembers. They tell me what the answers claimed and failed to establish.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/004-rlhf-sphere.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S6",
+      "start": 390.0,
+      "end": 400.0,
+      "spoken_line": "What would a better receipt look like in the work I control?",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/005-provenance.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S6",
+      "start": 400.0,
+      "end": 410.0,
+      "spoken_line": "Here is a line from the KOA Website v4 Project Tracker: “Store validated training pairs and consent records.” Row 29. Priority zero.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/005-provenance.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S6",
+      "start": 410.0,
+      "end": 420.0,
+      "spoken_line": "Status: In Progress.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/005-provenance.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S6",
+      "start": 420.0,
+      "end": 430.0,
+      "spoken_line": "It is a task, not a shipped system, and I want that status visible on screen. Validated pairs mean a proposed input and output can be checked.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/005-provenance.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S6",
+      "start": 430.0,
+      "end": 440.0,
+      "spoken_line": "Consent records mean the source of a person's words and their permission can travel with the data. Neither magically solves language modeling.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/koa-tracker-row.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic rendered from source workbook"
+    },
+    {
+      "scene": "S6",
+      "start": 440.0,
+      "end": 450.0,
+      "spoken_line": "Both give a future builder somewhere to look when a claim is challenged.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/koa-tracker-row.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic rendered from source workbook"
+    },
+    {
+      "scene": "S6",
+      "start": 450.0,
+      "end": 460.0,
+      "spoken_line": "That's the practical lesson from an essay about memory: leave a trail another person can actually follow. If we show a generated image here, it will say it's a graphic.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/005-provenance.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S6",
+      "start": 460.0,
+      "end": 470.0,
+      "spoken_line": "The tracker asset says it is rendered from source cells, not a live spreadsheet. I don't get to demand provenance from a model and then hide the provenance of my own video.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/005-provenance.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 470.0,
+      "end": 480.0,
+      "spoken_line": "S’gaw Karen is not absent from the internet.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/006-karen-corpus.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 480.0,
+      "end": 490.0,
+      "spoken_line": "Omniglot has a page. Wikipedia has a page.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/007-single-shelf.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 490.0,
+      "end": 500.0,
+      "spoken_line": "Oxford Reference has an entry. People have written, taught, and preserved this language long before my test.",
+      "on_screen_text": "",
+      "asset_path": "assets/captures/wikipedia-sgaw.png",
+      "receipt_uri": "https://en.wikipedia.org/wiki/S%27gaw_Karen_language",
+      "asset_kind": "real file"
+    },
+    {
+      "scene": "S7",
+      "start": 500.0,
+      "end": 510.0,
+      "spoken_line": "The problem in these two replies was more specific: the public speaker counts didn't line up, and neither answer showed a S’gaw-specific measurement of what a model retained.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/007-single-shelf.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 510.0,
+      "end": 520.0,
+      "spoken_line": "Those are two different gaps. To reconcile counts, inspect source dates and definitions, not pick the number that looks most precise.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/006-karen-corpus.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 520.0,
+      "end": 530.0,
+      "spoken_line": "To measure model retention, design a test for that question, with known prompts, human review, and permission to use the material. A general article about memorization cannot stand in for that work.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/007-single-shelf.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 530.0,
+      "end": 540.0,
+      "spoken_line": "This matters to me because I've worked near Karen language preservation. A community's language is not raw material waiting for someone else's corpus.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/006-karen-corpus.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 540.0,
+      "end": 550.0,
+      "spoken_line": "Speakers, teachers, writers, and families have to shape what may be collected and what may stay private.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/007-single-shelf.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 550.0,
+      "end": 560.0,
+      "spoken_line": "The tracker line about validated pairs and consent records is small, but points in the right direction. I don't want an impressive demo no one can audit.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/006-karen-corpus.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 560.0,
+      "end": 570.0,
+      "spoken_line": "I want a record that answers: where did this come from, who checked it, and who said yes? The loud story now has documents at the point of the answer.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/007-single-shelf.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S7",
+      "start": 570.0,
+      "end": 580.0,
+      "spoken_line": "The quieter language has public pages, conflicting counts, and no retention receipt in this test. That is the comparison I can defend.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/006-karen-corpus.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 580.0,
+      "end": 590.0,
+      "spoken_line": "When I wrote “I read it and I didn't think twice about its accuracy,” I was talking about my younger self. Now I hear it as a question for every answer I read today.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 590.0,
+      "end": 600.0,
+      "spoken_line": "Did I inspect the source, or did I inspect the shape of a citation? Here are three habits I'm keeping.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 600.0,
+      "end": 610.0,
+      "spoken_line": "First: give the model a control where the record is strong. See whether it rejects the easy false story.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 610.0,
+      "end": 620.0,
+      "spoken_line": "Second: open the sources. Watch for excerpt-only reading, unopened originals, and claims pointing to a page on a related topic instead of the actual question.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 620.0,
+      "end": 630.0,
+      "spoken_line": "Third: when the record is thin or disputed, leave the disagreement visible and build the missing receipt with the people affected. Both models passed the first test.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 630.0,
+      "end": 640.0,
+      "spoken_line": "Neither measured S’gaw Karen retention. That's not a verdict on every model or every language.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 640.0,
+      "end": 650.0,
+      "spoken_line": "It is a clear next task for this project: validated pairs, consent records, and a test that earns its conclusion. I'm building that in public.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    },
+    {
+      "scene": "S8",
+      "start": 650.0,
+      "end": 660.0,
+      "spoken_line": "Next time, I'll show the build, including what still doesn't work. For now, don't stop at the link. Open the page.",
+      "on_screen_text": "GRAPHIC, NOT A CAPTURE",
+      "asset_path": "assets/008-callback.png",
+      "receipt_uri": null,
+      "asset_kind": "labeled graphic"
+    }
+  ]
+}
