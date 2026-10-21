@@ -1,0 +1,2 @@
+sopro==2.2.0
+soundfile>=0.12.1

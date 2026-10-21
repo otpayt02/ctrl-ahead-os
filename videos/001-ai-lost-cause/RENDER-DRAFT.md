@@ -6,6 +6,8 @@ The narration now reflects Oliver's reported two-frontier-model tests: both mode
 
 ## Remotion narration-cue preview (2026-10-20)
 
+Local voice draft update (2026-10-21): eight private Sopro chapter WAVs now exist in ignored `vo/`; their combined speech duration is 540.46 seconds. `npm.cmd --prefix videos/render run prepare` detected eight VO tracks and 13 assets. The combined review MP3 is `vo/full-voice-draft.mp3`. Oliver requested the spoken form “SUH-GAW”; chapters 4, 5, 7, and 8 were regenerated with that phonetic input. Owner listening and cue alignment are still needed. The real Chapter 4 two-model recording remains pending; no new final MP4 was rendered.
+
 `narration-cues.json` now provides 29 short, spoken-anchor cues. Remotion reads them during `prepare` and reveals their text with a masked word stagger. On scenes with these cues, the earlier seeded pacing chips and static chapter-wide kinetic caption are suppressed. Chapter titles and evidence graphics receive masked reveals too. The cue times are explicitly **editorial estimates** from the 67 visual beats; they are not word-aligned to Oliver's voice. Remotion Studio was inspected at frame 300 (the essay line) and frame 6030 (the Lost Cause control graphic and phrase cue). No final MP4 was rendered. Once approved chapter VO and word timestamps exist, run `align_narration_cues.py <word-timings.json>`, inspect the Studio timing, and then clear the final-render gate after the real S4 recording is present.
 
 The local draft is `../render/out/001-ai-lost-cause-draft-final.mp4`. It is intentionally git-ignored; render it again with `cd videos/render && npm.cmd run render`.

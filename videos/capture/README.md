@@ -30,6 +30,21 @@ Close the login browser to save its profile, then run `s4` with the browser visi
 
 If a thread cannot be reopened, or the expected reply text is hidden by a login wall, the command fails and leaves S4 pending. Do not substitute a newly generated answer for the recorded test.
 
+## Local voice draft
+
+Oliver's confirmed voice reference stays under the ignored `capture-inputs/voice-candidates/` directory. The local Sopro script uses that reference for zero-shot synthesis; it does not train or upload a voice model. The generated chapter WAVs and combined review audio stay under the ignored `../001-ai-lost-cause/vo/` directory.
+
+```powershell
+cd C:\Users\olive\Projects\ctrl-ahead-os\videos\capture
+& .venv\Scripts\python.exe -m pip install -r requirements-voice.txt
+& .venv\Scripts\python.exe scripts\generate-local-vo.py
+# To regenerate only chapters containing S'gaw Karen:
+& .venv\Scripts\python.exe scripts\generate-local-vo.py 4 5 7 8 --sgaw-spoken "suh gaw"
+npm.cmd --prefix ..\render run prepare
+```
+
+The default reference path is `capture-inputs/voice-candidates/past-reference-final.wav`. Use `--reference <path>` for a different locally held owner recording. Listen to the WAVs before approval: written captions retain “S’gaw,” while the synthesizer receives Oliver's requested spoken form “suh gaw.” `prepare` detects chapter tracks but does not clear the Chapter 4 recording gate.
+
 ## Hands-off captures
 
 | Command | What it does | Fills | Output |
