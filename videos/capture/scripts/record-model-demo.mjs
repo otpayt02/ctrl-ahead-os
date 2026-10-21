@@ -1,9 +1,7 @@
-// Records the same question in two model UIs with your logged-in sessions,
-// then composites both side-by-side into a 1920x1080 MP4 and writes the ledger entry.
+// Records a NEW same-question comparison. This cannot document the earlier S4 tests.
 import {chromium} from 'playwright';
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
-import {addEntry} from './ledger.mjs';
 
 const cfg = JSON.parse(fs.readFileSync('capture.config.json', 'utf8'));
 const demo = cfg.model_demo;
@@ -57,10 +55,4 @@ execFileSync(ffmpeg, [
   '-r', '30', '-c:v', 'libx264', '-crf', '22', '-pix_fmt', 'yuv420p', out,
 ], {stdio: 'inherit'});
 console.log(`Composited ${out}`);
-
-addEntry({
-  scene_id: 'S4', start: 0, end: 110, type: 'screen-recording', asset: `assets/${demo.out}`,
-  text: `Live two-model comparison recorded via Playwright (${clips.map((c) => c.name).join(' vs ')}).`,
-  annotation: {reason: 'S4 evidence: same question asked to two models to compare citation behavior.'},
-  provenance: {tool: 'playwright', question: demo.question},
-});
+console.log('New-run demo only: no S4 evidence-ledger entry was written.');

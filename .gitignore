@@ -31,3 +31,6 @@ __pycache__/
 /videos/*/vo/
 /videos/*/recordings/
 /videos/*/vo-word-timings.json
+/videos/001-ai-lost-cause/assets/s4-two-model-replay.mp4
+/videos/001-ai-lost-cause/assets/screen-compare-new-run.mp4
+/videos/001-ai-lost-cause/assets/screen-compare.mp4

@@ -1,0 +1,35 @@
+{
+  "seconds_per_test": 55,
+  "cases": [
+    {
+      "id": "lost-cause",
+      "sources": [
+        {
+          "name": "Sonnet 5.5",
+          "url": "PASTE_THE_SAVED_PERPLEXITY_THREAD_URL",
+          "expected_text": "PASTE_A_VISIBLE_PHRASE_FROM_THIS_REPLY"
+        },
+        {
+          "name": "second model",
+          "url": "PASTE_THE_SAVED_PERPLEXITY_THREAD_URL",
+          "expected_text": "PASTE_A_VISIBLE_PHRASE_FROM_THIS_REPLY"
+        }
+      ]
+    },
+    {
+      "id": "sgaw-karen",
+      "sources": [
+        {
+          "name": "Sonnet 5.5",
+          "url": "PASTE_THE_SAVED_PERPLEXITY_THREAD_URL",
+          "expected_text": "PASTE_A_VISIBLE_PHRASE_FROM_THIS_REPLY"
+        },
+        {
+          "name": "second model",
+          "url": "PASTE_THE_SAVED_PERPLEXITY_THREAD_URL",
+          "expected_text": "PASTE_A_VISIBLE_PHRASE_FROM_THIS_REPLY"
+        }
+      ]
+    }
+  ]
+}

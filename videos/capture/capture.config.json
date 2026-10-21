@@ -8,6 +8,7 @@
     "chatgpt": { "url": "https://chatgpt.com/" },
     "gemini": { "url": "https://gemini.google.com/app" },
     "claude": { "url": "https://claude.ai/" },
+    "perplexity": { "url": "https://www.perplexity.ai/" },
     "google": { "url": "https://drive.google.com/" }
   },
   "model_demo": {
@@ -17,7 +18,7 @@
       { "name": "gemini", "url": "https://gemini.google.com/app", "input_selector": "rich-textarea, div[contenteditable=\"true\"], textarea", "warmup_ms": 5000 }
     ],
     "settle": { "stable_ms": 9000, "timeout_ms": 240000 },
-    "out": "screen-compare.mp4"
+    "out": "screen-compare-new-run.mp4"
   },
   "tracker": {
     "drive_file_id": "1ZeUjs2wwbyvznXUKsAP9v_Y_kYNA1xNI",

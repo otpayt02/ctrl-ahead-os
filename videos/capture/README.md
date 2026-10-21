@@ -1,15 +1,34 @@
 # CTRL AHEAD — Artifact Capture Kit
 
-Hands-off capture of every real-world artifact the video pipeline needs. Playwright drives your logged-in browser; ffmpeg (already bundled in `../render/`) composites and records. Every capture writes an entry to the video's evidence ledger, which the renderer's slot-merge consumes.
+Playwright drives a logged-in browser; ffmpeg (bundled in `../render/`) composites the recordings. The S4 replay command opens saved model replies and writes a ledger entry only after all four pages are verified and captured.
 
-## One-time setup (the only manual steps, ever)
+## One-time setup
 
 1. `npm install`
 2. `npx playwright install chromium`
 3. Log in once per site — sessions persist in gitignored browser profiles:
    - `npm run login -- chatgpt`
    - `npm run login -- gemini`
+   - `npm run login -- perplexity` (for the saved Chapter 4 test threads)
    - `npm run login -- google`  (Drive — for the tracker shot)
+
+## Record the actual Chapter 4 model tests
+
+The earlier tests used two frontier models inside Perplexity. A fresh ChatGPT/Gemini query cannot reproduce those replies. To record the **existing** replies, copy `s4-replay.example.json` to the ignored `capture-inputs/s4-replay.json`. Supply four saved Perplexity thread URLs: two Lost Cause replies and two S’gaw Karen replies. For each URL, paste a short phrase that is visibly present in that reply into `expected_text`. Do not put URLs or raw replies in the tracked example file.
+
+```powershell
+cd C:\Users\olive\Projects\ctrl-ahead-os\videos\capture
+npm.cmd install
+npx.cmd playwright install chromium
+npm.cmd run login -- perplexity
+Copy-Item s4-replay.example.json capture-inputs\s4-replay.json
+# Edit capture-inputs\s4-replay.json with the four saved thread URLs and phrases.
+npm.cmd run s4
+```
+
+Close the login browser to save its profile, then run `s4` with the browser visible. The command opens each exact URL, waits for its expected phrase, saves a proof screenshot and video, and stacks the two model replies for each test. It joins the two 55-second comparisons into a 1920×1080, 110-second `assets/s4-two-model-replay.mp4`. Only a successful four-thread capture replaces `S4-PENDING-TWO-MODEL-CAPTURE` with the **190–300 second** ledger slot. The video and private URL provenance remain Git-ignored; the tracked ledger stores URL hashes and a pending owner-review status. Inspect the four screenshots under `out/s4-replay/`, play the resulting MP4, and compare the visible replies with `../001-ai-lost-cause/script.md` before treating S4 as cleared.
+
+If a thread cannot be reopened, or the expected reply text is hidden by a login wall, the command fails and leaves S4 pending. Do not substitute a newly generated answer for the recorded test.
 
 ## Hands-off captures
 
@@ -17,7 +36,8 @@ Hands-off capture of every real-world artifact the video pipeline needs. Playwri
 |---|---|---|---|
 | `npm run face` | Takes your Veo face clip + your VO recording from `capture-inputs/`, re-lipsyncs the mouth to your voice, trims to 1080p, muxes your audio | S1 face footage | `../001-ai-lost-cause/assets/face-hook.mp4` |
 | `npm run vo` | Records your mic to `capture-inputs/hook-vo.wav` (list devices first, then pass `-Mic "<name>"`) | S1 VO | `capture-inputs/hook-vo.wav` |
-| `npm run demo` | Types the Lost Cause question into ChatGPT + Gemini, records both streaming answers, composites side-by-side 1920x1080 | S4 screen-recording | `../001-ai-lost-cause/assets/screen-compare.mp4` |
+| `npm run s4` | Opens four saved Perplexity replies, verifies visible text, and composites the two tests | S4 after owner review | `../001-ai-lost-cause/assets/s4-two-model-replay.mp4` |
+| `npm run demo` | Asks ChatGPT + Gemini the config question as a new, separate experiment; does not change S4 evidence | New-run demo only | `../001-ai-lost-cause/assets/screen-compare-new-run.mp4` |
 | `npm run tracker` | Opens the KOA v4 tracker Drive preview, spotlights the provenance row in amber, screenshots it | S6 tracker screenshot | `../001-ai-lost-cause/assets/koa-tracker-row.png` |
 | `npm run webcam` | Records 6s face hook footage from your webcam via ffmpeg dshow (fallback if you skip the Veo route) | S1 face footage | `../001-ai-lost-cause/assets/face-hook.mp4` |
 | `npm run snap -- --url <url> [--text "..."] [--sel "..."] [--out name.png] [--scene S6] [--note "..."]` | Generic screenshot of any page, optionally scrolled/highlighted to matching text | any evidence slot | `../001-ai-lost-cause/assets/` |
@@ -28,7 +48,7 @@ Face stills for the face-cam box: copy your best local picture (Pictures folder,
 
 ## Evidence ledger
 
-Every command appends a `manifest_slots`-shaped entry (scene, start/end, type, asset, annotation, provenance) to `../001-ai-lost-cause/evidence-ledger.json`. The renderer's existing evidence-slot merge places them into chapters; ledger slots outrank pacing overlays on collision.
+Capture commands that establish a matching artifact write to `../001-ai-lost-cause/evidence-ledger.json`. `npm run demo` does not write an S4 entry. `npm run s4` replaces the pending S4 entry only after all four saved replies are visible and a complete video is written. The renderer's evidence-slot merge places ledger assets into chapters; ledger slots outrank pacing overlays on collision.
 
 ## Codex run prompt (paste after captures)
 
