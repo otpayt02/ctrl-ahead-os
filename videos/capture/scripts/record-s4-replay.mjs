@@ -13,9 +13,16 @@ const configPath = path.resolve(captureDir, process.argv[2] ?? 'capture-inputs/s
 const outDir = path.join(captureDir, 'out', 's4-replay');
 const outputPath = path.join(videoDir, 'assets', 's4-two-model-replay.mp4');
 const ledgerPath = path.join(videoDir, 'evidence-ledger.json');
-const bundledFfmpeg = path.resolve(captureDir, '../render/node_modules/@remotion/compositor-win32-x64-msvc/ffmpeg.exe');
-const ffmpeg = process.env.FFMPEG_PATH || (fs.existsSync(bundledFfmpeg) ? bundledFfmpeg : 'ffmpeg');
+// Remotion's small FFmpeg binary omits the hstack/concat filters used here.
+const ffmpeg = process.env.FFMPEG_PATH || 'ffmpeg';
 const profile = path.join(captureDir, 'auth', 'profile-perplexity');
+const installedChrome = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const executablePath = process.env.S4_BROWSER_PATH || (fs.existsSync(installedChrome) ? installedChrome : undefined);
+
+const filters = execFileSync(ffmpeg, ['-hide_banner', '-filters'], {encoding: 'utf8'});
+if (!/\bhstack\b/.test(filters) || !/\bconcat\b/.test(filters)) {
+  throw new Error('S4 needs a full FFmpeg build with hstack and concat filters.');
+}
 
 function sha256(value) {
   return createHash('sha256').update(value).digest('hex');
@@ -51,24 +58,51 @@ async function capture(source, caseId, sourceIndex, seconds) {
   const startedAt = Date.now();
   const context = await chromium.launchPersistentContext(profile, {
     headless: false,
+    ...(executablePath ? {executablePath} : {}),
     viewport: {width: 960, height: 1080},
     recordVideo: {dir: outDir, size: {width: 960, height: 1080}},
   });
   try {
     const page = context.pages()[0] ?? await context.newPage();
     await page.goto(source.url, {waitUntil: 'domcontentloaded', timeout: 90000});
+    await page.waitForTimeout(1800);
+    const dismissLogin = page.getByText('Close', {exact: true}).first();
+    if (await dismissLogin.isVisible().catch(() => false)) await dismissLogin.click();
+    const declineCookies = page.getByText('Decline optional', {exact: true}).first();
+    if (await declineCookies.isVisible().catch(() => false)) await declineCookies.click();
     const proof = page.getByText(source.expected_text, {exact: false}).first();
     await proof.waitFor({state: 'visible', timeout: 90000});
     await proof.scrollIntoViewIfNeeded();
     await page.waitForTimeout(750);
-    const bounds = await proof.boundingBox();
-    if (!bounds || bounds.y >= 1080 || bounds.y + bounds.height <= 0) {
-      throw new Error(`${caseId}: expected reply text is not visible for ${source.name}.`);
+    await page.keyboard.press('Escape');
+    // Perplexity's shared-session sign-in modal has an unlabeled close icon.
+    if (await page.getByText('Login or sign up for free').isVisible().catch(() => false)) {
+      await page.mouse.click(755, 310);
     }
+    // Shared links can leave a second, smaller sign-in popover at bottom right.
+    if (await page.getByText('Login or sign up for free').isVisible().catch(() => false)) {
+      await page.mouse.click(920, 668);
+    }
+    if (await page.getByText('Login or sign up for free').isVisible().catch(() => false)) {
+      throw new Error(`${caseId}: sign-in prompt still covers ${source.name}'s reply.`);
+    }
+    await page.waitForTimeout(900);
+    await proof.evaluate((element) => element.scrollIntoView({block: 'center'}));
+    await page.waitForTimeout(500);
+    if (await dismissLogin.isVisible().catch(() => false)) await dismissLogin.click();
+    if (await declineCookies.isVisible().catch(() => false)) await declineCookies.click();
     const openedAt = new Date().toISOString();
     const readyOffset = Math.max(0, (Date.now() - startedAt) / 1000 - 0.25);
     const screenshot = path.join(outDir, `${caseId}-${sourceIndex + 1}.png`);
     await page.screenshot({path: screenshot});
+    const visibleText = await page.evaluate((phrase) => {
+      const rect = Array.from(document.querySelectorAll('body *'))
+        .filter((element) => element.textContent?.includes(phrase))
+        .map((element) => element.getBoundingClientRect())
+        .find((box) => box.width > 0 && box.height > 0 && box.width * box.height < innerWidth * innerHeight && box.top < innerHeight && box.bottom > 0);
+      return Boolean(rect);
+    }, source.expected_text);
+    if (!visibleText) throw new Error(`${caseId}: expected reply phrase is outside the saved screenshot for ${source.name}.`);
     console.log(`${caseId}: verified visible reply from ${source.name}; recording ${seconds}s`);
     await page.waitForTimeout((seconds + 2) * 1000);
     const video = page.video();

@@ -1,5 +1,9 @@
 # Silent pacing draft
 
+## Saved-thread S4 capture (2026-10-21)
+
+Oliver supplied two Perplexity thread URLs; each contained both the Lost Cause and S’gaw Karen replies. Playwright recorded four visible reply views, and FFmpeg joined them into ignored `assets/s4-two-model-replay.mp4`: **110.000 seconds, 1920×1080, 30 fps, H.264, 5,385,097 bytes**. The four full-browser screenshots and private URLs are in ignored `videos/capture/out/s4-replay/`; the ledger holds hashes and replaces the pending slot at 190–300 seconds. Frames at clip seconds 5, 60, and 105 were decoded and visually inspected. `prepare` detected 14 assets and eight VO tracks. The screen recording uses static reply views for each 55-second test, so spoken cue alignment and owner content review remain open. No final video render or publication has been approved. Earlier dated notes below describe the prior pending state.
+
 ## Model-test revision gate (2026-10-20)
 
 The narration now reflects Oliver's reported two-frontier-model tests: both models rejected the flattering Lost Cause prompt; the S'gaw Karen replies left conflicting counts and no model-retention measurement. Chapter 4's real two-model screen recording is still pending, so **do not render or publish a final video**. The three new test graphics say “GRAPHIC, NOT A CAPTURE” and cite Oliver's pasted summary, not a website or a raw model transcript. The editorial choreography covers 0–660 seconds; its timings must be aligned to the approved voice recording. Browser captures and blocked-page evidence are documented in `assets/captures/provenance.json`. The old MP4s remain ignored review copies of the superseded script. The manifest's inaccurate old overlays were corrected, but its final S4 timing and cuts must be checked against the approved capture before rendering.

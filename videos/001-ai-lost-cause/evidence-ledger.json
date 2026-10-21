@@ -23,15 +23,34 @@
     }
   },
   {
-    "id": "S4-PENDING-TWO-MODEL-CAPTURE",
+    "id": "S4-RECORDED-TWO-MODEL-CAPTURE",
     "scene_id": "S4",
     "start": 190,
-    "end": 200,
-    "type": "screen-recording-pending",
-    "asset": null,
-    "text": "Oliver's real two-frontier-model screen recording is pending. No model UI is represented.",
+    "end": 300,
+    "type": "screen-recording",
+    "asset": "assets/s4-two-model-replay.mp4",
+    "text": "Saved two-model replies for both the Lost Cause and S’gaw Karen tests.",
+    "annotation": {
+      "reason": "Actual saved model threads; content match awaits Oliver’s review."
+    },
     "provenance": {
-      "status": "pending owner capture"
+      "tool": "Playwright",
+      "captured_at": "2026-10-21T22:20:19.938Z",
+      "source_url_sha256": [
+        "f36af4c9509f98459d71b9fb406211b44a6a39a6b27eb8b663f438818b12ea43",
+        "624d95f71c3e12801eacc5a68cdc0ae8241050aa3146bff7c62e2e6699b05cf9",
+        "f36af4c9509f98459d71b9fb406211b44a6a39a6b27eb8b663f438818b12ea43",
+        "624d95f71c3e12801eacc5a68cdc0ae8241050aa3146bff7c62e2e6699b05cf9"
+      ],
+      "screenshot_sha256": [
+        "143f90cadb10b0c9cc61fa6b4e90fe6be66e67fe818e99181fb2f5eb3c080668",
+        "1c035a53f3173ae5ee7971ae4bbdd542141f6c1ae1ac580e0f78d667fe4d0bbc",
+        "ef117c068964767824465b20e7d039ef9c0ccb976556b05082c58c738f51e2c9",
+        "74499de4620f2d8cd9866da8c2e1acf9b6af1945b22fcfe39c1ebc85f5a594b4"
+      ],
+      "video_sha256": "0bc92d259d5bc41ecf0c61cd6da4bbc080d1632d382a5e9c525f580ca127a8e7",
+      "review_status": "pending owner content review",
+      "private_url_record": "videos/capture/out/s4-replay/provenance.json"
     }
   },
   {

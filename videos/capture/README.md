@@ -1,6 +1,6 @@
 # CTRL AHEAD — Artifact Capture Kit
 
-Playwright drives a logged-in browser; ffmpeg (bundled in `../render/`) composites the recordings. The S4 replay command opens saved model replies and writes a ledger entry only after all four pages are verified and captured.
+Playwright drives a visible Chrome browser; a full FFmpeg installation with `hstack` and `concat` filters composites the recordings. The S4 replay command opens saved model replies and writes a ledger entry only after all four reply views are verified and captured.
 
 ## One-time setup
 
@@ -14,7 +14,7 @@ Playwright drives a logged-in browser; ffmpeg (bundled in `../render/`) composit
 
 ## Record the actual Chapter 4 model tests
 
-The earlier tests used two frontier models inside Perplexity. A fresh ChatGPT/Gemini query cannot reproduce those replies. To record the **existing** replies, copy `s4-replay.example.json` to the ignored `capture-inputs/s4-replay.json`. Supply four saved Perplexity thread URLs: two Lost Cause replies and two S’gaw Karen replies. For each URL, paste a short phrase that is visibly present in that reply into `expected_text`. Do not put URLs or raw replies in the tracked example file.
+The earlier tests used two frontier models inside Perplexity. A fresh ChatGPT/Gemini query cannot reproduce those replies. To record the **existing** replies, copy `s4-replay.example.json` to the ignored `capture-inputs/s4-replay.json`. One thread URL can contain both prompts from a model: enter that same URL for its Lost Cause and S’gaw Karen entries. For each entry, paste a short phrase visibly present in that specific reply into `expected_text`. Keep thread URLs and raw replies in the ignored config, not the tracked example file.
 
 ```powershell
 cd C:\Users\olive\Projects\ctrl-ahead-os\videos\capture
@@ -26,7 +26,7 @@ Copy-Item s4-replay.example.json capture-inputs\s4-replay.json
 npm.cmd run s4
 ```
 
-Close the login browser to save its profile, then run `s4` with the browser visible. The command opens each exact URL, waits for its expected phrase, saves a proof screenshot and video, and stacks the two model replies for each test. It joins the two 55-second comparisons into a 1920×1080, 110-second `assets/s4-two-model-replay.mp4`. Only a successful four-thread capture replaces `S4-PENDING-TWO-MODEL-CAPTURE` with the **190–300 second** ledger slot. The video and private URL provenance remain Git-ignored; the tracked ledger stores URL hashes and a pending owner-review status. Inspect the four screenshots under `out/s4-replay/`, play the resulting MP4, and compare the visible replies with `../001-ai-lost-cause/script.md` before treating S4 as cleared.
+Close the login browser to save its profile, then run `s4` with the browser visible. Public shared threads can also open without signing in. The command opens each exact URL, waits for its expected phrase, saves a proof screenshot and video, and stacks the two model replies for each test. It joins the two 55-second comparisons into a 1920×1080, 110-second `assets/s4-two-model-replay.mp4`. Only a successful four-reply capture replaces `S4-PENDING-TWO-MODEL-CAPTURE` with the **190–300 second** ledger slot. The video and private URL provenance remain Git-ignored; the tracked ledger stores URL hashes and a pending owner-review status. Inspect the four screenshots under `out/s4-replay/`, play the resulting MP4, and compare the visible replies with `../001-ai-lost-cause/script.md` before treating S4 as cleared.
 
 If a thread cannot be reopened, or the expected reply text is hidden by a login wall, the command fails and leaves S4 pending. Do not substitute a newly generated answer for the recorded test.
 

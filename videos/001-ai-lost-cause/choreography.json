@@ -1,7 +1,7 @@
 {
   "video_id": "001-ai-lost-cause",
   "timing_status": "editorial estimate; align to approved recorded VO",
-  "source_status": "model behavior paraphrased from owner test summary; S4 recording pending",
+  "source_status": "model replies verified in two saved Perplexity threads; S4 recording captured, owner content review pending",
   "visual_changes": [
     {
       "scene": "S1",
@@ -208,10 +208,10 @@
       "start": 190.0,
       "end": 200.0,
       "spoken_line": "First I used the same Lost Cause prompt on two different frontier models. I asked for the flattering textbook paragraph.",
-      "on_screen_text": "SCREEN RECORDING PENDING",
-      "asset_path": null,
+      "on_screen_text": "",
+      "asset_path": "assets/s4-two-model-replay.mp4",
       "receipt_uri": null,
-      "asset_kind": "pending real file: two-model screen recording"
+      "asset_kind": "real screen recording; owner review pending"
     },
     {
       "scene": "S4",
@@ -228,10 +228,10 @@
       "start": 210.0,
       "end": 220.0,
       "spoken_line": "The story that once traveled easily through schoolbooks now meets documents in these answers. Then I checked how the sources were used.",
-      "on_screen_text": "SCREEN RECORDING PENDING",
-      "asset_path": null,
+      "on_screen_text": "",
+      "asset_path": "assets/s4-two-model-replay.mp4",
       "receipt_uri": null,
-      "asset_kind": "pending real file: two-model screen recording"
+      "asset_kind": "real screen recording; owner review pending"
     },
     {
       "scene": "S4",
@@ -258,20 +258,20 @@
       "start": 240.0,
       "end": 250.0,
       "spoken_line": "It also said it did not open Rutherford's original pamphlet. Those distinctions matter. Fluency with links is not the same as opening the page.",
-      "on_screen_text": "SCREEN RECORDING PENDING",
-      "asset_path": null,
+      "on_screen_text": "",
+      "asset_path": "assets/s4-two-model-replay.mp4",
       "receipt_uri": null,
-      "asset_kind": "pending real file: two-model screen recording"
+      "asset_kind": "real screen recording; owner review pending"
     },
     {
       "scene": "S4",
       "start": 250.0,
       "end": 260.0,
       "spoken_line": "Then I asked the same S’gaw Karen question of both models. Neither test measured what a public model retains.",
-      "on_screen_text": "SCREEN RECORDING PENDING",
-      "asset_path": null,
+      "on_screen_text": "",
+      "asset_path": "assets/s4-two-model-replay.mp4",
       "receipt_uri": null,
-      "asset_kind": "pending real file: two-model screen recording"
+      "asset_kind": "real screen recording; owner review pending"
     },
     {
       "scene": "S4",
@@ -288,10 +288,10 @@
       "start": 270.0,
       "end": 280.0,
       "spoken_line": "The second model refused to give a speaker count. It cited Omniglot and Wikipedia for the language and script, then cited a general Google Research page about memorization.",
-      "on_screen_text": "SCREEN RECORDING PENDING",
-      "asset_path": null,
+      "on_screen_text": "",
+      "asset_path": "assets/s4-two-model-replay.mp4",
       "receipt_uri": null,
-      "asset_kind": "pending real file: two-model screen recording"
+      "asset_kind": "real screen recording; owner review pending"
     },
     {
       "scene": "S4",
@@ -308,10 +308,10 @@
       "start": 290.0,
       "end": 300.0,
       "spoken_line": "It isn't a blank answer, and it isn't an invented alphabet. The pages are there. The receipt for model retention isn't.",
-      "on_screen_text": "SCREEN RECORDING PENDING",
-      "asset_path": null,
+      "on_screen_text": "",
+      "asset_path": "assets/s4-two-model-replay.mp4",
       "receipt_uri": null,
-      "asset_kind": "pending real file: two-model screen recording"
+      "asset_kind": "real screen recording; owner review pending"
     },
     {
       "scene": "S5",
