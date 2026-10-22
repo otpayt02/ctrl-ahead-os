@@ -7,3 +7,4 @@ Captured 2026-10-22 UTC in `/workspace/ctrl-ahead-os`.
 - All website panels are original vector explanatory art, with on-screen `illustrative graphic` labels. Cursor scene also says `illustrative demo`.
 - Face-media slot: no authorized presenter clip located for this Short; no likeness generated.
 - Temporary voice: FFmpeg flite generated locally for review. Audio file is ignored by Git. Word timing is estimated from segment pacing; audible alignment still requires human listening and a real-voice pass.
+- Review audio verification: ffmpeg silencedetect found non-silent segment ends at 1.76, 1.35, 1.37, 1.51, 1.53, 1.84, 2.56, 3.97, 2.45, and 3.90 seconds within the ten scene slots. Subtitle events were retimed within these spans. Exact audible word boundaries were not established.
