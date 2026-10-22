@@ -1,0 +1,1254 @@
+{
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 40
+  },
+  "temporary_voice": true,
+  "timing_status": "estimated; human audible alignment pending",
+  "events": [
+    {
+      "time": 0,
+      "spoken_words": "That website has no API. Your AI agent can still use it.",
+      "component": "StickerCutout",
+      "asset": "original vector scene 1; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 3,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 0.12,
+      "spoken_words": "That website has no API. Your AI agent can still use it.",
+      "component": "WordReveal",
+      "asset": "NO API",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 0.24,
+      "spoken_words": "That",
+      "component": "SubtitleChip",
+      "asset": "That",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 0.44,
+      "spoken_words": "website",
+      "component": "SubtitleChip",
+      "asset": "website",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 0.6,
+      "spoken_words": "That website has no API. Your AI agent can still use it.",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 0.65,
+      "spoken_words": "has",
+      "component": "SubtitleChip",
+      "asset": "has",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 0.85,
+      "spoken_words": "no",
+      "component": "SubtitleChip",
+      "asset": "no",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 1.06,
+      "spoken_words": "API",
+      "component": "SubtitleChip",
+      "asset": "API",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 1.26,
+      "spoken_words": "Your",
+      "component": "SubtitleChip",
+      "asset": "Your",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 1.3,
+      "spoken_words": "That website has no API. Your AI agent can still use it.",
+      "component": "StickerCutout",
+      "asset": "object shift",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 1.47,
+      "spoken_words": "AI",
+      "component": "SubtitleChip",
+      "asset": "AI",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 1.67,
+      "spoken_words": "agent",
+      "component": "SubtitleChip",
+      "asset": "agent",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 1.87,
+      "spoken_words": "can",
+      "component": "SubtitleChip",
+      "asset": "can",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 2.08,
+      "spoken_words": "still",
+      "component": "SubtitleChip",
+      "asset": "still",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 2.28,
+      "spoken_words": "use",
+      "component": "SubtitleChip",
+      "asset": "use",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 2.49,
+      "spoken_words": "it",
+      "component": "SubtitleChip",
+      "asset": "it",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 3,
+      "spoken_words": "It looks at the page...",
+      "component": "StickerCutout",
+      "asset": "original vector scene 2; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 3,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 3.12,
+      "spoken_words": "It looks at the page...",
+      "component": "WordReveal",
+      "asset": "LOOK",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 3.24,
+      "spoken_words": "It",
+      "component": "SubtitleChip",
+      "asset": "It",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 3.6,
+      "spoken_words": "It looks at the page...",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 3.73,
+      "spoken_words": "looks",
+      "component": "SubtitleChip",
+      "asset": "looks",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 4.22,
+      "spoken_words": "at",
+      "component": "SubtitleChip",
+      "asset": "at",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 4.3,
+      "spoken_words": "It looks at the page...",
+      "component": "CursorAction",
+      "asset": "illustrative demo",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 4.71,
+      "spoken_words": "the",
+      "component": "SubtitleChip",
+      "asset": "the",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 5.2,
+      "spoken_words": "page",
+      "component": "SubtitleChip",
+      "asset": "page",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 6,
+      "spoken_words": "...clicks a control...",
+      "component": "StickerCutout",
+      "asset": "original vector scene 3; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 3,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 6.12,
+      "spoken_words": "...clicks a control...",
+      "component": "WordReveal",
+      "asset": "CLICK",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 6.24,
+      "spoken_words": "clicks",
+      "component": "SubtitleChip",
+      "asset": "clicks",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 6.6,
+      "spoken_words": "...clicks a control...",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 7.06,
+      "spoken_words": "a",
+      "component": "SubtitleChip",
+      "asset": "a",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 7.3,
+      "spoken_words": "...clicks a control...",
+      "component": "CursorAction",
+      "asset": "illustrative demo",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 7.87,
+      "spoken_words": "control",
+      "component": "SubtitleChip",
+      "asset": "control",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 9,
+      "spoken_words": "...then checks what changed.",
+      "component": "StickerCutout",
+      "asset": "original vector scene 4; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 3,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 9.12,
+      "spoken_words": "...then checks what changed.",
+      "component": "WordReveal",
+      "asset": "CHECK",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 9.24,
+      "spoken_words": "then",
+      "component": "SubtitleChip",
+      "asset": "then",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 9.6,
+      "spoken_words": "...then checks what changed.",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 9.85,
+      "spoken_words": "checks",
+      "component": "SubtitleChip",
+      "asset": "checks",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 10.3,
+      "spoken_words": "...then checks what changed.",
+      "component": "CursorAction",
+      "asset": "illustrative demo",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 10.46,
+      "spoken_words": "what",
+      "component": "SubtitleChip",
+      "asset": "what",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 11.08,
+      "spoken_words": "changed",
+      "component": "SubtitleChip",
+      "asset": "changed",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 12,
+      "spoken_words": "That's computer use: the agent works through the interface you can see.",
+      "component": "StickerCutout",
+      "asset": "original vector scene 5; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 4,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 12.12,
+      "spoken_words": "That's computer use: the agent works through the interface you can see.",
+      "component": "WordReveal",
+      "asset": "COMPUTER USE",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 12.24,
+      "spoken_words": "That's",
+      "component": "SubtitleChip",
+      "asset": "That's",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 12.53,
+      "spoken_words": "computer",
+      "component": "SubtitleChip",
+      "asset": "computer",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 12.6,
+      "spoken_words": "That's computer use: the agent works through the interface you can see.",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 12.81,
+      "spoken_words": "use",
+      "component": "SubtitleChip",
+      "asset": "use",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 13.1,
+      "spoken_words": "the",
+      "component": "SubtitleChip",
+      "asset": "the",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 13.3,
+      "spoken_words": "That's computer use: the agent works through the interface you can see.",
+      "component": "StickerCutout",
+      "asset": "object shift",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 13.39,
+      "spoken_words": "agent",
+      "component": "SubtitleChip",
+      "asset": "agent",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 13.68,
+      "spoken_words": "works",
+      "component": "SubtitleChip",
+      "asset": "works",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 13.96,
+      "spoken_words": "through",
+      "component": "SubtitleChip",
+      "asset": "through",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 14.25,
+      "spoken_words": "the",
+      "component": "SubtitleChip",
+      "asset": "the",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 14.54,
+      "spoken_words": "interface",
+      "component": "SubtitleChip",
+      "asset": "interface",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 14.83,
+      "spoken_words": "you",
+      "component": "SubtitleChip",
+      "asset": "you",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 15.12,
+      "spoken_words": "can",
+      "component": "SubtitleChip",
+      "asset": "can",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 15.4,
+      "spoken_words": "see",
+      "component": "SubtitleChip",
+      "asset": "see",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 16,
+      "spoken_words": "Forms, dashboards, pages that never offered a developer endpoint.",
+      "component": "StickerCutout",
+      "asset": "original vector scene 6; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 4,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 16.12,
+      "spoken_words": "Forms, dashboards, pages that never offered a developer endpoint.",
+      "component": "WordReveal",
+      "asset": "FORMS \u00b7 DASHBOARDS",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 16.24,
+      "spoken_words": "Forms",
+      "component": "SubtitleChip",
+      "asset": "Forms",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 16.6,
+      "spoken_words": "Forms, dashboards, pages that never offered a developer endpoint.",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 16.62,
+      "spoken_words": "dashboards",
+      "component": "SubtitleChip",
+      "asset": "dashboards",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 17.01,
+      "spoken_words": "pages",
+      "component": "SubtitleChip",
+      "asset": "pages",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 17.3,
+      "spoken_words": "Forms, dashboards, pages that never offered a developer endpoint.",
+      "component": "StickerCutout",
+      "asset": "object shift",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 17.39,
+      "spoken_words": "that",
+      "component": "SubtitleChip",
+      "asset": "that",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 17.77,
+      "spoken_words": "never",
+      "component": "SubtitleChip",
+      "asset": "never",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 18.16,
+      "spoken_words": "offered",
+      "component": "SubtitleChip",
+      "asset": "offered",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 18.54,
+      "spoken_words": "a",
+      "component": "SubtitleChip",
+      "asset": "a",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 18.92,
+      "spoken_words": "developer",
+      "component": "SubtitleChip",
+      "asset": "developer",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 19.31,
+      "spoken_words": "endpoint",
+      "component": "SubtitleChip",
+      "asset": "endpoint",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 20,
+      "spoken_words": "But one wrong click can still be a wrong action.",
+      "component": "StickerCutout",
+      "asset": "original vector scene 7; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 4,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 20.12,
+      "spoken_words": "But one wrong click can still be a wrong action.",
+      "component": "WordReveal",
+      "asset": "WRONG CLICK",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 20.24,
+      "spoken_words": "But",
+      "component": "SubtitleChip",
+      "asset": "But",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 20.58,
+      "spoken_words": "one",
+      "component": "SubtitleChip",
+      "asset": "one",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 20.6,
+      "spoken_words": "But one wrong click can still be a wrong action.",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 20.93,
+      "spoken_words": "wrong",
+      "component": "SubtitleChip",
+      "asset": "wrong",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 21.27,
+      "spoken_words": "click",
+      "component": "SubtitleChip",
+      "asset": "click",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 21.3,
+      "spoken_words": "But one wrong click can still be a wrong action.",
+      "component": "BeforeAfterCards",
+      "asset": "illustrative graphic",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 21.62,
+      "spoken_words": "can",
+      "component": "SubtitleChip",
+      "asset": "can",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 21.96,
+      "spoken_words": "still",
+      "component": "SubtitleChip",
+      "asset": "still",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 22.31,
+      "spoken_words": "be",
+      "component": "SubtitleChip",
+      "asset": "be",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 22.65,
+      "spoken_words": "a",
+      "component": "SubtitleChip",
+      "asset": "a",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 23.0,
+      "spoken_words": "wrong",
+      "component": "SubtitleChip",
+      "asset": "wrong",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 23.34,
+      "spoken_words": "action",
+      "component": "SubtitleChip",
+      "asset": "action",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/tools-computer-use?sdk-task=browser"
+    },
+    {
+      "time": 24,
+      "spoken_words": "So the useful version pauses for sign-in, site access, and actions that matter.",
+      "component": "StickerCutout",
+      "asset": "original vector scene 8; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 5,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 24.12,
+      "spoken_words": "So the useful version pauses for sign-in, site access, and actions that matter.",
+      "component": "WordReveal",
+      "asset": "PAUSE",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 24.24,
+      "spoken_words": "So",
+      "component": "SubtitleChip",
+      "asset": "So",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 24.56,
+      "spoken_words": "the",
+      "component": "SubtitleChip",
+      "asset": "the",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 24.6,
+      "spoken_words": "So the useful version pauses for sign-in, site access, and actions that matter.",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 24.88,
+      "spoken_words": "useful",
+      "component": "SubtitleChip",
+      "asset": "useful",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 25.19,
+      "spoken_words": "version",
+      "component": "SubtitleChip",
+      "asset": "version",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 25.3,
+      "spoken_words": "So the useful version pauses for sign-in, site access, and actions that matter.",
+      "component": "PermissionChip",
+      "asset": "PAUSE FOR APPROVAL",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 25.51,
+      "spoken_words": "pauses",
+      "component": "SubtitleChip",
+      "asset": "pauses",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 25.83,
+      "spoken_words": "for",
+      "component": "SubtitleChip",
+      "asset": "for",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 26.15,
+      "spoken_words": "sign",
+      "component": "SubtitleChip",
+      "asset": "sign",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 26.46,
+      "spoken_words": "in",
+      "component": "SubtitleChip",
+      "asset": "in",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 26.78,
+      "spoken_words": "site",
+      "component": "SubtitleChip",
+      "asset": "site",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 27.1,
+      "spoken_words": "access",
+      "component": "SubtitleChip",
+      "asset": "access",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 27.42,
+      "spoken_words": "and",
+      "component": "SubtitleChip",
+      "asset": "and",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 27.74,
+      "spoken_words": "actions",
+      "component": "SubtitleChip",
+      "asset": "actions",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 28.05,
+      "spoken_words": "that",
+      "component": "SubtitleChip",
+      "asset": "that",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 28.37,
+      "spoken_words": "matter",
+      "component": "SubtitleChip",
+      "asset": "matter",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 29,
+      "spoken_words": "The shift isn't a smarter chatbot answer. It's software that can operate a page.",
+      "component": "StickerCutout",
+      "asset": "original vector scene 9; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 5,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 29.12,
+      "spoken_words": "The shift isn't a smarter chatbot answer. It's software that can operate a page.",
+      "component": "WordReveal",
+      "asset": "OPERATE A PAGE",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 29.24,
+      "spoken_words": "The",
+      "component": "SubtitleChip",
+      "asset": "The",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 29.56,
+      "spoken_words": "shift",
+      "component": "SubtitleChip",
+      "asset": "shift",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 29.6,
+      "spoken_words": "The shift isn't a smarter chatbot answer. It's software that can operate a page.",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 29.88,
+      "spoken_words": "isn't",
+      "component": "SubtitleChip",
+      "asset": "isn't",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 30.19,
+      "spoken_words": "a",
+      "component": "SubtitleChip",
+      "asset": "a",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 30.3,
+      "spoken_words": "The shift isn't a smarter chatbot answer. It's software that can operate a page.",
+      "component": "StickerCutout",
+      "asset": "object shift",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 30.51,
+      "spoken_words": "smarter",
+      "component": "SubtitleChip",
+      "asset": "smarter",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 30.83,
+      "spoken_words": "chatbot",
+      "component": "SubtitleChip",
+      "asset": "chatbot",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 31.15,
+      "spoken_words": "answer",
+      "component": "SubtitleChip",
+      "asset": "answer",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 31.46,
+      "spoken_words": "It's",
+      "component": "SubtitleChip",
+      "asset": "It's",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 31.78,
+      "spoken_words": "software",
+      "component": "SubtitleChip",
+      "asset": "software",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 32.1,
+      "spoken_words": "that",
+      "component": "SubtitleChip",
+      "asset": "that",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 32.42,
+      "spoken_words": "can",
+      "component": "SubtitleChip",
+      "asset": "can",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 32.74,
+      "spoken_words": "operate",
+      "component": "SubtitleChip",
+      "asset": "operate",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 33.05,
+      "spoken_words": "a",
+      "component": "SubtitleChip",
+      "asset": "a",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 33.37,
+      "spoken_words": "page",
+      "component": "SubtitleChip",
+      "asset": "page",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 34,
+      "spoken_words": "Would you let an agent handle a website you use every week? Which one?",
+      "component": "StickerCutout",
+      "asset": "original vector scene 10; illustrative graphic",
+      "animation": "paper swap with soft shadow",
+      "duration": 6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 34.12,
+      "spoken_words": "Would you let an agent handle a website you use every week? Which one?",
+      "component": "WordReveal",
+      "asset": "WHICH ONE?",
+      "animation": "masked rise",
+      "duration": 0.65,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 34.2,
+      "spoken_words": "Would you let an agent handle a website you use every week? Which one?",
+      "component": "QuestionEndCard",
+      "asset": "Which website?",
+      "animation": "masked reveal",
+      "duration": 5.8,
+      "evidence_url": "Would you let an agent handle a website you use every week? Which one?"
+    },
+    {
+      "time": 34.24,
+      "spoken_words": "Would",
+      "component": "SubtitleChip",
+      "asset": "Would",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 34.6,
+      "spoken_words": "Would you let an agent handle a website you use every week? Which one?",
+      "component": "SourceCard",
+      "asset": "OPENAI DOCS",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 34.63,
+      "spoken_words": "you",
+      "component": "SubtitleChip",
+      "asset": "you",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 35.02,
+      "spoken_words": "let",
+      "component": "SubtitleChip",
+      "asset": "let",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 35.3,
+      "spoken_words": "Would you let an agent handle a website you use every week? Which one?",
+      "component": "StickerCutout",
+      "asset": "object shift",
+      "animation": "ease in / highlight",
+      "duration": 0.6,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 35.41,
+      "spoken_words": "an",
+      "component": "SubtitleChip",
+      "asset": "an",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 35.8,
+      "spoken_words": "agent",
+      "component": "SubtitleChip",
+      "asset": "agent",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 36.19,
+      "spoken_words": "handle",
+      "component": "SubtitleChip",
+      "asset": "handle",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 36.58,
+      "spoken_words": "a",
+      "component": "SubtitleChip",
+      "asset": "a",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 36.97,
+      "spoken_words": "website",
+      "component": "SubtitleChip",
+      "asset": "website",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 37.35,
+      "spoken_words": "you",
+      "component": "SubtitleChip",
+      "asset": "you",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 37.74,
+      "spoken_words": "use",
+      "component": "SubtitleChip",
+      "asset": "use",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 38.13,
+      "spoken_words": "every",
+      "component": "SubtitleChip",
+      "asset": "every",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 38.52,
+      "spoken_words": "week",
+      "component": "SubtitleChip",
+      "asset": "week",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 38.91,
+      "spoken_words": "Which",
+      "component": "SubtitleChip",
+      "asset": "Which",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    },
+    {
+      "time": 39.3,
+      "spoken_words": "one",
+      "component": "SubtitleChip",
+      "asset": "one",
+      "animation": "masked word reveal",
+      "duration": 0.23,
+      "evidence_url": "https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use"
+    }
+  ]
+}

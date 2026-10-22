@@ -34,3 +34,8 @@ __pycache__/
 /videos/001-ai-lost-cause/assets/s4-two-model-replay.mp4
 /videos/001-ai-lost-cause/assets/screen-compare-new-run.mp4
 /videos/001-ai-lost-cause/assets/screen-compare.mp4
+/videos/render/public/browser-agent/*.wav
+/videos/render/out/browser-agent/
+/videos/render/public/browser-agent/*.wav
+/videos/render/public/browser-agent/*.txt
+/videos/render/out/browser-agent/
