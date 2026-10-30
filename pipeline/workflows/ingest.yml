@@ -1,0 +1,46 @@
+# Copy this file to .github/workflows/ingest.yml in otpayt02/ctrl-ahead-os to activate it.
+# It does NOT run YouTube searches on every push — only on the Sunday schedule,
+# and it stops on quota, it does not retry the same day.
+name: Ctrl-Ahead Weekly Ingest
+on:
+  schedule:
+    - cron: '0 6 * * 0'   # Sun 02:00 ET (06:00 UTC, 07:00 UTC in DST — check DST in the run log)
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ctrl-ahead-ingest
+  cancel-in-progress: false
+jobs:
+  github-and-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install feedparser 2>/dev/null || true
+      - name: GitHub trending (7d)
+        env: { GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} }
+        run: python3 files/pipeline/scripts/github_trending.py --days 7 --out files/pipeline/data/raw/${{ github.run_id }}/github.json
+      - name: Changelog watcher
+        env: { GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} }
+        run: python3 files/pipeline/scripts/changelog_watcher.py --watchlist files/pipeline/watchlist.csv --out files/pipeline/data/raw/${{ github.run_id }}/changelogs.json
+      - uses: actions/upload-artifact@v4
+        with: { name: ingest-github-changelog, path: files/pipeline/data/raw/${{ github.run_id }}/ }
+  youtube-batched:
+    runs-on: ubuntu-latest
+    needs: github-and-changelog
+    # YouTube step is MANUAL-GATED in practice: the repo's yt_niche_intel.py needs YT_API_KEY
+    # as a secret, and the runner must respect the 90-search/day guard in harvest_run.py.
+    # If the guard file checkpoint.json says Day 1 is done, this job should be skipped that day.
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "YouTube batch: run harvest_run.py locally or in a self-hosted runner with YT_API_KEY, max 90 searches/day, checkpoint saved. Do not run on a shared runner with the key in logs."
+  synthesize:
+    runs-on: ubuntu-latest
+    needs: [github-and-changelog]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 files/pipeline/scripts/synthesize_12dim.py --github files/pipeline/data/raw/${{ github.run_id }}/github.json --changelogs files/pipeline/data/raw/${{ github.run_id }}/changelogs.json --out files/pipeline/data/portfolio/week_intelligence.json || echo "synthesize skipped: no input files in this checkout (run it locally after ingest)"

@@ -1,0 +1,316 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TikTok,DejaVu Sans,88,&H0000D7FF&,&H00FFFFFF&,&H80000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,110,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.16,TikTok,,0,0,0,,{\k38}One {\k32}video {\k20}title {\k26}this
+Dialogue: 0,0:00:01.16,0:00:02.64,TikTok,,0,0,0,,{\k28}week {\k32}promised {\k54}four {\k34}huge
+Dialogue: 0,0:00:02.64,0:00:02.94,TikTok,,0,0,0,,{\k30}model {\k62}updates.
+Dialogue: 0,0:00:02.94,0:00:05.66,TikTok,,0,0,0,,{\k232}GPT-7, {\k30}Claude {\k5}REA {\k5}banned,
+Dialogue: 0,0:00:06.92,0:00:08.43,TikTok,,0,0,0,,{\k28}Gemini {\k38}Carbon {\k80}insane, {\k5}Qwen
+Dialogue: 0,0:00:09.02,0:00:09.86,TikTok,,0,0,0,,{\k32}4 {\k52}leaks.
+Dialogue: 0,0:00:10.50,0:00:11.32,TikTok,,0,0,0,,{\k4}I {\k18}checked {\k42}all {\k18}four
+Dialogue: 0,0:00:11.32,0:00:11.97,TikTok,,0,0,0,,{\k30}against {\k18}what {\k12}the {\k5}companies
+Dialogue: 0,0:00:12.40,0:00:13.22,TikTok,,0,0,0,,{\k34}actually {\k48}said.
+Dialogue: 0,0:00:13.78,0:00:14.30,TikTok,,0,0,0,,{\k2}One {\k20}is {\k10}a {\k20}rumor,
+Dialogue: 0,0:00:14.86,0:00:15.46,TikTok,,0,0,0,,{\k12}one {\k14}I {\k10}could {\k24}not
+Dialogue: 0,0:00:15.46,0:00:16.78,TikTok,,0,0,0,,{\k18}find {\k22}at {\k82}all, {\k10}one
+Dialogue: 0,0:00:16.78,0:00:17.48,TikTok,,0,0,0,,{\k26}is {\k8}a {\k16}leak {\k20}with
+Dialogue: 0,0:00:17.48,0:00:18.86,TikTok,,0,0,0,,{\k28}no {\k76}product, {\k26}and {\k8}one
+Dialogue: 0,0:00:18.86,0:00:19.82,TikTok,,0,0,0,,{\k22}is {\k24}real {\k20}but {\k30}not
+Dialogue: 0,0:00:19.82,0:00:21.80,TikTok,,0,0,0,,{\k30}Here {\k96}is {\k18}the {\k54}scorecard,
+Dialogue: 0,0:00:22.12,0:00:22.72,TikTok,,0,0,0,,{\k12}so {\k10}you {\k14}do {\k24}not
+Dialogue: 0,0:00:22.72,0:00:23.67,TikTok,,0,0,0,,{\k26}build {\k22}on {\k42}a {\k5}rumor.
+Dialogue: 0,0:00:24.18,0:00:24.99,TikTok,,0,0,0,,{\k22}Before {\k26}the {\k28}evidence, {\k5}here
+Dialogue: 0,0:00:24.99,0:00:26.08,TikTok,,0,0,0,,{\k55}is {\k16}the {\k20}thought {\k18}I
+Dialogue: 0,0:00:26.08,0:00:26.64,TikTok,,0,0,0,,{\k18}want {\k10}you {\k8}to {\k20}carry
+Dialogue: 0,0:00:26.64,0:00:27.58,TikTok,,0,0,0,,{\k32}through {\k26}all {\k36}four.
+Dialogue: 0,0:00:27.58,0:00:29.08,TikTok,,0,0,0,,{\k72}A {\k24}rumor {\k30}is {\k24}not
+Dialogue: 0,0:00:29.08,0:00:30.12,TikTok,,0,0,0,,{\k26}just {\k8}a {\k28}bad {\k42}fact.
+Dialogue: 0,0:00:30.52,0:00:31.22,TikTok,,0,0,0,,{\k6}It {\k24}is {\k10}a {\k30}mirror.
+Dialogue: 0,0:00:31.74,0:00:32.52,TikTok,,0,0,0,,{\k20}It {\k24}shows {\k22}you {\k12}what
+Dialogue: 0,0:00:32.52,0:00:33.56,TikTok,,0,0,0,,{\k58}you {\k10}already {\k22}wanted {\k14}to
+Dialogue: 0,0:00:33.56,0:00:34.12,TikTok,,0,0,0,,{\k20}be {\k36}true.
+Dialogue: 0,0:00:34.68,0:00:35.56,TikTok,,0,0,0,,{\k12}When {\k14}a {\k28}title {\k34}promises
+Dialogue: 0,0:00:35.56,0:00:36.78,TikTok,,0,0,0,,{\k28}the {\k28}next {\k34}giant {\k32}model,
+Dialogue: 0,0:00:37.06,0:00:38.10,TikTok,,0,0,0,,{\k8}the {\k28}next {\k60}ban, {\k8}the
+Dialogue: 0,0:00:38.10,0:00:39.42,TikTok,,0,0,0,,{\k28}next {\k80}leak, {\k10}it {\k14}is
+Dialogue: 0,0:00:39.42,0:00:40.68,TikTok,,0,0,0,,{\k24}not {\k28}only {\k30}selling {\k44}news,
+Dialogue: 0,0:00:41.10,0:00:42.22,TikTok,,0,0,0,,{\k6}it {\k24}is {\k30}selling {\k52}certainty
+Dialogue: 0,0:00:42.22,0:00:42.96,TikTok,,0,0,0,,{\k26}in {\k10}a {\k22}field {\k16}that
+Dialogue: 0,0:00:42.96,0:00:44.06,TikTok,,0,0,0,,{\k34}has {\k32}almost {\k44}none.
+Dialogue: 0,0:00:44.62,0:00:45.66,TikTok,,0,0,0,,{\k16}The {\k26}directive {\k30}is {\k32}simple,
+Dialogue: 0,0:00:46.06,0:00:46.86,TikTok,,0,0,0,,{\k12}and {\k8}it {\k20}is {\k40}hard:
+Dialogue: 0,0:00:47.44,0:00:48.30,TikTok,,0,0,0,,{\k14}want {\k24}the {\k26}truth {\k22}more
+Dialogue: 0,0:00:48.30,0:00:48.96,TikTok,,0,0,0,,{\k12}than {\k14}you {\k20}want {\k20}the
+Dialogue: 0,0:00:48.96,0:00:49.22,TikTok,,0,0,0,,{\k26}headline.
+Dialogue: 0,0:00:49.90,0:00:50.54,TikTok,,0,0,0,,{\k16}If {\k10}you {\k18}can {\k20}hold
+Dialogue: 0,0:00:50.54,0:00:51.48,TikTok,,0,0,0,,{\k20}that {\k18}for {\k28}six {\k28}minutes,
+Dialogue: 0,0:00:51.96,0:00:52.56,TikTok,,0,0,0,,{\k8}the {\k20}rest {\k10}of {\k22}this
+Dialogue: 0,0:00:52.56,0:00:53.52,TikTok,,0,0,0,,{\k22}video {\k28}will {\k24}feel {\k22}less
+Dialogue: 0,0:00:53.52,0:00:54.76,TikTok,,0,0,0,,{\k26}like {\k14}a {\k20}debunk {\k64}and
+Dialogue: 0,0:00:54.76,0:00:55.64,TikTok,,0,0,0,,{\k24}more {\k20}like {\k28}a {\k16}discipline.
+Dialogue: 0,0:00:55.64,0:00:56.60,TikTok,,0,0,0,,{\k86}First, {\k5}GPT-7 {\k5}Bel.
+Dialogue: 0,0:00:58.46,0:00:59.20,TikTok,,0,0,0,,{\k2}The {\k22}whole {\k24}thing {\k26}traces
+Dialogue: 0,0:00:59.20,0:01:00.38,TikTok,,0,0,0,,{\k30}to {\k18}one {\k32}anonymous {\k38}post
+Dialogue: 0,0:01:00.38,0:01:00.90,TikTok,,0,0,0,,{\k20}on {\k32}August {\k120}25th.
+Dialogue: 0,0:01:00.90,0:01:03.50,TikTok,,0,0,0,,{\k120}No {\k100}document, {\k14}no {\k26}named
+Dialogue: 0,0:01:03.50,0:01:04.64,TikTok,,0,0,0,,{\k72}source, {\k18}and {\k10}it {\k14}did
+Dialogue: 0,0:01:04.64,0:01:05.41,TikTok,,0,0,0,,{\k14}not {\k26}even {\k32}say {\k5}GPT-7
+Dialogue: 0,0:01:05.41,0:01:07.38,TikTok,,0,0,0,,{\k127}— {\k18}that {\k24}label {\k28}came
+Dialogue: 0,0:01:07.38,0:01:07.76,TikTok,,0,0,0,,{\k38}later.
+Dialogue: 0,0:01:08.46,0:01:09.66,TikTok,,0,0,0,,{\k44}OpenAI {\k26}has {\k26}never {\k24}used
+Dialogue: 0,0:01:09.66,0:01:10.58,TikTok,,0,0,0,,{\k16}the {\k24}name {\k30}Bel {\k22}in
+Dialogue: 0,0:01:10.58,0:01:11.92,TikTok,,0,0,0,,{\k78}public, {\k10}and {\k16}on {\k30}October
+Dialogue: 0,0:01:11.92,0:01:13.30,TikTok,,0,0,0,,{\k70}11th {\k12}its {\k28}own {\k28}models
+Dialogue: 0,0:01:13.30,0:01:15.46,TikTok,,0,0,0,,{\k36}page {\k32}listed {\k98}GPT-6 {\k50}Astra,
+Dialogue: 0,0:01:15.46,0:01:17.77,TikTok,,0,0,0,,{\k140}GPT-6.1 {\k66}Sol, {\k20}and {\k5}GPT-6
+Dialogue: 0,0:01:18.48,0:01:18.84,TikTok,,0,0,0,,{\k36}Luna.
+Dialogue: 0,0:01:19.50,0:01:20.51,TikTok,,0,0,0,,{\k16}No {\k58}Bel, {\k22}no {\k5}GPT-7.
+Dialogue: 0,0:01:21.86,0:01:23.24,TikTok,,0,0,0,,{\k24}What {\k50}OpenAI {\k32}did {\k32}say,
+Dialogue: 0,0:01:23.24,0:01:24.78,TikTok,,0,0,0,,{\k26}on {\k24}September {\k90}8th, {\k14}is
+Dialogue: 0,0:01:24.78,0:01:25.34,TikTok,,0,0,0,,{\k5}that {\k3}it {\k26}has {\k22}an
+Dialogue: 0,0:01:25.34,0:01:27.10,TikTok,,0,0,0,,{\k34}internal {\k38}model {\k56}significantly {\k48}more
+Dialogue: 0,0:01:27.10,0:01:29.02,TikTok,,0,0,0,,{\k30}capable {\k30}than {\k86}GPT-6 {\k46}Astra.
+Dialogue: 0,0:01:29.60,0:01:30.88,TikTok,,0,0,0,,{\k16}That {\k22}is {\k72}true, {\k18}and
+Dialogue: 0,0:01:30.88,0:01:31.56,TikTok,,0,0,0,,{\k10}it {\k16}is {\k18}not {\k24}the
+Dialogue: 0,0:01:31.56,0:01:32.44,TikTok,,0,0,0,,{\k16}same {\k22}as {\k22}saying {\k28}that
+Dialogue: 0,0:01:32.44,0:01:33.66,TikTok,,0,0,0,,{\k22}model {\k26}is {\k64}Bel, {\k10}or
+Dialogue: 0,0:01:33.66,0:01:34.17,TikTok,,0,0,0,,{\k12}that {\k14}it {\k20}is {\k5}GPT-7.
+Dialogue: 0,0:01:35.62,0:01:36.86,TikTok,,0,0,0,,{\k72}Verdict: {\k52}unverified.
+Dialogue: 0,0:01:38.00,0:01:38.66,TikTok,,0,0,0,,{\k28}Second, {\k28}Claude {\k5}REA {\k5}banned.
+Dialogue: 0,0:01:39.76,0:01:40.60,TikTok,,0,0,0,,{\k16}I {\k20}searched {\k22}for {\k26}a
+Dialogue: 0,0:01:40.60,0:01:41.37,TikTok,,0,0,0,,{\k5}model {\k31}called {\k36}Claude {\k5}REA,
+Dialogue: 0,0:01:41.76,0:01:42.30,TikTok,,0,0,0,,{\k10}and {\k10}I {\k12}did {\k22}not
+Dialogue: 0,0:01:42.30,0:01:43.00,TikTok,,0,0,0,,{\k24}find {\k46}one.
+Dialogue: 0,0:01:43.34,0:01:44.02,TikTok,,0,0,0,,{\k10}What {\k12}I {\k22}did {\k24}find
+Dialogue: 0,0:01:44.02,0:01:44.85,TikTok,,0,0,0,,{\k20}is {\k32}two {\k26}real {\k5}bans,
+Dialogue: 0,0:01:45.40,0:01:46.04,TikTok,,0,0,0,,{\k12}and {\k12}neither {\k22}is {\k18}a
+Dialogue: 0,0:01:46.04,0:01:46.20,TikTok,,0,0,0,,{\k16}model.
+Dialogue: 0,0:01:46.84,0:01:48.13,TikTok,,0,0,0,,{\k18}On {\k26}October {\k80}8th, {\k5}Anthropic
+Dialogue: 0,0:01:48.52,0:01:50.00,TikTok,,0,0,0,,{\k34}updated {\k34}its {\k28}usage {\k52}policy,
+Dialogue: 0,0:01:50.38,0:01:51.58,TikTok,,0,0,0,,{\k4}effective {\k38}November {\k62}12th, {\k16}to
+Dialogue: 0,0:01:51.58,0:01:53.28,TikTok,,0,0,0,,{\k22}ban {\k56}sustained, {\k50}needless {\k42}cruelty
+Dialogue: 0,0:01:53.28,0:01:54.56,TikTok,,0,0,0,,{\k34}toward {\k38}Claude {\k5}— {\k51}and
+Dialogue: 0,0:01:54.56,0:01:55.62,TikTok,,0,0,0,,{\k12}the {\k14}main {\k40}enforcement {\k40}is
+Dialogue: 0,0:01:55.62,0:01:56.90,TikTok,,0,0,0,,{\k24}Claude {\k28}ending {\k44}the {\k32}conversation,
+Dialogue: 0,0:01:57.40,0:01:58.16,TikTok,,0,0,0,,{\k12}not {\k32}a {\k5}model {\k27}being
+Dialogue: 0,0:01:58.16,0:01:58.50,TikTok,,0,0,0,,{\k34}pulled.
+Dialogue: 0,0:01:59.22,0:02:00.66,TikTok,,0,0,0,,{\k10}And {\k12}on {\k28}October {\k94}12th,
+Dialogue: 0,0:02:00.66,0:02:01.47,TikTok,,0,0,0,,{\k42}Anthropic {\k14}said {\k20}it {\k5}banned
+Dialogue: 0,0:02:01.62,0:02:02.66,TikTok,,0,0,0,,{\k32}tens {\k20}of {\k32}thousands {\k20}of
+Dialogue: 0,0:02:02.66,0:02:03.58,TikTok,,0,0,0,,{\k28}accounts {\k30}for {\k20}trying {\k14}to
+Dialogue: 0,0:02:03.58,0:02:05.06,TikTok,,0,0,0,,{\k34}copy {\k24}Claude {\k32}by {\k58}distillation.
+Dialogue: 0,0:02:05.78,0:02:06.84,TikTok,,0,0,0,,{\k22}So {\k26}banned {\k22}is {\k36}real,
+Dialogue: 0,0:02:07.14,0:02:08.00,TikTok,,0,0,0,,{\k20}but {\k12}it {\k16}is {\k38}accounts
+Dialogue: 0,0:02:08.00,0:02:09.24,TikTok,,0,0,0,,{\k20}and {\k12}a {\k76}policy, {\k16}not
+Dialogue: 0,0:02:09.24,0:02:10.01,TikTok,,0,0,0,,{\k34}a {\k2}model {\k36}called {\k5}REA.
+Dialogue: 0,0:02:10.76,0:02:11.60,TikTok,,0,0,0,,{\k18}Pause {\k14}on {\k20}that {\k32}word,
+Dialogue: 0,0:02:11.60,0:02:12.80,TikTok,,0,0,0,,{\k72}banned, {\k22}because {\k12}it {\k14}is
+Dialogue: 0,0:02:12.80,0:02:14.34,TikTok,,0,0,0,,{\k30}doing {\k44}philosophical {\k46}work {\k34}here,
+Dialogue: 0,0:02:14.36,0:02:15.68,TikTok,,0,0,0,,{\k20}not {\k26}just {\k24}legal {\k62}work.
+Dialogue: 0,0:02:16.00,0:02:16.80,TikTok,,0,0,0,,{\k12}To {\k18}ban {\k16}an {\k34}account
+Dialogue: 0,0:02:16.80,0:02:17.72,TikTok,,0,0,0,,{\k24}is {\k16}to {\k22}draw {\k30}a
+Dialogue: 0,0:02:17.72,0:02:18.74,TikTok,,0,0,0,,{\k10}boundary {\k34}around {\k16}a {\k42}community.
+Dialogue: 0,0:02:19.38,0:02:20.10,TikTok,,0,0,0,,{\k12}To {\k12}ban {\k12}a {\k36}behavior
+Dialogue: 0,0:02:20.10,0:02:21.40,TikTok,,0,0,0,,{\k28}is {\k18}to {\k42}say, {\k42}this
+Dialogue: 0,0:02:21.40,0:02:22.20,TikTok,,0,0,0,,{\k20}is {\k30}not {\k22}how {\k8}we
+Dialogue: 0,0:02:22.20,0:02:23.10,TikTok,,0,0,0,,{\k22}will {\k12}treat {\k26}a {\k30}mind,
+Dialogue: 0,0:02:23.36,0:02:24.30,TikTok,,0,0,0,,{\k12}even {\k22}a {\k32}simulated {\k28}one.
+Dialogue: 0,0:02:25.22,0:02:25.82,TikTok,,0,0,0,,{\k2}To {\k16}ban {\k20}a {\k22}model
+Dialogue: 0,0:02:25.82,0:02:26.72,TikTok,,0,0,0,,{\k24}would {\k24}be {\k16}something {\k26}else
+Dialogue: 0,0:02:26.72,0:02:28.50,TikTok,,0,0,0,,{\k102}entirely: {\k24}to {\k24}erase {\k28}a
+Dialogue: 0,0:02:28.50,0:02:29.62,TikTok,,0,0,0,,{\k30}capability {\k30}from {\k12}the {\k40}world.
+Dialogue: 0,0:02:30.46,0:02:31.74,TikTok,,0,0,0,,{\k14}The {\k24}title {\k42}collapses {\k48}all
+Dialogue: 0,0:02:31.74,0:02:32.94,TikTok,,0,0,0,,{\k28}three {\k26}into {\k34}one {\k32}scary
+Dialogue: 0,0:02:32.94,0:02:34.42,TikTok,,0,0,0,,{\k78}word, {\k12}and {\k24}that {\k34}collapse
+Dialogue: 0,0:02:34.42,0:02:35.10,TikTok,,0,0,0,,{\k24}is {\k16}the {\k28}trick.
+Dialogue: 0,0:02:35.82,0:02:36.38,TikTok,,0,0,0,,{\k12}When {\k14}you {\k20}hear {\k10}a
+Dialogue: 0,0:02:36.38,0:02:37.84,TikTok,,0,0,0,,{\k18}word {\k30}that {\k88}big, {\k10}ask
+Dialogue: 0,0:02:37.84,0:02:39.20,TikTok,,0,0,0,,{\k20}what {\k44}exactly {\k32}was {\k40}banned,
+Dialogue: 0,0:02:39.36,0:02:40.66,TikTok,,0,0,0,,{\k26}by {\k34}whom, {\k40}and {\k30}from
+Dialogue: 0,0:02:40.66,0:02:41.20,TikTok,,0,0,0,,{\k54}whom.
+Dialogue: 0,0:02:41.64,0:02:42.78,TikTok,,0,0,0,,{\k18}Precision {\k34}is {\k26}not {\k36}pedantry
+Dialogue: 0,0:02:42.78,0:02:43.36,TikTok,,0,0,0,,{\k58}here.
+Dialogue: 0,0:02:43.76,0:02:44.70,TikTok,,0,0,0,,{\k16}Precision {\k34}is {\k24}the {\k20}difference
+Dialogue: 0,0:02:44.70,0:02:46.56,TikTok,,0,0,0,,{\k50}between {\k34}fear {\k38}and {\k64}understanding.
+Dialogue: 0,0:02:47.10,0:02:48.80,TikTok,,0,0,0,,{\k78}Third, {\k12}Gemini {\k46}4 {\k34}Carbon.
+Dialogue: 0,0:02:48.80,0:02:50.02,TikTok,,0,0,0,,{\k76}This {\k16}one {\k22}is {\k8}the
+Dialogue: 0,0:02:50.02,0:02:51.30,TikTok,,0,0,0,,{\k28}closest {\k32}to {\k60}real, {\k8}and
+Dialogue: 0,0:02:51.30,0:02:52.02,TikTok,,0,0,0,,{\k8}it {\k22}is {\k22}still {\k20}not
+Dialogue: 0,0:02:52.02,0:02:52.63,TikTok,,0,0,0,,{\k56}a {\k5}product.
+Dialogue: 0,0:02:53.18,0:02:54.40,TikTok,,0,0,0,,{\k20}Business {\k40}Insider {\k40}reported {\k22}on
+Dialogue: 0,0:02:54.40,0:02:55.92,TikTok,,0,0,0,,{\k32}October {\k80}9th {\k8}that {\k32}Google
+Dialogue: 0,0:02:55.92,0:02:57.06,TikTok,,0,0,0,,{\k28}staff {\k16}were {\k38}testing {\k32}Carbon
+Dialogue: 0,0:02:57.06,0:02:58.58,TikTok,,0,0,0,,{\k50}inside {\k68}Google, {\k12}on {\k22}its
+Dialogue: 0,0:02:58.58,0:03:00.38,TikTok,,0,0,0,,{\k30}internal {\k32}coding {\k94}platform, {\k24}and
+Dialogue: 0,0:03:00.38,0:03:01.20,TikTok,,0,0,0,,{\k22}one {\k22}employee {\k22}said {\k16}it
+Dialogue: 0,0:03:01.20,0:03:02.01,TikTok,,0,0,0,,{\k24}feels {\k22}like {\k30}Opus {\k5}5.5
+Dialogue: 0,0:03:02.86,0:03:03.46,TikTok,,0,0,0,,{\k18}for {\k42}coding.
+Dialogue: 0,0:03:04.18,0:03:04.98,TikTok,,0,0,0,,{\k22}Feels {\k22}like {\k18}is {\k18}not
+Dialogue: 0,0:03:04.98,0:03:05.50,TikTok,,0,0,0,,{\k30}a {\k12}benchmark, {\k5}there {\k5}is
+Dialogue: 0,0:03:06.20,0:03:07.50,TikTok,,0,0,0,,{\k26}no {\k24}model {\k56}card, {\k24}no
+Dialogue: 0,0:03:07.50,0:03:08.88,TikTok,,0,0,0,,{\k56}price, {\k16}no {\k28}release {\k38}date,
+Dialogue: 0,0:03:09.12,0:03:10.10,TikTok,,0,0,0,,{\k22}and {\k24}Google {\k20}has {\k32}not
+Dialogue: 0,0:03:10.10,0:03:10.50,TikTok,,0,0,0,,{\k16}confirmed {\k24}it.
+Dialogue: 0,0:03:11.24,0:03:12.42,TikTok,,0,0,0,,{\k14}A {\k24}checkpoint {\k56}briefly {\k24}showed
+Dialogue: 0,0:03:12.42,0:03:13.74,TikTok,,0,0,0,,{\k20}up {\k20}on {\k56}LMArena {\k36}around
+Dialogue: 0,0:03:13.74,0:03:15.24,TikTok,,0,0,0,,{\k40}October {\k80}23rd {\k6}and {\k24}was
+Dialogue: 0,0:03:15.24,0:03:15.56,TikTok,,0,0,0,,{\k32}pulled.
+Dialogue: 0,0:03:15.56,0:03:17.06,TikTok,,0,0,0,,{\k84}So {\k22}Carbon {\k36}is {\k8}a
+Dialogue: 0,0:03:17.06,0:03:18.04,TikTok,,0,0,0,,{\k14}leak {\k30}about {\k18}an {\k36}internal
+Dialogue: 0,0:03:18.04,0:03:19.42,TikTok,,0,0,0,,{\k88}checkpoint, {\k12}not {\k20}a {\k18}model
+Dialogue: 0,0:03:19.42,0:03:20.60,TikTok,,0,0,0,,{\k18}you {\k12}can {\k24}use {\k64}today.
+Dialogue: 0,0:03:21.20,0:03:22.34,TikTok,,0,0,0,,{\k5}Fourth, {\k59}Qwen {\k50}4.
+Dialogue: 0,0:03:22.88,0:03:24.00,TikTok,,0,0,0,,{\k24}Alibaba {\k36}said {\k22}on {\k30}September
+Dialogue: 0,0:03:24.00,0:03:25.58,TikTok,,0,0,0,,{\k86}22nd {\k12}that {\k26}Qwen {\k34}4
+Dialogue: 0,0:03:25.58,0:03:26.26,TikTok,,0,0,0,,{\k18}is {\k16}in {\k34}training.
+Dialogue: 0,0:03:26.82,0:03:27.36,TikTok,,0,0,0,,{\k12}It {\k32}named {\k5}tiers {\k5}—
+Dialogue: 0,0:03:28.14,0:03:30.54,TikTok,,0,0,0,,{\k74}Max, {\k70}Plus, {\k78}Flash, {\k18}and
+Dialogue: 0,0:03:30.54,0:03:31.85,TikTok,,0,0,0,,{\k16}a {\k72}27B {\k38}model {\k5}—
+Dialogue: 0,0:03:32.20,0:03:33.10,TikTok,,0,0,0,,{\k6}but {\k18}gave {\k30}no {\k36}specs,
+Dialogue: 0,0:03:33.38,0:03:34.48,TikTok,,0,0,0,,{\k22}no {\k62}date, {\k12}and {\k14}as
+Dialogue: 0,0:03:34.48,0:03:35.86,TikTok,,0,0,0,,{\k10}of {\k32}October {\k90}24th {\k6}there
+Dialogue: 0,0:03:35.86,0:03:36.86,TikTok,,0,0,0,,{\k14}were {\k28}no {\k26}Qwen {\k32}4
+Dialogue: 0,0:03:36.86,0:03:37.92,TikTok,,0,0,0,,{\k24}weights {\k24}on {\k28}Hugging {\k30}Face.
+Dialogue: 0,0:03:38.58,0:03:39.30,TikTok,,0,0,0,,{\k14}The {\k14}thing {\k14}you {\k30}can
+Dialogue: 0,0:03:39.30,0:03:40.36,TikTok,,0,0,0,,{\k20}actually {\k30}look {\k18}at {\k38}today
+Dialogue: 0,0:03:40.36,0:03:40.85,TikTok,,0,0,0,,{\k34}is {\k5}Qwen {\k5}3.8 {\k5}Flash-Next,
+Dialogue: 0,0:03:42.64,0:03:44.30,TikTok,,0,0,0,,{\k48}which {\k36}Alibaba {\k56}itself {\k26}called
+Dialogue: 0,0:03:44.30,0:03:45.10,TikTok,,0,0,0,,{\k18}a {\k24}preview {\k26}of {\k12}the
+Dialogue: 0,0:03:45.10,0:03:46.48,TikTok,,0,0,0,,{\k42}architecture {\k30}that {\k28}will {\k38}underpin
+Dialogue: 0,0:03:46.48,0:03:47.10,TikTok,,0,0,0,,{\k28}Qwen {\k34}4.
+Dialogue: 0,0:03:47.94,0:03:48.90,TikTok,,0,0,0,,{\k20}So {\k24}Qwen {\k28}4 {\k24}is
+Dialogue: 0,0:03:48.90,0:03:49.90,TikTok,,0,0,0,,{\k20}real {\k22}as {\k20}a {\k38}project,
+Dialogue: 0,0:03:50.32,0:03:51.10,TikTok,,0,0,0,,{\k24}not {\k18}shipped {\k22}as {\k14}a
+Dialogue: 0,0:03:51.10,0:03:51.28,TikTok,,0,0,0,,{\k18}model.
+Dialogue: 0,0:03:51.86,0:03:52.94,TikTok,,0,0,0,,{\k24}And {\k22}Qwen {\k32}4 {\k30}Coder
+Dialogue: 0,0:03:52.94,0:03:54.28,TikTok,,0,0,0,,{\k30}does {\k24}not {\k28}exist {\k52}yet.
+Dialogue: 0,0:03:54.62,0:03:55.20,TikTok,,0,0,0,,{\k6}A {\k12}leak {\k24}is {\k16}a
+Dialogue: 0,0:03:55.20,0:03:56.04,TikTok,,0,0,0,,{\k14}model {\k34}before {\k16}it {\k20}has
+Dialogue: 0,0:03:56.04,0:03:57.24,TikTok,,0,0,0,,{\k18}a {\k44}name, {\k18}a {\k40}price,
+Dialogue: 0,0:03:57.38,0:03:58.00,TikTok,,0,0,0,,{\k22}or {\k8}a {\k32}promise.
+Dialogue: 0,0:03:58.78,0:03:59.28,TikTok,,0,0,0,,{\k2}It {\k20}lives {\k20}in {\k8}the
+Dialogue: 0,0:03:59.28,0:04:00.34,TikTok,,0,0,0,,{\k22}gap {\k44}between {\k20}what {\k20}a
+Dialogue: 0,0:04:00.34,0:04:01.40,TikTok,,0,0,0,,{\k14}lab {\k50}knows {\k26}and {\k16}what
+Dialogue: 0,0:04:01.40,0:04:02.30,TikTok,,0,0,0,,{\k16}the {\k18}public {\k26}is {\k30}allowed
+Dialogue: 0,0:04:02.30,0:04:03.60,TikTok,,0,0,0,,{\k16}to {\k70}know, {\k22}and {\k22}that
+Dialogue: 0,0:04:03.60,0:04:05.14,TikTok,,0,0,0,,{\k36}gap {\k46}is {\k18}where {\k54}imagination
+Dialogue: 0,0:04:05.14,0:04:06.10,TikTok,,0,0,0,,{\k42}rushes {\k54}in.
+Dialogue: 0,0:04:06.70,0:04:07.38,TikTok,,0,0,0,,{\k16}That {\k14}is {\k28}not {\k10}a
+Dialogue: 0,0:04:07.38,0:04:08.22,TikTok,,0,0,0,,{\k22}flaw {\k24}in {\k38}you.
+Dialogue: 0,0:04:08.56,0:04:09.28,TikTok,,0,0,0,,{\k14}It {\k12}is {\k28}how {\k18}humans
+Dialogue: 0,0:04:09.28,0:04:10.50,TikTok,,0,0,0,,{\k34}think {\k32}about {\k34}power {\k22}we
+Dialogue: 0,0:04:10.50,0:04:11.46,TikTok,,0,0,0,,{\k18}cannot {\k42}yet {\k36}touch.
+Dialogue: 0,0:04:11.46,0:04:13.10,TikTok,,0,0,0,,{\k88}We {\k22}fill {\k22}the {\k32}unknown
+Dialogue: 0,0:04:13.10,0:04:14.00,TikTok,,0,0,0,,{\k22}with {\k20}the {\k26}biggest {\k22}thing
+Dialogue: 0,0:04:14.00,0:04:14.68,TikTok,,0,0,0,,{\k16}we {\k18}can {\k34}picture.
+Dialogue: 0,0:04:15.38,0:04:16.16,TikTok,,0,0,0,,{\k12}The {\k30}discipline {\k24}is {\k12}to
+Dialogue: 0,0:04:16.16,0:04:17.36,TikTok,,0,0,0,,{\k16}let {\k30}the {\k28}unknown {\k46}stay
+Dialogue: 0,0:04:17.36,0:04:18.34,TikTok,,0,0,0,,{\k44}unknown {\k26}for {\k6}a {\k22}little
+Dialogue: 0,0:04:18.34,0:04:18.74,TikTok,,0,0,0,,{\k40}longer.
+Dialogue: 0,0:04:19.46,0:04:20.28,TikTok,,0,0,0,,{\k8}A {\k26}checkpoint {\k28}is {\k20}not
+Dialogue: 0,0:04:20.28,0:04:20.74,TikTok,,0,0,0,,{\k18}a {\k28}product.
+Dialogue: 0,0:04:21.32,0:04:22.16,TikTok,,0,0,0,,{\k14}A {\k26}feeling {\k26}is {\k18}not
+Dialogue: 0,0:04:22.16,0:04:22.58,TikTok,,0,0,0,,{\k28}a {\k14}benchmark.
+Dialogue: 0,0:04:23.38,0:04:24.30,TikTok,,0,0,0,,{\k14}A {\k26}training {\k28}run {\k24}is
+Dialogue: 0,0:04:24.30,0:04:24.60,TikTok,,0,0,0,,{\k18}not {\k12}a {\k48}release.
+Dialogue: 0,0:04:24.60,0:04:27.10,TikTok,,0,0,0,,{\k136}Naming {\k40}each {\k34}stage {\k40}honestly
+Dialogue: 0,0:04:27.10,0:04:28.00,TikTok,,0,0,0,,{\k42}is {\k16}how {\k10}you {\k22}keep
+Dialogue: 0,0:04:28.00,0:04:29.24,TikTok,,0,0,0,,{\k22}your {\k26}own {\k26}thinking {\k50}clean.
+Dialogue: 0,0:04:29.76,0:04:30.08,TikTok,,0,0,0,,{\k14}So {\k8}if {\k5}you {\k5}are
+Dialogue: 0,0:04:30.12,0:04:31.10,TikTok,,0,0,0,,{\k22}picking {\k22}a {\k14}model {\k40}this
+Dialogue: 0,0:04:31.10,0:04:32.36,TikTok,,0,0,0,,{\k76}week, {\k2}pick {\k20}from {\k28}the
+Dialogue: 0,0:04:32.36,0:04:33.58,TikTok,,0,0,0,,{\k5}ones {\k23}that {\k44}actually {\k50}shipped:
+Dialogue: 0,0:04:33.58,0:04:36.22,TikTok,,0,0,0,,{\k124}GPT-6 {\k84}Astra, {\k24}Claude {\k32}Opus
+Dialogue: 0,0:04:36.22,0:04:38.64,TikTok,,0,0,0,,{\k140}5.5, {\k20}Gemini {\k64}4 {\k18}Argon
+Dialogue: 0,0:04:38.64,0:04:39.84,TikTok,,0,0,0,,{\k18}in {\k26}its {\k24}limited {\k52}form,
+Dialogue: 0,0:04:39.84,0:04:39.94,TikTok,,0,0,0,,{\k5}Qwen {\k5}3.8.
+Dialogue: 0,0:04:41.74,0:04:42.48,TikTok,,0,0,0,,{\k8}The {\k22}other {\k20}four {\k24}names
+Dialogue: 0,0:04:42.48,0:04:43.60,TikTok,,0,0,0,,{\k34}are {\k38}a {\k38}rumor, {\k2}a
+Dialogue: 0,0:04:43.60,0:04:44.86,TikTok,,0,0,0,,{\k18}missing {\k72}model, {\k8}a {\k28}leak,
+Dialogue: 0,0:04:45.04,0:04:45.94,TikTok,,0,0,0,,{\k16}and {\k14}a {\k22}training {\k38}run.
+Dialogue: 0,0:04:46.50,0:04:47.30,TikTok,,0,0,0,,{\k12}That {\k14}is {\k24}not {\k30}less
+Dialogue: 0,0:04:47.30,0:04:48.50,TikTok,,0,0,0,,{\k48}interesting {\k50}— {\k4}it {\k18}is
+Dialogue: 0,0:04:48.50,0:04:49.54,TikTok,,0,0,0,,{\k24}just {\k12}the {\k22}difference {\k46}between
+Dialogue: 0,0:04:49.54,0:04:50.98,TikTok,,0,0,0,,{\k38}news {\k24}and {\k64}hype, {\k18}and
+Dialogue: 0,0:04:50.98,0:04:51.86,TikTok,,0,0,0,,{\k26}that {\k24}difference {\k28}is {\k10}the
+Dialogue: 0,0:04:51.86,0:04:52.42,TikTok,,0,0,0,,{\k20}whole {\k36}point.
+Dialogue: 0,0:04:52.94,0:04:53.80,TikTok,,0,0,0,,{\k14}One {\k24}last {\k24}test {\k24}before
+Dialogue: 0,0:04:53.80,0:04:54.66,TikTok,,0,0,0,,{\k12}you {\k18}share {\k30}anything {\k26}this
+Dialogue: 0,0:04:54.66,0:04:55.14,TikTok,,0,0,0,,{\k48}week.
+Dialogue: 0,0:04:55.64,0:04:56.52,TikTok,,0,0,0,,{\k12}Ask {\k22}who {\k32}benefits {\k22}if
+Dialogue: 0,0:04:56.52,0:04:57.40,TikTok,,0,0,0,,{\k16}you {\k16}believe {\k16}it {\k40}now,
+Dialogue: 0,0:04:57.58,0:04:58.38,TikTok,,0,0,0,,{\k12}before {\k12}it {\k24}is {\k32}confirmed.
+Dialogue: 0,0:04:59.08,0:04:59.72,TikTok,,0,0,0,,{\k12}If {\k16}the {\k12}answer {\k24}is
+Dialogue: 0,0:04:59.72,0:05:00.86,TikTok,,0,0,0,,{\k16}a {\k20}channel {\k36}selling {\k42}urgency,
+Dialogue: 0,0:05:01.34,0:05:02.52,TikTok,,0,0,0,,{\k10}a {\k16}seller {\k42}selling {\k50}access,
+Dialogue: 0,0:05:02.92,0:05:03.76,TikTok,,0,0,0,,{\k16}or {\k18}your {\k22}own {\k28}desire
+Dialogue: 0,0:05:03.76,0:05:05.08,TikTok,,0,0,0,,{\k22}to {\k24}be {\k56}first, {\k30}slow
+Dialogue: 0,0:05:05.08,0:05:05.82,TikTok,,0,0,0,,{\k74}down.
+Dialogue: 0,0:05:06.24,0:05:07.52,TikTok,,0,0,0,,{\k20}Speed {\k20}is {\k24}not {\k64}insight.
+Dialogue: 0,0:05:07.96,0:05:08.84,TikTok,,0,0,0,,{\k24}Being {\k26}first {\k20}to {\k18}repeat
+Dialogue: 0,0:05:08.84,0:05:09.58,TikTok,,0,0,0,,{\k18}a {\k20}rumor {\k20}is {\k16}not
+Dialogue: 0,0:05:09.58,0:05:10.38,TikTok,,0,0,0,,{\k24}the {\k14}same {\k16}as {\k26}being
+Dialogue: 0,0:05:10.38,0:05:11.50,TikTok,,0,0,0,,{\k76}right, {\k12}and {\k16}in {\k8}a
+Dialogue: 0,0:05:11.50,0:05:12.42,TikTok,,0,0,0,,{\k16}field {\k18}that {\k22}moves {\k36}this
+Dialogue: 0,0:05:12.42,0:05:13.72,TikTok,,0,0,0,,{\k76}fast, {\k12}the {\k20}person {\k22}who
+Dialogue: 0,0:05:13.72,0:05:14.96,TikTok,,0,0,0,,{\k18}waits {\k28}for {\k38}confirmation {\k40}is
+Dialogue: 0,0:05:14.96,0:05:15.70,TikTok,,0,0,0,,{\k26}not {\k48}behind.
+Dialogue: 0,0:05:16.30,0:05:16.90,TikTok,,0,0,0,,{\k6}They {\k14}are {\k14}the {\k26}only
+Dialogue: 0,0:05:16.90,0:05:18.02,TikTok,,0,0,0,,{\k28}one {\k32}still {\k26}standing {\k26}on
+Dialogue: 0,0:05:18.02,0:05:19.12,TikTok,,0,0,0,,{\k30}solid {\k38}ground {\k18}when {\k24}the
+Dialogue: 0,0:05:19.12,0:05:19.90,TikTok,,0,0,0,,{\k10}hype {\k30}cycle {\k38}turns.
+Dialogue: 0,0:05:20.50,0:05:21.04,TikTok,,0,0,0,,{\k18}And {\k5}here {\k17}is {\k14}the
+Dialogue: 0,0:05:21.04,0:05:21.84,TikTok,,0,0,0,,{\k30}directive {\k22}I {\k18}want {\k10}you
+Dialogue: 0,0:05:21.84,0:05:22.70,TikTok,,0,0,0,,{\k10}to {\k16}leave {\k60}with.
+Dialogue: 0,0:05:23.08,0:05:24.31,TikTok,,0,0,0,,{\k28}Build {\k26}on {\k64}what {\k5}shipped.
+Dialogue: 0,0:05:24.76,0:05:25.64,TikTok,,0,0,0,,{\k28}Watch {\k18}what {\k24}is {\k18}rumored,
+Dialogue: 0,0:05:25.96,0:05:26.62,TikTok,,0,0,0,,{\k10}but {\k10}do {\k28}not {\k18}bet
+Dialogue: 0,0:05:26.62,0:05:27.88,TikTok,,0,0,0,,{\k26}your {\k46}work, {\k16}your {\k38}money,
+Dialogue: 0,0:05:27.88,0:05:28.94,TikTok,,0,0,0,,{\k20}or {\k40}your {\k18}reputation {\k28}on
+Dialogue: 0,0:05:28.94,0:05:29.18,TikTok,,0,0,0,,{\k24}it.
+Dialogue: 0,0:05:29.18,0:05:30.88,TikTok,,0,0,0,,{\k74}Keep {\k18}a {\k68}ledger, {\k10}even
+Dialogue: 0,0:05:30.88,0:05:32.50,TikTok,,0,0,0,,{\k24}a {\k18}mental {\k86}one: {\k34}claimed,
+Dialogue: 0,0:05:33.30,0:05:34.65,TikTok,,0,0,0,,{\k66}sourced, {\k64}confirmed, {\k5}shipped.
+Dialogue: 0,0:05:35.30,0:05:35.90,TikTok,,0,0,0,,{\k24}Four {\k36}columns.
+Dialogue: 0,0:05:36.54,0:05:37.22,TikTok,,0,0,0,,{\k22}Most {\k18}of {\k12}the {\k16}internet
+Dialogue: 0,0:05:37.22,0:05:38.06,TikTok,,0,0,0,,{\k30}lives {\k18}in {\k10}the {\k26}first
+Dialogue: 0,0:05:38.06,0:05:38.54,TikTok,,0,0,0,,{\k48}two.
+Dialogue: 0,0:05:38.88,0:05:39.90,TikTok,,0,0,0,,{\k16}Your {\k38}advantage {\k32}is {\k16}living
+Dialogue: 0,0:05:39.90,0:05:40.86,TikTok,,0,0,0,,{\k18}in {\k12}the {\k26}last {\k40}two.
+Dialogue: 0,0:05:41.20,0:05:42.16,TikTok,,0,0,0,,{\k14}That {\k16}is {\k26}not {\k40}cynicism.
+Dialogue: 0,0:05:42.68,0:05:43.60,TikTok,,0,0,0,,{\k12}That {\k24}is {\k56}stewardship.
+Dialogue: 0,0:05:44.24,0:05:45.20,TikTok,,0,0,0,,{\k18}The {\k24}future {\k20}will {\k34}arrive
+Dialogue: 0,0:05:45.20,0:05:46.00,TikTok,,0,0,0,,{\k22}whether {\k24}you {\k16}hype {\k18}it
+Dialogue: 0,0:05:46.00,0:05:46.92,TikTok,,0,0,0,,{\k10}or {\k60}not, {\k14}and {\k8}when
+Dialogue: 0,0:05:46.92,0:05:48.10,TikTok,,0,0,0,,{\k16}it {\k78}does, {\k12}you {\k12}will
+Dialogue: 0,0:05:48.10,0:05:48.92,TikTok,,0,0,0,,{\k16}be {\k22}ready {\k16}for {\k28}it
+Dialogue: 0,0:05:48.92,0:05:49.96,TikTok,,0,0,0,,{\k36}precisely {\k38}because {\k18}you {\k12}did
+Dialogue: 0,0:05:49.96,0:05:50.96,TikTok,,0,0,0,,{\k22}not {\k30}pretend {\k20}it {\k28}was
+Dialogue: 0,0:05:50.96,0:05:51.60,TikTok,,0,0,0,,{\k30}already {\k34}here.
+Dialogue: 0,0:05:52.39,0:05:53.91,TikTok,,0,0,0,,{\k34}And {\k76}hey {\k12}welcome {\k30}to
+Dialogue: 0,0:05:53.91,0:05:55.31,TikTok,,0,0,0,,{\k20}Ctrl-Ahead. {\k102}This {\k6}is {\k12}the
+Dialogue: 0,0:05:55.31,0:05:56.55,TikTok,,0,0,0,,{\k14}first {\k28}video, {\k68}so {\k14}if
+Dialogue: 0,0:05:56.55,0:05:56.97,TikTok,,0,0,0,,{\k6}you {\k12}made {\k10}it {\k14}this
+Dialogue: 0,0:05:56.97,0:05:58.35,TikTok,,0,0,0,,{\k24}far, {\k62}you're {\k26}early, {\k26}and
+Dialogue: 0,0:05:58.75,0:05:59.89,TikTok,,0,0,0,,{\k24}early {\k22}is {\k32}exactly {\k36}where
+Dialogue: 0,0:05:59.89,0:06:00.43,TikTok,,0,0,0,,{\k28}you {\k12}want {\k6}to {\k8}be.
+Dialogue: 0,0:06:00.43,0:06:02.21,TikTok,,0,0,0,,{\k84}Next {\k24}time, {\k40}we {\k30}won't
+Dialogue: 0,0:06:02.21,0:06:03.07,TikTok,,0,0,0,,{\k22}just {\k26}check {\k20}the {\k18}hype,
+Dialogue: 0,0:06:03.07,0:06:04.47,TikTok,,0,0,0,,{\k76}we'll {\k14}test {\k22}what {\k28}actually
+Dialogue: 0,0:06:04.47,0:06:05.81,TikTok,,0,0,0,,{\k40}shipped, {\k34}on {\k48}a {\k12}real
+Dialogue: 0,0:06:05.81,0:06:07.11,TikTok,,0,0,0,,{\k12}machine, {\k42}and {\k60}show {\k16}you
+Dialogue: 0,0:06:07.11,0:06:08.55,TikTok,,0,0,0,,{\k14}the {\k12}receipts. {\k108}So {\k10}hit
+Dialogue: 0,0:06:08.55,0:06:09.83,TikTok,,0,0,0,,{\k16}subscribe, {\k44}and {\k52}bring {\k16}your
+Dialogue: 0,0:06:09.83,0:06:11.73,TikTok,,0,0,0,,{\k20}skepticism. {\k104}Because {\k28}here, {\k38}we
+Dialogue: 0,0:06:11.73,0:06:12.79,TikTok,,0,0,0,,{\k34}don't {\k24}chase {\k22}the {\k26}future.
+Dialogue: 0,0:06:12.79,0:06:14.57,TikTok,,0,0,0,,{\k82}We {\k18}check {\k20}it. {\k58}Ctrl-Ahead
+Dialogue: 0,0:06:14.93,0:06:17.29,TikTok,,0,0,0,,{\k22}confirmed, {\k66}not {\k138}just {\k10}claimed.

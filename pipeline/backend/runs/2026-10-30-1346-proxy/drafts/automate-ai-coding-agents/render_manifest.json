@@ -1,0 +1,97 @@
+{
+ "topic": "Gemini 4 Argon: Modernizing 40 year code",
+ "subniche": "AI coding agents",
+ "week": "2026-W44",
+ "origin": "automate",
+ "status": "queued_manifest_gate",
+ "engine": {
+  "composition": "HyperFrames",
+  "animation": "GSAP (CustomEase butter curves, spring where specified)",
+  "media": "image generation + generated video clips (LTX-2.3 via rented GPU when available) as metaphor/atmosphere ONLY; overlays/captions composited in HyperFrames",
+  "voiceover": "Helio VO at natural pace, re-synced to word timestamps; subtitles single clean line, spoken word in gold"
+ },
+ "rules": [
+  "one slide per idea",
+  "no slow zoom",
+  "no image or motion repeated",
+  "comma/list changes appear as spoken",
+  "proofs are cinematic text reveals, full-screen, highlighted as spoken (mouthfeed)",
+  "no provenance/meta labels on frames (provenance lives in this manifest)",
+  "animated checklist close",
+  "branded outro with subscribe + catchphrase"
+ ],
+ "segments": [
+  {
+   "segment": 1,
+   "title": "Hook",
+   "vo_note": "Topic in one sentence + why this week, dated evidence on screen",
+   "visual": {
+    "label": "NOT RUN",
+    "kind": "hyperframes_scene",
+    "source_file": "",
+    "generated_media": "specced at build; metaphor only if generated",
+    "note": "Replace with reviewed capture (live / fetched render / screen record / livestream frame) or generated plate, path recorded here."
+   }
+  },
+  {
+   "segment": 2,
+   "title": "Evidence",
+   "vo_note": "Dated changelog / release / harvest evidence, cinematic text reveals, links cited in notes",
+   "visual": {
+    "label": "NOT RUN",
+    "kind": "hyperframes_scene",
+    "source_file": "",
+    "generated_media": "specced at build; metaphor only if generated",
+    "note": "Replace with reviewed capture (live / fetched render / screen record / livestream frame) or generated plate, path recorded here."
+   }
+  },
+  {
+   "segment": 3,
+   "title": "Live test / artifact",
+   "vo_note": "Oliver's real artifact (from Brain angle): what ran, what did NOT run \u2014 honestly",
+   "visual": {
+    "label": "NOT RUN",
+    "kind": "hyperframes_scene",
+    "source_file": "",
+    "generated_media": "specced at build; metaphor only if generated",
+    "note": "Replace with reviewed capture (live / fetched render / screen record / livestream frame) or generated plate, path recorded here."
+   }
+  },
+  {
+   "segment": 4,
+   "title": "What breaks / watch",
+   "vo_note": "Limits, costs, quota, VRAM, deprecations \u2014 the honest catch",
+   "visual": {
+    "label": "NOT RUN",
+    "kind": "hyperframes_scene",
+    "source_file": "",
+    "generated_media": "specced at build; metaphor only if generated",
+    "note": "Replace with reviewed capture (live / fetched render / screen record / livestream frame) or generated plate, path recorded here."
+   }
+  },
+  {
+   "segment": 5,
+   "title": "What you can do",
+   "vo_note": "ANIMATED checklist close: items build in one by one, moving highlight, takeaway lands",
+   "visual": {
+    "label": "NOT RUN",
+    "kind": "hyperframes_scene",
+    "source_file": "",
+    "generated_media": "specced at build; metaphor only if generated",
+    "note": "Replace with reviewed capture (live / fetched render / screen record / livestream frame) or generated plate, path recorded here."
+   }
+  },
+  {
+   "segment": 6,
+   "title": "Outro",
+   "vo_note": "Welcome to the channel / first-video framing, subscribe push, brass-arrow mark, catchphrase",
+   "visual": {
+    "label": "NOT RUN",
+    "kind": "hyperframes_scene",
+    "source_file": "",
+    "generated_media": "specced at build; metaphor only if generated",
+    "note": "Replace with reviewed capture (live / fetched render / screen record / livestream frame) or generated plate, path recorded here."
+   }
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+Git, created in 2005 when Linus Torvalds built a version-control system in about ten days. What it is: a time machine for your code — every working version saved as a checkpoint. Why you need it: production code changes daily, and you need undo. Skip it, and one bad edit costs you a day of guessing what changed. How: git init, commit every time something works, push to GitHub.

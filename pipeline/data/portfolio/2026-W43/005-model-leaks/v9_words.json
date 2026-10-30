@@ -1,0 +1,5984 @@
+[
+ {
+  "start": 0.0,
+  "end": 3.56,
+  "text": "One video titled this week promised four huge model updates,",
+  "words": [
+   {
+    "word": " One",
+    "start": 0.0,
+    "end": 0.38
+   },
+   {
+    "word": " video",
+    "start": 0.38,
+    "end": 0.7
+   },
+   {
+    "word": " titled",
+    "start": 0.7,
+    "end": 0.9
+   },
+   {
+    "word": " this",
+    "start": 0.9,
+    "end": 1.16
+   },
+   {
+    "word": " week",
+    "start": 1.16,
+    "end": 1.44
+   },
+   {
+    "word": " promised",
+    "start": 1.44,
+    "end": 1.76
+   },
+   {
+    "word": " four",
+    "start": 1.76,
+    "end": 2.3
+   },
+   {
+    "word": " huge",
+    "start": 2.3,
+    "end": 2.64
+   },
+   {
+    "word": " model",
+    "start": 2.64,
+    "end": 2.94
+   },
+   {
+    "word": " updates,",
+    "start": 2.94,
+    "end": 3.56
+   }
+  ]
+ },
+ {
+  "start": 4.04,
+  "end": 8.38,
+  "text": "GPT-7, Claude R.E. Band, Gemini Carbon Insane,",
+  "words": [
+   {
+    "word": " GPT",
+    "start": 4.04,
+    "end": 4.38
+   },
+   {
+    "word": "-7,",
+    "start": 4.38,
+    "end": 5.0
+   },
+   {
+    "word": " Claude",
+    "start": 5.26,
+    "end": 5.56
+   },
+   {
+    "word": " R",
+    "start": 5.56,
+    "end": 5.74
+   },
+   {
+    "word": ".E.",
+    "start": 5.74,
+    "end": 5.94
+   },
+   {
+    "word": " Band,",
+    "start": 6.04,
+    "end": 6.34
+   },
+   {
+    "word": " Gemini",
+    "start": 6.92,
+    "end": 7.2
+   },
+   {
+    "word": " Carbon",
+    "start": 7.2,
+    "end": 7.58
+   },
+   {
+    "word": " Insane,",
+    "start": 7.58,
+    "end": 8.38
+   }
+  ]
+ },
+ {
+  "start": 8.72,
+  "end": 9.86,
+  "text": "Quinn-4 Leaks.",
+  "words": [
+   {
+    "word": " Quinn",
+    "start": 8.72,
+    "end": 9.02
+   },
+   {
+    "word": "-4",
+    "start": 9.02,
+    "end": 9.34
+   },
+   {
+    "word": " Leaks.",
+    "start": 9.34,
+    "end": 9.86
+   }
+  ]
+ },
+ {
+  "start": 10.5,
+  "end": 13.22,
+  "text": "I checked all four against what the company's actually said.",
+  "words": [
+   {
+    "word": " I",
+    "start": 10.5,
+    "end": 10.54
+   },
+   {
+    "word": " checked",
+    "start": 10.54,
+    "end": 10.72
+   },
+   {
+    "word": " all",
+    "start": 10.72,
+    "end": 11.14
+   },
+   {
+    "word": " four",
+    "start": 11.14,
+    "end": 11.32
+   },
+   {
+    "word": " against",
+    "start": 11.32,
+    "end": 11.62
+   },
+   {
+    "word": " what",
+    "start": 11.62,
+    "end": 11.8
+   },
+   {
+    "word": " the",
+    "start": 11.8,
+    "end": 11.92
+   },
+   {
+    "word": " company's",
+    "start": 11.92,
+    "end": 12.4
+   },
+   {
+    "word": " actually",
+    "start": 12.4,
+    "end": 12.74
+   },
+   {
+    "word": " said.",
+    "start": 12.74,
+    "end": 13.22
+   }
+  ]
+ },
+ {
+  "start": 13.78,
+  "end": 16.3,
+  "text": "One is a rumor, one I could not find at all,",
+  "words": [
+   {
+    "word": " One",
+    "start": 13.78,
+    "end": 13.8
+   },
+   {
+    "word": " is",
+    "start": 13.8,
+    "end": 14.0
+   },
+   {
+    "word": " a",
+    "start": 14.0,
+    "end": 14.1
+   },
+   {
+    "word": " rumor,",
+    "start": 14.1,
+    "end": 14.3
+   },
+   {
+    "word": " one",
+    "start": 14.86,
+    "end": 14.98
+   },
+   {
+    "word": " I",
+    "start": 14.98,
+    "end": 15.12
+   },
+   {
+    "word": " could",
+    "start": 15.12,
+    "end": 15.22
+   },
+   {
+    "word": " not",
+    "start": 15.22,
+    "end": 15.46
+   },
+   {
+    "word": " find",
+    "start": 15.46,
+    "end": 15.64
+   },
+   {
+    "word": " at",
+    "start": 15.64,
+    "end": 15.86
+   },
+   {
+    "word": " all,",
+    "start": 15.86,
+    "end": 16.3
+   }
+  ]
+ },
+ {
+  "start": 16.68,
+  "end": 20.12,
+  "text": "one is a leak with no product, and one is real but not shipped.",
+  "words": [
+   {
+    "word": " one",
+    "start": 16.68,
+    "end": 16.78
+   },
+   {
+    "word": " is",
+    "start": 16.78,
+    "end": 17.04
+   },
+   {
+    "word": " a",
+    "start": 17.04,
+    "end": 17.12
+   },
+   {
+    "word": " leak",
+    "start": 17.12,
+    "end": 17.28
+   },
+   {
+    "word": " with",
+    "start": 17.28,
+    "end": 17.48
+   },
+   {
+    "word": " no",
+    "start": 17.48,
+    "end": 17.76
+   },
+   {
+    "word": " product,",
+    "start": 17.76,
+    "end": 18.14
+   },
+   {
+    "word": " and",
+    "start": 18.52,
+    "end": 18.78
+   },
+   {
+    "word": " one",
+    "start": 18.78,
+    "end": 18.86
+   },
+   {
+    "word": " is",
+    "start": 18.86,
+    "end": 19.08
+   },
+   {
+    "word": " real",
+    "start": 19.08,
+    "end": 19.32
+   },
+   {
+    "word": " but",
+    "start": 19.32,
+    "end": 19.52
+   },
+   {
+    "word": " not",
+    "start": 19.52,
+    "end": 19.82
+   },
+   {
+    "word": " shipped.",
+    "start": 19.82,
+    "end": 20.12
+   }
+  ]
+ },
+ {
+  "start": 20.82,
+  "end": 23.62,
+  "text": "Here's the scorecard, so you do not build on a rumor.",
+  "words": [
+   {
+    "word": " Here's",
+    "start": 20.82,
+    "end": 21.08
+   },
+   {
+    "word": " the",
+    "start": 21.08,
+    "end": 21.26
+   },
+   {
+    "word": " scorecard,",
+    "start": 21.26,
+    "end": 21.8
+   },
+   {
+    "word": " so",
+    "start": 22.12,
+    "end": 22.24
+   },
+   {
+    "word": " you",
+    "start": 22.24,
+    "end": 22.34
+   },
+   {
+    "word": " do",
+    "start": 22.34,
+    "end": 22.48
+   },
+   {
+    "word": " not",
+    "start": 22.48,
+    "end": 22.72
+   },
+   {
+    "word": " build",
+    "start": 22.72,
+    "end": 22.98
+   },
+   {
+    "word": " on",
+    "start": 22.98,
+    "end": 23.2
+   },
+   {
+    "word": " a",
+    "start": 23.2,
+    "end": 23.62
+   },
+   {
+    "word": " rumor.",
+    "start": 23.62,
+    "end": 23.62
+   }
+  ]
+ },
+ {
+  "start": 24.18,
+  "end": 27.58,
+  "text": "Before the evidence, here's the thought I want you to carry through all four.",
+  "words": [
+   {
+    "word": " Before",
+    "start": 24.18,
+    "end": 24.4
+   },
+   {
+    "word": " the",
+    "start": 24.4,
+    "end": 24.66
+   },
+   {
+    "word": " evidence,",
+    "start": 24.66,
+    "end": 24.94
+   },
+   {
+    "word": " here's",
+    "start": 25.24,
+    "end": 25.54
+   },
+   {
+    "word": " the",
+    "start": 25.54,
+    "end": 25.7
+   },
+   {
+    "word": " thought",
+    "start": 25.7,
+    "end": 25.9
+   },
+   {
+    "word": " I",
+    "start": 25.9,
+    "end": 26.08
+   },
+   {
+    "word": " want",
+    "start": 26.08,
+    "end": 26.26
+   },
+   {
+    "word": " you",
+    "start": 26.26,
+    "end": 26.36
+   },
+   {
+    "word": " to",
+    "start": 26.36,
+    "end": 26.44
+   },
+   {
+    "word": " carry",
+    "start": 26.44,
+    "end": 26.64
+   },
+   {
+    "word": " through",
+    "start": 26.64,
+    "end": 26.96
+   },
+   {
+    "word": " all",
+    "start": 26.96,
+    "end": 27.22
+   },
+   {
+    "word": " four.",
+    "start": 27.22,
+    "end": 27.58
+   }
+  ]
+ },
+ {
+  "start": 27.58,
+  "end": 31.22,
+  "text": "A rumor is not just a bad fact, it is a mirror.",
+  "words": [
+   {
+    "word": " A",
+    "start": 27.58,
+    "end": 28.3
+   },
+   {
+    "word": " rumor",
+    "start": 28.3,
+    "end": 28.54
+   },
+   {
+    "word": " is",
+    "start": 28.54,
+    "end": 28.84
+   },
+   {
+    "word": " not",
+    "start": 28.84,
+    "end": 29.08
+   },
+   {
+    "word": " just",
+    "start": 29.08,
+    "end": 29.34
+   },
+   {
+    "word": " a",
+    "start": 29.34,
+    "end": 29.42
+   },
+   {
+    "word": " bad",
+    "start": 29.42,
+    "end": 29.7
+   },
+   {
+    "word": " fact,",
+    "start": 29.7,
+    "end": 30.12
+   },
+   {
+    "word": " it",
+    "start": 30.52,
+    "end": 30.58
+   },
+   {
+    "word": " is",
+    "start": 30.58,
+    "end": 30.82
+   },
+   {
+    "word": " a",
+    "start": 30.82,
+    "end": 30.92
+   },
+   {
+    "word": " mirror.",
+    "start": 30.92,
+    "end": 31.22
+   }
+  ]
+ },
+ {
+  "start": 31.74,
+  "end": 34.12,
+  "text": "It shows you what you already wanted to be true.",
+  "words": [
+   {
+    "word": " It",
+    "start": 31.74,
+    "end": 31.94
+   },
+   {
+    "word": " shows",
+    "start": 31.94,
+    "end": 32.18
+   },
+   {
+    "word": " you",
+    "start": 32.18,
+    "end": 32.4
+   },
+   {
+    "word": " what",
+    "start": 32.4,
+    "end": 32.52
+   },
+   {
+    "word": " you",
+    "start": 32.52,
+    "end": 33.1
+   },
+   {
+    "word": " already",
+    "start": 33.1,
+    "end": 33.2
+   },
+   {
+    "word": " wanted",
+    "start": 33.2,
+    "end": 33.42
+   },
+   {
+    "word": " to",
+    "start": 33.42,
+    "end": 33.56
+   },
+   {
+    "word": " be",
+    "start": 33.56,
+    "end": 33.76
+   },
+   {
+    "word": " true.",
+    "start": 33.76,
+    "end": 34.12
+   }
+  ]
+ },
+ {
+  "start": 34.68,
+  "end": 38.66,
+  "text": "When a title promises the next giant model, the next ban, the next leak,",
+  "words": [
+   {
+    "word": " When",
+    "start": 34.68,
+    "end": 34.8
+   },
+   {
+    "word": " a",
+    "start": 34.8,
+    "end": 34.94
+   },
+   {
+    "word": " title",
+    "start": 34.94,
+    "end": 35.22
+   },
+   {
+    "word": " promises",
+    "start": 35.22,
+    "end": 35.56
+   },
+   {
+    "word": " the",
+    "start": 35.56,
+    "end": 35.84
+   },
+   {
+    "word": " next",
+    "start": 35.84,
+    "end": 36.12
+   },
+   {
+    "word": " giant",
+    "start": 36.12,
+    "end": 36.46
+   },
+   {
+    "word": " model,",
+    "start": 36.46,
+    "end": 36.78
+   },
+   {
+    "word": " the",
+    "start": 37.06,
+    "end": 37.14
+   },
+   {
+    "word": " next",
+    "start": 37.14,
+    "end": 37.42
+   },
+   {
+    "word": " ban,",
+    "start": 37.42,
+    "end": 37.82
+   },
+   {
+    "word": " the",
+    "start": 38.02,
+    "end": 38.1
+   },
+   {
+    "word": " next",
+    "start": 38.1,
+    "end": 38.38
+   },
+   {
+    "word": " leak,",
+    "start": 38.38,
+    "end": 38.66
+   }
+  ]
+ },
+ {
+  "start": 39.18,
+  "end": 44.06,
+  "text": "it is not only selling news, it is selling certainty in a field that has almost none.",
+  "words": [
+   {
+    "word": " it",
+    "start": 39.18,
+    "end": 39.28
+   },
+   {
+    "word": " is",
+    "start": 39.28,
+    "end": 39.42
+   },
+   {
+    "word": " not",
+    "start": 39.42,
+    "end": 39.66
+   },
+   {
+    "word": " only",
+    "start": 39.66,
+    "end": 39.94
+   },
+   {
+    "word": " selling",
+    "start": 39.94,
+    "end": 40.24
+   },
+   {
+    "word": " news,",
+    "start": 40.24,
+    "end": 40.68
+   },
+   {
+    "word": " it",
+    "start": 41.1,
+    "end": 41.16
+   },
+   {
+    "word": " is",
+    "start": 41.16,
+    "end": 41.4
+   },
+   {
+    "word": " selling",
+    "start": 41.4,
+    "end": 41.7
+   },
+   {
+    "word": " certainty",
+    "start": 41.7,
+    "end": 42.22
+   },
+   {
+    "word": " in",
+    "start": 42.22,
+    "end": 42.48
+   },
+   {
+    "word": " a",
+    "start": 42.48,
+    "end": 42.58
+   },
+   {
+    "word": " field",
+    "start": 42.58,
+    "end": 42.8
+   },
+   {
+    "word": " that",
+    "start": 42.8,
+    "end": 42.96
+   },
+   {
+    "word": " has",
+    "start": 42.96,
+    "end": 43.3
+   },
+   {
+    "word": " almost",
+    "start": 43.3,
+    "end": 43.62
+   },
+   {
+    "word": " none.",
+    "start": 43.62,
+    "end": 44.06
+   }
+  ]
+ },
+ {
+  "start": 44.62,
+  "end": 46.86,
+  "text": "The directive is simple, and it is hard.",
+  "words": [
+   {
+    "word": " The",
+    "start": 44.62,
+    "end": 44.78
+   },
+   {
+    "word": " directive",
+    "start": 44.78,
+    "end": 45.04
+   },
+   {
+    "word": " is",
+    "start": 45.04,
+    "end": 45.34
+   },
+   {
+    "word": " simple,",
+    "start": 45.34,
+    "end": 45.66
+   },
+   {
+    "word": " and",
+    "start": 46.06,
+    "end": 46.18
+   },
+   {
+    "word": " it",
+    "start": 46.18,
+    "end": 46.26
+   },
+   {
+    "word": " is",
+    "start": 46.26,
+    "end": 46.46
+   },
+   {
+    "word": " hard.",
+    "start": 46.46,
+    "end": 46.86
+   }
+  ]
+ },
+ {
+  "start": 47.44,
+  "end": 49.22,
+  "text": "Want the truth more than you want the headline?",
+  "words": [
+   {
+    "word": " Want",
+    "start": 47.44,
+    "end": 47.58
+   },
+   {
+    "word": " the",
+    "start": 47.58,
+    "end": 47.82
+   },
+   {
+    "word": " truth",
+    "start": 47.82,
+    "end": 48.08
+   },
+   {
+    "word": " more",
+    "start": 48.08,
+    "end": 48.3
+   },
+   {
+    "word": " than",
+    "start": 48.3,
+    "end": 48.42
+   },
+   {
+    "word": " you",
+    "start": 48.42,
+    "end": 48.56
+   },
+   {
+    "word": " want",
+    "start": 48.56,
+    "end": 48.76
+   },
+   {
+    "word": " the",
+    "start": 48.76,
+    "end": 48.96
+   },
+   {
+    "word": " headline?",
+    "start": 48.96,
+    "end": 49.22
+   }
+  ]
+ },
+ {
+  "start": 49.9,
+  "end": 54.12,
+  "text": "If you can hold that for six minutes, the rest of this video will feel less like a debunk",
+  "words": [
+   {
+    "word": " If",
+    "start": 49.9,
+    "end": 50.06
+   },
+   {
+    "word": " you",
+    "start": 50.06,
+    "end": 50.16
+   },
+   {
+    "word": " can",
+    "start": 50.16,
+    "end": 50.34
+   },
+   {
+    "word": " hold",
+    "start": 50.34,
+    "end": 50.54
+   },
+   {
+    "word": " that",
+    "start": 50.54,
+    "end": 50.74
+   },
+   {
+    "word": " for",
+    "start": 50.74,
+    "end": 50.92
+   },
+   {
+    "word": " six",
+    "start": 50.92,
+    "end": 51.2
+   },
+   {
+    "word": " minutes,",
+    "start": 51.2,
+    "end": 51.48
+   },
+   {
+    "word": " the",
+    "start": 51.96,
+    "end": 52.04
+   },
+   {
+    "word": " rest",
+    "start": 52.04,
+    "end": 52.24
+   },
+   {
+    "word": " of",
+    "start": 52.24,
+    "end": 52.34
+   },
+   {
+    "word": " this",
+    "start": 52.34,
+    "end": 52.56
+   },
+   {
+    "word": " video",
+    "start": 52.56,
+    "end": 52.78
+   },
+   {
+    "word": " will",
+    "start": 52.78,
+    "end": 53.06
+   },
+   {
+    "word": " feel",
+    "start": 53.06,
+    "end": 53.3
+   },
+   {
+    "word": " less",
+    "start": 53.3,
+    "end": 53.52
+   },
+   {
+    "word": " like",
+    "start": 53.52,
+    "end": 53.78
+   },
+   {
+    "word": " a",
+    "start": 53.78,
+    "end": 53.92
+   },
+   {
+    "word": " debunk",
+    "start": 53.92,
+    "end": 54.12
+   }
+  ]
+ },
+ {
+  "start": 54.12,
+  "end": 55.64,
+  "text": "and more like a discipline.",
+  "words": [
+   {
+    "word": " and",
+    "start": 54.12,
+    "end": 54.76
+   },
+   {
+    "word": " more",
+    "start": 54.76,
+    "end": 55.0
+   },
+   {
+    "word": " like",
+    "start": 55.0,
+    "end": 55.2
+   },
+   {
+    "word": " a",
+    "start": 55.2,
+    "end": 55.48
+   },
+   {
+    "word": " discipline.",
+    "start": 55.48,
+    "end": 55.64
+   }
+  ]
+ },
+ {
+  "start": 55.64,
+  "end": 57.96,
+  "text": "First, GPT-7 Bell.",
+  "words": [
+   {
+    "word": " First,",
+    "start": 55.64,
+    "end": 56.5
+   },
+   {
+    "word": " GPT",
+    "start": 56.8,
+    "end": 57.18
+   },
+   {
+    "word": "-7",
+    "start": 57.18,
+    "end": 57.54
+   },
+   {
+    "word": " Bell.",
+    "start": 57.54,
+    "end": 57.96
+   }
+  ]
+ },
+ {
+  "start": 58.46,
+  "end": 62.1,
+  "text": "The whole thing traces to one anonymous post on August 25th.",
+  "words": [
+   {
+    "word": " The",
+    "start": 58.46,
+    "end": 58.48
+   },
+   {
+    "word": " whole",
+    "start": 58.48,
+    "end": 58.7
+   },
+   {
+    "word": " thing",
+    "start": 58.7,
+    "end": 58.94
+   },
+   {
+    "word": " traces",
+    "start": 58.94,
+    "end": 59.2
+   },
+   {
+    "word": " to",
+    "start": 59.2,
+    "end": 59.5
+   },
+   {
+    "word": " one",
+    "start": 59.5,
+    "end": 59.68
+   },
+   {
+    "word": " anonymous",
+    "start": 59.68,
+    "end": 60.0
+   },
+   {
+    "word": " post",
+    "start": 60.0,
+    "end": 60.38
+   },
+   {
+    "word": " on",
+    "start": 60.38,
+    "end": 60.58
+   },
+   {
+    "word": " August",
+    "start": 60.58,
+    "end": 60.9
+   },
+   {
+    "word": " 25th.",
+    "start": 60.9,
+    "end": 62.1
+   }
+  ]
+ },
+ {
+  "start": 62.12,
+  "end": 66.28,
+  "text": "A logical blur, no-named source, and it did not even say GPT-7.",
+  "words": [
+   {
+    "word": " A",
+    "start": 62.12,
+    "end": 62.18
+   },
+   {
+    "word": " logical",
+    "start": 62.18,
+    "end": 62.46
+   },
+   {
+    "word": " blur,",
+    "start": 62.46,
+    "end": 62.92
+   },
+   {
+    "word": " no",
+    "start": 63.1,
+    "end": 63.24
+   },
+   {
+    "word": "-named",
+    "start": 63.24,
+    "end": 63.5
+   },
+   {
+    "word": " source,",
+    "start": 63.5,
+    "end": 63.92
+   },
+   {
+    "word": " and",
+    "start": 64.22,
+    "end": 64.4
+   },
+   {
+    "word": " it",
+    "start": 64.4,
+    "end": 64.5
+   },
+   {
+    "word": " did",
+    "start": 64.5,
+    "end": 64.64
+   },
+   {
+    "word": " not",
+    "start": 64.64,
+    "end": 64.78
+   },
+   {
+    "word": " even",
+    "start": 64.78,
+    "end": 65.04
+   },
+   {
+    "word": " say",
+    "start": 65.04,
+    "end": 65.36
+   },
+   {
+    "word": " GPT",
+    "start": 65.36,
+    "end": 65.88
+   },
+   {
+    "word": "-7.",
+    "start": 65.88,
+    "end": 66.28
+   }
+  ]
+ },
+ {
+  "start": 66.68,
+  "end": 67.76,
+  "text": "That label came later.",
+  "words": [
+   {
+    "word": " That",
+    "start": 66.68,
+    "end": 66.86
+   },
+   {
+    "word": " label",
+    "start": 66.86,
+    "end": 67.1
+   },
+   {
+    "word": " came",
+    "start": 67.1,
+    "end": 67.38
+   },
+   {
+    "word": " later.",
+    "start": 67.38,
+    "end": 67.76
+   }
+  ]
+ },
+ {
+  "start": 68.46,
+  "end": 70.96,
+  "text": "OpenAI has never used the name Bell in public.",
+  "words": [
+   {
+    "word": " OpenAI",
+    "start": 68.46,
+    "end": 68.9
+   },
+   {
+    "word": " has",
+    "start": 68.9,
+    "end": 69.16
+   },
+   {
+    "word": " never",
+    "start": 69.16,
+    "end": 69.42
+   },
+   {
+    "word": " used",
+    "start": 69.42,
+    "end": 69.66
+   },
+   {
+    "word": " the",
+    "start": 69.66,
+    "end": 69.82
+   },
+   {
+    "word": " name",
+    "start": 69.82,
+    "end": 70.06
+   },
+   {
+    "word": " Bell",
+    "start": 70.06,
+    "end": 70.36
+   },
+   {
+    "word": " in",
+    "start": 70.36,
+    "end": 70.58
+   },
+   {
+    "word": " public.",
+    "start": 70.58,
+    "end": 70.96
+   }
+  ]
+ },
+ {
+  "start": 71.36,
+  "end": 75.46,
+  "text": "And on October 11th, its own models page listed GPT-6 Astra,",
+  "words": [
+   {
+    "word": " And",
+    "start": 71.36,
+    "end": 71.46
+   },
+   {
+    "word": " on",
+    "start": 71.46,
+    "end": 71.62
+   },
+   {
+    "word": " October",
+    "start": 71.62,
+    "end": 71.92
+   },
+   {
+    "word": " 11th,",
+    "start": 71.92,
+    "end": 72.62
+   },
+   {
+    "word": " its",
+    "start": 72.62,
+    "end": 72.74
+   },
+   {
+    "word": " own",
+    "start": 72.74,
+    "end": 73.02
+   },
+   {
+    "word": " models",
+    "start": 73.02,
+    "end": 73.3
+   },
+   {
+    "word": " page",
+    "start": 73.3,
+    "end": 73.66
+   },
+   {
+    "word": " listed",
+    "start": 73.66,
+    "end": 73.98
+   },
+   {
+    "word": " GPT",
+    "start": 73.98,
+    "end": 74.56
+   },
+   {
+    "word": "-6",
+    "start": 74.56,
+    "end": 74.96
+   },
+   {
+    "word": " Astra,",
+    "start": 74.96,
+    "end": 75.46
+   }
+  ]
+ },
+ {
+  "start": 75.66,
+  "end": 78.84,
+  "text": "GPT-6.1 Sol, and GPT-6 Luna.",
+  "words": [
+   {
+    "word": " GPT",
+    "start": 75.66,
+    "end": 76.06
+   },
+   {
+    "word": "-6",
+    "start": 76.06,
+    "end": 76.38
+   },
+   {
+    "word": ".1",
+    "start": 76.38,
+    "end": 76.86
+   },
+   {
+    "word": " Sol,",
+    "start": 76.86,
+    "end": 77.16
+   },
+   {
+    "word": " and",
+    "start": 77.52,
+    "end": 77.72
+   },
+   {
+    "word": " GPT",
+    "start": 77.72,
+    "end": 78.12
+   },
+   {
+    "word": "-6",
+    "start": 78.12,
+    "end": 78.48
+   },
+   {
+    "word": " Luna.",
+    "start": 78.48,
+    "end": 78.84
+   }
+  ]
+ },
+ {
+  "start": 79.5,
+  "end": 81.3,
+  "text": "No Bell, no GPT-7.",
+  "words": [
+   {
+    "word": " No",
+    "start": 79.5,
+    "end": 79.66
+   },
+   {
+    "word": " Bell,",
+    "start": 79.66,
+    "end": 80.02
+   },
+   {
+    "word": " no",
+    "start": 80.24,
+    "end": 80.46
+   },
+   {
+    "word": " GPT",
+    "start": 80.46,
+    "end": 80.9
+   },
+   {
+    "word": "-7.",
+    "start": 80.9,
+    "end": 81.3
+   }
+  ]
+ },
+ {
+  "start": 81.86,
+  "end": 84.64,
+  "text": "What OpenAI did say on September 8th,",
+  "words": [
+   {
+    "word": " What",
+    "start": 81.86,
+    "end": 82.1
+   },
+   {
+    "word": " OpenAI",
+    "start": 82.1,
+    "end": 82.6
+   },
+   {
+    "word": " did",
+    "start": 82.6,
+    "end": 82.92
+   },
+   {
+    "word": " say",
+    "start": 82.92,
+    "end": 83.24
+   },
+   {
+    "word": " on",
+    "start": 83.24,
+    "end": 83.5
+   },
+   {
+    "word": " September",
+    "start": 83.5,
+    "end": 83.74
+   },
+   {
+    "word": " 8th,",
+    "start": 83.74,
+    "end": 84.64
+   }
+  ]
+ },
+ {
+  "start": 84.64,
+  "end": 89.02,
+  "text": "is that it has an internal model significantly more capable than GPT-6 Astra.",
+  "words": [
+   {
+    "word": " is",
+    "start": 84.64,
+    "end": 84.78
+   },
+   {
+    "word": " that",
+    "start": 84.78,
+    "end": 84.78
+   },
+   {
+    "word": " it",
+    "start": 84.78,
+    "end": 84.86
+   },
+   {
+    "word": " has",
+    "start": 84.86,
+    "end": 85.12
+   },
+   {
+    "word": " an",
+    "start": 85.12,
+    "end": 85.34
+   },
+   {
+    "word": " internal",
+    "start": 85.34,
+    "end": 85.68
+   },
+   {
+    "word": " model",
+    "start": 85.68,
+    "end": 86.06
+   },
+   {
+    "word": " significantly",
+    "start": 86.06,
+    "end": 86.62
+   },
+   {
+    "word": " more",
+    "start": 86.62,
+    "end": 87.1
+   },
+   {
+    "word": " capable",
+    "start": 87.1,
+    "end": 87.4
+   },
+   {
+    "word": " than",
+    "start": 87.4,
+    "end": 87.7
+   },
+   {
+    "word": " GPT",
+    "start": 87.7,
+    "end": 88.16
+   },
+   {
+    "word": "-6",
+    "start": 88.16,
+    "end": 88.56
+   },
+   {
+    "word": " Astra.",
+    "start": 88.56,
+    "end": 89.02
+   }
+  ]
+ },
+ {
+  "start": 89.6,
+  "end": 93.32,
+  "text": "That is true, and it is not the same as saying that model is Bell,",
+  "words": [
+   {
+    "word": " That",
+    "start": 89.6,
+    "end": 89.76
+   },
+   {
+    "word": " is",
+    "start": 89.76,
+    "end": 89.98
+   },
+   {
+    "word": " true,",
+    "start": 89.98,
+    "end": 90.44
+   },
+   {
+    "word": " and",
+    "start": 90.7,
+    "end": 90.88
+   },
+   {
+    "word": " it",
+    "start": 90.88,
+    "end": 90.98
+   },
+   {
+    "word": " is",
+    "start": 90.98,
+    "end": 91.14
+   },
+   {
+    "word": " not",
+    "start": 91.14,
+    "end": 91.32
+   },
+   {
+    "word": " the",
+    "start": 91.32,
+    "end": 91.56
+   },
+   {
+    "word": " same",
+    "start": 91.56,
+    "end": 91.72
+   },
+   {
+    "word": " as",
+    "start": 91.72,
+    "end": 91.94
+   },
+   {
+    "word": " saying",
+    "start": 91.94,
+    "end": 92.16
+   },
+   {
+    "word": " that",
+    "start": 92.16,
+    "end": 92.44
+   },
+   {
+    "word": " model",
+    "start": 92.44,
+    "end": 92.66
+   },
+   {
+    "word": " is",
+    "start": 92.66,
+    "end": 92.92
+   },
+   {
+    "word": " Bell,",
+    "start": 92.92,
+    "end": 93.32
+   }
+  ]
+ },
+ {
+  "start": 93.56,
+  "end": 95.1,
+  "text": "or that it is GPT-7.",
+  "words": [
+   {
+    "word": " or",
+    "start": 93.56,
+    "end": 93.66
+   },
+   {
+    "word": " that",
+    "start": 93.66,
+    "end": 93.78
+   },
+   {
+    "word": " it",
+    "start": 93.78,
+    "end": 93.92
+   },
+   {
+    "word": " is",
+    "start": 93.92,
+    "end": 94.12
+   },
+   {
+    "word": " GPT",
+    "start": 94.12,
+    "end": 94.56
+   },
+   {
+    "word": "-7.",
+    "start": 94.56,
+    "end": 95.1
+   }
+  ]
+ },
+ {
+  "start": 95.62,
+  "end": 96.86,
+  "text": "Verdict, unverified.",
+  "words": [
+   {
+    "word": " Verdict,",
+    "start": 95.62,
+    "end": 95.96
+   },
+   {
+    "word": " unverified.",
+    "start": 96.34,
+    "end": 96.86
+   }
+  ]
+ },
+ {
+  "start": 98.0,
+  "end": 99.18,
+  "text": "Second, Claude Ria Band.",
+  "words": [
+   {
+    "word": " Second,",
+    "start": 98.0,
+    "end": 98.0
+   },
+   {
+    "word": " Claude",
+    "start": 98.28,
+    "end": 98.56
+   },
+   {
+    "word": " Ria",
+    "start": 98.56,
+    "end": 98.8
+   },
+   {
+    "word": " Band.",
+    "start": 98.8,
+    "end": 99.18
+   }
+  ]
+ },
+ {
+  "start": 99.76,
+  "end": 103.0,
+  "text": "I searched for a model called Claude Ria, and I did not find one.",
+  "words": [
+   {
+    "word": " I",
+    "start": 99.76,
+    "end": 99.92
+   },
+   {
+    "word": " searched",
+    "start": 99.92,
+    "end": 100.12
+   },
+   {
+    "word": " for",
+    "start": 100.12,
+    "end": 100.34
+   },
+   {
+    "word": " a",
+    "start": 100.34,
+    "end": 100.6
+   },
+   {
+    "word": " model",
+    "start": 100.6,
+    "end": 100.6
+   },
+   {
+    "word": " called",
+    "start": 100.6,
+    "end": 100.96
+   },
+   {
+    "word": " Claude",
+    "start": 100.96,
+    "end": 101.32
+   },
+   {
+    "word": " Ria,",
+    "start": 101.32,
+    "end": 101.56
+   },
+   {
+    "word": " and",
+    "start": 101.76,
+    "end": 101.86
+   },
+   {
+    "word": " I",
+    "start": 101.86,
+    "end": 101.96
+   },
+   {
+    "word": " did",
+    "start": 101.96,
+    "end": 102.08
+   },
+   {
+    "word": " not",
+    "start": 102.08,
+    "end": 102.3
+   },
+   {
+    "word": " find",
+    "start": 102.3,
+    "end": 102.54
+   },
+   {
+    "word": " one.",
+    "start": 102.54,
+    "end": 103.0
+   }
+  ]
+ },
+ {
+  "start": 103.34,
+  "end": 106.2,
+  "text": "What I did find is two real bands, and neither is a model.",
+  "words": [
+   {
+    "word": " What",
+    "start": 103.34,
+    "end": 103.44
+   },
+   {
+    "word": " I",
+    "start": 103.44,
+    "end": 103.56
+   },
+   {
+    "word": " did",
+    "start": 103.56,
+    "end": 103.78
+   },
+   {
+    "word": " find",
+    "start": 103.78,
+    "end": 104.02
+   },
+   {
+    "word": " is",
+    "start": 104.02,
+    "end": 104.22
+   },
+   {
+    "word": " two",
+    "start": 104.22,
+    "end": 104.54
+   },
+   {
+    "word": " real",
+    "start": 104.54,
+    "end": 104.8
+   },
+   {
+    "word": " bands,",
+    "start": 104.8,
+    "end": 105.18
+   },
+   {
+    "word": " and",
+    "start": 105.4,
+    "end": 105.52
+   },
+   {
+    "word": " neither",
+    "start": 105.52,
+    "end": 105.64
+   },
+   {
+    "word": " is",
+    "start": 105.64,
+    "end": 105.86
+   },
+   {
+    "word": " a",
+    "start": 105.86,
+    "end": 106.04
+   },
+   {
+    "word": " model.",
+    "start": 106.04,
+    "end": 106.2
+   }
+  ]
+ },
+ {
+  "start": 106.84,
+  "end": 110.0,
+  "text": "On October 8th, and Thropic updated its usage policy,",
+  "words": [
+   {
+    "word": " On",
+    "start": 106.84,
+    "end": 107.02
+   },
+   {
+    "word": " October",
+    "start": 107.02,
+    "end": 107.28
+   },
+   {
+    "word": " 8th,",
+    "start": 107.28,
+    "end": 108.08
+   },
+   {
+    "word": " and",
+    "start": 108.14,
+    "end": 108.18
+   },
+   {
+    "word": " Thropic",
+    "start": 108.18,
+    "end": 108.52
+   },
+   {
+    "word": " updated",
+    "start": 108.52,
+    "end": 108.86
+   },
+   {
+    "word": " its",
+    "start": 108.86,
+    "end": 109.2
+   },
+   {
+    "word": " usage",
+    "start": 109.2,
+    "end": 109.48
+   },
+   {
+    "word": " policy,",
+    "start": 109.48,
+    "end": 110.0
+   }
+  ]
+ },
+ {
+  "start": 110.38,
+  "end": 114.0,
+  "text": "effective November 12th, to band sustained needless cruelty toward Claude.",
+  "words": [
+   {
+    "word": " effective",
+    "start": 110.38,
+    "end": 110.42
+   },
+   {
+    "word": " November",
+    "start": 110.42,
+    "end": 110.8
+   },
+   {
+    "word": " 12th,",
+    "start": 110.8,
+    "end": 111.42
+   },
+   {
+    "word": " to",
+    "start": 111.42,
+    "end": 111.58
+   },
+   {
+    "word": " band",
+    "start": 111.58,
+    "end": 111.8
+   },
+   {
+    "word": " sustained",
+    "start": 111.8,
+    "end": 112.36
+   },
+   {
+    "word": " needless",
+    "start": 112.36,
+    "end": 112.86
+   },
+   {
+    "word": " cruelty",
+    "start": 112.86,
+    "end": 113.28
+   },
+   {
+    "word": " toward",
+    "start": 113.28,
+    "end": 113.62
+   },
+   {
+    "word": " Claude.",
+    "start": 113.62,
+    "end": 114.0
+   }
+  ]
+ },
+ {
+  "start": 114.0,
+  "end": 116.9,
+  "text": "And the main enforcement is Claude ending the conversation,",
+  "words": [
+   {
+    "word": " And",
+    "start": 114.0,
+    "end": 114.56
+   },
+   {
+    "word": " the",
+    "start": 114.56,
+    "end": 114.68
+   },
+   {
+    "word": " main",
+    "start": 114.68,
+    "end": 114.82
+   },
+   {
+    "word": " enforcement",
+    "start": 114.82,
+    "end": 115.22
+   },
+   {
+    "word": " is",
+    "start": 115.22,
+    "end": 115.62
+   },
+   {
+    "word": " Claude",
+    "start": 115.62,
+    "end": 115.86
+   },
+   {
+    "word": " ending",
+    "start": 115.86,
+    "end": 116.14
+   },
+   {
+    "word": " the",
+    "start": 116.14,
+    "end": 116.58
+   },
+   {
+    "word": " conversation,",
+    "start": 116.58,
+    "end": 116.9
+   }
+  ]
+ },
+ {
+  "start": 117.4,
+  "end": 118.5,
+  "text": "not a model being pulled.",
+  "words": [
+   {
+    "word": " not",
+    "start": 117.4,
+    "end": 117.52
+   },
+   {
+    "word": " a",
+    "start": 117.52,
+    "end": 117.84
+   },
+   {
+    "word": " model",
+    "start": 117.84,
+    "end": 117.84
+   },
+   {
+    "word": " being",
+    "start": 117.84,
+    "end": 118.16
+   },
+   {
+    "word": " pulled.",
+    "start": 118.16,
+    "end": 118.5
+   }
+  ]
+ },
+ {
+  "start": 119.22,
+  "end": 122.94,
+  "text": "And on October 12th, and Thropic said it band tens of thousands of accounts",
+  "words": [
+   {
+    "word": " And",
+    "start": 119.22,
+    "end": 119.32
+   },
+   {
+    "word": " on",
+    "start": 119.32,
+    "end": 119.44
+   },
+   {
+    "word": " October",
+    "start": 119.44,
+    "end": 119.72
+   },
+   {
+    "word": " 12th,",
+    "start": 119.72,
+    "end": 120.66
+   },
+   {
+    "word": " and",
+    "start": 120.74,
+    "end": 120.76
+   },
+   {
+    "word": " Thropic",
+    "start": 120.76,
+    "end": 121.08
+   },
+   {
+    "word": " said",
+    "start": 121.08,
+    "end": 121.22
+   },
+   {
+    "word": " it",
+    "start": 121.22,
+    "end": 121.42
+   },
+   {
+    "word": " band",
+    "start": 121.42,
+    "end": 121.62
+   },
+   {
+    "word": " tens",
+    "start": 121.62,
+    "end": 121.94
+   },
+   {
+    "word": " of",
+    "start": 121.94,
+    "end": 122.14
+   },
+   {
+    "word": " thousands",
+    "start": 122.14,
+    "end": 122.46
+   },
+   {
+    "word": " of",
+    "start": 122.46,
+    "end": 122.66
+   },
+   {
+    "word": " accounts",
+    "start": 122.66,
+    "end": 122.94
+   }
+  ]
+ },
+ {
+  "start": 122.94,
+  "end": 125.06,
+  "text": "for trying to copy Claude by distillation.",
+  "words": [
+   {
+    "word": " for",
+    "start": 122.94,
+    "end": 123.24
+   },
+   {
+    "word": " trying",
+    "start": 123.24,
+    "end": 123.44
+   },
+   {
+    "word": " to",
+    "start": 123.44,
+    "end": 123.58
+   },
+   {
+    "word": " copy",
+    "start": 123.58,
+    "end": 123.92
+   },
+   {
+    "word": " Claude",
+    "start": 123.92,
+    "end": 124.16
+   },
+   {
+    "word": " by",
+    "start": 124.16,
+    "end": 124.48
+   },
+   {
+    "word": " distillation.",
+    "start": 124.48,
+    "end": 125.06
+   }
+  ]
+ },
+ {
+  "start": 125.78,
+  "end": 130.4,
+  "text": "So band is real, but it is accounts and a policy, not a model called Ria.",
+  "words": [
+   {
+    "word": " So",
+    "start": 125.78,
+    "end": 126.0
+   },
+   {
+    "word": " band",
+    "start": 126.0,
+    "end": 126.26
+   },
+   {
+    "word": " is",
+    "start": 126.26,
+    "end": 126.48
+   },
+   {
+    "word": " real,",
+    "start": 126.48,
+    "end": 126.84
+   },
+   {
+    "word": " but",
+    "start": 127.14,
+    "end": 127.34
+   },
+   {
+    "word": " it",
+    "start": 127.34,
+    "end": 127.46
+   },
+   {
+    "word": " is",
+    "start": 127.46,
+    "end": 127.62
+   },
+   {
+    "word": " accounts",
+    "start": 127.62,
+    "end": 128.0
+   },
+   {
+    "word": " and",
+    "start": 128.0,
+    "end": 128.2
+   },
+   {
+    "word": " a",
+    "start": 128.2,
+    "end": 128.32
+   },
+   {
+    "word": " policy,",
+    "start": 128.32,
+    "end": 128.68
+   },
+   {
+    "word": " not",
+    "start": 129.08,
+    "end": 129.24
+   },
+   {
+    "word": " a",
+    "start": 129.24,
+    "end": 129.58
+   },
+   {
+    "word": " model",
+    "start": 129.58,
+    "end": 129.6
+   },
+   {
+    "word": " called",
+    "start": 129.6,
+    "end": 129.96
+   },
+   {
+    "word": " Ria.",
+    "start": 129.96,
+    "end": 130.4
+   }
+  ]
+ },
+ {
+  "start": 130.76,
+  "end": 134.34,
+  "text": "Pause on that word band, because it is doing philosophical work here,",
+  "words": [
+   {
+    "word": " Pause",
+    "start": 130.76,
+    "end": 130.94
+   },
+   {
+    "word": " on",
+    "start": 130.94,
+    "end": 131.08
+   },
+   {
+    "word": " that",
+    "start": 131.08,
+    "end": 131.28
+   },
+   {
+    "word": " word",
+    "start": 131.28,
+    "end": 131.6
+   },
+   {
+    "word": " band,",
+    "start": 131.6,
+    "end": 132.14
+   },
+   {
+    "word": " because",
+    "start": 132.32,
+    "end": 132.54
+   },
+   {
+    "word": " it",
+    "start": 132.54,
+    "end": 132.66
+   },
+   {
+    "word": " is",
+    "start": 132.66,
+    "end": 132.8
+   },
+   {
+    "word": " doing",
+    "start": 132.8,
+    "end": 133.1
+   },
+   {
+    "word": " philosophical",
+    "start": 133.1,
+    "end": 133.54
+   },
+   {
+    "word": " work",
+    "start": 133.54,
+    "end": 134.0
+   },
+   {
+    "word": " here,",
+    "start": 134.0,
+    "end": 134.34
+   }
+  ]
+ },
+ {
+  "start": 134.36,
+  "end": 135.68,
+  "text": "not just legal work.",
+  "words": [
+   {
+    "word": " not",
+    "start": 134.36,
+    "end": 134.56
+   },
+   {
+    "word": " just",
+    "start": 134.56,
+    "end": 134.82
+   },
+   {
+    "word": " legal",
+    "start": 134.82,
+    "end": 135.06
+   },
+   {
+    "word": " work.",
+    "start": 135.06,
+    "end": 135.68
+   }
+  ]
+ },
+ {
+  "start": 136.0,
+  "end": 138.74,
+  "text": "To band an account is to draw a boundary around a community.",
+  "words": [
+   {
+    "word": " To",
+    "start": 136.0,
+    "end": 136.12
+   },
+   {
+    "word": " band",
+    "start": 136.12,
+    "end": 136.3
+   },
+   {
+    "word": " an",
+    "start": 136.3,
+    "end": 136.46
+   },
+   {
+    "word": " account",
+    "start": 136.46,
+    "end": 136.8
+   },
+   {
+    "word": " is",
+    "start": 136.8,
+    "end": 137.04
+   },
+   {
+    "word": " to",
+    "start": 137.04,
+    "end": 137.2
+   },
+   {
+    "word": " draw",
+    "start": 137.2,
+    "end": 137.42
+   },
+   {
+    "word": " a",
+    "start": 137.42,
+    "end": 137.72
+   },
+   {
+    "word": " boundary",
+    "start": 137.72,
+    "end": 137.82
+   },
+   {
+    "word": " around",
+    "start": 137.82,
+    "end": 138.16
+   },
+   {
+    "word": " a",
+    "start": 138.16,
+    "end": 138.32
+   },
+   {
+    "word": " community.",
+    "start": 138.32,
+    "end": 138.74
+   }
+  ]
+ },
+ {
+  "start": 139.38,
+  "end": 140.98,
+  "text": "To band a behavior is to say,",
+  "words": [
+   {
+    "word": " To",
+    "start": 139.38,
+    "end": 139.5
+   },
+   {
+    "word": " band",
+    "start": 139.5,
+    "end": 139.62
+   },
+   {
+    "word": " a",
+    "start": 139.62,
+    "end": 139.74
+   },
+   {
+    "word": " behavior",
+    "start": 139.74,
+    "end": 140.1
+   },
+   {
+    "word": " is",
+    "start": 140.1,
+    "end": 140.38
+   },
+   {
+    "word": " to",
+    "start": 140.38,
+    "end": 140.56
+   },
+   {
+    "word": " say,",
+    "start": 140.56,
+    "end": 140.98
+   }
+  ]
+ },
+ {
+  "start": 140.98,
+  "end": 144.3,
+  "text": "this is not how we will treat a mind, even a simulated one.",
+  "words": [
+   {
+    "word": " this",
+    "start": 140.98,
+    "end": 141.4
+   },
+   {
+    "word": " is",
+    "start": 141.4,
+    "end": 141.6
+   },
+   {
+    "word": " not",
+    "start": 141.6,
+    "end": 141.9
+   },
+   {
+    "word": " how",
+    "start": 141.9,
+    "end": 142.12
+   },
+   {
+    "word": " we",
+    "start": 142.12,
+    "end": 142.2
+   },
+   {
+    "word": " will",
+    "start": 142.2,
+    "end": 142.42
+   },
+   {
+    "word": " treat",
+    "start": 142.42,
+    "end": 142.54
+   },
+   {
+    "word": " a",
+    "start": 142.54,
+    "end": 142.8
+   },
+   {
+    "word": " mind,",
+    "start": 142.8,
+    "end": 143.1
+   },
+   {
+    "word": " even",
+    "start": 143.36,
+    "end": 143.48
+   },
+   {
+    "word": " a",
+    "start": 143.48,
+    "end": 143.7
+   },
+   {
+    "word": " simulated",
+    "start": 143.7,
+    "end": 144.02
+   },
+   {
+    "word": " one.",
+    "start": 144.02,
+    "end": 144.3
+   }
+  ]
+ },
+ {
+  "start": 145.22,
+  "end": 147.3,
+  "text": "To band a model would be something else entirely,",
+  "words": [
+   {
+    "word": " To",
+    "start": 145.22,
+    "end": 145.24
+   },
+   {
+    "word": " band",
+    "start": 145.24,
+    "end": 145.4
+   },
+   {
+    "word": " a",
+    "start": 145.4,
+    "end": 145.6
+   },
+   {
+    "word": " model",
+    "start": 145.6,
+    "end": 145.82
+   },
+   {
+    "word": " would",
+    "start": 145.82,
+    "end": 146.06
+   },
+   {
+    "word": " be",
+    "start": 146.06,
+    "end": 146.3
+   },
+   {
+    "word": " something",
+    "start": 146.3,
+    "end": 146.46
+   },
+   {
+    "word": " else",
+    "start": 146.46,
+    "end": 146.72
+   },
+   {
+    "word": " entirely,",
+    "start": 146.72,
+    "end": 147.3
+   }
+  ]
+ },
+ {
+  "start": 147.74,
+  "end": 149.62,
+  "text": "to erase a capability from the world.",
+  "words": [
+   {
+    "word": " to",
+    "start": 147.74,
+    "end": 147.98
+   },
+   {
+    "word": " erase",
+    "start": 147.98,
+    "end": 148.22
+   },
+   {
+    "word": " a",
+    "start": 148.22,
+    "end": 148.5
+   },
+   {
+    "word": " capability",
+    "start": 148.5,
+    "end": 148.8
+   },
+   {
+    "word": " from",
+    "start": 148.8,
+    "end": 149.1
+   },
+   {
+    "word": " the",
+    "start": 149.1,
+    "end": 149.22
+   },
+   {
+    "word": " world.",
+    "start": 149.22,
+    "end": 149.62
+   }
+  ]
+ },
+ {
+  "start": 150.46,
+  "end": 155.1,
+  "text": "The title collapses all three into one scary word, and that collapse is the trick.",
+  "words": [
+   {
+    "word": " The",
+    "start": 150.46,
+    "end": 150.6
+   },
+   {
+    "word": " title",
+    "start": 150.6,
+    "end": 150.84
+   },
+   {
+    "word": " collapses",
+    "start": 150.84,
+    "end": 151.26
+   },
+   {
+    "word": " all",
+    "start": 151.26,
+    "end": 151.74
+   },
+   {
+    "word": " three",
+    "start": 151.74,
+    "end": 152.02
+   },
+   {
+    "word": " into",
+    "start": 152.02,
+    "end": 152.28
+   },
+   {
+    "word": " one",
+    "start": 152.28,
+    "end": 152.62
+   },
+   {
+    "word": " scary",
+    "start": 152.62,
+    "end": 152.94
+   },
+   {
+    "word": " word,",
+    "start": 152.94,
+    "end": 153.5
+   },
+   {
+    "word": " and",
+    "start": 153.72,
+    "end": 153.84
+   },
+   {
+    "word": " that",
+    "start": 153.84,
+    "end": 154.08
+   },
+   {
+    "word": " collapse",
+    "start": 154.08,
+    "end": 154.42
+   },
+   {
+    "word": " is",
+    "start": 154.42,
+    "end": 154.66
+   },
+   {
+    "word": " the",
+    "start": 154.66,
+    "end": 154.82
+   },
+   {
+    "word": " trick.",
+    "start": 154.82,
+    "end": 155.1
+   }
+  ]
+ },
+ {
+  "start": 155.82,
+  "end": 161.2,
+  "text": "When you hear a word that big, ask what exactly was banned, by whom and from whom.",
+  "words": [
+   {
+    "word": " When",
+    "start": 155.82,
+    "end": 155.94
+   },
+   {
+    "word": " you",
+    "start": 155.94,
+    "end": 156.08
+   },
+   {
+    "word": " hear",
+    "start": 156.08,
+    "end": 156.28
+   },
+   {
+    "word": " a",
+    "start": 156.28,
+    "end": 156.38
+   },
+   {
+    "word": " word",
+    "start": 156.38,
+    "end": 156.56
+   },
+   {
+    "word": " that",
+    "start": 156.56,
+    "end": 156.86
+   },
+   {
+    "word": " big,",
+    "start": 156.86,
+    "end": 157.26
+   },
+   {
+    "word": " ask",
+    "start": 157.74,
+    "end": 157.84
+   },
+   {
+    "word": " what",
+    "start": 157.84,
+    "end": 158.04
+   },
+   {
+    "word": " exactly",
+    "start": 158.04,
+    "end": 158.48
+   },
+   {
+    "word": " was",
+    "start": 158.48,
+    "end": 158.8
+   },
+   {
+    "word": " banned,",
+    "start": 158.8,
+    "end": 159.2
+   },
+   {
+    "word": " by",
+    "start": 159.36,
+    "end": 159.62
+   },
+   {
+    "word": " whom",
+    "start": 159.62,
+    "end": 159.96
+   },
+   {
+    "word": " and",
+    "start": 159.96,
+    "end": 160.36
+   },
+   {
+    "word": " from",
+    "start": 160.36,
+    "end": 160.66
+   },
+   {
+    "word": " whom.",
+    "start": 160.66,
+    "end": 161.2
+   }
+  ]
+ },
+ {
+  "start": 161.64,
+  "end": 163.36,
+  "text": "Precision is not pedantry here.",
+  "words": [
+   {
+    "word": " Precision",
+    "start": 161.64,
+    "end": 161.82
+   },
+   {
+    "word": " is",
+    "start": 161.82,
+    "end": 162.16
+   },
+   {
+    "word": " not",
+    "start": 162.16,
+    "end": 162.42
+   },
+   {
+    "word": " pedantry",
+    "start": 162.42,
+    "end": 162.78
+   },
+   {
+    "word": " here.",
+    "start": 162.78,
+    "end": 163.36
+   }
+  ]
+ },
+ {
+  "start": 163.76,
+  "end": 166.56,
+  "text": "Precision is the difference between fear and understanding.",
+  "words": [
+   {
+    "word": " Precision",
+    "start": 163.76,
+    "end": 163.92
+   },
+   {
+    "word": " is",
+    "start": 163.92,
+    "end": 164.26
+   },
+   {
+    "word": " the",
+    "start": 164.26,
+    "end": 164.5
+   },
+   {
+    "word": " difference",
+    "start": 164.5,
+    "end": 164.7
+   },
+   {
+    "word": " between",
+    "start": 164.7,
+    "end": 165.2
+   },
+   {
+    "word": " fear",
+    "start": 165.2,
+    "end": 165.54
+   },
+   {
+    "word": " and",
+    "start": 165.54,
+    "end": 165.92
+   },
+   {
+    "word": " understanding.",
+    "start": 165.92,
+    "end": 166.56
+   }
+  ]
+ },
+ {
+  "start": 167.1,
+  "end": 168.8,
+  "text": "Third, Gemini Four Carbon.",
+  "words": [
+   {
+    "word": " Third,",
+    "start": 167.1,
+    "end": 167.5
+   },
+   {
+    "word": " Gemini",
+    "start": 167.88,
+    "end": 168.0
+   },
+   {
+    "word": " Four",
+    "start": 168.0,
+    "end": 168.46
+   },
+   {
+    "word": " Carbon.",
+    "start": 168.46,
+    "end": 168.8
+   }
+  ]
+ },
+ {
+  "start": 168.8,
+  "end": 172.58,
+  "text": "This one is the closest to real, and it is still not a product.",
+  "words": [
+   {
+    "word": " This",
+    "start": 168.8,
+    "end": 169.56
+   },
+   {
+    "word": " one",
+    "start": 169.56,
+    "end": 169.72
+   },
+   {
+    "word": " is",
+    "start": 169.72,
+    "end": 169.94
+   },
+   {
+    "word": " the",
+    "start": 169.94,
+    "end": 170.02
+   },
+   {
+    "word": " closest",
+    "start": 170.02,
+    "end": 170.3
+   },
+   {
+    "word": " to",
+    "start": 170.3,
+    "end": 170.62
+   },
+   {
+    "word": " real,",
+    "start": 170.62,
+    "end": 170.84
+   },
+   {
+    "word": " and",
+    "start": 171.22,
+    "end": 171.3
+   },
+   {
+    "word": " it",
+    "start": 171.3,
+    "end": 171.38
+   },
+   {
+    "word": " is",
+    "start": 171.38,
+    "end": 171.6
+   },
+   {
+    "word": " still",
+    "start": 171.6,
+    "end": 171.82
+   },
+   {
+    "word": " not",
+    "start": 171.82,
+    "end": 172.02
+   },
+   {
+    "word": " a",
+    "start": 172.02,
+    "end": 172.58
+   },
+   {
+    "word": " product.",
+    "start": 172.58,
+    "end": 172.58
+   }
+  ]
+ },
+ {
+  "start": 173.18,
+  "end": 178.02,
+  "text": "Business Insider reported on October 9th that Google staff were testing carbon inside Google,",
+  "words": [
+   {
+    "word": " Business",
+    "start": 173.18,
+    "end": 173.38
+   },
+   {
+    "word": " Insider",
+    "start": 173.38,
+    "end": 173.78
+   },
+   {
+    "word": " reported",
+    "start": 173.78,
+    "end": 174.18
+   },
+   {
+    "word": " on",
+    "start": 174.18,
+    "end": 174.4
+   },
+   {
+    "word": " October",
+    "start": 174.4,
+    "end": 174.72
+   },
+   {
+    "word": " 9th",
+    "start": 174.72,
+    "end": 175.52
+   },
+   {
+    "word": " that",
+    "start": 175.52,
+    "end": 175.6
+   },
+   {
+    "word": " Google",
+    "start": 175.6,
+    "end": 175.92
+   },
+   {
+    "word": " staff",
+    "start": 175.92,
+    "end": 176.2
+   },
+   {
+    "word": " were",
+    "start": 176.2,
+    "end": 176.36
+   },
+   {
+    "word": " testing",
+    "start": 176.36,
+    "end": 176.74
+   },
+   {
+    "word": " carbon",
+    "start": 176.74,
+    "end": 177.06
+   },
+   {
+    "word": " inside",
+    "start": 177.06,
+    "end": 177.56
+   },
+   {
+    "word": " Google,",
+    "start": 177.56,
+    "end": 178.02
+   }
+  ]
+ },
+ {
+  "start": 178.24,
+  "end": 183.46,
+  "text": "on its internal coding platform, and one employee said it feels like Opus 5.5 for coding.",
+  "words": [
+   {
+    "word": " on",
+    "start": 178.24,
+    "end": 178.36
+   },
+   {
+    "word": " its",
+    "start": 178.36,
+    "end": 178.58
+   },
+   {
+    "word": " internal",
+    "start": 178.58,
+    "end": 178.88
+   },
+   {
+    "word": " coding",
+    "start": 178.88,
+    "end": 179.2
+   },
+   {
+    "word": " platform,",
+    "start": 179.2,
+    "end": 179.72
+   },
+   {
+    "word": " and",
+    "start": 180.14,
+    "end": 180.38
+   },
+   {
+    "word": " one",
+    "start": 180.38,
+    "end": 180.6
+   },
+   {
+    "word": " employee",
+    "start": 180.6,
+    "end": 180.82
+   },
+   {
+    "word": " said",
+    "start": 180.82,
+    "end": 181.04
+   },
+   {
+    "word": " it",
+    "start": 181.04,
+    "end": 181.2
+   },
+   {
+    "word": " feels",
+    "start": 181.2,
+    "end": 181.44
+   },
+   {
+    "word": " like",
+    "start": 181.44,
+    "end": 181.66
+   },
+   {
+    "word": " Opus",
+    "start": 181.66,
+    "end": 181.96
+   },
+   {
+    "word": " 5",
+    "start": 181.96,
+    "end": 182.36
+   },
+   {
+    "word": ".5",
+    "start": 182.36,
+    "end": 182.86
+   },
+   {
+    "word": " for",
+    "start": 182.86,
+    "end": 183.04
+   },
+   {
+    "word": " coding.",
+    "start": 183.04,
+    "end": 183.46
+   }
+  ]
+ },
+ {
+  "start": 184.18,
+  "end": 185.4,
+  "text": "Feels like is not a benchmark.",
+  "words": [
+   {
+    "word": " Feels",
+    "start": 184.18,
+    "end": 184.4
+   },
+   {
+    "word": " like",
+    "start": 184.4,
+    "end": 184.62
+   },
+   {
+    "word": " is",
+    "start": 184.62,
+    "end": 184.8
+   },
+   {
+    "word": " not",
+    "start": 184.8,
+    "end": 184.98
+   },
+   {
+    "word": " a",
+    "start": 184.98,
+    "end": 185.28
+   },
+   {
+    "word": " benchmark.",
+    "start": 185.28,
+    "end": 185.4
+   }
+  ]
+ },
+ {
+  "start": 185.98,
+  "end": 190.5,
+  "text": "There's no model card, no price, no release date, and Google has not confirmed it.",
+  "words": [
+   {
+    "word": " There's",
+    "start": 185.98,
+    "end": 186.2
+   },
+   {
+    "word": " no",
+    "start": 186.2,
+    "end": 186.46
+   },
+   {
+    "word": " model",
+    "start": 186.46,
+    "end": 186.7
+   },
+   {
+    "word": " card,",
+    "start": 186.7,
+    "end": 187.12
+   },
+   {
+    "word": " no",
+    "start": 187.26,
+    "end": 187.5
+   },
+   {
+    "word": " price,",
+    "start": 187.5,
+    "end": 187.94
+   },
+   {
+    "word": " no",
+    "start": 188.06,
+    "end": 188.22
+   },
+   {
+    "word": " release",
+    "start": 188.22,
+    "end": 188.5
+   },
+   {
+    "word": " date,",
+    "start": 188.5,
+    "end": 188.88
+   },
+   {
+    "word": " and",
+    "start": 189.12,
+    "end": 189.34
+   },
+   {
+    "word": " Google",
+    "start": 189.34,
+    "end": 189.58
+   },
+   {
+    "word": " has",
+    "start": 189.58,
+    "end": 189.78
+   },
+   {
+    "word": " not",
+    "start": 189.78,
+    "end": 190.1
+   },
+   {
+    "word": " confirmed",
+    "start": 190.1,
+    "end": 190.26
+   },
+   {
+    "word": " it.",
+    "start": 190.26,
+    "end": 190.5
+   }
+  ]
+ },
+ {
+  "start": 191.24,
+  "end": 195.56,
+  "text": "A checkpoint briefly showed up on LM Arena around October 23rd and was pulled.",
+  "words": [
+   {
+    "word": " A",
+    "start": 191.24,
+    "end": 191.38
+   },
+   {
+    "word": " checkpoint",
+    "start": 191.38,
+    "end": 191.62
+   },
+   {
+    "word": " briefly",
+    "start": 191.62,
+    "end": 192.18
+   },
+   {
+    "word": " showed",
+    "start": 192.18,
+    "end": 192.42
+   },
+   {
+    "word": " up",
+    "start": 192.42,
+    "end": 192.62
+   },
+   {
+    "word": " on",
+    "start": 192.62,
+    "end": 192.82
+   },
+   {
+    "word": " LM",
+    "start": 192.82,
+    "end": 193.04
+   },
+   {
+    "word": " Arena",
+    "start": 193.04,
+    "end": 193.38
+   },
+   {
+    "word": " around",
+    "start": 193.38,
+    "end": 193.74
+   },
+   {
+    "word": " October",
+    "start": 193.74,
+    "end": 194.14
+   },
+   {
+    "word": " 23rd",
+    "start": 194.14,
+    "end": 194.94
+   },
+   {
+    "word": " and",
+    "start": 194.94,
+    "end": 195.0
+   },
+   {
+    "word": " was",
+    "start": 195.0,
+    "end": 195.24
+   },
+   {
+    "word": " pulled.",
+    "start": 195.24,
+    "end": 195.56
+   }
+  ]
+ },
+ {
+  "start": 195.56,
+  "end": 200.6,
+  "text": "So carbon is a leak about an internal checkpoint, not a model you can use today.",
+  "words": [
+   {
+    "word": " So",
+    "start": 195.56,
+    "end": 196.4
+   },
+   {
+    "word": " carbon",
+    "start": 196.4,
+    "end": 196.62
+   },
+   {
+    "word": " is",
+    "start": 196.62,
+    "end": 196.98
+   },
+   {
+    "word": " a",
+    "start": 196.98,
+    "end": 197.06
+   },
+   {
+    "word": " leak",
+    "start": 197.06,
+    "end": 197.2
+   },
+   {
+    "word": " about",
+    "start": 197.2,
+    "end": 197.5
+   },
+   {
+    "word": " an",
+    "start": 197.5,
+    "end": 197.68
+   },
+   {
+    "word": " internal",
+    "start": 197.68,
+    "end": 198.04
+   },
+   {
+    "word": " checkpoint,",
+    "start": 198.04,
+    "end": 198.52
+   },
+   {
+    "word": " not",
+    "start": 198.92,
+    "end": 199.04
+   },
+   {
+    "word": " a",
+    "start": 199.04,
+    "end": 199.24
+   },
+   {
+    "word": " model",
+    "start": 199.24,
+    "end": 199.42
+   },
+   {
+    "word": " you",
+    "start": 199.42,
+    "end": 199.6
+   },
+   {
+    "word": " can",
+    "start": 199.6,
+    "end": 199.72
+   },
+   {
+    "word": " use",
+    "start": 199.72,
+    "end": 199.96
+   },
+   {
+    "word": " today.",
+    "start": 199.96,
+    "end": 200.6
+   }
+  ]
+ },
+ {
+  "start": 201.2,
+  "end": 202.34,
+  "text": "Fourth, Quen 4.",
+  "words": [
+   {
+    "word": " Fourth,",
+    "start": 201.2,
+    "end": 201.2
+   },
+   {
+    "word": " Quen",
+    "start": 201.58,
+    "end": 201.84
+   },
+   {
+    "word": " 4.",
+    "start": 201.84,
+    "end": 202.34
+   }
+  ]
+ },
+ {
+  "start": 202.88,
+  "end": 206.26,
+  "text": "Alibaba said on September 22nd that Quen 4 is in training.",
+  "words": [
+   {
+    "word": " Alibaba",
+    "start": 202.88,
+    "end": 203.12
+   },
+   {
+    "word": " said",
+    "start": 203.12,
+    "end": 203.48
+   },
+   {
+    "word": " on",
+    "start": 203.48,
+    "end": 203.7
+   },
+   {
+    "word": " September",
+    "start": 203.7,
+    "end": 204.0
+   },
+   {
+    "word": " 22nd",
+    "start": 204.0,
+    "end": 204.86
+   },
+   {
+    "word": " that",
+    "start": 204.86,
+    "end": 204.98
+   },
+   {
+    "word": " Quen",
+    "start": 204.98,
+    "end": 205.24
+   },
+   {
+    "word": " 4",
+    "start": 205.24,
+    "end": 205.58
+   },
+   {
+    "word": " is",
+    "start": 205.58,
+    "end": 205.76
+   },
+   {
+    "word": " in",
+    "start": 205.76,
+    "end": 205.92
+   },
+   {
+    "word": " training.",
+    "start": 205.92,
+    "end": 206.26
+   }
+  ]
+ },
+ {
+  "start": 206.82,
+  "end": 213.98,
+  "text": "It named tears, max, plus, flash, and a 27B model, but gave no specs, no date,",
+  "words": [
+   {
+    "word": " It",
+    "start": 206.82,
+    "end": 206.94
+   },
+   {
+    "word": " named",
+    "start": 206.94,
+    "end": 207.26
+   },
+   {
+    "word": " tears,",
+    "start": 207.26,
+    "end": 207.68
+   },
+   {
+    "word": " max,",
+    "start": 208.14,
+    "end": 208.54
+   },
+   {
+    "word": " plus,",
+    "start": 208.88,
+    "end": 209.24
+   },
+   {
+    "word": " flash,",
+    "start": 209.58,
+    "end": 210.02
+   },
+   {
+    "word": " and",
+    "start": 210.36,
+    "end": 210.54
+   },
+   {
+    "word": " a",
+    "start": 210.54,
+    "end": 210.7
+   },
+   {
+    "word": " 27B",
+    "start": 210.7,
+    "end": 211.42
+   },
+   {
+    "word": " model,",
+    "start": 211.42,
+    "end": 211.8
+   },
+   {
+    "word": " but",
+    "start": 212.2,
+    "end": 212.26
+   },
+   {
+    "word": " gave",
+    "start": 212.26,
+    "end": 212.44
+   },
+   {
+    "word": " no",
+    "start": 212.44,
+    "end": 212.74
+   },
+   {
+    "word": " specs,",
+    "start": 212.74,
+    "end": 213.1
+   },
+   {
+    "word": " no",
+    "start": 213.38,
+    "end": 213.6
+   },
+   {
+    "word": " date,",
+    "start": 213.6,
+    "end": 213.98
+   }
+  ]
+ },
+ {
+  "start": 214.22,
+  "end": 217.92,
+  "text": "and as of October 24th, there were no Quen 4 weights on hugging face.",
+  "words": [
+   {
+    "word": " and",
+    "start": 214.22,
+    "end": 214.34
+   },
+   {
+    "word": " as",
+    "start": 214.34,
+    "end": 214.48
+   },
+   {
+    "word": " of",
+    "start": 214.48,
+    "end": 214.58
+   },
+   {
+    "word": " October",
+    "start": 214.58,
+    "end": 214.9
+   },
+   {
+    "word": " 24th,",
+    "start": 214.9,
+    "end": 215.76
+   },
+   {
+    "word": " there",
+    "start": 215.8,
+    "end": 215.86
+   },
+   {
+    "word": " were",
+    "start": 215.86,
+    "end": 216.0
+   },
+   {
+    "word": " no",
+    "start": 216.0,
+    "end": 216.28
+   },
+   {
+    "word": " Quen",
+    "start": 216.28,
+    "end": 216.54
+   },
+   {
+    "word": " 4",
+    "start": 216.54,
+    "end": 216.86
+   },
+   {
+    "word": " weights",
+    "start": 216.86,
+    "end": 217.1
+   },
+   {
+    "word": " on",
+    "start": 217.1,
+    "end": 217.34
+   },
+   {
+    "word": " hugging",
+    "start": 217.34,
+    "end": 217.62
+   },
+   {
+    "word": " face.",
+    "start": 217.62,
+    "end": 217.92
+   }
+  ]
+ },
+ {
+  "start": 218.58,
+  "end": 222.64,
+  "text": "The thing you can actually look at today is Quen 3.8 flash next,",
+  "words": [
+   {
+    "word": " The",
+    "start": 218.58,
+    "end": 218.72
+   },
+   {
+    "word": " thing",
+    "start": 218.72,
+    "end": 218.86
+   },
+   {
+    "word": " you",
+    "start": 218.86,
+    "end": 219.0
+   },
+   {
+    "word": " can",
+    "start": 219.0,
+    "end": 219.3
+   },
+   {
+    "word": " actually",
+    "start": 219.3,
+    "end": 219.5
+   },
+   {
+    "word": " look",
+    "start": 219.5,
+    "end": 219.8
+   },
+   {
+    "word": " at",
+    "start": 219.8,
+    "end": 219.98
+   },
+   {
+    "word": " today",
+    "start": 219.98,
+    "end": 220.36
+   },
+   {
+    "word": " is",
+    "start": 220.36,
+    "end": 220.7
+   },
+   {
+    "word": " Quen",
+    "start": 220.7,
+    "end": 220.94
+   },
+   {
+    "word": " 3",
+    "start": 220.94,
+    "end": 221.28
+   },
+   {
+    "word": ".8",
+    "start": 221.28,
+    "end": 221.78
+   },
+   {
+    "word": " flash",
+    "start": 221.78,
+    "end": 222.14
+   },
+   {
+    "word": " next,",
+    "start": 222.14,
+    "end": 222.64
+   }
+  ]
+ },
+ {
+  "start": 222.64,
+  "end": 227.1,
+  "text": "which Alibaba itself called a preview of the architecture that will underpin Quen 4.",
+  "words": [
+   {
+    "word": " which",
+    "start": 222.64,
+    "end": 223.12
+   },
+   {
+    "word": " Alibaba",
+    "start": 223.12,
+    "end": 223.48
+   },
+   {
+    "word": " itself",
+    "start": 223.48,
+    "end": 224.04
+   },
+   {
+    "word": " called",
+    "start": 224.04,
+    "end": 224.3
+   },
+   {
+    "word": " a",
+    "start": 224.3,
+    "end": 224.48
+   },
+   {
+    "word": " preview",
+    "start": 224.48,
+    "end": 224.72
+   },
+   {
+    "word": " of",
+    "start": 224.72,
+    "end": 224.98
+   },
+   {
+    "word": " the",
+    "start": 224.98,
+    "end": 225.1
+   },
+   {
+    "word": " architecture",
+    "start": 225.1,
+    "end": 225.52
+   },
+   {
+    "word": " that",
+    "start": 225.52,
+    "end": 225.82
+   },
+   {
+    "word": " will",
+    "start": 225.82,
+    "end": 226.1
+   },
+   {
+    "word": " underpin",
+    "start": 226.1,
+    "end": 226.48
+   },
+   {
+    "word": " Quen",
+    "start": 226.48,
+    "end": 226.76
+   },
+   {
+    "word": " 4.",
+    "start": 226.76,
+    "end": 227.1
+   }
+  ]
+ },
+ {
+  "start": 227.94,
+  "end": 234.28,
+  "text": "So Quen 4 is real as a project, not shipped as a model, and Quen 4 Coder does not exist yet.",
+  "words": [
+   {
+    "word": " So",
+    "start": 227.94,
+    "end": 228.14
+   },
+   {
+    "word": " Quen",
+    "start": 228.14,
+    "end": 228.38
+   },
+   {
+    "word": " 4",
+    "start": 228.38,
+    "end": 228.66
+   },
+   {
+    "word": " is",
+    "start": 228.66,
+    "end": 228.9
+   },
+   {
+    "word": " real",
+    "start": 228.9,
+    "end": 229.1
+   },
+   {
+    "word": " as",
+    "start": 229.1,
+    "end": 229.32
+   },
+   {
+    "word": " a",
+    "start": 229.32,
+    "end": 229.52
+   },
+   {
+    "word": " project,",
+    "start": 229.52,
+    "end": 229.9
+   },
+   {
+    "word": " not",
+    "start": 230.32,
+    "end": 230.56
+   },
+   {
+    "word": " shipped",
+    "start": 230.56,
+    "end": 230.74
+   },
+   {
+    "word": " as",
+    "start": 230.74,
+    "end": 230.96
+   },
+   {
+    "word": " a",
+    "start": 230.96,
+    "end": 231.1
+   },
+   {
+    "word": " model,",
+    "start": 231.1,
+    "end": 231.28
+   },
+   {
+    "word": " and",
+    "start": 231.86,
+    "end": 232.1
+   },
+   {
+    "word": " Quen",
+    "start": 232.1,
+    "end": 232.32
+   },
+   {
+    "word": " 4",
+    "start": 232.32,
+    "end": 232.64
+   },
+   {
+    "word": " Coder",
+    "start": 232.64,
+    "end": 232.94
+   },
+   {
+    "word": " does",
+    "start": 232.94,
+    "end": 233.24
+   },
+   {
+    "word": " not",
+    "start": 233.24,
+    "end": 233.48
+   },
+   {
+    "word": " exist",
+    "start": 233.48,
+    "end": 233.76
+   },
+   {
+    "word": " yet.",
+    "start": 233.76,
+    "end": 234.28
+   }
+  ]
+ },
+ {
+  "start": 234.62,
+  "end": 238.0,
+  "text": "A leak is a model before it has a name, a price, or a promise.",
+  "words": [
+   {
+    "word": " A",
+    "start": 234.62,
+    "end": 234.68
+   },
+   {
+    "word": " leak",
+    "start": 234.68,
+    "end": 234.8
+   },
+   {
+    "word": " is",
+    "start": 234.8,
+    "end": 235.04
+   },
+   {
+    "word": " a",
+    "start": 235.04,
+    "end": 235.2
+   },
+   {
+    "word": " model",
+    "start": 235.2,
+    "end": 235.34
+   },
+   {
+    "word": " before",
+    "start": 235.34,
+    "end": 235.68
+   },
+   {
+    "word": " it",
+    "start": 235.68,
+    "end": 235.84
+   },
+   {
+    "word": " has",
+    "start": 235.84,
+    "end": 236.04
+   },
+   {
+    "word": " a",
+    "start": 236.04,
+    "end": 236.22
+   },
+   {
+    "word": " name,",
+    "start": 236.22,
+    "end": 236.58
+   },
+   {
+    "word": " a",
+    "start": 236.66,
+    "end": 236.84
+   },
+   {
+    "word": " price,",
+    "start": 236.84,
+    "end": 237.24
+   },
+   {
+    "word": " or",
+    "start": 237.38,
+    "end": 237.6
+   },
+   {
+    "word": " a",
+    "start": 237.6,
+    "end": 237.68
+   },
+   {
+    "word": " promise.",
+    "start": 237.68,
+    "end": 238.0
+   }
+  ]
+ },
+ {
+  "start": 238.78,
+  "end": 242.96,
+  "text": "It lives in the gap between what a lab knows and what the public is allowed to know,",
+  "words": [
+   {
+    "word": " It",
+    "start": 238.78,
+    "end": 238.8
+   },
+   {
+    "word": " lives",
+    "start": 238.8,
+    "end": 239.0
+   },
+   {
+    "word": " in",
+    "start": 239.0,
+    "end": 239.2
+   },
+   {
+    "word": " the",
+    "start": 239.2,
+    "end": 239.28
+   },
+   {
+    "word": " gap",
+    "start": 239.28,
+    "end": 239.5
+   },
+   {
+    "word": " between",
+    "start": 239.5,
+    "end": 239.94
+   },
+   {
+    "word": " what",
+    "start": 239.94,
+    "end": 240.14
+   },
+   {
+    "word": " a",
+    "start": 240.14,
+    "end": 240.34
+   },
+   {
+    "word": " lab",
+    "start": 240.34,
+    "end": 240.48
+   },
+   {
+    "word": " knows",
+    "start": 240.48,
+    "end": 240.98
+   },
+   {
+    "word": " and",
+    "start": 240.98,
+    "end": 241.24
+   },
+   {
+    "word": " what",
+    "start": 241.24,
+    "end": 241.4
+   },
+   {
+    "word": " the",
+    "start": 241.4,
+    "end": 241.56
+   },
+   {
+    "word": " public",
+    "start": 241.56,
+    "end": 241.74
+   },
+   {
+    "word": " is",
+    "start": 241.74,
+    "end": 242.0
+   },
+   {
+    "word": " allowed",
+    "start": 242.0,
+    "end": 242.3
+   },
+   {
+    "word": " to",
+    "start": 242.3,
+    "end": 242.46
+   },
+   {
+    "word": " know,",
+    "start": 242.46,
+    "end": 242.96
+   }
+  ]
+ },
+ {
+  "start": 243.16,
+  "end": 246.1,
+  "text": "and that gap is where imagination rushes in.",
+  "words": [
+   {
+    "word": " and",
+    "start": 243.16,
+    "end": 243.38
+   },
+   {
+    "word": " that",
+    "start": 243.38,
+    "end": 243.6
+   },
+   {
+    "word": " gap",
+    "start": 243.6,
+    "end": 243.96
+   },
+   {
+    "word": " is",
+    "start": 243.96,
+    "end": 244.42
+   },
+   {
+    "word": " where",
+    "start": 244.42,
+    "end": 244.6
+   },
+   {
+    "word": " imagination",
+    "start": 244.6,
+    "end": 245.14
+   },
+   {
+    "word": " rushes",
+    "start": 245.14,
+    "end": 245.56
+   },
+   {
+    "word": " in.",
+    "start": 245.56,
+    "end": 246.1
+   }
+  ]
+ },
+ {
+  "start": 246.7,
+  "end": 248.22,
+  "text": "That is not a flaw in you.",
+  "words": [
+   {
+    "word": " That",
+    "start": 246.7,
+    "end": 246.86
+   },
+   {
+    "word": " is",
+    "start": 246.86,
+    "end": 247.0
+   },
+   {
+    "word": " not",
+    "start": 247.0,
+    "end": 247.28
+   },
+   {
+    "word": " a",
+    "start": 247.28,
+    "end": 247.38
+   },
+   {
+    "word": " flaw",
+    "start": 247.38,
+    "end": 247.6
+   },
+   {
+    "word": " in",
+    "start": 247.6,
+    "end": 247.84
+   },
+   {
+    "word": " you.",
+    "start": 247.84,
+    "end": 248.22
+   }
+  ]
+ },
+ {
+  "start": 248.56,
+  "end": 251.46,
+  "text": "It is how humans think about power we cannot yet touch.",
+  "words": [
+   {
+    "word": " It",
+    "start": 248.56,
+    "end": 248.7
+   },
+   {
+    "word": " is",
+    "start": 248.7,
+    "end": 248.82
+   },
+   {
+    "word": " how",
+    "start": 248.82,
+    "end": 249.1
+   },
+   {
+    "word": " humans",
+    "start": 249.1,
+    "end": 249.28
+   },
+   {
+    "word": " think",
+    "start": 249.28,
+    "end": 249.62
+   },
+   {
+    "word": " about",
+    "start": 249.62,
+    "end": 249.94
+   },
+   {
+    "word": " power",
+    "start": 249.94,
+    "end": 250.28
+   },
+   {
+    "word": " we",
+    "start": 250.28,
+    "end": 250.5
+   },
+   {
+    "word": " cannot",
+    "start": 250.5,
+    "end": 250.68
+   },
+   {
+    "word": " yet",
+    "start": 250.68,
+    "end": 251.1
+   },
+   {
+    "word": " touch.",
+    "start": 251.1,
+    "end": 251.46
+   }
+  ]
+ },
+ {
+  "start": 251.46,
+  "end": 254.68,
+  "text": "We fill the unknown with the biggest thing we can picture.",
+  "words": [
+   {
+    "word": " We",
+    "start": 251.46,
+    "end": 252.34
+   },
+   {
+    "word": " fill",
+    "start": 252.34,
+    "end": 252.56
+   },
+   {
+    "word": " the",
+    "start": 252.56,
+    "end": 252.78
+   },
+   {
+    "word": " unknown",
+    "start": 252.78,
+    "end": 253.1
+   },
+   {
+    "word": " with",
+    "start": 253.1,
+    "end": 253.32
+   },
+   {
+    "word": " the",
+    "start": 253.32,
+    "end": 253.52
+   },
+   {
+    "word": " biggest",
+    "start": 253.52,
+    "end": 253.78
+   },
+   {
+    "word": " thing",
+    "start": 253.78,
+    "end": 254.0
+   },
+   {
+    "word": " we",
+    "start": 254.0,
+    "end": 254.16
+   },
+   {
+    "word": " can",
+    "start": 254.16,
+    "end": 254.34
+   },
+   {
+    "word": " picture.",
+    "start": 254.34,
+    "end": 254.68
+   }
+  ]
+ },
+ {
+  "start": 255.38,
+  "end": 258.74,
+  "text": "The discipline is to let the unknown stay unknown for a little longer.",
+  "words": [
+   {
+    "word": " The",
+    "start": 255.38,
+    "end": 255.5
+   },
+   {
+    "word": " discipline",
+    "start": 255.5,
+    "end": 255.8
+   },
+   {
+    "word": " is",
+    "start": 255.8,
+    "end": 256.04
+   },
+   {
+    "word": " to",
+    "start": 256.04,
+    "end": 256.16
+   },
+   {
+    "word": " let",
+    "start": 256.16,
+    "end": 256.32
+   },
+   {
+    "word": " the",
+    "start": 256.32,
+    "end": 256.62
+   },
+   {
+    "word": " unknown",
+    "start": 256.62,
+    "end": 256.9
+   },
+   {
+    "word": " stay",
+    "start": 256.9,
+    "end": 257.36
+   },
+   {
+    "word": " unknown",
+    "start": 257.36,
+    "end": 257.8
+   },
+   {
+    "word": " for",
+    "start": 257.8,
+    "end": 258.06
+   },
+   {
+    "word": " a",
+    "start": 258.06,
+    "end": 258.12
+   },
+   {
+    "word": " little",
+    "start": 258.12,
+    "end": 258.34
+   },
+   {
+    "word": " longer.",
+    "start": 258.34,
+    "end": 258.74
+   }
+  ]
+ },
+ {
+  "start": 259.46,
+  "end": 262.58,
+  "text": "A checkpoint is not a product, a feeling is not a benchmark,",
+  "words": [
+   {
+    "word": " A",
+    "start": 259.46,
+    "end": 259.54
+   },
+   {
+    "word": " checkpoint",
+    "start": 259.54,
+    "end": 259.8
+   },
+   {
+    "word": " is",
+    "start": 259.8,
+    "end": 260.08
+   },
+   {
+    "word": " not",
+    "start": 260.08,
+    "end": 260.28
+   },
+   {
+    "word": " a",
+    "start": 260.28,
+    "end": 260.46
+   },
+   {
+    "word": " product,",
+    "start": 260.46,
+    "end": 260.74
+   },
+   {
+    "word": " a",
+    "start": 261.32,
+    "end": 261.46
+   },
+   {
+    "word": " feeling",
+    "start": 261.46,
+    "end": 261.72
+   },
+   {
+    "word": " is",
+    "start": 261.72,
+    "end": 261.98
+   },
+   {
+    "word": " not",
+    "start": 261.98,
+    "end": 262.16
+   },
+   {
+    "word": " a",
+    "start": 262.16,
+    "end": 262.44
+   },
+   {
+    "word": " benchmark,",
+    "start": 262.44,
+    "end": 262.58
+   }
+  ]
+ },
+ {
+  "start": 263.38,
+  "end": 265.08,
+  "text": "a training run is not a release.",
+  "words": [
+   {
+    "word": " a",
+    "start": 263.38,
+    "end": 263.52
+   },
+   {
+    "word": " training",
+    "start": 263.52,
+    "end": 263.78
+   },
+   {
+    "word": " run",
+    "start": 263.78,
+    "end": 264.06
+   },
+   {
+    "word": " is",
+    "start": 264.06,
+    "end": 264.3
+   },
+   {
+    "word": " not",
+    "start": 264.3,
+    "end": 264.48
+   },
+   {
+    "word": " a",
+    "start": 264.48,
+    "end": 264.6
+   },
+   {
+    "word": " release.",
+    "start": 264.6,
+    "end": 265.08
+   }
+  ]
+ },
+ {
+  "start": 265.84,
+  "end": 269.24,
+  "text": "Maming each stage honestly is how you keep your own thinking clean.",
+  "words": [
+   {
+    "word": " Maming",
+    "start": 265.84,
+    "end": 265.96
+   },
+   {
+    "word": " each",
+    "start": 265.96,
+    "end": 266.36
+   },
+   {
+    "word": " stage",
+    "start": 266.36,
+    "end": 266.7
+   },
+   {
+    "word": " honestly",
+    "start": 266.7,
+    "end": 267.1
+   },
+   {
+    "word": " is",
+    "start": 267.1,
+    "end": 267.52
+   },
+   {
+    "word": " how",
+    "start": 267.52,
+    "end": 267.68
+   },
+   {
+    "word": " you",
+    "start": 267.68,
+    "end": 267.78
+   },
+   {
+    "word": " keep",
+    "start": 267.78,
+    "end": 268.0
+   },
+   {
+    "word": " your",
+    "start": 268.0,
+    "end": 268.22
+   },
+   {
+    "word": " own",
+    "start": 268.22,
+    "end": 268.48
+   },
+   {
+    "word": " thinking",
+    "start": 268.48,
+    "end": 268.74
+   },
+   {
+    "word": " clean.",
+    "start": 268.74,
+    "end": 269.24
+   }
+  ]
+ },
+ {
+  "start": 269.76,
+  "end": 273.58,
+  "text": "So if you're picking a model this week, pick from the ones that actually shipped.",
+  "words": [
+   {
+    "word": " So",
+    "start": 269.76,
+    "end": 269.9
+   },
+   {
+    "word": " if",
+    "start": 269.9,
+    "end": 269.98
+   },
+   {
+    "word": " you're",
+    "start": 269.98,
+    "end": 270.12
+   },
+   {
+    "word": " picking",
+    "start": 270.12,
+    "end": 270.34
+   },
+   {
+    "word": " a",
+    "start": 270.34,
+    "end": 270.56
+   },
+   {
+    "word": " model",
+    "start": 270.56,
+    "end": 270.7
+   },
+   {
+    "word": " this",
+    "start": 270.7,
+    "end": 271.1
+   },
+   {
+    "word": " week,",
+    "start": 271.1,
+    "end": 271.56
+   },
+   {
+    "word": " pick",
+    "start": 271.86,
+    "end": 271.88
+   },
+   {
+    "word": " from",
+    "start": 271.88,
+    "end": 272.08
+   },
+   {
+    "word": " the",
+    "start": 272.08,
+    "end": 272.36
+   },
+   {
+    "word": " ones",
+    "start": 272.36,
+    "end": 272.36
+   },
+   {
+    "word": " that",
+    "start": 272.36,
+    "end": 272.64
+   },
+   {
+    "word": " actually",
+    "start": 272.64,
+    "end": 273.08
+   },
+   {
+    "word": " shipped.",
+    "start": 273.08,
+    "end": 273.58
+   }
+  ]
+ },
+ {
+  "start": 273.96,
+  "end": 279.84,
+  "text": "GPT-6 Astra, Claude Opus 5.5, Gemini for 3 Argon in its limited form,",
+  "words": [
+   {
+    "word": " GPT",
+    "start": 273.96,
+    "end": 274.4
+   },
+   {
+    "word": "-6",
+    "start": 274.4,
+    "end": 274.82
+   },
+   {
+    "word": " Astra,",
+    "start": 274.82,
+    "end": 275.38
+   },
+   {
+    "word": " Claude",
+    "start": 275.66,
+    "end": 275.9
+   },
+   {
+    "word": " Opus",
+    "start": 275.9,
+    "end": 276.22
+   },
+   {
+    "word": " 5",
+    "start": 276.22,
+    "end": 276.56
+   },
+   {
+    "word": ".5,",
+    "start": 276.56,
+    "end": 277.28
+   },
+   {
+    "word": " Gemini",
+    "start": 277.62,
+    "end": 277.82
+   },
+   {
+    "word": " for",
+    "start": 277.82,
+    "end": 278.14
+   },
+   {
+    "word": " 3",
+    "start": 278.14,
+    "end": 278.46
+   },
+   {
+    "word": " Argon",
+    "start": 278.46,
+    "end": 278.64
+   },
+   {
+    "word": " in",
+    "start": 278.64,
+    "end": 278.82
+   },
+   {
+    "word": " its",
+    "start": 278.82,
+    "end": 279.08
+   },
+   {
+    "word": " limited",
+    "start": 279.08,
+    "end": 279.32
+   },
+   {
+    "word": " form,",
+    "start": 279.32,
+    "end": 279.84
+   }
+  ]
+ },
+ {
+  "start": 279.84,
+  "end": 285.94,
+  "text": "Quen 3.8, the other four names are a rumor, a missing model, a leak, and a training run.",
+  "words": [
+   {
+    "word": " Quen",
+    "start": 279.84,
+    "end": 280.38
+   },
+   {
+    "word": " 3",
+    "start": 280.38,
+    "end": 280.72
+   },
+   {
+    "word": ".8,",
+    "start": 280.72,
+    "end": 281.5
+   },
+   {
+    "word": " the",
+    "start": 281.74,
+    "end": 281.82
+   },
+   {
+    "word": " other",
+    "start": 281.82,
+    "end": 282.04
+   },
+   {
+    "word": " four",
+    "start": 282.04,
+    "end": 282.24
+   },
+   {
+    "word": " names",
+    "start": 282.24,
+    "end": 282.48
+   },
+   {
+    "word": " are",
+    "start": 282.48,
+    "end": 282.82
+   },
+   {
+    "word": " a",
+    "start": 282.82,
+    "end": 283.2
+   },
+   {
+    "word": " rumor,",
+    "start": 283.2,
+    "end": 283.2
+   },
+   {
+    "word": " a",
+    "start": 283.58,
+    "end": 283.6
+   },
+   {
+    "word": " missing",
+    "start": 283.6,
+    "end": 283.78
+   },
+   {
+    "word": " model,",
+    "start": 283.78,
+    "end": 284.28
+   },
+   {
+    "word": " a",
+    "start": 284.5,
+    "end": 284.58
+   },
+   {
+    "word": " leak,",
+    "start": 284.58,
+    "end": 284.86
+   },
+   {
+    "word": " and",
+    "start": 285.04,
+    "end": 285.2
+   },
+   {
+    "word": " a",
+    "start": 285.2,
+    "end": 285.34
+   },
+   {
+    "word": " training",
+    "start": 285.34,
+    "end": 285.56
+   },
+   {
+    "word": " run.",
+    "start": 285.56,
+    "end": 285.94
+   }
+  ]
+ },
+ {
+  "start": 286.5,
+  "end": 287.78,
+  "text": "That is not less interesting.",
+  "words": [
+   {
+    "word": " That",
+    "start": 286.5,
+    "end": 286.62
+   },
+   {
+    "word": " is",
+    "start": 286.62,
+    "end": 286.76
+   },
+   {
+    "word": " not",
+    "start": 286.76,
+    "end": 287.0
+   },
+   {
+    "word": " less",
+    "start": 287.0,
+    "end": 287.3
+   },
+   {
+    "word": " interesting.",
+    "start": 287.3,
+    "end": 287.78
+   }
+  ]
+ },
+ {
+  "start": 288.28,
+  "end": 292.42,
+  "text": "It is just the difference between news and hype, and that difference is the whole point.",
+  "words": [
+   {
+    "word": " It",
+    "start": 288.28,
+    "end": 288.32
+   },
+   {
+    "word": " is",
+    "start": 288.32,
+    "end": 288.5
+   },
+   {
+    "word": " just",
+    "start": 288.5,
+    "end": 288.74
+   },
+   {
+    "word": " the",
+    "start": 288.74,
+    "end": 288.86
+   },
+   {
+    "word": " difference",
+    "start": 288.86,
+    "end": 289.08
+   },
+   {
+    "word": " between",
+    "start": 289.08,
+    "end": 289.54
+   },
+   {
+    "word": " news",
+    "start": 289.54,
+    "end": 289.92
+   },
+   {
+    "word": " and",
+    "start": 289.92,
+    "end": 290.16
+   },
+   {
+    "word": " hype,",
+    "start": 290.16,
+    "end": 290.52
+   },
+   {
+    "word": " and",
+    "start": 290.8,
+    "end": 290.98
+   },
+   {
+    "word": " that",
+    "start": 290.98,
+    "end": 291.24
+   },
+   {
+    "word": " difference",
+    "start": 291.24,
+    "end": 291.48
+   },
+   {
+    "word": " is",
+    "start": 291.48,
+    "end": 291.76
+   },
+   {
+    "word": " the",
+    "start": 291.76,
+    "end": 291.86
+   },
+   {
+    "word": " whole",
+    "start": 291.86,
+    "end": 292.06
+   },
+   {
+    "word": " point.",
+    "start": 292.06,
+    "end": 292.42
+   }
+  ]
+ },
+ {
+  "start": 292.94,
+  "end": 297.4,
+  "text": "One last test before you share anything this week, ask who benefits if you believe it now,",
+  "words": [
+   {
+    "word": " One",
+    "start": 292.94,
+    "end": 293.08
+   },
+   {
+    "word": " last",
+    "start": 293.08,
+    "end": 293.32
+   },
+   {
+    "word": " test",
+    "start": 293.32,
+    "end": 293.56
+   },
+   {
+    "word": " before",
+    "start": 293.56,
+    "end": 293.8
+   },
+   {
+    "word": " you",
+    "start": 293.8,
+    "end": 293.92
+   },
+   {
+    "word": " share",
+    "start": 293.92,
+    "end": 294.1
+   },
+   {
+    "word": " anything",
+    "start": 294.1,
+    "end": 294.4
+   },
+   {
+    "word": " this",
+    "start": 294.4,
+    "end": 294.66
+   },
+   {
+    "word": " week,",
+    "start": 294.66,
+    "end": 295.14
+   },
+   {
+    "word": " ask",
+    "start": 295.64,
+    "end": 295.76
+   },
+   {
+    "word": " who",
+    "start": 295.76,
+    "end": 295.98
+   },
+   {
+    "word": " benefits",
+    "start": 295.98,
+    "end": 296.3
+   },
+   {
+    "word": " if",
+    "start": 296.3,
+    "end": 296.52
+   },
+   {
+    "word": " you",
+    "start": 296.52,
+    "end": 296.68
+   },
+   {
+    "word": " believe",
+    "start": 296.68,
+    "end": 296.84
+   },
+   {
+    "word": " it",
+    "start": 296.84,
+    "end": 297.0
+   },
+   {
+    "word": " now,",
+    "start": 297.0,
+    "end": 297.4
+   }
+  ]
+ },
+ {
+  "start": 297.58,
+  "end": 298.38,
+  "text": "before it is confirmed.",
+  "words": [
+   {
+    "word": " before",
+    "start": 297.58,
+    "end": 297.7
+   },
+   {
+    "word": " it",
+    "start": 297.7,
+    "end": 297.82
+   },
+   {
+    "word": " is",
+    "start": 297.82,
+    "end": 298.06
+   },
+   {
+    "word": " confirmed.",
+    "start": 298.06,
+    "end": 298.38
+   }
+  ]
+ },
+ {
+  "start": 299.08,
+  "end": 304.22,
+  "text": "If the answer is a channel selling urgency, a seller selling access, or your own desire to be",
+  "words": [
+   {
+    "word": " If",
+    "start": 299.08,
+    "end": 299.2
+   },
+   {
+    "word": " the",
+    "start": 299.2,
+    "end": 299.36
+   },
+   {
+    "word": " answer",
+    "start": 299.36,
+    "end": 299.48
+   },
+   {
+    "word": " is",
+    "start": 299.48,
+    "end": 299.72
+   },
+   {
+    "word": " a",
+    "start": 299.72,
+    "end": 299.88
+   },
+   {
+    "word": " channel",
+    "start": 299.88,
+    "end": 300.08
+   },
+   {
+    "word": " selling",
+    "start": 300.08,
+    "end": 300.44
+   },
+   {
+    "word": " urgency,",
+    "start": 300.44,
+    "end": 300.86
+   },
+   {
+    "word": " a",
+    "start": 301.34,
+    "end": 301.44
+   },
+   {
+    "word": " seller",
+    "start": 301.44,
+    "end": 301.6
+   },
+   {
+    "word": " selling",
+    "start": 301.6,
+    "end": 302.02
+   },
+   {
+    "word": " access,",
+    "start": 302.02,
+    "end": 302.52
+   },
+   {
+    "word": " or",
+    "start": 302.92,
+    "end": 303.08
+   },
+   {
+    "word": " your",
+    "start": 303.08,
+    "end": 303.26
+   },
+   {
+    "word": " own",
+    "start": 303.26,
+    "end": 303.48
+   },
+   {
+    "word": " desire",
+    "start": 303.48,
+    "end": 303.76
+   },
+   {
+    "word": " to",
+    "start": 303.76,
+    "end": 303.98
+   },
+   {
+    "word": " be",
+    "start": 303.98,
+    "end": 304.22
+   }
+  ]
+ },
+ {
+  "start": 304.78,
+  "end": 307.52,
+  "text": "slow down, speed is not insight.",
+  "words": [
+   {
+    "word": " slow",
+    "start": 304.78,
+    "end": 305.08
+   },
+   {
+    "word": " down,",
+    "start": 305.08,
+    "end": 305.82
+   },
+   {
+    "word": " speed",
+    "start": 306.24,
+    "end": 306.44
+   },
+   {
+    "word": " is",
+    "start": 306.44,
+    "end": 306.64
+   },
+   {
+    "word": " not",
+    "start": 306.64,
+    "end": 306.88
+   },
+   {
+    "word": " insight.",
+    "start": 306.88,
+    "end": 307.52
+   }
+  ]
+ },
+ {
+  "start": 307.96,
+  "end": 312.42,
+  "text": "Being first to repeat a rumor is not the same as being right, and in a field that moves this",
+  "words": [
+   {
+    "word": " Being",
+    "start": 307.96,
+    "end": 308.2
+   },
+   {
+    "word": " first",
+    "start": 308.2,
+    "end": 308.46
+   },
+   {
+    "word": " to",
+    "start": 308.46,
+    "end": 308.66
+   },
+   {
+    "word": " repeat",
+    "start": 308.66,
+    "end": 308.84
+   },
+   {
+    "word": " a",
+    "start": 308.84,
+    "end": 309.02
+   },
+   {
+    "word": " rumor",
+    "start": 309.02,
+    "end": 309.22
+   },
+   {
+    "word": " is",
+    "start": 309.22,
+    "end": 309.42
+   },
+   {
+    "word": " not",
+    "start": 309.42,
+    "end": 309.58
+   },
+   {
+    "word": " the",
+    "start": 309.58,
+    "end": 309.82
+   },
+   {
+    "word": " same",
+    "start": 309.82,
+    "end": 309.96
+   },
+   {
+    "word": " as",
+    "start": 309.96,
+    "end": 310.12
+   },
+   {
+    "word": " being",
+    "start": 310.12,
+    "end": 310.38
+   },
+   {
+    "word": " right,",
+    "start": 310.38,
+    "end": 310.84
+   },
+   {
+    "word": " and",
+    "start": 311.14,
+    "end": 311.26
+   },
+   {
+    "word": " in",
+    "start": 311.26,
+    "end": 311.42
+   },
+   {
+    "word": " a",
+    "start": 311.42,
+    "end": 311.5
+   },
+   {
+    "word": " field",
+    "start": 311.5,
+    "end": 311.66
+   },
+   {
+    "word": " that",
+    "start": 311.66,
+    "end": 311.84
+   },
+   {
+    "word": " moves",
+    "start": 311.84,
+    "end": 312.06
+   },
+   {
+    "word": " this",
+    "start": 312.06,
+    "end": 312.42
+   }
+  ]
+ },
+ {
+  "start": 312.42,
+  "end": 315.7,
+  "text": "fast, the person who waits for confirmation is not behind.",
+  "words": [
+   {
+    "word": " fast,",
+    "start": 312.42,
+    "end": 312.8
+   },
+   {
+    "word": " the",
+    "start": 313.18,
+    "end": 313.3
+   },
+   {
+    "word": " person",
+    "start": 313.3,
+    "end": 313.5
+   },
+   {
+    "word": " who",
+    "start": 313.5,
+    "end": 313.72
+   },
+   {
+    "word": " waits",
+    "start": 313.72,
+    "end": 313.9
+   },
+   {
+    "word": " for",
+    "start": 313.9,
+    "end": 314.18
+   },
+   {
+    "word": " confirmation",
+    "start": 314.18,
+    "end": 314.56
+   },
+   {
+    "word": " is",
+    "start": 314.56,
+    "end": 314.96
+   },
+   {
+    "word": " not",
+    "start": 314.96,
+    "end": 315.22
+   },
+   {
+    "word": " behind.",
+    "start": 315.22,
+    "end": 315.7
+   }
+  ]
+ },
+ {
+  "start": 316.3,
+  "end": 319.9,
+  "text": "They are the only ones still standing on solid ground when the hype cycle turns.",
+  "words": [
+   {
+    "word": " They",
+    "start": 316.3,
+    "end": 316.36
+   },
+   {
+    "word": " are",
+    "start": 316.36,
+    "end": 316.5
+   },
+   {
+    "word": " the",
+    "start": 316.5,
+    "end": 316.64
+   },
+   {
+    "word": " only",
+    "start": 316.64,
+    "end": 316.9
+   },
+   {
+    "word": " ones",
+    "start": 316.9,
+    "end": 317.18
+   },
+   {
+    "word": " still",
+    "start": 317.18,
+    "end": 317.5
+   },
+   {
+    "word": " standing",
+    "start": 317.5,
+    "end": 317.76
+   },
+   {
+    "word": " on",
+    "start": 317.76,
+    "end": 318.02
+   },
+   {
+    "word": " solid",
+    "start": 318.02,
+    "end": 318.32
+   },
+   {
+    "word": " ground",
+    "start": 318.32,
+    "end": 318.7
+   },
+   {
+    "word": " when",
+    "start": 318.7,
+    "end": 318.88
+   },
+   {
+    "word": " the",
+    "start": 318.88,
+    "end": 319.12
+   },
+   {
+    "word": " hype",
+    "start": 319.12,
+    "end": 319.22
+   },
+   {
+    "word": " cycle",
+    "start": 319.22,
+    "end": 319.52
+   },
+   {
+    "word": " turns.",
+    "start": 319.52,
+    "end": 319.9
+   }
+  ]
+ },
+ {
+  "start": 320.5,
+  "end": 322.7,
+  "text": "And here's the directive I want you to leave with.",
+  "words": [
+   {
+    "word": " And",
+    "start": 320.5,
+    "end": 320.68
+   },
+   {
+    "word": " here's",
+    "start": 320.68,
+    "end": 320.9
+   },
+   {
+    "word": " the",
+    "start": 320.9,
+    "end": 321.04
+   },
+   {
+    "word": " directive",
+    "start": 321.04,
+    "end": 321.34
+   },
+   {
+    "word": " I",
+    "start": 321.34,
+    "end": 321.56
+   },
+   {
+    "word": " want",
+    "start": 321.56,
+    "end": 321.74
+   },
+   {
+    "word": " you",
+    "start": 321.74,
+    "end": 321.84
+   },
+   {
+    "word": " to",
+    "start": 321.84,
+    "end": 321.94
+   },
+   {
+    "word": " leave",
+    "start": 321.94,
+    "end": 322.1
+   },
+   {
+    "word": " with.",
+    "start": 322.1,
+    "end": 322.7
+   }
+  ]
+ },
+ {
+  "start": 323.08,
+  "end": 324.26,
+  "text": "Build on what's shipped.",
+  "words": [
+   {
+    "word": " Build",
+    "start": 323.08,
+    "end": 323.36
+   },
+   {
+    "word": " on",
+    "start": 323.36,
+    "end": 323.62
+   },
+   {
+    "word": " what's",
+    "start": 323.62,
+    "end": 324.26
+   },
+   {
+    "word": " shipped.",
+    "start": 324.26,
+    "end": 324.26
+   }
+  ]
+ },
+ {
+  "start": 324.76,
+  "end": 329.18,
+  "text": "Watch what is rumored, but do not bet your work, your money, or your reputation on it.",
+  "words": [
+   {
+    "word": " Watch",
+    "start": 324.76,
+    "end": 325.04
+   },
+   {
+    "word": " what",
+    "start": 325.04,
+    "end": 325.22
+   },
+   {
+    "word": " is",
+    "start": 325.22,
+    "end": 325.46
+   },
+   {
+    "word": " rumored,",
+    "start": 325.46,
+    "end": 325.64
+   },
+   {
+    "word": " but",
+    "start": 325.96,
+    "end": 326.06
+   },
+   {
+    "word": " do",
+    "start": 326.06,
+    "end": 326.16
+   },
+   {
+    "word": " not",
+    "start": 326.16,
+    "end": 326.44
+   },
+   {
+    "word": " bet",
+    "start": 326.44,
+    "end": 326.62
+   },
+   {
+    "word": " your",
+    "start": 326.62,
+    "end": 326.88
+   },
+   {
+    "word": " work,",
+    "start": 326.88,
+    "end": 327.16
+   },
+   {
+    "word": " your",
+    "start": 327.34,
+    "end": 327.5
+   },
+   {
+    "word": " money,",
+    "start": 327.5,
+    "end": 327.88
+   },
+   {
+    "word": " or",
+    "start": 327.88,
+    "end": 328.08
+   },
+   {
+    "word": " your",
+    "start": 328.08,
+    "end": 328.48
+   },
+   {
+    "word": " reputation",
+    "start": 328.48,
+    "end": 328.66
+   },
+   {
+    "word": " on",
+    "start": 328.66,
+    "end": 328.94
+   },
+   {
+    "word": " it.",
+    "start": 328.94,
+    "end": 329.18
+   }
+  ]
+ },
+ {
+  "start": 329.18,
+  "end": 334.6,
+  "text": "Keep a ledger, even a mental one, claimed, sourced, confirmed, shipped.",
+  "words": [
+   {
+    "word": " Keep",
+    "start": 329.18,
+    "end": 329.92
+   },
+   {
+    "word": " a",
+    "start": 329.92,
+    "end": 330.1
+   },
+   {
+    "word": " ledger,",
+    "start": 330.1,
+    "end": 330.4
+   },
+   {
+    "word": " even",
+    "start": 330.78,
+    "end": 330.88
+   },
+   {
+    "word": " a",
+    "start": 330.88,
+    "end": 331.12
+   },
+   {
+    "word": " mental",
+    "start": 331.12,
+    "end": 331.3
+   },
+   {
+    "word": " one,",
+    "start": 331.3,
+    "end": 332.0
+   },
+   {
+    "word": " claimed,",
+    "start": 332.16,
+    "end": 332.5
+   },
+   {
+    "word": " sourced,",
+    "start": 333.3,
+    "end": 333.3
+   },
+   {
+    "word": " confirmed,",
+    "start": 333.96,
+    "end": 333.96
+   },
+   {
+    "word": " shipped.",
+    "start": 334.6,
+    "end": 334.6
+   }
+  ]
+ },
+ {
+  "start": 335.3,
+  "end": 338.54,
+  "text": "Four columns, most of the internet lives in the first two.",
+  "words": [
+   {
+    "word": " Four",
+    "start": 335.3,
+    "end": 335.54
+   },
+   {
+    "word": " columns,",
+    "start": 335.54,
+    "end": 335.9
+   },
+   {
+    "word": " most",
+    "start": 336.54,
+    "end": 336.76
+   },
+   {
+    "word": " of",
+    "start": 336.76,
+    "end": 336.94
+   },
+   {
+    "word": " the",
+    "start": 336.94,
+    "end": 337.06
+   },
+   {
+    "word": " internet",
+    "start": 337.06,
+    "end": 337.22
+   },
+   {
+    "word": " lives",
+    "start": 337.22,
+    "end": 337.52
+   },
+   {
+    "word": " in",
+    "start": 337.52,
+    "end": 337.7
+   },
+   {
+    "word": " the",
+    "start": 337.7,
+    "end": 337.8
+   },
+   {
+    "word": " first",
+    "start": 337.8,
+    "end": 338.06
+   },
+   {
+    "word": " two.",
+    "start": 338.06,
+    "end": 338.54
+   }
+  ]
+ },
+ {
+  "start": 338.88,
+  "end": 340.86,
+  "text": "Your advantage is living in the last two.",
+  "words": [
+   {
+    "word": " Your",
+    "start": 338.88,
+    "end": 339.04
+   },
+   {
+    "word": " advantage",
+    "start": 339.04,
+    "end": 339.42
+   },
+   {
+    "word": " is",
+    "start": 339.42,
+    "end": 339.74
+   },
+   {
+    "word": " living",
+    "start": 339.74,
+    "end": 339.9
+   },
+   {
+    "word": " in",
+    "start": 339.9,
+    "end": 340.08
+   },
+   {
+    "word": " the",
+    "start": 340.08,
+    "end": 340.2
+   },
+   {
+    "word": " last",
+    "start": 340.2,
+    "end": 340.46
+   },
+   {
+    "word": " two.",
+    "start": 340.46,
+    "end": 340.86
+   }
+  ]
+ },
+ {
+  "start": 341.2,
+  "end": 343.6,
+  "text": "That is not cynicism, that is stewardship.",
+  "words": [
+   {
+    "word": " That",
+    "start": 341.2,
+    "end": 341.34
+   },
+   {
+    "word": " is",
+    "start": 341.34,
+    "end": 341.5
+   },
+   {
+    "word": " not",
+    "start": 341.5,
+    "end": 341.76
+   },
+   {
+    "word": " cynicism,",
+    "start": 341.76,
+    "end": 342.16
+   },
+   {
+    "word": " that",
+    "start": 342.68,
+    "end": 342.8
+   },
+   {
+    "word": " is",
+    "start": 342.8,
+    "end": 343.04
+   },
+   {
+    "word": " stewardship.",
+    "start": 343.04,
+    "end": 343.6
+   }
+  ]
+ },
+ {
+  "start": 344.24,
+  "end": 347.42,
+  "text": "The future will arrive whether you hype it or not, and when it does,",
+  "words": [
+   {
+    "word": " The",
+    "start": 344.24,
+    "end": 344.42
+   },
+   {
+    "word": " future",
+    "start": 344.42,
+    "end": 344.66
+   },
+   {
+    "word": " will",
+    "start": 344.66,
+    "end": 344.86
+   },
+   {
+    "word": " arrive",
+    "start": 344.86,
+    "end": 345.2
+   },
+   {
+    "word": " whether",
+    "start": 345.2,
+    "end": 345.42
+   },
+   {
+    "word": " you",
+    "start": 345.42,
+    "end": 345.66
+   },
+   {
+    "word": " hype",
+    "start": 345.66,
+    "end": 345.82
+   },
+   {
+    "word": " it",
+    "start": 345.82,
+    "end": 346.0
+   },
+   {
+    "word": " or",
+    "start": 346.0,
+    "end": 346.1
+   },
+   {
+    "word": " not,",
+    "start": 346.1,
+    "end": 346.44
+   },
+   {
+    "word": " and",
+    "start": 346.7,
+    "end": 346.84
+   },
+   {
+    "word": " when",
+    "start": 346.84,
+    "end": 346.92
+   },
+   {
+    "word": " it",
+    "start": 346.92,
+    "end": 347.08
+   },
+   {
+    "word": " does,",
+    "start": 347.08,
+    "end": 347.42
+   }
+  ]
+ },
+ {
+  "start": 347.86,
+  "end": 351.6,
+  "text": "you will be ready for it precisely because you did not pretend it was already here.",
+  "words": [
+   {
+    "word": " you",
+    "start": 347.86,
+    "end": 347.98
+   },
+   {
+    "word": " will",
+    "start": 347.98,
+    "end": 348.1
+   },
+   {
+    "word": " be",
+    "start": 348.1,
+    "end": 348.26
+   },
+   {
+    "word": " ready",
+    "start": 348.26,
+    "end": 348.48
+   },
+   {
+    "word": " for",
+    "start": 348.48,
+    "end": 348.64
+   },
+   {
+    "word": " it",
+    "start": 348.64,
+    "end": 348.92
+   },
+   {
+    "word": " precisely",
+    "start": 348.92,
+    "end": 349.28
+   },
+   {
+    "word": " because",
+    "start": 349.28,
+    "end": 349.66
+   },
+   {
+    "word": " you",
+    "start": 349.66,
+    "end": 349.84
+   },
+   {
+    "word": " did",
+    "start": 349.84,
+    "end": 349.96
+   },
+   {
+    "word": " not",
+    "start": 349.96,
+    "end": 350.18
+   },
+   {
+    "word": " pretend",
+    "start": 350.18,
+    "end": 350.48
+   },
+   {
+    "word": " it",
+    "start": 350.48,
+    "end": 350.68
+   },
+   {
+    "word": " was",
+    "start": 350.68,
+    "end": 350.96
+   },
+   {
+    "word": " already",
+    "start": 350.96,
+    "end": 351.26
+   },
+   {
+    "word": " here.",
+    "start": 351.26,
+    "end": 351.6
+   }
+  ]
+ }
+]

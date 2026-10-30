@@ -1,0 +1,9 @@
+[
+ {
+  "topic": "Gemini 4 Argon: Modernizing 40 year code (AI coding agents)",
+  "kind": "screen_record",
+  "target": "https://www.youtube.com/watch?v=biOWEPYyS5c",
+  "instruction": "Capture with Muse's browser: open the target, take a screenshot (and a short screen recording if motion matters). In the render, show it FULL-SCREEN, zoomed 1.35x with smooth pan lined up to narration, cited text highlighted large as spoken (mouthfeed rule). If the browser cannot export a true screenshot, use its best in-system capture and record that limitation in the render manifest \u2014 never label a render as a live screenshot.",
+  "status": "specced"
+ }
+]

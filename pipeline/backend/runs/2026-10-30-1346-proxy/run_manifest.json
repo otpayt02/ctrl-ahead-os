@@ -1,0 +1,40 @@
+{
+ "run_id": "2026-10-30-1346-proxy",
+ "mode": "proxy",
+ "week": "2026-W44",
+ "coverage": "PARTIAL",
+ "lanes_in_config": 35,
+ "lanes_with_videos": 14,
+ "videos_scored": 24,
+ "harvest": "proxy_existing: ingested 1 existing intel bundle files + 1 topics menu file(s) covering 15 lanes; intel folders present: 35",
+ "mining": "proxy: reused hooks/comments stored in existing bundles",
+ "brain": {
+  "local_files": 66,
+  "drive_files": 100,
+  "drive_status": "ok",
+  "github_repos": 45,
+  "github_status": "ok"
+ },
+ "angles_proposed": 18,
+ "grill_me": {
+  "imported": 0,
+  "approved_concepts": 0
+ },
+ "chosen_lane": "AI coding agents",
+ "chosen_topic": "Gemini 4 Argon: Modernizing 40 year code",
+ "render_queue": [
+  {
+   "topic": "Gemini 4 Argon: Modernizing 40 year code",
+   "lane": "AI coding agents",
+   "origin": "automate",
+   "script": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/backend/runs/2026-10-30-1346-proxy/drafts/automate-ai-coding-agents/script.md",
+   "render_manifest": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/backend/runs/2026-10-30-1346-proxy/drafts/automate-ai-coding-agents/render_manifest.json",
+   "status": "queued_manifest_gate"
+  }
+ ],
+ "proof_tasks_specced": 1,
+ "notes": [
+  "No YT_API_KEY in env \u2014 NO new YouTube harvest ran. Numbers below come from the previous real harvest already on disk (2026-W43, itself PARTIAL: 15 lanes, 88 searches then 429)."
+ ],
+ "gates": "Render queue is queued_manifest_gate \u2014 Gate 1 (Oliver approves full render manifest) before publish. Hands-free covers everything before that."
+}

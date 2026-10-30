@@ -1,0 +1,1 @@
+Five hours wiring real reads and writes end to end, two hours testing both halves separately with logging on. Why: bugs found on day four cost minutes; found on day five, they cost your launch. Skip it and your users are your QA team.

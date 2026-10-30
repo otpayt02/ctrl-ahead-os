@@ -1,0 +1,1 @@
+Docker, open-sourced in 2013 by a tiny startup called dotCloud. What it is: a box that packs your app plus everything it needs to run. Why: the box behaves identically on your laptop and on the live site. Skip it and you'll meet the 'works on my machine' bug on launch day. How: one Dockerfile, docker build — that's the 30-minute version.

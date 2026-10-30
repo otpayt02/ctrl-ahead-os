@@ -1,0 +1,5 @@
+file '/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v3/stage1.mp4'
+file '/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v3/stage2.mp4'
+file '/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v3/stage3.mp4'
+file '/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v3/stage4.mp4'
+file '/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v3/stage5.mp4'

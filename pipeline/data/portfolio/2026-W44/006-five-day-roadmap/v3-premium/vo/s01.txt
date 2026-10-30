@@ -1,0 +1,1 @@
+There's a roadmap going around claiming you can build a production-ready full-stack web app in five days, almost free. It's real — and in the next nine and a half minutes I'm going to explain every tool in it: what it is, why you need it, what breaks if you skip it, and how to actually do it. If you can follow a recipe, you can follow this.

@@ -1,0 +1,1 @@
+Then CloudWatch, from 2009. What it is: a heart monitor plus security cameras for your app — every request leaves a log, alarms email you when errors spike. Why: when it breaks at 2 AM, this is how you know before your users tell you. Skip it and failures happen silently while angry customers wait. How: turn on logging, set one alarm on errors. That's 90% of the value.

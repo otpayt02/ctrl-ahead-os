@@ -1,0 +1,68 @@
+{
+  "topic": "EXAMPLE ONLY \u2014 Nemotron 3.5 Bolt on a 24GB card",
+  "subniche": "Local LLM setups",
+  "week": "2026-W43",
+  "status": "DRAFT \u2014 script not approved, render HELD",
+  "segments": [
+    {
+      "start": "00:00",
+      "end": "00:30",
+      "duration_s": 30,
+      "title": "Hook",
+      "vo_note": "What the topic is, in one sentence, and why this week matters",
+      "visual": {
+        "label": "NOT RUN",
+        "source_file": "",
+        "note": "Replace with a reviewed capture: live / fetched render / screen record / livestream frame, with its file path, before rendering."
+      }
+    },
+    {
+      "start": "00:30",
+      "end": "02:00",
+      "duration_s": 90,
+      "title": "Evidence",
+      "vo_note": "The dated changelog / release / repo evidence, with links",
+      "visual": {
+        "label": "NOT RUN",
+        "source_file": "",
+        "note": "Replace with a reviewed capture: live / fetched render / screen record / livestream frame, with its file path, before rendering."
+      }
+    },
+    {
+      "start": "02:00",
+      "end": "04:00",
+      "duration_s": 120,
+      "title": "Live test",
+      "vo_note": "Oliver's artifact: what was actually tried, what ran, what did NOT run",
+      "visual": {
+        "label": "NOT RUN",
+        "source_file": "",
+        "note": "Replace with a reviewed capture: live / fetched render / screen record / livestream frame, with its file path, before rendering."
+      }
+    },
+    {
+      "start": "04:00",
+      "end": "05:30",
+      "duration_s": 90,
+      "title": "What breaks / what to watch",
+      "vo_note": "Limits, costs, quota, VRAM, or deprecation \u2014 the honest catch",
+      "visual": {
+        "label": "NOT RUN",
+        "source_file": "",
+        "note": "Replace with a reviewed capture: live / fetched render / screen record / livestream frame, with its file path, before rendering."
+      }
+    },
+    {
+      "start": "05:30",
+      "end": "06:00",
+      "duration_s": 30,
+      "title": "Close + next step",
+      "vo_note": "One concrete thing the viewer can do, and the next video's topic (only if approved)",
+      "visual": {
+        "label": "NOT RUN",
+        "source_file": "",
+        "note": "Replace with a reviewed capture: live / fetched render / screen record / livestream frame, with its file path, before rendering."
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+file '/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v3/part1.mp4'
+file '/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v3/anim_final.mp4'

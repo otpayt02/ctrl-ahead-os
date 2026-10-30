@@ -1,0 +1,10 @@
+{
+  "version": "v6",
+  "status": "COMPLETE, verified 2026-10-26 07:09 EDT by ffprobe: 1920x1080, h264/aac, 351.833s, 32,677,483 bytes (32 MB)",
+  "voiceover": "vo2/vo.mp3, 351.888s, 11 chunks; render 0.055s shorter due to 30fps frame rounding",
+  "base": "v5 video without sentence captions (v5_nocap.mp4), plus burned-in karaoke subtitles",
+  "subtitles": "karaoke.ass, 75 sentence cues: full sentence shown in white, words turn gold as they are spoken, spanning the viewport width at the bottom. Frame checked at 5s: 'GPT-7, Claude REA banned, Gemini Carbon' gold, 'insane, Qwen 4 leaks.' white. Separate SRT sidecar: v6/subtitles.srt (7.9 KB).",
+  "timing_note": "Subtitle and segment timings are estimated from word-count proportion, not measured per-word TTS timestamps.",
+  "labels": "Proof frames bannered 'RENDERED FROM LIVE PAGE VISIT — NOT A LIVE SCREENSHOT'. Headline cards bannered 'GRAPHIC — NOT A SCREENSHOT'. Animated frames bannered 'ANIMATED GRAPHIC — NOT A SCREENSHOT'. No frame is presented as a live screenshot or a run.",
+  "publish": "NOT published. Whole v6 is the milestone for Oliver's feedback/approval. Iterate on the whole video, not individual segments."
+}

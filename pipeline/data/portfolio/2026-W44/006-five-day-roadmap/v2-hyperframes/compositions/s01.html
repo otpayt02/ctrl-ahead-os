@@ -1,0 +1,177 @@
+<template>
+<link rel="stylesheet" href="css/theme.css">
+<style>
+#root{position:absolute;inset:0;background:#0B0E14;overflow:hidden;font-family:Inter,sans-serif;color:#fff}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,7,12,.88) 0%,rgba(5,7,12,.45) 46%,rgba(5,7,12,.05) 75%),linear-gradient(0deg,rgba(5,7,12,.92) 0%,rgba(5,7,12,0) 34%),linear-gradient(180deg,rgba(5,7,12,.55) 0%,rgba(5,7,12,0) 26%)}
+.mute{position:absolute;inset:0;background:rgba(20,22,30,.38)}
+.pill{position:absolute;top:44px;left:56px;padding:10px 22px;border-radius:999px;background:rgba(8,10,16,.82);border:1.5px solid rgba(94,234,212,.55);font-family:"JetBrains Mono",monospace;font-size:21px;font-weight:700;letter-spacing:.18em;color:#5EEAD4}
+.namecard{position:absolute;top:104px;left:56px;max-width:1150px}
+.title{font-size:88px;font-weight:700;letter-spacing:-.02em;line-height:1.02;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.subtitle{font-size:34px;color:rgba(255,255,255,.85);margin-top:10px;font-weight:600}
+.yearchip{display:inline-block;margin-left:20px;padding:8px 20px;border-radius:999px;border:2px solid #FFD166;color:#FFD166;font-size:30px;font-weight:700;vertical-align:middle;position:relative}
+.ule{position:absolute;left:2px;bottom:-16px;height:8px;width:0;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px}
+.headline{position:absolute;left:56px;bottom:196px;width:1080px;font-size:52px;font-weight:700;line-height:1.16;letter-spacing:-.01em;text-shadow:0 3px 22px rgba(0,0,0,.75)}
+.headline .hl-in{position:relative;display:inline-block}
+.headline .bar{position:absolute;left:0;bottom:-14px;height:7px;width:0;background:#5EEAD4;border-radius:4px}
+.rail{position:absolute;right:48px;top:150px;width:520px;display:flex;flex-direction:column;gap:16px}
+.chip{border-radius:18px;padding:16px 20px 14px;background:rgba(8,11,18,.86);border:2px solid rgba(255,255,255,.25);box-shadow:0 10px 34px rgba(0,0,0,.45)}
+.chip .k{font-family:"JetBrains Mono",monospace;font-size:19px;font-weight:700;letter-spacing:.16em;margin-bottom:6px}
+.chip .t{font-size:25px;line-height:1.28;color:rgba(255,255,255,.94);font-weight:600}
+.chip.what{border-color:#22D3EE}.chip.what .k{color:#22D3EE}
+.chip.why{border-color:#A78BFA}.chip.why .k{color:#A78BFA}
+.chip.skip{border-color:#F87171}.chip.skip .k{color:#F87171}
+.chip.how{border-color:#4ADE80}.chip.how .k{color:#4ADE80}
+.chip.gold{border-color:#FFD166}.chip.gold .k{color:#FFD166}
+.laterbadge{position:absolute;top:44px;right:48px;padding:12px 26px;border-radius:12px;background:#B91C1C;color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.22em;font-size:24px;transform:rotate(3deg)}
+.caps{position:absolute;left:0;right:0;bottom:52px;display:flex;justify-content:center}
+.cap{background:rgba(0,0,0,.78);padding:12px 26px;border-radius:10px;font-size:39px;font-weight:600;text-align:center;max-width:1560px}
+.cap span{color:#fff}
+.bigflash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:120px;font-weight:700;letter-spacing:-.01em;text-shadow:0 6px 44px rgba(0,0,0,.8)}
+.daycard{position:absolute;inset:0;background:radial-gradient(1100px 620px at 50% 42%,#1B2436 0%,#0B0E14 70%);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.daycard .d1{font-family:"JetBrains Mono",monospace;letter-spacing:.3em;color:#5EEAD4;font-size:30px;font-weight:700}
+.daycard .d2{font-size:150px;font-weight:700;letter-spacing:-.02em;margin-top:8px}
+.daycard .d3{font-size:44px;color:rgba(255,255,255,.8);font-weight:600;margin-top:6px}
+.daycard .rule{width:0;height:8px;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px;margin-top:34px}
+.outro{position:absolute;inset:0;background:#07090F;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.outro img{width:760px;height:428px;object-fit:cover;border-radius:24px;box-shadow:0 0 120px rgba(255,209,102,.25)}
+.outro .o1{font-size:64px;font-weight:700;margin-top:36px}
+.outro .o2{font-size:34px;color:rgba(255,255,255,.75);margin-top:12px;font-weight:600}
+.subpill{margin-top:30px;padding:16px 44px;border-radius:999px;background:#E11D48;font-size:32px;font-weight:700;letter-spacing:.14em}
+.node{position:absolute;width:26px;height:26px;border-radius:50%;background:#223;border:3px solid rgba(255,255,255,.25)}
+.counter{font-size:120px;font-weight:700;color:#FFD166}
+</style>
+<div id="root" data-composition-id="s01" data-start="0" data-duration="19.702" data-width="1920" data-height="1080">
+<video id="el-s01-1" class="clip bg" data-start="0.00" data-duration="6.57" src="assets/gen/vid-hook-1-deploy.mp4" muted playsinline></video>
+<video id="el-s01-2" class="clip bg" data-start="6.57" data-duration="6.57" src="assets/gen/vid-hook-2-app.mp4" muted playsinline></video>
+<video id="el-s01-3" class="clip bg" data-start="13.13" data-duration="6.57" src="assets/gen/vid-hook-3-dashboards.mp4" muted playsinline></video>
+<img class="clip bg" id="bgdesk" data-start="16.20" data-duration="3.5" src="assets/gen/img-s01-hook-desk.webp" style="opacity:0">
+<div id="el-s01-4" class="clip shade" data-start="0" data-duration="19.702"></div>
+<div id="el-s01-5" class="clip" data-start="0" data-duration="19.702"><div class="pill" id="pill-s01">HOOK</div></div>
+<div id="el-s01-6" class="clip" data-start="0" data-duration="19.702"><div class="namecard" id="nc-s01"><div class="title">THE 5-DAY ROADMAP<div class="ule" id="ule-s01"></div></div><div class="subtitle">Explained — every tool, every beat</div></div></div>
+<div id="el-s01-7" class="clip headline" data-start="0.4" data-duration="10.72"><span class="hl-in" id="h-s01-0">A production-ready app. Five days. Almost free.<span class="bar" id="h-s01-0-bar"></span></span></div>
+<div id="el-s01-8" class="clip headline" data-start="11.12" data-duration="0.88"><span class="hl-in" id="h-s01-1">What It Is<span class="bar" id="h-s01-1-bar"></span></span></div>
+<div id="el-s01-9" class="clip headline" data-start="12.0" data-duration="1.02"><span class="hl-in" id="h-s01-2">Why You Need It<span class="bar" id="h-s01-2-bar"></span></span></div>
+<div id="el-s01-10" class="clip headline" data-start="13.02" data-duration="1.68"><span class="hl-in" id="h-s01-3">If You Skip It<span class="bar" id="h-s01-3-bar"></span></span></div>
+<div id="el-s01-11" class="clip headline" data-start="14.7" data-duration="5.00"><span class="hl-in" id="h-s01-4">How<span class="bar" id="h-s01-4-bar"></span></span></div>
+<div class="rail"><div id="el-s01-12" class="clip" data-start="11.12" data-duration="8.58"><div class="chip what" id="chip-s01-0"><div class="k">WHAT IT IS</div></div></div><div id="el-s01-13" class="clip" data-start="12.0" data-duration="7.70"><div class="chip why" id="chip-s01-1"><div class="k">WHY YOU NEED IT</div></div></div><div id="el-s01-14" class="clip" data-start="13.02" data-duration="6.68"><div class="chip skip" id="chip-s01-2"><div class="k">IF YOU SKIP IT</div></div></div><div id="el-s01-15" class="clip" data-start="14.7" data-duration="5.00"><div class="chip how" id="chip-s01-3"><div class="k">HOW</div></div></div></div>
+<div id="el-s01-16" class="clip caps" data-start="0.0" data-duration="1.60"><div class="cap" id="cap-s01-0"><span id="w-s01-0-0">There&#x27;s</span> <span id="w-s01-0-1">a</span> <span id="w-s01-0-2">roadmap</span> <span id="w-s01-0-3">going</span> <span id="w-s01-0-4">around</span> <span id="w-s01-0-5">claiming</span> </div></div>
+<div id="el-s01-17" class="clip caps" data-start="1.6" data-duration="0.68"><div class="cap" id="cap-s01-1"><span id="w-s01-1-0">you</span> <span id="w-s01-1-1">can</span> <span id="w-s01-1-2">build</span> <span id="w-s01-1-3">a</span> <span id="w-s01-1-4">production-ready</span> <span id="w-s01-1-5">full-stack</span> </div></div>
+<div id="el-s01-18" class="clip caps" data-start="3.66" data-duration="1.88"><div class="cap" id="cap-s01-2"><span id="w-s01-2-0">web</span> <span id="w-s01-2-1">app</span> <span id="w-s01-2-2">in</span> <span id="w-s01-2-3">five</span> <span id="w-s01-2-4">days,</span> <span id="w-s01-2-5">almost</span> </div></div>
+<div id="el-s01-19" class="clip caps" data-start="5.54" data-duration="2.08"><div class="cap" id="cap-s01-3"><span id="w-s01-3-0">free.</span> <span id="w-s01-3-1">It&#x27;s</span> <span id="w-s01-3-2">real</span> <span id="w-s01-3-3">—</span> <span id="w-s01-3-4">and</span> <span id="w-s01-3-5">in</span> </div></div>
+<div id="el-s01-20" class="clip caps" data-start="7.62" data-duration="0.84"><div class="cap" id="cap-s01-4"><span id="w-s01-4-0">the</span> <span id="w-s01-4-1">next</span> <span id="w-s01-4-2">nine</span> <span id="w-s01-4-3">and</span> <span id="w-s01-4-4">a</span> <span id="w-s01-4-5">half</span> </div></div>
+<div id="el-s01-21" class="clip caps" data-start="8.46" data-duration="1.60"><div class="cap" id="cap-s01-5"><span id="w-s01-5-0">minutes</span> <span id="w-s01-5-1">I&#x27;m</span> <span id="w-s01-5-2">going</span> <span id="w-s01-5-3">to</span> <span id="w-s01-5-4">explain</span> <span id="w-s01-5-5">every</span> </div></div>
+<div id="el-s01-22" class="clip caps" data-start="10.06" data-duration="1.68"><div class="cap" id="cap-s01-6"><span id="w-s01-6-0">tool</span> <span id="w-s01-6-1">in</span> <span id="w-s01-6-2">it:</span> <span id="w-s01-6-3">what</span> <span id="w-s01-6-4">it</span> <span id="w-s01-6-5">is,</span> </div></div>
+<div id="el-s01-23" class="clip caps" data-start="12.0" data-duration="1.48"><div class="cap" id="cap-s01-7"><span id="w-s01-7-0">why</span> <span id="w-s01-7-1">you</span> <span id="w-s01-7-2">need</span> <span id="w-s01-7-3">it,</span> <span id="w-s01-7-4">what</span> <span id="w-s01-7-5">breaks</span> </div></div>
+<div id="el-s01-24" class="clip caps" data-start="13.48" data-duration="1.36"><div class="cap" id="cap-s01-8"><span id="w-s01-8-0">if</span> <span id="w-s01-8-1">you</span> <span id="w-s01-8-2">skip</span> <span id="w-s01-8-3">it,</span> <span id="w-s01-8-4">and</span> <span id="w-s01-8-5">how</span> </div></div>
+<div id="el-s01-25" class="clip caps" data-start="14.84" data-duration="1.68"><div class="cap" id="cap-s01-9"><span id="w-s01-9-0">to</span> <span id="w-s01-9-1">actually</span> <span id="w-s01-9-2">do</span> <span id="w-s01-9-3">it.</span> <span id="w-s01-9-4">If</span> <span id="w-s01-9-5">you</span> </div></div>
+<div id="el-s01-26" class="clip caps" data-start="16.52" data-duration="1.54"><div class="cap" id="cap-s01-10"><span id="w-s01-10-0">can</span> <span id="w-s01-10-1">follow</span> <span id="w-s01-10-2">a</span> <span id="w-s01-10-3">recipe,</span> <span id="w-s01-10-4">you</span> <span id="w-s01-10-5">can</span> </div></div>
+<div id="el-s01-27" class="clip caps" data-start="18.06" data-duration="0.50"><div class="cap" id="cap-s01-11"><span id="w-s01-11-0">follow</span> <span id="w-s01-11-1">this.</span> </div></div>
+</div>
+<script src="assets/js/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  var tl = gsap.timeline({ paused: true });
+tl.fromTo("#bgdesk",{opacity:0},{opacity:1,duration:.5}, 16.20);
+tl.fromTo("#pill-s01",{x:-60,opacity:0},{x:0,opacity:1,duration:.45,ease:"power3.out"},0.05);
+tl.fromTo("#nc-s01",{y:44,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.18);
+tl.to("#ule-s01",{width:"62%",duration:.6,ease:"power2.inOut"},0.55);
+tl.fromTo("#h-s01-0",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},0.4);
+tl.to("#h-s01-0-bar",{width:"100%",duration:.5,ease:"power2.out"},0.55);
+tl.fromTo("#h-s01-1",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},11.12);
+tl.to("#h-s01-1-bar",{width:"100%",duration:.5,ease:"power2.out"},11.27);
+tl.fromTo("#h-s01-2",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},12.0);
+tl.to("#h-s01-2-bar",{width:"100%",duration:.5,ease:"power2.out"},12.15);
+tl.fromTo("#h-s01-3",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},13.02);
+tl.to("#h-s01-3-bar",{width:"100%",duration:.5,ease:"power2.out"},13.17);
+tl.fromTo("#h-s01-4",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},14.7);
+tl.to("#h-s01-4-bar",{width:"100%",duration:.5,ease:"power2.out"},14.85);
+tl.fromTo("#chip-s01-0",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},11.12);
+tl.fromTo("#chip-s01-1",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},12.0);
+tl.fromTo("#chip-s01-2",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},13.02);
+tl.fromTo("#chip-s01-3",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},14.7);
+tl.fromTo("#cap-s01-0",{opacity:0},{opacity:1,duration:.07,ease:"none"},0.0);
+tl.to("#w-s01-0-0",{color:"#FFD166",duration:.05,ease:"none"},0.0);
+tl.to("#w-s01-0-1",{color:"#FFD166",duration:.05,ease:"none"},0.26);
+tl.to("#w-s01-0-2",{color:"#FFD166",duration:.05,ease:"none"},0.32);
+tl.to("#w-s01-0-3",{color:"#FFD166",duration:.05,ease:"none"},0.54);
+tl.to("#w-s01-0-4",{color:"#FFD166",duration:.05,ease:"none"},0.9);
+tl.to("#w-s01-0-5",{color:"#FFD166",duration:.05,ease:"none"},1.24);
+tl.fromTo("#cap-s01-1",{opacity:0},{opacity:1,duration:.07,ease:"none"},1.6);
+tl.to("#w-s01-1-0",{color:"#FFD166",duration:.05,ease:"none"},1.6);
+tl.to("#w-s01-1-1",{color:"#FFD166",duration:.05,ease:"none"},1.82);
+tl.to("#w-s01-1-2",{color:"#FFD166",duration:.05,ease:"none"},1.92);
+tl.to("#w-s01-1-3",{color:"#FFD166",duration:.05,ease:"none"},2.18);
+tl.to("#w-s01-1-4",{color:"#FFD166",duration:.05,ease:"none"},2.18);
+tl.to("#w-s01-1-5",{color:"#FFD166",duration:.05,ease:"none"},2.18);
+tl.fromTo("#cap-s01-2",{opacity:0},{opacity:1,duration:.07,ease:"none"},3.66);
+tl.to("#w-s01-2-0",{color:"#FFD166",duration:.05,ease:"none"},3.66);
+tl.to("#w-s01-2-1",{color:"#FFD166",duration:.05,ease:"none"},3.94);
+tl.to("#w-s01-2-2",{color:"#FFD166",duration:.05,ease:"none"},4.18);
+tl.to("#w-s01-2-3",{color:"#FFD166",duration:.05,ease:"none"},4.34);
+tl.to("#w-s01-2-4",{color:"#FFD166",duration:.05,ease:"none"},4.6);
+tl.to("#w-s01-2-5",{color:"#FFD166",duration:.05,ease:"none"},5.28);
+tl.fromTo("#cap-s01-3",{opacity:0},{opacity:1,duration:.07,ease:"none"},5.54);
+tl.to("#w-s01-3-0",{color:"#FFD166",duration:.05,ease:"none"},5.54);
+tl.to("#w-s01-3-1",{color:"#FFD166",duration:.05,ease:"none"},6.58);
+tl.to("#w-s01-3-2",{color:"#FFD166",duration:.05,ease:"none"},6.74);
+tl.to("#w-s01-3-3",{color:"#FFD166",duration:.05,ease:"none"},6.74);
+tl.to("#w-s01-3-4",{color:"#FFD166",duration:.05,ease:"none"},7.34);
+tl.to("#w-s01-3-5",{color:"#FFD166",duration:.05,ease:"none"},7.5);
+tl.fromTo("#cap-s01-4",{opacity:0},{opacity:1,duration:.07,ease:"none"},7.62);
+tl.to("#w-s01-4-0",{color:"#FFD166",duration:.05,ease:"none"},7.62);
+tl.to("#w-s01-4-1",{color:"#FFD166",duration:.05,ease:"none"},7.66);
+tl.to("#w-s01-4-2",{color:"#FFD166",duration:.05,ease:"none"},7.84);
+tl.to("#w-s01-4-3",{color:"#FFD166",duration:.05,ease:"none"},8.12);
+tl.to("#w-s01-4-4",{color:"#FFD166",duration:.05,ease:"none"},8.26);
+tl.to("#w-s01-4-5",{color:"#FFD166",duration:.05,ease:"none"},8.3);
+tl.fromTo("#cap-s01-5",{opacity:0},{opacity:1,duration:.07,ease:"none"},8.46);
+tl.to("#w-s01-5-0",{color:"#FFD166",duration:.05,ease:"none"},8.46);
+tl.to("#w-s01-5-1",{color:"#FFD166",duration:.05,ease:"none"},9.0);
+tl.to("#w-s01-5-2",{color:"#FFD166",duration:.05,ease:"none"},9.1);
+tl.to("#w-s01-5-3",{color:"#FFD166",duration:.05,ease:"none"},9.26);
+tl.to("#w-s01-5-4",{color:"#FFD166",duration:.05,ease:"none"},9.38);
+tl.to("#w-s01-5-5",{color:"#FFD166",duration:.05,ease:"none"},9.68);
+tl.fromTo("#cap-s01-6",{opacity:0},{opacity:1,duration:.07,ease:"none"},10.06);
+tl.to("#w-s01-6-0",{color:"#FFD166",duration:.05,ease:"none"},10.06);
+tl.to("#w-s01-6-1",{color:"#FFD166",duration:.05,ease:"none"},10.42);
+tl.to("#w-s01-6-2",{color:"#FFD166",duration:.05,ease:"none"},10.68);
+tl.to("#w-s01-6-3",{color:"#FFD166",duration:.05,ease:"none"},11.12);
+tl.to("#w-s01-6-4",{color:"#FFD166",duration:.05,ease:"none"},11.38);
+tl.to("#w-s01-6-5",{color:"#FFD166",duration:.05,ease:"none"},11.48);
+tl.fromTo("#cap-s01-7",{opacity:0},{opacity:1,duration:.07,ease:"none"},12.0);
+tl.to("#w-s01-7-0",{color:"#FFD166",duration:.05,ease:"none"},12.0);
+tl.to("#w-s01-7-1",{color:"#FFD166",duration:.05,ease:"none"},12.26);
+tl.to("#w-s01-7-2",{color:"#FFD166",duration:.05,ease:"none"},12.4);
+tl.to("#w-s01-7-3",{color:"#FFD166",duration:.05,ease:"none"},12.54);
+tl.to("#w-s01-7-4",{color:"#FFD166",duration:.05,ease:"none"},13.02);
+tl.to("#w-s01-7-5",{color:"#FFD166",duration:.05,ease:"none"},13.24);
+tl.fromTo("#cap-s01-8",{opacity:0},{opacity:1,duration:.07,ease:"none"},13.48);
+tl.to("#w-s01-8-0",{color:"#FFD166",duration:.05,ease:"none"},13.48);
+tl.to("#w-s01-8-1",{color:"#FFD166",duration:.05,ease:"none"},13.72);
+tl.to("#w-s01-8-2",{color:"#FFD166",duration:.05,ease:"none"},13.82);
+tl.to("#w-s01-8-3",{color:"#FFD166",duration:.05,ease:"none"},14.0);
+tl.to("#w-s01-8-4",{color:"#FFD166",duration:.05,ease:"none"},14.48);
+tl.to("#w-s01-8-5",{color:"#FFD166",duration:.05,ease:"none"},14.7);
+tl.fromTo("#cap-s01-9",{opacity:0},{opacity:1,duration:.07,ease:"none"},14.84);
+tl.to("#w-s01-9-0",{color:"#FFD166",duration:.05,ease:"none"},14.84);
+tl.to("#w-s01-9-1",{color:"#FFD166",duration:.05,ease:"none"},14.92);
+tl.to("#w-s01-9-2",{color:"#FFD166",duration:.05,ease:"none"},15.24);
+tl.to("#w-s01-9-3",{color:"#FFD166",duration:.05,ease:"none"},15.52);
+tl.to("#w-s01-9-4",{color:"#FFD166",duration:.05,ease:"none"},16.34);
+tl.to("#w-s01-9-5",{color:"#FFD166",duration:.05,ease:"none"},16.42);
+tl.fromTo("#cap-s01-10",{opacity:0},{opacity:1,duration:.07,ease:"none"},16.52);
+tl.to("#w-s01-10-0",{color:"#FFD166",duration:.05,ease:"none"},16.52);
+tl.to("#w-s01-10-1",{color:"#FFD166",duration:.05,ease:"none"},16.64);
+tl.to("#w-s01-10-2",{color:"#FFD166",duration:.05,ease:"none"},16.86);
+tl.to("#w-s01-10-3",{color:"#FFD166",duration:.05,ease:"none"},17.02);
+tl.to("#w-s01-10-4",{color:"#FFD166",duration:.05,ease:"none"},17.8);
+tl.to("#w-s01-10-5",{color:"#FFD166",duration:.05,ease:"none"},17.96);
+tl.fromTo("#cap-s01-11",{opacity:0},{opacity:1,duration:.07,ease:"none"},18.06);
+tl.to("#w-s01-11-0",{color:"#FFD166",duration:.05,ease:"none"},18.06);
+tl.to("#w-s01-11-1",{color:"#FFD166",duration:.05,ease:"none"},18.26);
+  window.__timelines["s01"] = tl;
+})();
+</script>
+</template>

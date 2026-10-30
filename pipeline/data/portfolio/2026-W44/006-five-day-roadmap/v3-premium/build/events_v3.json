@@ -1,0 +1,1274 @@
+{
+ "s01": {
+  "id": "s01",
+  "dur": 19.702,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "every tool in the roadmap, explained",
+    "t": 11.24,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "why you need it",
+    "t": 12.02,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "what breaks if you skip it",
+    "t": 13.08,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "how to actually do it",
+    "t": 14.72,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Explained \u2014 every tool, every beat",
+    "t": 0.45
+   },
+   {
+    "text": "every tool in the roadmap, explained",
+    "t": 11.24
+   },
+   {
+    "text": "why you need it",
+    "t": 12.02
+   },
+   {
+    "text": "what breaks if you skip it",
+    "t": 13.08
+   },
+   {
+    "text": "how to actually do it",
+    "t": 14.72
+   }
+  ],
+  "caption_lines": 12,
+  "sweeps": [
+   4.85,
+   9.25,
+   19.12
+  ],
+  "max_gap_major": 10.79,
+  "max_gap_all": 2.06
+ },
+ "s02": {
+  "id": "s02",
+  "dur": 16.798,
+  "chips": [
+   {
+    "label": "DAY 1 \u00b7 SETUP",
+    "text": "sets up your tools",
+    "t": 6.9,
+    "kind": "gold"
+   },
+   {
+    "label": "DAY 2 \u00b7 UI",
+    "text": "builds what users see",
+    "t": 8.64,
+    "kind": "gold"
+   },
+   {
+    "label": "DAY 3 \u00b7 BACKEND",
+    "text": "the logic",
+    "t": 10.66,
+    "kind": "gold"
+   },
+   {
+    "label": "DAY 4 \u00b7 DATA",
+    "text": "the memory",
+    "t": 12.3,
+    "kind": "gold"
+   },
+   {
+    "label": "DAY 5 \u00b7 LAUNCH",
+    "text": "you go live",
+    "t": 13.66,
+    "kind": "gold"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "React frontend \u00b7 Python backend \u00b7 Pay-per-request",
+    "t": 0.45
+   },
+   {
+    "text": "sets up your tools",
+    "t": 6.9
+   },
+   {
+    "text": "builds what users see",
+    "t": 8.64
+   },
+   {
+    "text": "the logic",
+    "t": 10.66
+   },
+   {
+    "text": "the memory",
+    "t": 12.3
+   },
+   {
+    "text": "you go live",
+    "t": 13.66
+   }
+  ],
+  "caption_lines": 7,
+  "sweeps": [
+   4.85
+  ],
+  "max_gap_major": 6.45,
+  "max_gap_all": 2.61
+ },
+ "s03_1": {
+  "id": "s03_1",
+  "dur": 26.062,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "a time machine for your code \u2014 every working version saved as a checkpoint",
+    "t": 7.5,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "production code changes daily, and you need undo",
+    "t": 13.22,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "one bad edit costs you a day of guessing what changed",
+    "t": 17.28,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "git init \u00b7 commit every time something works \u00b7 push to GitHub",
+    "t": 21.72,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "A time machine for your code",
+    "t": 0.45
+   },
+   {
+    "text": "a time machine for your code \u2014 every working version saved as a checkpoint",
+    "t": 7.5
+   },
+   {
+    "text": "production code changes daily, and you need undo",
+    "t": 13.22
+   },
+   {
+    "text": "one bad edit costs you a day of guessing what changed",
+    "t": 17.28
+   },
+   {
+    "text": "git init \u00b7 commit every time something works \u00b7 push to GitHub",
+    "t": 21.72
+   }
+  ],
+  "caption_lines": 13,
+  "sweeps": [
+   4.85,
+   11.9
+  ],
+  "max_gap_major": 7.05,
+  "max_gap_all": 2.84
+ },
+ "s03_2": {
+  "id": "s03_2",
+  "dur": 21.838,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "where everything else in this video lives, metered like a utility",
+    "t": 6.8,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "an app with no traffic costs almost nothing",
+    "t": 11.18,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "you're building a website that only you can see",
+    "t": 14.56,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "sign up \u00b7 stay in the free tier \u00b7 done in 15 minutes",
+    "t": 18.08,
+    "kind": "how"
+   },
+   {
+    "label": "FREE TIER",
+    "text": "free tier",
+    "t": 19.0,
+    "kind": "gold"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Metered like a utility",
+    "t": 0.45
+   },
+   {
+    "text": "where everything else in this video lives, metered like a utility",
+    "t": 6.8
+   },
+   {
+    "text": "an app with no traffic costs almost nothing",
+    "t": 11.18
+   },
+   {
+    "text": "you're building a website that only you can see",
+    "t": 14.56
+   },
+   {
+    "text": "sign up \u00b7 stay in the free tier \u00b7 done in 15 minutes",
+    "t": 18.08
+   },
+   {
+    "text": "free tier",
+    "t": 19.0
+   }
+  ],
+  "caption_lines": 11,
+  "sweeps": [
+   4.85
+  ],
+  "max_gap_major": 6.35,
+  "max_gap_all": 2.84
+ },
+ "s03_3": {
+  "id": "s03_3",
+  "dur": 24.19,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "a box that packs your app plus everything it needs to run",
+    "t": 6.32,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "the box behaves identically on your laptop and on the live site",
+    "t": 10.8,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "the 'works on my machine' bug on launch day",
+    "t": 15.7,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "one Dockerfile \u00b7 docker build \u2014 the 30-minute version",
+    "t": 19.84,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Your app, packed in a box",
+    "t": 0.45
+   },
+   {
+    "text": "a box that packs your app plus everything it needs to run",
+    "t": 6.32
+   },
+   {
+    "text": "the box behaves identically on your laptop and on the live site",
+    "t": 10.8
+   },
+   {
+    "text": "the 'works on my machine' bug on launch day",
+    "t": 15.7
+   },
+   {
+    "text": "one Dockerfile \u00b7 docker build \u2014 the 30-minute version",
+    "t": 19.84
+   }
+  ],
+  "caption_lines": 12,
+  "sweeps": [
+   4.85,
+   15.2
+  ],
+  "max_gap_major": 5.87,
+  "max_gap_all": 2.33
+ },
+ "s03_4": {
+  "id": "s03_4",
+  "dur": 24.142,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "an editor with AI built in \u2014 a junior developer who types instantly",
+    "t": 3.74,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "the AI writes the boilerplate while you review",
+    "t": 12.94,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "this is a five-week project \u2014 5 DAYS \u2192 5 WEEKS",
+    "t": 16.6,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "install it \u00b7 open your project \u00b7 describe what you want in plain English",
+    "t": 19.58,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "A junior developer who types instantly",
+    "t": 0.45
+   },
+   {
+    "text": "an editor with AI built in \u2014 a junior developer who types instantly",
+    "t": 3.74
+   },
+   {
+    "text": "the AI writes the boilerplate while you review",
+    "t": 12.94
+   },
+   {
+    "text": "this is a five-week project \u2014 5 DAYS \u2192 5 WEEKS",
+    "t": 16.6
+   },
+   {
+    "text": "install it \u00b7 open your project \u00b7 describe what you want in plain English",
+    "t": 19.58
+   }
+  ],
+  "caption_lines": 12,
+  "sweeps": [
+   8.14,
+   12.54
+  ],
+  "max_gap_major": 9.2,
+  "max_gap_all": 2.48
+ },
+ "s03_5": {
+  "id": "s03_5",
+  "dur": 23.062,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "a publisher \u2014 every push republishes your live site, certificates included",
+    "t": 0.45,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "launch-day plumbing handled for free",
+    "t": 11.41,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "manually uploading files and babysitting expired certificates",
+    "t": 14.5,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "connect your GitHub repo once \u2014 never think about it again",
+    "t": 19.3,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "A publisher for your site",
+    "t": 0.45
+   },
+   {
+    "text": "a publisher \u2014 every push republishes your live site, certificates included",
+    "t": 0.45
+   },
+   {
+    "text": "launch-day plumbing handled for free",
+    "t": 11.41
+   },
+   {
+    "text": "manually uploading files and babysitting expired certificates",
+    "t": 14.5
+   },
+   {
+    "text": "connect your GitHub repo once \u2014 never think about it again",
+    "t": 19.3
+   }
+  ],
+  "caption_lines": 10,
+  "sweeps": [
+   4.85,
+   9.25,
+   18.9
+  ],
+  "max_gap_major": 10.96,
+  "max_gap_all": 3.14
+ },
+ "s03_6": {
+  "id": "s03_6",
+  "dur": 26.71,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "a blueprint \u2014 your entire backend in one text file, built by a single command",
+    "t": 0.45,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "reproducible, undoable infrastructure instead of twenty consoles",
+    "t": 9.94,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "your setup exists in no one's head, exactly once",
+    "t": 15.18,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "write a template.yaml \u00b7 deploy with the SAM CLI",
+    "t": 19.68,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "A blueprint for your backend",
+    "t": 0.45
+   },
+   {
+    "text": "a blueprint \u2014 your entire backend in one text file, built by a single command",
+    "t": 0.45
+   },
+   {
+    "text": "reproducible, undoable infrastructure instead of twenty consoles",
+    "t": 9.94
+   },
+   {
+    "text": "your setup exists in no one's head, exactly once",
+    "t": 15.18
+   },
+   {
+    "text": "write a template.yaml \u00b7 deploy with the SAM CLI",
+    "t": 19.68
+   }
+  ],
+  "caption_lines": 12,
+  "sweeps": [
+   4.85,
+   9.25,
+   14.34,
+   24.08
+  ],
+  "max_gap_major": 9.49,
+  "max_gap_all": 3.08
+ },
+ "s04_1": {
+  "id": "s04_1",
+  "dur": 26.518,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "Lego for interfaces \u2014 build once, snap it in anywhere",
+    "t": 0.45,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "it's the industry standard \u2014 tutorials and help are everywhere",
+    "t": 12.86,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "you're hand-crafting every page from scratch",
+    "t": 17.44,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "scaffold the project \u00b7 build each page as bricks",
+    "t": 20.84,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Lego for interfaces",
+    "t": 0.45
+   },
+   {
+    "text": "Lego for interfaces \u2014 build once, snap it in anywhere",
+    "t": 0.45
+   },
+   {
+    "text": "it's the industry standard \u2014 tutorials and help are everywhere",
+    "t": 12.86
+   },
+   {
+    "text": "you're hand-crafting every page from scratch",
+    "t": 17.44
+   },
+   {
+    "text": "scaffold the project \u00b7 build each page as bricks",
+    "t": 20.84
+   }
+  ],
+  "caption_lines": 12,
+  "sweeps": [
+   4.85,
+   9.25,
+   25.24
+  ],
+  "max_gap_major": 12.41,
+  "max_gap_all": 2.78
+ },
+ "s04_2": {
+  "id": "s04_2",
+  "dur": 20.23,
+  "chips": [
+   {
+    "label": "7 HOURS",
+    "text": "building the whole interface by prompting the AI",
+    "t": 0.86,
+    "kind": "gold"
+   },
+   {
+    "label": "RULE",
+    "text": "FAKE DATA \u00b7 NO BACKEND",
+    "t": 4.46,
+    "kind": "gold"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "look and feel finished before the plumbing exists",
+    "t": 7.9,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "debugging connections instead of building",
+    "t": 12.54,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "prompt one component at a time \u00b7 click through it \u00b7 refine",
+    "t": 16.1,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Fake data \u00b7 No backend",
+    "t": 0.45
+   },
+   {
+    "text": "building the whole interface by prompting the AI",
+    "t": 0.86
+   },
+   {
+    "text": "FAKE DATA \u00b7 NO BACKEND",
+    "t": 4.46
+   },
+   {
+    "text": "look and feel finished before the plumbing exists",
+    "t": 7.9
+   },
+   {
+    "text": "debugging connections instead of building",
+    "t": 12.54
+   },
+   {
+    "text": "prompt one component at a time \u00b7 click through it \u00b7 refine",
+    "t": 16.1
+   }
+  ],
+  "caption_lines": 10,
+  "sweeps": [],
+  "max_gap_major": 4.64,
+  "max_gap_all": 3.13
+ },
+ "s04_3": {
+  "id": "s04_3",
+  "dur": 24.718,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "the front door \u2014 checks every request before anything touches your code",
+    "t": 0.45,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "security \u00b7 throttling \u00b7 routing \u2014 in one place",
+    "t": 3.45,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "browsers poking your backend directly, unlocked",
+    "t": 6.45,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "create a REST API \u00b7 one route per action",
+    "t": 24.14,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "The front door",
+    "t": 0.45
+   },
+   {
+    "text": "the front door \u2014 checks every request before anything touches your code",
+    "t": 0.45
+   },
+   {
+    "text": "security \u00b7 throttling \u00b7 routing \u2014 in one place",
+    "t": 3.45
+   },
+   {
+    "text": "browsers poking your backend directly, unlocked",
+    "t": 6.45
+   },
+   {
+    "text": "create a REST API \u00b7 one route per action",
+    "t": 24.14
+   }
+  ],
+  "caption_lines": 11,
+  "sweeps": [
+   10.85,
+   15.25,
+   19.65
+  ],
+  "max_gap_major": 17.69,
+  "max_gap_all": 4.49
+ },
+ "s05_1": {
+  "id": "s05_1",
+  "dur": 32.398,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "a motion-sensor light \u2014 on when a request arrives, off when it's done",
+    "t": 0.45,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "no traffic means near-zero cost \u00b7 5,000 users scale automatically",
+    "t": 17.46,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "renting a server that runs 24/7 for a site nobody's found yet",
+    "t": 23.56,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "write a Python handler \u00b7 connect it to the Gateway route",
+    "t": 28.66,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "A motion-sensor light",
+    "t": 0.45
+   },
+   {
+    "text": "a motion-sensor light \u2014 on when a request arrives, off when it's done",
+    "t": 0.45
+   },
+   {
+    "text": "no traffic means near-zero cost \u00b7 5,000 users scale automatically",
+    "t": 17.46
+   },
+   {
+    "text": "renting a server that runs 24/7 for a site nobody's found yet",
+    "t": 23.56
+   },
+   {
+    "text": "write a Python handler \u00b7 connect it to the Gateway route",
+    "t": 28.66
+   }
+  ],
+  "caption_lines": 15,
+  "sweeps": [
+   4.85,
+   9.25,
+   13.65,
+   21.86,
+   27.96
+  ],
+  "max_gap_major": 17.01,
+  "max_gap_all": 2.75
+ },
+ "s05_2": {
+  "id": "s05_2",
+  "dur": 16.702,
+  "chips": [
+   {
+    "label": "VALIDATION",
+    "text": "validation",
+    "t": 2.48,
+    "kind": "gold"
+   },
+   {
+    "label": "PRICING RULES",
+    "text": "pricing rules",
+    "t": 3.42,
+    "kind": "gold"
+   },
+   {
+    "label": "EMAILS",
+    "text": "emails",
+    "t": 4.36,
+    "kind": "gold"
+   },
+   {
+    "label": "CREATE \u2713",
+    "text": "creating",
+    "t": 13.32,
+    "kind": "gold"
+   },
+   {
+    "label": "READ \u2713",
+    "text": "reading",
+    "t": 14.2,
+    "kind": "gold"
+   },
+   {
+    "label": "CANCEL \u2713",
+    "text": "canceling",
+    "t": 14.8,
+    "kind": "gold"
+   },
+   {
+    "label": "HOW",
+    "text": "small scope",
+    "t": 11.92,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "One endpoint at a time",
+    "t": 0.45
+   },
+   {
+    "text": "validation",
+    "t": 2.48
+   },
+   {
+    "text": "pricing rules",
+    "t": 3.42
+   },
+   {
+    "text": "emails",
+    "t": 4.36
+   },
+   {
+    "text": "creating",
+    "t": 13.32
+   },
+   {
+    "text": "reading",
+    "t": 14.2
+   },
+   {
+    "text": "canceling",
+    "t": 14.8
+   },
+   {
+    "text": "small scope",
+    "t": 11.92
+   }
+  ],
+  "caption_lines": 7,
+  "sweeps": [
+   8.76
+  ],
+  "max_gap_major": 7.56,
+  "max_gap_all": 2.4
+ },
+ "s05_3": {
+  "id": "s05_3",
+  "dur": 18.958,
+  "chips": [
+   {
+    "label": "FASTAPI \u00b7 2019",
+    "text": "when one request involves many slow steps at once",
+    "t": 3.98,
+    "kind": "gold"
+   },
+   {
+    "label": "SQS",
+    "text": "the ticket dispenser \u2014 queues a flood of requests so none bounce",
+    "t": 3.45,
+    "kind": "gold"
+   },
+   {
+    "label": "LATER",
+    "text": "skip both for now \u00b7 add them when traffic demands it",
+    "t": 15.26,
+    "kind": "gold"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Upgrades for later",
+    "t": 0.45
+   },
+   {
+    "text": "when one request involves many slow steps at once",
+    "t": 3.98
+   },
+   {
+    "text": "the ticket dispenser \u2014 queues a flood of requests so none bounce",
+    "t": 3.45
+   },
+   {
+    "text": "skip both for now \u00b7 add them when traffic demands it",
+    "t": 15.26
+   }
+  ],
+  "caption_lines": 9,
+  "sweeps": [
+   8.38,
+   12.78
+  ],
+  "max_gap_major": 11.28,
+  "max_gap_all": 2.62
+ },
+ "s06_1": {
+  "id": "s06_1",
+  "dur": 33.022,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "a filing cabinet with lookup codes \u2014 instant answers, no rigid schema",
+    "t": 9.46,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "pay per request \u00b7 millisecond speed \u00b7 change your data shape weekly",
+    "t": 15.42,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "paying for an idle database server, or freezing your structure early",
+    "t": 20.78,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "partition by what you'll ask for \u00b7 design the lookups first, always",
+    "t": 26.02,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "A filing cabinet with lookup codes",
+    "t": 0.45
+   },
+   {
+    "text": "a filing cabinet with lookup codes \u2014 instant answers, no rigid schema",
+    "t": 9.46
+   },
+   {
+    "text": "pay per request \u00b7 millisecond speed \u00b7 change your data shape weekly",
+    "t": 15.42
+   },
+   {
+    "text": "paying for an idle database server, or freezing your structure early",
+    "t": 20.78
+   },
+   {
+    "text": "partition by what you'll ask for \u00b7 design the lookups first, always",
+    "t": 26.02
+   }
+  ],
+  "caption_lines": 15,
+  "sweeps": [
+   4.85,
+   13.86,
+   19.82,
+   25.18,
+   30.42
+  ],
+  "max_gap_major": 9.01,
+  "max_gap_all": 3.39
+ },
+ "s06_2": {
+  "id": "s06_2",
+  "dur": 17.062,
+  "chips": [
+   {
+    "label": "5 HRS WIRING \u00b7 2 HRS TESTING",
+    "text": "wiring real reads and writes end to end",
+    "t": 0.56,
+    "kind": "gold"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "bugs on day four cost minutes \u00b7 on day five, they cost your launch",
+    "t": 3.45,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "your users are your QA team",
+    "t": 14.5,
+    "kind": "skip"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "5 hrs wiring \u00b7 2 hrs testing",
+    "t": 0.45
+   },
+   {
+    "text": "wiring real reads and writes end to end",
+    "t": 0.56
+   },
+   {
+    "text": "bugs on day four cost minutes \u00b7 on day five, they cost your launch",
+    "t": 3.45
+   },
+   {
+    "text": "your users are your QA team",
+    "t": 14.5
+   }
+  ],
+  "caption_lines": 8,
+  "sweeps": [
+   7.85,
+   12.25
+  ],
+  "max_gap_major": 11.05,
+  "max_gap_all": 2.44
+ },
+ "s06_3": {
+  "id": "s06_3",
+  "dur": 19.462,
+  "chips": [
+   {
+    "label": "RDS \u00b7 2009",
+    "text": "the strict spreadsheet database \u2014 for when payments get serious",
+    "t": 3.98,
+    "kind": "gold"
+   },
+   {
+    "label": "S3",
+    "text": "Amazon's very first service \u2014 an infinite garage for files and video",
+    "t": 8.5,
+    "kind": "gold"
+   },
+   {
+    "label": "HOW YOU'LL KNOW",
+    "text": "you'll need reports, or you'll need file storage",
+    "t": 14.46,
+    "kind": "gold"
+   },
+   {
+    "label": "LATER",
+    "text": "until then, skip",
+    "t": 17.32,
+    "kind": "gold"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Later, not now",
+    "t": 0.45
+   },
+   {
+    "text": "the strict spreadsheet database \u2014 for when payments get serious",
+    "t": 3.98
+   },
+   {
+    "text": "Amazon's very first service \u2014 an infinite garage for files and video",
+    "t": 8.5
+   },
+   {
+    "text": "you'll need reports, or you'll need file storage",
+    "t": 14.46
+   },
+   {
+    "text": "until then, skip",
+    "t": 17.32
+   }
+  ],
+  "caption_lines": 8,
+  "sweeps": [
+   12.9
+  ],
+  "max_gap_major": 5.96,
+  "max_gap_all": 2.89
+ },
+ "s07_1": {
+  "id": "s07_1",
+  "dur": 22.87,
+  "chips": [
+   {
+    "label": "PUSH \u2014 FRONTEND",
+    "text": "git push \u2014 Amplify republishes automatically, live HTTPS site",
+    "t": 0.45,
+    "kind": "gold"
+   },
+   {
+    "label": "DEPLOY \u2014 BACKEND",
+    "text": "one SAM command ships every function, route, and permission together",
+    "t": 8.74,
+    "kind": "gold"
+   },
+   {
+    "label": "PAYOFF",
+    "text": "the payoff of Days 1 and 4",
+    "t": 15.04,
+    "kind": "gold"
+   },
+   {
+    "label": "HOW",
+    "text": "connect GitHub to Amplify \u00b7 run the deploy \u00b7 watch it all go green",
+    "t": 18.26,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Watch it all go green",
+    "t": 0.45
+   },
+   {
+    "text": "git push \u2014 Amplify republishes automatically, live HTTPS site",
+    "t": 0.45
+   },
+   {
+    "text": "one SAM command ships every function, route, and permission together",
+    "t": 8.74
+   },
+   {
+    "text": "the payoff of Days 1 and 4",
+    "t": 15.04
+   },
+   {
+    "text": "connect GitHub to Amplify \u00b7 run the deploy \u00b7 watch it all go green",
+    "t": 18.26
+   }
+  ],
+  "caption_lines": 10,
+  "sweeps": [
+   4.85,
+   13.14
+  ],
+  "max_gap_major": 8.29,
+  "max_gap_all": 3.06
+ },
+ "s07_2": {
+  "id": "s07_2",
+  "dur": 27.118,
+  "chips": [
+   {
+    "label": "WHAT IT IS",
+    "text": "a heart monitor plus security cameras for your app",
+    "t": 3.78,
+    "kind": "what"
+   },
+   {
+    "label": "WHY YOU NEED IT",
+    "text": "when it breaks at 2 AM, you know before your users tell you",
+    "t": 12.1,
+    "kind": "why"
+   },
+   {
+    "label": "IF YOU SKIP IT",
+    "text": "failures happen silently while angry customers wait",
+    "t": 17.24,
+    "kind": "skip"
+   },
+   {
+    "label": "HOW",
+    "text": "turn on logging \u00b7 set one alarm on errors \u2014 90% of the value",
+    "t": 21.76,
+    "kind": "how"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "A heart monitor for your app",
+    "t": 0.45
+   },
+   {
+    "text": "a heart monitor plus security cameras for your app",
+    "t": 3.78
+   },
+   {
+    "text": "when it breaks at 2 AM, you know before your users tell you",
+    "t": 12.1
+   },
+   {
+    "text": "failures happen silently while angry customers wait",
+    "t": 17.24
+   },
+   {
+    "text": "turn on logging \u00b7 set one alarm on errors \u2014 90% of the value",
+    "t": 21.76
+   }
+  ],
+  "caption_lines": 13,
+  "sweeps": [
+   8.18,
+   16.5,
+   26.16
+  ],
+  "max_gap_major": 8.32,
+  "max_gap_all": 2.72
+ },
+ "s07_3": {
+  "id": "s07_3",
+  "dur": 16.51,
+  "chips": [
+   {
+    "label": "GRAFANA \u00b7 2014",
+    "text": "the standard dashboard for gauges and graphs",
+    "t": 4.78,
+    "kind": "gold"
+   },
+   {
+    "label": "X-RAY",
+    "text": "package-tracking for every request \u2014 shows which step is slow",
+    "t": 8.6,
+    "kind": "gold"
+   },
+   {
+    "label": "DAY 1 \u2192 DAY 1000",
+    "text": "nice on day one, essential by day one thousand",
+    "t": 12.68,
+    "kind": "gold"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "The polish, when you're ready",
+    "t": 0.45
+   },
+   {
+    "text": "the standard dashboard for gauges and graphs",
+    "t": 4.78
+   },
+   {
+    "text": "package-tracking for every request \u2014 shows which step is slow",
+    "t": 8.6
+   },
+   {
+    "text": "nice on day one, essential by day one thousand",
+    "t": 12.68
+   }
+  ],
+  "caption_lines": 8,
+  "sweeps": [],
+  "max_gap_major": 4.33,
+  "max_gap_all": 2.52
+ },
+ "s08": {
+  "id": "s08",
+  "dur": 22.462,
+  "chips": [
+   {
+    "label": "SHIPPED \u2713",
+    "text": "setup \u00b7 frontend \u00b7 backend \u00b7 memory \u00b7 launch",
+    "t": 1.76,
+    "kind": "gold"
+   },
+   {
+    "label": "38 HOURS",
+    "text": "Thirty-eight hours, near-zero cost until you have users",
+    "t": 5.31,
+    "kind": "gold"
+   },
+   {
+    "label": "FOLLOW THE FIVE DAYS IN ORDER",
+    "text": "Follow the five days in order",
+    "t": 12.12,
+    "kind": "gold"
+   },
+   {
+    "label": "SKIP NOTHING ON DAY 1",
+    "text": "skip nothing on Day 1",
+    "t": 13.96,
+    "kind": "gold"
+   }
+  ],
+  "headlines": [
+   {
+    "text": "Setup \u00b7 Frontend \u00b7 Backend \u00b7 Memory \u00b7 Launch",
+    "t": 0.45
+   },
+   {
+    "text": "setup \u00b7 frontend \u00b7 backend \u00b7 memory \u00b7 launch",
+    "t": 1.76
+   },
+   {
+    "text": "Thirty-eight hours, near-zero cost until you have users",
+    "t": 5.31
+   },
+   {
+    "text": "Follow the five days in order",
+    "t": 12.12
+   },
+   {
+    "text": "skip nothing on Day 1",
+    "t": 13.96
+   }
+  ],
+  "caption_lines": 11,
+  "sweeps": [
+   9.71,
+   18.36
+  ],
+  "max_gap_major": 8.5,
+  "max_gap_all": 3.55
+ }
+}

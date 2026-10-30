@@ -1,0 +1,2226 @@
+{
+ "snapshot_utc": "2026-10-26T15:00:24.706260+00:00",
+ "window": "7d",
+ "searches_used_stage1": 35,
+ "lanes": [
+  {
+   "lane": "AI tool reviews",
+   "cluster": "tools",
+   "seed_query": "AI tool review",
+   "count": 25,
+   "top": [
+    {
+     "id": "u_G9_w7EAHY",
+     "title": "Complete AI Masterclass for Students\ud83d\udd25  | Earn Money Using AI | Prashant Kirad",
+     "channel": "ExpHub - Prashant Kirad",
+     "channelId": "UCgoyBmLOMNWmsiVkj-MezyQ",
+     "publishedAt": "2026-10-24T14:50:38Z",
+     "views": 509392,
+     "velocity": 10576.42,
+     "duration": "PT15M38S",
+     "is_short": false
+    },
+    {
+     "id": "eEfYIgaud8Q",
+     "title": "Convert PDF & EPUB to Audio with AI | TTSFree AI Review & Tutorial",
+     "channel": "Shahzad AI",
+     "channelId": "UCgxj31L32Z0LBybG0XbEeaw",
+     "publishedAt": "2026-10-26T11:28:34Z",
+     "views": 9392,
+     "velocity": 2660.06,
+     "duration": "PT5M33S",
+     "is_short": false
+    },
+    {
+     "id": "X9RD7EU3bLU",
+     "title": "Strawberry Browser: The AI Browser That Automates Tasks for You (Full Demo & Review)",
+     "channel": "Eren AI",
+     "channelId": "UCzRaJMpezQcOdxoVKr7PUAA",
+     "publishedAt": "2026-10-24T23:23:50Z",
+     "views": 48763,
+     "velocity": 1231.09,
+     "duration": "PT2M31S",
+     "is_short": false
+    },
+    {
+     "id": "Um9iwHCxbR0",
+     "title": "New 3D CAD Software That Will change Everything",
+     "channel": "InspirationTuts",
+     "channelId": "UCDdv3C21EFv7MxBMu70OExw",
+     "publishedAt": "2026-10-20T16:59:29Z",
+     "views": 172412,
+     "velocity": 1214.04,
+     "duration": "PT10M57S",
+     "is_short": false
+    },
+    {
+     "id": "s6jdV4o4bdw",
+     "title": "PdfCraft Says Your PDFs Never Leave Your Mac. I Tried to Catch It.",
+     "channel": "Overprivileged",
+     "channelId": "UC1p6E2faxzkm7IEtTKlGx4g",
+     "publishedAt": "2026-10-20T00:01:19Z",
+     "views": 61147,
+     "velocity": 384.61,
+     "duration": "PT3M58S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 187.12,
+   "top_velocity": 10576.42
+  },
+  {
+   "lane": "Top-10 AI roundups",
+   "cluster": "tools",
+   "seed_query": "top 10 AI tools",
+   "count": 25,
+   "top": [
+    {
+     "id": "u_G9_w7EAHY",
+     "title": "Complete AI Masterclass for Students\ud83d\udd25  | Earn Money Using AI | Prashant Kirad",
+     "channel": "ExpHub - Prashant Kirad",
+     "channelId": "UCgoyBmLOMNWmsiVkj-MezyQ",
+     "publishedAt": "2026-10-24T14:50:38Z",
+     "views": 509392,
+     "velocity": 10576.42,
+     "duration": "PT15M38S",
+     "is_short": false
+    },
+    {
+     "id": "Jdr9sKlyTfk",
+     "title": "Long AI Video Kaise Banaye (10 Min) Using Just 1 Prompt\ud83d\udd25| ai video kaise banaye | Ai Automation 2026",
+     "channel": "Editing with piyush",
+     "channelId": "UCJ-bQ6CW4CtLWix1-k1IPtw",
+     "publishedAt": "2026-10-21T12:30:21Z",
+     "views": 75846,
+     "velocity": 619.15,
+     "duration": "PT10M8S",
+     "is_short": false
+    },
+    {
+     "id": "GALt8TqTlZw",
+     "title": "Google\u00a0Flow\u00a0\u091b\u094b\u0921\u093c\u094b!\u00a0\ud83d\udd25\u00a0\u0905\u092c\u00a0\u0907\u0928\u00a05\u00a0FREE\u00a0Tools\u00a0\u0938\u0947\u00a0\u092c\u0928\u093e\u0913\u00a0LONG\u00a0AI Videos!",
+     "channel": "Nitesh Nayak",
+     "channelId": "UCIk__r_5wBabO0LymbA88-Q",
+     "publishedAt": "2026-10-25T03:35:05Z",
+     "views": 21566,
+     "velocity": 608.83,
+     "duration": "PT8M6S",
+     "is_short": false
+    },
+    {
+     "id": "WyDPLp9dm0U",
+     "title": "Top 3 best Faceless channel ideas \ud83d\udca1",
+     "channel": "Talkomek",
+     "channelId": "UC5HTtvm7h-Wsh-bk2XduSUA",
+     "publishedAt": "2026-10-21T10:34:08Z",
+     "views": 42795,
+     "velocity": 343.91,
+     "duration": "PT40S",
+     "is_short": false
+    },
+    {
+     "id": "mXdynXQl3K0",
+     "title": "How to Create Long Ai Videos Free in 2026 \u2705 | Free Text to Video Generator | ai video kaise banaye ",
+     "channel": "Editing with piyush",
+     "channelId": "UCJ-bQ6CW4CtLWix1-k1IPtw",
+     "publishedAt": "2026-10-20T12:30:19Z",
+     "views": 48796,
+     "velocity": 333.07,
+     "duration": "PT5M49S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 21.32,
+   "top_velocity": 10576.42
+  },
+  {
+   "lane": "Local LLM setups",
+   "cluster": "tools",
+   "seed_query": "local LLM setup",
+   "count": 25,
+   "top": [
+    {
+     "id": "3mx84MRj8lY",
+     "title": "Your Local AI Is Not as Private as You Think",
+     "channel": "Kai",
+     "channelId": "UCgUfJoPtkt7-RiiuYh4vmGA",
+     "publishedAt": "2026-10-21T15:30:22Z",
+     "views": 437073,
+     "velocity": 3657.49,
+     "duration": "PT26M1S",
+     "is_short": false
+    },
+    {
+     "id": "xtSmX12HaR8",
+     "title": "Flint 40B A2.5B tested - 16GB Local LLM setup",
+     "channel": "Luke's Dev Lab",
+     "channelId": "UC6YL31AicZzw1-gap7zBm9A",
+     "publishedAt": "2026-10-26T11:47:23Z",
+     "views": 7253,
+     "velocity": 2254.49,
+     "duration": "PT18M35S",
+     "is_short": false
+    },
+    {
+     "id": "IXx-mVG53Jc",
+     "title": "AI in Home Assistant: Genius or Dangerous?",
+     "channel": "Smart Home Solver",
+     "channelId": "UCwOBG77Tm8cE24FPxHb_abw",
+     "publishedAt": "2026-10-24T17:47:10Z",
+     "views": 91900,
+     "velocity": 2032.25,
+     "duration": "PT14M43S",
+     "is_short": false
+    },
+    {
+     "id": "8FEm8mMzeLE",
+     "title": "It Begins... Local AI and the Cloud Start Sharing",
+     "channel": "Alex Ziskind",
+     "channelId": "UCajiMK_CY9icRhLepS8_3ug",
+     "publishedAt": "2026-10-20T17:30:03Z",
+     "views": 151624,
+     "velocity": 1071.5,
+     "duration": "PT12M29S",
+     "is_short": false
+    },
+    {
+     "id": "fDIYpjRpLTo",
+     "title": "DavidAU Qwen3.8 27B Turbo Brilliance 50X-Reasoning... tested - Local LLM setup",
+     "channel": "Luke's Dev Lab",
+     "channelId": "UC6YL31AicZzw1-gap7zBm9A",
+     "publishedAt": "2026-10-21T11:34:44Z",
+     "views": 85664,
+     "velocity": 694.04,
+     "duration": "PT15M15S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 111.95,
+   "top_velocity": 3657.49
+  },
+  {
+   "lane": "Open-source model spotlights",
+   "cluster": "tools",
+   "seed_query": "open source AI model",
+   "count": 25,
+   "top": [
+    {
+     "id": "NbWLqOfP3XI",
+     "title": "EdenLive: Open-Source Real-Time Generative Rendering from Any Visual Reference | VAST AI Research",
+     "channel": "Tripo AI",
+     "channelId": "UCUxEy0OUAdRja1OOdTNL6oQ",
+     "publishedAt": "2026-10-20T01:00:33Z",
+     "views": 742305,
+     "velocity": 4698.2,
+     "duration": "PT2M27S",
+     "is_short": false
+    },
+    {
+     "id": "GmqYtcYp1hY",
+     "title": "Open AI\u2019s Profit Margins will blow your mind! #aimodel #deepseekai #chatgpt #claude #openai #ai",
+     "channel": "Mayankshah",
+     "channelId": "UCk5bonSqXxRqd3miJGNGYpg",
+     "publishedAt": "2026-10-23T14:11:50Z",
+     "views": 326189,
+     "velocity": 4480.02,
+     "duration": "PT1M44S",
+     "is_short": false
+    },
+    {
+     "id": "3mx84MRj8lY",
+     "title": "Your Local AI Is Not as Private as You Think",
+     "channel": "Kai",
+     "channelId": "UCgUfJoPtkt7-RiiuYh4vmGA",
+     "publishedAt": "2026-10-21T15:30:22Z",
+     "views": 437073,
+     "velocity": 3657.49,
+     "duration": "PT26M1S",
+     "is_short": false
+    },
+    {
+     "id": "irXFtcohTco",
+     "title": "The Open Source Model Beating Claude Now Runs on a 4GB Laptop for Free",
+     "channel": "InsiderForce",
+     "channelId": "UC8L6EV01fAJ2A0sDpsQ-T5g",
+     "publishedAt": "2026-10-19T15:05:04Z",
+     "views": 594307,
+     "velocity": 3539.18,
+     "duration": "PT1M43S",
+     "is_short": false
+    },
+    {
+     "id": "S0gN0zyWuyo",
+     "title": "The Rise & Fall of India's AI Dream\ud83d\udd3b | Sarvam AI Case Study ",
+     "channel": "X-Legio",
+     "channelId": "UCdfXrHucrYBKEwyQcPz1TKA",
+     "publishedAt": "2026-10-24T04:35:55Z",
+     "views": 94423,
+     "velocity": 1616.6,
+     "duration": "PT8M31S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 538.76,
+   "top_velocity": 4698.2
+  },
+  {
+   "lane": "Model comparisons",
+   "cluster": "tools",
+   "seed_query": "GPT vs Claude",
+   "count": 25,
+   "top": [
+    {
+     "id": "aZMKzHhlTh8",
+     "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+     "channel": "WorldofAI",
+     "channelId": "UC2WmuBuFq6gL08QYG-JjXKw",
+     "publishedAt": "2026-10-25T07:03:15Z",
+     "views": 242839,
+     "velocity": 7599.95,
+     "duration": "PT30M16S",
+     "is_short": false
+    },
+    {
+     "id": "irXFtcohTco",
+     "title": "The Open Source Model Beating Claude Now Runs on a 4GB Laptop for Free",
+     "channel": "InsiderForce",
+     "channelId": "UC8L6EV01fAJ2A0sDpsQ-T5g",
+     "publishedAt": "2026-10-19T15:05:04Z",
+     "views": 594307,
+     "velocity": 3539.18,
+     "duration": "PT1M43S",
+     "is_short": false
+    },
+    {
+     "id": "nv1aaP3dHzs",
+     "title": "Anthropic Just Dropped Claude Duet (Full Breakdown)",
+     "channel": "Brock Mesarich | AI for Non Techies",
+     "channelId": "UCjc1vfduI7BhVMXBLJLDjmA",
+     "publishedAt": "2026-10-21T21:53:41Z",
+     "views": 309672,
+     "velocity": 2737.74,
+     "duration": "PT7M39S",
+     "is_short": false
+    },
+    {
+     "id": "iCRSU4hgGIk",
+     "title": "Claude + GPT FREE for 1 Year ($0 Setup)",
+     "channel": "SUNRISE GAMER",
+     "channelId": "UCXJ1ANA5KLnSUWkIzBMFUgw",
+     "publishedAt": "2026-10-25T14:28:48Z",
+     "views": 47041,
+     "velocity": 1917.94,
+     "duration": "PT6M24S",
+     "is_short": false
+    },
+    {
+     "id": "Ge1B-Ok1Pfk",
+     "title": "Claude Makes a New Kind of Video - Full Tutorial",
+     "channel": "Futurepedia",
+     "channelId": "UC_RovKmk0OCbuZjA8f08opw",
+     "publishedAt": "2026-10-19T15:24:55Z",
+     "views": 285276,
+     "velocity": 1702.21,
+     "duration": "PT11M19S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 670.07,
+   "top_velocity": 7599.95
+  },
+  {
+   "lane": "Prompt engineering",
+   "cluster": "tools",
+   "seed_query": "prompt engineering tutorial",
+   "count": 25,
+   "top": [
+    {
+     "id": "dd_Zil42iP8",
+     "title": "The Only AI & Automation Course You'll Ever Need! (Part 1)",
+     "channel": "Vivek Mishra",
+     "channelId": "UC_vCCRQOSq88sZ5EsZsARXg",
+     "publishedAt": "2026-10-19T16:44:11Z",
+     "views": 209461,
+     "velocity": 1259.76,
+     "duration": "PT10H31M34S",
+     "is_short": false
+    },
+    {
+     "id": "iO9MiefIpVM",
+     "title": "How To Start Making AI Videos in 2026 (Beginner Guide)",
+     "channel": "Dan Kieft",
+     "channelId": "UCdNj_PP__5kKtjZabuEjbqA",
+     "publishedAt": "2026-10-22T15:09:47Z",
+     "views": 75189,
+     "velocity": 784.5,
+     "duration": "PT26M42S",
+     "is_short": false
+    },
+    {
+     "id": "B7lgcvCU7JU",
+     "title": "ChatGPT secret codes you must know \ud83d\udd25\ud83d\ude31 #chatgpt #chatgptprompts #secretcodes #aihacks #openai",
+     "channel": "Future with Nidhi",
+     "channelId": "UCUOA0JSdew6PWoahpBeht2Q",
+     "publishedAt": "2026-10-26T07:28:53Z",
+     "views": 4275,
+     "velocity": 568.07,
+     "duration": "PT56S",
+     "is_short": false
+    },
+    {
+     "id": "IM-1Y9GT0Fw",
+     "title": "Perfect ROADMAP to Become a GenAI Engineer in 2026!",
+     "channel": "CodeHelp - by Babbar",
+     "channelId": "UCldyi11QYNXYXiLjVbyw5dA",
+     "publishedAt": "2026-10-23T13:05:41Z",
+     "views": 38966,
+     "velocity": 527.19,
+     "duration": "PT14M38S",
+     "is_short": false
+    },
+    {
+     "id": "7HQ4FWVwAsk",
+     "title": "Full Claude Tutorial for Beginners - Become A Pro In Just 30 Minutes!",
+     "channel": "Ayushman Pandita",
+     "channelId": "UCyWN-BnWSKeHEnNOYvvpNnA",
+     "publishedAt": "2026-10-24T11:19:13Z",
+     "views": 22602,
+     "velocity": 437.29,
+     "duration": "PT31M55S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 66.64,
+   "top_velocity": 1259.76
+  },
+  {
+   "lane": "AI coding agents",
+   "cluster": "builders",
+   "seed_query": "AI coding agent review",
+   "count": 25,
+   "top": [
+    {
+     "id": "kspZP5BgkEU",
+     "title": "AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI",
+     "channel": "AI Engineer",
+     "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+     "publishedAt": "2026-10-24T23:00:29Z",
+     "views": 77704,
+     "velocity": 1942.66,
+     "duration": "PT27M9S",
+     "is_short": false
+    },
+    {
+     "id": "3TwbE7gv6qo",
+     "title": "Learn 99% Of Claude Code in One Video",
+     "channel": "Tech With Tim",
+     "channelId": "UC4JX40jDee_tINbkjycV4Sg",
+     "publishedAt": "2026-10-24T14:00:00Z",
+     "views": 82935,
+     "velocity": 1692.31,
+     "duration": "PT48M21S",
+     "is_short": false
+    },
+    {
+     "id": "2C_CefSQEAQ",
+     "title": "AI harness crash course",
+     "channel": "Google Cloud Tech",
+     "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+     "publishedAt": "2026-10-22T15:55:11Z",
+     "views": 119381,
+     "velocity": 1255.49,
+     "duration": "PT9M28S",
+     "is_short": false
+    },
+    {
+     "id": "X9RD7EU3bLU",
+     "title": "Strawberry Browser: The AI Browser That Automates Tasks for You (Full Demo & Review)",
+     "channel": "Eren AI",
+     "channelId": "UCzRaJMpezQcOdxoVKr7PUAA",
+     "publishedAt": "2026-10-24T23:23:50Z",
+     "views": 48763,
+     "velocity": 1231.09,
+     "duration": "PT2M31S",
+     "is_short": false
+    },
+    {
+     "id": "4UtrRVtUN_g",
+     "title": "How to Build an AI Code Review Agent - Daksh Gupta, Greptile",
+     "channel": "AI Engineer",
+     "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+     "publishedAt": "2026-10-26T09:00:23Z",
+     "views": 6538,
+     "velocity": 1089.58,
+     "duration": "PT18M27S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 345.1,
+   "top_velocity": 1942.66
+  },
+  {
+   "lane": "Build-with-me coding",
+   "cluster": "builders",
+   "seed_query": "build with me AI app",
+   "count": 25,
+   "top": [
+    {
+     "id": "4z2i6UsQG1k",
+     "title": "Build an Obsidian BACKEND Not a Second Brain!",
+     "channel": "Eric Michaud",
+     "channelId": "UCIumQAB--XargjJuF-w_MFA",
+     "publishedAt": "2026-10-22T15:15:04Z",
+     "views": 230960,
+     "velocity": 2411.97,
+     "duration": "PT8M25S",
+     "is_short": false
+    },
+    {
+     "id": "Ge1B-Ok1Pfk",
+     "title": "Claude Makes a New Kind of Video - Full Tutorial",
+     "channel": "Futurepedia",
+     "channelId": "UC_RovKmk0OCbuZjA8f08opw",
+     "publishedAt": "2026-10-19T15:24:55Z",
+     "views": 285276,
+     "velocity": 1702.21,
+     "duration": "PT11M19S",
+     "is_short": false
+    },
+    {
+     "id": "tpZOU1ugODQ",
+     "title": "Meta Muse Will Create 1,000 Millionaires",
+     "channel": "Greg Isenberg",
+     "channelId": "UCPjNBjflYl0-HQtUvOx0Ibw",
+     "publishedAt": "2026-10-19T17:50:26Z",
+     "views": 248884,
+     "velocity": 1506.87,
+     "duration": "PT24M35S",
+     "is_short": false
+    },
+    {
+     "id": "bTqizdva04g",
+     "title": "9 Insane Claude Mods I Already Can't live Without",
+     "channel": "Ben AI",
+     "channelId": "UC3KK7ENB_ierAXvrxVNnbZQ",
+     "publishedAt": "2026-10-21T06:21:06Z",
+     "views": 127901,
+     "velocity": 994.14,
+     "duration": "PT14M7S",
+     "is_short": false
+    },
+    {
+     "id": "OBxmxV9UeLo",
+     "title": "ChatGPT vs Claude Build a Horror Mod From Scratch",
+     "channel": "The Commands Man",
+     "channelId": "UCKMOPIcOjbNbhUgJyvHc5DQ",
+     "publishedAt": "2026-10-21T18:07:38Z",
+     "views": 108759,
+     "velocity": 930.52,
+     "duration": "PT13M31S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 141.42,
+   "top_velocity": 2411.97
+  },
+  {
+   "lane": "No-code AI apps",
+   "cluster": "builders",
+   "seed_query": "no code AI app",
+   "count": 25,
+   "top": [
+    {
+     "id": "v_XdN5-ya9A",
+     "title": "How to Use REA GitHub to Reverse Engineer Anything in Claude Code",
+     "channel": "Outskill",
+     "channelId": "UCNssyoLJiA2oB5xM7XjxmJA",
+     "publishedAt": "2026-10-23T19:30:01Z",
+     "views": 97794,
+     "velocity": 1448.66,
+     "duration": "PT16M12S",
+     "is_short": false
+    },
+    {
+     "id": "dd_Zil42iP8",
+     "title": "The Only AI & Automation Course You'll Ever Need! (Part 1)",
+     "channel": "Vivek Mishra",
+     "channelId": "UC_vCCRQOSq88sZ5EsZsARXg",
+     "publishedAt": "2026-10-19T16:44:11Z",
+     "views": 209461,
+     "velocity": 1259.76,
+     "duration": "PT10H31M34S",
+     "is_short": false
+    },
+    {
+     "id": "Ikt7LmnjVVs",
+     "title": "Build a Full App Inside ChatGPT With Jotform #JotformPartner #Jotform",
+     "channel": "Griffin Wooldridge",
+     "channelId": "UCdPfG6El0NYgLdSOc8LfP4Q",
+     "publishedAt": "2026-10-19T18:30:34Z",
+     "views": 152616,
+     "velocity": 927.77,
+     "duration": "PT54S",
+     "is_short": false
+    },
+    {
+     "id": "9efRLbsrXz8",
+     "title": "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift",
+     "channel": "Alex Nex",
+     "channelId": "UC1OKZiz-RgfvcFYTU475KgA",
+     "publishedAt": "2026-10-21T00:22:23Z",
+     "views": 98612,
+     "velocity": 732.45,
+     "duration": "PT37S",
+     "is_short": false
+    },
+    {
+     "id": "copRRLZwgv8",
+     "title": "How to Build an App With AI in 35 Minutes (+App Store Ready)",
+     "channel": "Mikey No Code",
+     "channelId": "UCde0vB0fTwC8AT3sJofFV0w",
+     "publishedAt": "2026-10-23T14:15:11Z",
+     "views": 22128,
+     "velocity": 304.15,
+     "duration": "PT35M30S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 62.38,
+   "top_velocity": 1448.66
+  },
+  {
+   "lane": "AI API integrations",
+   "cluster": "builders",
+   "seed_query": "AI API integration tutorial",
+   "count": 25,
+   "top": [
+    {
+     "id": "T57SHxFD66Y",
+     "title": "LLM Routing \u0b95\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd | DeepRelay Unified API Explained!",
+     "channel": "AI with Thiru",
+     "channelId": "UCY8kgTLO7GitoKuxz4Cw3uQ",
+     "publishedAt": "2026-10-26T11:48:03Z",
+     "views": 1113,
+     "velocity": 347.16,
+     "duration": "PT14M14S",
+     "is_short": false
+    },
+    {
+     "id": "qX32hZKkvM4",
+     "title": "Stop Paying for AI? 30+ Models, GPT-6 Astra, Gemini 4 Argon & Claude Opus 5.5",
+     "channel": "The Tech King",
+     "channelId": "UCjdOcnOnKAWHBKw0UoyUDGA",
+     "publishedAt": "2026-10-26T09:57:00Z",
+     "views": 1711,
+     "velocity": 338.35,
+     "duration": "PT8M50S",
+     "is_short": false
+    },
+    {
+     "id": "UTEWhPDUubc",
+     "title": "30+ AI Models for FREE? Claude Opus 5.5 , GPT 6 Astra & Gemini 4 Argon",
+     "channel": "The Tech King",
+     "channelId": "UCjdOcnOnKAWHBKw0UoyUDGA",
+     "publishedAt": "2026-10-25T17:15:08Z",
+     "views": 6163,
+     "velocity": 283.3,
+     "duration": "PT5M39S",
+     "is_short": false
+    },
+    {
+     "id": "baJvQ3nyIWg",
+     "title": "API Anything enables direct website data access for faster AI interactions and integration #AI #APIs",
+     "channel": "Vlad @Joinee",
+     "channelId": "UCEpbknnoYLs9ghc4FuacKGg",
+     "publishedAt": "2026-10-24T11:13:42Z",
+     "views": 13642,
+     "velocity": 263.47,
+     "duration": "PT56S",
+     "is_short": false
+    },
+    {
+     "id": "mQR1-iYAPpo",
+     "title": "33 AI Models for Free? Claude Fable 5, Opus 5.5 & GPT Models",
+     "channel": "The Tech King",
+     "channelId": "UCjdOcnOnKAWHBKw0UoyUDGA",
+     "publishedAt": "2026-10-24T15:54:32Z",
+     "views": 10785,
+     "velocity": 228.99,
+     "duration": "PT8M11S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 25.13,
+   "top_velocity": 347.16
+  },
+  {
+   "lane": "Fine-tuning walkthroughs",
+   "cluster": "builders",
+   "seed_query": "fine tune LLM tutorial",
+   "count": 25,
+   "top": [
+    {
+     "id": "-gPar1nVrtk",
+     "title": "LLM \ud559\uc2b5 \uc58d\uc0bd\uc774",
+     "channel": "\uc784\ucee4\ubc0b",
+     "channelId": "UCbHmDkgh2oHWcN7e28QnIFw",
+     "publishedAt": "2026-10-20T12:30:03Z",
+     "views": 21882,
+     "velocity": 149.36,
+     "duration": "PT3M49S",
+     "is_short": false
+    },
+    {
+     "id": "O10fNltI_8c",
+     "title": "LLM Training vs Fine-Tuning | AI Interview Tamil #Shorts #genai #aiintamil #ai #shorts #chatgpt",
+     "channel": "AI with Akash",
+     "channelId": "UCA0MED-ALRxfZNCe0Hygldw",
+     "publishedAt": "2026-10-25T13:45:09Z",
+     "views": 452,
+     "velocity": 17.9,
+     "duration": "PT2M58S",
+     "is_short": true
+    },
+    {
+     "id": "SzQgN85atts",
+     "title": "Special Tokens in LLM: Why Your Model Never Stops",
+     "channel": "Laxmi Kant | KGP Talkie",
+     "channelId": "UCTiWgVtEGSY4cuduJbMPblA",
+     "publishedAt": "2026-10-22T11:24:39Z",
+     "views": 1649,
+     "velocity": 16.56,
+     "duration": "PT2M39S",
+     "is_short": false
+    },
+    {
+     "id": "vxXGp3M4EDw",
+     "title": "Prices changed on Tuesday. Your fine-tuned model doesn't know (RAG vs fine-tuning) #rag #llm",
+     "channel": "Undefined",
+     "channelId": "UCJHoacdGrdMhLsvN5g9XBYg",
+     "publishedAt": "2026-10-21T12:30:19Z",
+     "views": 960,
+     "velocity": 7.84,
+     "duration": "PT50S",
+     "is_short": false
+    },
+    {
+     "id": "dEEwbIvUDeY",
+     "title": "LLM Training Pipeline in 60 Seconds! | AI Interview Question #genai #aiintamil #ai #shorts",
+     "channel": "AI with Akash",
+     "channelId": "UCA0MED-ALRxfZNCe0Hygldw",
+     "publishedAt": "2026-10-20T14:00:31Z",
+     "views": 1020,
+     "velocity": 7.03,
+     "duration": "PT2M19S",
+     "is_short": true
+    }
+   ],
+   "median_velocity": 1.22,
+   "top_velocity": 149.36
+  },
+  {
+   "lane": "RAG & pipelines",
+   "cluster": "builders",
+   "seed_query": "RAG pipeline tutorial",
+   "count": 25,
+   "top": [
+    {
+     "id": "6xD84mqMDtM",
+     "title": "RAG Deep Dive: Build AI That Knows Your Data (Chunking, Embeddings & Vector DB)",
+     "channel": "ComputeIQ",
+     "channelId": "UCnOMRk7Yc4Ffp39DX0a_o7Q",
+     "publishedAt": "2026-10-20T19:23:51Z",
+     "views": 32423,
+     "velocity": 232.24,
+     "duration": "PT2M12S",
+     "is_short": false
+    },
+    {
+     "id": "hYYk9S_8UXg",
+     "title": "RAG Crash Course: 5 Levels from Basic to Agentic RAG",
+     "channel": "AI with Hassan",
+     "channelId": "UC7JIdd6JEcDHe1nQNbA8lvg",
+     "publishedAt": "2026-10-22T13:00:34Z",
+     "views": 8364,
+     "velocity": 85.35,
+     "duration": "PT47M55S",
+     "is_short": false
+    },
+    {
+     "id": "NEeGZQUQawY",
+     "title": "RAG vs Fine-Tuning",
+     "channel": "Coding Vyrl",
+     "channelId": "UC4IpTQM-iodbsOOGZW6gYQA",
+     "publishedAt": "2026-10-25T17:00:16Z",
+     "views": 738,
+     "velocity": 33.54,
+     "duration": "PT12S",
+     "is_short": false
+    },
+    {
+     "id": "SpG8QX-szVE",
+     "title": "Check the description for the link of the guide #ai #ragas #rag #retrievalaugmentedgeneration",
+     "channel": "Dhruv Sharma",
+     "channelId": "UCT2dJ75uG9C3bdSxbIgdMWA",
+     "publishedAt": "2026-10-25T12:22:11Z",
+     "views": 634,
+     "velocity": 23.8,
+     "duration": "PT40S",
+     "is_short": false
+    },
+    {
+     "id": "hwg1SP01esw",
+     "title": "#4 Build a Complete RAG Pipeline | End-to-End RAG System using LangChain & Groq",
+     "channel": "TechSimPlus Learnings",
+     "channelId": "UCLgmvKM3Eu1LRXoMlgsmxYw",
+     "publishedAt": "2026-10-22T13:00:32Z",
+     "views": 1379,
+     "velocity": 14.07,
+     "duration": "PT18M57S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 4.98,
+   "top_velocity": 232.24
+  },
+  {
+   "lane": "AI hardware / home rigs",
+   "cluster": "builders",
+   "seed_query": "AI PC build",
+   "count": 25,
+   "top": [
+    {
+     "id": "iZNR1ltRqes",
+     "title": "RTX 9090 Ti",
+     "channel": " S BENCH ",
+     "channelId": "UC6c0npugUO1NnWq3P2UEeWA",
+     "publishedAt": "2026-10-20T21:27:10Z",
+     "views": 1361476,
+     "velocity": 9897.75,
+     "duration": "PT6S",
+     "is_short": false
+    },
+    {
+     "id": "0VVz19_Dmnc",
+     "title": "1TB RAM upgrade \ud83e\udd40",
+     "channel": " S BENCH ",
+     "channelId": "UC6c0npugUO1NnWq3P2UEeWA",
+     "publishedAt": "2026-10-21T04:31:52Z",
+     "views": 779925,
+     "velocity": 5977.55,
+     "duration": "PT7S",
+     "is_short": false
+    },
+    {
+     "id": "awohVSb1fzM",
+     "title": "PC Build Challenge With Haiku Team\u2764\ufe0f | NukePC x Haiku",
+     "channel": "A2D Channel",
+     "channelId": "UCvyZS6W6zMJCZBVzF-Ei6sw",
+     "publishedAt": "2026-10-22T12:00:06Z",
+     "views": 563382,
+     "velocity": 5690.43,
+     "duration": "PT23M8S",
+     "is_short": false
+    },
+    {
+     "id": "bjx5xYYziqE",
+     "title": "I Built the Ultimate Invisible PC",
+     "channel": "Basically Homeless",
+     "channelId": "UChHxJaKDqH4bOs0pX3hkKnA",
+     "publishedAt": "2026-10-24T20:12:42Z",
+     "views": 209890,
+     "velocity": 4904.52,
+     "duration": "PT9M45S",
+     "is_short": false
+    },
+    {
+     "id": "RRIl-f5iWEo",
+     "title": "I Built a Mini Gaming PC From a Broken Laptop!",
+     "channel": "GameRig",
+     "channelId": "UCPUdvCCbW1_o78jRxjEYgdQ",
+     "publishedAt": "2026-10-21T17:34:35Z",
+     "views": 569038,
+     "velocity": 4845.74,
+     "duration": "PT13M11S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 397.59,
+   "top_velocity": 9897.75
+  },
+  {
+   "lane": "AI side hustles",
+   "cluster": "business",
+   "seed_query": "AI side hustle",
+   "count": 25,
+   "top": [
+    {
+     "id": "hriu0irRcpE",
+     "title": "7 Proven Ways to Make Money With AI (No Experience)",
+     "channel": "Mark Tilbury",
+     "channelId": "UCxgAuX3XZROujMmGphN_scA",
+     "publishedAt": "2026-10-24T11:33:52Z",
+     "views": 465763,
+     "velocity": 9054.06,
+     "duration": "PT26M24S",
+     "is_short": false
+    },
+    {
+     "id": "1dvM89NMK3s",
+     "title": "Give Us 20 Minutes, We\u2019ll Teach You 5 AI Side Hustles for 2026",
+     "channel": "Higgsfield AI",
+     "channelId": "UCh13OyDSm-Kb8ij3yZArtFg",
+     "publishedAt": "2026-10-19T17:18:19Z",
+     "views": 312007,
+     "velocity": 1882.95,
+     "duration": "PT22M45S",
+     "is_short": false
+    },
+    {
+     "id": "n-PsDYaTwvs",
+     "title": "\ubaa8\ub4e0 AI \ubd80\uc5c5 \ud2f0\uc5b4\ud45c | \uc9c1\uc811 \ud574 \ubcf8 \uac83\ub9cc \ud45c \ud55c \uc7a5\uc73c\ub85c \uc815\ub9ac",
+     "channel": "\ud63c\uc7a1\uc2a4",
+     "channelId": "UCidyOPC0asenYpq_Mgbfa0w",
+     "publishedAt": "2026-10-21T13:15:23Z",
+     "views": 205984,
+     "velocity": 1691.85,
+     "duration": "PT10M6S",
+     "is_short": false
+    },
+    {
+     "id": "Ay18Elrj1ao",
+     "title": "AI\ubd80\uc5c5 \uac15\uc758\uc758 \ubaa8\uc21c\uacfc \uc9c4\uc2e4",
+     "channel": "\ub3d9\uae30\ubd80\uc5ec \ub4a4\uc9d1\uae30",
+     "channelId": "UCWBstnLlgcCyl9P3GgFM7jg",
+     "publishedAt": "2026-10-26T09:15:10Z",
+     "views": 4318,
+     "velocity": 750.42,
+     "duration": "PT18M22S",
+     "is_short": false
+    },
+    {
+     "id": "-azFxltfdvY",
+     "title": "I Tried The \u201cEasiest\u201d AI Passive Income Idea To Make \u20b91,00,000 (Real Results)",
+     "channel": "Aaisha Lately",
+     "channelId": "UC2y7t1yh3Gr7kUGA9MbqIVg",
+     "publishedAt": "2026-10-22T09:39:23Z",
+     "views": 57494,
+     "velocity": 567.28,
+     "duration": "PT12M56S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 62.76,
+   "top_velocity": 9054.06
+  },
+  {
+   "lane": "Freelance AI automation",
+   "cluster": "business",
+   "seed_query": "freelance AI automation",
+   "count": 25,
+   "top": [
+    {
+     "id": "P3sTA_ADhq8",
+     "title": "3 \u500b AI Agents \u5e6b\u6211\u6435\u5de5\u540c\u63a5 freelance | \u6435\u65b0Job\u3001\u5beb Proposal\u3001\u6349\u5927\u8a71 | Indeed \uff0b Upwork \u5be6\u6e2c\uff08MiniMax Code \u6559\u5b78\u30fb\u5ee3\u6771\u8a71\uff09",
+     "channel": "Tim Chan AI",
+     "channelId": "UCF46qxGNea5kWYsv09NkY0Q",
+     "publishedAt": "2026-10-26T09:30:21Z",
+     "views": 563,
+     "velocity": 102.34,
+     "duration": "PT25M46S",
+     "is_short": false
+    },
+    {
+     "id": "37vaS2zPVMs",
+     "title": "Another AI Skill You Can Sell on Fiverr & Upwork | Freelancing Episode 7 #freelancing #aiskills",
+     "channel": "Tabish Bin Tahir",
+     "channelId": "UCyzJpZW0oq5goUIEgKTcR7A",
+     "publishedAt": "2026-10-20T13:15:24Z",
+     "views": 12191,
+     "velocity": 83.64,
+     "duration": "PT3M",
+     "is_short": false
+    },
+    {
+     "id": "9FzsGbwdgzg",
+     "title": "Learn Freelancing using AI with Hisham Sarwar and make money online",
+     "channel": "Hisham Sarwar",
+     "channelId": "UCw3jwyEmeiRdkS22sOjMsSA",
+     "publishedAt": "2026-10-20T13:17:55Z",
+     "views": 8417,
+     "velocity": 57.77,
+     "duration": "PT6M39S",
+     "is_short": false
+    },
+    {
+     "id": "NVI3k-ECQXw",
+     "title": "#aiapp #aiapplication #freelancing #chatgpt",
+     "channel": "Learn With Shahzad Ahmad Mirza",
+     "channelId": "UCqDgg_vvXmaBEORzvhgiGJQ",
+     "publishedAt": "2026-10-20T12:30:38Z",
+     "views": 6122,
+     "velocity": 41.79,
+     "duration": "PT1M7S",
+     "is_short": false
+    },
+    {
+     "id": "4Sg22cK9NMs",
+     "title": "UpMatch Review 2026: Does It Actually Help You Get More Upwork Clients?",
+     "channel": "Nader Nadernejad",
+     "channelId": "UCCETneAi7ILYy5N6jqA48WQ",
+     "publishedAt": "2026-10-19T23:44:39Z",
+     "views": 3882,
+     "velocity": 24.37,
+     "duration": "PT4M15S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 9.33,
+   "top_velocity": 102.34
+  },
+  {
+   "lane": "AI agency teardowns",
+   "cluster": "business",
+   "seed_query": "AI agency business",
+   "count": 25,
+   "top": [
+    {
+     "id": "hriu0irRcpE",
+     "title": "7 Proven Ways to Make Money With AI (No Experience)",
+     "channel": "Mark Tilbury",
+     "channelId": "UCxgAuX3XZROujMmGphN_scA",
+     "publishedAt": "2026-10-24T11:33:52Z",
+     "views": 465763,
+     "velocity": 9054.06,
+     "duration": "PT26M24S",
+     "is_short": false
+    },
+    {
+     "id": "oMpCkdFn754",
+     "title": "US banks scramble to control their AI agent activity",
+     "channel": "Fox News Clips",
+     "channelId": "UCqlYzSgsh5jdtWYfVIBoTDw",
+     "publishedAt": "2026-10-24T08:30:29Z",
+     "views": 258369,
+     "velocity": 4740.82,
+     "duration": "PT2M4S",
+     "is_short": false
+    },
+    {
+     "id": "1dvM89NMK3s",
+     "title": "Give Us 20 Minutes, We\u2019ll Teach You 5 AI Side Hustles for 2026",
+     "channel": "Higgsfield AI",
+     "channelId": "UCh13OyDSm-Kb8ij3yZArtFg",
+     "publishedAt": "2026-10-19T17:18:19Z",
+     "views": 312007,
+     "velocity": 1882.95,
+     "duration": "PT22M45S",
+     "is_short": false
+    },
+    {
+     "id": "tpZOU1ugODQ",
+     "title": "Meta Muse Will Create 1,000 Millionaires",
+     "channel": "Greg Isenberg",
+     "channelId": "UCPjNBjflYl0-HQtUvOx0Ibw",
+     "publishedAt": "2026-10-19T17:50:26Z",
+     "views": 248884,
+     "velocity": 1506.87,
+     "duration": "PT24M35S",
+     "is_short": false
+    },
+    {
+     "id": "dd_Zil42iP8",
+     "title": "The Only AI & Automation Course You'll Ever Need! (Part 1)",
+     "channel": "Vivek Mishra",
+     "channelId": "UC_vCCRQOSq88sZ5EsZsARXg",
+     "publishedAt": "2026-10-19T16:44:11Z",
+     "views": 209461,
+     "velocity": 1259.76,
+     "duration": "PT10H31M34S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 174.9,
+   "top_velocity": 9054.06
+  },
+  {
+   "lane": "AI for small business",
+   "cluster": "business",
+   "seed_query": "AI for small business",
+   "count": 25,
+   "top": [
+    {
+     "id": "fYOQ97gyGCA",
+     "title": "Small businesses are obsessed with AI slop...",
+     "channel": "Logically Answered",
+     "channelId": "UCZRoNJu1OszFqABP8AuJIuw",
+     "publishedAt": "2026-10-19T19:00:40Z",
+     "views": 458308,
+     "velocity": 2794.63,
+     "duration": "PT14M56S",
+     "is_short": false
+    },
+    {
+     "id": "tpZOU1ugODQ",
+     "title": "Meta Muse Will Create 1,000 Millionaires",
+     "channel": "Greg Isenberg",
+     "channelId": "UCPjNBjflYl0-HQtUvOx0Ibw",
+     "publishedAt": "2026-10-19T17:50:26Z",
+     "views": 248884,
+     "velocity": 1506.87,
+     "duration": "PT24M35S",
+     "is_short": false
+    },
+    {
+     "id": "JhyVSrQPVSg",
+     "title": "I Let AI Make and Save Me Money for 6 Weeks (Here\u2019s What Worked)",
+     "channel": "Chris Koerner on The Koerner Office Podcast",
+     "channelId": "UCn4dfcINwD3_z41IDFPsFcA",
+     "publishedAt": "2026-10-21T23:31:12Z",
+     "views": 108505,
+     "velocity": 973.25,
+     "duration": "PT48M15S",
+     "is_short": false
+    },
+    {
+     "id": "g2aoHJio4BY",
+     "title": "Small Business Marketing: Two Ads in CapCut's AI Video Editor",
+     "channel": "INFINITE DIGITAL",
+     "channelId": "UCYYDSOhtdpx9Rq4KFXAF2pA",
+     "publishedAt": "2026-10-23T13:33:24Z",
+     "views": 49585,
+     "velocity": 675.08,
+     "duration": "PT5M51S",
+     "is_short": false
+    },
+    {
+     "id": "8CIUExuYFh0",
+     "title": "I Spent $300,000 On AI Tools. These 16 Will Make You Rich.",
+     "channel": "Simon Squibb",
+     "channelId": "UCGznz4NfW5iymkvn1l40qyA",
+     "publishedAt": "2026-10-21T16:15:41Z",
+     "views": 79677,
+     "velocity": 670.99,
+     "duration": "PT16M1S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 160.72,
+   "top_velocity": 2794.63
+  },
+  {
+   "lane": "n8n / Make workflows",
+   "cluster": "business",
+   "seed_query": "n8n workflow tutorial",
+   "count": 25,
+   "top": [
+    {
+     "id": "LzPbjWZjPVA",
+     "title": "N8n Tutorial 2026: How to Build AI Agents & Automate Workflows",
+     "channel": "Barbara AI Tech",
+     "channelId": "UCW_Z0u1dCUO48sSNVQcroCQ",
+     "publishedAt": "2026-10-26T03:34:36Z",
+     "views": 6905,
+     "velocity": 604.1,
+     "duration": "PT5M28S",
+     "is_short": false
+    },
+    {
+     "id": "r6xXhSt0Nhw",
+     "title": "Gue Coba Bikin Workflow n8n Cuma Lewat ChatGPT, Ini Hasilnya!",
+     "channel": "Kristian Ekachandra",
+     "channelId": "UCkreamlPc6lyIMzboP5TCew",
+     "publishedAt": "2026-10-24T09:27:39Z",
+     "views": 6612,
+     "velocity": 123.48,
+     "duration": "PT23M12S",
+     "is_short": false
+    },
+    {
+     "id": "kcNVDHtlnPk",
+     "title": "I Built the full Team of AI Agents in n8n With No Code (Free Template)",
+     "channel": "Make First Million - Badar Munir",
+     "channelId": "UCVzgTh8i9W-UtengLs-xytA",
+     "publishedAt": "2026-10-21T11:56:11Z",
+     "views": 13969,
+     "velocity": 113.5,
+     "duration": "PT27M47S",
+     "is_short": false
+    },
+    {
+     "id": "kzhZxlNkaac",
+     "title": "Learn n8n Automation in 1 Hour before 2027 (MasterClass)",
+     "channel": "Kamran AI Insights",
+     "channelId": "UCPbMiEZY-8XGdbFfTMFoINw",
+     "publishedAt": "2026-10-22T15:15:29Z",
+     "views": 3958,
+     "velocity": 41.34,
+     "duration": "PT56M16S",
+     "is_short": false
+    },
+    {
+     "id": "Y9nyhbHg7lM",
+     "title": "Build a FREE AI Lead Generation Workflow Using n8n | Step-by-Step Tutorial",
+     "channel": "\u200cDigital Coach Archana",
+     "channelId": "UChlWo8hpEE7U1ee9yVXLUMw",
+     "publishedAt": "2026-10-21T13:30:26Z",
+     "views": 3260,
+     "velocity": 26.83,
+     "duration": "PT34M18S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 11.52,
+   "top_velocity": 604.1
+  },
+  {
+   "lane": "Productizing AI",
+   "cluster": "business",
+   "seed_query": "sell AI prompts",
+   "count": 25,
+   "top": [
+    {
+     "id": "2WhkC6IvHDM",
+     "title": "GoHighLevel Tutorial for Beginners 2026 (FREE 5+ Hour Course)",
+     "channel": "Sean Standberry",
+     "channelId": "UCCJBY2Yy6Pjo1Jcoalh6Szg",
+     "publishedAt": "2026-10-25T15:07:13Z",
+     "views": 1958,
+     "velocity": 81.97,
+     "duration": "PT5H18S",
+     "is_short": false
+    },
+    {
+     "id": "kyngnLF27bw",
+     "title": "Build & Sell Claude AI Agents (2+ Hours Course, No code)",
+     "channel": "Oliver Rasmussen",
+     "channelId": "UCfvyx2kfeFPuLo3YqIDamSw",
+     "publishedAt": "2026-10-21T16:00:09Z",
+     "views": 8905,
+     "velocity": 74.83,
+     "duration": "PT2H1M16S",
+     "is_short": false
+    },
+    {
+     "id": "13oMqvrnDLw",
+     "title": "How to Create & Sell Christian Digital Products Online with AI (4 Prompts)",
+     "channel": "Buki Ekeowa",
+     "channelId": "UCNMOVCLuN9ptQLs66kWx7AA",
+     "publishedAt": "2026-10-21T13:00:28Z",
+     "views": 9023,
+     "velocity": 73.96,
+     "duration": "PT24M1S",
+     "is_short": false
+    },
+    {
+     "id": "vX_OR7fJGE0",
+     "title": "I Created & Sold My First Mini App Using Canva (Here's How)",
+     "channel": "Lauren Keys",
+     "channelId": "UCC5QqJYcJ1BGXx6j4Y9dJ-A",
+     "publishedAt": "2026-10-23T06:56:09Z",
+     "views": 5258,
+     "velocity": 65.67,
+     "duration": "PT15M28S",
+     "is_short": false
+    },
+    {
+     "id": "-HHMKsoBhYw",
+     "title": "Build & SELL AI Websites with Lovable AI | Find $750 Clients (No Coding)",
+     "channel": "Komal Verse",
+     "channelId": "UC_VB9gh3F6mahCtSnDBVM_A",
+     "publishedAt": "2026-10-20T14:30:04Z",
+     "views": 3614,
+     "velocity": 25.01,
+     "duration": "PT15M56S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 1.54,
+   "top_velocity": 81.97
+  },
+  {
+   "lane": "AI video generation",
+   "cluster": "creative",
+   "seed_query": "AI video generation tutorial",
+   "count": 25,
+   "top": [
+    {
+     "id": "6CxjTF577KY",
+     "title": "Ai se Cartoon Video Kaise Banaye | Step-by-Step Guide (2026) | ai video kaise banaye | cartoon ",
+     "channel": "Spreading Gyan",
+     "channelId": "UCZDCqcWZVNyvTSsoc-chKJg",
+     "publishedAt": "2026-10-20T04:01:28Z",
+     "views": 310474,
+     "velocity": 2003.29,
+     "duration": "PT23M50S",
+     "is_short": false
+    },
+    {
+     "id": "eEg95IB4hes",
+     "title": "Google Flow \u091b\u094b\u0921\u093c\u094b! \ud83d\ude31 \u092f\u0947 FREE AI Tool Unlimited Long Video \u092c\u0928\u093e\u0924\u093e \u0939\u0948 | image to video ai free \ud83d\udd25",
+     "channel": "Tech Aakash Help",
+     "channelId": "UCOEs9Tr-cPBVNOV0i3Oxt4A",
+     "publishedAt": "2026-10-24T03:30:13Z",
+     "views": 104462,
+     "velocity": 1755.57,
+     "duration": "PT10M3S",
+     "is_short": false
+    },
+    {
+     "id": "Ge1B-Ok1Pfk",
+     "title": "Claude Makes a New Kind of Video - Full Tutorial",
+     "channel": "Futurepedia",
+     "channelId": "UC_RovKmk0OCbuZjA8f08opw",
+     "publishedAt": "2026-10-19T15:24:55Z",
+     "views": 285276,
+     "velocity": 1702.21,
+     "duration": "PT11M19S",
+     "is_short": false
+    },
+    {
+     "id": "qTT73INme6g",
+     "title": "How to make ai videos for Black Friday Marketing | CapCut PC",
+     "channel": "This is James",
+     "channelId": "UCwNSnJoto3HMuRWhhvunw5A",
+     "publishedAt": "2026-10-26T02:32:54Z",
+     "views": 19836,
+     "velocity": 1592.16,
+     "duration": "PT8M52S",
+     "is_short": false
+    },
+    {
+     "id": "gCHSEGBp8ME",
+     "title": "Higgsfield is a Scam. Use this FREE Tool Instead.",
+     "channel": "Nafay 3D",
+     "channelId": "UCu6dZ7Tvlhw1BkUUDWJngqw",
+     "publishedAt": "2026-10-20T18:25:56Z",
+     "views": 189697,
+     "velocity": 1349.44,
+     "duration": "PT5M17S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 619.94,
+   "top_velocity": 2003.29
+  },
+  {
+   "lane": "AI music & audio",
+   "cluster": "creative",
+   "seed_query": "AI music production",
+   "count": 25,
+   "top": [
+    {
+     "id": "IGorKKnHkdo",
+     "title": "I Turned ONE Song Into a CINEMATIC AI Music Video! | PixVerse AI Tutorial 2026",
+     "channel": "\ud835\ude09\ud835\ude2d\ud835\ude30\ud835\ude24\ud835\ude2c\ud835\ude1d\ud835\ude26\ud835\ude33\ud835\ude34\ud835\ude26 \ud835\ude08\ud835\ude10",
+     "channelId": "UCzura4o5dx1Ih2qwu3ifWJw",
+     "publishedAt": "2026-10-26T07:23:43Z",
+     "views": 22777,
+     "velocity": 2992.41,
+     "duration": "PT6M33S",
+     "is_short": false
+    },
+    {
+     "id": "Vx-Bn_HFIBM",
+     "title": "NASANAY NA ANG PUSO KO \ud83d\udc94 HINDI KO NA KAYA NA MAG-ISA | OPM LOVE SONGS & HUGOT PLAYLIST | MALE VOCALS",
+     "channel": "NAIM KAPUSAN CHANNEL",
+     "channelId": "UChCWtF7VMegdm2MrrSRDx0A",
+     "publishedAt": "2026-10-20T22:00:04Z",
+     "views": 399261,
+     "velocity": 2914.19,
+     "duration": "PT1H4M47S",
+     "is_short": false
+    },
+    {
+     "id": "f7JBVh8N-zc",
+     "title": "Got Flagged as AI? Make Song Ideas That Aren't | Melognite MIDI for Your DAW (Metal)",
+     "channel": "MELOGNITE",
+     "channelId": "UCbwlBEVduJfvkbTuCkBgicw",
+     "publishedAt": "2026-10-21T21:19:16Z",
+     "views": 283696,
+     "velocity": 2495.44,
+     "duration": "PT1M5S",
+     "is_short": false
+    },
+    {
+     "id": "Bgm7VDcbAJc",
+     "title": "E\u0219ti mare dansatoare LIVE",
+     "channel": "DAAD Music Production",
+     "channelId": "UCWQa9Y6QaovmNFQISVR9dOg",
+     "publishedAt": "2026-10-23T05:04:59Z",
+     "views": 187794,
+     "velocity": 2292.3,
+     "duration": "PT3M9S",
+     "is_short": false
+    },
+    {
+     "id": "CnpdP5kc19c",
+     "title": "bro said 'trust the vision' so i did \ud83d\ude2d\ud83e\udd40 #flstudio #musicproducer #producer #fyp #short #beatmaker",
+     "channel": "benja lorenzo",
+     "channelId": "UC-xPxu7CvNlewhhe70AzOjg",
+     "publishedAt": "2026-10-24T16:13:51Z",
+     "views": 85532,
+     "velocity": 1828.54,
+     "duration": "PT38S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 351.66,
+   "top_velocity": 2992.41
+  },
+  {
+   "lane": "AI image generation",
+   "cluster": "creative",
+   "seed_query": "Midjourney tutorial",
+   "count": 25,
+   "top": [
+    {
+     "id": "rSwmfnUe7J8",
+     "title": "Image to 3D the EASY Way - With an AI Agent",
+     "channel": "Critical Creator",
+     "channelId": "UCJxRts37uGfqINk0XlRAKiQ",
+     "publishedAt": "2026-10-20T13:34:35Z",
+     "views": 7810,
+     "velocity": 53.7,
+     "duration": "PT12M3S",
+     "is_short": false
+    },
+    {
+     "id": "RBSV9NCQ8TU",
+     "title": "Grok Bot will now use the best AI model for each job #shorts",
+     "channel": "Jay E | RoboNuggets",
+     "channelId": "UCgscS8mBsQZ5sFRkJIFWD7Q",
+     "publishedAt": "2026-10-21T02:00:41Z",
+     "views": 6411,
+     "velocity": 48.2,
+     "duration": "PT33S",
+     "is_short": true
+    },
+    {
+     "id": "lhtVcOLRqtE",
+     "title": "#midjourney #kpop #minecraft",
+     "channel": "RT creators",
+     "channelId": "UCeHcsIqIhypwTmfLMwo9XgQ",
+     "publishedAt": "2026-10-24T19:05:13Z",
+     "views": 1296,
+     "velocity": 29.51,
+     "duration": "PT23S",
+     "is_short": false
+    },
+    {
+     "id": "zrKinLdQNd4",
+     "title": "#cat #midjourney #beats",
+     "channel": "\u0635\u0627\u0639\u0642",
+     "channelId": "UCOdUd4XEirlCVysvSDvn7YA",
+     "publishedAt": "2026-10-23T21:06:54Z",
+     "views": 1164,
+     "velocity": 17.67,
+     "duration": "PT19S",
+     "is_short": false
+    },
+    {
+     "id": "7kBRbVk-4Nw",
+     "title": "Midjourney Costs Up to $120/Month. This Open-Source AI Art Tool Is Free - ComfyUI",
+     "channel": "Future Free Tools",
+     "channelId": "UCK_KGboIQ9xVC_fbVMLbhpg",
+     "publishedAt": "2026-10-24T07:02:52Z",
+     "views": 773,
+     "velocity": 13.81,
+     "duration": "PT38S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 2.78,
+   "top_velocity": 53.7
+  },
+  {
+   "lane": "Faceless YouTube systems",
+   "cluster": "creative",
+   "seed_query": "faceless YouTube AI",
+   "count": 25,
+   "top": [
+    {
+     "id": "aZVyvwr5ioY",
+     "title": "\ud83d\udc49\u092c\u093f\u0928\u093e Face \u0926\u093f\u0916\u093e\u090f USA AI Video \u092c\u0928\u093e\u0915\u0930 \u0915\u092e\u093e\u0924\u093e \u0939\u0948 \u0932\u093e\u0916\u094b\u0902! Usa Content ideas | facebook ai | Spreading Gyan",
+     "channel": "Spreading Gyan",
+     "channelId": "UCZDCqcWZVNyvTSsoc-chKJg",
+     "publishedAt": "2026-10-25T07:01:16Z",
+     "views": 74831,
+     "velocity": 2339.51,
+     "duration": "PT19M11S",
+     "is_short": false
+    },
+    {
+     "id": "6CxjTF577KY",
+     "title": "Ai se Cartoon Video Kaise Banaye | Step-by-Step Guide (2026) | ai video kaise banaye | cartoon ",
+     "channel": "Spreading Gyan",
+     "channelId": "UCZDCqcWZVNyvTSsoc-chKJg",
+     "publishedAt": "2026-10-20T04:01:28Z",
+     "views": 310474,
+     "velocity": 2003.29,
+     "duration": "PT23M50S",
+     "is_short": false
+    },
+    {
+     "id": "3BH4aakV4vw",
+     "title": "ai se video kaise banaye | ai video kaise banaye | Ai story video kaise banaye | Ai video generator",
+     "channel": "Creator Search 2.0",
+     "channelId": "UCupP-eshlH7rLssXLqk_Fcw",
+     "publishedAt": "2026-10-25T06:19:36Z",
+     "views": 61410,
+     "velocity": 1879.12,
+     "duration": "PT7M40S",
+     "is_short": false
+    },
+    {
+     "id": "Ge1B-Ok1Pfk",
+     "title": "Claude Makes a New Kind of Video - Full Tutorial",
+     "channel": "Futurepedia",
+     "channelId": "UC_RovKmk0OCbuZjA8f08opw",
+     "publishedAt": "2026-10-19T15:24:55Z",
+     "views": 285276,
+     "velocity": 1702.21,
+     "duration": "PT11M19S",
+     "is_short": false
+    },
+    {
+     "id": "C4A_VyUZxdE",
+     "title": "\ud83d\ude31 YouTube \u092a\u0930 AI Channels \u092c\u0902\u0926? YouTube \u0915\u0940 \u092f\u0947 4 \u0917\u0932\u0924\u093f\u092f\u093e\u0901 \u092e\u0924 \u0915\u0930\u0928\u093e\u26a0\ufe0f AI Generated Video Monetized or Not",
+     "channel": "Invisible Gyan",
+     "channelId": "UCCZFE8t-7VXHUBwBY9R9fww",
+     "publishedAt": "2026-10-24T06:30:16Z",
+     "views": 90439,
+     "velocity": 1600.62,
+     "duration": "PT8M32S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 580.18,
+   "top_velocity": 2339.51
+  },
+  {
+   "lane": "AI news recaps",
+   "cluster": "news",
+   "seed_query": "AI news this week",
+   "count": 25,
+   "top": [
+    {
+     "id": "moy3waNDQa8",
+     "title": "Websites taken down worldwide as AI reveals critical cyber-security threat | BBC News",
+     "channel": "BBC News",
+     "channelId": "UC16niRr50-MSBwiO3YDb3RA",
+     "publishedAt": "2026-10-21T21:56:12Z",
+     "views": 2293526,
+     "velocity": 20284.09,
+     "duration": "PT1M57S",
+     "is_short": false
+    },
+    {
+     "id": "kzJrvNv3wBE",
+     "title": "The end of Bioware and the threat of $1800 next-gen consoles | This Week in Videogames",
+     "channel": "Skill Up",
+     "channelId": "UCZ7AeeVbyslLM_8-nVy2B8Q",
+     "publishedAt": "2026-10-23T13:00:26Z",
+     "views": 376711,
+     "velocity": 5090.71,
+     "duration": "PT37M49S",
+     "is_short": false
+    },
+    {
+     "id": "3gXLmy7DK_4",
+     "title": "Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!",
+     "channel": "Matthew Berman",
+     "channelId": "UCawZsQWqfGSbCI5yjkdVkTA",
+     "publishedAt": "2026-10-21T15:30:24Z",
+     "views": 400060,
+     "velocity": 3347.78,
+     "duration": "PT45M8S",
+     "is_short": false
+    },
+    {
+     "id": "rR5HmB53C7k",
+     "title": "Bitwarden's license change, Ubuntu AI assistant, LibreOffice breaks records - Linux Weekly News",
+     "channel": "The Linux Experiment",
+     "channelId": "UC5UAwBUum7CPN5buc-_N1Fw",
+     "publishedAt": "2026-10-24T08:21:12Z",
+     "views": 122780,
+     "velocity": 2246.52,
+     "duration": "PT29M12S",
+     "is_short": false
+    },
+    {
+     "id": "7C9vYzzgrI0",
+     "title": "The AI crash is coming SOONER than you think, warns former US financial regulator",
+     "channel": "Channel 4 News",
+     "channelId": "UCTrQ7HXWRRxr7OsOtodr2_w",
+     "publishedAt": "2026-10-19T17:38:17Z",
+     "views": 335863,
+     "velocity": 2030.99,
+     "duration": "PT30M24S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 674.01,
+   "top_velocity": 20284.09
+  },
+  {
+   "lane": "Model release breakdowns",
+   "cluster": "news",
+   "seed_query": "new model release explained",
+   "count": 22,
+   "top": [
+    {
+     "id": "H1l4y7SOtSU",
+     "title": "India's 1st FSD Suspension Explained 50+ New Updates | Hero Xtreme 250R Launch",
+     "channel": "Bike Point By Mintu&Rahul",
+     "channelId": "UCHGv2txBsLiw12wgKAEezJg",
+     "publishedAt": "2026-10-20T07:47:53Z",
+     "views": 192107,
+     "velocity": 1270.47,
+     "duration": "PT9M7S",
+     "is_short": false
+    },
+    {
+     "id": "AjEK6dtyvQg",
+     "title": "New Apple TV 4K: Everything New & Should You Upgrade?",
+     "channel": "MacRumors",
+     "channelId": "UCaFGDBmGK_jw66u3av2Ysjw",
+     "publishedAt": "2026-10-20T15:26:32Z",
+     "views": 150397,
+     "velocity": 1047.59,
+     "duration": "PT6M5S",
+     "is_short": false
+    },
+    {
+     "id": "Zs3pHiu1j-I",
+     "title": "Cuando sale una Bambu Lab nueva, la que baja es la vieja",
+     "channel": "Erwan 3D Studios",
+     "channelId": "UChYPEwjc6Gxt0exAE3fnC1Q",
+     "publishedAt": "2026-10-21T17:30:27Z",
+     "views": 5012,
+     "velocity": 42.66,
+     "duration": "PT47S",
+     "is_short": false
+    },
+    {
+     "id": "3SmhoT3aXCM",
+     "title": "Moonshot Made Kimi K3.1 Pro Worse at Hacking on Purpose #Shorts",
+     "channel": "Wiredown",
+     "channelId": "UCZFo_UcsKccjKrKWhGXcZIg",
+     "publishedAt": "2026-10-25T17:00:24Z",
+     "views": 482,
+     "velocity": 21.91,
+     "duration": "PT39S",
+     "is_short": true
+    },
+    {
+     "id": "HLYuHJ3GnCU",
+     "title": "They Released an AI as a Torrent, With No Explanation",
+     "channel": "Tai Pham Phu",
+     "channelId": "UCAD8pvlwyo2awPhTM16tBBw",
+     "publishedAt": "2026-10-20T15:38:44Z",
+     "views": 1200,
+     "velocity": 8.37,
+     "duration": "PT11M5S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 2.08,
+   "top_velocity": 1270.47
+  },
+  {
+   "lane": "AI predictions & roadmaps",
+   "cluster": "news",
+   "seed_query": "AI in 5 years",
+   "count": 25,
+   "top": [
+    {
+     "id": "hAi0QDbwXCM",
+     "title": "\ud83d\udc51 She Hid the Prince\u2019s Daughter for 5 Years\u2014Until a Royal Mark Exposed Everything! \ud83d\ude31",
+     "channel": "ReelNova Drama Studio",
+     "channelId": "UCbwmYCIIZY78wOlcS0dqyxQ",
+     "publishedAt": "2026-10-25T13:00:37Z",
+     "views": 182532,
+     "velocity": 7021.38,
+     "duration": "PT2H13M33S",
+     "is_short": false
+    },
+    {
+     "id": "l5hGFE-usp0",
+     "title": "5-Year-Old Girl Brings a Letter to a CEO\u2014She's His Secret Daughter & Exposes a Family Conspiracy!",
+     "channel": "Ivy Theater",
+     "channelId": "UCtOvnllJTrK1BmwQTeUGuVg",
+     "publishedAt": "2026-10-24T12:00:24Z",
+     "views": 240124,
+     "velocity": 4708.3,
+     "duration": "PT1H19M48S",
+     "is_short": false
+    },
+    {
+     "id": "A0kTUP7fWtk",
+     "title": "Bill Gates says to prepare for 20 years of tumultuous AI disruption",
+     "channel": "Decoder with Nilay Patel",
+     "channelId": "UCYRwJnCWfBqFHEHrgc18FFw",
+     "publishedAt": "2026-10-22T13:00:32Z",
+     "views": 360435,
+     "velocity": 3677.98,
+     "duration": "PT1H11M4S",
+     "is_short": false
+    },
+    {
+     "id": "wzAiYUcRZO8",
+     "title": "Black Wife Fried Fish for 5 Years to Pay His Tuition \u2014 Then He Told His Boss She Was Just the Maid",
+     "channel": "Black Soul Cinema",
+     "channelId": "UCMcab36SQkdj0eCblXB6pjw",
+     "publishedAt": "2026-10-21T15:30:22Z",
+     "views": 266092,
+     "velocity": 2226.7,
+     "duration": "PT32M22S",
+     "is_short": false
+    },
+    {
+     "id": "n1gXOdLLTz4",
+     "title": "Top 3 AI Predictions For The Future",
+     "channel": "Varun Mayya",
+     "channelId": "UCsQoiOrh7jzKmE8NBofhTnQ",
+     "publishedAt": "2026-10-22T13:32:38Z",
+     "views": 181516,
+     "velocity": 1862.41,
+     "duration": "PT33M48S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 832.65,
+   "top_velocity": 7021.38
+  },
+  {
+   "lane": "AI safety & policy",
+   "cluster": "news",
+   "seed_query": "AI regulation explained",
+   "count": 24,
+   "top": [
+    {
+     "id": "IojXrcx_X3A",
+     "title": "The Real Reason They Want Your Local AI Banned",
+     "channel": "Bruno Vega",
+     "channelId": "UCaTxk8ft0naQMDbWL3msMyQ",
+     "publishedAt": "2026-10-20T10:30:25Z",
+     "views": 16819,
+     "velocity": 113.26,
+     "duration": "PT22M26S",
+     "is_short": false
+    },
+    {
+     "id": "t8Z7NwALNC8",
+     "title": "Don't Panic, POD Sellers: Etsy's New AI Photo Rules Explained",
+     "channel": "Simply Shawna",
+     "channelId": "UCQ9hTFJmeo2m3wEoE3fLNJw",
+     "publishedAt": "2026-10-22T22:45:17Z",
+     "views": 9054,
+     "velocity": 102.59,
+     "duration": "PT24M16S",
+     "is_short": false
+    },
+    {
+     "id": "Ls17vHtPOhw",
+     "title": "US vs EU AI Act: who actually sets the AI rules?",
+     "channel": "Sameeksha Satpathy",
+     "channelId": "UCaIiKRXM0rUJja2vW0fgRjw",
+     "publishedAt": "2026-10-25T20:02:33Z",
+     "views": 310,
+     "velocity": 16.35,
+     "duration": "PT1M33S",
+     "is_short": false
+    },
+    {
+     "id": "UUlYZtke-4g",
+     "title": "\ud83c\udf31 Mendel's Laws of Inheritance Explained.AI Video.#shorts #science #biology #mendelslaws",
+     "channel": " Ram sir Study Centre ",
+     "channelId": "UC-fo7KjlBHbnc2SrEdKKE_Q",
+     "publishedAt": "2026-10-22T00:04:29Z",
+     "views": 617,
+     "velocity": 5.56,
+     "duration": "PT11S",
+     "is_short": true
+    },
+    {
+     "id": "HhZlUkMq8gY",
+     "title": "Meta\u2019s New Rules Explained: Should Businesses Leave Instagram? || @NoriMediaGroup",
+     "channel": "Nori Media Group",
+     "channelId": "UC0zXWUqOffJRirQedh9fIBg",
+     "publishedAt": "2026-10-19T19:30:27Z",
+     "views": 180,
+     "velocity": 1.1,
+     "duration": "PT1M17S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 0.29,
+   "top_velocity": 113.26
+  },
+  {
+   "lane": "Hype vs reality critiques",
+   "cluster": "news",
+   "seed_query": "AI hype debunked",
+   "count": 9,
+   "top": [
+    {
+     "id": "nEkWrmvC-e8",
+     "title": "Every AI hype cycle, explained in 30 seconds #shorts  #artificialintelligence #documentary #adyant",
+     "channel": "Adyant",
+     "channelId": "UCramCxvouqZ1xYy6M_kkQag",
+     "publishedAt": "2026-10-25T19:18:07Z",
+     "views": 536,
+     "velocity": 27.2,
+     "duration": "PT31S",
+     "is_short": true
+    },
+    {
+     "id": "HGHqNKkuPK4",
+     "title": "Gemini 4 Argon Explained: Developers \u0c15\u0c3f \u0c32\u0c3e\u0c2d\u0c2e\u0c3e \u0c32\u0c47\u0c15 Hype \u0c06?",
+     "channel": "The Corporate News",
+     "channelId": "UCUKJiSQUVEQYbrmfvz_x59Q",
+     "publishedAt": "2026-10-24T10:34:03Z",
+     "views": 215,
+     "velocity": 4.1,
+     "duration": "PT12M15S",
+     "is_short": false
+    },
+    {
+     "id": "T_k3qhtzttM",
+     "title": "The biggest lie in the AI hype cycle #ai #tech #debunked",
+     "channel": "The Warrior Mindset",
+     "channelId": "UCQMJh0sPvyUzzS0DXnHa6dA",
+     "publishedAt": "2026-10-21T10:00:16Z",
+     "views": 215,
+     "velocity": 1.72,
+     "duration": "PT48S",
+     "is_short": false
+    },
+    {
+     "id": "W1PfirtjNM8",
+     "title": "AI Explained: Understanding the Software Behind the Hype #shorts",
+     "channel": "DPN Creative",
+     "channelId": "UC_A-nOlreXsTa31_AwOrHvw",
+     "publishedAt": "2026-10-23T14:54:30Z",
+     "views": 48,
+     "velocity": 0.67,
+     "duration": "PT32S",
+     "is_short": true
+    },
+    {
+     "id": "XGHJ5eWdlr8",
+     "title": "AI Drug Discovery Explained: Hype vs. Clinical Reality in 2026",
+     "channel": "Track Health & AI News",
+     "channelId": "UCcRnYGv0vuQ1z72bcRbBaag",
+     "publishedAt": "2026-10-22T14:39:06Z",
+     "views": 57,
+     "velocity": 0.59,
+     "duration": "PT7M30S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 0.59,
+   "top_velocity": 27.2
+  },
+  {
+   "lane": "Industry impact & layoffs",
+   "cluster": "news",
+   "seed_query": "AI taking jobs",
+   "count": 25,
+   "top": [
+    {
+     "id": "hriu0irRcpE",
+     "title": "7 Proven Ways to Make Money With AI (No Experience)",
+     "channel": "Mark Tilbury",
+     "channelId": "UCxgAuX3XZROujMmGphN_scA",
+     "publishedAt": "2026-10-24T11:33:52Z",
+     "views": 466194,
+     "velocity": 9062.44,
+     "duration": "PT26M24S",
+     "is_short": false
+    },
+    {
+     "id": "FcWSIAKMLM0",
+     "title": "Muse is taking jobs from OnlyFans creators",
+     "channel": "Dave Jorgenson",
+     "channelId": "UC4V84y8cUtthXhRzLKSly7A",
+     "publishedAt": "2026-10-20T22:15:14Z",
+     "views": 451409,
+     "velocity": 3300.91,
+     "duration": "PT1M21S",
+     "is_short": false
+    },
+    {
+     "id": "JjTScWVjT-k",
+     "title": "Banking Layoffs 2026: Why Are Banks Worldwide Cutting Jobs? | Spotlight",
+     "channel": "Firstpost",
+     "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
+     "publishedAt": "2026-10-20T13:45:13Z",
+     "views": 356253,
+     "velocity": 2452.63,
+     "duration": "PT14M13S",
+     "is_short": false
+    },
+    {
+     "id": "n1gXOdLLTz4",
+     "title": "Top 3 AI Predictions For The Future",
+     "channel": "Varun Mayya",
+     "channelId": "UCsQoiOrh7jzKmE8NBofhTnQ",
+     "publishedAt": "2026-10-22T13:32:38Z",
+     "views": 181516,
+     "velocity": 1862.41,
+     "duration": "PT33M48S",
+     "is_short": false
+    },
+    {
+     "id": "Mb9GxnmMR0Y",
+     "title": "AI won\u2019t be taking our jobs anytime soon  #milltopmotors #mechaniclife #garage #ai #skit",
+     "channel": "Milltop Motors",
+     "channelId": "UCFdSodQPedrs0yF66cBtSOw",
+     "publishedAt": "2026-10-25T20:00:01Z",
+     "views": 34440,
+     "velocity": 1812.0,
+     "duration": "PT9S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 354.97,
+   "top_velocity": 9062.44
+  },
+  {
+   "lane": "AI for beginners",
+   "cluster": "education",
+   "seed_query": "AI for beginners",
+   "count": 25,
+   "top": [
+    {
+     "id": "u_G9_w7EAHY",
+     "title": "Complete AI Masterclass for Students\ud83d\udd25  | Earn Money Using AI | Prashant Kirad",
+     "channel": "ExpHub - Prashant Kirad",
+     "channelId": "UCgoyBmLOMNWmsiVkj-MezyQ",
+     "publishedAt": "2026-10-24T14:50:38Z",
+     "views": 509392,
+     "velocity": 10576.42,
+     "duration": "PT15M38S",
+     "is_short": false
+    },
+    {
+     "id": "avUsTRL5XS0",
+     "title": "Bodoh AI ke Mahir Dalam 30 Menit (Part 1)",
+     "channel": "Raymond Chin",
+     "channelId": "UCm4eA46c6boHmPrD0Lp2iEg",
+     "publishedAt": "2026-10-21T11:01:45Z",
+     "views": 847193,
+     "velocity": 6833.43,
+     "duration": "PT26M47S",
+     "is_short": false
+    },
+    {
+     "id": "6CxjTF577KY",
+     "title": "Ai se Cartoon Video Kaise Banaye | Step-by-Step Guide (2026) | ai video kaise banaye | cartoon ",
+     "channel": "Spreading Gyan",
+     "channelId": "UCZDCqcWZVNyvTSsoc-chKJg",
+     "publishedAt": "2026-10-20T04:01:28Z",
+     "views": 310474,
+     "velocity": 2003.29,
+     "duration": "PT23M50S",
+     "is_short": false
+    },
+    {
+     "id": "1dvM89NMK3s",
+     "title": "Give Us 20 Minutes, We\u2019ll Teach You 5 AI Side Hustles for 2026",
+     "channel": "Higgsfield AI",
+     "channelId": "UCh13OyDSm-Kb8ij3yZArtFg",
+     "publishedAt": "2026-10-19T17:18:19Z",
+     "views": 312007,
+     "velocity": 1882.95,
+     "duration": "PT22M45S",
+     "is_short": false
+    },
+    {
+     "id": "TC7chleQAxE",
+     "title": "10\u670831\u65e5\u306b\u30aa\u30f3\u30e9\u30a4\u30f3\u3067AI\u30a4\u30d9\u30f3\u30c8\u958b\u50ac\u3057\u307e\u3059\uff01\uff01\uff01\u8a73\u7d30\u30ea\u30f3\u30af\u306f\u6982\u8981\u6b04\u306b\u3066\uff01\u521d\u5fc3\u8005\uff5e\u4e2d\u7d1a\u8005",
+     "channel": "\u30d9\u30f3\u30fb\u30bc\u30a4\u30f3",
+     "channelId": "UC8yA5ym-0X4GJsAFDytuPfw",
+     "publishedAt": "2026-10-25T10:49:10Z",
+     "views": 36704,
+     "velocity": 1302.14,
+     "duration": "PT33S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 619.57,
+   "top_velocity": 10576.42
+  },
+  {
+   "lane": "Math & intuition explainers",
+   "cluster": "education",
+   "seed_query": "how LLMs work",
+   "count": 25,
+   "top": [
+    {
+     "id": "OHBVr8BtYOs",
+     "title": "Generative AI Full Course in 44 Hours | Generative AI Course Beginner to Advanced | Simplilearn",
+     "channel": "Simplilearn",
+     "channelId": "UCsvqVGtbbyHaMoevxPAq9Fg",
+     "publishedAt": "2026-10-20T14:30:37Z",
+     "views": 38737,
+     "velocity": 268.08,
+     "duration": "P1DT19H44M18S",
+     "is_short": false
+    },
+    {
+     "id": "R_UiJQa8VAI",
+     "title": "Inside AI Agents: How They Think, Plan, and Automate Work",
+     "channel": "Great Learning",
+     "channelId": "UCObs0kLIrDjX2LLSybqNaEA",
+     "publishedAt": "2026-10-25T10:30:12Z",
+     "views": 1162,
+     "velocity": 40.77,
+     "duration": "PT1H6M35S",
+     "is_short": false
+    },
+    {
+     "id": "IoS-3FrH6E4",
+     "title": "What Is Agentic AI? How AI Agents Actually Work | Chapter 1",
+     "channel": "SystemDesignMaster",
+     "channelId": "UC06VzeFw0oAGl0L5Dscybng",
+     "publishedAt": "2026-10-25T06:00:21Z",
+     "views": 1219,
+     "velocity": 36.94,
+     "duration": "PT30M18S",
+     "is_short": false
+    },
+    {
+     "id": "MpdjvEnDkww",
+     "title": "ChatGPT Is Just 2 Files: How LLMs Really Work(12-Min Visual Guide)",
+     "channel": "InfoBuzz Tech",
+     "channelId": "UCeXefExX5nEW6o84vO4_DTw",
+     "publishedAt": "2026-10-24T11:30:06Z",
+     "views": 1713,
+     "velocity": 33.26,
+     "duration": "PT12M1S",
+     "is_short": false
+    },
+    {
+     "id": "jq7nFA78QdI",
+     "title": "Transform Your Decision-Making with Data Science and GenAI-Powered Insights",
+     "channel": "Great Learning",
+     "channelId": "UCObs0kLIrDjX2LLSybqNaEA",
+     "publishedAt": "2026-10-24T10:30:07Z",
+     "views": 1147,
+     "velocity": 21.85,
+     "duration": "PT40M27S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 3.19,
+   "top_velocity": 268.08
+  },
+  {
+   "lane": "AI paper walkthroughs",
+   "cluster": "education",
+   "seed_query": "AI paper explained",
+   "count": 25,
+   "top": [
+    {
+     "id": "A_NoHy4BYO4",
+     "title": "\u110f\u1169\u1106\u1166\u11ba vs Viwoods AiPaper Reader, \u1100\u1167\u11af\u1100\u116e\u11a8 \u1111\u1173\u1105\u1175\u1106\u1175\u110b\u1165\u11b7\u110b\u1173\u11ab \u1103\u1161\u11af\u1105\u1161\u11bb\u1103\u1161",
+     "channel": "\ud0dc\uce5c",
+     "channelId": "UCKPI0LH26vVXc4gTsjiDe4w",
+     "publishedAt": "2026-10-24T09:00:16Z",
+     "views": 9374,
+     "velocity": 173.58,
+     "duration": "PT15M39S",
+     "is_short": false
+    },
+    {
+     "id": "24W8-efqx3k",
+     "title": "Read a Research Paper in 2 minutes with FREE AI tools",
+     "channel": "Andy Stapleton",
+     "channelId": "UCFqXmQ56-Gp1rIKa-GoAJvQ",
+     "publishedAt": "2026-10-20T01:30:35Z",
+     "views": 21665,
+     "velocity": 137.56,
+     "duration": "PT8M8S",
+     "is_short": false
+    },
+    {
+     "id": "EFD78ZBf7AM",
+     "title": "RIP LLMs? Stanford's NCM Generates Text 31\u00d7 Faster (Paper Explained) | what is Next Concept Modeling",
+     "channel": "SAI KIRAN VARMA - IIITJ",
+     "channelId": "UCk6xdVrdInVhWEWRxqoUyYw",
+     "publishedAt": "2026-10-23T23:34:07Z",
+     "views": 736,
+     "velocity": 11.6,
+     "duration": "PT8M7S",
+     "is_short": false
+    },
+    {
+     "id": "L31B391miEs",
+     "title": "Why AI Is Bad at Math (17 \u00d7 24) #shorts",
+     "channel": "AI Made Clear",
+     "channelId": "UCI0Bv_7rX09k8V0EmolRHnw",
+     "publishedAt": "2026-10-19T16:00:12Z",
+     "views": 1661,
+     "velocity": 9.95,
+     "duration": "PT51S",
+     "is_short": true
+    },
+    {
+     "id": "rTSmzlAsamA",
+     "title": "An AI Explained It. Should You Trust It? #shorts",
+     "channel": "Dependable Intelligent Systems",
+     "channelId": "UChUwI6yXepqWfkT9UQQ6tIw",
+     "publishedAt": "2026-10-24T16:07:42Z",
+     "views": 108,
+     "velocity": 2.3,
+     "duration": "PT31S",
+     "is_short": true
+    }
+   ],
+   "median_velocity": 1.22,
+   "top_velocity": 173.58
+  },
+  {
+   "lane": "Interviews & podcasts",
+   "cluster": "education",
+   "seed_query": "AI podcast interview",
+   "count": 25,
+   "top": [
+    {
+     "id": "6VTSAs4Rsck",
+     "title": "Mark Cuban: The Brutal Truth About The Next Market Crash!",
+     "channel": "The Diary Of A CEO",
+     "channelId": "UCGq-a57w-aPwyi3pW7XLiHw",
+     "publishedAt": "2026-10-26T07:00:48Z",
+     "views": 758692,
+     "velocity": 94913.27,
+     "duration": "PT1H31M34S",
+     "is_short": false
+    },
+    {
+     "id": "ORWu-SDbgjc",
+     "title": "ChatGPT Whistleblower WARNS: \u201cYou\u2019re Being LIED To\"",
+     "channel": "The Diary Of A CEO Clips",
+     "channelId": "UCnjgxChqYYnyoqO4k_Q1d6Q",
+     "publishedAt": "2026-10-20T18:00:09Z",
+     "views": 2074788,
+     "velocity": 14714.35,
+     "duration": "PT20M1S",
+     "is_short": false
+    },
+    {
+     "id": "AQnwQHMnCrE",
+     "title": "Elon Musk: The End of Work, the Death of Money, and a World Run by AI",
+     "channel": "The Builders",
+     "channelId": "UCG76YUwXNM4_1eIJr83rKJQ",
+     "publishedAt": "2026-10-20T13:35:08Z",
+     "views": 1239397,
+     "velocity": 8522.8,
+     "duration": "PT37M14S",
+     "is_short": false
+    },
+    {
+     "id": "gfQSkHyKyHo",
+     "title": "AJ Gentile - Earth\u2019s Strangest Mysteries and Wildest Conspiracy Theories | SRS #349",
+     "channel": "Shawn Ryan Show",
+     "channelId": "UCkoujZQZatbqy4KGcgjpVxQ",
+     "publishedAt": "2026-10-19T17:30:20Z",
+     "views": 1363071,
+     "velocity": 8236.01,
+     "duration": "PT2H43M23S",
+     "is_short": false
+    },
+    {
+     "id": "HBURqwzzPd4",
+     "title": "Ali G Vs Logan Paul (Unfiltered Interview)",
+     "channel": "IMPAULSIVE",
+     "channelId": "UCGeBogGDZ9W3dsGx-mWQGJA",
+     "publishedAt": "2026-10-21T18:20:50Z",
+     "views": 750427,
+     "velocity": 6432.62,
+     "duration": "PT50M21S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 1357.94,
+   "top_velocity": 94913.27
+  },
+  {
+   "lane": "Case studies & experiments",
+   "cluster": "education",
+   "seed_query": "AI experiment results",
+   "count": 25,
+   "top": [
+    {
+     "id": "xfkfxBlkc6M",
+     "title": "mengemudi helikopter rakitan Ekperimen Artificial Intelligence  Hasilnya Mirip Asli! \ud83e\udd2f\ud83c\udfac #imaginasi",
+     "channel": "Rendy mizy yanry",
+     "channelId": "UCKYm3JYxPOi3ySyM1NNM0YQ",
+     "publishedAt": "2026-10-26T11:01:59Z",
+     "views": 10925,
+     "velocity": 2749.25,
+     "duration": "PT1M58S",
+     "is_short": false
+    },
+    {
+     "id": "LH_GcDMLF0U",
+     "title": "AGE TRIAL RESULTS!!! + A Drink Designed By AI to Reverses Aging",
+     "channel": "Longevity Science News",
+     "channelId": "UC-hyW-B6pWS8lPjZk4zLYcQ",
+     "publishedAt": "2026-10-24T16:00:21Z",
+     "views": 49333,
+     "velocity": 1049.62,
+     "duration": "PT16M47S",
+     "is_short": false
+    },
+    {
+     "id": "c53n4mH_RYg",
+     "title": "I put AI to the test on analog chip design.",
+     "channel": "Zero To ASIC Course",
+     "channelId": "UCImT1ATbb3a4W6oswCd-vfQ",
+     "publishedAt": "2026-10-23T12:05:22Z",
+     "views": 10346,
+     "velocity": 138.1,
+     "duration": "PT15M41S",
+     "is_short": false
+    },
+    {
+     "id": "3KHJiznU3qI",
+     "title": "I Tried 2 AI Side Hustles For 72 Hours (REAL RESULTS)",
+     "channel": "Shivansh Rajbhar",
+     "channelId": "UCN9Npe-1kC-M4azS-kjIJdw",
+     "publishedAt": "2026-10-24T08:54:49Z",
+     "views": 7157,
+     "velocity": 132.31,
+     "duration": "PT10M34S",
+     "is_short": false
+    },
+    {
+     "id": "yiYMaobBCnM",
+     "title": "\ud83e\udd54 The Ultimate AI Laser Potato Peeler Experiment",
+     "channel": "Kundan Kumar",
+     "channelId": "UCPSqLJx-uVcEFhu9UWm7VXQ",
+     "publishedAt": "2026-10-25T12:44:01Z",
+     "views": 1249,
+     "velocity": 47.54,
+     "duration": "PT11S",
+     "is_short": false
+    }
+   ],
+   "median_velocity": 1.64,
+   "top_velocity": 2749.25
+  },
+  {
+   "lane": "Karen-language AI (unique lane)",
+   "cluster": "education",
+   "seed_query": "low resource language AI",
+   "count": 0,
+   "top": [],
+   "median_velocity": 0,
+   "top_velocity": 0
+  }
+ ]
+}

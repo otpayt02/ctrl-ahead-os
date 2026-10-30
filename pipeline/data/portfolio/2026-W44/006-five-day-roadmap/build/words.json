@@ -1,0 +1,6808 @@
+[
+ {
+  "start": 0.0,
+  "end": 5.88,
+  "text": "There's a roadmap going around claiming you can build a production-ready full-stack web app in five days, almost free.",
+  "words": [
+   {
+    "word": " There's",
+    "start": 0.0,
+    "end": 0.26
+   },
+   {
+    "word": " a",
+    "start": 0.26,
+    "end": 0.32
+   },
+   {
+    "word": " roadmap",
+    "start": 0.32,
+    "end": 0.54
+   },
+   {
+    "word": " going",
+    "start": 0.54,
+    "end": 0.9
+   },
+   {
+    "word": " around",
+    "start": 0.9,
+    "end": 1.24
+   },
+   {
+    "word": " claiming",
+    "start": 1.24,
+    "end": 1.6
+   },
+   {
+    "word": " you",
+    "start": 1.6,
+    "end": 1.82
+   },
+   {
+    "word": " can",
+    "start": 1.82,
+    "end": 1.92
+   },
+   {
+    "word": " build",
+    "start": 1.92,
+    "end": 2.18
+   },
+   {
+    "word": " a",
+    "start": 2.18,
+    "end": 2.28
+   },
+   {
+    "word": " production",
+    "start": 2.28,
+    "end": 2.6
+   },
+   {
+    "word": "-ready",
+    "start": 2.6,
+    "end": 2.98
+   },
+   {
+    "word": " full",
+    "start": 2.98,
+    "end": 3.28
+   },
+   {
+    "word": "-stack",
+    "start": 3.28,
+    "end": 3.66
+   },
+   {
+    "word": " web",
+    "start": 3.66,
+    "end": 3.94
+   },
+   {
+    "word": " app",
+    "start": 3.94,
+    "end": 4.18
+   },
+   {
+    "word": " in",
+    "start": 4.18,
+    "end": 4.34
+   },
+   {
+    "word": " five",
+    "start": 4.34,
+    "end": 4.6
+   },
+   {
+    "word": " days,",
+    "start": 4.6,
+    "end": 4.96
+   },
+   {
+    "word": " almost",
+    "start": 5.28,
+    "end": 5.54
+   },
+   {
+    "word": " free.",
+    "start": 5.54,
+    "end": 5.88
+   }
+  ]
+ },
+ {
+  "start": 6.58,
+  "end": 15.66,
+  "text": "It's real, and in the next nine and a half minutes, I'm going to explain every tool in it, what it is, why you need it, what breaks if you skip it, and how to actually do it.",
+  "words": [
+   {
+    "word": " It's",
+    "start": 6.58,
+    "end": 6.74
+   },
+   {
+    "word": " real,",
+    "start": 6.74,
+    "end": 6.88
+   },
+   {
+    "word": " and",
+    "start": 7.34,
+    "end": 7.5
+   },
+   {
+    "word": " in",
+    "start": 7.5,
+    "end": 7.62
+   },
+   {
+    "word": " the",
+    "start": 7.62,
+    "end": 7.66
+   },
+   {
+    "word": " next",
+    "start": 7.66,
+    "end": 7.84
+   },
+   {
+    "word": " nine",
+    "start": 7.84,
+    "end": 8.12
+   },
+   {
+    "word": " and",
+    "start": 8.12,
+    "end": 8.26
+   },
+   {
+    "word": " a",
+    "start": 8.26,
+    "end": 8.3
+   },
+   {
+    "word": " half",
+    "start": 8.3,
+    "end": 8.46
+   },
+   {
+    "word": " minutes,",
+    "start": 8.46,
+    "end": 8.7
+   },
+   {
+    "word": " I'm",
+    "start": 9.0,
+    "end": 9.1
+   },
+   {
+    "word": " going",
+    "start": 9.1,
+    "end": 9.26
+   },
+   {
+    "word": " to",
+    "start": 9.26,
+    "end": 9.38
+   },
+   {
+    "word": " explain",
+    "start": 9.38,
+    "end": 9.68
+   },
+   {
+    "word": " every",
+    "start": 9.68,
+    "end": 10.06
+   },
+   {
+    "word": " tool",
+    "start": 10.06,
+    "end": 10.42
+   },
+   {
+    "word": " in",
+    "start": 10.42,
+    "end": 10.68
+   },
+   {
+    "word": " it,",
+    "start": 10.68,
+    "end": 10.82
+   },
+   {
+    "word": " what",
+    "start": 11.12,
+    "end": 11.38
+   },
+   {
+    "word": " it",
+    "start": 11.38,
+    "end": 11.48
+   },
+   {
+    "word": " is,",
+    "start": 11.48,
+    "end": 11.74
+   },
+   {
+    "word": " why",
+    "start": 12.0,
+    "end": 12.26
+   },
+   {
+    "word": " you",
+    "start": 12.26,
+    "end": 12.4
+   },
+   {
+    "word": " need",
+    "start": 12.4,
+    "end": 12.54
+   },
+   {
+    "word": " it,",
+    "start": 12.54,
+    "end": 12.7
+   },
+   {
+    "word": " what",
+    "start": 13.02,
+    "end": 13.24
+   },
+   {
+    "word": " breaks",
+    "start": 13.24,
+    "end": 13.48
+   },
+   {
+    "word": " if",
+    "start": 13.48,
+    "end": 13.72
+   },
+   {
+    "word": " you",
+    "start": 13.72,
+    "end": 13.82
+   },
+   {
+    "word": " skip",
+    "start": 13.82,
+    "end": 14.0
+   },
+   {
+    "word": " it,",
+    "start": 14.0,
+    "end": 14.2
+   },
+   {
+    "word": " and",
+    "start": 14.48,
+    "end": 14.7
+   },
+   {
+    "word": " how",
+    "start": 14.7,
+    "end": 14.84
+   },
+   {
+    "word": " to",
+    "start": 14.84,
+    "end": 14.92
+   },
+   {
+    "word": " actually",
+    "start": 14.92,
+    "end": 15.24
+   },
+   {
+    "word": " do",
+    "start": 15.24,
+    "end": 15.52
+   },
+   {
+    "word": " it.",
+    "start": 15.52,
+    "end": 15.66
+   }
+  ]
+ },
+ {
+  "start": 16.34,
+  "end": 18.56,
+  "text": "If you can follow a recipe, you can follow this.",
+  "words": [
+   {
+    "word": " If",
+    "start": 16.34,
+    "end": 16.42
+   },
+   {
+    "word": " you",
+    "start": 16.42,
+    "end": 16.52
+   },
+   {
+    "word": " can",
+    "start": 16.52,
+    "end": 16.64
+   },
+   {
+    "word": " follow",
+    "start": 16.64,
+    "end": 16.86
+   },
+   {
+    "word": " a",
+    "start": 16.86,
+    "end": 17.02
+   },
+   {
+    "word": " recipe,",
+    "start": 17.02,
+    "end": 17.32
+   },
+   {
+    "word": " you",
+    "start": 17.8,
+    "end": 17.96
+   },
+   {
+    "word": " can",
+    "start": 17.96,
+    "end": 18.06
+   },
+   {
+    "word": " follow",
+    "start": 18.06,
+    "end": 18.26
+   },
+   {
+    "word": " this.",
+    "start": 18.26,
+    "end": 18.56
+   }
+  ]
+ },
+ {
+  "start": 19.38,
+  "end": 24.9,
+  "text": "Five days, about 38 hours. React front-end, Python backend, paper request everything.",
+  "words": [
+   {
+    "word": " Five",
+    "start": 19.38,
+    "end": 19.4
+   },
+   {
+    "word": " days,",
+    "start": 19.4,
+    "end": 19.62
+   },
+   {
+    "word": " about",
+    "start": 19.94,
+    "end": 20.16
+   },
+   {
+    "word": " 38",
+    "start": 20.16,
+    "end": 20.58
+   },
+   {
+    "word": " hours.",
+    "start": 20.58,
+    "end": 20.98
+   },
+   {
+    "word": " React",
+    "start": 21.64,
+    "end": 21.78
+   },
+   {
+    "word": " front",
+    "start": 21.78,
+    "end": 22.08
+   },
+   {
+    "word": "-end,",
+    "start": 22.08,
+    "end": 22.26
+   },
+   {
+    "word": " Python",
+    "start": 22.58,
+    "end": 22.72
+   },
+   {
+    "word": " backend,",
+    "start": 22.72,
+    "end": 23.24
+   },
+   {
+    "word": " paper",
+    "start": 24.12,
+    "end": 24.12
+   },
+   {
+    "word": " request",
+    "start": 24.12,
+    "end": 24.44
+   },
+   {
+    "word": " everything.",
+    "start": 24.44,
+    "end": 24.9
+   }
+  ]
+ },
+ {
+  "start": 25.54,
+  "end": 33.8,
+  "text": "Day one sets up your tools. Day two builds what users see. Day three, the logic. Day four, the memory. Day five, you go live.",
+  "words": [
+   {
+    "word": " Day",
+    "start": 25.54,
+    "end": 26.02
+   },
+   {
+    "word": " one",
+    "start": 26.02,
+    "end": 26.22
+   },
+   {
+    "word": " sets",
+    "start": 26.22,
+    "end": 26.48
+   },
+   {
+    "word": " up",
+    "start": 26.48,
+    "end": 26.66
+   },
+   {
+    "word": " your",
+    "start": 26.66,
+    "end": 26.78
+   },
+   {
+    "word": " tools.",
+    "start": 26.78,
+    "end": 27.0
+   },
+   {
+    "word": " Day",
+    "start": 27.78,
+    "end": 27.78
+   },
+   {
+    "word": " two",
+    "start": 27.78,
+    "end": 28.0
+   },
+   {
+    "word": " builds",
+    "start": 28.0,
+    "end": 28.3
+   },
+   {
+    "word": " what",
+    "start": 28.3,
+    "end": 28.52
+   },
+   {
+    "word": " users",
+    "start": 28.52,
+    "end": 28.76
+   },
+   {
+    "word": " see.",
+    "start": 28.76,
+    "end": 29.12
+   },
+   {
+    "word": " Day",
+    "start": 29.74,
+    "end": 29.86
+   },
+   {
+    "word": " three,",
+    "start": 29.86,
+    "end": 30.14
+   },
+   {
+    "word": " the",
+    "start": 30.4,
+    "end": 30.5
+   },
+   {
+    "word": " logic.",
+    "start": 30.5,
+    "end": 30.76
+   },
+   {
+    "word": " Day",
+    "start": 31.36,
+    "end": 31.46
+   },
+   {
+    "word": " four,",
+    "start": 31.46,
+    "end": 31.7
+   },
+   {
+    "word": " the",
+    "start": 31.8,
+    "end": 31.9
+   },
+   {
+    "word": " memory.",
+    "start": 31.9,
+    "end": 32.1
+   },
+   {
+    "word": " Day",
+    "start": 32.76,
+    "end": 32.8
+   },
+   {
+    "word": " five,",
+    "start": 32.8,
+    "end": 33.14
+   },
+   {
+    "word": " you",
+    "start": 33.14,
+    "end": 33.46
+   },
+   {
+    "word": " go",
+    "start": 33.46,
+    "end": 33.58
+   },
+   {
+    "word": " live.",
+    "start": 33.58,
+    "end": 33.8
+   }
+  ]
+ },
+ {
+  "start": 34.56,
+  "end": 41.06,
+  "text": "Let's go. Get created in 2005 when Linus Torvalds built a version control system in about 10 days.",
+  "words": [
+   {
+    "word": " Let's",
+    "start": 34.56,
+    "end": 34.78
+   },
+   {
+    "word": " go.",
+    "start": 34.78,
+    "end": 34.9
+   },
+   {
+    "word": " Get",
+    "start": 35.7,
+    "end": 35.7
+   },
+   {
+    "word": " created",
+    "start": 35.7,
+    "end": 36.44
+   },
+   {
+    "word": " in",
+    "start": 36.44,
+    "end": 36.64
+   },
+   {
+    "word": " 2005",
+    "start": 36.64,
+    "end": 37.26
+   },
+   {
+    "word": " when",
+    "start": 37.26,
+    "end": 37.76
+   },
+   {
+    "word": " Linus",
+    "start": 37.76,
+    "end": 38.16
+   },
+   {
+    "word": " Torvalds",
+    "start": 38.16,
+    "end": 38.8
+   },
+   {
+    "word": " built",
+    "start": 38.8,
+    "end": 38.96
+   },
+   {
+    "word": " a",
+    "start": 38.96,
+    "end": 39.1
+   },
+   {
+    "word": " version",
+    "start": 39.1,
+    "end": 39.32
+   },
+   {
+    "word": " control",
+    "start": 39.32,
+    "end": 39.58
+   },
+   {
+    "word": " system",
+    "start": 39.58,
+    "end": 40.14
+   },
+   {
+    "word": " in",
+    "start": 40.14,
+    "end": 40.28
+   },
+   {
+    "word": " about",
+    "start": 40.28,
+    "end": 40.4
+   },
+   {
+    "word": " 10",
+    "start": 40.4,
+    "end": 40.72
+   },
+   {
+    "word": " days.",
+    "start": 40.72,
+    "end": 41.06
+   }
+  ]
+ },
+ {
+  "start": 41.86,
+  "end": 46.54,
+  "text": "What it is, a time machine for your code. Every working version saved as a checkpoint.",
+  "words": [
+   {
+    "word": " What",
+    "start": 41.86,
+    "end": 42.0
+   },
+   {
+    "word": " it",
+    "start": 42.0,
+    "end": 42.1
+   },
+   {
+    "word": " is,",
+    "start": 42.1,
+    "end": 42.28
+   },
+   {
+    "word": " a",
+    "start": 42.66,
+    "end": 42.9
+   },
+   {
+    "word": " time",
+    "start": 42.9,
+    "end": 43.04
+   },
+   {
+    "word": " machine",
+    "start": 43.04,
+    "end": 43.36
+   },
+   {
+    "word": " for",
+    "start": 43.36,
+    "end": 43.58
+   },
+   {
+    "word": " your",
+    "start": 43.58,
+    "end": 43.68
+   },
+   {
+    "word": " code.",
+    "start": 43.68,
+    "end": 43.9
+   },
+   {
+    "word": " Every",
+    "start": 44.68,
+    "end": 44.9
+   },
+   {
+    "word": " working",
+    "start": 44.9,
+    "end": 45.26
+   },
+   {
+    "word": " version",
+    "start": 45.26,
+    "end": 45.58
+   },
+   {
+    "word": " saved",
+    "start": 45.58,
+    "end": 45.96
+   },
+   {
+    "word": " as",
+    "start": 45.96,
+    "end": 46.26
+   },
+   {
+    "word": " a",
+    "start": 46.26,
+    "end": 46.34
+   },
+   {
+    "word": " checkpoint.",
+    "start": 46.34,
+    "end": 46.54
+   }
+  ]
+ },
+ {
+  "start": 47.56,
+  "end": 50.9,
+  "text": "While you need it, production code changes daily, and you need undo.",
+  "words": [
+   {
+    "word": " While",
+    "start": 47.56,
+    "end": 47.74
+   },
+   {
+    "word": " you",
+    "start": 47.74,
+    "end": 47.88
+   },
+   {
+    "word": " need",
+    "start": 47.88,
+    "end": 48.02
+   },
+   {
+    "word": " it,",
+    "start": 48.02,
+    "end": 48.18
+   },
+   {
+    "word": " production",
+    "start": 48.54,
+    "end": 48.82
+   },
+   {
+    "word": " code",
+    "start": 48.82,
+    "end": 49.22
+   },
+   {
+    "word": " changes",
+    "start": 49.22,
+    "end": 49.62
+   },
+   {
+    "word": " daily,",
+    "start": 49.62,
+    "end": 49.92
+   },
+   {
+    "word": " and",
+    "start": 50.26,
+    "end": 50.3
+   },
+   {
+    "word": " you",
+    "start": 50.3,
+    "end": 50.4
+   },
+   {
+    "word": " need",
+    "start": 50.4,
+    "end": 50.6
+   },
+   {
+    "word": " undo.",
+    "start": 50.6,
+    "end": 50.9
+   }
+  ]
+ },
+ {
+  "start": 51.58,
+  "end": 55.28,
+  "text": "Skip it, and one bad edit costs you a day of guessing what changed.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 51.58,
+    "end": 52.08
+   },
+   {
+    "word": " it,",
+    "start": 52.08,
+    "end": 52.26
+   },
+   {
+    "word": " and",
+    "start": 52.5,
+    "end": 52.66
+   },
+   {
+    "word": " one",
+    "start": 52.66,
+    "end": 52.88
+   },
+   {
+    "word": " bad",
+    "start": 52.88,
+    "end": 53.12
+   },
+   {
+    "word": " edit",
+    "start": 53.12,
+    "end": 53.36
+   },
+   {
+    "word": " costs",
+    "start": 53.36,
+    "end": 53.64
+   },
+   {
+    "word": " you",
+    "start": 53.64,
+    "end": 53.94
+   },
+   {
+    "word": " a",
+    "start": 53.94,
+    "end": 54.02
+   },
+   {
+    "word": " day",
+    "start": 54.02,
+    "end": 54.24
+   },
+   {
+    "word": " of",
+    "start": 54.24,
+    "end": 54.4
+   },
+   {
+    "word": " guessing",
+    "start": 54.4,
+    "end": 54.72
+   },
+   {
+    "word": " what",
+    "start": 54.72,
+    "end": 54.92
+   },
+   {
+    "word": " changed.",
+    "start": 54.92,
+    "end": 55.28
+   }
+  ]
+ },
+ {
+  "start": 56.16,
+  "end": 62.06,
+  "text": "How? Get in it. Commit every time something works. Push to GitHub. Your AWS account.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 56.16,
+    "end": 56.32
+   },
+   {
+    "word": " Get",
+    "start": 57.06,
+    "end": 57.06
+   },
+   {
+    "word": " in",
+    "start": 57.06,
+    "end": 57.3
+   },
+   {
+    "word": " it.",
+    "start": 57.3,
+    "end": 57.38
+   },
+   {
+    "word": " Commit",
+    "start": 57.88,
+    "end": 57.96
+   },
+   {
+    "word": " every",
+    "start": 57.96,
+    "end": 58.28
+   },
+   {
+    "word": " time",
+    "start": 58.28,
+    "end": 58.58
+   },
+   {
+    "word": " something",
+    "start": 58.58,
+    "end": 58.92
+   },
+   {
+    "word": " works.",
+    "start": 58.92,
+    "end": 59.2
+   },
+   {
+    "word": " Push",
+    "start": 59.68,
+    "end": 59.84
+   },
+   {
+    "word": " to",
+    "start": 59.84,
+    "end": 60.02
+   },
+   {
+    "word": " GitHub.",
+    "start": 60.02,
+    "end": 60.16
+   },
+   {
+    "word": " Your",
+    "start": 61.04,
+    "end": 61.12
+   },
+   {
+    "word": " AWS",
+    "start": 61.12,
+    "end": 61.38
+   },
+   {
+    "word": " account.",
+    "start": 61.38,
+    "end": 62.06
+   }
+  ]
+ },
+ {
+  "start": 62.62,
+  "end": 65.98,
+  "text": "Amazon's cloud launched in 2006 with one storage service.",
+  "words": [
+   {
+    "word": " Amazon's",
+    "start": 62.62,
+    "end": 63.1
+   },
+   {
+    "word": " cloud",
+    "start": 63.1,
+    "end": 63.3
+   },
+   {
+    "word": " launched",
+    "start": 63.3,
+    "end": 63.64
+   },
+   {
+    "word": " in",
+    "start": 63.64,
+    "end": 63.9
+   },
+   {
+    "word": " 2006",
+    "start": 63.9,
+    "end": 64.6
+   },
+   {
+    "word": " with",
+    "start": 64.6,
+    "end": 64.96
+   },
+   {
+    "word": " one",
+    "start": 64.96,
+    "end": 65.22
+   },
+   {
+    "word": " storage",
+    "start": 65.22,
+    "end": 65.46
+   },
+   {
+    "word": " service.",
+    "start": 65.46,
+    "end": 65.98
+   }
+  ]
+ },
+ {
+  "start": 66.66,
+  "end": 70.3,
+  "text": "What it is, where everything else in this video lives, metered like a utility.",
+  "words": [
+   {
+    "word": " What",
+    "start": 66.66,
+    "end": 66.8
+   },
+   {
+    "word": " it",
+    "start": 66.8,
+    "end": 66.9
+   },
+   {
+    "word": " is,",
+    "start": 66.9,
+    "end": 67.1
+   },
+   {
+    "word": " where",
+    "start": 67.5,
+    "end": 67.74
+   },
+   {
+    "word": " everything",
+    "start": 67.74,
+    "end": 68.04
+   },
+   {
+    "word": " else",
+    "start": 68.04,
+    "end": 68.32
+   },
+   {
+    "word": " in",
+    "start": 68.32,
+    "end": 68.46
+   },
+   {
+    "word": " this",
+    "start": 68.46,
+    "end": 68.58
+   },
+   {
+    "word": " video",
+    "start": 68.58,
+    "end": 68.86
+   },
+   {
+    "word": " lives,",
+    "start": 68.86,
+    "end": 69.14
+   },
+   {
+    "word": " metered",
+    "start": 69.68,
+    "end": 69.8
+   },
+   {
+    "word": " like",
+    "start": 69.8,
+    "end": 70.02
+   },
+   {
+    "word": " a",
+    "start": 70.02,
+    "end": 70.12
+   },
+   {
+    "word": " utility.",
+    "start": 70.12,
+    "end": 70.3
+   }
+  ]
+ },
+ {
+  "start": 70.94,
+  "end": 74.18,
+  "text": "Why? An app with no traffic costs almost nothing.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 70.94,
+    "end": 71.44
+   },
+   {
+    "word": " An",
+    "start": 72.2,
+    "end": 72.22
+   },
+   {
+    "word": " app",
+    "start": 72.22,
+    "end": 72.42
+   },
+   {
+    "word": " with",
+    "start": 72.42,
+    "end": 72.6
+   },
+   {
+    "word": " no",
+    "start": 72.6,
+    "end": 72.78
+   },
+   {
+    "word": " traffic",
+    "start": 72.78,
+    "end": 73.06
+   },
+   {
+    "word": " costs",
+    "start": 73.06,
+    "end": 73.44
+   },
+   {
+    "word": " almost",
+    "start": 73.44,
+    "end": 73.76
+   },
+   {
+    "word": " nothing.",
+    "start": 73.76,
+    "end": 74.18
+   }
+  ]
+ },
+ {
+  "start": 74.78,
+  "end": 77.3,
+  "text": "Skip it, and you're building a website that only you can see.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 74.78,
+    "end": 75.12
+   },
+   {
+    "word": " it,",
+    "start": 75.12,
+    "end": 75.28
+   },
+   {
+    "word": " and",
+    "start": 75.28,
+    "end": 75.46
+   },
+   {
+    "word": " you're",
+    "start": 75.46,
+    "end": 75.54
+   },
+   {
+    "word": " building",
+    "start": 75.54,
+    "end": 75.78
+   },
+   {
+    "word": " a",
+    "start": 75.78,
+    "end": 75.92
+   },
+   {
+    "word": " website",
+    "start": 75.92,
+    "end": 76.2
+   },
+   {
+    "word": " that",
+    "start": 76.2,
+    "end": 76.48
+   },
+   {
+    "word": " only",
+    "start": 76.48,
+    "end": 76.68
+   },
+   {
+    "word": " you",
+    "start": 76.68,
+    "end": 76.94
+   },
+   {
+    "word": " can",
+    "start": 76.94,
+    "end": 77.08
+   },
+   {
+    "word": " see.",
+    "start": 77.08,
+    "end": 77.3
+   }
+  ]
+ },
+ {
+  "start": 77.3,
+  "end": 81.58,
+  "text": "How? Sign up, stay in the free tier, done in 15 minutes.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 77.3,
+    "end": 78.28
+   },
+   {
+    "word": " Sign",
+    "start": 78.78,
+    "end": 79.06
+   },
+   {
+    "word": " up,",
+    "start": 79.06,
+    "end": 79.24
+   },
+   {
+    "word": " stay",
+    "start": 79.46,
+    "end": 79.72
+   },
+   {
+    "word": " in",
+    "start": 79.72,
+    "end": 79.84
+   },
+   {
+    "word": " the",
+    "start": 79.84,
+    "end": 79.9
+   },
+   {
+    "word": " free",
+    "start": 79.9,
+    "end": 80.04
+   },
+   {
+    "word": " tier,",
+    "start": 80.04,
+    "end": 80.28
+   },
+   {
+    "word": " done",
+    "start": 80.62,
+    "end": 80.78
+   },
+   {
+    "word": " in",
+    "start": 80.78,
+    "end": 80.92
+   },
+   {
+    "word": " 15",
+    "start": 80.92,
+    "end": 81.24
+   },
+   {
+    "word": " minutes.",
+    "start": 81.24,
+    "end": 81.58
+   }
+  ]
+ },
+ {
+  "start": 82.26,
+  "end": 86.56,
+  "text": "Docker, open sourced in 2013 by a tiny startup called .cloud.",
+  "words": [
+   {
+    "word": " Docker,",
+    "start": 82.26,
+    "end": 82.46
+   },
+   {
+    "word": " open",
+    "start": 83.0,
+    "end": 83.28
+   },
+   {
+    "word": " sourced",
+    "start": 83.28,
+    "end": 83.56
+   },
+   {
+    "word": " in",
+    "start": 83.56,
+    "end": 83.82
+   },
+   {
+    "word": " 2013",
+    "start": 83.82,
+    "end": 84.28
+   },
+   {
+    "word": " by",
+    "start": 84.28,
+    "end": 84.82
+   },
+   {
+    "word": " a",
+    "start": 84.82,
+    "end": 84.94
+   },
+   {
+    "word": " tiny",
+    "start": 84.94,
+    "end": 85.18
+   },
+   {
+    "word": " startup",
+    "start": 85.18,
+    "end": 85.56
+   },
+   {
+    "word": " called",
+    "start": 85.56,
+    "end": 85.98
+   },
+   {
+    "word": " .cloud.",
+    "start": 85.98,
+    "end": 86.56
+   }
+  ]
+ },
+ {
+  "start": 87.34,
+  "end": 91.22,
+  "text": "What it is, a box that packs your app plus everything it needs to run.",
+  "words": [
+   {
+    "word": " What",
+    "start": 87.34,
+    "end": 87.64
+   },
+   {
+    "word": " it",
+    "start": 87.64,
+    "end": 87.74
+   },
+   {
+    "word": " is,",
+    "start": 87.74,
+    "end": 87.96
+   },
+   {
+    "word": " a",
+    "start": 88.4,
+    "end": 88.62
+   },
+   {
+    "word": " box",
+    "start": 88.62,
+    "end": 88.82
+   },
+   {
+    "word": " that",
+    "start": 88.82,
+    "end": 89.08
+   },
+   {
+    "word": " packs",
+    "start": 89.08,
+    "end": 89.28
+   },
+   {
+    "word": " your",
+    "start": 89.28,
+    "end": 89.56
+   },
+   {
+    "word": " app",
+    "start": 89.56,
+    "end": 89.78
+   },
+   {
+    "word": " plus",
+    "start": 89.78,
+    "end": 90.06
+   },
+   {
+    "word": " everything",
+    "start": 90.06,
+    "end": 90.42
+   },
+   {
+    "word": " it",
+    "start": 90.42,
+    "end": 90.7
+   },
+   {
+    "word": " needs",
+    "start": 90.7,
+    "end": 90.82
+   },
+   {
+    "word": " to",
+    "start": 90.82,
+    "end": 91.04
+   },
+   {
+    "word": " run.",
+    "start": 91.04,
+    "end": 91.22
+   }
+  ]
+ },
+ {
+  "start": 91.8,
+  "end": 96.32,
+  "text": "Why? The box behaves identically on your laptop and on the live site.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 91.8,
+    "end": 92.32
+   },
+   {
+    "word": " The",
+    "start": 93.02,
+    "end": 93.16
+   },
+   {
+    "word": " box",
+    "start": 93.16,
+    "end": 93.3
+   },
+   {
+    "word": " behaves",
+    "start": 93.3,
+    "end": 93.7
+   },
+   {
+    "word": " identically",
+    "start": 93.7,
+    "end": 94.44
+   },
+   {
+    "word": " on",
+    "start": 94.44,
+    "end": 94.64
+   },
+   {
+    "word": " your",
+    "start": 94.64,
+    "end": 94.72
+   },
+   {
+    "word": " laptop",
+    "start": 94.72,
+    "end": 95.0
+   },
+   {
+    "word": " and",
+    "start": 95.0,
+    "end": 95.6
+   },
+   {
+    "word": " on",
+    "start": 95.6,
+    "end": 95.76
+   },
+   {
+    "word": " the",
+    "start": 95.76,
+    "end": 95.84
+   },
+   {
+    "word": " live",
+    "start": 95.84,
+    "end": 95.98
+   },
+   {
+    "word": " site.",
+    "start": 95.98,
+    "end": 96.32
+   }
+  ]
+ },
+ {
+  "start": 97.06,
+  "end": 100.16,
+  "text": "Skip it and you'll meet the works on my machine bug on launch day.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 97.06,
+    "end": 97.28
+   },
+   {
+    "word": " it",
+    "start": 97.28,
+    "end": 97.46
+   },
+   {
+    "word": " and",
+    "start": 97.46,
+    "end": 97.6
+   },
+   {
+    "word": " you'll",
+    "start": 97.6,
+    "end": 97.74
+   },
+   {
+    "word": " meet",
+    "start": 97.74,
+    "end": 97.88
+   },
+   {
+    "word": " the",
+    "start": 97.88,
+    "end": 98.08
+   },
+   {
+    "word": " works",
+    "start": 98.08,
+    "end": 98.38
+   },
+   {
+    "word": " on",
+    "start": 98.38,
+    "end": 98.62
+   },
+   {
+    "word": " my",
+    "start": 98.62,
+    "end": 98.8
+   },
+   {
+    "word": " machine",
+    "start": 98.8,
+    "end": 99.1
+   },
+   {
+    "word": " bug",
+    "start": 99.1,
+    "end": 99.4
+   },
+   {
+    "word": " on",
+    "start": 99.4,
+    "end": 99.66
+   },
+   {
+    "word": " launch",
+    "start": 99.66,
+    "end": 99.84
+   },
+   {
+    "word": " day.",
+    "start": 99.84,
+    "end": 100.16
+   }
+  ]
+ },
+ {
+  "start": 100.86,
+  "end": 105.1,
+  "text": "How? One Docker file, Docker build. That's the 30 minute version.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 100.86,
+    "end": 101.18
+   },
+   {
+    "word": " One",
+    "start": 102.02,
+    "end": 102.02
+   },
+   {
+    "word": " Docker",
+    "start": 102.02,
+    "end": 102.24
+   },
+   {
+    "word": " file,",
+    "start": 102.24,
+    "end": 102.62
+   },
+   {
+    "word": " Docker",
+    "start": 102.98,
+    "end": 103.2
+   },
+   {
+    "word": " build.",
+    "start": 103.2,
+    "end": 103.48
+   },
+   {
+    "word": " That's",
+    "start": 104.16,
+    "end": 104.36
+   },
+   {
+    "word": " the",
+    "start": 104.36,
+    "end": 104.46
+   },
+   {
+    "word": " 30",
+    "start": 104.46,
+    "end": 104.64
+   },
+   {
+    "word": " minute",
+    "start": 104.64,
+    "end": 104.88
+   },
+   {
+    "word": " version.",
+    "start": 104.88,
+    "end": 105.1
+   }
+  ]
+ },
+ {
+  "start": 105.64,
+  "end": 111.0,
+  "text": "Cursor, released in 2023 by four MIT students, an editor with AI built in,",
+  "words": [
+   {
+    "word": " Cursor,",
+    "start": 105.64,
+    "end": 106.12
+   },
+   {
+    "word": " released",
+    "start": 106.42,
+    "end": 106.64
+   },
+   {
+    "word": " in",
+    "start": 106.64,
+    "end": 106.86
+   },
+   {
+    "word": " 2023",
+    "start": 106.86,
+    "end": 107.6
+   },
+   {
+    "word": " by",
+    "start": 107.6,
+    "end": 107.82
+   },
+   {
+    "word": " four",
+    "start": 107.82,
+    "end": 108.14
+   },
+   {
+    "word": " MIT",
+    "start": 108.14,
+    "end": 108.44
+   },
+   {
+    "word": " students,",
+    "start": 108.44,
+    "end": 109.02
+   },
+   {
+    "word": " an",
+    "start": 109.56,
+    "end": 109.62
+   },
+   {
+    "word": " editor",
+    "start": 109.62,
+    "end": 109.9
+   },
+   {
+    "word": " with",
+    "start": 109.9,
+    "end": 110.14
+   },
+   {
+    "word": " AI",
+    "start": 110.14,
+    "end": 110.36
+   },
+   {
+    "word": " built",
+    "start": 110.36,
+    "end": 110.78
+   },
+   {
+    "word": " in,",
+    "start": 110.78,
+    "end": 111.0
+   }
+  ]
+ },
+ {
+  "start": 111.4,
+  "end": 115.16,
+  "text": "paired with Claude Sonnet 4. It's a junior developer who types instantly.",
+  "words": [
+   {
+    "word": " paired",
+    "start": 111.4,
+    "end": 111.62
+   },
+   {
+    "word": " with",
+    "start": 111.62,
+    "end": 111.84
+   },
+   {
+    "word": " Claude",
+    "start": 111.84,
+    "end": 112.08
+   },
+   {
+    "word": " Sonnet",
+    "start": 112.08,
+    "end": 112.56
+   },
+   {
+    "word": " 4.",
+    "start": 112.56,
+    "end": 112.8
+   },
+   {
+    "word": " It's",
+    "start": 113.36,
+    "end": 113.48
+   },
+   {
+    "word": " a",
+    "start": 113.48,
+    "end": 113.54
+   },
+   {
+    "word": " junior",
+    "start": 113.54,
+    "end": 113.7
+   },
+   {
+    "word": " developer",
+    "start": 113.7,
+    "end": 114.08
+   },
+   {
+    "word": " who",
+    "start": 114.08,
+    "end": 114.42
+   },
+   {
+    "word": " types",
+    "start": 114.42,
+    "end": 114.58
+   },
+   {
+    "word": " instantly.",
+    "start": 114.58,
+    "end": 115.16
+   }
+  ]
+ },
+ {
+  "start": 115.98,
+  "end": 120.92,
+  "text": "Why? The five-day timeline only exists because the AI writes the boilerplate while you review.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 115.98,
+    "end": 116.16
+   },
+   {
+    "word": " The",
+    "start": 116.62,
+    "end": 116.78
+   },
+   {
+    "word": " five",
+    "start": 116.78,
+    "end": 116.98
+   },
+   {
+    "word": "-day",
+    "start": 116.98,
+    "end": 117.16
+   },
+   {
+    "word": " timeline",
+    "start": 117.16,
+    "end": 117.5
+   },
+   {
+    "word": " only",
+    "start": 117.5,
+    "end": 117.92
+   },
+   {
+    "word": " exists",
+    "start": 117.92,
+    "end": 118.26
+   },
+   {
+    "word": " because",
+    "start": 118.26,
+    "end": 118.76
+   },
+   {
+    "word": " the",
+    "start": 118.76,
+    "end": 118.9
+   },
+   {
+    "word": " AI",
+    "start": 118.9,
+    "end": 119.12
+   },
+   {
+    "word": " writes",
+    "start": 119.12,
+    "end": 119.5
+   },
+   {
+    "word": " the",
+    "start": 119.5,
+    "end": 119.7
+   },
+   {
+    "word": " boilerplate",
+    "start": 119.7,
+    "end": 120.22
+   },
+   {
+    "word": " while",
+    "start": 120.22,
+    "end": 120.46
+   },
+   {
+    "word": " you",
+    "start": 120.46,
+    "end": 120.68
+   },
+   {
+    "word": " review.",
+    "start": 120.68,
+    "end": 120.92
+   }
+  ]
+ },
+ {
+  "start": 121.68,
+  "end": 126.6,
+  "text": "Skip it, and this is a five-week project. How? Install it, open your project,",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 121.68,
+    "end": 121.96
+   },
+   {
+    "word": " it,",
+    "start": 121.96,
+    "end": 122.16
+   },
+   {
+    "word": " and",
+    "start": 122.3,
+    "end": 122.4
+   },
+   {
+    "word": " this",
+    "start": 122.4,
+    "end": 122.54
+   },
+   {
+    "word": " is",
+    "start": 122.54,
+    "end": 122.62
+   },
+   {
+    "word": " a",
+    "start": 122.62,
+    "end": 122.7
+   },
+   {
+    "word": " five",
+    "start": 122.7,
+    "end": 122.96
+   },
+   {
+    "word": "-week",
+    "start": 122.96,
+    "end": 123.2
+   },
+   {
+    "word": " project.",
+    "start": 123.2,
+    "end": 123.64
+   },
+   {
+    "word": " How?",
+    "start": 124.36,
+    "end": 124.56
+   },
+   {
+    "word": " Install",
+    "start": 125.42,
+    "end": 125.42
+   },
+   {
+    "word": " it,",
+    "start": 125.42,
+    "end": 125.64
+   },
+   {
+    "word": " open",
+    "start": 126.0,
+    "end": 126.1
+   },
+   {
+    "word": " your",
+    "start": 126.1,
+    "end": 126.28
+   },
+   {
+    "word": " project,",
+    "start": 126.28,
+    "end": 126.6
+   }
+  ]
+ },
+ {
+  "start": 127.06,
+  "end": 128.78,
+  "text": "and discrete what you want in plain English.",
+  "words": [
+   {
+    "word": " and",
+    "start": 127.06,
+    "end": 127.16
+   },
+   {
+    "word": " discrete",
+    "start": 127.16,
+    "end": 127.34
+   },
+   {
+    "word": " what",
+    "start": 127.34,
+    "end": 127.64
+   },
+   {
+    "word": " you",
+    "start": 127.64,
+    "end": 127.76
+   },
+   {
+    "word": " want",
+    "start": 127.76,
+    "end": 127.96
+   },
+   {
+    "word": " in",
+    "start": 127.96,
+    "end": 128.14
+   },
+   {
+    "word": " plain",
+    "start": 128.14,
+    "end": 128.38
+   },
+   {
+    "word": " English.",
+    "start": 128.38,
+    "end": 128.78
+   }
+  ]
+ },
+ {
+  "start": 129.44,
+  "end": 133.42,
+  "text": "Amplify, born in 2017. What it is, a publisher.",
+  "words": [
+   {
+    "word": " Amplify,",
+    "start": 129.44,
+    "end": 129.92
+   },
+   {
+    "word": " born",
+    "start": 130.24,
+    "end": 130.52
+   },
+   {
+    "word": " in",
+    "start": 130.52,
+    "end": 130.7
+   },
+   {
+    "word": " 2017.",
+    "start": 130.7,
+    "end": 131.06
+   },
+   {
+    "word": " What",
+    "start": 132.18,
+    "end": 132.32
+   },
+   {
+    "word": " it",
+    "start": 132.32,
+    "end": 132.4
+   },
+   {
+    "word": " is,",
+    "start": 132.4,
+    "end": 132.56
+   },
+   {
+    "word": " a",
+    "start": 133.02,
+    "end": 133.2
+   },
+   {
+    "word": " publisher.",
+    "start": 133.2,
+    "end": 133.42
+   }
+  ]
+ },
+ {
+  "start": 133.42,
+  "end": 137.54,
+  "text": "Every time you push code, it automatically republishes your live site",
+  "words": [
+   {
+    "word": " Every",
+    "start": 133.42,
+    "end": 134.38
+   },
+   {
+    "word": " time",
+    "start": 134.38,
+    "end": 134.64
+   },
+   {
+    "word": " you",
+    "start": 134.64,
+    "end": 134.74
+   },
+   {
+    "word": " push",
+    "start": 134.74,
+    "end": 134.92
+   },
+   {
+    "word": " code,",
+    "start": 134.92,
+    "end": 135.24
+   },
+   {
+    "word": " it",
+    "start": 135.52,
+    "end": 135.56
+   },
+   {
+    "word": " automatically",
+    "start": 135.56,
+    "end": 135.96
+   },
+   {
+    "word": " republishes",
+    "start": 135.96,
+    "end": 136.78
+   },
+   {
+    "word": " your",
+    "start": 136.78,
+    "end": 137.02
+   },
+   {
+    "word": " live",
+    "start": 137.02,
+    "end": 137.18
+   },
+   {
+    "word": " site",
+    "start": 137.18,
+    "end": 137.54
+   }
+  ]
+ },
+ {
+  "start": 137.54,
+  "end": 142.56,
+  "text": "with security certificates included. Why? Launch day plumbing handled for free.",
+  "words": [
+   {
+    "word": " with",
+    "start": 137.54,
+    "end": 138.08
+   },
+   {
+    "word": " security",
+    "start": 138.08,
+    "end": 138.36
+   },
+   {
+    "word": " certificates",
+    "start": 138.36,
+    "end": 138.96
+   },
+   {
+    "word": " included.",
+    "start": 138.96,
+    "end": 139.34
+   },
+   {
+    "word": " Why?",
+    "start": 140.22,
+    "end": 140.36
+   },
+   {
+    "word": " Launch",
+    "start": 140.88,
+    "end": 141.22
+   },
+   {
+    "word": " day",
+    "start": 141.22,
+    "end": 141.38
+   },
+   {
+    "word": " plumbing",
+    "start": 141.38,
+    "end": 141.6
+   },
+   {
+    "word": " handled",
+    "start": 141.6,
+    "end": 142.0
+   },
+   {
+    "word": " for",
+    "start": 142.0,
+    "end": 142.26
+   },
+   {
+    "word": " free.",
+    "start": 142.26,
+    "end": 142.56
+   }
+  ]
+ },
+ {
+  "start": 143.2,
+  "end": 146.84,
+  "text": "Skip it and you're manually uploading files and babysitting expired certificates.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 143.2,
+    "end": 143.48
+   },
+   {
+    "word": " it",
+    "start": 143.48,
+    "end": 143.64
+   },
+   {
+    "word": " and",
+    "start": 143.64,
+    "end": 143.82
+   },
+   {
+    "word": " you're",
+    "start": 143.82,
+    "end": 143.92
+   },
+   {
+    "word": " manually",
+    "start": 143.92,
+    "end": 144.34
+   },
+   {
+    "word": " uploading",
+    "start": 144.34,
+    "end": 144.74
+   },
+   {
+    "word": " files",
+    "start": 144.74,
+    "end": 145.16
+   },
+   {
+    "word": " and",
+    "start": 145.16,
+    "end": 145.44
+   },
+   {
+    "word": " babysitting",
+    "start": 145.44,
+    "end": 145.96
+   },
+   {
+    "word": " expired",
+    "start": 145.96,
+    "end": 146.3
+   },
+   {
+    "word": " certificates.",
+    "start": 146.3,
+    "end": 146.84
+   }
+  ]
+ },
+ {
+  "start": 147.7,
+  "end": 151.4,
+  "text": "How? Connect your GitHub repo once and never think about it again.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 147.7,
+    "end": 147.94
+   },
+   {
+    "word": " Connect",
+    "start": 148.72,
+    "end": 148.72
+   },
+   {
+    "word": " your",
+    "start": 148.72,
+    "end": 148.92
+   },
+   {
+    "word": " GitHub",
+    "start": 148.92,
+    "end": 149.16
+   },
+   {
+    "word": " repo",
+    "start": 149.16,
+    "end": 149.5
+   },
+   {
+    "word": " once",
+    "start": 149.5,
+    "end": 149.94
+   },
+   {
+    "word": " and",
+    "start": 149.94,
+    "end": 150.42
+   },
+   {
+    "word": " never",
+    "start": 150.42,
+    "end": 150.6
+   },
+   {
+    "word": " think",
+    "start": 150.6,
+    "end": 150.86
+   },
+   {
+    "word": " about",
+    "start": 150.86,
+    "end": 151.1
+   },
+   {
+    "word": " it",
+    "start": 151.1,
+    "end": 151.2
+   },
+   {
+    "word": " again.",
+    "start": 151.2,
+    "end": 151.4
+   }
+  ]
+ },
+ {
+  "start": 152.1,
+  "end": 155.54,
+  "text": "And SAM from 2016. It what it is? A blueprint.",
+  "words": [
+   {
+    "word": " And",
+    "start": 152.1,
+    "end": 152.14
+   },
+   {
+    "word": " SAM",
+    "start": 152.14,
+    "end": 152.36
+   },
+   {
+    "word": " from",
+    "start": 152.36,
+    "end": 152.7
+   },
+   {
+    "word": " 2016.",
+    "start": 152.7,
+    "end": 153.1
+   },
+   {
+    "word": " It",
+    "start": 154.22,
+    "end": 154.3
+   },
+   {
+    "word": " what",
+    "start": 154.3,
+    "end": 154.44
+   },
+   {
+    "word": " it",
+    "start": 154.44,
+    "end": 154.56
+   },
+   {
+    "word": " is?",
+    "start": 154.56,
+    "end": 154.74
+   },
+   {
+    "word": " A",
+    "start": 155.34,
+    "end": 155.38
+   },
+   {
+    "word": " blueprint.",
+    "start": 155.38,
+    "end": 155.54
+   }
+  ]
+ },
+ {
+  "start": 156.44,
+  "end": 160.28,
+  "text": "Your entire backend described in one text file built by a single command.",
+  "words": [
+   {
+    "word": " Your",
+    "start": 156.44,
+    "end": 156.5
+   },
+   {
+    "word": " entire",
+    "start": 156.5,
+    "end": 156.72
+   },
+   {
+    "word": " backend",
+    "start": 156.72,
+    "end": 157.2
+   },
+   {
+    "word": " described",
+    "start": 157.2,
+    "end": 157.66
+   },
+   {
+    "word": " in",
+    "start": 157.66,
+    "end": 158.0
+   },
+   {
+    "word": " one",
+    "start": 158.0,
+    "end": 158.22
+   },
+   {
+    "word": " text",
+    "start": 158.22,
+    "end": 158.5
+   },
+   {
+    "word": " file",
+    "start": 158.5,
+    "end": 158.84
+   },
+   {
+    "word": " built",
+    "start": 158.84,
+    "end": 159.38
+   },
+   {
+    "word": " by",
+    "start": 159.38,
+    "end": 159.64
+   },
+   {
+    "word": " a",
+    "start": 159.64,
+    "end": 159.74
+   },
+   {
+    "word": " single",
+    "start": 159.74,
+    "end": 160.02
+   },
+   {
+    "word": " command.",
+    "start": 160.02,
+    "end": 160.28
+   }
+  ]
+ },
+ {
+  "start": 160.28,
+  "end": 166.02,
+  "text": "Why? Reproducible, undoable infrastructure instead of clicking through 20 consoles.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 160.28,
+    "end": 161.46
+   },
+   {
+    "word": " Reproducible,",
+    "start": 162.16,
+    "end": 162.76
+   },
+   {
+    "word": " undoable",
+    "start": 163.1,
+    "end": 163.64
+   },
+   {
+    "word": " infrastructure",
+    "start": 163.64,
+    "end": 164.14
+   },
+   {
+    "word": " instead",
+    "start": 164.14,
+    "end": 164.64
+   },
+   {
+    "word": " of",
+    "start": 164.64,
+    "end": 164.86
+   },
+   {
+    "word": " clicking",
+    "start": 164.86,
+    "end": 165.08
+   },
+   {
+    "word": " through",
+    "start": 165.08,
+    "end": 165.4
+   },
+   {
+    "word": " 20",
+    "start": 165.4,
+    "end": 165.66
+   },
+   {
+    "word": " consoles.",
+    "start": 165.66,
+    "end": 166.02
+   }
+  ]
+ },
+ {
+  "start": 166.86,
+  "end": 170.4,
+  "text": "Skip it, and your setup exists in no one's head, exactly once.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 166.86,
+    "end": 167.18
+   },
+   {
+    "word": " it,",
+    "start": 167.18,
+    "end": 167.38
+   },
+   {
+    "word": " and",
+    "start": 167.58,
+    "end": 167.68
+   },
+   {
+    "word": " your",
+    "start": 167.68,
+    "end": 167.78
+   },
+   {
+    "word": " setup",
+    "start": 167.78,
+    "end": 168.0
+   },
+   {
+    "word": " exists",
+    "start": 168.0,
+    "end": 168.3
+   },
+   {
+    "word": " in",
+    "start": 168.3,
+    "end": 168.66
+   },
+   {
+    "word": " no",
+    "start": 168.66,
+    "end": 168.86
+   },
+   {
+    "word": " one's",
+    "start": 168.86,
+    "end": 169.08
+   },
+   {
+    "word": " head,",
+    "start": 169.08,
+    "end": 169.28
+   },
+   {
+    "word": " exactly",
+    "start": 169.58,
+    "end": 169.96
+   },
+   {
+    "word": " once.",
+    "start": 169.96,
+    "end": 170.4
+   }
+  ]
+ },
+ {
+  "start": 171.26,
+  "end": 175.62,
+  "text": "How? Write a template.yaylam file. Deploy with the SAM CLI.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 171.26,
+    "end": 171.5
+   },
+   {
+    "word": " Write",
+    "start": 172.24,
+    "end": 172.4
+   },
+   {
+    "word": " a",
+    "start": 172.4,
+    "end": 172.52
+   },
+   {
+    "word": " template",
+    "start": 172.52,
+    "end": 172.78
+   },
+   {
+    "word": ".yaylam",
+    "start": 172.78,
+    "end": 173.58
+   },
+   {
+    "word": " file.",
+    "start": 173.58,
+    "end": 173.88
+   },
+   {
+    "word": " Deploy",
+    "start": 174.4,
+    "end": 174.64
+   },
+   {
+    "word": " with",
+    "start": 174.64,
+    "end": 174.88
+   },
+   {
+    "word": " the",
+    "start": 174.88,
+    "end": 174.98
+   },
+   {
+    "word": " SAM",
+    "start": 174.98,
+    "end": 175.18
+   },
+   {
+    "word": " CLI.",
+    "start": 175.18,
+    "end": 175.62
+   }
+  ]
+ },
+ {
+  "start": 176.62,
+  "end": 180.64,
+  "text": "Three hours today, saves your whole week. Day two. React.",
+  "words": [
+   {
+    "word": " Three",
+    "start": 176.62,
+    "end": 176.74
+   },
+   {
+    "word": " hours",
+    "start": 176.74,
+    "end": 177.0
+   },
+   {
+    "word": " today,",
+    "start": 177.0,
+    "end": 177.28
+   },
+   {
+    "word": " saves",
+    "start": 177.76,
+    "end": 178.02
+   },
+   {
+    "word": " your",
+    "start": 178.02,
+    "end": 178.3
+   },
+   {
+    "word": " whole",
+    "start": 178.3,
+    "end": 178.48
+   },
+   {
+    "word": " week.",
+    "start": 178.48,
+    "end": 178.78
+   },
+   {
+    "word": " Day",
+    "start": 179.5,
+    "end": 179.58
+   },
+   {
+    "word": " two.",
+    "start": 179.58,
+    "end": 179.76
+   },
+   {
+    "word": " React.",
+    "start": 180.64,
+    "end": 180.64
+   }
+  ]
+ },
+ {
+  "start": 181.24,
+  "end": 185.54,
+  "text": "Built at Facebook by Jordan Walky, released in 2013, is what it is.",
+  "words": [
+   {
+    "word": " Built",
+    "start": 181.24,
+    "end": 181.36
+   },
+   {
+    "word": " at",
+    "start": 181.36,
+    "end": 181.5
+   },
+   {
+    "word": " Facebook",
+    "start": 181.5,
+    "end": 181.8
+   },
+   {
+    "word": " by",
+    "start": 181.8,
+    "end": 182.16
+   },
+   {
+    "word": " Jordan",
+    "start": 182.16,
+    "end": 182.46
+   },
+   {
+    "word": " Walky,",
+    "start": 182.46,
+    "end": 182.86
+   },
+   {
+    "word": " released",
+    "start": 183.16,
+    "end": 183.3
+   },
+   {
+    "word": " in",
+    "start": 183.3,
+    "end": 183.54
+   },
+   {
+    "word": " 2013,",
+    "start": 183.54,
+    "end": 183.96
+   },
+   {
+    "word": " is",
+    "start": 184.68,
+    "end": 185.08
+   },
+   {
+    "word": " what",
+    "start": 185.08,
+    "end": 185.24
+   },
+   {
+    "word": " it",
+    "start": 185.24,
+    "end": 185.36
+   },
+   {
+    "word": " is.",
+    "start": 185.36,
+    "end": 185.54
+   }
+  ]
+ },
+ {
+  "start": 185.54,
+  "end": 190.56,
+  "text": "Lego for interfaces. Build a button or calendar once. Snap it in anywhere.",
+  "words": [
+   {
+    "word": " Lego",
+    "start": 185.54,
+    "end": 186.3
+   },
+   {
+    "word": " for",
+    "start": 186.3,
+    "end": 186.64
+   },
+   {
+    "word": " interfaces.",
+    "start": 186.64,
+    "end": 187.06
+   },
+   {
+    "word": " Build",
+    "start": 187.78,
+    "end": 187.98
+   },
+   {
+    "word": " a",
+    "start": 187.98,
+    "end": 188.08
+   },
+   {
+    "word": " button",
+    "start": 188.08,
+    "end": 188.32
+   },
+   {
+    "word": " or",
+    "start": 188.32,
+    "end": 188.5
+   },
+   {
+    "word": " calendar",
+    "start": 188.5,
+    "end": 188.8
+   },
+   {
+    "word": " once.",
+    "start": 188.8,
+    "end": 189.2
+   },
+   {
+    "word": " Snap",
+    "start": 189.78,
+    "end": 190.02
+   },
+   {
+    "word": " it",
+    "start": 190.02,
+    "end": 190.18
+   },
+   {
+    "word": " in",
+    "start": 190.18,
+    "end": 190.3
+   },
+   {
+    "word": " anywhere.",
+    "start": 190.3,
+    "end": 190.56
+   }
+  ]
+ },
+ {
+  "start": 191.52,
+  "end": 195.38,
+  "text": "Why? It's the industry standard. So tutorials and help are everywhere.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 191.52,
+    "end": 191.74
+   },
+   {
+    "word": " It's",
+    "start": 192.14,
+    "end": 192.38
+   },
+   {
+    "word": " the",
+    "start": 192.38,
+    "end": 192.46
+   },
+   {
+    "word": " industry",
+    "start": 192.46,
+    "end": 192.74
+   },
+   {
+    "word": " standard.",
+    "start": 192.74,
+    "end": 193.12
+   },
+   {
+    "word": " So",
+    "start": 193.82,
+    "end": 193.88
+   },
+   {
+    "word": " tutorials",
+    "start": 193.88,
+    "end": 194.22
+   },
+   {
+    "word": " and",
+    "start": 194.22,
+    "end": 194.58
+   },
+   {
+    "word": " help",
+    "start": 194.58,
+    "end": 194.74
+   },
+   {
+    "word": " are",
+    "start": 194.74,
+    "end": 194.98
+   },
+   {
+    "word": " everywhere.",
+    "start": 194.98,
+    "end": 195.38
+   }
+  ]
+ },
+ {
+  "start": 196.18,
+  "end": 201.22,
+  "text": "Skip it and you're hand crafting every page from scratch. How? Scaffled the project.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 196.18,
+    "end": 196.46
+   },
+   {
+    "word": " it",
+    "start": 196.46,
+    "end": 196.64
+   },
+   {
+    "word": " and",
+    "start": 196.64,
+    "end": 196.78
+   },
+   {
+    "word": " you're",
+    "start": 196.78,
+    "end": 196.9
+   },
+   {
+    "word": " hand",
+    "start": 196.9,
+    "end": 197.1
+   },
+   {
+    "word": " crafting",
+    "start": 197.1,
+    "end": 197.44
+   },
+   {
+    "word": " every",
+    "start": 197.44,
+    "end": 197.76
+   },
+   {
+    "word": " page",
+    "start": 197.76,
+    "end": 198.16
+   },
+   {
+    "word": " from",
+    "start": 198.16,
+    "end": 198.38
+   },
+   {
+    "word": " scratch.",
+    "start": 198.38,
+    "end": 198.58
+   },
+   {
+    "word": " How?",
+    "start": 199.6,
+    "end": 199.74
+   },
+   {
+    "word": " Scaffled",
+    "start": 200.54,
+    "end": 200.8
+   },
+   {
+    "word": " the",
+    "start": 200.8,
+    "end": 200.9
+   },
+   {
+    "word": " project.",
+    "start": 200.9,
+    "end": 201.22
+   }
+  ]
+ },
+ {
+  "start": 201.86,
+  "end": 204.64,
+  "text": "Build each page as bricks, done in half an hour of setup.",
+  "words": [
+   {
+    "word": " Build",
+    "start": 201.86,
+    "end": 201.92
+   },
+   {
+    "word": " each",
+    "start": 201.92,
+    "end": 202.18
+   },
+   {
+    "word": " page",
+    "start": 202.18,
+    "end": 202.48
+   },
+   {
+    "word": " as",
+    "start": 202.48,
+    "end": 202.7
+   },
+   {
+    "word": " bricks,",
+    "start": 202.7,
+    "end": 202.92
+   },
+   {
+    "word": " done",
+    "start": 203.52,
+    "end": 203.68
+   },
+   {
+    "word": " in",
+    "start": 203.68,
+    "end": 203.82
+   },
+   {
+    "word": " half",
+    "start": 203.82,
+    "end": 204.04
+   },
+   {
+    "word": " an",
+    "start": 204.04,
+    "end": 204.18
+   },
+   {
+    "word": " hour",
+    "start": 204.18,
+    "end": 204.36
+   },
+   {
+    "word": " of",
+    "start": 204.36,
+    "end": 204.48
+   },
+   {
+    "word": " setup.",
+    "start": 204.48,
+    "end": 204.64
+   }
+  ]
+ },
+ {
+  "start": 205.4,
+  "end": 208.2,
+  "text": "Then seven hours building the whole interface by prompting the AI.",
+  "words": [
+   {
+    "word": " Then",
+    "start": 205.4,
+    "end": 205.6
+   },
+   {
+    "word": " seven",
+    "start": 205.6,
+    "end": 205.82
+   },
+   {
+    "word": " hours",
+    "start": 205.82,
+    "end": 206.2
+   },
+   {
+    "word": " building",
+    "start": 206.2,
+    "end": 206.44
+   },
+   {
+    "word": " the",
+    "start": 206.44,
+    "end": 206.66
+   },
+   {
+    "word": " whole",
+    "start": 206.66,
+    "end": 206.8
+   },
+   {
+    "word": " interface",
+    "start": 206.8,
+    "end": 207.16
+   },
+   {
+    "word": " by",
+    "start": 207.16,
+    "end": 207.48
+   },
+   {
+    "word": " prompting",
+    "start": 207.48,
+    "end": 207.8
+   },
+   {
+    "word": " the",
+    "start": 207.8,
+    "end": 208.0
+   },
+   {
+    "word": " AI.",
+    "start": 208.0,
+    "end": 208.2
+   }
+  ]
+ },
+ {
+  "start": 208.74,
+  "end": 212.1,
+  "text": "With one rule, fake data, no backend. Why?",
+  "words": [
+   {
+    "word": " With",
+    "start": 208.74,
+    "end": 208.8
+   },
+   {
+    "word": " one",
+    "start": 208.8,
+    "end": 209.06
+   },
+   {
+    "word": " rule,",
+    "start": 209.06,
+    "end": 209.28
+   },
+   {
+    "word": " fake",
+    "start": 209.82,
+    "end": 209.96
+   },
+   {
+    "word": " data,",
+    "start": 209.96,
+    "end": 210.16
+   },
+   {
+    "word": " no",
+    "start": 210.66,
+    "end": 210.72
+   },
+   {
+    "word": " backend.",
+    "start": 210.72,
+    "end": 210.94
+   },
+   {
+    "word": " Why?",
+    "start": 211.62,
+    "end": 212.1
+   }
+  ]
+ },
+ {
+  "start": 212.1,
+  "end": 215.36,
+  "text": "You make the site look and feel finished before the plumbing exists.",
+  "words": [
+   {
+    "word": " You",
+    "start": 212.1,
+    "end": 212.52
+   },
+   {
+    "word": " make",
+    "start": 212.52,
+    "end": 212.9
+   },
+   {
+    "word": " the",
+    "start": 212.9,
+    "end": 213.04
+   },
+   {
+    "word": " site",
+    "start": 213.04,
+    "end": 213.22
+   },
+   {
+    "word": " look",
+    "start": 213.22,
+    "end": 213.48
+   },
+   {
+    "word": " and",
+    "start": 213.48,
+    "end": 213.66
+   },
+   {
+    "word": " feel",
+    "start": 213.66,
+    "end": 213.9
+   },
+   {
+    "word": " finished",
+    "start": 213.9,
+    "end": 214.3
+   },
+   {
+    "word": " before",
+    "start": 214.3,
+    "end": 214.58
+   },
+   {
+    "word": " the",
+    "start": 214.58,
+    "end": 214.78
+   },
+   {
+    "word": " plumbing",
+    "start": 214.78,
+    "end": 214.96
+   },
+   {
+    "word": " exists.",
+    "start": 214.96,
+    "end": 215.36
+   }
+  ]
+ },
+ {
+  "start": 216.1,
+  "end": 219.64,
+  "text": "Skip this discipline and you'll spend the day debugging connections instead of building.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 216.1,
+    "end": 216.4
+   },
+   {
+    "word": " this",
+    "start": 216.4,
+    "end": 216.58
+   },
+   {
+    "word": " discipline",
+    "start": 216.58,
+    "end": 216.94
+   },
+   {
+    "word": " and",
+    "start": 216.94,
+    "end": 217.24
+   },
+   {
+    "word": " you'll",
+    "start": 217.24,
+    "end": 217.32
+   },
+   {
+    "word": " spend",
+    "start": 217.32,
+    "end": 217.56
+   },
+   {
+    "word": " the",
+    "start": 217.56,
+    "end": 217.72
+   },
+   {
+    "word": " day",
+    "start": 217.72,
+    "end": 217.88
+   },
+   {
+    "word": " debugging",
+    "start": 217.88,
+    "end": 218.32
+   },
+   {
+    "word": " connections",
+    "start": 218.32,
+    "end": 218.74
+   },
+   {
+    "word": " instead",
+    "start": 218.74,
+    "end": 219.2
+   },
+   {
+    "word": " of",
+    "start": 219.2,
+    "end": 219.4
+   },
+   {
+    "word": " building.",
+    "start": 219.4,
+    "end": 219.64
+   }
+  ]
+ },
+ {
+  "start": 220.4,
+  "end": 224.42,
+  "text": "How? Prompt one component at a time. Click through it. Refine.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 220.4,
+    "end": 220.64
+   },
+   {
+    "word": " Prompt",
+    "start": 221.32,
+    "end": 221.42
+   },
+   {
+    "word": " one",
+    "start": 221.42,
+    "end": 221.74
+   },
+   {
+    "word": " component",
+    "start": 221.74,
+    "end": 222.06
+   },
+   {
+    "word": " at",
+    "start": 222.06,
+    "end": 222.36
+   },
+   {
+    "word": " a",
+    "start": 222.36,
+    "end": 222.42
+   },
+   {
+    "word": " time.",
+    "start": 222.42,
+    "end": 222.72
+   },
+   {
+    "word": " Click",
+    "start": 223.16,
+    "end": 223.3
+   },
+   {
+    "word": " through",
+    "start": 223.3,
+    "end": 223.56
+   },
+   {
+    "word": " it.",
+    "start": 223.56,
+    "end": 223.72
+   },
+   {
+    "word": " Refine.",
+    "start": 224.08,
+    "end": 224.42
+   }
+  ]
+ },
+ {
+  "start": 225.08,
+  "end": 230.92,
+  "text": "Last half hour. API Gateway, launched 2015. Clear what it is. The front door.",
+  "words": [
+   {
+    "word": " Last",
+    "start": 225.08,
+    "end": 225.26
+   },
+   {
+    "word": " half",
+    "start": 225.26,
+    "end": 225.48
+   },
+   {
+    "word": " hour.",
+    "start": 225.48,
+    "end": 225.8
+   },
+   {
+    "word": " API",
+    "start": 226.38,
+    "end": 226.48
+   },
+   {
+    "word": " Gateway,",
+    "start": 226.48,
+    "end": 227.04
+   },
+   {
+    "word": " launched",
+    "start": 227.58,
+    "end": 227.7
+   },
+   {
+    "word": " 2015.",
+    "start": 227.7,
+    "end": 228.3
+   },
+   {
+    "word": " Clear",
+    "start": 229.22,
+    "end": 229.46
+   },
+   {
+    "word": " what",
+    "start": 229.46,
+    "end": 229.64
+   },
+   {
+    "word": " it",
+    "start": 229.64,
+    "end": 229.74
+   },
+   {
+    "word": " is.",
+    "start": 229.74,
+    "end": 229.96
+   },
+   {
+    "word": " The",
+    "start": 230.42,
+    "end": 230.48
+   },
+   {
+    "word": " front",
+    "start": 230.48,
+    "end": 230.68
+   },
+   {
+    "word": " door.",
+    "start": 230.68,
+    "end": 230.92
+   }
+  ]
+ },
+ {
+  "start": 231.6,
+  "end": 234.48,
+  "text": "It checks every incoming request before anything touches your code.",
+  "words": [
+   {
+    "word": " It",
+    "start": 231.6,
+    "end": 231.62
+   },
+   {
+    "word": " checks",
+    "start": 231.62,
+    "end": 231.78
+   },
+   {
+    "word": " every",
+    "start": 231.78,
+    "end": 232.12
+   },
+   {
+    "word": " incoming",
+    "start": 232.12,
+    "end": 232.54
+   },
+   {
+    "word": " request",
+    "start": 232.54,
+    "end": 232.94
+   },
+   {
+    "word": " before",
+    "start": 232.94,
+    "end": 233.26
+   },
+   {
+    "word": " anything",
+    "start": 233.26,
+    "end": 233.62
+   },
+   {
+    "word": " touches",
+    "start": 233.62,
+    "end": 233.98
+   },
+   {
+    "word": " your",
+    "start": 233.98,
+    "end": 234.24
+   },
+   {
+    "word": " code.",
+    "start": 234.24,
+    "end": 234.48
+   }
+  ]
+ },
+ {
+  "start": 235.2,
+  "end": 238.5,
+  "text": "Why? Security, throttling, and routing in one place.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 235.2,
+    "end": 235.36
+   },
+   {
+    "word": " Security,",
+    "start": 236.18,
+    "end": 236.18
+   },
+   {
+    "word": " throttling,",
+    "start": 236.94,
+    "end": 237.16
+   },
+   {
+    "word": " and",
+    "start": 237.42,
+    "end": 237.46
+   },
+   {
+    "word": " routing",
+    "start": 237.46,
+    "end": 237.64
+   },
+   {
+    "word": " in",
+    "start": 237.64,
+    "end": 237.98
+   },
+   {
+    "word": " one",
+    "start": 237.98,
+    "end": 238.18
+   },
+   {
+    "word": " place.",
+    "start": 238.18,
+    "end": 238.5
+   }
+  ]
+ },
+ {
+  "start": 238.5,
+  "end": 242.38,
+  "text": "Skip it and browsers are poking your backend directly. Unlocked.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 238.5,
+    "end": 239.46
+   },
+   {
+    "word": " it",
+    "start": 239.46,
+    "end": 239.64
+   },
+   {
+    "word": " and",
+    "start": 239.64,
+    "end": 239.9
+   },
+   {
+    "word": " browsers",
+    "start": 239.9,
+    "end": 240.16
+   },
+   {
+    "word": " are",
+    "start": 240.16,
+    "end": 240.46
+   },
+   {
+    "word": " poking",
+    "start": 240.46,
+    "end": 240.68
+   },
+   {
+    "word": " your",
+    "start": 240.68,
+    "end": 240.9
+   },
+   {
+    "word": " backend",
+    "start": 240.9,
+    "end": 241.08
+   },
+   {
+    "word": " directly.",
+    "start": 241.08,
+    "end": 241.78
+   },
+   {
+    "word": " Unlocked.",
+    "start": 242.04,
+    "end": 242.38
+   }
+  ]
+ },
+ {
+  "start": 243.12,
+  "end": 248.66,
+  "text": "How? Create a REST API. One route per action. And day three has something to plug into.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 243.12,
+    "end": 243.32
+   },
+   {
+    "word": " Create",
+    "start": 243.84,
+    "end": 244.14
+   },
+   {
+    "word": " a",
+    "start": 244.14,
+    "end": 244.24
+   },
+   {
+    "word": " REST",
+    "start": 244.24,
+    "end": 244.46
+   },
+   {
+    "word": " API.",
+    "start": 244.46,
+    "end": 244.86
+   },
+   {
+    "word": " One",
+    "start": 245.68,
+    "end": 245.72
+   },
+   {
+    "word": " route",
+    "start": 245.72,
+    "end": 245.9
+   },
+   {
+    "word": " per",
+    "start": 245.9,
+    "end": 246.14
+   },
+   {
+    "word": " action.",
+    "start": 246.14,
+    "end": 246.46
+   },
+   {
+    "word": " And",
+    "start": 247.04,
+    "end": 247.06
+   },
+   {
+    "word": " day",
+    "start": 247.06,
+    "end": 247.22
+   },
+   {
+    "word": " three",
+    "start": 247.22,
+    "end": 247.52
+   },
+   {
+    "word": " has",
+    "start": 247.52,
+    "end": 247.74
+   },
+   {
+    "word": " something",
+    "start": 247.74,
+    "end": 248.0
+   },
+   {
+    "word": " to",
+    "start": 248.0,
+    "end": 248.18
+   },
+   {
+    "word": " plug",
+    "start": 248.18,
+    "end": 248.34
+   },
+   {
+    "word": " into.",
+    "start": 248.34,
+    "end": 248.66
+   }
+  ]
+ },
+ {
+  "start": 249.24,
+  "end": 254.58,
+  "text": "Day three, the logic. And the star, AWS Lambda, announced in 2014.",
+  "words": [
+   {
+    "word": " Day",
+    "start": 249.24,
+    "end": 249.4
+   },
+   {
+    "word": " three,",
+    "start": 249.4,
+    "end": 249.68
+   },
+   {
+    "word": " the",
+    "start": 250.08,
+    "end": 250.24
+   },
+   {
+    "word": " logic.",
+    "start": 250.24,
+    "end": 250.56
+   },
+   {
+    "word": " And",
+    "start": 251.24,
+    "end": 251.28
+   },
+   {
+    "word": " the",
+    "start": 251.28,
+    "end": 251.36
+   },
+   {
+    "word": " star,",
+    "start": 251.36,
+    "end": 251.64
+   },
+   {
+    "word": " AWS",
+    "start": 252.14,
+    "end": 252.44
+   },
+   {
+    "word": " Lambda,",
+    "start": 252.44,
+    "end": 253.32
+   },
+   {
+    "word": " announced",
+    "start": 253.64,
+    "end": 253.78
+   },
+   {
+    "word": " in",
+    "start": 253.78,
+    "end": 254.12
+   },
+   {
+    "word": " 2014.",
+    "start": 254.12,
+    "end": 254.58
+   }
+  ]
+ },
+ {
+  "start": 255.54,
+  "end": 260.18,
+  "text": "Is what it is? Emotions sensor light. Your code turns on when a request arrives.",
+  "words": [
+   {
+    "word": " Is",
+    "start": 255.54,
+    "end": 255.68
+   },
+   {
+    "word": " what",
+    "start": 255.68,
+    "end": 255.82
+   },
+   {
+    "word": " it",
+    "start": 255.82,
+    "end": 255.92
+   },
+   {
+    "word": " is?",
+    "start": 255.92,
+    "end": 256.08
+   },
+   {
+    "word": " Emotions",
+    "start": 256.72,
+    "end": 257.06
+   },
+   {
+    "word": " sensor",
+    "start": 257.06,
+    "end": 257.4
+   },
+   {
+    "word": " light.",
+    "start": 257.4,
+    "end": 257.72
+   },
+   {
+    "word": " Your",
+    "start": 258.44,
+    "end": 258.5
+   },
+   {
+    "word": " code",
+    "start": 258.5,
+    "end": 258.74
+   },
+   {
+    "word": " turns",
+    "start": 258.74,
+    "end": 259.08
+   },
+   {
+    "word": " on",
+    "start": 259.08,
+    "end": 259.3
+   },
+   {
+    "word": " when",
+    "start": 259.3,
+    "end": 259.5
+   },
+   {
+    "word": " a",
+    "start": 259.5,
+    "end": 259.54
+   },
+   {
+    "word": " request",
+    "start": 259.54,
+    "end": 259.78
+   },
+   {
+    "word": " arrives.",
+    "start": 259.78,
+    "end": 260.18
+   }
+  ]
+ },
+ {
+  "start": 260.92,
+  "end": 264.62,
+  "text": "Off when it's done. You pay per flip, not for an always on bulb.",
+  "words": [
+   {
+    "word": " Off",
+    "start": 260.92,
+    "end": 261.0
+   },
+   {
+    "word": " when",
+    "start": 261.0,
+    "end": 261.18
+   },
+   {
+    "word": " it's",
+    "start": 261.18,
+    "end": 261.36
+   },
+   {
+    "word": " done.",
+    "start": 261.36,
+    "end": 261.52
+   },
+   {
+    "word": " You",
+    "start": 262.28,
+    "end": 262.34
+   },
+   {
+    "word": " pay",
+    "start": 262.34,
+    "end": 262.5
+   },
+   {
+    "word": " per",
+    "start": 262.5,
+    "end": 262.74
+   },
+   {
+    "word": " flip,",
+    "start": 262.74,
+    "end": 263.02
+   },
+   {
+    "word": " not",
+    "start": 263.48,
+    "end": 263.64
+   },
+   {
+    "word": " for",
+    "start": 263.64,
+    "end": 263.84
+   },
+   {
+    "word": " an",
+    "start": 263.84,
+    "end": 263.9
+   },
+   {
+    "word": " always",
+    "start": 263.9,
+    "end": 264.18
+   },
+   {
+    "word": " on",
+    "start": 264.18,
+    "end": 264.4
+   },
+   {
+    "word": " bulb.",
+    "start": 264.4,
+    "end": 264.62
+   }
+  ]
+ },
+ {
+  "start": 264.62,
+  "end": 270.92,
+  "text": "Why? No traffic means near zero cost. And 5,000 users scale automatically.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 264.62,
+    "end": 265.78
+   },
+   {
+    "word": " No",
+    "start": 266.42,
+    "end": 266.68
+   },
+   {
+    "word": " traffic",
+    "start": 266.68,
+    "end": 266.98
+   },
+   {
+    "word": " means",
+    "start": 266.98,
+    "end": 267.36
+   },
+   {
+    "word": " near",
+    "start": 267.36,
+    "end": 267.7
+   },
+   {
+    "word": " zero",
+    "start": 267.7,
+    "end": 268.1
+   },
+   {
+    "word": " cost.",
+    "start": 268.1,
+    "end": 268.4
+   },
+   {
+    "word": " And",
+    "start": 269.12,
+    "end": 269.14
+   },
+   {
+    "word": " 5",
+    "start": 269.14,
+    "end": 269.4
+   },
+   {
+    "word": ",000",
+    "start": 269.4,
+    "end": 269.8
+   },
+   {
+    "word": " users",
+    "start": 269.8,
+    "end": 270.18
+   },
+   {
+    "word": " scale",
+    "start": 270.18,
+    "end": 270.48
+   },
+   {
+    "word": " automatically.",
+    "start": 270.48,
+    "end": 270.92
+   }
+  ]
+ },
+ {
+  "start": 271.84,
+  "end": 276.22,
+  "text": "Skip it and you're renting a server that runs 24-7 for a site nobody's found yet.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 271.84,
+    "end": 272.16
+   },
+   {
+    "word": " it",
+    "start": 272.16,
+    "end": 272.34
+   },
+   {
+    "word": " and",
+    "start": 272.34,
+    "end": 272.6
+   },
+   {
+    "word": " you're",
+    "start": 272.6,
+    "end": 272.72
+   },
+   {
+    "word": " renting",
+    "start": 272.72,
+    "end": 272.9
+   },
+   {
+    "word": " a",
+    "start": 272.9,
+    "end": 273.1
+   },
+   {
+    "word": " server",
+    "start": 273.1,
+    "end": 273.32
+   },
+   {
+    "word": " that",
+    "start": 273.32,
+    "end": 273.56
+   },
+   {
+    "word": " runs",
+    "start": 273.56,
+    "end": 273.76
+   },
+   {
+    "word": " 24",
+    "start": 273.76,
+    "end": 274.06
+   },
+   {
+    "word": "-7",
+    "start": 274.06,
+    "end": 274.68
+   },
+   {
+    "word": " for",
+    "start": 274.68,
+    "end": 274.94
+   },
+   {
+    "word": " a",
+    "start": 274.94,
+    "end": 274.98
+   },
+   {
+    "word": " site",
+    "start": 274.98,
+    "end": 275.24
+   },
+   {
+    "word": " nobody's",
+    "start": 275.24,
+    "end": 275.76
+   },
+   {
+    "word": " found",
+    "start": 275.76,
+    "end": 275.96
+   },
+   {
+    "word": " yet.",
+    "start": 275.96,
+    "end": 276.22
+   }
+  ]
+ },
+ {
+  "start": 277.0,
+  "end": 280.4,
+  "text": "How? Write a Python handler and connect it to the gateway route.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 277.0,
+    "end": 277.2
+   },
+   {
+    "word": " Write",
+    "start": 277.98,
+    "end": 277.98
+   },
+   {
+    "word": " a",
+    "start": 277.98,
+    "end": 278.1
+   },
+   {
+    "word": " Python",
+    "start": 278.1,
+    "end": 278.3
+   },
+   {
+    "word": " handler",
+    "start": 278.3,
+    "end": 278.8
+   },
+   {
+    "word": " and",
+    "start": 278.8,
+    "end": 279.24
+   },
+   {
+    "word": " connect",
+    "start": 279.24,
+    "end": 279.44
+   },
+   {
+    "word": " it",
+    "start": 279.44,
+    "end": 279.64
+   },
+   {
+    "word": " to",
+    "start": 279.64,
+    "end": 279.74
+   },
+   {
+    "word": " the",
+    "start": 279.74,
+    "end": 279.84
+   },
+   {
+    "word": " gateway",
+    "start": 279.84,
+    "end": 280.0
+   },
+   {
+    "word": " route.",
+    "start": 280.0,
+    "end": 280.4
+   }
+  ]
+ },
+ {
+  "start": 281.06,
+  "end": 285.58,
+  "text": "Six hours of AI-assisted development. Validation, pricing rules, emails.",
+  "words": [
+   {
+    "word": " Six",
+    "start": 281.06,
+    "end": 281.32
+   },
+   {
+    "word": " hours",
+    "start": 281.32,
+    "end": 281.64
+   },
+   {
+    "word": " of",
+    "start": 281.64,
+    "end": 281.82
+   },
+   {
+    "word": " AI",
+    "start": 281.82,
+    "end": 282.04
+   },
+   {
+    "word": "-assisted",
+    "start": 282.04,
+    "end": 282.46
+   },
+   {
+    "word": " development.",
+    "start": 282.46,
+    "end": 282.82
+   },
+   {
+    "word": " Validation,",
+    "start": 283.52,
+    "end": 284.04
+   },
+   {
+    "word": " pricing",
+    "start": 284.54,
+    "end": 284.66
+   },
+   {
+    "word": " rules,",
+    "start": 284.66,
+    "end": 285.02
+   },
+   {
+    "word": " emails.",
+    "start": 285.38,
+    "end": 285.58
+   }
+  ]
+ },
+ {
+  "start": 286.4,
+  "end": 291.3,
+  "text": "Prompted it into existence one endpoint at a time. With two due comments where caching belongs later.",
+  "words": [
+   {
+    "word": " Prompted",
+    "start": 286.4,
+    "end": 286.62
+   },
+   {
+    "word": " it",
+    "start": 286.62,
+    "end": 286.7
+   },
+   {
+    "word": " into",
+    "start": 286.7,
+    "end": 286.84
+   },
+   {
+    "word": " existence",
+    "start": 286.84,
+    "end": 287.14
+   },
+   {
+    "word": " one",
+    "start": 287.14,
+    "end": 287.6
+   },
+   {
+    "word": " endpoint",
+    "start": 287.6,
+    "end": 287.9
+   },
+   {
+    "word": " at",
+    "start": 287.9,
+    "end": 288.3
+   },
+   {
+    "word": " a",
+    "start": 288.3,
+    "end": 288.36
+   },
+   {
+    "word": " time.",
+    "start": 288.36,
+    "end": 288.66
+   },
+   {
+    "word": " With",
+    "start": 289.18,
+    "end": 289.22
+   },
+   {
+    "word": " two",
+    "start": 289.22,
+    "end": 289.44
+   },
+   {
+    "word": " due",
+    "start": 289.44,
+    "end": 289.6
+   },
+   {
+    "word": " comments",
+    "start": 289.6,
+    "end": 289.92
+   },
+   {
+    "word": " where",
+    "start": 289.92,
+    "end": 290.28
+   },
+   {
+    "word": " caching",
+    "start": 290.28,
+    "end": 290.52
+   },
+   {
+    "word": " belongs",
+    "start": 290.52,
+    "end": 290.88
+   },
+   {
+    "word": " later.",
+    "start": 290.88,
+    "end": 291.3
+   }
+  ]
+ },
+ {
+  "start": 291.3,
+  "end": 296.54,
+  "text": "How? Small scope. By tonight, creating, reading, and canceling works.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 291.3,
+    "end": 292.26
+   },
+   {
+    "word": " Small",
+    "start": 292.72,
+    "end": 293.08
+   },
+   {
+    "word": " scope.",
+    "start": 293.08,
+    "end": 293.32
+   },
+   {
+    "word": " By",
+    "start": 293.92,
+    "end": 294.1
+   },
+   {
+    "word": " tonight,",
+    "start": 294.1,
+    "end": 294.34
+   },
+   {
+    "word": " creating,",
+    "start": 294.4,
+    "end": 294.76
+   },
+   {
+    "word": " reading,",
+    "start": 294.76,
+    "end": 295.44
+   },
+   {
+    "word": " and",
+    "start": 295.76,
+    "end": 295.8
+   },
+   {
+    "word": " canceling",
+    "start": 295.8,
+    "end": 296.32
+   },
+   {
+    "word": " works.",
+    "start": 296.32,
+    "end": 296.54
+   }
+  ]
+ },
+ {
+  "start": 297.2,
+  "end": 301.98,
+  "text": "Two upgrades for later. Fast API from 2019, when one request involves",
+  "words": [
+   {
+    "word": " Two",
+    "start": 297.2,
+    "end": 297.36
+   },
+   {
+    "word": " upgrades",
+    "start": 297.36,
+    "end": 297.64
+   },
+   {
+    "word": " for",
+    "start": 297.64,
+    "end": 297.94
+   },
+   {
+    "word": " later.",
+    "start": 297.94,
+    "end": 298.12
+   },
+   {
+    "word": " Fast",
+    "start": 298.72,
+    "end": 298.92
+   },
+   {
+    "word": " API",
+    "start": 298.92,
+    "end": 299.18
+   },
+   {
+    "word": " from",
+    "start": 299.18,
+    "end": 299.74
+   },
+   {
+    "word": " 2019,",
+    "start": 299.74,
+    "end": 300.14
+   },
+   {
+    "word": " when",
+    "start": 301.04,
+    "end": 301.16
+   },
+   {
+    "word": " one",
+    "start": 301.16,
+    "end": 301.34
+   },
+   {
+    "word": " request",
+    "start": 301.34,
+    "end": 301.64
+   },
+   {
+    "word": " involves",
+    "start": 301.64,
+    "end": 301.98
+   }
+  ]
+ },
+ {
+  "start": 301.98,
+  "end": 306.12,
+  "text": "many slow steps at once. And SQS, the ticket dispenser.",
+  "words": [
+   {
+    "word": " many",
+    "start": 301.98,
+    "end": 302.42
+   },
+   {
+    "word": " slow",
+    "start": 302.42,
+    "end": 302.74
+   },
+   {
+    "word": " steps",
+    "start": 302.74,
+    "end": 303.1
+   },
+   {
+    "word": " at",
+    "start": 303.1,
+    "end": 303.28
+   },
+   {
+    "word": " once.",
+    "start": 303.28,
+    "end": 303.48
+   },
+   {
+    "word": " And",
+    "start": 304.24,
+    "end": 304.24
+   },
+   {
+    "word": " SQS,",
+    "start": 304.24,
+    "end": 304.9
+   },
+   {
+    "word": " the",
+    "start": 305.26,
+    "end": 305.34
+   },
+   {
+    "word": " ticket",
+    "start": 305.34,
+    "end": 305.48
+   },
+   {
+    "word": " dispenser.",
+    "start": 305.48,
+    "end": 306.12
+   }
+  ]
+ },
+ {
+  "start": 306.72,
+  "end": 311.34,
+  "text": "It was AWS's first service. It queues a flood of requests, so none bounds.",
+  "words": [
+   {
+    "word": " It",
+    "start": 306.72,
+    "end": 306.82
+   },
+   {
+    "word": " was",
+    "start": 306.82,
+    "end": 306.94
+   },
+   {
+    "word": " AWS's",
+    "start": 306.94,
+    "end": 307.74
+   },
+   {
+    "word": " first",
+    "start": 307.74,
+    "end": 308.02
+   },
+   {
+    "word": " service.",
+    "start": 308.02,
+    "end": 308.52
+   },
+   {
+    "word": " It",
+    "start": 309.14,
+    "end": 309.28
+   },
+   {
+    "word": " queues",
+    "start": 309.28,
+    "end": 309.52
+   },
+   {
+    "word": " a",
+    "start": 309.52,
+    "end": 309.7
+   },
+   {
+    "word": " flood",
+    "start": 309.7,
+    "end": 309.92
+   },
+   {
+    "word": " of",
+    "start": 309.92,
+    "end": 310.1
+   },
+   {
+    "word": " requests,",
+    "start": 310.1,
+    "end": 310.32
+   },
+   {
+    "word": " so",
+    "start": 310.84,
+    "end": 310.92
+   },
+   {
+    "word": " none",
+    "start": 310.92,
+    "end": 311.08
+   },
+   {
+    "word": " bounds.",
+    "start": 311.08,
+    "end": 311.34
+   }
+  ]
+ },
+ {
+  "start": 312.08,
+  "end": 315.08,
+  "text": "Skip both for now. Add them when traffic demands it.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 312.08,
+    "end": 312.44
+   },
+   {
+    "word": " both",
+    "start": 312.44,
+    "end": 312.7
+   },
+   {
+    "word": " for",
+    "start": 312.7,
+    "end": 312.92
+   },
+   {
+    "word": " now.",
+    "start": 312.92,
+    "end": 313.12
+   },
+   {
+    "word": " Add",
+    "start": 313.74,
+    "end": 313.88
+   },
+   {
+    "word": " them",
+    "start": 313.88,
+    "end": 314.06
+   },
+   {
+    "word": " when",
+    "start": 314.06,
+    "end": 314.22
+   },
+   {
+    "word": " traffic",
+    "start": 314.22,
+    "end": 314.48
+   },
+   {
+    "word": " demands",
+    "start": 314.48,
+    "end": 314.82
+   },
+   {
+    "word": " it.",
+    "start": 314.82,
+    "end": 315.08
+   }
+  ]
+ },
+ {
+  "start": 315.76,
+  "end": 319.98,
+  "text": "Day four, your app gets a memory. DynamoDB, released in 2012,",
+  "words": [
+   {
+    "word": " Day",
+    "start": 315.76,
+    "end": 315.8
+   },
+   {
+    "word": " four,",
+    "start": 315.8,
+    "end": 316.12
+   },
+   {
+    "word": " your",
+    "start": 316.42,
+    "end": 316.5
+   },
+   {
+    "word": " app",
+    "start": 316.5,
+    "end": 316.68
+   },
+   {
+    "word": " gets",
+    "start": 316.68,
+    "end": 316.9
+   },
+   {
+    "word": " a",
+    "start": 316.9,
+    "end": 317.06
+   },
+   {
+    "word": " memory.",
+    "start": 317.06,
+    "end": 317.26
+   },
+   {
+    "word": " DynamoDB,",
+    "start": 318.08,
+    "end": 318.58
+   },
+   {
+    "word": " released",
+    "start": 318.98,
+    "end": 319.14
+   },
+   {
+    "word": " in",
+    "start": 319.14,
+    "end": 319.42
+   },
+   {
+    "word": " 2012,",
+    "start": 319.42,
+    "end": 319.98
+   }
+  ]
+ },
+ {
+  "start": 319.98,
+  "end": 323.32,
+  "text": "grown from the database Amazon built for its own shopping cart.",
+  "words": [
+   {
+    "word": " grown",
+    "start": 319.98,
+    "end": 320.72
+   },
+   {
+    "word": " from",
+    "start": 320.72,
+    "end": 320.98
+   },
+   {
+    "word": " the",
+    "start": 320.98,
+    "end": 321.08
+   },
+   {
+    "word": " database",
+    "start": 321.08,
+    "end": 321.34
+   },
+   {
+    "word": " Amazon",
+    "start": 321.34,
+    "end": 321.76
+   },
+   {
+    "word": " built",
+    "start": 321.76,
+    "end": 322.2
+   },
+   {
+    "word": " for",
+    "start": 322.2,
+    "end": 322.42
+   },
+   {
+    "word": " its",
+    "start": 322.42,
+    "end": 322.52
+   },
+   {
+    "word": " own",
+    "start": 322.52,
+    "end": 322.68
+   },
+   {
+    "word": " shopping",
+    "start": 322.68,
+    "end": 323.02
+   },
+   {
+    "word": " cart.",
+    "start": 323.02,
+    "end": 323.32
+   }
+  ]
+ },
+ {
+  "start": 324.04,
+  "end": 329.08,
+  "text": "What it is? A filing cabinet with lookup codes, instant answers, no rigid schema.",
+  "words": [
+   {
+    "word": " What",
+    "start": 324.04,
+    "end": 324.12
+   },
+   {
+    "word": " it",
+    "start": 324.12,
+    "end": 324.22
+   },
+   {
+    "word": " is?",
+    "start": 324.22,
+    "end": 324.46
+   },
+   {
+    "word": " A",
+    "start": 325.0,
+    "end": 325.06
+   },
+   {
+    "word": " filing",
+    "start": 325.06,
+    "end": 325.32
+   },
+   {
+    "word": " cabinet",
+    "start": 325.32,
+    "end": 325.68
+   },
+   {
+    "word": " with",
+    "start": 325.68,
+    "end": 325.98
+   },
+   {
+    "word": " lookup",
+    "start": 325.98,
+    "end": 326.22
+   },
+   {
+    "word": " codes,",
+    "start": 326.22,
+    "end": 326.62
+   },
+   {
+    "word": " instant",
+    "start": 327.18,
+    "end": 327.44
+   },
+   {
+    "word": " answers,",
+    "start": 327.44,
+    "end": 327.88
+   },
+   {
+    "word": " no",
+    "start": 328.36,
+    "end": 328.48
+   },
+   {
+    "word": " rigid",
+    "start": 328.48,
+    "end": 328.72
+   },
+   {
+    "word": " schema.",
+    "start": 328.72,
+    "end": 329.08
+   }
+  ]
+ },
+ {
+  "start": 329.92,
+  "end": 334.62,
+  "text": "Why? Pay per request, millisecond speed, change your data shape weekly.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 329.92,
+    "end": 330.2
+   },
+   {
+    "word": " Pay",
+    "start": 330.84,
+    "end": 331.06
+   },
+   {
+    "word": " per",
+    "start": 331.06,
+    "end": 331.26
+   },
+   {
+    "word": " request,",
+    "start": 331.26,
+    "end": 331.56
+   },
+   {
+    "word": " millisecond",
+    "start": 332.18,
+    "end": 332.62
+   },
+   {
+    "word": " speed,",
+    "start": 332.62,
+    "end": 332.84
+   },
+   {
+    "word": " change",
+    "start": 333.34,
+    "end": 333.64
+   },
+   {
+    "word": " your",
+    "start": 333.64,
+    "end": 333.86
+   },
+   {
+    "word": " data",
+    "start": 333.86,
+    "end": 334.02
+   },
+   {
+    "word": " shape",
+    "start": 334.02,
+    "end": 334.3
+   },
+   {
+    "word": " weekly.",
+    "start": 334.3,
+    "end": 334.62
+   }
+  ]
+ },
+ {
+  "start": 335.48,
+  "end": 340.04,
+  "text": "Skip it and you're either paying for an idle database server or freezing your app's structure early.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 335.48,
+    "end": 335.72
+   },
+   {
+    "word": " it",
+    "start": 335.72,
+    "end": 335.9
+   },
+   {
+    "word": " and",
+    "start": 335.9,
+    "end": 336.06
+   },
+   {
+    "word": " you're",
+    "start": 336.06,
+    "end": 336.2
+   },
+   {
+    "word": " either",
+    "start": 336.2,
+    "end": 336.36
+   },
+   {
+    "word": " paying",
+    "start": 336.36,
+    "end": 336.64
+   },
+   {
+    "word": " for",
+    "start": 336.64,
+    "end": 336.9
+   },
+   {
+    "word": " an",
+    "start": 336.9,
+    "end": 336.96
+   },
+   {
+    "word": " idle",
+    "start": 336.96,
+    "end": 337.2
+   },
+   {
+    "word": " database",
+    "start": 337.2,
+    "end": 337.6
+   },
+   {
+    "word": " server",
+    "start": 337.6,
+    "end": 337.96
+   },
+   {
+    "word": " or",
+    "start": 337.96,
+    "end": 338.58
+   },
+   {
+    "word": " freezing",
+    "start": 338.58,
+    "end": 338.88
+   },
+   {
+    "word": " your",
+    "start": 338.88,
+    "end": 339.1
+   },
+   {
+    "word": " app's",
+    "start": 339.1,
+    "end": 339.42
+   },
+   {
+    "word": " structure",
+    "start": 339.42,
+    "end": 339.66
+   },
+   {
+    "word": " early.",
+    "start": 339.66,
+    "end": 340.04
+   }
+  ]
+ },
+ {
+  "start": 340.96,
+  "end": 344.82,
+  "text": "How? Partitioned by what you'll ask for. Sort by the piece ID.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 340.96,
+    "end": 341.1
+   },
+   {
+    "word": " Partitioned",
+    "start": 341.74,
+    "end": 342.22
+   },
+   {
+    "word": " by",
+    "start": 342.22,
+    "end": 342.3
+   },
+   {
+    "word": " what",
+    "start": 342.3,
+    "end": 342.52
+   },
+   {
+    "word": " you'll",
+    "start": 342.52,
+    "end": 342.72
+   },
+   {
+    "word": " ask",
+    "start": 342.72,
+    "end": 342.94
+   },
+   {
+    "word": " for.",
+    "start": 342.94,
+    "end": 343.26
+   },
+   {
+    "word": " Sort",
+    "start": 343.78,
+    "end": 343.96
+   },
+   {
+    "word": " by",
+    "start": 343.96,
+    "end": 344.24
+   },
+   {
+    "word": " the",
+    "start": 344.24,
+    "end": 344.36
+   },
+   {
+    "word": " piece",
+    "start": 344.36,
+    "end": 344.54
+   },
+   {
+    "word": " ID.",
+    "start": 344.54,
+    "end": 344.82
+   }
+  ]
+ },
+ {
+  "start": 344.82,
+  "end": 351.04,
+  "text": "Design the lookups first, always. Five hours wiring real reads and writes end-to-end.",
+  "words": [
+   {
+    "word": " Design",
+    "start": 344.82,
+    "end": 345.72
+   },
+   {
+    "word": " the",
+    "start": 345.72,
+    "end": 345.98
+   },
+   {
+    "word": " lookups",
+    "start": 345.98,
+    "end": 346.34
+   },
+   {
+    "word": " first,",
+    "start": 346.34,
+    "end": 346.54
+   },
+   {
+    "word": " always.",
+    "start": 347.02,
+    "end": 347.36
+   },
+   {
+    "word": " Five",
+    "start": 348.0,
+    "end": 348.3
+   },
+   {
+    "word": " hours",
+    "start": 348.3,
+    "end": 348.62
+   },
+   {
+    "word": " wiring",
+    "start": 348.62,
+    "end": 348.94
+   },
+   {
+    "word": " real",
+    "start": 348.94,
+    "end": 349.36
+   },
+   {
+    "word": " reads",
+    "start": 349.36,
+    "end": 349.78
+   },
+   {
+    "word": " and",
+    "start": 349.78,
+    "end": 349.98
+   },
+   {
+    "word": " writes",
+    "start": 349.98,
+    "end": 350.22
+   },
+   {
+    "word": " end",
+    "start": 350.22,
+    "end": 350.64
+   },
+   {
+    "word": "-to",
+    "start": 350.64,
+    "end": 350.78
+   },
+   {
+    "word": "-end.",
+    "start": 350.78,
+    "end": 351.04
+   }
+  ]
+ },
+ {
+  "start": 351.46,
+  "end": 354.4,
+  "text": "Two hours testing both halves separately with logging on.",
+  "words": [
+   {
+    "word": " Two",
+    "start": 351.46,
+    "end": 351.7
+   },
+   {
+    "word": " hours",
+    "start": 351.7,
+    "end": 352.04
+   },
+   {
+    "word": " testing",
+    "start": 352.04,
+    "end": 352.36
+   },
+   {
+    "word": " both",
+    "start": 352.36,
+    "end": 352.74
+   },
+   {
+    "word": " halves",
+    "start": 352.74,
+    "end": 353.02
+   },
+   {
+    "word": " separately",
+    "start": 353.02,
+    "end": 353.48
+   },
+   {
+    "word": " with",
+    "start": 353.48,
+    "end": 353.8
+   },
+   {
+    "word": " logging",
+    "start": 353.8,
+    "end": 354.04
+   },
+   {
+    "word": " on.",
+    "start": 354.04,
+    "end": 354.4
+   }
+  ]
+ },
+ {
+  "start": 355.14,
+  "end": 358.18,
+  "text": "Why? Bugs found on day four cost minutes.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 355.14,
+    "end": 355.46
+   },
+   {
+    "word": " Bugs",
+    "start": 356.12,
+    "end": 356.38
+   },
+   {
+    "word": " found",
+    "start": 356.38,
+    "end": 356.68
+   },
+   {
+    "word": " on",
+    "start": 356.68,
+    "end": 356.9
+   },
+   {
+    "word": " day",
+    "start": 356.9,
+    "end": 357.08
+   },
+   {
+    "word": " four",
+    "start": 357.08,
+    "end": 357.4
+   },
+   {
+    "word": " cost",
+    "start": 357.4,
+    "end": 357.9
+   },
+   {
+    "word": " minutes.",
+    "start": 357.9,
+    "end": 358.18
+   }
+  ]
+ },
+ {
+  "start": 358.96,
+  "end": 361.12,
+  "text": "Found on day five, they cost your launch.",
+  "words": [
+   {
+    "word": " Found",
+    "start": 358.96,
+    "end": 359.16
+   },
+   {
+    "word": " on",
+    "start": 359.16,
+    "end": 359.34
+   },
+   {
+    "word": " day",
+    "start": 359.34,
+    "end": 359.52
+   },
+   {
+    "word": " five,",
+    "start": 359.52,
+    "end": 359.88
+   },
+   {
+    "word": " they",
+    "start": 360.3,
+    "end": 360.44
+   },
+   {
+    "word": " cost",
+    "start": 360.44,
+    "end": 360.62
+   },
+   {
+    "word": " your",
+    "start": 360.62,
+    "end": 360.82
+   },
+   {
+    "word": " launch.",
+    "start": 360.82,
+    "end": 361.12
+   }
+  ]
+ },
+ {
+  "start": 361.92,
+  "end": 365.46,
+  "text": "Skip it and your users are your QA team. Later, not now.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 361.92,
+    "end": 362.16
+   },
+   {
+    "word": " it",
+    "start": 362.16,
+    "end": 362.34
+   },
+   {
+    "word": " and",
+    "start": 362.34,
+    "end": 362.54
+   },
+   {
+    "word": " your",
+    "start": 362.54,
+    "end": 362.66
+   },
+   {
+    "word": " users",
+    "start": 362.66,
+    "end": 362.98
+   },
+   {
+    "word": " are",
+    "start": 362.98,
+    "end": 363.26
+   },
+   {
+    "word": " your",
+    "start": 363.26,
+    "end": 363.36
+   },
+   {
+    "word": " QA",
+    "start": 363.36,
+    "end": 363.76
+   },
+   {
+    "word": " team.",
+    "start": 363.76,
+    "end": 363.94
+   },
+   {
+    "word": " Later,",
+    "start": 364.64,
+    "end": 364.86
+   },
+   {
+    "word": " not",
+    "start": 365.1,
+    "end": 365.22
+   },
+   {
+    "word": " now.",
+    "start": 365.22,
+    "end": 365.46
+   }
+  ]
+ },
+ {
+  "start": 365.96,
+  "end": 370.56,
+  "text": "RDS from 2009. The strict spreadsheet database for the day payments get serious.",
+  "words": [
+   {
+    "word": " RDS",
+    "start": 365.96,
+    "end": 366.16
+   },
+   {
+    "word": " from",
+    "start": 366.16,
+    "end": 366.7
+   },
+   {
+    "word": " 2009.",
+    "start": 366.7,
+    "end": 367.26
+   },
+   {
+    "word": " The",
+    "start": 367.98,
+    "end": 368.0
+   },
+   {
+    "word": " strict",
+    "start": 368.0,
+    "end": 368.18
+   },
+   {
+    "word": " spreadsheet",
+    "start": 368.18,
+    "end": 368.68
+   },
+   {
+    "word": " database",
+    "start": 368.68,
+    "end": 369.04
+   },
+   {
+    "word": " for",
+    "start": 369.04,
+    "end": 369.46
+   },
+   {
+    "word": " the",
+    "start": 369.46,
+    "end": 369.56
+   },
+   {
+    "word": " day",
+    "start": 369.56,
+    "end": 369.7
+   },
+   {
+    "word": " payments",
+    "start": 369.7,
+    "end": 370.04
+   },
+   {
+    "word": " get",
+    "start": 370.04,
+    "end": 370.26
+   },
+   {
+    "word": " serious.",
+    "start": 370.26,
+    "end": 370.56
+   }
+  ]
+ },
+ {
+  "start": 370.56,
+  "end": 375.88,
+  "text": "And S3, one of Amazon's first services. An infinite garage for files and video.",
+  "words": [
+   {
+    "word": " And",
+    "start": 370.56,
+    "end": 371.34
+   },
+   {
+    "word": " S3,",
+    "start": 371.34,
+    "end": 371.78
+   },
+   {
+    "word": " one",
+    "start": 372.06,
+    "end": 372.18
+   },
+   {
+    "word": " of",
+    "start": 372.18,
+    "end": 372.26
+   },
+   {
+    "word": " Amazon's",
+    "start": 372.26,
+    "end": 372.76
+   },
+   {
+    "word": " first",
+    "start": 372.76,
+    "end": 372.92
+   },
+   {
+    "word": " services.",
+    "start": 372.92,
+    "end": 373.34
+   },
+   {
+    "word": " An",
+    "start": 373.96,
+    "end": 374.06
+   },
+   {
+    "word": " infinite",
+    "start": 374.06,
+    "end": 374.36
+   },
+   {
+    "word": " garage",
+    "start": 374.36,
+    "end": 374.72
+   },
+   {
+    "word": " for",
+    "start": 374.72,
+    "end": 375.12
+   },
+   {
+    "word": " files",
+    "start": 375.12,
+    "end": 375.48
+   },
+   {
+    "word": " and",
+    "start": 375.48,
+    "end": 375.64
+   },
+   {
+    "word": " video.",
+    "start": 375.64,
+    "end": 375.88
+   }
+  ]
+ },
+ {
+  "start": 376.52,
+  "end": 379.32,
+  "text": "How you'll know? You'll need reports or you'll need file storage.",
+  "words": [
+   {
+    "word": " How",
+    "start": 376.52,
+    "end": 376.68
+   },
+   {
+    "word": " you'll",
+    "start": 376.68,
+    "end": 376.84
+   },
+   {
+    "word": " know?",
+    "start": 376.84,
+    "end": 376.96
+   },
+   {
+    "word": " You'll",
+    "start": 377.44,
+    "end": 377.52
+   },
+   {
+    "word": " need",
+    "start": 377.52,
+    "end": 377.66
+   },
+   {
+    "word": " reports",
+    "start": 377.66,
+    "end": 377.96
+   },
+   {
+    "word": " or",
+    "start": 377.96,
+    "end": 378.52
+   },
+   {
+    "word": " you'll",
+    "start": 378.52,
+    "end": 378.62
+   },
+   {
+    "word": " need",
+    "start": 378.62,
+    "end": 378.76
+   },
+   {
+    "word": " file",
+    "start": 378.76,
+    "end": 378.96
+   },
+   {
+    "word": " storage.",
+    "start": 378.96,
+    "end": 379.32
+   }
+  ]
+ },
+ {
+  "start": 380.0,
+  "end": 381.06,
+  "text": "Until then, skip.",
+  "words": [
+   {
+    "word": " Until",
+    "start": 380.0,
+    "end": 380.12
+   },
+   {
+    "word": " then,",
+    "start": 380.12,
+    "end": 380.44
+   },
+   {
+    "word": " skip.",
+    "start": 380.78,
+    "end": 381.06
+   }
+  ]
+ },
+ {
+  "start": 381.82,
+  "end": 384.02,
+  "text": "Day five, front end. Get push.",
+  "words": [
+   {
+    "word": " Day",
+    "start": 381.82,
+    "end": 381.82
+   },
+   {
+    "word": " five,",
+    "start": 381.82,
+    "end": 382.04
+   },
+   {
+    "word": " front",
+    "start": 382.56,
+    "end": 382.86
+   },
+   {
+    "word": " end.",
+    "start": 382.86,
+    "end": 383.04
+   },
+   {
+    "word": " Get",
+    "start": 383.74,
+    "end": 383.76
+   },
+   {
+    "word": " push.",
+    "start": 383.76,
+    "end": 384.02
+   }
+  ]
+ },
+ {
+  "start": 384.78,
+  "end": 388.52,
+  "text": "Amplify republishes automatically. Live HTTPS site.",
+  "words": [
+   {
+    "word": " Amplify",
+    "start": 384.78,
+    "end": 385.26
+   },
+   {
+    "word": " republishes",
+    "start": 385.26,
+    "end": 385.84
+   },
+   {
+    "word": " automatically.",
+    "start": 385.84,
+    "end": 386.32
+   },
+   {
+    "word": " Live",
+    "start": 387.04,
+    "end": 387.28
+   },
+   {
+    "word": " HTTPS",
+    "start": 387.28,
+    "end": 387.78
+   },
+   {
+    "word": " site.",
+    "start": 387.78,
+    "end": 388.52
+   }
+  ]
+ },
+ {
+  "start": 389.2,
+  "end": 394.02,
+  "text": "Back end. One SAM command ships every function, route, and database permission together.",
+  "words": [
+   {
+    "word": " Back",
+    "start": 389.2,
+    "end": 389.42
+   },
+   {
+    "word": " end.",
+    "start": 389.42,
+    "end": 389.64
+   },
+   {
+    "word": " One",
+    "start": 390.3,
+    "end": 390.4
+   },
+   {
+    "word": " SAM",
+    "start": 390.4,
+    "end": 390.66
+   },
+   {
+    "word": " command",
+    "start": 390.66,
+    "end": 391.0
+   },
+   {
+    "word": " ships",
+    "start": 391.0,
+    "end": 391.32
+   },
+   {
+    "word": " every",
+    "start": 391.32,
+    "end": 391.68
+   },
+   {
+    "word": " function,",
+    "start": 391.68,
+    "end": 392.12
+   },
+   {
+    "word": " route,",
+    "start": 392.4,
+    "end": 392.56
+   },
+   {
+    "word": " and",
+    "start": 392.86,
+    "end": 392.92
+   },
+   {
+    "word": " database",
+    "start": 392.92,
+    "end": 393.14
+   },
+   {
+    "word": " permission",
+    "start": 393.14,
+    "end": 393.6
+   },
+   {
+    "word": " together.",
+    "start": 393.6,
+    "end": 394.02
+   }
+  ]
+ },
+ {
+  "start": 394.54,
+  "end": 398.16,
+  "text": "Versioned and undoable. This is the payoff of days one and four.",
+  "words": [
+   {
+    "word": " Versioned",
+    "start": 394.54,
+    "end": 395.0
+   },
+   {
+    "word": " and",
+    "start": 395.0,
+    "end": 395.16
+   },
+   {
+    "word": " undoable.",
+    "start": 395.16,
+    "end": 395.68
+   },
+   {
+    "word": " This",
+    "start": 396.38,
+    "end": 396.54
+   },
+   {
+    "word": " is",
+    "start": 396.54,
+    "end": 396.64
+   },
+   {
+    "word": " the",
+    "start": 396.64,
+    "end": 396.74
+   },
+   {
+    "word": " payoff",
+    "start": 396.74,
+    "end": 397.02
+   },
+   {
+    "word": " of",
+    "start": 397.02,
+    "end": 397.26
+   },
+   {
+    "word": " days",
+    "start": 397.26,
+    "end": 397.44
+   },
+   {
+    "word": " one",
+    "start": 397.44,
+    "end": 397.8
+   },
+   {
+    "word": " and",
+    "start": 397.8,
+    "end": 397.9
+   },
+   {
+    "word": " four.",
+    "start": 397.9,
+    "end": 398.16
+   }
+  ]
+ },
+ {
+  "start": 398.16,
+  "end": 403.36,
+  "text": "How? Connect GitHub to amplify. Run the deploy. Watch it all go green.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 398.16,
+    "end": 399.02
+   },
+   {
+    "word": " Connect",
+    "start": 399.48,
+    "end": 399.82
+   },
+   {
+    "word": " GitHub",
+    "start": 399.82,
+    "end": 400.12
+   },
+   {
+    "word": " to",
+    "start": 400.12,
+    "end": 400.42
+   },
+   {
+    "word": " amplify.",
+    "start": 400.42,
+    "end": 400.64
+   },
+   {
+    "word": " Run",
+    "start": 401.42,
+    "end": 401.48
+   },
+   {
+    "word": " the",
+    "start": 401.48,
+    "end": 401.62
+   },
+   {
+    "word": " deploy.",
+    "start": 401.62,
+    "end": 401.82
+   },
+   {
+    "word": " Watch",
+    "start": 402.42,
+    "end": 402.66
+   },
+   {
+    "word": " it",
+    "start": 402.66,
+    "end": 402.8
+   },
+   {
+    "word": " all",
+    "start": 402.8,
+    "end": 402.92
+   },
+   {
+    "word": " go",
+    "start": 402.92,
+    "end": 403.08
+   },
+   {
+    "word": " green.",
+    "start": 403.08,
+    "end": 403.36
+   }
+  ]
+ },
+ {
+  "start": 404.12,
+  "end": 405.7,
+  "text": "Then CloudWatch from 2009.",
+  "words": [
+   {
+    "word": " Then",
+    "start": 404.12,
+    "end": 404.22
+   },
+   {
+    "word": " CloudWatch",
+    "start": 404.22,
+    "end": 404.8
+   },
+   {
+    "word": " from",
+    "start": 404.8,
+    "end": 405.1
+   },
+   {
+    "word": " 2009.",
+    "start": 405.1,
+    "end": 405.7
+   }
+  ]
+ },
+ {
+  "start": 406.5,
+  "end": 409.94,
+  "text": "It what it is? A heart monitor plus security cameras for your app.",
+  "words": [
+   {
+    "word": " It",
+    "start": 406.5,
+    "end": 406.6
+   },
+   {
+    "word": " what",
+    "start": 406.6,
+    "end": 406.72
+   },
+   {
+    "word": " it",
+    "start": 406.72,
+    "end": 406.84
+   },
+   {
+    "word": " is?",
+    "start": 406.84,
+    "end": 407.06
+   },
+   {
+    "word": " A",
+    "start": 407.66,
+    "end": 407.74
+   },
+   {
+    "word": " heart",
+    "start": 407.74,
+    "end": 407.92
+   },
+   {
+    "word": " monitor",
+    "start": 407.92,
+    "end": 408.26
+   },
+   {
+    "word": " plus",
+    "start": 408.26,
+    "end": 408.58
+   },
+   {
+    "word": " security",
+    "start": 408.58,
+    "end": 408.94
+   },
+   {
+    "word": " cameras",
+    "start": 408.94,
+    "end": 409.34
+   },
+   {
+    "word": " for",
+    "start": 409.34,
+    "end": 409.58
+   },
+   {
+    "word": " your",
+    "start": 409.58,
+    "end": 409.68
+   },
+   {
+    "word": " app.",
+    "start": 409.68,
+    "end": 409.94
+   }
+  ]
+ },
+ {
+  "start": 410.66,
+  "end": 414.16,
+  "text": "Every request leaves a log. Alarms email you when errors spike.",
+  "words": [
+   {
+    "word": " Every",
+    "start": 410.66,
+    "end": 410.86
+   },
+   {
+    "word": " request",
+    "start": 410.86,
+    "end": 411.24
+   },
+   {
+    "word": " leaves",
+    "start": 411.24,
+    "end": 411.54
+   },
+   {
+    "word": " a",
+    "start": 411.54,
+    "end": 411.7
+   },
+   {
+    "word": " log.",
+    "start": 411.7,
+    "end": 411.94
+   },
+   {
+    "word": " Alarms",
+    "start": 412.5,
+    "end": 412.88
+   },
+   {
+    "word": " email",
+    "start": 412.88,
+    "end": 413.12
+   },
+   {
+    "word": " you",
+    "start": 413.12,
+    "end": 413.48
+   },
+   {
+    "word": " when",
+    "start": 413.48,
+    "end": 413.62
+   },
+   {
+    "word": " errors",
+    "start": 413.62,
+    "end": 413.82
+   },
+   {
+    "word": " spike.",
+    "start": 413.82,
+    "end": 414.16
+   }
+  ]
+ },
+ {
+  "start": 415.16,
+  "end": 419.78,
+  "text": "Why? When it breaks at 2 a.m., this is how you know before your users tell you.",
+  "words": [
+   {
+    "word": " Why?",
+    "start": 415.16,
+    "end": 415.34
+   },
+   {
+    "word": " When",
+    "start": 416.2,
+    "end": 416.2
+   },
+   {
+    "word": " it",
+    "start": 416.2,
+    "end": 416.3
+   },
+   {
+    "word": " breaks",
+    "start": 416.3,
+    "end": 416.46
+   },
+   {
+    "word": " at",
+    "start": 416.46,
+    "end": 416.7
+   },
+   {
+    "word": " 2",
+    "start": 416.7,
+    "end": 416.88
+   },
+   {
+    "word": " a",
+    "start": 416.88,
+    "end": 417.04
+   },
+   {
+    "word": ".m.,",
+    "start": 417.04,
+    "end": 417.66
+   },
+   {
+    "word": " this",
+    "start": 417.66,
+    "end": 417.88
+   },
+   {
+    "word": " is",
+    "start": 417.88,
+    "end": 417.98
+   },
+   {
+    "word": " how",
+    "start": 417.98,
+    "end": 418.12
+   },
+   {
+    "word": " you",
+    "start": 418.12,
+    "end": 418.28
+   },
+   {
+    "word": " know",
+    "start": 418.28,
+    "end": 418.44
+   },
+   {
+    "word": " before",
+    "start": 418.44,
+    "end": 418.74
+   },
+   {
+    "word": " your",
+    "start": 418.74,
+    "end": 418.92
+   },
+   {
+    "word": " users",
+    "start": 418.92,
+    "end": 419.22
+   },
+   {
+    "word": " tell",
+    "start": 419.22,
+    "end": 419.5
+   },
+   {
+    "word": " you.",
+    "start": 419.5,
+    "end": 419.78
+   }
+  ]
+ },
+ {
+  "start": 420.32,
+  "end": 423.72,
+  "text": "Skip it and failures happen silently while angry customers wait.",
+  "words": [
+   {
+    "word": " Skip",
+    "start": 420.32,
+    "end": 420.64
+   },
+   {
+    "word": " it",
+    "start": 420.64,
+    "end": 420.82
+   },
+   {
+    "word": " and",
+    "start": 420.82,
+    "end": 421.16
+   },
+   {
+    "word": " failures",
+    "start": 421.16,
+    "end": 421.46
+   },
+   {
+    "word": " happen",
+    "start": 421.46,
+    "end": 421.84
+   },
+   {
+    "word": " silently",
+    "start": 421.84,
+    "end": 422.2
+   },
+   {
+    "word": " while",
+    "start": 422.2,
+    "end": 422.66
+   },
+   {
+    "word": " angry",
+    "start": 422.66,
+    "end": 422.98
+   },
+   {
+    "word": " customers",
+    "start": 422.98,
+    "end": 423.34
+   },
+   {
+    "word": " wait.",
+    "start": 423.34,
+    "end": 423.72
+   }
+  ]
+ },
+ {
+  "start": 424.34,
+  "end": 429.9,
+  "text": "How? Turn on logging. Set one alarm on errors. That's 90% of the value.",
+  "words": [
+   {
+    "word": " How?",
+    "start": 424.34,
+    "end": 424.86
+   },
+   {
+    "word": " Turn",
+    "start": 425.52,
+    "end": 425.78
+   },
+   {
+    "word": " on",
+    "start": 425.78,
+    "end": 425.9
+   },
+   {
+    "word": " logging.",
+    "start": 425.9,
+    "end": 426.2
+   },
+   {
+    "word": " Set",
+    "start": 426.8,
+    "end": 426.94
+   },
+   {
+    "word": " one",
+    "start": 426.94,
+    "end": 427.2
+   },
+   {
+    "word": " alarm",
+    "start": 427.2,
+    "end": 427.42
+   },
+   {
+    "word": " on",
+    "start": 427.42,
+    "end": 427.7
+   },
+   {
+    "word": " errors.",
+    "start": 427.7,
+    "end": 427.92
+   },
+   {
+    "word": " That's",
+    "start": 428.64,
+    "end": 428.82
+   },
+   {
+    "word": " 90",
+    "start": 428.82,
+    "end": 429.02
+   },
+   {
+    "word": "%",
+    "start": 429.02,
+    "end": 429.36
+   },
+   {
+    "word": " of",
+    "start": 429.36,
+    "end": 429.5
+   },
+   {
+    "word": " the",
+    "start": 429.5,
+    "end": 429.56
+   },
+   {
+    "word": " value.",
+    "start": 429.56,
+    "end": 429.9
+   }
+  ]
+ },
+ {
+  "start": 430.6,
+  "end": 431.7,
+  "text": "And the polish when you're ready.",
+  "words": [
+   {
+    "word": " And",
+    "start": 430.6,
+    "end": 430.7
+   },
+   {
+    "word": " the",
+    "start": 430.7,
+    "end": 430.78
+   },
+   {
+    "word": " polish",
+    "start": 430.78,
+    "end": 431.04
+   },
+   {
+    "word": " when",
+    "start": 431.04,
+    "end": 431.36
+   },
+   {
+    "word": " you're",
+    "start": 431.36,
+    "end": 431.48
+   },
+   {
+    "word": " ready.",
+    "start": 431.48,
+    "end": 431.7
+   }
+  ]
+ },
+ {
+  "start": 432.44,
+  "end": 437.4,
+  "text": "Grafana. A 2014 side project that became the standard dashboard for gauges and graphs.",
+  "words": [
+   {
+    "word": " Grafana.",
+    "start": 432.44,
+    "end": 432.72
+   },
+   {
+    "word": " A",
+    "start": 433.5,
+    "end": 433.5
+   },
+   {
+    "word": " 2014",
+    "start": 433.5,
+    "end": 433.84
+   },
+   {
+    "word": " side",
+    "start": 433.84,
+    "end": 434.4
+   },
+   {
+    "word": " project",
+    "start": 434.4,
+    "end": 434.88
+   },
+   {
+    "word": " that",
+    "start": 434.88,
+    "end": 435.08
+   },
+   {
+    "word": " became",
+    "start": 435.08,
+    "end": 435.28
+   },
+   {
+    "word": " the",
+    "start": 435.28,
+    "end": 435.46
+   },
+   {
+    "word": " standard",
+    "start": 435.46,
+    "end": 435.78
+   },
+   {
+    "word": " dashboard",
+    "start": 435.78,
+    "end": 436.28
+   },
+   {
+    "word": " for",
+    "start": 436.28,
+    "end": 436.56
+   },
+   {
+    "word": " gauges",
+    "start": 436.56,
+    "end": 436.96
+   },
+   {
+    "word": " and",
+    "start": 436.96,
+    "end": 437.14
+   },
+   {
+    "word": " graphs.",
+    "start": 437.14,
+    "end": 437.4
+   }
+  ]
+ },
+ {
+  "start": 438.12,
+  "end": 442.18,
+  "text": "And X-Ray. Package tracking for every request. Showing which step is slow.",
+  "words": [
+   {
+    "word": " And",
+    "start": 438.12,
+    "end": 438.18
+   },
+   {
+    "word": " X",
+    "start": 438.18,
+    "end": 438.32
+   },
+   {
+    "word": "-Ray.",
+    "start": 438.32,
+    "end": 438.58
+   },
+   {
+    "word": " Package",
+    "start": 439.08,
+    "end": 439.34
+   },
+   {
+    "word": " tracking",
+    "start": 439.34,
+    "end": 439.6
+   },
+   {
+    "word": " for",
+    "start": 439.6,
+    "end": 439.96
+   },
+   {
+    "word": " every",
+    "start": 439.96,
+    "end": 440.18
+   },
+   {
+    "word": " request.",
+    "start": 440.18,
+    "end": 440.6
+   },
+   {
+    "word": " Showing",
+    "start": 441.22,
+    "end": 441.4
+   },
+   {
+    "word": " which",
+    "start": 441.4,
+    "end": 441.56
+   },
+   {
+    "word": " step",
+    "start": 441.56,
+    "end": 441.84
+   },
+   {
+    "word": " is",
+    "start": 441.84,
+    "end": 442.0
+   },
+   {
+    "word": " slow.",
+    "start": 442.0,
+    "end": 442.18
+   }
+  ]
+ },
+ {
+  "start": 443.12,
+  "end": 445.48,
+  "text": "Nice on day one. Essential by day 1000.",
+  "words": [
+   {
+    "word": " Nice",
+    "start": 443.12,
+    "end": 443.16
+   },
+   {
+    "word": " on",
+    "start": 443.16,
+    "end": 443.36
+   },
+   {
+    "word": " day",
+    "start": 443.36,
+    "end": 443.5
+   },
+   {
+    "word": " one.",
+    "start": 443.5,
+    "end": 443.78
+   },
+   {
+    "word": " Essential",
+    "start": 444.4,
+    "end": 444.56
+   },
+   {
+    "word": " by",
+    "start": 444.56,
+    "end": 445.02
+   },
+   {
+    "word": " day",
+    "start": 445.02,
+    "end": 445.22
+   },
+   {
+    "word": " 1000.",
+    "start": 445.22,
+    "end": 445.48
+   }
+  ]
+ },
+ {
+  "start": 446.46,
+  "end": 451.3,
+  "text": "That's the whole road map. Setup. Front end. Back end. Memory. Launch.",
+  "words": [
+   {
+    "word": " That's",
+    "start": 446.46,
+    "end": 446.74
+   },
+   {
+    "word": " the",
+    "start": 446.74,
+    "end": 446.84
+   },
+   {
+    "word": " whole",
+    "start": 446.84,
+    "end": 446.94
+   },
+   {
+    "word": " road",
+    "start": 446.94,
+    "end": 447.14
+   },
+   {
+    "word": " map.",
+    "start": 447.14,
+    "end": 447.34
+   },
+   {
+    "word": " Setup.",
+    "start": 447.92,
+    "end": 448.16
+   },
+   {
+    "word": " Front",
+    "start": 448.8,
+    "end": 448.82
+   },
+   {
+    "word": " end.",
+    "start": 448.82,
+    "end": 449.0
+   },
+   {
+    "word": " Back",
+    "start": 449.56,
+    "end": 449.62
+   },
+   {
+    "word": " end.",
+    "start": 449.62,
+    "end": 449.84
+   },
+   {
+    "word": " Memory.",
+    "start": 450.58,
+    "end": 450.58
+   },
+   {
+    "word": " Launch.",
+    "start": 451.24,
+    "end": 451.3
+   }
+  ]
+ },
+ {
+  "start": 451.98,
+  "end": 457.74,
+  "text": "38 hours. Near zero cost until you have users. And every tool here does one job you can name.",
+  "words": [
+   {
+    "word": " 38",
+    "start": 451.98,
+    "end": 452.5
+   },
+   {
+    "word": " hours.",
+    "start": 452.5,
+    "end": 452.86
+   },
+   {
+    "word": " Near",
+    "start": 453.36,
+    "end": 453.38
+   },
+   {
+    "word": " zero",
+    "start": 453.38,
+    "end": 453.64
+   },
+   {
+    "word": " cost",
+    "start": 453.64,
+    "end": 454.06
+   },
+   {
+    "word": " until",
+    "start": 454.06,
+    "end": 454.32
+   },
+   {
+    "word": " you",
+    "start": 454.32,
+    "end": 454.56
+   },
+   {
+    "word": " have",
+    "start": 454.56,
+    "end": 454.72
+   },
+   {
+    "word": " users.",
+    "start": 454.72,
+    "end": 455.04
+   },
+   {
+    "word": " And",
+    "start": 455.7,
+    "end": 455.7
+   },
+   {
+    "word": " every",
+    "start": 455.7,
+    "end": 455.96
+   },
+   {
+    "word": " tool",
+    "start": 455.96,
+    "end": 456.24
+   },
+   {
+    "word": " here",
+    "start": 456.24,
+    "end": 456.48
+   },
+   {
+    "word": " does",
+    "start": 456.48,
+    "end": 456.7
+   },
+   {
+    "word": " one",
+    "start": 456.7,
+    "end": 456.92
+   },
+   {
+    "word": " job",
+    "start": 456.92,
+    "end": 457.22
+   },
+   {
+    "word": " you",
+    "start": 457.22,
+    "end": 457.4
+   },
+   {
+    "word": " can",
+    "start": 457.4,
+    "end": 457.5
+   },
+   {
+    "word": " name.",
+    "start": 457.5,
+    "end": 457.74
+   }
+  ]
+ },
+ {
+  "start": 458.54,
+  "end": 463.5,
+  "text": "Follow the five days in order. Skip nothing on day one. And ship something real this week.",
+  "words": [
+   {
+    "word": " Follow",
+    "start": 458.54,
+    "end": 458.76
+   },
+   {
+    "word": " the",
+    "start": 458.76,
+    "end": 458.94
+   },
+   {
+    "word": " five",
+    "start": 458.94,
+    "end": 459.2
+   },
+   {
+    "word": " days",
+    "start": 459.2,
+    "end": 459.42
+   },
+   {
+    "word": " in",
+    "start": 459.42,
+    "end": 459.58
+   },
+   {
+    "word": " order.",
+    "start": 459.58,
+    "end": 459.76
+   },
+   {
+    "word": " Skip",
+    "start": 460.4,
+    "end": 460.4
+   },
+   {
+    "word": " nothing",
+    "start": 460.4,
+    "end": 460.7
+   },
+   {
+    "word": " on",
+    "start": 460.7,
+    "end": 461.04
+   },
+   {
+    "word": " day",
+    "start": 461.04,
+    "end": 461.22
+   },
+   {
+    "word": " one.",
+    "start": 461.22,
+    "end": 461.56
+   },
+   {
+    "word": " And",
+    "start": 462.14,
+    "end": 462.16
+   },
+   {
+    "word": " ship",
+    "start": 462.16,
+    "end": 462.32
+   },
+   {
+    "word": " something",
+    "start": 462.32,
+    "end": 462.66
+   },
+   {
+    "word": " real",
+    "start": 462.66,
+    "end": 462.9
+   },
+   {
+    "word": " this",
+    "start": 462.9,
+    "end": 463.2
+   },
+   {
+    "word": " week.",
+    "start": 463.2,
+    "end": 463.5
+   }
+  ]
+ },
+ {
+  "start": 464.22,
+  "end": 467.8,
+  "text": "Subscribe if this mapped it out for you. And comment which day you're starting with.",
+  "words": [
+   {
+    "word": " Subscribe",
+    "start": 464.22,
+    "end": 464.48
+   },
+   {
+    "word": " if",
+    "start": 464.48,
+    "end": 464.84
+   },
+   {
+    "word": " this",
+    "start": 464.84,
+    "end": 465.0
+   },
+   {
+    "word": " mapped",
+    "start": 465.0,
+    "end": 465.2
+   },
+   {
+    "word": " it",
+    "start": 465.2,
+    "end": 465.4
+   },
+   {
+    "word": " out",
+    "start": 465.4,
+    "end": 465.52
+   },
+   {
+    "word": " for",
+    "start": 465.52,
+    "end": 465.68
+   },
+   {
+    "word": " you.",
+    "start": 465.68,
+    "end": 465.84
+   },
+   {
+    "word": " And",
+    "start": 466.28,
+    "end": 466.3
+   },
+   {
+    "word": " comment",
+    "start": 466.3,
+    "end": 466.54
+   },
+   {
+    "word": " which",
+    "start": 466.54,
+    "end": 466.88
+   },
+   {
+    "word": " day",
+    "start": 466.88,
+    "end": 467.12
+   },
+   {
+    "word": " you're",
+    "start": 467.12,
+    "end": 467.26
+   },
+   {
+    "word": " starting",
+    "start": 467.26,
+    "end": 467.52
+   },
+   {
+    "word": " with.",
+    "start": 467.52,
+    "end": 467.8
+   }
+  ]
+ }
+]

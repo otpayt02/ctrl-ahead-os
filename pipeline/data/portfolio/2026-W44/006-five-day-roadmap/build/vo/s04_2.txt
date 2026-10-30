@@ -1,0 +1,1 @@
+Then seven hours building the whole interface by prompting the AI — with one rule: fake data, no backend. Why: you make the site look and feel finished before the plumbing exists. Skip this discipline and you'll spend the day debugging connections instead of building. How: prompt one component at a time, click through it, refine.

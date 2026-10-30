@@ -1,0 +1,1 @@
+Two upgrades for later: FastAPI, from 2019, when one request involves many slow steps at once. And SQS — the ticket dispenser: it was AWS's first service — it queues a flood of requests so none bounce. Skip both for now; add them when traffic demands it.

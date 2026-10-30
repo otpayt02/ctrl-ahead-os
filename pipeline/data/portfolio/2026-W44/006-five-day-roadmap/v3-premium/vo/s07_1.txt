@@ -1,0 +1,1 @@
+Day five. Frontend: git push — Amplify republishes automatically, live HTTPS site. Backend: one SAM command ships every function, route, and database permission together, versioned and undoable. This is the payoff of Days 1 and 4. How: connect GitHub to Amplify, run the deploy, watch it all go green.

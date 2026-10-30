@@ -1,0 +1,1 @@
+Amplify, born in 2017. What it is: a publisher — every time you push code, it automatically republishes your live site, with security certificates included. Why: launch-day plumbing handled for free. Skip it and you're manually uploading files and babysitting expired certificates. How: connect your GitHub repo once, and never think about it again.

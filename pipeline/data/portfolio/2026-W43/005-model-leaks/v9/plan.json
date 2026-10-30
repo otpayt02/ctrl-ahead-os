@@ -1,0 +1,913 @@
+[
+ {
+  "sentence": 0,
+  "start": 0.0,
+  "end": 3.56,
+  "image": "img00",
+  "cuts": [
+   0.0,
+   3.56
+  ],
+  "text": "One video title this week promised four huge model updates."
+ },
+ {
+  "sentence": 1,
+  "start": 2.94,
+  "end": 9.86,
+  "image": "img00",
+  "cuts": [
+   2.94,
+   3.56,
+   5.56,
+   8.38,
+   9.86
+  ],
+  "text": "GPT-7, Claude REA banned, Gemini Carbon insane, Qwen 4 leaks."
+ },
+ {
+  "sentence": 2,
+  "start": 10.5,
+  "end": 13.22,
+  "image": "img01",
+  "cuts": [
+   10.5,
+   13.22
+  ],
+  "text": "I checked all four against what the companies actually said."
+ },
+ {
+  "sentence": 3,
+  "start": 13.78,
+  "end": 20.12,
+  "image": "img01",
+  "cuts": [
+   13.78,
+   14.3,
+   16.3,
+   18.14,
+   20.12
+  ],
+  "text": "One is a rumor, one I could not find at all, one is a leak with no pro"
+ },
+ {
+  "sentence": 4,
+  "start": 19.82,
+  "end": 23.62,
+  "image": "img02",
+  "cuts": [
+   19.82,
+   21.8,
+   23.62
+  ],
+  "text": "Here is the scorecard, so you do not build on a rumor."
+ },
+ {
+  "sentence": 5,
+  "start": 24.18,
+  "end": 27.58,
+  "image": "img03",
+  "cuts": [
+   24.18,
+   24.94,
+   27.58
+  ],
+  "text": "Before the evidence, here is the thought I want you to carry through a"
+ },
+ {
+  "sentence": 6,
+  "start": 27.58,
+  "end": 30.12,
+  "image": "img03",
+  "cuts": [
+   27.58,
+   30.12
+  ],
+  "text": "A rumor is not just a bad fact."
+ },
+ {
+  "sentence": 7,
+  "start": 30.52,
+  "end": 31.22,
+  "image": "img04",
+  "cuts": [
+   30.52,
+   31.22
+  ],
+  "text": "It is a mirror."
+ },
+ {
+  "sentence": 8,
+  "start": 31.74,
+  "end": 34.12,
+  "image": "img05",
+  "cuts": [
+   31.74,
+   34.12
+  ],
+  "text": "It shows you what you already wanted to be true."
+ },
+ {
+  "sentence": 9,
+  "start": 34.68,
+  "end": 44.06,
+  "image": "img05",
+  "cuts": [
+   34.68,
+   36.78,
+   37.82,
+   38.66,
+   40.68,
+   44.06
+  ],
+  "text": "When a title promises the next giant model, the next ban, the next lea"
+ },
+ {
+  "sentence": 10,
+  "start": 44.62,
+  "end": 49.22,
+  "image": "img06",
+  "cuts": [
+   44.62,
+   45.66,
+   49.22
+  ],
+  "text": "The directive is simple, and it is hard: want the truth more than you "
+ },
+ {
+  "sentence": 11,
+  "start": 49.9,
+  "end": 55.64,
+  "image": "img07",
+  "cuts": [
+   49.9,
+   51.48,
+   55.64
+  ],
+  "text": "If you can hold that for six minutes, the rest of this video will feel"
+ },
+ {
+  "sentence": 12,
+  "start": 55.64,
+  "end": 56.5,
+  "image": "img07",
+  "cuts": [
+   55.64,
+   56.5
+  ],
+  "text": "First, GPT-7 Bel."
+ },
+ {
+  "sentence": 13,
+  "start": 58.46,
+  "end": 62.1,
+  "image": "img08",
+  "cuts": [
+   58.46,
+   62.1
+  ],
+  "text": "The whole thing traces to one anonymous post on August 25th."
+ },
+ {
+  "sentence": 14,
+  "start": 60.9,
+  "end": 67.76,
+  "image": "img09",
+  "cuts": [
+   60.9,
+   62.1,
+   63.92,
+   67.76
+  ],
+  "text": "No document, no named source, and it did not even say GPT-7 \u2014 that lab"
+ },
+ {
+  "sentence": 15,
+  "start": 68.46,
+  "end": 78.84,
+  "image": "proof_openai",
+  "cuts": [
+   68.46,
+   70.96,
+   75.46,
+   77.16,
+   78.84
+  ],
+  "text": "OpenAI has never used the name Bel in public, and on October 11th its "
+ },
+ {
+  "sentence": 16,
+  "start": 79.5,
+  "end": 80.46,
+  "image": "img10",
+  "cuts": [
+   79.5,
+   79.66,
+   80.46
+  ],
+  "text": "No Bel, no GPT-7."
+ },
+ {
+  "sentence": 17,
+  "start": 81.86,
+  "end": 89.02,
+  "image": "img11",
+  "cuts": [
+   81.86,
+   83.24,
+   84.64,
+   89.02
+  ],
+  "text": "What OpenAI did say, on September 8th, is that it has an internal mode"
+ },
+ {
+  "sentence": 18,
+  "start": 89.6,
+  "end": 94.12,
+  "image": "img11",
+  "cuts": [
+   89.6,
+   90.44,
+   92.92,
+   94.12
+  ],
+  "text": "That is true, and it is not the same as saying that model is Bel, or t"
+ },
+ {
+  "sentence": 19,
+  "start": 95.62,
+  "end": 96.86,
+  "image": "img12",
+  "cuts": [
+   95.62,
+   96.86
+  ],
+  "text": "Verdict: unverified."
+ },
+ {
+  "sentence": 20,
+  "start": 98.0,
+  "end": 98.56,
+  "image": "img13",
+  "cuts": [
+   98.0,
+   98.0,
+   98.56
+  ],
+  "text": "Second, Claude REA banned."
+ },
+ {
+  "sentence": 21,
+  "start": 99.76,
+  "end": 103.0,
+  "image": "img13",
+  "cuts": [
+   99.76,
+   101.32,
+   103.0
+  ],
+  "text": "I searched for a model called Claude REA, and I did not find one."
+ },
+ {
+  "sentence": 22,
+  "start": 103.34,
+  "end": 106.2,
+  "image": "img14",
+  "cuts": [
+   103.34,
+   104.8,
+   106.2
+  ],
+  "text": "What I did find is two real bans, and neither is a model."
+ },
+ {
+  "sentence": 23,
+  "start": 106.84,
+  "end": 118.5,
+  "image": "proof_anthropic",
+  "cuts": [
+   106.84,
+   108.08,
+   110.0,
+   111.42,
+   112.36,
+   116.9,
+   118.5
+  ],
+  "text": "On October 8th, Anthropic updated its usage policy, effective November"
+ },
+ {
+  "sentence": 24,
+  "start": 119.22,
+  "end": 125.06,
+  "image": "proof_anthropic",
+  "cuts": [
+   119.22,
+   120.66,
+   125.06
+  ],
+  "text": "And on October 12th, Anthropic said it banned tens of thousands of acc"
+ },
+ {
+  "sentence": 25,
+  "start": 125.78,
+  "end": 129.96,
+  "image": "img16",
+  "cuts": [
+   125.78,
+   126.84,
+   128.68,
+   129.96
+  ],
+  "text": "So banned is real, but it is accounts and a policy, not a model called"
+ },
+ {
+  "sentence": 26,
+  "start": 130.76,
+  "end": 135.68,
+  "image": "img17",
+  "cuts": [
+   130.76,
+   131.6,
+   131.6,
+   134.34,
+   135.68
+  ],
+  "text": "Pause on that word, banned, because it is doing philosophical work her"
+ },
+ {
+  "sentence": 27,
+  "start": 136.0,
+  "end": 138.74,
+  "image": "img17",
+  "cuts": [
+   136.0,
+   138.74
+  ],
+  "text": "To ban an account is to draw a boundary around a community."
+ },
+ {
+  "sentence": 28,
+  "start": 139.38,
+  "end": 144.3,
+  "image": "img18",
+  "cuts": [
+   139.38,
+   140.98,
+   143.1,
+   144.3
+  ],
+  "text": "To ban a behavior is to say, this is not how we will treat a mind, eve"
+ },
+ {
+  "sentence": 29,
+  "start": 145.22,
+  "end": 149.62,
+  "image": "img19",
+  "cuts": [
+   145.22,
+   149.62
+  ],
+  "text": "To ban a model would be something else entirely: to erase a capability"
+ },
+ {
+  "sentence": 30,
+  "start": 150.46,
+  "end": 155.1,
+  "image": "img19",
+  "cuts": [
+   150.46,
+   153.5,
+   155.1
+  ],
+  "text": "The title collapses all three into one scary word, and that collapse i"
+ },
+ {
+  "sentence": 31,
+  "start": 155.82,
+  "end": 161.2,
+  "image": "img20",
+  "cuts": [
+   155.82,
+   157.26,
+   159.2,
+   159.96,
+   161.2
+  ],
+  "text": "When you hear a word that big, ask what exactly was banned, by whom, a"
+ },
+ {
+  "sentence": 32,
+  "start": 161.64,
+  "end": 163.36,
+  "image": "img21",
+  "cuts": [
+   161.64,
+   163.36
+  ],
+  "text": "Precision is not pedantry here."
+ },
+ {
+  "sentence": 33,
+  "start": 163.76,
+  "end": 166.56,
+  "image": "img21",
+  "cuts": [
+   163.76,
+   166.56
+  ],
+  "text": "Precision is the difference between fear and understanding."
+ },
+ {
+  "sentence": 34,
+  "start": 167.1,
+  "end": 168.8,
+  "image": "img22",
+  "cuts": [
+   167.1,
+   167.5,
+   168.8
+  ],
+  "text": "Third, Gemini 4 Carbon."
+ },
+ {
+  "sentence": 35,
+  "start": 168.8,
+  "end": 172.58,
+  "image": "img23",
+  "cuts": [
+   168.8,
+   170.84,
+   172.58
+  ],
+  "text": "This one is the closest to real, and it is still not a product."
+ },
+ {
+  "sentence": 36,
+  "start": 173.18,
+  "end": 183.46,
+  "image": "proof_kie",
+  "cuts": [
+   173.18,
+   178.02,
+   179.72,
+   183.46
+  ],
+  "text": "Business Insider reported on October 9th that Google staff were testin"
+ },
+ {
+  "sentence": 37,
+  "start": 184.18,
+  "end": 190.5,
+  "image": "img24",
+  "cuts": [
+   184.18,
+   185.4,
+   187.12,
+   187.94,
+   188.88,
+   190.5
+  ],
+  "text": "Feels like is not a benchmark, there is no model card, no price, no re"
+ },
+ {
+  "sentence": 38,
+  "start": 191.24,
+  "end": 195.56,
+  "image": "img25",
+  "cuts": [
+   191.24,
+   195.56
+  ],
+  "text": "A checkpoint briefly showed up on LMArena around October 23rd and was "
+ },
+ {
+  "sentence": 39,
+  "start": 195.56,
+  "end": 200.6,
+  "image": "img25",
+  "cuts": [
+   195.56,
+   198.52,
+   200.6
+  ],
+  "text": "So Carbon is a leak about an internal checkpoint, not a model you can "
+ },
+ {
+  "sentence": 40,
+  "start": 201.2,
+  "end": 202.34,
+  "image": "img26",
+  "cuts": [
+   201.2,
+   201.2,
+   202.34
+  ],
+  "text": "Fourth, Qwen 4."
+ },
+ {
+  "sentence": 41,
+  "start": 202.88,
+  "end": 206.26,
+  "image": "proof_llmcheck",
+  "cuts": [
+   202.88,
+   206.26
+  ],
+  "text": "Alibaba said on September 22nd that Qwen 4 is in training."
+ },
+ {
+  "sentence": 42,
+  "start": 206.82,
+  "end": 217.92,
+  "image": "proof_llmcheck",
+  "cuts": [
+   206.82,
+   208.54,
+   209.24,
+   210.02,
+   213.1,
+   213.98,
+   217.92
+  ],
+  "text": "It named tiers \u2014 Max, Plus, Flash, and a 27B model \u2014 but gave no specs"
+ },
+ {
+  "sentence": 43,
+  "start": 218.58,
+  "end": 227.1,
+  "image": "proof_llmcheck",
+  "cuts": [
+   218.58,
+   220.7,
+   227.1
+  ],
+  "text": "The thing you can actually look at today is Qwen 3.8 Flash-Next, which"
+ },
+ {
+  "sentence": 44,
+  "start": 227.94,
+  "end": 231.28,
+  "image": "img29",
+  "cuts": [
+   227.94,
+   229.9,
+   231.28
+  ],
+  "text": "So Qwen 4 is real as a project, not shipped as a model."
+ },
+ {
+  "sentence": 45,
+  "start": 231.86,
+  "end": 234.28,
+  "image": "img29",
+  "cuts": [
+   231.86,
+   234.28
+  ],
+  "text": "And Qwen 4 Coder does not exist yet."
+ },
+ {
+  "sentence": 46,
+  "start": 234.62,
+  "end": 238.0,
+  "image": "img30",
+  "cuts": [
+   234.62,
+   236.58,
+   237.24,
+   238.0
+  ],
+  "text": "A leak is a model before it has a name, a price, or a promise."
+ },
+ {
+  "sentence": 47,
+  "start": 238.78,
+  "end": 246.1,
+  "image": "img31",
+  "cuts": [
+   238.78,
+   242.96,
+   246.1
+  ],
+  "text": "It lives in the gap between what a lab knows and what the public is al"
+ },
+ {
+  "sentence": 48,
+  "start": 246.7,
+  "end": 248.22,
+  "image": "img31",
+  "cuts": [
+   246.7,
+   248.22
+  ],
+  "text": "That is not a flaw in you."
+ },
+ {
+  "sentence": 49,
+  "start": 248.56,
+  "end": 251.46,
+  "image": "img32",
+  "cuts": [
+   248.56,
+   251.46
+  ],
+  "text": "It is how humans think about power we cannot yet touch."
+ },
+ {
+  "sentence": 50,
+  "start": 251.46,
+  "end": 254.68,
+  "image": "img33",
+  "cuts": [
+   251.46,
+   254.68
+  ],
+  "text": "We fill the unknown with the biggest thing we can picture."
+ },
+ {
+  "sentence": 51,
+  "start": 255.38,
+  "end": 258.74,
+  "image": "img33",
+  "cuts": [
+   255.38,
+   258.74
+  ],
+  "text": "The discipline is to let the unknown stay unknown for a little longer."
+ },
+ {
+  "sentence": 52,
+  "start": 259.46,
+  "end": 260.74,
+  "image": "img34",
+  "cuts": [
+   259.46,
+   260.74
+  ],
+  "text": "A checkpoint is not a product."
+ },
+ {
+  "sentence": 53,
+  "start": 261.32,
+  "end": 262.58,
+  "image": "img35",
+  "cuts": [
+   261.32,
+   262.58
+  ],
+  "text": "A feeling is not a benchmark."
+ },
+ {
+  "sentence": 54,
+  "start": 263.38,
+  "end": 265.08,
+  "image": "img35",
+  "cuts": [
+   263.38,
+   265.08
+  ],
+  "text": "A training run is not a release."
+ },
+ {
+  "sentence": 55,
+  "start": 264.6,
+  "end": 269.24,
+  "image": "img36",
+  "cuts": [
+   264.6,
+   269.24
+  ],
+  "text": "Naming each stage honestly is how you keep your own thinking clean."
+ },
+ {
+  "sentence": 56,
+  "start": 269.76,
+  "end": 279.84,
+  "image": "img37",
+  "cuts": [
+   269.76,
+   271.56,
+   275.38,
+   276.22,
+   279.84
+  ],
+  "text": "So if you are picking a model this week, pick from the ones that actua"
+ },
+ {
+  "sentence": 57,
+  "start": 281.74,
+  "end": 285.94,
+  "image": "img37",
+  "cuts": [
+   281.74,
+   283.2,
+   284.28,
+   284.86,
+   285.94
+  ],
+  "text": "The other four names are a rumor, a missing model, a leak, and a train"
+ },
+ {
+  "sentence": 58,
+  "start": 286.5,
+  "end": 292.42,
+  "image": "img38",
+  "cuts": [
+   286.5,
+   290.52,
+   292.42
+  ],
+  "text": "That is not less interesting \u2014 it is just the difference between news "
+ },
+ {
+  "sentence": 59,
+  "start": 292.94,
+  "end": 295.14,
+  "image": "img39",
+  "cuts": [
+   292.94,
+   295.14
+  ],
+  "text": "One last test before you share anything this week."
+ },
+ {
+  "sentence": 60,
+  "start": 295.64,
+  "end": 298.38,
+  "image": "img39",
+  "cuts": [
+   295.64,
+   297.4,
+   298.38
+  ],
+  "text": "Ask who benefits if you believe it now, before it is confirmed."
+ },
+ {
+  "sentence": 61,
+  "start": 299.08,
+  "end": 305.82,
+  "image": "img40",
+  "cuts": [
+   299.08,
+   300.86,
+   302.52,
+   304.22,
+   305.82
+  ],
+  "text": "If the answer is a channel selling urgency, a seller selling access, o"
+ },
+ {
+  "sentence": 62,
+  "start": 306.24,
+  "end": 307.52,
+  "image": "img41",
+  "cuts": [
+   306.24,
+   307.52
+  ],
+  "text": "Speed is not insight."
+ },
+ {
+  "sentence": 63,
+  "start": 307.96,
+  "end": 315.7,
+  "image": "img41",
+  "cuts": [
+   307.96,
+   310.84,
+   312.8,
+   315.7
+  ],
+  "text": "Being first to repeat a rumor is not the same as being right, and in a"
+ },
+ {
+  "sentence": 64,
+  "start": 316.3,
+  "end": 319.9,
+  "image": "img42",
+  "cuts": [
+   316.3,
+   319.9
+  ],
+  "text": "They are the only one still standing on solid ground when the hype cyc"
+ },
+ {
+  "sentence": 65,
+  "start": 320.5,
+  "end": 322.7,
+  "image": "img43",
+  "cuts": [
+   320.5,
+   322.7
+  ],
+  "text": "And here is the directive I want you to leave with."
+ },
+ {
+  "sentence": 66,
+  "start": 323.08,
+  "end": 324.26,
+  "image": "img43",
+  "cuts": [
+   323.08,
+   324.26
+  ],
+  "text": "Build on what shipped."
+ },
+ {
+  "sentence": 67,
+  "start": 324.76,
+  "end": 329.18,
+  "image": "img44",
+  "cuts": [
+   324.76,
+   325.64,
+   327.16,
+   327.88,
+   329.18
+  ],
+  "text": "Watch what is rumored, but do not bet your work, your money, or your r"
+ },
+ {
+  "sentence": 68,
+  "start": 329.18,
+  "end": 334.6,
+  "image": "img45",
+  "cuts": [
+   329.18,
+   330.4,
+   332.5,
+   333.3,
+   333.96,
+   334.6
+  ],
+  "text": "Keep a ledger, even a mental one: claimed, sourced, confirmed, shipped"
+ },
+ {
+  "sentence": 69,
+  "start": 335.3,
+  "end": 335.9,
+  "image": "img45",
+  "cuts": [
+   335.3,
+   335.9
+  ],
+  "text": "Four columns."
+ },
+ {
+  "sentence": 70,
+  "start": 336.54,
+  "end": 338.54,
+  "image": "img46",
+  "cuts": [
+   336.54,
+   338.54
+  ],
+  "text": "Most of the internet lives in the first two."
+ },
+ {
+  "sentence": 71,
+  "start": 338.88,
+  "end": 340.86,
+  "image": "img47",
+  "cuts": [
+   338.88,
+   340.86
+  ],
+  "text": "Your advantage is living in the last two."
+ },
+ {
+  "sentence": 72,
+  "start": 341.2,
+  "end": 342.16,
+  "image": "img47",
+  "cuts": [
+   341.2,
+   342.16
+  ],
+  "text": "That is not cynicism."
+ },
+ {
+  "sentence": 73,
+  "start": 342.68,
+  "end": 343.6,
+  "image": "img48",
+  "cuts": [
+   342.68,
+   343.6
+  ],
+  "text": "That is stewardship."
+ },
+ {
+  "sentence": 74,
+  "start": 344.24,
+  "end": 351.6,
+  "image": "img48",
+  "cuts": [
+   344.24,
+   346.44,
+   347.42,
+   351.6
+  ],
+  "text": "The future will arrive whether you hype it or not, and when it does, y"
+ }
+]

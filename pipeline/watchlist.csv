@@ -1,0 +1,51 @@
+company,cluster,kind,changelog_url,rss_url,github_org
+OpenAI,tools,incumbent,https://openai.com/changelog,,openai
+Anthropic,tools,incumbent,https://www.anthropic.com/news,,anthropics
+Google DeepMind,tools,incumbent,https://deepmind.google/blog,,google-deepmind
+Perplexity AI,tools,incumbent,https://www.perplexity.ai/hub,,perplexityai
+Meta AI,tools,incumbent,https://ai.meta.com/blog,,facebookresearch
+Mistral AI,tools,incumbent,https://mistral.ai/news,,mistralai
+Microsoft Copilot,tools,incumbent,https://blogs.microsoft.com/blog,,microsoft
+DeepSeek,tools,incumbent,https://www.deepseek.com/,,deepseek-ai
+Alibaba Qwen,tools,incumbent,https://qwen.ai/blog,,QwenLM
+xAI Grok,tools,incumbent,https://x.ai/news,,xai-org
+Ollama,tools,challenger,https://github.com/ollama/ollama/releases,,ollama
+LM Studio,tools,challenger,https://lmstudio.ai/changelog,,lmstudio-ai
+Together AI,tools,challenger,https://www.together.ai/blog,,togethercomputer
+Fireworks AI,tools,challenger,https://fireworks.ai/blog,,fw-ai
+Groq,tools,challenger,https://groq.com/blog,,groq
+Cerebras,tools,challenger,https://cerebras.ai/blog,,Cerebras
+OpenRouter,tools,challenger,https://openrouter.ai/announcements,,OpenRouter
+Anthropic Claude Code,builders,incumbent,https://github.com/anthropics/claude-code/releases,,anthropics
+Cursor Anysphere,builders,incumbent,https://cursor.com/changelog,,cursor
+GitHub Copilot,builders,incumbent,https://github.blog/changelog,,github
+Replit,builders,incumbent,https://blog.replit.com/,,replit
+Windsurf Codeium,builders,incumbent,https://windsurf.com/changelog,,Exafunction
+LangChain,builders,incumbent,https://github.com/langchain-ai/langchain/releases,,langchain-ai
+LlamaIndex,builders,incumbent,https://github.com/run-llama/llama_index/releases,,run-llama
+Cline,builders,challenger,https://github.com/cline/cline/releases,,cline
+Aider,builders,challenger,https://github.com/Aider-AI/aider/releases,,Aider-AI
+Continue.dev,builders,challenger,https://github.com/continuedev/continue/releases,,continuedev
+Unsloth,builders,challenger,https://github.com/unslothai/unsloth/releases,,unslothai
+n8n,business,incumbent,https://n8n.io/blog/rss,https://n8n.io/blog/rss,n8n-io
+Make.com,business,incumbent,https://www.make.com/en/blog,,make
+Zapier,business,incumbent,https://zapier.com/blog,,zapier
+Notion AI,business,incumbent,https://www.notion.so/releases,,makenotion
+Flowise,business,challenger,https://github.com/FlowiseAI/Flowise/releases,,FlowiseAI
+Langflow,business,challenger,https://github.com/langflow-ai/langflow/releases,,langflow-ai
+Dify.ai,business,challenger,https://github.com/langgenius/dify/releases,,langgenius
+Activepieces,business,challenger,https://github.com/activepieces/activepieces/releases,,activepieces
+Midjourney,creative,incumbent,https://docs.midjourney.com/docs/release-notes,,midjourney
+Runway,creative,incumbent,https://runwayml.com/blog,,runwayml
+Black Forest Labs FLUX,creative,incumbent,https://bfl.ai/announcements,,black-forest-labs
+Suno AI,creative,incumbent,https://suno.com/blog,,suno-ai
+ElevenLabs,creative,incumbent,https://elevenlabs.io/blog,,elevenlabs
+Ideogram,creative,challenger,https://ideogram.ai/blog,,ideogram-ai
+Hugging Face,news,incumbent,https://huggingface.co/blog,,huggingface
+Weights & Biases,news,incumbent,https://wandb.ai/blog,,wandb
+Scale AI,news,incumbent,https://scale.com/blog,,scaleapi
+Epoch AI,news,challenger,https://epoch.ai/blog,,epoch-research
+DeepLearning.AI,education,incumbent,https://www.deeplearning.ai/blog,,deeplearning-ai
+Hugging Face Learn,education,incumbent,https://huggingface.co/learn,,huggingface
+vLLM Project,education,challenger,https://github.com/vllm-project/vllm/releases,,vllm-project
+llama.cpp,education,challenger,https://github.com/ggml-org/llama.cpp/releases,,ggml-org

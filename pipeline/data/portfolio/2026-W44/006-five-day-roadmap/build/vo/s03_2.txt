@@ -1,0 +1,1 @@
+Your AWS account. Amazon's cloud launched in 2006 with one storage service. What it is: where everything else in this video lives, metered like a utility. Why: an app with no traffic costs almost nothing. Skip it and you're building a website that only you can see. How: sign up, stay in the free tier, done in fifteen minutes.

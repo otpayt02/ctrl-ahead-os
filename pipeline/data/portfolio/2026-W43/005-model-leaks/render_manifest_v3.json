@@ -1,0 +1,9 @@
+{
+  "version": "v3",
+  "voiceover": "vo2/vo.mp3, 351.888s, 11 chunks",
+  "render": "v3-render.mp4, 351.875s, 13.8 MB, verified by ffprobe",
+  "structure": "0-265.5s: v2 visuals (title, live-visit renders src0-src4, commentary graphic, cycling). 265.5-351.9s: ANIMATED 'what you can do' segment — 5 staged graphics building in one by one with slow zoom, highlight on the current item, final takeaway 'Your advantage: Confirmed + Shipped.'",
+  "timing_note": "265.5s cut is estimated from word-count proportion across the 11 VO chunks (chunk 9 starts at word 793/1051), not measured per-chunk TTS timestamps. Animated segment content matches chunks 9-11 in substance (pick shipped, test before sharing, ledger directive).",
+  "labels": "Animated frames bannered 'ANIMATED GRAPHIC — NOT A SCREENSHOT'. Source visuals in part 1 remain bannered 'RENDERED FROM LIVE PAGE VISIT — NOT A LIVE SCREENSHOT'. No frame is presented as a live screenshot, a run, or evidence beyond what it shows.",
+  "publish": "NOT published. Under the 2026-10-26 hands-free rule, publish waits on Oliver approving this full render manifest, then final-video feedback iteration."
+}

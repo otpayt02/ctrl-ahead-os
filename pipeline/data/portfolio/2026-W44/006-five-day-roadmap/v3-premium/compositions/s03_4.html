@@ -1,0 +1,215 @@
+<template>
+<link rel="stylesheet" href="css/theme.css">
+<style>
+#root{position:absolute;inset:0;background:#07090F;overflow:hidden;font-family:Inter,sans-serif;color:#fff}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.glowA{position:absolute;width:900px;height:900px;left:-260px;top:-320px;background:radial-gradient(circle,rgba(255,209,102,.20) 0%,rgba(255,209,102,0) 62%);pointer-events:none}
+.glowB{position:absolute;width:1000px;height:1000px;right:-320px;bottom:-420px;background:radial-gradient(circle,rgba(94,234,212,.13) 0%,rgba(94,234,212,0) 62%);pointer-events:none}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,6,11,.90) 0%,rgba(4,6,11,.55) 52%,rgba(4,6,11,.12) 82%),linear-gradient(0deg,rgba(4,6,11,.94) 0%,rgba(4,6,11,0) 36%),linear-gradient(180deg,rgba(4,6,11,.5) 0%,rgba(4,6,11,0) 24%)}
+.mute{position:absolute;inset:0;background:rgba(16,18,26,.42)}
+.sweep{position:absolute;top:-12%;height:124%;width:300px;left:0;background:linear-gradient(100deg,rgba(255,209,102,0) 0%,rgba(255,209,102,.34) 45%,rgba(255,246,214,.75) 50%,rgba(255,209,102,.34) 55%,rgba(255,209,102,0) 100%);transform:skewX(-14deg);opacity:0;pointer-events:none}
+.gsweep{position:absolute;top:-12%;height:124%;width:170px;left:0;background:linear-gradient(100deg,rgba(255,209,102,0) 0%,rgba(255,209,102,.16) 50%,rgba(255,209,102,0) 100%);transform:skewX(-14deg);opacity:0;pointer-events:none}
+.panel{position:absolute;top:96px;left:56px;width:1080px;padding:38px 46px 34px;background:linear-gradient(135deg,rgba(13,18,30,.82),rgba(9,12,20,.68));border:1px solid rgba(201,168,118,.45);border-radius:22px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.pill{display:inline-block;padding:10px 22px;border-radius:999px;background:rgba(6,8,13,.85);border:1.5px solid rgba(94,234,212,.55);font-family:"JetBrains Mono",monospace;font-size:20px;font-weight:700;letter-spacing:.18em;color:#5EEAD4}
+.title{font-weight:700;letter-spacing:-.02em;line-height:1.02;margin-top:22px;text-shadow:0 4px 30px rgba(0,0,0,.65)}
+.yearchip{display:inline-block;margin-left:22px;padding:8px 20px;border-radius:999px;border:2px solid #FFD166;color:#FFD166;font-size:30px;font-weight:700;vertical-align:middle}
+.rule{height:7px;width:0;margin-top:24px;background:linear-gradient(90deg,#C9A876,#FFD166,#FF5DA2);border-radius:4px}
+.subtitle{font-size:33px;color:rgba(255,255,255,.88);margin-top:16px;font-weight:600}
+.stage{position:absolute;left:56px;bottom:216px;width:1170px}
+.headline{position:absolute;left:0;bottom:0;width:1170px;font-size:53px;font-weight:700;line-height:1.17;letter-spacing:-.01em;text-shadow:0 3px 24px rgba(0,0,0,.8)}
+.headline .wg{display:inline-block}
+.headline .bar{position:absolute;left:0;bottom:-16px;height:7px;width:0;background:#5EEAD4;border-radius:4px}
+.rail{position:absolute;right:48px;top:150px;width:520px;display:flex;flex-direction:column;gap:15px}
+.spine{position:absolute;right:600px;top:170px;width:5px;height:560px;background:rgba(255,255,255,.10);border-radius:3px;overflow:hidden}
+.spinefill{width:100%;height:100%;background:linear-gradient(180deg,#FFD166,#C9A876);transform-origin:top;transform:scaleY(0)}
+.chip{border-radius:18px;padding:15px 20px 13px;background:rgba(7,10,17,.88);border:2px solid rgba(255,255,255,.25);box-shadow:0 14px 40px rgba(0,0,0,.5)}
+.chip .k{font-family:"JetBrains Mono",monospace;font-size:18px;font-weight:700;letter-spacing:.16em;margin-bottom:5px}
+.chip .t{font-size:24px;line-height:1.27;color:rgba(255,255,255,.95);font-weight:600}
+.chip.what{border-color:#22D3EE}.chip.what .k{color:#22D3EE}
+.chip.why{border-color:#A78BFA}.chip.why .k{color:#A78BFA}
+.chip.skip{border-color:#F87171}.chip.skip .k{color:#F87171}
+.chip.how{border-color:#4ADE80}.chip.how .k{color:#4ADE80}
+.chip.gold{border-color:#FFD166}.chip.gold .k{color:#FFD166}
+.laterbadge{position:absolute;top:44px;right:48px;padding:12px 26px;border-radius:12px;background:#B91C1C;color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.22em;font-size:24px;transform:rotate(3deg);z-index:5}
+.prog{position:absolute;left:56px;right:56px;bottom:132px;height:5px;background:rgba(255,255,255,.13);border-radius:3px;overflow:hidden}
+.progfill{height:100%;width:100%;background:linear-gradient(90deg,#C9A876,#FFD166);transform-origin:left;transform:scaleX(0)}
+.caps{position:absolute;left:0;right:0;bottom:50px;display:flex;justify-content:center}
+.cap{background:rgba(0,0,0,.8);padding:12px 28px;border-radius:10px;font-size:39px;font-weight:600;text-align:center;max-width:1580px;box-shadow:0 10px 34px rgba(0,0,0,.45)}
+.cap span{color:#fff}
+.bigflash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:118px;font-weight:700;letter-spacing:-.01em;color:#FFD166;text-shadow:0 8px 54px rgba(0,0,0,.85);opacity:0}
+.node{position:absolute;width:24px;height:24px;border-radius:50%;background:#1B2436;border:3px solid rgba(255,255,255,.28)}
+.daycard{position:absolute;inset:0;background:radial-gradient(1150px 640px at 50% 42%,#1B2436 0%,#07090F 72%);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.daycard .d1{font-family:"JetBrains Mono",monospace;letter-spacing:.34em;color:#5EEAD4;font-size:31px;font-weight:700}
+.daycard .d2{font-size:158px;font-weight:700;letter-spacing:-.02em;margin-top:10px}
+.daycard .d3{font-size:43px;color:rgba(255,255,255,.82);font-weight:600;margin-top:8px}
+.daycard .rule2{width:0;height:8px;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px;margin-top:36px}
+.outro{position:absolute;inset:0;background:#07090F;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.outro img{width:740px;height:416px;object-fit:cover;border-radius:24px;box-shadow:0 0 130px rgba(255,209,102,.28)}
+.outro .o0{font-family:"JetBrains Mono",monospace;letter-spacing:.3em;color:#5EEAD4;font-size:26px;font-weight:700;margin-top:34px}
+.outro .o1{font-size:66px;font-weight:700;margin-top:14px;letter-spacing:-.01em}
+.outro .o2{font-size:35px;color:rgba(255,255,255,.8);margin-top:12px;font-weight:600}
+.outro .o3{font-size:29px;color:#FFD166;margin-top:10px;font-weight:700;letter-spacing:.04em}
+.subpill{margin-top:30px;padding:16px 46px;border-radius:999px;background:#E11D48;font-size:32px;font-weight:700;letter-spacing:.14em;box-shadow:0 14px 44px rgba(225,29,72,.4)}
+</style>
+<div id="root" data-composition-id="s03_4" data-start="0" data-duration="24.142" data-width="1920" data-height="1080">
+<img id="el-s03_4-1" class="clip bg" data-start="0" data-duration="24.142" src="assets/gen/img-s03-4-cursor.webp">
+<div id="el-s03_4-2" class="clip glowA" data-start="0" data-duration="24.142"></div>
+<div id="el-s03_4-3" class="clip glowB" data-start="0" data-duration="24.142"></div>
+<div id="el-s03_4-4" class="clip shade" data-start="0" data-duration="24.142"></div>
+<div id="el-s03_4-5" class="clip sweep" data-start="0" data-duration="1.3"></div>
+<div id="el-s03_4-6" class="clip gsweep" data-start="8.14" data-duration="1.1"></div>
+<div id="el-s03_4-7" class="clip gsweep" data-start="12.54" data-duration="1.1"></div>
+<div id="el-s03_4-8" class="clip" data-start="0" data-duration="24.142"><div class="panel" id="panel-s03_4"><span class="pill" id="pill-s03_4">DAY 1 — SETUP · 7 HRS</span><div class="title" style="font-size:74px">CURSOR + CLAUDE<span class="yearchip">2023</span></div><div class="rule" id="rule-s03_4"></div><div class="subtitle">A junior developer who types instantly</div></div></div>
+<div id="el-s03_4-9" class="clip stage" data-start="0.45" data-duration="3.29"><div class="headline"><span class="wg" id="hg-s03_4-0-0">A junior developer</span> <span class="wg" id="hg-s03_4-0-1">who types instantly</span><div class="bar" id="hbar-s03_4-0"></div></div></div>
+<div id="el-s03_4-10" class="clip stage" data-start="3.74" data-duration="9.2"><div class="headline"><span class="wg" id="hg-s03_4-1-0">an editor with</span> <span class="wg" id="hg-s03_4-1-1">AI built in</span> <span class="wg" id="hg-s03_4-1-2">— a junior</span> <span class="wg" id="hg-s03_4-1-3">developer who types</span> <span class="wg" id="hg-s03_4-1-4">instantly</span><div class="bar" id="hbar-s03_4-1"></div></div></div>
+<div id="el-s03_4-11" class="clip stage" data-start="12.94" data-duration="3.66"><div class="headline"><span class="wg" id="hg-s03_4-2-0">the AI writes</span> <span class="wg" id="hg-s03_4-2-1">the boilerplate while</span> <span class="wg" id="hg-s03_4-2-2">you review</span><div class="bar" id="hbar-s03_4-2"></div></div></div>
+<div id="el-s03_4-12" class="clip stage" data-start="16.6" data-duration="2.98"><div class="headline"><span class="wg" id="hg-s03_4-3-0">this is a</span> <span class="wg" id="hg-s03_4-3-1">five-week project —</span> <span class="wg" id="hg-s03_4-3-2">5 DAYS →</span> <span class="wg" id="hg-s03_4-3-3">5 WEEKS</span><div class="bar" id="hbar-s03_4-3"></div></div></div>
+<div id="el-s03_4-13" class="clip stage" data-start="19.58" data-duration="4.56"><div class="headline"><span class="wg" id="hg-s03_4-4-0">install it ·</span> <span class="wg" id="hg-s03_4-4-1">open your project</span> <span class="wg" id="hg-s03_4-4-2">· describe what</span> <span class="wg" id="hg-s03_4-4-3">you want in</span> <span class="wg" id="hg-s03_4-4-4">plain English</span><div class="bar" id="hbar-s03_4-4"></div></div></div>
+<div id="el-s03_4-14" class="clip spine" data-start="0" data-duration="24.142"><div class="spinefill" id="spine-s03_4"></div></div>
+<div class="rail"><div id="el-s03_4-15" class="clip" data-start="3.74" data-duration="20.4"><div class="chip what" id="chip-s03_4-0"><div class="k">WHAT IT IS</div><div class="t">an editor with AI built in — a junior developer who types instantly</div></div></div><div id="el-s03_4-16" class="clip" data-start="12.94" data-duration="11.2"><div class="chip why" id="chip-s03_4-1"><div class="k">WHY YOU NEED IT</div><div class="t">the AI writes the boilerplate while you review</div></div></div><div id="el-s03_4-17" class="clip" data-start="16.6" data-duration="7.54"><div class="chip skip" id="chip-s03_4-2"><div class="k">IF YOU SKIP IT</div><div class="t">this is a five-week project — 5 DAYS → 5 WEEKS</div></div></div><div id="el-s03_4-18" class="clip" data-start="19.58" data-duration="4.56"><div class="chip how" id="chip-s03_4-3"><div class="k">HOW</div><div class="t">install it · open your project · describe what you want in plain English</div></div></div></div>
+<div id="el-s03_4-19" class="clip prog" data-start="0" data-duration="24.142"><div class="progfill" id="prog-s03_4"></div></div>
+<div id="el-s03_4-20" class="clip caps" data-start="0.0" data-duration="2.32"><div class="cap" id="cap-s03_4-0"><span id="w-s03_4-0-0">Cursor,</span> <span id="w-s03_4-0-1">released</span> <span id="w-s03_4-0-2">in</span> <span id="w-s03_4-0-3">2023</span> <span id="w-s03_4-0-4">by</span> <span id="w-s03_4-0-5">four</span></div></div>
+<div id="el-s03_4-21" class="clip caps" data-start="2.32" data-duration="2.24"><div class="cap" id="cap-s03_4-1"><span id="w-s03_4-1-0">MIT</span> <span id="w-s03_4-1-1">students,</span> <span id="w-s03_4-1-2">an</span> <span id="w-s03_4-1-3">editor</span> <span id="w-s03_4-1-4">with</span> <span id="w-s03_4-1-5">AI</span></div></div>
+<div id="el-s03_4-22" class="clip caps" data-start="4.56" data-duration="1.72"><div class="cap" id="cap-s03_4-2"><span id="w-s03_4-2-0">built</span> <span id="w-s03_4-2-1">in</span> <span id="w-s03_4-2-2">—</span> <span id="w-s03_4-2-3">paired</span> <span id="w-s03_4-2-4">with</span> <span id="w-s03_4-2-5">Claude</span></div></div>
+<div id="el-s03_4-23" class="clip caps" data-start="6.28" data-duration="2.0"><div class="cap" id="cap-s03_4-3"><span id="w-s03_4-3-0">Sonnet</span> <span id="w-s03_4-3-1">4,</span> <span id="w-s03_4-3-2">it&#x27;s</span> <span id="w-s03_4-3-3">a</span> <span id="w-s03_4-3-4">junior</span> <span id="w-s03_4-3-5">developer</span></div></div>
+<div id="el-s03_4-24" class="clip caps" data-start="8.28" data-duration="1.92"><div class="cap" id="cap-s03_4-4"><span id="w-s03_4-4-0">who</span> <span id="w-s03_4-4-1">types</span> <span id="w-s03_4-4-2">instantly.</span></div></div>
+<div id="el-s03_4-25" class="clip caps" data-start="10.2" data-duration="2.24"><div class="cap" id="cap-s03_4-5"><span id="w-s03_4-5-0">Why:</span> <span id="w-s03_4-5-1">the</span> <span id="w-s03_4-5-2">five-day</span> <span id="w-s03_4-5-3">timeline</span> <span id="w-s03_4-5-4">only</span> <span id="w-s03_4-5-5">exists</span></div></div>
+<div id="el-s03_4-26" class="clip caps" data-start="12.44" data-duration="1.96"><div class="cap" id="cap-s03_4-6"><span id="w-s03_4-6-0">because</span> <span id="w-s03_4-6-1">the</span> <span id="w-s03_4-6-2">AI</span> <span id="w-s03_4-6-3">writes</span> <span id="w-s03_4-6-4">the</span> <span id="w-s03_4-6-5">boilerplate</span></div></div>
+<div id="el-s03_4-27" class="clip caps" data-start="14.4" data-duration="1.6"><div class="cap" id="cap-s03_4-7"><span id="w-s03_4-7-0">while</span> <span id="w-s03_4-7-1">you</span> <span id="w-s03_4-7-2">review.</span></div></div>
+<div id="el-s03_4-28" class="clip caps" data-start="16.0" data-duration="1.1"><div class="cap" id="cap-s03_4-8"><span id="w-s03_4-8-0">Skip</span> <span id="w-s03_4-8-1">it</span> <span id="w-s03_4-8-2">and</span> <span id="w-s03_4-8-3">this</span> <span id="w-s03_4-8-4">is</span> <span id="w-s03_4-8-5">a</span></div></div>
+<div id="el-s03_4-29" class="clip caps" data-start="17.1" data-duration="3.22"><div class="cap" id="cap-s03_4-9"><span id="w-s03_4-9-0">five-week</span> <span id="w-s03_4-9-1">project.</span> <span id="w-s03_4-9-2">How:</span> <span id="w-s03_4-9-3">install</span> <span id="w-s03_4-9-4">it,</span> <span id="w-s03_4-9-5">open</span></div></div>
+<div id="el-s03_4-30" class="clip caps" data-start="20.32" data-duration="1.62"><div class="cap" id="cap-s03_4-10"><span id="w-s03_4-10-0">your</span> <span id="w-s03_4-10-1">project,</span> <span id="w-s03_4-10-2">and</span> <span id="w-s03_4-10-3">describe</span> <span id="w-s03_4-10-4">what</span> <span id="w-s03_4-10-5">you</span></div></div>
+<div id="el-s03_4-31" class="clip caps" data-start="21.94" data-duration="2.2"><div class="cap" id="cap-s03_4-11"><span id="w-s03_4-11-0">want</span> <span id="w-s03_4-11-1">in</span> <span id="w-s03_4-11-2">plain</span> <span id="w-s03_4-11-3">English.</span></div></div>
+</div>
+<script src="assets/js/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  var tl = gsap.timeline({ paused: true });
+tl.fromTo("#el-s03_4-2",{x:0,y:0},{x:70,y:44,duration:24.142,ease:"sine.inOut"},0);
+tl.fromTo("#el-s03_4-3",{x:0,y:0},{x:-64,y:-40,duration:24.142,ease:"sine.inOut"},0);
+tl.fromTo("#el-s03_4-5",{x:-560,opacity:1},{x:2300,opacity:1,duration:.95,ease:"power3.inOut"},0.02);
+tl.to("#el-s03_4-5",{opacity:0,duration:.2},1.0);
+tl.fromTo("#el-s03_4-6",{x:-460,opacity:1},{x:2250,opacity:1,duration:.85,ease:"power2.inOut"},8.14);
+tl.to("#el-s03_4-6",{opacity:0,duration:.15},9.02);
+tl.fromTo("#el-s03_4-7",{x:-460,opacity:1},{x:2250,opacity:1,duration:.85,ease:"power2.inOut"},12.54);
+tl.to("#el-s03_4-7",{opacity:0,duration:.15},13.42);
+tl.fromTo("#panel-s03_4",{y:56,opacity:0},{y:0,opacity:1,duration:.6,ease:"power3.out"},0.12);
+tl.to("#rule-s03_4",{width:"100%",duration:.7,ease:"power2.inOut"},0.5);
+tl.fromTo("#hg-s03_4-0-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},0.45);
+tl.fromTo("#hg-s03_4-0-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},0.54);
+tl.to("#hbar-s03_4-0",{width:"72%",duration:.5,ease:"power2.out"},0.6);
+tl.to("#el-s03_4-9",{opacity:0,y:-16,duration:.25,ease:"power2.in"},3.47);
+tl.fromTo("#hg-s03_4-1-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},3.74);
+tl.fromTo("#hg-s03_4-1-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},3.83);
+tl.fromTo("#hg-s03_4-1-2",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},3.92);
+tl.fromTo("#hg-s03_4-1-3",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},4.01);
+tl.fromTo("#hg-s03_4-1-4",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},4.1);
+tl.to("#hbar-s03_4-1",{width:"72%",duration:.5,ease:"power2.out"},3.89);
+tl.to("#el-s03_4-10",{opacity:0,y:-16,duration:.25,ease:"power2.in"},12.67);
+tl.fromTo("#hg-s03_4-2-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},12.94);
+tl.fromTo("#hg-s03_4-2-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},13.03);
+tl.fromTo("#hg-s03_4-2-2",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},13.12);
+tl.to("#hbar-s03_4-2",{width:"72%",duration:.5,ease:"power2.out"},13.09);
+tl.to("#el-s03_4-11",{opacity:0,y:-16,duration:.25,ease:"power2.in"},16.33);
+tl.fromTo("#hg-s03_4-3-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},16.6);
+tl.fromTo("#hg-s03_4-3-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},16.69);
+tl.fromTo("#hg-s03_4-3-2",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},16.78);
+tl.fromTo("#hg-s03_4-3-3",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},16.87);
+tl.to("#hbar-s03_4-3",{width:"72%",duration:.5,ease:"power2.out"},16.75);
+tl.to("#el-s03_4-12",{opacity:0,y:-16,duration:.25,ease:"power2.in"},19.31);
+tl.fromTo("#hg-s03_4-4-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},19.58);
+tl.fromTo("#hg-s03_4-4-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},19.67);
+tl.fromTo("#hg-s03_4-4-2",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},19.76);
+tl.fromTo("#hg-s03_4-4-3",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},19.85);
+tl.fromTo("#hg-s03_4-4-4",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},19.94);
+tl.to("#hbar-s03_4-4",{width:"72%",duration:.5,ease:"power2.out"},19.73);
+tl.fromTo("#chip-s03_4-0",{scale:1.6,opacity:0,rotation:-3.5},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.1)"},3.74);
+tl.to("#spine-s03_4",{scaleY:0.25,duration:.45,ease:"power2.out"},3.74);
+tl.fromTo("#chip-s03_4-1",{scale:1.6,opacity:0,rotation:-3.5},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.1)"},12.94);
+tl.to("#spine-s03_4",{scaleY:0.5,duration:.45,ease:"power2.out"},12.94);
+tl.fromTo("#chip-s03_4-2",{scale:1.6,opacity:0,rotation:-3.5},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.1)"},16.6);
+tl.to("#spine-s03_4",{scaleY:0.75,duration:.45,ease:"power2.out"},16.6);
+tl.fromTo("#chip-s03_4-3",{scale:1.6,opacity:0,rotation:-3.5},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.1)"},19.58);
+tl.to("#spine-s03_4",{scaleY:1.0,duration:.45,ease:"power2.out"},19.58);
+tl.to("#prog-s03_4",{scaleX:1,duration:24.142,ease:"none"},0);
+tl.fromTo("#cap-s03_4-0",{opacity:0},{opacity:1,duration:.07,ease:"none"},0.0);
+tl.to("#w-s03_4-0-0",{color:"#FFD166",duration:.05,ease:"none"},0.0);
+tl.to("#w-s03_4-0-1",{color:"#FFD166",duration:.05,ease:"none"},0.62);
+tl.to("#w-s03_4-0-2",{color:"#FFD166",duration:.05,ease:"none"},0.82);
+tl.to("#w-s03_4-0-3",{color:"#FFD166",duration:.05,ease:"none"},1.04);
+tl.to("#w-s03_4-0-4",{color:"#FFD166",duration:.05,ease:"none"},1.76);
+tl.to("#w-s03_4-0-5",{color:"#FFD166",duration:.05,ease:"none"},2.04);
+tl.fromTo("#cap-s03_4-1",{opacity:0},{opacity:1,duration:.07,ease:"none"},2.32);
+tl.to("#w-s03_4-1-0",{color:"#FFD166",duration:.05,ease:"none"},2.32);
+tl.to("#w-s03_4-1-1",{color:"#FFD166",duration:.05,ease:"none"},2.64);
+tl.to("#w-s03_4-1-2",{color:"#FFD166",duration:.05,ease:"none"},3.74);
+tl.to("#w-s03_4-1-3",{color:"#FFD166",duration:.05,ease:"none"},3.8);
+tl.to("#w-s03_4-1-4",{color:"#FFD166",duration:.05,ease:"none"},4.08);
+tl.to("#w-s03_4-1-5",{color:"#FFD166",duration:.05,ease:"none"},4.32);
+tl.fromTo("#cap-s03_4-2",{opacity:0},{opacity:1,duration:.07,ease:"none"},4.56);
+tl.to("#w-s03_4-2-0",{color:"#FFD166",duration:.05,ease:"none"},4.56);
+tl.to("#w-s03_4-2-1",{color:"#FFD166",duration:.05,ease:"none"},4.96);
+tl.to("#w-s03_4-2-2",{color:"#FFD166",duration:.05,ease:"none"},5.28);
+tl.to("#w-s03_4-2-3",{color:"#FFD166",duration:.05,ease:"none"},5.6);
+tl.to("#w-s03_4-2-4",{color:"#FFD166",duration:.05,ease:"none"},5.8);
+tl.to("#w-s03_4-2-5",{color:"#FFD166",duration:.05,ease:"none"},6.02);
+tl.fromTo("#cap-s03_4-3",{opacity:0},{opacity:1,duration:.07,ease:"none"},6.28);
+tl.to("#w-s03_4-3-0",{color:"#FFD166",duration:.05,ease:"none"},6.28);
+tl.to("#w-s03_4-3-1",{color:"#FFD166",duration:.05,ease:"none"},6.74);
+tl.to("#w-s03_4-3-2",{color:"#FFD166",duration:.05,ease:"none"},7.56);
+tl.to("#w-s03_4-3-3",{color:"#FFD166",duration:.05,ease:"none"},7.64);
+tl.to("#w-s03_4-3-4",{color:"#FFD166",duration:.05,ease:"none"},7.72);
+tl.to("#w-s03_4-3-5",{color:"#FFD166",duration:.05,ease:"none"},7.9);
+tl.fromTo("#cap-s03_4-4",{opacity:0},{opacity:1,duration:.07,ease:"none"},8.28);
+tl.to("#w-s03_4-4-0",{color:"#FFD166",duration:.05,ease:"none"},8.28);
+tl.to("#w-s03_4-4-1",{color:"#FFD166",duration:.05,ease:"none"},8.6);
+tl.to("#w-s03_4-4-2",{color:"#FFD166",duration:.05,ease:"none"},8.74);
+tl.fromTo("#cap-s03_4-5",{opacity:0},{opacity:1,duration:.07,ease:"none"},10.2);
+tl.to("#w-s03_4-5-0",{color:"#FFD166",duration:.05,ease:"none"},10.2);
+tl.to("#w-s03_4-5-1",{color:"#FFD166",duration:.05,ease:"none"},10.8);
+tl.to("#w-s03_4-5-2",{color:"#FFD166",duration:.05,ease:"none"},11.07);
+tl.to("#w-s03_4-5-3",{color:"#FFD166",duration:.05,ease:"none"},11.34);
+tl.to("#w-s03_4-5-4",{color:"#FFD166",duration:.05,ease:"none"},11.68);
+tl.to("#w-s03_4-5-5",{color:"#FFD166",duration:.05,ease:"none"},12.06);
+tl.fromTo("#cap-s03_4-6",{opacity:0},{opacity:1,duration:.07,ease:"none"},12.44);
+tl.to("#w-s03_4-6-0",{color:"#FFD166",duration:.05,ease:"none"},12.44);
+tl.to("#w-s03_4-6-1",{color:"#FFD166",duration:.05,ease:"none"},12.94);
+tl.to("#w-s03_4-6-2",{color:"#FFD166",duration:.05,ease:"none"},13.08);
+tl.to("#w-s03_4-6-3",{color:"#FFD166",duration:.05,ease:"none"},13.3);
+tl.to("#w-s03_4-6-4",{color:"#FFD166",duration:.05,ease:"none"},13.68);
+tl.to("#w-s03_4-6-5",{color:"#FFD166",duration:.05,ease:"none"},13.88);
+tl.fromTo("#cap-s03_4-7",{opacity:0},{opacity:1,duration:.07,ease:"none"},14.4);
+tl.to("#w-s03_4-7-0",{color:"#FFD166",duration:.05,ease:"none"},14.4);
+tl.to("#w-s03_4-7-1",{color:"#FFD166",duration:.05,ease:"none"},14.64);
+tl.to("#w-s03_4-7-2",{color:"#FFD166",duration:.05,ease:"none"},14.84);
+tl.fromTo("#cap-s03_4-8",{opacity:0},{opacity:1,duration:.07,ease:"none"},16.0);
+tl.to("#w-s03_4-8-0",{color:"#FFD166",duration:.05,ease:"none"},16.0);
+tl.to("#w-s03_4-8-1",{color:"#FFD166",duration:.05,ease:"none"},16.14);
+tl.to("#w-s03_4-8-2",{color:"#FFD166",duration:.05,ease:"none"},16.46);
+tl.to("#w-s03_4-8-3",{color:"#FFD166",duration:.05,ease:"none"},16.6);
+tl.to("#w-s03_4-8-4",{color:"#FFD166",duration:.05,ease:"none"},16.72);
+tl.to("#w-s03_4-8-5",{color:"#FFD166",duration:.05,ease:"none"},16.8);
+tl.fromTo("#cap-s03_4-9",{opacity:0},{opacity:1,duration:.07,ease:"none"},17.1);
+tl.to("#w-s03_4-9-0",{color:"#FFD166",duration:.05,ease:"none"},17.1);
+tl.to("#w-s03_4-9-1",{color:"#FFD166",duration:.05,ease:"none"},17.4);
+tl.to("#w-s03_4-9-2",{color:"#FFD166",duration:.05,ease:"none"},18.6);
+tl.to("#w-s03_4-9-3",{color:"#FFD166",duration:.05,ease:"none"},19.58);
+tl.to("#w-s03_4-9-4",{color:"#FFD166",duration:.05,ease:"none"},19.58);
+tl.to("#w-s03_4-9-5",{color:"#FFD166",duration:.05,ease:"none"},20.14);
+tl.fromTo("#cap-s03_4-10",{opacity:0},{opacity:1,duration:.07,ease:"none"},20.32);
+tl.to("#w-s03_4-10-0",{color:"#FFD166",duration:.05,ease:"none"},20.32);
+tl.to("#w-s03_4-10-1",{color:"#FFD166",duration:.05,ease:"none"},20.46);
+tl.to("#w-s03_4-10-2",{color:"#FFD166",duration:.05,ease:"none"},21.24);
+tl.to("#w-s03_4-10-3",{color:"#FFD166",duration:.05,ease:"none"},21.37);
+tl.to("#w-s03_4-10-4",{color:"#FFD166",duration:.05,ease:"none"},21.5);
+tl.to("#w-s03_4-10-5",{color:"#FFD166",duration:.05,ease:"none"},21.82);
+tl.fromTo("#cap-s03_4-11",{opacity:0},{opacity:1,duration:.07,ease:"none"},21.94);
+tl.to("#w-s03_4-11-0",{color:"#FFD166",duration:.05,ease:"none"},21.94);
+tl.to("#w-s03_4-11-1",{color:"#FFD166",duration:.05,ease:"none"},22.14);
+tl.to("#w-s03_4-11-2",{color:"#FFD166",duration:.05,ease:"none"},22.32);
+tl.to("#w-s03_4-11-3",{color:"#FFD166",duration:.05,ease:"none"},22.54);
+  window.__timelines["s03_4"] = tl;
+})();
+</script>
+</template>

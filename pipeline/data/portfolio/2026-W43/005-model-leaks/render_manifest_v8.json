@@ -1,0 +1,8 @@
+{
+  "version": "v8",
+  "status": "COMPLETE, verified 2026-10-26 by ffprobe: long 1920x1080 h264/aac 351.667s 36,325,557 bytes; shorts 1080x1920 h264/aac 59.0s 7,005,188 bytes",
+  "visuals": "50 segments x ~7.04s, 49 AI-generated images (v8/gen) + seg33 fallback: hype balloon pop AI video clip (seg33 press image could not be generated, not retried). No PIL segment cards. Overlays only: segment pill top-left, AI IMAGE label top-right, vignette. Slow zoom always moving.",
+  "subtitles": "TikTok-style word-pop ASS (v8/tiktok.ass, 1051 word cues): 1 word at a time, big gold, expanding as spoken then compressing into the next word, bottom of screen. Timings estimated from word-count proportion, not measured per-word TTS.",
+  "labels": "All generated visuals labelled AI / metaphor only, never proof, never a run, never a live screenshot.",
+  "publish": "NOT published. Whole v8 is the milestone for Oliver's feedback/approval."
+}

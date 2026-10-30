@@ -1,0 +1,1 @@
+Day two. React, built at Facebook by Jordan Walke, released in 2013. What it is: Lego for interfaces — build a button or calendar once, snap it in anywhere. Why: it's the industry standard, so tutorials and help are everywhere. Skip it and you're hand-crafting every page from scratch. How: scaffold the project, build each page as bricks, done in half an hour of setup.

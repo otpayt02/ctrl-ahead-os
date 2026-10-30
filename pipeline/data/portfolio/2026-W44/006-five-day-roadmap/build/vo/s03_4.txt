@@ -1,0 +1,1 @@
+Cursor, released in 2023 by four MIT students, an editor with AI built in — paired with Claude Sonnet 4, it's a junior developer who types instantly. Why: the five-day timeline only exists because the AI writes the boilerplate while you review. Skip it and this is a five-week project. How: install it, open your project, and describe what you want in plain English.

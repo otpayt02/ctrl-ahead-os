@@ -1,0 +1,1 @@
+Last half hour: API Gateway, launched 2015. What it is: the front door — it checks every incoming request before anything touches your code. Why: security, throttling, and routing in one place. Skip it and browsers are poking your backend directly, unlocked. How: create a REST API, one route per action, and Day 3 has something to plug into.

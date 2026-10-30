@@ -1,0 +1,9 @@
+{
+  "version": "v4",
+  "voiceover": "vo2/vo.mp3, 351.888s, 11 chunks",
+  "render": "v4-render.mp4, 351.888s, 24 MB, verified by ffprobe, 1920x1080, 30fps, h264/aac",
+  "structure": "Whole video only. Estimated chunk timings from word-count proportion, not measured per-chunk TTS timestamps: 0-22.4 hook, 22.4-58.9 commentary, 58.9-93.1 GPT proof (OpenAI, zoom then highlighted card), 93.1-126.6 Claude proof (Anthropic then MacRumors, zoom then highlighted card each), 126.6-163.1 banned commentary, 163.1-196.2 Carbon proof (Kie, zoom then card), 196.2-227.3 Qwen proof (LLMCheck, zoom then card), 227.3-265.5 leak commentary, 265.5-351.9 animated 'what you can do' close from v3.",
+  "mouthfeed": "Each proof is full-screen, zoomed in (zoompan to 1.35, focus upper page), with fade in/out 0.8s, then a second zoomed pass with a large highlighted card carrying only the cited phrase from that source, in large readable text, so the viewer is fed the evidence as it is spoken.",
+  "labels": "Proof frames bannered 'RENDERED FROM LIVE PAGE VISIT — NOT A LIVE SCREENSHOT' on the source image, plus the card header naming the source. Animated frames bannered 'ANIMATED GRAPHIC — NOT A SCREENSHOT'. No frame is presented as a live screenshot or a run.",
+  "publish": "NOT published. This whole v4 is the milestone for Oliver's feedback/approval, per the 2026-10-26 milestone rule. Iterate on the whole video, not individual segments."
+}

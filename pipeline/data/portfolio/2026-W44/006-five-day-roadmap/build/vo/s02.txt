@@ -1,0 +1,1 @@
+Five days, about 38 hours, React frontend, Python backend, pay-per-request everything. Day one sets up your tools, day two builds what users see, day three the logic, day four the memory, day five you go live. Let's go.

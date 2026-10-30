@@ -1,0 +1,1 @@
+That's the whole roadmap: setup, frontend, backend, memory, launch. Thirty-eight hours, near-zero cost until you have users, and every tool here does one job you can name. Follow the five days in order — skip nothing on Day 1 — and ship something real this week. Subscribe if this mapped it out for you, and comment which day you're starting with.

@@ -1,0 +1,7 @@
+@font-face{font-family:"Inter";src:url("../assets/fonts/Inter-Regular.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Inter";src:url("../assets/fonts/Inter-SemiBold.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"Inter";src:url("../assets/fonts/Inter-Bold.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"JetBrains Mono";src:url("../assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"JetBrains Mono";src:url("../assets/fonts/JetBrainsMono-Bold.woff2") format("woff2");font-weight:700}
+:root{--gold:#FFD166;--cyan:#5EEAD4}
+*{margin:0;padding:0;box-sizing:border-box}

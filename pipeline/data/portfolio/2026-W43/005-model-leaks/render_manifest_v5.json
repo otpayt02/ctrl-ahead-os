@@ -1,0 +1,9 @@
+{
+  "version": "v5",
+  "voiceover": "vo2/vo.mp3, 351.888s, 11 chunks",
+  "render": "v5-render.mp4, 351.833s, 22 MB, verified by ffprobe, 1920x1080, 30fps, h264/aac",
+  "system": "Playbook system, open-source only (ffmpeg/PIL/TTS). Dark-grid template, pill label per section, one large headline per claim, proof zooms to 1.35 with 0.8s fades, highlighted cited cards, animated 'what you can do' close from v3, plus 75 burned-in documentary sentence captions (white on black bar, bottom-centre). CapCut was NOT used: CapCut is not open-source; its moves (auto-style captions, keyframe zoom, fades, text animations) were replicated in ffmpeg.",
+  "timing_note": "Segment and caption timings are estimated from word-count proportion across VO chunks, not measured per-word/per-chunk TTS timestamps. Render is 0.055s shorter than VO due to 30fps frame rounding.",
+  "labels": "Headline cards bannered 'GRAPHIC — DARK GRID TEMPLATE — NOT A SCREENSHOT'. Proof frames bannered 'RENDERED FROM LIVE PAGE VISIT — NOT A LIVE SCREENSHOT'. Animated frames bannered 'ANIMATED GRAPHIC — NOT A SCREENSHOT'. No frame is presented as a live screenshot or a run.",
+  "publish": "NOT published. This whole v5 is the milestone for Oliver's feedback/approval, per the milestone rule. Iterate on the whole video, not individual segments."
+}

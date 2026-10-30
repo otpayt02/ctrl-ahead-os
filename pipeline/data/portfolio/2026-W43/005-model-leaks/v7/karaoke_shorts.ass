@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karaoke,DejaVu Sans,46,&H003DA3E8,&H00FFFFFF,&H00000000,&H80000000,1,0,0,0,100,100,0,0,1,3,1,2,60,60,180,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:03.34,Karaoke,,0,0,0,,{\k33}One {\k33}video {\k33}title {\k33}this {\k33}week {\k33}promised {\k33}four {\k33}huge {\k33}model {\k37}updates.
+Dialogue: 0,0:00:03.34,0:00:06.68,Karaoke,,0,0,0,,{\k33}GPT-7, {\k33}Claude {\k33}REA {\k33}banned, {\k33}Gemini {\k33}Carbon {\k33}insane, {\k33}Qwen {\k33}4 {\k37}leaks.
+Dialogue: 0,0:00:06.68,0:00:10.02,Karaoke,,0,0,0,,{\k33}I {\k33}checked {\k33}all {\k33}four {\k33}against {\k33}what {\k33}the {\k33}companies {\k33}actually {\k37}said.
+Dialogue: 0,0:00:10.02,0:00:18.38,Karaoke,,0,0,0,,{\k33}One {\k33}is {\k33}a {\k33}rumor, {\k33}one {\k33}I {\k33}could {\k33}not {\k33}find {\k33}at {\k33}all, {\k33}one {\k33}is {\k33}a {\k33}leak {\k33}with {\k33}no {\k33}product, {\k33}and {\k33}one {\k33}is {\k33}real {\k33}but {\k33}not {\k44}shipped.
+Dialogue: 0,0:00:18.38,0:00:22.39,Karaoke,,0,0,0,,{\k33}Here {\k33}is {\k33}the {\k33}scorecard, {\k33}so {\k33}you {\k33}do {\k33}not {\k33}build {\k33}on {\k33}a {\k38}rumor.
+Dialogue: 0,0:00:22.39,0:00:27.42,Karaoke,,0,0,0,,{\k33}Before {\k33}the {\k33}evidence, {\k33}here {\k33}is {\k33}the {\k33}thought {\k33}I {\k33}want {\k33}you {\k33}to {\k33}carry {\k33}through {\k33}all {\k40}four.
+Dialogue: 0,0:00:27.42,0:00:30.10,Karaoke,,0,0,0,,{\k33}A {\k33}rumor {\k33}is {\k33}not {\k33}just {\k33}a {\k33}bad {\k37}fact.
+Dialogue: 0,0:00:30.10,0:00:31.44,Karaoke,,0,0,0,,{\k33}It {\k33}is {\k33}a {\k35}mirror.
+Dialogue: 0,0:00:31.44,0:00:34.78,Karaoke,,0,0,0,,{\k33}It {\k33}shows {\k33}you {\k33}what {\k33}you {\k33}already {\k33}wanted {\k33}to {\k33}be {\k38}true.
+Dialogue: 0,0:00:34.78,0:00:45.17,Karaoke,,0,0,0,,{\k33}When {\k33}a {\k33}title {\k33}promises {\k33}the {\k33}next {\k33}giant {\k33}model, {\k33}the {\k33}next {\k33}ban, {\k33}the {\k33}next {\k33}leak, {\k33}it {\k33}is {\k33}not {\k33}only {\k33}selling {\k33}news, {\k33}it {\k33}is {\k33}selling {\k33}certainty {\k33}in {\k33}a {\k33}field {\k33}that {\k33}has {\k33}almost {\k48}none.
+Dialogue: 0,0:00:45.17,0:00:50.86,Karaoke,,0,0,0,,{\k33}The {\k33}directive {\k33}is {\k33}simple, {\k33}and {\k33}it {\k33}is {\k33}hard: {\k33}want {\k33}the {\k33}truth {\k33}more {\k33}than {\k33}you {\k33}want {\k33}the {\k41}headline.
+Dialogue: 0,0:00:50.86,0:00:58.90,Karaoke,,0,0,0,,{\k33}If {\k33}you {\k33}can {\k33}hold {\k33}that {\k33}for {\k33}six {\k33}minutes, {\k33}the {\k33}rest {\k33}of {\k33}this {\k33}video {\k33}will {\k33}feel {\k33}less {\k33}like {\k33}a {\k33}debunk {\k33}and {\k33}more {\k33}like {\k33}a {\k45}discipline.

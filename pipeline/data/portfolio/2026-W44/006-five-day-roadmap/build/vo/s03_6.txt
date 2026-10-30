@@ -1,0 +1,1 @@
+And SAM, from 2016. What it is: a blueprint — your entire backend described in one text file, built by a single command. Why: reproducible, undoable infrastructure instead of clicking through twenty consoles. Skip it and your setup exists in no one's head, exactly once. How: write a template.yaml, deploy with the SAM CLI. Three hours today, saves your whole week.

@@ -1,0 +1,129 @@
+<template>
+<link rel="stylesheet" href="css/theme.css">
+<style>
+#root{position:absolute;inset:0;background:#0B0E14;overflow:hidden;font-family:Inter,sans-serif;color:#fff}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,7,12,.88) 0%,rgba(5,7,12,.45) 46%,rgba(5,7,12,.05) 75%),linear-gradient(0deg,rgba(5,7,12,.92) 0%,rgba(5,7,12,0) 34%),linear-gradient(180deg,rgba(5,7,12,.55) 0%,rgba(5,7,12,0) 26%)}
+.mute{position:absolute;inset:0;background:rgba(20,22,30,.38)}
+.pill{position:absolute;top:44px;left:56px;padding:10px 22px;border-radius:999px;background:rgba(8,10,16,.82);border:1.5px solid rgba(94,234,212,.55);font-family:"JetBrains Mono",monospace;font-size:21px;font-weight:700;letter-spacing:.18em;color:#5EEAD4}
+.namecard{position:absolute;top:104px;left:56px;max-width:1150px}
+.title{font-size:88px;font-weight:700;letter-spacing:-.02em;line-height:1.02;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.subtitle{font-size:34px;color:rgba(255,255,255,.85);margin-top:10px;font-weight:600}
+.yearchip{display:inline-block;margin-left:20px;padding:8px 20px;border-radius:999px;border:2px solid #FFD166;color:#FFD166;font-size:30px;font-weight:700;vertical-align:middle;position:relative}
+.ule{position:absolute;left:2px;bottom:-16px;height:8px;width:0;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px}
+.headline{position:absolute;left:56px;bottom:196px;width:1080px;font-size:52px;font-weight:700;line-height:1.16;letter-spacing:-.01em;text-shadow:0 3px 22px rgba(0,0,0,.75)}
+.headline .hl-in{position:relative;display:inline-block}
+.headline .bar{position:absolute;left:0;bottom:-14px;height:7px;width:0;background:#5EEAD4;border-radius:4px}
+.rail{position:absolute;right:48px;top:150px;width:520px;display:flex;flex-direction:column;gap:16px}
+.chip{border-radius:18px;padding:16px 20px 14px;background:rgba(8,11,18,.86);border:2px solid rgba(255,255,255,.25);box-shadow:0 10px 34px rgba(0,0,0,.45)}
+.chip .k{font-family:"JetBrains Mono",monospace;font-size:19px;font-weight:700;letter-spacing:.16em;margin-bottom:6px}
+.chip .t{font-size:25px;line-height:1.28;color:rgba(255,255,255,.94);font-weight:600}
+.chip.what{border-color:#22D3EE}.chip.what .k{color:#22D3EE}
+.chip.why{border-color:#A78BFA}.chip.why .k{color:#A78BFA}
+.chip.skip{border-color:#F87171}.chip.skip .k{color:#F87171}
+.chip.how{border-color:#4ADE80}.chip.how .k{color:#4ADE80}
+.chip.gold{border-color:#FFD166}.chip.gold .k{color:#FFD166}
+.laterbadge{position:absolute;top:44px;right:48px;padding:12px 26px;border-radius:12px;background:#B91C1C;color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.22em;font-size:24px;transform:rotate(3deg)}
+.caps{position:absolute;left:0;right:0;bottom:52px;display:flex;justify-content:center}
+.cap{background:rgba(0,0,0,.78);padding:12px 26px;border-radius:10px;font-size:39px;font-weight:600;text-align:center;max-width:1560px}
+.cap span{color:#fff}
+.bigflash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:120px;font-weight:700;letter-spacing:-.01em;text-shadow:0 6px 44px rgba(0,0,0,.8)}
+.daycard{position:absolute;inset:0;background:radial-gradient(1100px 620px at 50% 42%,#1B2436 0%,#0B0E14 70%);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.daycard .d1{font-family:"JetBrains Mono",monospace;letter-spacing:.3em;color:#5EEAD4;font-size:30px;font-weight:700}
+.daycard .d2{font-size:150px;font-weight:700;letter-spacing:-.02em;margin-top:8px}
+.daycard .d3{font-size:44px;color:rgba(255,255,255,.8);font-weight:600;margin-top:6px}
+.daycard .rule{width:0;height:8px;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px;margin-top:34px}
+.outro{position:absolute;inset:0;background:#07090F;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.outro img{width:760px;height:428px;object-fit:cover;border-radius:24px;box-shadow:0 0 120px rgba(255,209,102,.25)}
+.outro .o1{font-size:64px;font-weight:700;margin-top:36px}
+.outro .o2{font-size:34px;color:rgba(255,255,255,.75);margin-top:12px;font-weight:600}
+.subpill{margin-top:30px;padding:16px 44px;border-radius:999px;background:#E11D48;font-size:32px;font-weight:700;letter-spacing:.14em}
+.node{position:absolute;width:26px;height:26px;border-radius:50%;background:#223;border:3px solid rgba(255,255,255,.25)}
+.counter{font-size:120px;font-weight:700;color:#FFD166}
+</style>
+<div id="root" data-composition-id="s06_2" data-start="0" data-duration="17.062" data-width="1920" data-height="1080">
+<img id="el-s06_2-1" class="clip bg" data-start="0" data-duration="17.062" src="assets/gen/img-s06-2-testing.webp">
+<div id="el-s06_2-2" class="clip shade" data-start="0" data-duration="17.062"></div>
+<div id="el-s06_2-3" class="clip" data-start="0" data-duration="17.062"><div class="pill" id="pill-s06_2">DAY 4 — DATA · 8 HRS</div></div>
+<div id="el-s06_2-4" class="clip" data-start="0" data-duration="17.062"><div class="namecard" id="nc-s06_2"><div class="title">TESTING<div class="ule" id="ule-s06_2"></div></div><div class="subtitle">5 hrs wiring · 2 hrs testing</div></div></div>
+<div id="el-s06_2-5" class="clip headline" data-start="0.4" data-duration="0.40"><span class="hl-in" id="h-s06_2-0">5 hrs wiring · 2 hrs testing.<span class="bar" id="h-s06_2-0-bar"></span></span></div>
+<div id="el-s06_2-6" class="clip headline" data-start="0.55" data-duration="7.50"><span class="hl-in" id="h-s06_2-1">wiring real reads and writes end to end<span class="bar" id="h-s06_2-1-bar"></span></span></div>
+<div id="el-s06_2-7" class="clip headline" data-start="8.05" data-duration="6.42"><span class="hl-in" id="h-s06_2-2">bugs on day four cost minutes · on day five, they cost your launch<span class="bar" id="h-s06_2-2-bar"></span></span></div>
+<div id="el-s06_2-8" class="clip headline" data-start="14.47" data-duration="2.59"><span class="hl-in" id="h-s06_2-3">your users are your QA team<span class="bar" id="h-s06_2-3-bar"></span></span></div>
+<div class="rail"><div id="el-s06_2-9" class="clip" data-start="0.55" data-duration="16.51"><div class="chip gold" id="chip-s06_2-0"><div class="k">5 HRS WIRING · 2 HRS TESTING</div><div class="t">wiring real reads and writes end to end</div></div></div><div id="el-s06_2-10" class="clip" data-start="8.05" data-duration="9.01"><div class="chip why" id="chip-s06_2-1"><div class="k">WHY YOU NEED IT</div><div class="t">bugs on day four cost minutes · on day five, they cost your launch</div></div></div><div id="el-s06_2-11" class="clip" data-start="14.47" data-duration="2.59"><div class="chip skip" id="chip-s06_2-2"><div class="k">IF YOU SKIP IT</div><div class="t">your users are your QA team</div></div></div></div>
+<div id="el-s06_2-12" class="clip caps" data-start="1.91" data-duration="2.06"><div class="cap" id="cap-s06_2-0"><span id="w-s06_2-0-0">writes</span> <span id="w-s06_2-0-1">end</span> <span id="w-s06_2-0-2">to</span> <span id="w-s06_2-0-3">end,</span> <span id="w-s06_2-0-4">two</span> <span id="w-s06_2-0-5">hours</span> </div></div>
+<div id="el-s06_2-13" class="clip caps" data-start="3.97" data-duration="2.00"><div class="cap" id="cap-s06_2-1"><span id="w-s06_2-1-0">testing</span> <span id="w-s06_2-1-1">both</span> <span id="w-s06_2-1-2">halves</span> <span id="w-s06_2-1-3">separately</span> <span id="w-s06_2-1-4">with</span> <span id="w-s06_2-1-5">logging</span> </div></div>
+<div id="el-s06_2-14" class="clip caps" data-start="5.97" data-duration="3.04"><div class="cap" id="cap-s06_2-2"><span id="w-s06_2-2-0">on.</span> <span id="w-s06_2-2-1">Why:</span> <span id="w-s06_2-2-2">bugs</span> <span id="w-s06_2-2-3">found</span> <span id="w-s06_2-2-4">on</span> <span id="w-s06_2-2-5">day</span> </div></div>
+<div id="el-s06_2-15" class="clip caps" data-start="9.01" data-duration="2.44"><div class="cap" id="cap-s06_2-3"><span id="w-s06_2-3-0">four</span> <span id="w-s06_2-3-1">cost</span> <span id="w-s06_2-3-2">minutes;</span> <span id="w-s06_2-3-3">found</span> <span id="w-s06_2-3-4">on</span> <span id="w-s06_2-3-5">day</span> </div></div>
+<div id="el-s06_2-16" class="clip caps" data-start="11.45" data-duration="2.64"><div class="cap" id="cap-s06_2-4"><span id="w-s06_2-4-0">five,</span> <span id="w-s06_2-4-1">they</span> <span id="w-s06_2-4-2">cost</span> <span id="w-s06_2-4-3">your</span> <span id="w-s06_2-4-4">launch.</span> <span id="w-s06_2-4-5">Skip</span> </div></div>
+<div id="el-s06_2-17" class="clip caps" data-start="14.09" data-duration="1.20"><div class="cap" id="cap-s06_2-5"><span id="w-s06_2-5-0">it</span> <span id="w-s06_2-5-1">and</span> <span id="w-s06_2-5-2">your</span> <span id="w-s06_2-5-3">users</span> <span id="w-s06_2-5-4">are</span> <span id="w-s06_2-5-5">your</span> </div></div>
+<div id="el-s06_2-18" class="clip caps" data-start="15.29" data-duration="0.58"><div class="cap" id="cap-s06_2-6"><span id="w-s06_2-6-0">QA</span> <span id="w-s06_2-6-1">team.</span> </div></div>
+</div>
+<script src="assets/js/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  var tl = gsap.timeline({ paused: true });
+tl.fromTo("#pill-s06_2",{x:-60,opacity:0},{x:0,opacity:1,duration:.45,ease:"power3.out"},0.05);
+tl.fromTo("#nc-s06_2",{y:44,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.18);
+tl.to("#ule-s06_2",{width:"62%",duration:.6,ease:"power2.inOut"},0.55);
+tl.fromTo("#h-s06_2-0",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},0.4);
+tl.to("#h-s06_2-0-bar",{width:"100%",duration:.5,ease:"power2.out"},0.55);
+tl.fromTo("#h-s06_2-1",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},0.55);
+tl.to("#h-s06_2-1-bar",{width:"100%",duration:.5,ease:"power2.out"},0.7000000000000001);
+tl.fromTo("#h-s06_2-2",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},8.05);
+tl.to("#h-s06_2-2-bar",{width:"100%",duration:.5,ease:"power2.out"},8.200000000000001);
+tl.fromTo("#h-s06_2-3",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},14.47);
+tl.to("#h-s06_2-3-bar",{width:"100%",duration:.5,ease:"power2.out"},14.620000000000001);
+tl.fromTo("#chip-s06_2-0",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},0.55);
+tl.fromTo("#chip-s06_2-1",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},8.05);
+tl.fromTo("#chip-s06_2-2",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},14.47);
+tl.fromTo("#cap-s06_2-0",{opacity:0},{opacity:1,duration:.07,ease:"none"},1.91);
+tl.to("#w-s06_2-0-0",{color:"#FFD166",duration:.05,ease:"none"},1.91);
+tl.to("#w-s06_2-0-1",{color:"#FFD166",duration:.05,ease:"none"},2.15);
+tl.to("#w-s06_2-0-2",{color:"#FFD166",duration:.05,ease:"none"},2.57);
+tl.to("#w-s06_2-0-3",{color:"#FFD166",duration:.05,ease:"none"},2.71);
+tl.to("#w-s06_2-0-4",{color:"#FFD166",duration:.05,ease:"none"},3.39);
+tl.to("#w-s06_2-0-5",{color:"#FFD166",duration:.05,ease:"none"},3.63);
+tl.fromTo("#cap-s06_2-1",{opacity:0},{opacity:1,duration:.07,ease:"none"},3.97);
+tl.to("#w-s06_2-1-0",{color:"#FFD166",duration:.05,ease:"none"},3.97);
+tl.to("#w-s06_2-1-1",{color:"#FFD166",duration:.05,ease:"none"},4.29);
+tl.to("#w-s06_2-1-2",{color:"#FFD166",duration:.05,ease:"none"},4.67);
+tl.to("#w-s06_2-1-3",{color:"#FFD166",duration:.05,ease:"none"},4.95);
+tl.to("#w-s06_2-1-4",{color:"#FFD166",duration:.05,ease:"none"},5.41);
+tl.to("#w-s06_2-1-5",{color:"#FFD166",duration:.05,ease:"none"},5.73);
+tl.fromTo("#cap-s06_2-2",{opacity:0},{opacity:1,duration:.07,ease:"none"},5.97);
+tl.to("#w-s06_2-2-0",{color:"#FFD166",duration:.05,ease:"none"},5.97);
+tl.to("#w-s06_2-2-1",{color:"#FFD166",duration:.05,ease:"none"},7.07);
+tl.to("#w-s06_2-2-2",{color:"#FFD166",duration:.05,ease:"none"},8.05);
+tl.to("#w-s06_2-2-3",{color:"#FFD166",duration:.05,ease:"none"},8.31);
+tl.to("#w-s06_2-2-4",{color:"#FFD166",duration:.05,ease:"none"},8.61);
+tl.to("#w-s06_2-2-5",{color:"#FFD166",duration:.05,ease:"none"},8.83);
+tl.fromTo("#cap-s06_2-3",{opacity:0},{opacity:1,duration:.07,ease:"none"},9.01);
+tl.to("#w-s06_2-3-0",{color:"#FFD166",duration:.05,ease:"none"},9.01);
+tl.to("#w-s06_2-3-1",{color:"#FFD166",duration:.05,ease:"none"},9.33);
+tl.to("#w-s06_2-3-2",{color:"#FFD166",duration:.05,ease:"none"},9.83);
+tl.to("#w-s06_2-3-3",{color:"#FFD166",duration:.05,ease:"none"},10.89);
+tl.to("#w-s06_2-3-4",{color:"#FFD166",duration:.05,ease:"none"},11.09);
+tl.to("#w-s06_2-3-5",{color:"#FFD166",duration:.05,ease:"none"},11.27);
+tl.fromTo("#cap-s06_2-4",{opacity:0},{opacity:1,duration:.07,ease:"none"},11.45);
+tl.to("#w-s06_2-4-0",{color:"#FFD166",duration:.05,ease:"none"},11.45);
+tl.to("#w-s06_2-4-1",{color:"#FFD166",duration:.05,ease:"none"},12.23);
+tl.to("#w-s06_2-4-2",{color:"#FFD166",duration:.05,ease:"none"},12.37);
+tl.to("#w-s06_2-4-3",{color:"#FFD166",duration:.05,ease:"none"},12.55);
+tl.to("#w-s06_2-4-4",{color:"#FFD166",duration:.05,ease:"none"},12.75);
+tl.to("#w-s06_2-4-5",{color:"#FFD166",duration:.05,ease:"none"},13.85);
+tl.fromTo("#cap-s06_2-5",{opacity:0},{opacity:1,duration:.07,ease:"none"},14.09);
+tl.to("#w-s06_2-5-0",{color:"#FFD166",duration:.05,ease:"none"},14.09);
+tl.to("#w-s06_2-5-1",{color:"#FFD166",duration:.05,ease:"none"},14.27);
+tl.to("#w-s06_2-5-2",{color:"#FFD166",duration:.05,ease:"none"},14.47);
+tl.to("#w-s06_2-5-3",{color:"#FFD166",duration:.05,ease:"none"},14.59);
+tl.to("#w-s06_2-5-4",{color:"#FFD166",duration:.05,ease:"none"},14.91);
+tl.to("#w-s06_2-5-5",{color:"#FFD166",duration:.05,ease:"none"},15.19);
+tl.fromTo("#cap-s06_2-6",{opacity:0},{opacity:1,duration:.07,ease:"none"},15.29);
+tl.to("#w-s06_2-6-0",{color:"#FFD166",duration:.05,ease:"none"},15.29);
+tl.to("#w-s06_2-6-1",{color:"#FFD166",duration:.05,ease:"none"},15.69);
+  window.__timelines["s06_2"] = tl;
+})();
+</script>
+</template>

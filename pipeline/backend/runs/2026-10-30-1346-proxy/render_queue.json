@@ -1,0 +1,10 @@
+[
+ {
+  "topic": "Gemini 4 Argon: Modernizing 40 year code",
+  "lane": "AI coding agents",
+  "origin": "automate",
+  "script": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/backend/runs/2026-10-30-1346-proxy/drafts/automate-ai-coding-agents/script.md",
+  "render_manifest": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/backend/runs/2026-10-30-1346-proxy/drafts/automate-ai-coding-agents/render_manifest.json",
+  "status": "queued_manifest_gate"
+ }
+]

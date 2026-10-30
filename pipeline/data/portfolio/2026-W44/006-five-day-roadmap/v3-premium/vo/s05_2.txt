@@ -1,0 +1,1 @@
+Six hours of AI-assisted development: validation, pricing rules, emails — prompted into existence one endpoint at a time, with TODO comments where caching belongs later. How: small scope. By tonight, creating, reading, and canceling works.

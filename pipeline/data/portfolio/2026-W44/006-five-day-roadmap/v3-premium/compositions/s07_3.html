@@ -1,0 +1,170 @@
+<template>
+<link rel="stylesheet" href="css/theme.css">
+<style>
+#root{position:absolute;inset:0;background:#07090F;overflow:hidden;font-family:Inter,sans-serif;color:#fff}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.glowA{position:absolute;width:900px;height:900px;left:-260px;top:-320px;background:radial-gradient(circle,rgba(255,209,102,.20) 0%,rgba(255,209,102,0) 62%);pointer-events:none}
+.glowB{position:absolute;width:1000px;height:1000px;right:-320px;bottom:-420px;background:radial-gradient(circle,rgba(94,234,212,.13) 0%,rgba(94,234,212,0) 62%);pointer-events:none}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,6,11,.90) 0%,rgba(4,6,11,.55) 52%,rgba(4,6,11,.12) 82%),linear-gradient(0deg,rgba(4,6,11,.94) 0%,rgba(4,6,11,0) 36%),linear-gradient(180deg,rgba(4,6,11,.5) 0%,rgba(4,6,11,0) 24%)}
+.mute{position:absolute;inset:0;background:rgba(16,18,26,.42)}
+.sweep{position:absolute;top:-12%;height:124%;width:300px;left:0;background:linear-gradient(100deg,rgba(255,209,102,0) 0%,rgba(255,209,102,.34) 45%,rgba(255,246,214,.75) 50%,rgba(255,209,102,.34) 55%,rgba(255,209,102,0) 100%);transform:skewX(-14deg);opacity:0;pointer-events:none}
+.gsweep{position:absolute;top:-12%;height:124%;width:170px;left:0;background:linear-gradient(100deg,rgba(255,209,102,0) 0%,rgba(255,209,102,.16) 50%,rgba(255,209,102,0) 100%);transform:skewX(-14deg);opacity:0;pointer-events:none}
+.panel{position:absolute;top:96px;left:56px;width:1080px;padding:38px 46px 34px;background:linear-gradient(135deg,rgba(13,18,30,.82),rgba(9,12,20,.68));border:1px solid rgba(201,168,118,.45);border-radius:22px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.pill{display:inline-block;padding:10px 22px;border-radius:999px;background:rgba(6,8,13,.85);border:1.5px solid rgba(94,234,212,.55);font-family:"JetBrains Mono",monospace;font-size:20px;font-weight:700;letter-spacing:.18em;color:#5EEAD4}
+.title{font-weight:700;letter-spacing:-.02em;line-height:1.02;margin-top:22px;text-shadow:0 4px 30px rgba(0,0,0,.65)}
+.yearchip{display:inline-block;margin-left:22px;padding:8px 20px;border-radius:999px;border:2px solid #FFD166;color:#FFD166;font-size:30px;font-weight:700;vertical-align:middle}
+.rule{height:7px;width:0;margin-top:24px;background:linear-gradient(90deg,#C9A876,#FFD166,#FF5DA2);border-radius:4px}
+.subtitle{font-size:33px;color:rgba(255,255,255,.88);margin-top:16px;font-weight:600}
+.stage{position:absolute;left:56px;bottom:216px;width:1170px}
+.headline{position:absolute;left:0;bottom:0;width:1170px;font-size:53px;font-weight:700;line-height:1.17;letter-spacing:-.01em;text-shadow:0 3px 24px rgba(0,0,0,.8)}
+.headline .wg{display:inline-block}
+.headline .bar{position:absolute;left:0;bottom:-16px;height:7px;width:0;background:#5EEAD4;border-radius:4px}
+.rail{position:absolute;right:48px;top:150px;width:520px;display:flex;flex-direction:column;gap:15px}
+.spine{position:absolute;right:600px;top:170px;width:5px;height:560px;background:rgba(255,255,255,.10);border-radius:3px;overflow:hidden}
+.spinefill{width:100%;height:100%;background:linear-gradient(180deg,#FFD166,#C9A876);transform-origin:top;transform:scaleY(0)}
+.chip{border-radius:18px;padding:15px 20px 13px;background:rgba(7,10,17,.88);border:2px solid rgba(255,255,255,.25);box-shadow:0 14px 40px rgba(0,0,0,.5)}
+.chip .k{font-family:"JetBrains Mono",monospace;font-size:18px;font-weight:700;letter-spacing:.16em;margin-bottom:5px}
+.chip .t{font-size:24px;line-height:1.27;color:rgba(255,255,255,.95);font-weight:600}
+.chip.what{border-color:#22D3EE}.chip.what .k{color:#22D3EE}
+.chip.why{border-color:#A78BFA}.chip.why .k{color:#A78BFA}
+.chip.skip{border-color:#F87171}.chip.skip .k{color:#F87171}
+.chip.how{border-color:#4ADE80}.chip.how .k{color:#4ADE80}
+.chip.gold{border-color:#FFD166}.chip.gold .k{color:#FFD166}
+.laterbadge{position:absolute;top:44px;right:48px;padding:12px 26px;border-radius:12px;background:#B91C1C;color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.22em;font-size:24px;transform:rotate(3deg);z-index:5}
+.prog{position:absolute;left:56px;right:56px;bottom:132px;height:5px;background:rgba(255,255,255,.13);border-radius:3px;overflow:hidden}
+.progfill{height:100%;width:100%;background:linear-gradient(90deg,#C9A876,#FFD166);transform-origin:left;transform:scaleX(0)}
+.caps{position:absolute;left:0;right:0;bottom:50px;display:flex;justify-content:center}
+.cap{background:rgba(0,0,0,.8);padding:12px 28px;border-radius:10px;font-size:39px;font-weight:600;text-align:center;max-width:1580px;box-shadow:0 10px 34px rgba(0,0,0,.45)}
+.cap span{color:#fff}
+.bigflash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:118px;font-weight:700;letter-spacing:-.01em;color:#FFD166;text-shadow:0 8px 54px rgba(0,0,0,.85);opacity:0}
+.node{position:absolute;width:24px;height:24px;border-radius:50%;background:#1B2436;border:3px solid rgba(255,255,255,.28)}
+.daycard{position:absolute;inset:0;background:radial-gradient(1150px 640px at 50% 42%,#1B2436 0%,#07090F 72%);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.daycard .d1{font-family:"JetBrains Mono",monospace;letter-spacing:.34em;color:#5EEAD4;font-size:31px;font-weight:700}
+.daycard .d2{font-size:158px;font-weight:700;letter-spacing:-.02em;margin-top:10px}
+.daycard .d3{font-size:43px;color:rgba(255,255,255,.82);font-weight:600;margin-top:8px}
+.daycard .rule2{width:0;height:8px;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px;margin-top:36px}
+.outro{position:absolute;inset:0;background:#07090F;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.outro img{width:740px;height:416px;object-fit:cover;border-radius:24px;box-shadow:0 0 130px rgba(255,209,102,.28)}
+.outro .o0{font-family:"JetBrains Mono",monospace;letter-spacing:.3em;color:#5EEAD4;font-size:26px;font-weight:700;margin-top:34px}
+.outro .o1{font-size:66px;font-weight:700;margin-top:14px;letter-spacing:-.01em}
+.outro .o2{font-size:35px;color:rgba(255,255,255,.8);margin-top:12px;font-weight:600}
+.outro .o3{font-size:29px;color:#FFD166;margin-top:10px;font-weight:700;letter-spacing:.04em}
+.subpill{margin-top:30px;padding:16px 46px;border-radius:999px;background:#E11D48;font-size:32px;font-weight:700;letter-spacing:.14em;box-shadow:0 14px 44px rgba(225,29,72,.4)}
+</style>
+<div id="root" data-composition-id="s07_3" data-start="0" data-duration="16.51" data-width="1920" data-height="1080">
+<img id="el-s07_3-1" class="clip bg" data-start="0" data-duration="16.51" src="assets/gen/img-s07-3-gauges.webp">
+<div id="el-s07_3-2" class="clip glowA" data-start="0" data-duration="16.51"></div>
+<div id="el-s07_3-3" class="clip glowB" data-start="0" data-duration="16.51"></div>
+<div id="el-s07_3-4" class="clip shade" data-start="0" data-duration="16.51"></div>
+<div id="el-s07_3-5" class="clip mute" data-start="0" data-duration="16.51"></div>
+<div id="el-s07_3-6" class="clip" data-start="0.5" data-duration="16.01"><div class="laterbadge">LATER</div></div>
+<div id="el-s07_3-7" class="clip sweep" data-start="0" data-duration="1.3"></div>
+<div id="el-s07_3-8" class="clip" data-start="0" data-duration="16.51"><div class="panel" id="panel-s07_3"><span class="pill" id="pill-s07_3">DAY 5 — LAUNCH · 7 HRS · LATER</span><div class="title" style="font-size:74px">GRAFANA + X-RAY<span class="yearchip">2014</span></div><div class="rule" id="rule-s07_3"></div><div class="subtitle">The polish, when you&#x27;re ready</div></div></div>
+<div id="el-s07_3-9" class="clip stage" data-start="0.45" data-duration="4.33"><div class="headline"><span class="wg" id="hg-s07_3-0-0">The polish, when</span> <span class="wg" id="hg-s07_3-0-1">you&#x27;re ready</span><div class="bar" id="hbar-s07_3-0"></div></div></div>
+<div id="el-s07_3-10" class="clip stage" data-start="4.78" data-duration="3.82"><div class="headline"><span class="wg" id="hg-s07_3-1-0">the standard dashboard</span> <span class="wg" id="hg-s07_3-1-1">for gauges and</span> <span class="wg" id="hg-s07_3-1-2">graphs</span><div class="bar" id="hbar-s07_3-1"></div></div></div>
+<div id="el-s07_3-11" class="clip stage" data-start="8.6" data-duration="4.08"><div class="headline"><span class="wg" id="hg-s07_3-2-0">package-tracking for every</span> <span class="wg" id="hg-s07_3-2-1">request — shows</span> <span class="wg" id="hg-s07_3-2-2">which step is</span> <span class="wg" id="hg-s07_3-2-3">slow</span><div class="bar" id="hbar-s07_3-2"></div></div></div>
+<div id="el-s07_3-12" class="clip stage" data-start="12.68" data-duration="3.83"><div class="headline"><span class="wg" id="hg-s07_3-3-0">nice on day</span> <span class="wg" id="hg-s07_3-3-1">one, essential by</span> <span class="wg" id="hg-s07_3-3-2">day one thousand</span><div class="bar" id="hbar-s07_3-3"></div></div></div>
+<div id="el-s07_3-13" class="clip spine" data-start="0" data-duration="16.51"><div class="spinefill" id="spine-s07_3"></div></div>
+<div class="rail"><div id="el-s07_3-14" class="clip" data-start="4.78" data-duration="11.73"><div class="chip gold" id="chip-s07_3-0"><div class="k">GRAFANA · 2014</div><div class="t">the standard dashboard for gauges and graphs</div></div></div><div id="el-s07_3-15" class="clip" data-start="8.6" data-duration="7.91"><div class="chip gold" id="chip-s07_3-1"><div class="k">X-RAY</div><div class="t">package-tracking for every request — shows which step is slow</div></div></div><div id="el-s07_3-16" class="clip" data-start="12.68" data-duration="3.83"><div class="chip gold" id="chip-s07_3-2"><div class="k">DAY 1 → DAY 1000</div><div class="t">nice on day one, essential by day one thousand</div></div></div></div>
+<div id="el-s07_3-17" class="clip prog" data-start="0" data-duration="16.51"><div class="progfill" id="prog-s07_3"></div></div>
+<div id="el-s07_3-18" class="clip caps" data-start="0.0" data-duration="2.0"><div class="cap" id="cap-s07_3-0"><span id="w-s07_3-0-0">And</span> <span id="w-s07_3-0-1">the</span> <span id="w-s07_3-0-2">polish,</span> <span id="w-s07_3-0-3">when</span> <span id="w-s07_3-0-4">you&#x27;re</span> <span id="w-s07_3-0-5">ready:</span></div></div>
+<div id="el-s07_3-19" class="clip caps" data-start="2.0" data-duration="2.38"><div class="cap" id="cap-s07_3-1"><span id="w-s07_3-1-0">Grafana</span> <span id="w-s07_3-1-1">—</span> <span id="w-s07_3-1-2">a</span> <span id="w-s07_3-1-3">2014</span> <span id="w-s07_3-1-4">side</span> <span id="w-s07_3-1-5">project</span></div></div>
+<div id="el-s07_3-20" class="clip caps" data-start="4.38" data-duration="1.7"><div class="cap" id="cap-s07_3-2"><span id="w-s07_3-2-0">that</span> <span id="w-s07_3-2-1">became</span> <span id="w-s07_3-2-2">the</span> <span id="w-s07_3-2-3">standard</span> <span id="w-s07_3-2-4">dashboard</span> <span id="w-s07_3-2-5">for</span></div></div>
+<div id="el-s07_3-21" class="clip caps" data-start="6.08" data-duration="2.52"><div class="cap" id="cap-s07_3-3"><span id="w-s07_3-3-0">gauges</span> <span id="w-s07_3-3-1">and</span> <span id="w-s07_3-3-2">graphs</span> <span id="w-s07_3-3-3">—</span> <span id="w-s07_3-3-4">and</span> <span id="w-s07_3-3-5">X-Ray,</span></div></div>
+<div id="el-s07_3-22" class="clip caps" data-start="8.6" data-duration="2.48"><div class="cap" id="cap-s07_3-4"><span id="w-s07_3-4-0">package-tracking</span> <span id="w-s07_3-4-1">for</span> <span id="w-s07_3-4-2">every</span> <span id="w-s07_3-4-3">request,</span> <span id="w-s07_3-4-4">showing</span> <span id="w-s07_3-4-5">which</span></div></div>
+<div id="el-s07_3-23" class="clip caps" data-start="11.08" data-duration="1.6"><div class="cap" id="cap-s07_3-5"><span id="w-s07_3-5-0">step</span> <span id="w-s07_3-5-1">is</span> <span id="w-s07_3-5-2">slow.</span></div></div>
+<div id="el-s07_3-24" class="clip caps" data-start="12.68" data-duration="1.86"><div class="cap" id="cap-s07_3-6"><span id="w-s07_3-6-0">Nice</span> <span id="w-s07_3-6-1">on</span> <span id="w-s07_3-6-2">day</span> <span id="w-s07_3-6-3">one,</span> <span id="w-s07_3-6-4">essential</span> <span id="w-s07_3-6-5">by</span></div></div>
+<div id="el-s07_3-25" class="clip caps" data-start="14.54" data-duration="1.97"><div class="cap" id="cap-s07_3-7"><span id="w-s07_3-7-0">day</span> <span id="w-s07_3-7-1">one</span> <span id="w-s07_3-7-2">thousand.</span></div></div>
+</div>
+<script src="assets/js/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  var tl = gsap.timeline({ paused: true });
+tl.fromTo("#el-s07_3-2",{x:0,y:0},{x:70,y:44,duration:16.51,ease:"sine.inOut"},0);
+tl.fromTo("#el-s07_3-3",{x:0,y:0},{x:-64,y:-40,duration:16.51,ease:"sine.inOut"},0);
+tl.fromTo("#el-s07_3-6",{scale:2.1,opacity:0,rotation:9},{scale:1,opacity:1,rotation:0,duration:.38,ease:"back.out(2)"},0.5);
+tl.fromTo("#el-s07_3-7",{x:-560,opacity:1},{x:2300,opacity:1,duration:.95,ease:"power3.inOut"},0.02);
+tl.to("#el-s07_3-7",{opacity:0,duration:.2},1.0);
+tl.fromTo("#panel-s07_3",{y:56,opacity:0},{y:0,opacity:1,duration:.6,ease:"power3.out"},0.12);
+tl.to("#rule-s07_3",{width:"100%",duration:.7,ease:"power2.inOut"},0.5);
+tl.fromTo("#hg-s07_3-0-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},0.45);
+tl.fromTo("#hg-s07_3-0-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},0.54);
+tl.to("#hbar-s07_3-0",{width:"72%",duration:.5,ease:"power2.out"},0.6);
+tl.to("#el-s07_3-9",{opacity:0,y:-16,duration:.25,ease:"power2.in"},4.51);
+tl.fromTo("#hg-s07_3-1-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},4.78);
+tl.fromTo("#hg-s07_3-1-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},4.87);
+tl.fromTo("#hg-s07_3-1-2",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},4.96);
+tl.to("#hbar-s07_3-1",{width:"72%",duration:.5,ease:"power2.out"},4.93);
+tl.to("#el-s07_3-10",{opacity:0,y:-16,duration:.25,ease:"power2.in"},8.33);
+tl.fromTo("#hg-s07_3-2-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},8.6);
+tl.fromTo("#hg-s07_3-2-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},8.69);
+tl.fromTo("#hg-s07_3-2-2",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},8.78);
+tl.fromTo("#hg-s07_3-2-3",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},8.87);
+tl.to("#hbar-s07_3-2",{width:"72%",duration:.5,ease:"power2.out"},8.75);
+tl.to("#el-s07_3-11",{opacity:0,y:-16,duration:.25,ease:"power2.in"},12.41);
+tl.fromTo("#hg-s07_3-3-0",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},12.68);
+tl.fromTo("#hg-s07_3-3-1",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},12.77);
+tl.fromTo("#hg-s07_3-3-2",{y:38,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},12.86);
+tl.to("#hbar-s07_3-3",{width:"72%",duration:.5,ease:"power2.out"},12.83);
+tl.fromTo("#chip-s07_3-0",{scale:1.6,opacity:0,rotation:-3.5},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.1)"},4.78);
+tl.to("#spine-s07_3",{scaleY:0.333,duration:.45,ease:"power2.out"},4.78);
+tl.fromTo("#chip-s07_3-1",{scale:1.6,opacity:0,rotation:-3.5},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.1)"},8.6);
+tl.to("#spine-s07_3",{scaleY:0.667,duration:.45,ease:"power2.out"},8.6);
+tl.fromTo("#chip-s07_3-2",{scale:1.6,opacity:0,rotation:-3.5},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.1)"},12.68);
+tl.to("#spine-s07_3",{scaleY:1.0,duration:.45,ease:"power2.out"},12.68);
+tl.to("#prog-s07_3",{scaleX:1,duration:16.51,ease:"none"},0);
+tl.fromTo("#cap-s07_3-0",{opacity:0},{opacity:1,duration:.07,ease:"none"},0.0);
+tl.to("#w-s07_3-0-0",{color:"#FFD166",duration:.05,ease:"none"},0.0);
+tl.to("#w-s07_3-0-1",{color:"#FFD166",duration:.05,ease:"none"},0.22);
+tl.to("#w-s07_3-0-2",{color:"#FFD166",duration:.05,ease:"none"},0.28);
+tl.to("#w-s07_3-0-3",{color:"#FFD166",duration:.05,ease:"none"},0.56);
+tl.to("#w-s07_3-0-4",{color:"#FFD166",duration:.05,ease:"none"},0.86);
+tl.to("#w-s07_3-0-5",{color:"#FFD166",duration:.05,ease:"none"},0.98);
+tl.fromTo("#cap-s07_3-1",{opacity:0},{opacity:1,duration:.07,ease:"none"},2.0);
+tl.to("#w-s07_3-1-0",{color:"#FFD166",duration:.05,ease:"none"},2.0);
+tl.to("#w-s07_3-1-1",{color:"#FFD166",duration:.05,ease:"none"},2.5);
+tl.to("#w-s07_3-1-2",{color:"#FFD166",duration:.05,ease:"none"},3.0);
+tl.to("#w-s07_3-1-3",{color:"#FFD166",duration:.05,ease:"none"},3.0);
+tl.to("#w-s07_3-1-4",{color:"#FFD166",duration:.05,ease:"none"},3.44);
+tl.to("#w-s07_3-1-5",{color:"#FFD166",duration:.05,ease:"none"},3.92);
+tl.fromTo("#cap-s07_3-2",{opacity:0},{opacity:1,duration:.07,ease:"none"},4.38);
+tl.to("#w-s07_3-2-0",{color:"#FFD166",duration:.05,ease:"none"},4.38);
+tl.to("#w-s07_3-2-1",{color:"#FFD166",duration:.05,ease:"none"},4.58);
+tl.to("#w-s07_3-2-2",{color:"#FFD166",duration:.05,ease:"none"},4.78);
+tl.to("#w-s07_3-2-3",{color:"#FFD166",duration:.05,ease:"none"},4.96);
+tl.to("#w-s07_3-2-4",{color:"#FFD166",duration:.05,ease:"none"},5.3);
+tl.to("#w-s07_3-2-5",{color:"#FFD166",duration:.05,ease:"none"},5.8);
+tl.fromTo("#cap-s07_3-3",{opacity:0},{opacity:1,duration:.07,ease:"none"},6.08);
+tl.to("#w-s07_3-3-0",{color:"#FFD166",duration:.05,ease:"none"},6.08);
+tl.to("#w-s07_3-3-1",{color:"#FFD166",duration:.05,ease:"none"},6.44);
+tl.to("#w-s07_3-3-2",{color:"#FFD166",duration:.05,ease:"none"},6.64);
+tl.to("#w-s07_3-3-3",{color:"#FFD166",duration:.05,ease:"none"},7.12);
+tl.to("#w-s07_3-3-4",{color:"#FFD166",duration:.05,ease:"none"},7.6);
+tl.to("#w-s07_3-3-5",{color:"#FFD166",duration:.05,ease:"none"},8.1);
+tl.fromTo("#cap-s07_3-4",{opacity:0},{opacity:1,duration:.07,ease:"none"},8.6);
+tl.to("#w-s07_3-4-0",{color:"#FFD166",duration:.05,ease:"none"},8.6);
+tl.to("#w-s07_3-4-1",{color:"#FFD166",duration:.05,ease:"none"},9.1);
+tl.to("#w-s07_3-4-2",{color:"#FFD166",duration:.05,ease:"none"},9.46);
+tl.to("#w-s07_3-4-3",{color:"#FFD166",duration:.05,ease:"none"},9.66);
+tl.to("#w-s07_3-4-4",{color:"#FFD166",duration:.05,ease:"none"},10.52);
+tl.to("#w-s07_3-4-5",{color:"#FFD166",duration:.05,ease:"none"},10.82);
+tl.fromTo("#cap-s07_3-5",{opacity:0},{opacity:1,duration:.07,ease:"none"},11.08);
+tl.to("#w-s07_3-5-0",{color:"#FFD166",duration:.05,ease:"none"},11.08);
+tl.to("#w-s07_3-5-1",{color:"#FFD166",duration:.05,ease:"none"},11.36);
+tl.to("#w-s07_3-5-2",{color:"#FFD166",duration:.05,ease:"none"},11.5);
+tl.fromTo("#cap-s07_3-6",{opacity:0},{opacity:1,duration:.07,ease:"none"},12.68);
+tl.to("#w-s07_3-6-0",{color:"#FFD166",duration:.05,ease:"none"},12.68);
+tl.to("#w-s07_3-6-1",{color:"#FFD166",duration:.05,ease:"none"},12.68);
+tl.to("#w-s07_3-6-2",{color:"#FFD166",duration:.05,ease:"none"},12.86);
+tl.to("#w-s07_3-6-3",{color:"#FFD166",duration:.05,ease:"none"},13.02);
+tl.to("#w-s07_3-6-4",{color:"#FFD166",duration:.05,ease:"none"},13.94);
+tl.to("#w-s07_3-6-5",{color:"#FFD166",duration:.05,ease:"none"},14.08);
+tl.fromTo("#cap-s07_3-7",{opacity:0},{opacity:1,duration:.07,ease:"none"},14.54);
+tl.to("#w-s07_3-7-0",{color:"#FFD166",duration:.05,ease:"none"},14.54);
+tl.to("#w-s07_3-7-1",{color:"#FFD166",duration:.05,ease:"none"},14.79);
+tl.to("#w-s07_3-7-2",{color:"#FFD166",duration:.05,ease:"none"},14.79);
+  window.__timelines["s07_3"] = tl;
+})();
+</script>
+</template>

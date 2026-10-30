@@ -1,0 +1,174 @@
+<template>
+<link rel="stylesheet" href="css/theme.css">
+<style>
+#root{position:absolute;inset:0;background:#0B0E14;overflow:hidden;font-family:Inter,sans-serif;color:#fff}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,7,12,.88) 0%,rgba(5,7,12,.45) 46%,rgba(5,7,12,.05) 75%),linear-gradient(0deg,rgba(5,7,12,.92) 0%,rgba(5,7,12,0) 34%),linear-gradient(180deg,rgba(5,7,12,.55) 0%,rgba(5,7,12,0) 26%)}
+.mute{position:absolute;inset:0;background:rgba(20,22,30,.38)}
+.pill{position:absolute;top:44px;left:56px;padding:10px 22px;border-radius:999px;background:rgba(8,10,16,.82);border:1.5px solid rgba(94,234,212,.55);font-family:"JetBrains Mono",monospace;font-size:21px;font-weight:700;letter-spacing:.18em;color:#5EEAD4}
+.namecard{position:absolute;top:104px;left:56px;max-width:1150px}
+.title{font-size:88px;font-weight:700;letter-spacing:-.02em;line-height:1.02;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.subtitle{font-size:34px;color:rgba(255,255,255,.85);margin-top:10px;font-weight:600}
+.yearchip{display:inline-block;margin-left:20px;padding:8px 20px;border-radius:999px;border:2px solid #FFD166;color:#FFD166;font-size:30px;font-weight:700;vertical-align:middle;position:relative}
+.ule{position:absolute;left:2px;bottom:-16px;height:8px;width:0;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px}
+.headline{position:absolute;left:56px;bottom:196px;width:1080px;font-size:52px;font-weight:700;line-height:1.16;letter-spacing:-.01em;text-shadow:0 3px 22px rgba(0,0,0,.75)}
+.headline .hl-in{position:relative;display:inline-block}
+.headline .bar{position:absolute;left:0;bottom:-14px;height:7px;width:0;background:#5EEAD4;border-radius:4px}
+.rail{position:absolute;right:48px;top:150px;width:520px;display:flex;flex-direction:column;gap:16px}
+.chip{border-radius:18px;padding:16px 20px 14px;background:rgba(8,11,18,.86);border:2px solid rgba(255,255,255,.25);box-shadow:0 10px 34px rgba(0,0,0,.45)}
+.chip .k{font-family:"JetBrains Mono",monospace;font-size:19px;font-weight:700;letter-spacing:.16em;margin-bottom:6px}
+.chip .t{font-size:25px;line-height:1.28;color:rgba(255,255,255,.94);font-weight:600}
+.chip.what{border-color:#22D3EE}.chip.what .k{color:#22D3EE}
+.chip.why{border-color:#A78BFA}.chip.why .k{color:#A78BFA}
+.chip.skip{border-color:#F87171}.chip.skip .k{color:#F87171}
+.chip.how{border-color:#4ADE80}.chip.how .k{color:#4ADE80}
+.chip.gold{border-color:#FFD166}.chip.gold .k{color:#FFD166}
+.laterbadge{position:absolute;top:44px;right:48px;padding:12px 26px;border-radius:12px;background:#B91C1C;color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.22em;font-size:24px;transform:rotate(3deg)}
+.caps{position:absolute;left:0;right:0;bottom:52px;display:flex;justify-content:center}
+.cap{background:rgba(0,0,0,.78);padding:12px 26px;border-radius:10px;font-size:39px;font-weight:600;text-align:center;max-width:1560px}
+.cap span{color:#fff}
+.bigflash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:120px;font-weight:700;letter-spacing:-.01em;text-shadow:0 6px 44px rgba(0,0,0,.8)}
+.daycard{position:absolute;inset:0;background:radial-gradient(1100px 620px at 50% 42%,#1B2436 0%,#0B0E14 70%);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.daycard .d1{font-family:"JetBrains Mono",monospace;letter-spacing:.3em;color:#5EEAD4;font-size:30px;font-weight:700}
+.daycard .d2{font-size:150px;font-weight:700;letter-spacing:-.02em;margin-top:8px}
+.daycard .d3{font-size:44px;color:rgba(255,255,255,.8);font-weight:600;margin-top:6px}
+.daycard .rule{width:0;height:8px;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px;margin-top:34px}
+.outro{position:absolute;inset:0;background:#07090F;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.outro img{width:760px;height:428px;object-fit:cover;border-radius:24px;box-shadow:0 0 120px rgba(255,209,102,.25)}
+.outro .o1{font-size:64px;font-weight:700;margin-top:36px}
+.outro .o2{font-size:34px;color:rgba(255,255,255,.75);margin-top:12px;font-weight:600}
+.subpill{margin-top:30px;padding:16px 44px;border-radius:999px;background:#E11D48;font-size:32px;font-weight:700;letter-spacing:.14em}
+.node{position:absolute;width:26px;height:26px;border-radius:50%;background:#223;border:3px solid rgba(255,255,255,.25)}
+.counter{font-size:120px;font-weight:700;color:#FFD166}
+</style>
+<div id="root" data-composition-id="s03_3" data-start="0" data-duration="24.19" data-width="1920" data-height="1080">
+<video id="el-s03_3-1" class="clip bg" data-start="0" data-duration="10.0" src="assets/gen/vid-s03-3-docker.mp4" muted playsinline></video>
+<img class="clip bg" id="bgimg-s03_3" data-start="10.0" data-duration="14.19" src="assets/gen/img-s03-3-docker.webp">
+<div id="el-s03_3-2" class="clip shade" data-start="0" data-duration="24.19"></div>
+<div id="el-s03_3-3" class="clip" data-start="0" data-duration="24.19"><div class="pill" id="pill-s03_3">DAY 1 — SETUP · 7 HRS</div></div>
+<div id="el-s03_3-4" class="clip" data-start="0" data-duration="24.19"><div class="namecard" id="nc-s03_3"><div class="title">DOCKER<span class="yearchip">2013</span><div class="ule" id="ule-s03_3"></div></div><div class="subtitle">Your app, packed in a box</div></div></div>
+<div id="el-s03_3-5" class="clip headline" data-start="0.4" data-duration="5.80"><span class="hl-in" id="h-s03_3-0">Your app, packed in a box.<span class="bar" id="h-s03_3-0-bar"></span></span></div>
+<div id="el-s03_3-6" class="clip headline" data-start="6.2" data-duration="4.62"><span class="hl-in" id="h-s03_3-1">a box that packs your app plus everything it needs to run<span class="bar" id="h-s03_3-1-bar"></span></span></div>
+<div id="el-s03_3-7" class="clip headline" data-start="10.82" data-duration="4.86"><span class="hl-in" id="h-s03_3-2">the box behaves identically on your laptop and on the live site<span class="bar" id="h-s03_3-2-bar"></span></span></div>
+<div id="el-s03_3-8" class="clip headline" data-start="15.68" data-duration="4.14"><span class="hl-in" id="h-s03_3-3">the &#x27;works on my machine&#x27; bug on launch day<span class="bar" id="h-s03_3-3-bar"></span></span></div>
+<div id="el-s03_3-9" class="clip headline" data-start="19.82" data-duration="4.37"><span class="hl-in" id="h-s03_3-4">one Dockerfile · docker build — the 30-minute version<span class="bar" id="h-s03_3-4-bar"></span></span></div>
+<div class="rail"><div id="el-s03_3-10" class="clip" data-start="6.2" data-duration="17.99"><div class="chip what" id="chip-s03_3-0"><div class="k">WHAT IT IS</div><div class="t">a box that packs your app plus everything it needs to run</div></div></div><div id="el-s03_3-11" class="clip" data-start="10.82" data-duration="13.37"><div class="chip why" id="chip-s03_3-1"><div class="k">WHY YOU NEED IT</div><div class="t">the box behaves identically on your laptop and on the live site</div></div></div><div id="el-s03_3-12" class="clip" data-start="15.68" data-duration="8.51"><div class="chip skip" id="chip-s03_3-2"><div class="k">IF YOU SKIP IT</div><div class="t">the &#x27;works on my machine&#x27; bug on launch day</div></div></div><div id="el-s03_3-13" class="clip" data-start="19.82" data-duration="4.37"><div class="chip how" id="chip-s03_3-3"><div class="k">HOW</div><div class="t">one Dockerfile · docker build — the 30-minute version</div></div></div></div>
+<div id="el-s03_3-14" class="clip caps" data-start="0.06" data-duration="2.68"><div class="cap" id="cap-s03_3-0"><span id="w-s03_3-0-0">Docker,</span> <span id="w-s03_3-0-1">open-sourced</span> <span id="w-s03_3-0-2">in</span> <span id="w-s03_3-0-3">2013</span> <span id="w-s03_3-0-4">by</span> <span id="w-s03_3-0-5">a</span> </div></div>
+<div id="el-s03_3-15" class="clip caps" data-start="2.74" data-duration="2.80"><div class="cap" id="cap-s03_3-1"><span id="w-s03_3-1-0">tiny</span> <span id="w-s03_3-1-1">startup</span> <span id="w-s03_3-1-2">called</span> <span id="w-s03_3-1-3">dotCloud.</span> <span id="w-s03_3-1-4">What</span> <span id="w-s03_3-1-5">it</span> </div></div>
+<div id="el-s03_3-16" class="clip caps" data-start="5.54" data-duration="1.82"><div class="cap" id="cap-s03_3-2"><span id="w-s03_3-2-0">is:</span> <span id="w-s03_3-2-1">a</span> <span id="w-s03_3-2-2">box</span> <span id="w-s03_3-2-3">that</span> <span id="w-s03_3-2-4">packs</span> <span id="w-s03_3-2-5">your</span> </div></div>
+<div id="el-s03_3-17" class="clip caps" data-start="7.36" data-duration="1.48"><div class="cap" id="cap-s03_3-3"><span id="w-s03_3-3-0">app</span> <span id="w-s03_3-3-1">plus</span> <span id="w-s03_3-3-2">everything</span> <span id="w-s03_3-3-3">it</span> <span id="w-s03_3-3-4">needs</span> <span id="w-s03_3-3-5">to</span> </div></div>
+<div id="el-s03_3-18" class="clip caps" data-start="8.84" data-duration="3.40"><div class="cap" id="cap-s03_3-4"><span id="w-s03_3-4-0">run.</span> <span id="w-s03_3-4-1">Why:</span> <span id="w-s03_3-4-2">the</span> <span id="w-s03_3-4-3">box</span> <span id="w-s03_3-4-4">behaves</span> <span id="w-s03_3-4-5">identically</span> </div></div>
+<div id="el-s03_3-19" class="clip caps" data-start="12.24" data-duration="1.40"><div class="cap" id="cap-s03_3-5"><span id="w-s03_3-5-0">on</span> <span id="w-s03_3-5-1">your</span> <span id="w-s03_3-5-2">laptop</span> <span id="w-s03_3-5-3">and</span> <span id="w-s03_3-5-4">on</span> <span id="w-s03_3-5-5">the</span> </div></div>
+<div id="el-s03_3-20" class="clip caps" data-start="13.64" data-duration="1.90"><div class="cap" id="cap-s03_3-6"><span id="w-s03_3-6-0">live</span> <span id="w-s03_3-6-1">site.</span> <span id="w-s03_3-6-2">Skip</span> <span id="w-s03_3-6-3">it</span> <span id="w-s03_3-6-4">and</span> <span id="w-s03_3-6-5">you&#x27;ll</span> </div></div>
+<div id="el-s03_3-21" class="clip caps" data-start="15.54" data-duration="1.36"><div class="cap" id="cap-s03_3-7"><span id="w-s03_3-7-0">meet</span> <span id="w-s03_3-7-1">the</span> <span id="w-s03_3-7-2">&#x27;works</span> <span id="w-s03_3-7-3">on</span> <span id="w-s03_3-7-4">my</span> <span id="w-s03_3-7-5">machine&#x27;</span> </div></div>
+<div id="el-s03_3-22" class="clip caps" data-start="16.9" data-duration="3.04"><div class="cap" id="cap-s03_3-8"><span id="w-s03_3-8-0">bug</span> <span id="w-s03_3-8-1">on</span> <span id="w-s03_3-8-2">launch</span> <span id="w-s03_3-8-3">day.</span> <span id="w-s03_3-8-4">How:</span> <span id="w-s03_3-8-5">one</span> </div></div>
+<div id="el-s03_3-23" class="clip caps" data-start="19.82" data-duration="2.44"><div class="cap" id="cap-s03_3-9"><span id="w-s03_3-9-0">Dockerfile,</span> <span id="w-s03_3-9-1">docker</span> <span id="w-s03_3-9-2">build</span> <span id="w-s03_3-9-3">—</span> <span id="w-s03_3-9-4">that&#x27;s</span> <span id="w-s03_3-9-5">the</span> </div></div>
+<div id="el-s03_3-24" class="clip caps" data-start="22.16" data-duration="0.74"><div class="cap" id="cap-s03_3-10"><span id="w-s03_3-10-0">30-minute</span> <span id="w-s03_3-10-1">version.</span> </div></div>
+<div id="el-s03_3-25" class="clip caps" data-start="23.99" data-duration="0.20"><div class="cap" id="cap-s03_3-11"><span id="w-s03_3-11-0">Cursor,</span> <span id="w-s03_3-11-1">released</span> <span id="w-s03_3-11-2">in</span> <span id="w-s03_3-11-3">2023</span> <span id="w-s03_3-11-4">by</span> <span id="w-s03_3-11-5">four</span> </div></div>
+</div>
+<script src="assets/js/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  var tl = gsap.timeline({ paused: true });
+tl.fromTo("#pill-s03_3",{x:-60,opacity:0},{x:0,opacity:1,duration:.45,ease:"power3.out"},0.05);
+tl.fromTo("#nc-s03_3",{y:44,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.18);
+tl.to("#ule-s03_3",{width:"62%",duration:.6,ease:"power2.inOut"},0.55);
+tl.fromTo("#h-s03_3-0",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},0.4);
+tl.to("#h-s03_3-0-bar",{width:"100%",duration:.5,ease:"power2.out"},0.55);
+tl.fromTo("#h-s03_3-1",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},6.2);
+tl.to("#h-s03_3-1-bar",{width:"100%",duration:.5,ease:"power2.out"},6.3500000000000005);
+tl.fromTo("#h-s03_3-2",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},10.82);
+tl.to("#h-s03_3-2-bar",{width:"100%",duration:.5,ease:"power2.out"},10.97);
+tl.fromTo("#h-s03_3-3",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},15.68);
+tl.to("#h-s03_3-3-bar",{width:"100%",duration:.5,ease:"power2.out"},15.83);
+tl.fromTo("#h-s03_3-4",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},19.82);
+tl.to("#h-s03_3-4-bar",{width:"100%",duration:.5,ease:"power2.out"},19.97);
+tl.fromTo("#chip-s03_3-0",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},6.2);
+tl.fromTo("#chip-s03_3-1",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},10.82);
+tl.fromTo("#chip-s03_3-2",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},15.68);
+tl.fromTo("#chip-s03_3-3",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},19.82);
+tl.fromTo("#cap-s03_3-0",{opacity:0},{opacity:1,duration:.07,ease:"none"},0.06);
+tl.to("#w-s03_3-0-0",{color:"#FFD166",duration:.05,ease:"none"},0.06);
+tl.to("#w-s03_3-0-1",{color:"#FFD166",duration:.05,ease:"none"},0.06);
+tl.to("#w-s03_3-0-2",{color:"#FFD166",duration:.05,ease:"none"},1.36);
+tl.to("#w-s03_3-0-3",{color:"#FFD166",duration:.05,ease:"none"},1.62);
+tl.to("#w-s03_3-0-4",{color:"#FFD166",duration:.05,ease:"none"},2.08);
+tl.to("#w-s03_3-0-5",{color:"#FFD166",duration:.05,ease:"none"},2.62);
+tl.fromTo("#cap-s03_3-1",{opacity:0},{opacity:1,duration:.07,ease:"none"},2.74);
+tl.to("#w-s03_3-1-0",{color:"#FFD166",duration:.05,ease:"none"},2.74);
+tl.to("#w-s03_3-1-1",{color:"#FFD166",duration:.05,ease:"none"},2.98);
+tl.to("#w-s03_3-1-2",{color:"#FFD166",duration:.05,ease:"none"},3.36);
+tl.to("#w-s03_3-1-3",{color:"#FFD166",duration:.05,ease:"none"},3.36);
+tl.to("#w-s03_3-1-4",{color:"#FFD166",duration:.05,ease:"none"},5.14);
+tl.to("#w-s03_3-1-5",{color:"#FFD166",duration:.05,ease:"none"},5.44);
+tl.fromTo("#cap-s03_3-2",{opacity:0},{opacity:1,duration:.07,ease:"none"},5.54);
+tl.to("#w-s03_3-2-0",{color:"#FFD166",duration:.05,ease:"none"},5.54);
+tl.to("#w-s03_3-2-1",{color:"#FFD166",duration:.05,ease:"none"},6.2);
+tl.to("#w-s03_3-2-2",{color:"#FFD166",duration:.05,ease:"none"},6.42);
+tl.to("#w-s03_3-2-3",{color:"#FFD166",duration:.05,ease:"none"},6.62);
+tl.to("#w-s03_3-2-4",{color:"#FFD166",duration:.05,ease:"none"},6.88);
+tl.to("#w-s03_3-2-5",{color:"#FFD166",duration:.05,ease:"none"},7.08);
+tl.fromTo("#cap-s03_3-3",{opacity:0},{opacity:1,duration:.07,ease:"none"},7.36);
+tl.to("#w-s03_3-3-0",{color:"#FFD166",duration:.05,ease:"none"},7.36);
+tl.to("#w-s03_3-3-1",{color:"#FFD166",duration:.05,ease:"none"},7.58);
+tl.to("#w-s03_3-3-2",{color:"#FFD166",duration:.05,ease:"none"},7.86);
+tl.to("#w-s03_3-3-3",{color:"#FFD166",duration:.05,ease:"none"},8.22);
+tl.to("#w-s03_3-3-4",{color:"#FFD166",duration:.05,ease:"none"},8.5);
+tl.to("#w-s03_3-3-5",{color:"#FFD166",duration:.05,ease:"none"},8.62);
+tl.fromTo("#cap-s03_3-4",{opacity:0},{opacity:1,duration:.07,ease:"none"},8.84);
+tl.to("#w-s03_3-4-0",{color:"#FFD166",duration:.05,ease:"none"},8.84);
+tl.to("#w-s03_3-4-1",{color:"#FFD166",duration:.05,ease:"none"},9.6);
+tl.to("#w-s03_3-4-2",{color:"#FFD166",duration:.05,ease:"none"},10.82);
+tl.to("#w-s03_3-4-3",{color:"#FFD166",duration:.05,ease:"none"},10.96);
+tl.to("#w-s03_3-4-4",{color:"#FFD166",duration:.05,ease:"none"},11.1);
+tl.to("#w-s03_3-4-5",{color:"#FFD166",duration:.05,ease:"none"},11.5);
+tl.fromTo("#cap-s03_3-5",{opacity:0},{opacity:1,duration:.07,ease:"none"},12.24);
+tl.to("#w-s03_3-5-0",{color:"#FFD166",duration:.05,ease:"none"},12.24);
+tl.to("#w-s03_3-5-1",{color:"#FFD166",duration:.05,ease:"none"},12.44);
+tl.to("#w-s03_3-5-2",{color:"#FFD166",duration:.05,ease:"none"},12.52);
+tl.to("#w-s03_3-5-3",{color:"#FFD166",duration:.05,ease:"none"},12.8);
+tl.to("#w-s03_3-5-4",{color:"#FFD166",duration:.05,ease:"none"},13.4);
+tl.to("#w-s03_3-5-5",{color:"#FFD166",duration:.05,ease:"none"},13.56);
+tl.fromTo("#cap-s03_3-6",{opacity:0},{opacity:1,duration:.07,ease:"none"},13.64);
+tl.to("#w-s03_3-6-0",{color:"#FFD166",duration:.05,ease:"none"},13.64);
+tl.to("#w-s03_3-6-1",{color:"#FFD166",duration:.05,ease:"none"},13.78);
+tl.to("#w-s03_3-6-2",{color:"#FFD166",duration:.05,ease:"none"},14.86);
+tl.to("#w-s03_3-6-3",{color:"#FFD166",duration:.05,ease:"none"},15.08);
+tl.to("#w-s03_3-6-4",{color:"#FFD166",duration:.05,ease:"none"},15.26);
+tl.to("#w-s03_3-6-5",{color:"#FFD166",duration:.05,ease:"none"},15.4);
+tl.fromTo("#cap-s03_3-7",{opacity:0},{opacity:1,duration:.07,ease:"none"},15.54);
+tl.to("#w-s03_3-7-0",{color:"#FFD166",duration:.05,ease:"none"},15.54);
+tl.to("#w-s03_3-7-1",{color:"#FFD166",duration:.05,ease:"none"},15.68);
+tl.to("#w-s03_3-7-2",{color:"#FFD166",duration:.05,ease:"none"},15.88);
+tl.to("#w-s03_3-7-3",{color:"#FFD166",duration:.05,ease:"none"},16.18);
+tl.to("#w-s03_3-7-4",{color:"#FFD166",duration:.05,ease:"none"},16.42);
+tl.to("#w-s03_3-7-5",{color:"#FFD166",duration:.05,ease:"none"},16.6);
+tl.fromTo("#cap-s03_3-8",{opacity:0},{opacity:1,duration:.07,ease:"none"},16.9);
+tl.to("#w-s03_3-8-0",{color:"#FFD166",duration:.05,ease:"none"},16.9);
+tl.to("#w-s03_3-8-1",{color:"#FFD166",duration:.05,ease:"none"},17.2);
+tl.to("#w-s03_3-8-2",{color:"#FFD166",duration:.05,ease:"none"},17.46);
+tl.to("#w-s03_3-8-3",{color:"#FFD166",duration:.05,ease:"none"},17.64);
+tl.to("#w-s03_3-8-4",{color:"#FFD166",duration:.05,ease:"none"},18.66);
+tl.to("#w-s03_3-8-5",{color:"#FFD166",duration:.05,ease:"none"},19.82);
+tl.fromTo("#cap-s03_3-9",{opacity:0},{opacity:1,duration:.07,ease:"none"},19.82);
+tl.to("#w-s03_3-9-0",{color:"#FFD166",duration:.05,ease:"none"},19.82);
+tl.to("#w-s03_3-9-1",{color:"#FFD166",duration:.05,ease:"none"},20.78);
+tl.to("#w-s03_3-9-2",{color:"#FFD166",duration:.05,ease:"none"},21.0);
+tl.to("#w-s03_3-9-3",{color:"#FFD166",duration:.05,ease:"none"},21.0);
+tl.to("#w-s03_3-9-4",{color:"#FFD166",duration:.05,ease:"none"},21.96);
+tl.to("#w-s03_3-9-5",{color:"#FFD166",duration:.05,ease:"none"},22.16);
+tl.fromTo("#cap-s03_3-10",{opacity:0},{opacity:1,duration:.07,ease:"none"},22.16);
+tl.to("#w-s03_3-10-0",{color:"#FFD166",duration:.05,ease:"none"},22.16);
+tl.to("#w-s03_3-10-1",{color:"#FFD166",duration:.05,ease:"none"},22.68);
+tl.fromTo("#cap-s03_3-11",{opacity:0},{opacity:1,duration:.07,ease:"none"},23.99);
+tl.to("#w-s03_3-11-0",{color:"#FFD166",duration:.05,ease:"none"},23.99);
+tl.to("#w-s03_3-11-1",{color:"#FFD166",duration:.05,ease:"none"},24.77);
+tl.to("#w-s03_3-11-2",{color:"#FFD166",duration:.05,ease:"none"},24.99);
+tl.to("#w-s03_3-11-3",{color:"#FFD166",duration:.05,ease:"none"},25.21);
+tl.to("#w-s03_3-11-4",{color:"#FFD166",duration:.05,ease:"none"},25.95);
+tl.to("#w-s03_3-11-5",{color:"#FFD166",duration:.05,ease:"none"},26.17);
+  window.__timelines["s03_3"] = tl;
+})();
+</script>
+</template>

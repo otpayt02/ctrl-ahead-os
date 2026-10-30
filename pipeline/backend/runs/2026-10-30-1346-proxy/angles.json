@@ -1,0 +1,221 @@
+[
+ {
+  "topic": "The Smart AI Shopping \ud83d\ude31",
+  "lane": "AI tool reviews",
+  "brain_item": "AI tool reviews",
+  "kind": "local_file",
+  "angle": "Topic 'The Smart AI Shopping \ud83d\ude31' (AI tool reviews) connects to Oliver's local_file 'AI tool reviews' via shared ground: reviews, tool. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/ai-tool-reviews/README.md",
+  "overlap": [
+   "reviews",
+   "tool"
+  ]
+ },
+ {
+  "topic": "Ai se Cartoon Video Kaise Banaye | Step-by-Step Guide (2026) | ai video kaise banaye | cartoon\ud83d\udd25",
+  "lane": "Top-10 AI roundups",
+  "brain_item": "Top-10 AI roundups",
+  "kind": "local_file",
+  "angle": "Topic 'Ai se Cartoon Video Kaise Banaye | Step-by-Step Guide (2026) | ai video kaise banaye | cartoon\ud83d\udd25' (Top-10 AI roundups) connects to Oliver's local_file 'Top-10 AI roundups' via shared ground: roundups, top-10. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/top-10-ai-roundups/README.md",
+  "overlap": [
+   "roundups",
+   "top-10"
+  ]
+ },
+ {
+  "topic": "Your Local AI Is Not as Private as You Think",
+  "lane": "Local LLM setups",
+  "brain_item": "Local LLM setups",
+  "kind": "local_file",
+  "angle": "Topic 'Your Local AI Is Not as Private as You Think' (Local LLM setups) connects to Oliver's local_file 'Local LLM setups' via shared ground: llm, local, setups. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/local-llm-setups/README.md",
+  "overlap": [
+   "llm",
+   "local",
+   "setups"
+  ]
+ },
+ {
+  "topic": "Open AI\u2019s Profit Margins will blow your mind! #aimodel #deepseekai #chatgpt #claude #openai #ai",
+  "lane": "Open-source model spotlights",
+  "brain_item": "Open-source model spotlights",
+  "kind": "local_file",
+  "angle": "Topic 'Open AI\u2019s Profit Margins will blow your mind! #aimodel #deepseekai #chatgpt #claude #openai #ai' (Open-source model spotlights) connects to Oliver's local_file 'Open-source model spotlights' via shared ground: model, open-source, spotlights. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/open-source-model-spotlights/README.md",
+  "overlap": [
+   "model",
+   "open-source",
+   "spotlights"
+  ]
+ },
+ {
+  "topic": "\uba38\uc2a4\ud06c vs \ucc57GPT \uc774\uac8c \ub808\uc774\uc2a4\ub77c\uace0?",
+  "lane": "Model comparisons",
+  "brain_item": "Model comparisons",
+  "kind": "local_file",
+  "angle": "Topic '\uba38\uc2a4\ud06c vs \ucc57GPT \uc774\uac8c \ub808\uc774\uc2a4\ub77c\uace0?' (Model comparisons) connects to Oliver's local_file 'Model comparisons' via shared ground: comparisons, model. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/model-comparisons/README.md",
+  "overlap": [
+   "comparisons",
+   "model"
+  ]
+ },
+ {
+  "topic": "\uba38\uc2a4\ud06c vs \ucc57GPT \uc774\uac8c \ub808\uc774\uc2a4\ub77c\uace0?",
+  "lane": "Model comparisons",
+  "brain_item": "Model comparisons \u2014 scripts and render manifests (chosen lane only)",
+  "kind": "local_file",
+  "angle": "Topic '\uba38\uc2a4\ud06c vs \ucc57GPT \uc774\uac8c \ub808\uc774\uc2a4\ub77c\uace0?' (Model comparisons) connects to Oliver's local_file 'Model comparisons \u2014 scripts and render manifests (chosen lane only)' via shared ground: comparisons, model. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/stage_narrowing/model-comparisons-scripts-and-manifests.md",
+  "overlap": [
+   "comparisons",
+   "model"
+  ]
+ },
+ {
+  "topic": "AI Engineering Full Roadmap vs 100-Day Sprint: In-Demand Skills, Job Market Data & Curriculum",
+  "lane": "Prompt engineering",
+  "brain_item": "Prompt engineering",
+  "kind": "local_file",
+  "angle": "Topic 'AI Engineering Full Roadmap vs 100-Day Sprint: In-Demand Skills, Job Market Data & Curriculum' (Prompt engineering) connects to Oliver's local_file 'Prompt engineering' via shared ground: engineering, prompt. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/prompt-engineering/README.md",
+  "overlap": [
+   "engineering",
+   "prompt"
+  ]
+ },
+ {
+  "topic": "AI Engineering Full Roadmap vs 100-Day Sprint: In-Demand Skills, Job Market Data & Curriculum",
+  "lane": "Prompt engineering",
+  "brain_item": "otpayt02/a-prompt-refinery",
+  "kind": "github_repo",
+  "angle": "Topic 'AI Engineering Full Roadmap vs 100-Day Sprint: In-Demand Skills, Job Market Data & Curriculum' (Prompt engineering) connects to Oliver's github_repo 'otpayt02/a-prompt-refinery' via shared ground: engineering, prompt. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "https://github.com/otpayt02/a-prompt-refinery",
+  "overlap": [
+   "engineering",
+   "prompt"
+  ]
+ },
+ {
+  "topic": "AI Engineering Full Roadmap vs 100-Day Sprint: In-Demand Skills, Job Market Data & Curriculum",
+  "lane": "Prompt engineering",
+  "brain_item": "otpayt02/midrush-ai",
+  "kind": "github_repo",
+  "angle": "Topic 'AI Engineering Full Roadmap vs 100-Day Sprint: In-Demand Skills, Job Market Data & Curriculum' (Prompt engineering) connects to Oliver's github_repo 'otpayt02/midrush-ai' via shared ground: full, skills. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "https://github.com/otpayt02/midrush-ai",
+  "overlap": [
+   "full",
+   "skills"
+  ]
+ },
+ {
+  "topic": "Gemini 4 Argon: Modernizing 40 year code",
+  "lane": "AI coding agents",
+  "brain_item": "AI coding agents",
+  "kind": "local_file",
+  "angle": "Topic 'Gemini 4 Argon: Modernizing 40 year code' (AI coding agents) connects to Oliver's local_file 'AI coding agents' via shared ground: agents, coding. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/ai-coding-agents/README.md",
+  "overlap": [
+   "agents",
+   "coding"
+  ]
+ },
+ {
+  "topic": "Build an Obsidian BACKEND Not a Second Brain!",
+  "lane": "Build-with-me coding",
+  "brain_item": "Build-with-me coding",
+  "kind": "local_file",
+  "angle": "Topic 'Build an Obsidian BACKEND Not a Second Brain!' (Build-with-me coding) connects to Oliver's local_file 'Build-with-me coding' via shared ground: build-with-me, coding. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/build-with-me-coding/README.md",
+  "overlap": [
+   "build-with-me",
+   "coding"
+  ]
+ },
+ {
+  "topic": "I Tested The Viral Github Repo That Reverse Engineers Anything",
+  "lane": "No-code AI apps",
+  "brain_item": "No-code AI apps",
+  "kind": "local_file",
+  "angle": "Topic 'I Tested The Viral Github Repo That Reverse Engineers Anything' (No-code AI apps) connects to Oliver's local_file 'No-code AI apps' via shared ground: apps, no-code. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/no-code-ai-apps/README.md",
+  "overlap": [
+   "apps",
+   "no-code"
+  ]
+ },
+ {
+  "topic": "Complete AI Engineering Roadmap",
+  "lane": "Fine-tuning walkthroughs",
+  "brain_item": "Fine-tuning walkthroughs",
+  "kind": "local_file",
+  "angle": "Topic 'Complete AI Engineering Roadmap' (Fine-tuning walkthroughs) connects to Oliver's local_file 'Fine-tuning walkthroughs' via shared ground: fine-tuning, walkthroughs. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/fine-tuning-walkthroughs/README.md",
+  "overlap": [
+   "fine-tuning",
+   "walkthroughs"
+  ]
+ },
+ {
+  "topic": "The NEW Way to Build a Second Brain w/ Claude (2027)",
+  "lane": "RAG & pipelines",
+  "brain_item": "RAG & pipelines",
+  "kind": "local_file",
+  "angle": "Topic 'The NEW Way to Build a Second Brain w/ Claude (2027)' (RAG & pipelines) connects to Oliver's local_file 'RAG & pipelines' via shared ground: pipelines, rag. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/rag-pipelines/README.md",
+  "overlap": [
+   "pipelines",
+   "rag"
+  ]
+ },
+ {
+  "topic": "NVIDIA Tried to Tell me How to Benchmark RTX Spark",
+  "lane": "AI hardware / home rigs",
+  "brain_item": "AI hardware / home rigs",
+  "kind": "local_file",
+  "angle": "Topic 'NVIDIA Tried to Tell me How to Benchmark RTX Spark' (AI hardware / home rigs) connects to Oliver's local_file 'AI hardware / home rigs' via shared ground: hardware, home, rigs. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/ai-hardware-home-rigs/README.md",
+  "overlap": [
+   "hardware",
+   "home",
+   "rigs"
+  ]
+ },
+ {
+  "topic": "He Saved $80 Million On His Movie With AI \ud83d\ude2d",
+  "lane": "AI side hustles",
+  "brain_item": "AI side hustles",
+  "kind": "local_file",
+  "angle": "Topic 'He Saved $80 Million On His Movie With AI \ud83d\ude2d' (AI side hustles) connects to Oliver's local_file 'AI side hustles' via shared ground: hustles, side. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/ai-side-hustles/README.md",
+  "overlap": [
+   "hustles",
+   "side"
+  ]
+ },
+ {
+  "topic": "Matt Pocock: The Most Valuable Skill to Learn in the Age of AI",
+  "lane": "Freelance AI automation",
+  "brain_item": "002 \u2014 Freelance AI automation: sell the receipt, not the claim",
+  "kind": "local_file",
+  "angle": "Topic 'Matt Pocock: The Most Valuable Skill to Learn in the Age of AI' (Freelance AI automation) connects to Oliver's local_file '002 \u2014 Freelance AI automation: sell the receipt, not the claim' via shared ground: automation, freelance. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/002-freelance-ai-automation-concept-script-render-manifest.md",
+  "overlap": [
+   "automation",
+   "freelance"
+  ]
+ },
+ {
+  "topic": "Matt Pocock: The Most Valuable Skill to Learn in the Age of AI",
+  "lane": "Freelance AI automation",
+  "brain_item": "Freelance AI automation",
+  "kind": "local_file",
+  "angle": "Topic 'Matt Pocock: The Most Valuable Skill to Learn in the Age of AI' (Freelance AI automation) connects to Oliver's local_file 'Freelance AI automation' via shared ground: automation, freelance. Angle must be built from that artifact, cited, not asserted beyond it.",
+  "source_ref": "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/intel/freelance-ai-automation/README.md",
+  "overlap": [
+   "automation",
+   "freelance"
+  ]
+ }
+]

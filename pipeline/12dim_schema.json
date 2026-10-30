@@ -1,0 +1,89 @@
+{
+  "week_window": "YYYY-Www",
+  "subniche": "one of 35 lanes",
+  "cluster": "tools|builders|business|creative|news|education",
+  "dimensions": {
+    "01_top10_creators_to_listen": {
+      "definition": "Creators whose videos in this lane, with channel evidence, not a popularity guess",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "02_top10_outlier_videos": {
+      "definition": "Videos with outlier_ratio >=3.0 vs channel 30d median, only if >=3 channel videos in DB, else UNVERIFIED",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "03_top10_best_videos_past_week": {
+      "definition": "Top by views and engagement ratio in the lane, from scored snapshots only",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "04_top10_best_channels_growth": {
+      "definition": "Channels with steepest subscriber velocity AND upload consistency, only if both are in evidence",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "05_top10_incumbent_changelogs": {
+      "definition": "Incumbent changelog entries this week, with date and diff",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "06_top10_rising_companies": {
+      "definition": "Seed/stealth tools with a dated launch signal (Product Hunt / HN / release), not a vibe",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "07_top10_industry_watchouts": {
+      "definition": "Deprecations, rate cuts, lawsuits, price surges, each with a dated source",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "08_top10_search_queries": {
+      "definition": "Autosuggest / seed query tree, from the lane CSV + actual search terms used, labelled as queries used, not as demand",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "09_top10_trending_github_repos": {
+      "definition": "Repos by 7-day star velocity under topic:ai-tools and lane topics",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "10_top10_production_tools": {
+      "definition": "Tools with daily-active evidence (release, usage post, or Oliver's own use), not a vendor claim alone",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "11_top10_diy_builds": {
+      "definition": "Teardowns Oliver can build live in <4h, with a real artifact named",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    },
+    "12_top10_workflows_and_reasons": {
+      "definition": "top_10_workflows + top_10_reasons_to_care, each tied to a dimension 01-11 item",
+      "items": [],
+      "coverage": "EVIDENCE|PARTIAL|UNVERIFIED",
+      "count_rule": "List only items with evidence. Never pad to 10."
+    }
+  },
+  "inference": {
+    "weights": {
+      "changelog_recency": 25,
+      "github_percentile": 25,
+      "youtube_percentile": 25,
+      "artifact_fit": 15,
+      "buildability": 10
+    },
+    "rule": "Top topic needs >=2 independent evidence sources. Single-source topics are marked single-source, do not lead with."
+  }
+}

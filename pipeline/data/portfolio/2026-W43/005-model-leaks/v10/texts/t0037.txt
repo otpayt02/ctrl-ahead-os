@@ -1,0 +1,1 @@
+no Qwen 4 weights on Hugging Face

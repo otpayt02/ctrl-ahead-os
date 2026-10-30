@@ -1,0 +1,1883 @@
+{
+ "concat": [
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s00_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s01_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s01_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s01_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s01_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s01_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s01_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s01_c6.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s02_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s03_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s03_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s03_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s03_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s03_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s03_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s03_c6.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s04_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s04_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s05_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s05_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s06_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s07_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s08_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s09_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s09_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s09_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s09_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s09_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s10_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s10_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s11_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s11_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s12_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s12_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s13_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s14_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s14_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s14_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s14_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s14_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s14_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s15_proof.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s16_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s17_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s17_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s17_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s18_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s18_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s18_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s19_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s20_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s21_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s21_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s22_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s22_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s23_proof.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s24_proof.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s25_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s25_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s25_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s26_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s26_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s26_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s27_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s28_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s28_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s28_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s29_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s30_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s30_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s31_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s31_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s31_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s31_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s32_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s33_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s34_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s34_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s35_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s35_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s36_proof.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c6.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c7.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s37_c8.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s38_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s39_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s39_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s40_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s41_proof.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s42_proof.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s43_proof.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s44_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s44_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s45_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s46_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s46_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s46_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s47_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s47_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s48_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s49_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s50_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s51_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s52_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s53_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s54_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s55_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c6.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s56_c7.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c6.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c7.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s57_c8.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s58_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s58_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s59_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s60_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s60_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s61_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s61_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s61_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s61_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s61_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s61_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s61_c6.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s62_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s63_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s63_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s63_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s64_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s65_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s66_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s67_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s67_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s67_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s67_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c2.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c3.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c4.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c5.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c6.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c7.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s68_c8.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s69_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s70_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s71_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s72_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s73_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s74_c0.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s74_c1.mp4",
+  "/home/hatch/workspace/goals/ctrl-ahead-os-ai-video/files/pipeline/data/portfolio/2026-W43/005-model-leaks/v10/segments/s74_c2.mp4"
+ ],
+ "choreo": [
+  {
+   "sentence": 0,
+   "text": "One video title this week promised four huge model updates.",
+   "motion": "pan-left",
+   "image": "img00 (boxers)",
+   "switches": [
+    {
+     "rel": "0.00-2.94",
+     "image": "img00 (boxers)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 1,
+   "text": "GPT-7, Claude REA banned, Gemini Carbon insane, Qwen 4 leaks.",
+   "motion": "pan-right / slide-left / slide-right / crop-tl / crop-br / pan-up / pan-down",
+   "image": "img15 (moons)",
+   "switches": [
+    {
+     "rel": "0.00-0.62",
+     "image": "img15 (moons)",
+     "motion": "pan-right",
+     "popup": "GPT-7"
+    },
+    {
+     "rel": "0.62-2.32",
+     "image": "img00 (boxers)",
+     "motion": "slide-left",
+     "popup": null
+    },
+    {
+     "rel": "2.32-2.72",
+     "image": "img21 (empty-stage)",
+     "motion": "slide-right",
+     "popup": "Claude REA banned"
+    },
+    {
+     "rel": "2.72-3.98",
+     "image": "img00 (boxers)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "3.98-5.44",
+     "image": "img34 (frosted)",
+     "motion": "crop-br",
+     "popup": "Gemini Carbon"
+    },
+    {
+     "rel": "5.44-6.92",
+     "image": "img41 (tier-cake)",
+     "motion": "pan-up",
+     "popup": "Qwen 4 leaks"
+    },
+    {
+     "rel": "6.92-7.56",
+     "image": "img00 (boxers)",
+     "motion": "pan-down",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 6,
+   "list": true
+  },
+  {
+   "sentence": 2,
+   "text": "I checked all four against what the companies actually said.",
+   "motion": "pan-left",
+   "image": "img01 (posters)",
+   "switches": [
+    {
+     "rel": "0.00-3.28",
+     "image": "img01 (posters)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 3,
+   "text": "One is a rumor, one I could not find at all, one is a leak with no product, and one is real but not shipped.",
+   "motion": "pan-right / slide-left / slide-right / crop-tl / crop-br / pan-up / pan-down",
+   "image": "img10 (envelope)",
+   "switches": [
+    {
+     "rel": "0.00-0.52",
+     "image": "img10 (envelope)",
+     "motion": "pan-right",
+     "popup": "a rumor"
+    },
+    {
+     "rel": "0.52-1.08",
+     "image": "img01 (posters)",
+     "motion": "slide-left",
+     "popup": null
+    },
+    {
+     "rel": "1.08-2.52",
+     "image": "img12 (empty-folder)",
+     "motion": "slide-right",
+     "popup": "could not find it"
+    },
+    {
+     "rel": "2.52-2.90",
+     "image": "img01 (posters)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "2.90-4.36",
+     "image": "img34 (frosted)",
+     "motion": "crop-br",
+     "popup": "a leak, no product"
+    },
+    {
+     "rel": "4.36-4.74",
+     "image": "img01 (posters)",
+     "motion": "pan-up",
+     "popup": null
+    },
+    {
+     "rel": "4.74-6.04",
+     "image": "img40 (treadmill)",
+     "motion": "pan-down",
+     "popup": "real, not shipped"
+    }
+   ],
+   "comma_cuts": 6,
+   "list": true
+  },
+  {
+   "sentence": 4,
+   "text": "Here is the scorecard, so you do not build on a rumor.",
+   "motion": "pan-left / pan-right",
+   "image": "img02 (detective)",
+   "switches": [
+    {
+     "rel": "0.00-1.98",
+     "image": "img02 (detective)",
+     "motion": "pan-left",
+     "popup": null
+    },
+    {
+     "rel": "1.98-4.36",
+     "image": "img04 (scorecard)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 5,
+   "text": "Before the evidence, here is the thought I want you to carry through all four.",
+   "motion": "slide-left / slide-right",
+   "image": "img03 (doors)",
+   "switches": [
+    {
+     "rel": "0.00-0.76",
+     "image": "img03 (doors)",
+     "motion": "slide-left",
+     "popup": null
+    },
+    {
+     "rel": "0.76-3.40",
+     "image": "img05 (mirror)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 6,
+   "text": "A rumor is not just a bad fact.",
+   "motion": "crop-tl",
+   "image": "img06 (trophy-mirror)",
+   "switches": [
+    {
+     "rel": "0.00-2.94",
+     "image": "img06 (trophy-mirror)",
+     "motion": "crop-tl",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 7,
+   "text": "It is a mirror.",
+   "motion": "crop-br",
+   "image": "img07 (certainty)",
+   "switches": [
+    {
+     "rel": "0.00-1.22",
+     "image": "img07 (certainty)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 8,
+   "text": "It shows you what you already wanted to be true.",
+   "motion": "pan-up",
+   "image": "img08 (scale)",
+   "switches": [
+    {
+     "rel": "0.00-2.94",
+     "image": "img08 (scale)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 9,
+   "text": "When a title promises the next giant model, the next ban, the next leak, it is not only selling news, it is selling certainty in a field that has almost none.",
+   "motion": "pan-down / pan-left / pan-right / slide-left / slide-right",
+   "image": "img09 (hourglass)",
+   "switches": [
+    {
+     "rel": "0.00-2.10",
+     "image": "img09 (hourglass)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "2.10-3.14",
+     "image": "img11 (paperplane)",
+     "motion": "pan-left",
+     "popup": null
+    },
+    {
+     "rel": "3.14-3.98",
+     "image": "img13 (label-jar)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "3.98-6.00",
+     "image": "img15 (moons)",
+     "motion": "slide-left",
+     "popup": null
+    },
+    {
+     "rel": "6.00-9.94",
+     "image": "img17 (locked-door)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 4,
+   "list": false
+  },
+  {
+   "sentence": 10,
+   "text": "The directive is simple, and it is hard: want the truth more than you want the headline.",
+   "motion": "crop-tl / crop-br",
+   "image": "img06 (trophy-mirror)",
+   "switches": [
+    {
+     "rel": "0.00-1.04",
+     "image": "img06 (trophy-mirror)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "1.04-5.28",
+     "image": "img08 (scale)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 11,
+   "text": "If you can hold that for six minutes, the rest of this video will feel less like a debunk and more like a discipline.",
+   "motion": "pan-up / pan-down",
+   "image": "img07 (certainty)",
+   "switches": [
+    {
+     "rel": "0.00-1.58",
+     "image": "img07 (certainty)",
+     "motion": "pan-up",
+     "popup": null
+    },
+    {
+     "rel": "1.58-5.74",
+     "image": "img09 (hourglass)",
+     "motion": "pan-down",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 12,
+   "text": "First, GPT-7 Bel.",
+   "motion": "pan-left / pan-right",
+   "image": "img07 (certainty)",
+   "switches": [
+    {
+     "rel": "0.00-0.86",
+     "image": "img07 (certainty)",
+     "motion": "pan-left",
+     "popup": null
+    },
+    {
+     "rel": "0.86-2.82",
+     "image": "img09 (hourglass)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 13,
+   "text": "The whole thing traces to one anonymous post on August 25th.",
+   "motion": "slide-left",
+   "image": "img10 (envelope)",
+   "switches": [
+    {
+     "rel": "0.00-2.44",
+     "image": "img10 (envelope)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 14,
+   "text": "No document, no named source, and it did not even say GPT-7 \u2014 that label came later.",
+   "motion": "slide-right / crop-tl / crop-br / pan-up / pan-down / pan-left",
+   "image": "img12 (empty-folder)",
+   "switches": [
+    {
+     "rel": "0.00-1.25",
+     "image": "img12 (empty-folder)",
+     "motion": "slide-right",
+     "popup": "no document"
+    },
+    {
+     "rel": "1.25-2.20",
+     "image": "img12 (empty-folder)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "2.20-3.02",
+     "image": "img10 (envelope)",
+     "motion": "crop-br",
+     "popup": "no named source"
+    },
+    {
+     "rel": "3.02-3.32",
+     "image": "img12 (empty-folder)",
+     "motion": "pan-up",
+     "popup": null
+    },
+    {
+     "rel": "3.32-4.51",
+     "image": "img16 (crossed)",
+     "motion": "pan-down",
+     "popup": "did not say GPT-7"
+    },
+    {
+     "rel": "4.51-7.56",
+     "image": "img12 (empty-folder)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 5,
+   "list": true
+  },
+  {
+   "sentence": 15,
+   "text": "OpenAI has never used the name Bel in public, and on October 11th its own models",
+   "motion": "proof-cinematic-reveal (gold-streak bg, text fade-in, no screenshot, no card)",
+   "image": "proof-bg (gold streak)",
+   "switches": "proof lines: ['GPT-6 Astra', 'GPT-6.1 Sol', 'GPT-6 Luna', 'no Bel']"
+  },
+  {
+   "sentence": 16,
+   "text": "No Bel, no GPT-7.",
+   "motion": "slide-left",
+   "image": "img10 (envelope)",
+   "switches": [
+    {
+     "rel": "0.00-2.36",
+     "image": "img10 (envelope)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 17,
+   "text": "What OpenAI did say, on September 8th, is that it has an internal model significantly more capable than GPT-6 Astra.",
+   "motion": "slide-right / crop-tl / crop-br",
+   "image": "img11 (paperplane)",
+   "switches": [
+    {
+     "rel": "0.00-1.38",
+     "image": "img11 (paperplane)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "1.38-2.78",
+     "image": "img13 (label-jar)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "2.78-7.74",
+     "image": "img15 (moons)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  },
+  {
+   "sentence": 18,
+   "text": "That is true, and it is not the same as saying that model is Bel, or that it is GPT-7.",
+   "motion": "pan-up / pan-down / pan-left",
+   "image": "img11 (paperplane)",
+   "switches": [
+    {
+     "rel": "0.00-0.84",
+     "image": "img11 (paperplane)",
+     "motion": "pan-up",
+     "popup": null
+    },
+    {
+     "rel": "0.84-3.37",
+     "image": "img13 (label-jar)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "3.37-6.02",
+     "image": "img15 (moons)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  },
+  {
+   "sentence": 19,
+   "text": "Verdict: unverified.",
+   "motion": "pan-right",
+   "image": "img12 (empty-folder)",
+   "switches": [
+    {
+     "rel": "0.00-2.38",
+     "image": "img12 (empty-folder)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 20,
+   "text": "Second, Claude REA banned.",
+   "motion": "slide-left",
+   "image": "img13 (label-jar)",
+   "switches": [
+    {
+     "rel": "0.00-1.76",
+     "image": "img13 (label-jar)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 21,
+   "text": "I searched for a model called Claude REA, and I did not find one.",
+   "motion": "slide-right / crop-tl",
+   "image": "img21 (empty-stage)",
+   "switches": [
+    {
+     "rel": "0.00-1.61",
+     "image": "img21 (empty-stage)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "1.61-3.58",
+     "image": "img23 (calendar)",
+     "motion": "crop-tl",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 22,
+   "text": "What I did find is two real bans, and neither is a model.",
+   "motion": "crop-br / pan-up",
+   "image": "img22 (two-stamps)",
+   "switches": [
+    {
+     "rel": "0.00-1.51",
+     "image": "img22 (two-stamps)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "1.51-3.50",
+     "image": "img24 (heart-bubble)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 23,
+   "text": "On October 8th, Anthropic updated its usage policy, effective November 12th, to ",
+   "motion": "proof-cinematic-reveal (gold-streak bg, text fade-in, no screenshot, no card)",
+   "image": "proof-bg (gold streak)",
+   "switches": "proof lines: ['sustained, needless cruelty', 'toward Claude']"
+  },
+  {
+   "sentence": 24,
+   "text": "And on October 12th, Anthropic said it banned tens of thousands of accounts for ",
+   "motion": "proof-cinematic-reveal (gold-streak bg, text fade-in, no screenshot, no card)",
+   "image": "proof-bg (gold streak)",
+   "switches": "proof lines: ['tens of thousands of accounts banned', 'for distillation']"
+  },
+  {
+   "sentence": 25,
+   "text": "So banned is real, but it is accounts and a policy, not a model called REA.",
+   "motion": "pan-right / slide-left / slide-right",
+   "image": "img16 (crossed)",
+   "switches": [
+    {
+     "rel": "0.00-1.06",
+     "image": "img16 (crossed)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "1.06-2.90",
+     "image": "img18 (two-doors)",
+     "motion": "slide-left",
+     "popup": null
+    },
+    {
+     "rel": "2.90-4.98",
+     "image": "img20 (searchbar)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  },
+  {
+   "sentence": 26,
+   "text": "Pause on that word, banned, because it is doing philosophical work here, not just legal work.",
+   "motion": "crop-tl / crop-br / pan-up",
+   "image": "img17 (locked-door)",
+   "switches": [
+    {
+     "rel": "0.00-0.84",
+     "image": "img17 (locked-door)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "0.84-3.58",
+     "image": "img19 (stamp)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "3.58-5.24",
+     "image": "img21 (empty-stage)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  },
+  {
+   "sentence": 27,
+   "text": "To ban an account is to draw a boundary around a community.",
+   "motion": "pan-down",
+   "image": "img29 (fence)",
+   "switches": [
+    {
+     "rel": "0.00-3.38",
+     "image": "img29 (fence)",
+     "motion": "pan-down",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 28,
+   "text": "To ban a behavior is to say, this is not how we will treat a mind, even a simulated one.",
+   "motion": "pan-left / pan-right / slide-left",
+   "image": "img24 (heart-bubble)",
+   "switches": [
+    {
+     "rel": "0.00-1.60",
+     "image": "img24 (heart-bubble)",
+     "motion": "pan-left",
+     "popup": null
+    },
+    {
+     "rel": "1.60-3.72",
+     "image": "img26 (copy-machine)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "3.72-5.84",
+     "image": "img28 (pause)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  },
+  {
+   "sentence": 29,
+   "text": "To ban a model would be something else entirely: to erase a capability from the world.",
+   "motion": "slide-right",
+   "image": "img38 (vanishing)",
+   "switches": [
+    {
+     "rel": "0.00-5.24",
+     "image": "img38 (vanishing)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 30,
+   "text": "The title collapses all three into one scary word, and that collapse is the trick.",
+   "motion": "crop-tl / crop-br",
+   "image": "img19 (stamp)",
+   "switches": [
+    {
+     "rel": "0.00-3.04",
+     "image": "img19 (stamp)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "3.04-5.36",
+     "image": "img21 (empty-stage)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 31,
+   "text": "When you hear a word that big, ask what exactly was banned, by whom, and from whom.",
+   "motion": "pan-up / pan-down / pan-left / pan-right",
+   "image": "img20 (searchbar)",
+   "switches": [
+    {
+     "rel": "0.00-1.44",
+     "image": "img20 (searchbar)",
+     "motion": "pan-up",
+     "popup": null
+    },
+    {
+     "rel": "1.44-3.38",
+     "image": "img22 (two-stamps)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "3.38-4.14",
+     "image": "img24 (heart-bubble)",
+     "motion": "pan-left",
+     "popup": null
+    },
+    {
+     "rel": "4.14-5.82",
+     "image": "img26 (copy-machine)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 3,
+   "list": false
+  },
+  {
+   "sentence": 32,
+   "text": "Precision is not pedantry here.",
+   "motion": "slide-left",
+   "image": "img21 (empty-stage)",
+   "switches": [
+    {
+     "rel": "0.00-2.12",
+     "image": "img21 (empty-stage)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 33,
+   "text": "Precision is the difference between fear and understanding.",
+   "motion": "slide-right",
+   "image": "img22 (two-stamps)",
+   "switches": [
+    {
+     "rel": "0.00-3.34",
+     "image": "img22 (two-stamps)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 34,
+   "text": "Third, Gemini 4 Carbon.",
+   "motion": "crop-tl / crop-br",
+   "image": "img23 (calendar)",
+   "switches": [
+    {
+     "rel": "0.00-0.40",
+     "image": "img23 (calendar)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "0.40-1.70",
+     "image": "img25 (door-closing)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 35,
+   "text": "This one is the closest to real, and it is still not a product.",
+   "motion": "pan-up / pan-down",
+   "image": "img34 (frosted)",
+   "switches": [
+    {
+     "rel": "0.00-2.04",
+     "image": "img34 (frosted)",
+     "motion": "pan-up",
+     "popup": null
+    },
+    {
+     "rel": "2.04-4.38",
+     "image": "img36 (cloud-ruler)",
+     "motion": "pan-down",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 36,
+   "text": "Business Insider reported on October 9th that Google staff were testing Carbon i",
+   "motion": "proof-cinematic-reveal (gold-streak bg, text fade-in, no screenshot, no card)",
+   "image": "proof-bg (gold streak)",
+   "switches": "proof lines: ['Carbon tested inside Google', 'no model card, no price, no date', 'not confirmed']"
+  },
+  {
+   "sentence": 37,
+   "text": "Feels like is not a benchmark, there is no model card, no price, no release date, and Google has not confirmed it.",
+   "motion": "pan-right / slide-left / slide-right / crop-tl / crop-br / pan-up / pan-down / pan-left / pan-right",
+   "image": "img24 (heart-bubble)",
+   "switches": [
+    {
+     "rel": "0.00-2.02",
+     "image": "img24 (heart-bubble)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "2.02-2.94",
+     "image": "img12 (empty-folder)",
+     "motion": "slide-left",
+     "popup": "no model card"
+    },
+    {
+     "rel": "2.94-3.08",
+     "image": "img24 (heart-bubble)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "3.08-3.76",
+     "image": "img13 (label-jar)",
+     "motion": "crop-tl",
+     "popup": "no price"
+    },
+    {
+     "rel": "3.76-3.88",
+     "image": "img24 (heart-bubble)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "3.88-4.70",
+     "image": "img23 (calendar)",
+     "motion": "pan-up",
+     "popup": "no release date"
+    },
+    {
+     "rel": "4.70-4.94",
+     "image": "img24 (heart-bubble)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "4.94-6.32",
+     "image": "img16 (crossed)",
+     "motion": "pan-left",
+     "popup": "not confirmed"
+    },
+    {
+     "rel": "6.32-7.06",
+     "image": "img24 (heart-bubble)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 8,
+   "list": true
+  },
+  {
+   "sentence": 38,
+   "text": "A checkpoint briefly showed up on LMArena around October 23rd and was pulled.",
+   "motion": "slide-left",
+   "image": "img25 (door-closing)",
+   "switches": [
+    {
+     "rel": "0.00-4.32",
+     "image": "img25 (door-closing)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 39,
+   "text": "So Carbon is a leak about an internal checkpoint, not a model you can use today.",
+   "motion": "slide-right / crop-tl",
+   "image": "img26 (copy-machine)",
+   "switches": [
+    {
+     "rel": "0.00-2.96",
+     "image": "img26 (copy-machine)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "2.96-5.64",
+     "image": "img28 (pause)",
+     "motion": "crop-tl",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 40,
+   "text": "Fourth, Qwen 4.",
+   "motion": "crop-br",
+   "image": "img41 (tier-cake)",
+   "switches": [
+    {
+     "rel": "0.00-1.68",
+     "image": "img41 (tier-cake)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 41,
+   "text": "Alibaba said on September 22nd that Qwen 4 is in training.",
+   "motion": "proof-cinematic-reveal (gold-streak bg, text fade-in, no screenshot, no card)",
+   "image": "proof-bg (gold streak)",
+   "switches": "proof lines: ['Qwen 4 in training', 'no specs, no date']"
+  },
+  {
+   "sentence": 42,
+   "text": "It named tiers \u2014 Max, Plus, Flash, and a 27B model \u2014 but gave no specs, no date,",
+   "motion": "proof-cinematic-reveal (gold-streak bg, text fade-in, no screenshot, no card)",
+   "image": "proof-bg (gold streak)",
+   "switches": "proof lines: ['Max, Plus, Flash, 27B', 'no specs, no date', 'no Qwen 4 weights on Hugging Face']"
+  },
+  {
+   "sentence": 43,
+   "text": "The thing you can actually look at today is Qwen 3.8 Flash-Next, which Alibaba i",
+   "motion": "proof-cinematic-reveal (gold-streak bg, text fade-in, no screenshot, no card)",
+   "image": "proof-bg (gold streak)",
+   "switches": "proof lines: ['Qwen 3.8 Flash-Next', 'no Qwen 4 weights on Hugging Face']"
+  },
+  {
+   "sentence": 44,
+   "text": "So Qwen 4 is real as a project, not shipped as a model.",
+   "motion": "pan-right / slide-left",
+   "image": "img37 (empty-shelf)",
+   "switches": [
+    {
+     "rel": "0.00-1.96",
+     "image": "img37 (empty-shelf)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "1.96-3.92",
+     "image": "img39 (locked-app)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 45,
+   "text": "And Qwen 4 Coder does not exist yet.",
+   "motion": "slide-right",
+   "image": "img44 (empty-chair)",
+   "switches": [
+    {
+     "rel": "0.00-2.76",
+     "image": "img44 (empty-chair)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 46,
+   "text": "A leak is a model before it has a name, a price, or a promise.",
+   "motion": "crop-tl / crop-br / pan-up",
+   "image": "img30 (handshake)",
+   "switches": [
+    {
+     "rel": "0.00-1.96",
+     "image": "img30 (handshake)",
+     "motion": "crop-tl",
+     "popup": null
+    },
+    {
+     "rel": "1.96-2.62",
+     "image": "img32 (questions)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "2.62-4.16",
+     "image": "img34 (frosted)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  },
+  {
+   "sentence": 47,
+   "text": "It lives in the gap between what a lab knows and what the public is allowed to know, and that gap is where imagination rushes in.",
+   "motion": "pan-down / pan-left",
+   "image": "img45 (canyon-bridge)",
+   "switches": [
+    {
+     "rel": "0.00-4.18",
+     "image": "img45 (canyon-bridge)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "4.18-7.92",
+     "image": "img47 (bricks)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 48,
+   "text": "That is not a flaw in you.",
+   "motion": "pan-right",
+   "image": "img31 (eraser)",
+   "switches": [
+    {
+     "rel": "0.00-1.86",
+     "image": "img31 (eraser)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 49,
+   "text": "It is how humans think about power we cannot yet touch.",
+   "motion": "slide-left",
+   "image": "img32 (questions)",
+   "switches": [
+    {
+     "rel": "0.00-2.90",
+     "image": "img32 (questions)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 50,
+   "text": "We fill the unknown with the biggest thing we can picture.",
+   "motion": "slide-right",
+   "image": "img33 (fog-clearing)",
+   "switches": [
+    {
+     "rel": "0.00-3.92",
+     "image": "img33 (fog-clearing)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 51,
+   "text": "The discipline is to let the unknown stay unknown for a little longer.",
+   "motion": "crop-tl",
+   "image": "img34 (frosted)",
+   "switches": [
+    {
+     "rel": "0.00-4.08",
+     "image": "img34 (frosted)",
+     "motion": "crop-tl",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 52,
+   "text": "A checkpoint is not a product.",
+   "motion": "crop-br",
+   "image": "img46 (not-equal)",
+   "switches": [
+    {
+     "rel": "0.00-1.86",
+     "image": "img46 (not-equal)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 53,
+   "text": "A feeling is not a benchmark.",
+   "motion": "pan-up",
+   "image": "img35 (lab-bench)",
+   "switches": [
+    {
+     "rel": "0.00-2.06",
+     "image": "img35 (lab-bench)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 54,
+   "text": "A training run is not a release.",
+   "motion": "pan-down",
+   "image": "img40 (treadmill)",
+   "switches": [
+    {
+     "rel": "0.00-1.22",
+     "image": "img40 (treadmill)",
+     "motion": "pan-down",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 55,
+   "text": "Naming each stage honestly is how you keep your own thinking clean.",
+   "motion": "pan-left",
+   "image": "img36 (cloud-ruler)",
+   "switches": [
+    {
+     "rel": "0.00-5.16",
+     "image": "img36 (cloud-ruler)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 56,
+   "text": "So if you are picking a model this week, pick from the ones that actually shipped: GPT-6 Astra, Claude Opus 5.5, Gemini 4 Argon in its limited form, Qwen 3.8.",
+   "motion": "pan-right / slide-left / slide-right / crop-tl / crop-br / pan-up / pan-down / pan-left",
+   "image": "img37 (empty-shelf)",
+   "switches": [
+    {
+     "rel": "0.00-3.82",
+     "image": "img37 (empty-shelf)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "3.82-5.62",
+     "image": "img04 (scorecard)",
+     "motion": "slide-left",
+     "popup": "GPT-6 Astra"
+    },
+    {
+     "rel": "5.62-5.90",
+     "image": "img37 (empty-shelf)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "5.90-6.51",
+     "image": "img06 (trophy-mirror)",
+     "motion": "crop-tl",
+     "popup": "Claude Opus 5.5"
+    },
+    {
+     "rel": "6.51-7.86",
+     "image": "img37 (empty-shelf)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "7.86-10.08",
+     "image": "img15 (moons)",
+     "motion": "pan-up",
+     "popup": "Gemini 4 Argon"
+    },
+    {
+     "rel": "10.08-10.18",
+     "image": "img43 (poster)",
+     "motion": "pan-down",
+     "popup": "Qwen 3.8"
+    },
+    {
+     "rel": "10.18-11.98",
+     "image": "img37 (empty-shelf)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 7,
+   "list": true
+  },
+  {
+   "sentence": 57,
+   "text": "The other four names are a rumor, a missing model, a leak, and a training run.",
+   "motion": "pan-right / slide-left / slide-right / crop-tl / crop-br / pan-up / pan-down / pan-left / pan-right",
+   "image": "img37 (empty-shelf)",
+   "switches": [
+    {
+     "rel": "0.00-1.08",
+     "image": "img37 (empty-shelf)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "1.08-1.51",
+     "image": "img10 (envelope)",
+     "motion": "slide-left",
+     "popup": "a rumor"
+    },
+    {
+     "rel": "1.51-1.84",
+     "image": "img37 (empty-shelf)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "1.84-2.54",
+     "image": "img21 (empty-stage)",
+     "motion": "crop-tl",
+     "popup": "a missing model"
+    },
+    {
+     "rel": "2.54-2.76",
+     "image": "img37 (empty-shelf)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "2.76-3.12",
+     "image": "img34 (frosted)",
+     "motion": "pan-up",
+     "popup": "a leak"
+    },
+    {
+     "rel": "3.12-3.46",
+     "image": "img37 (empty-shelf)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "3.46-4.20",
+     "image": "img40 (treadmill)",
+     "motion": "pan-left",
+     "popup": "a training run"
+    },
+    {
+     "rel": "4.20-4.76",
+     "image": "img37 (empty-shelf)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 8,
+   "list": true
+  },
+  {
+   "sentence": 58,
+   "text": "That is not less interesting \u2014 it is just the difference between news and hype, and that difference is the whole point.",
+   "motion": "slide-left / slide-right",
+   "image": "img38 (vanishing)",
+   "switches": [
+    {
+     "rel": "0.00-4.02",
+     "image": "img38 (vanishing)",
+     "motion": "slide-left",
+     "popup": null
+    },
+    {
+     "rel": "4.02-6.44",
+     "image": "img40 (treadmill)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 59,
+   "text": "One last test before you share anything this week.",
+   "motion": "crop-tl",
+   "image": "img39 (locked-app)",
+   "switches": [
+    {
+     "rel": "0.00-2.70",
+     "image": "img39 (locked-app)",
+     "motion": "crop-tl",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 60,
+   "text": "Ask who benefits if you believe it now, before it is confirmed.",
+   "motion": "crop-br / pan-up",
+   "image": "img40 (treadmill)",
+   "switches": [
+    {
+     "rel": "0.00-1.76",
+     "image": "img40 (treadmill)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "1.76-3.44",
+     "image": "img42 (empty-library)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 1,
+   "list": false
+  },
+  {
+   "sentence": 61,
+   "text": "If the answer is a channel selling urgency, a seller selling access, or your own desire to be first, slow down.",
+   "motion": "pan-down / pan-left / pan-right / slide-left / slide-right / crop-tl / crop-br",
+   "image": "img40 (treadmill)",
+   "switches": [
+    {
+     "rel": "0.00-0.64",
+     "image": "img40 (treadmill)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "0.64-1.78",
+     "image": "img01 (posters)",
+     "motion": "pan-left",
+     "popup": "channel selling urgency"
+    },
+    {
+     "rel": "1.78-2.26",
+     "image": "img40 (treadmill)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "2.26-3.44",
+     "image": "img13 (label-jar)",
+     "motion": "slide-left",
+     "popup": "seller selling access"
+    },
+    {
+     "rel": "3.44-3.84",
+     "image": "img40 (treadmill)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "3.84-5.19",
+     "image": "img05 (mirror)",
+     "motion": "crop-tl",
+     "popup": "own desire to be first"
+    },
+    {
+     "rel": "5.19-7.16",
+     "image": "img40 (treadmill)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 6,
+   "list": true
+  },
+  {
+   "sentence": 62,
+   "text": "Speed is not insight.",
+   "motion": "pan-up",
+   "image": "img41 (tier-cake)",
+   "switches": [
+    {
+     "rel": "0.00-1.72",
+     "image": "img41 (tier-cake)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 63,
+   "text": "Being first to repeat a rumor is not the same as being right, and in a field that moves this fast, the person who waits for confirmation is not behind.",
+   "motion": "pan-down / pan-left / pan-right",
+   "image": "img42 (empty-library)",
+   "switches": [
+    {
+     "rel": "0.00-2.88",
+     "image": "img42 (empty-library)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "2.88-4.84",
+     "image": "img44 (empty-chair)",
+     "motion": "pan-left",
+     "popup": null
+    },
+    {
+     "rel": "4.84-8.34",
+     "image": "img46 (not-equal)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  },
+  {
+   "sentence": 64,
+   "text": "They are the only one still standing on solid ground when the hype cycle turns.",
+   "motion": "slide-left",
+   "image": "img42 (empty-library)",
+   "switches": [
+    {
+     "rel": "0.00-4.20",
+     "image": "img42 (empty-library)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 65,
+   "text": "And here is the directive I want you to leave with.",
+   "motion": "slide-right",
+   "image": "img43 (poster)",
+   "switches": [
+    {
+     "rel": "0.00-2.58",
+     "image": "img43 (poster)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 66,
+   "text": "Build on what shipped.",
+   "motion": "crop-tl",
+   "image": "img44 (empty-chair)",
+   "switches": [
+    {
+     "rel": "0.00-1.68",
+     "image": "img44 (empty-chair)",
+     "motion": "crop-tl",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 67,
+   "text": "Watch what is rumored, but do not bet your work, your money, or your reputation on it.",
+   "motion": "crop-br / pan-up / pan-down / pan-left",
+   "image": "img45 (canyon-bridge)",
+   "switches": [
+    {
+     "rel": "0.00-0.88",
+     "image": "img45 (canyon-bridge)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "0.88-2.40",
+     "image": "img47 (bricks)",
+     "motion": "pan-up",
+     "popup": null
+    },
+    {
+     "rel": "2.40-3.12",
+     "image": "img00 (boxers)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "3.12-4.42",
+     "image": "img02 (detective)",
+     "motion": "pan-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 3,
+   "list": false
+  },
+  {
+   "sentence": 68,
+   "text": "Keep a ledger, even a mental one: claimed, sourced, confirmed, shipped.",
+   "motion": "pan-right / slide-left / slide-right / crop-tl / crop-br / pan-up / pan-down / pan-left / pan-right",
+   "image": "img47 (bricks)",
+   "switches": [
+    {
+     "rel": "0.00-2.98",
+     "image": "img47 (bricks)",
+     "motion": "pan-right",
+     "popup": null
+    },
+    {
+     "rel": "2.98-3.32",
+     "image": "img10 (envelope)",
+     "motion": "slide-left",
+     "popup": "claimed"
+    },
+    {
+     "rel": "3.32-4.12",
+     "image": "img47 (bricks)",
+     "motion": "slide-right",
+     "popup": null
+    },
+    {
+     "rel": "4.12-4.17",
+     "image": "img02 (detective)",
+     "motion": "crop-tl",
+     "popup": "sourced"
+    },
+    {
+     "rel": "4.17-4.78",
+     "image": "img47 (bricks)",
+     "motion": "crop-br",
+     "popup": null
+    },
+    {
+     "rel": "4.78-4.83",
+     "image": "img04 (scorecard)",
+     "motion": "pan-up",
+     "popup": "confirmed"
+    },
+    {
+     "rel": "4.83-5.42",
+     "image": "img47 (bricks)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "5.42-5.47",
+     "image": "img47 (bricks)",
+     "motion": "pan-left",
+     "popup": "shipped"
+    },
+    {
+     "rel": "5.47-6.12",
+     "image": "img47 (bricks)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 8,
+   "list": true
+  },
+  {
+   "sentence": 69,
+   "text": "Four columns.",
+   "motion": "slide-left",
+   "image": "img45 (canyon-bridge)",
+   "switches": [
+    {
+     "rel": "0.00-1.24",
+     "image": "img45 (canyon-bridge)",
+     "motion": "slide-left",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 70,
+   "text": "Most of the internet lives in the first two.",
+   "motion": "slide-right",
+   "image": "img46 (not-equal)",
+   "switches": [
+    {
+     "rel": "0.00-2.34",
+     "image": "img46 (not-equal)",
+     "motion": "slide-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 71,
+   "text": "Your advantage is living in the last two.",
+   "motion": "crop-tl",
+   "image": "img47 (bricks)",
+   "switches": [
+    {
+     "rel": "0.00-2.32",
+     "image": "img47 (bricks)",
+     "motion": "crop-tl",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 72,
+   "text": "That is not cynicism.",
+   "motion": "crop-br",
+   "image": "img47 (bricks)",
+   "switches": [
+    {
+     "rel": "0.00-1.48",
+     "image": "img47 (bricks)",
+     "motion": "crop-br",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 73,
+   "text": "That is stewardship.",
+   "motion": "pan-up",
+   "image": "img47 (bricks)",
+   "switches": [
+    {
+     "rel": "0.00-1.56",
+     "image": "img47 (bricks)",
+     "motion": "pan-up",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 0,
+   "list": false
+  },
+  {
+   "sentence": 74,
+   "text": "The future will arrive whether you hype it or not, and when it does, you will be ready for it precisely because you did not pretend it was already here.",
+   "motion": "pan-down / pan-left / pan-right",
+   "image": "img45 (canyon-bridge)",
+   "switches": [
+    {
+     "rel": "0.00-2.20",
+     "image": "img45 (canyon-bridge)",
+     "motion": "pan-down",
+     "popup": null
+    },
+    {
+     "rel": "2.20-3.18",
+     "image": "img47 (bricks)",
+     "motion": "pan-left",
+     "popup": null
+    },
+    {
+     "rel": "3.18-7.65",
+     "image": "img00 (boxers)",
+     "motion": "pan-right",
+     "popup": null
+    }
+   ],
+   "comma_cuts": 2,
+   "list": false
+  }
+ ]
+}

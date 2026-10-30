@@ -1,0 +1,14 @@
+{
+  "topic": "GPT-7, Claude REA, Gemini Carbon, Qwen 4 — I checked all four, here's what's actually real",
+  "subniche": "Model comparisons",
+  "week": "2026-W43",
+  "status": "SCRIPT APPROVED 2026-10-25 by Oliver in chat — VO/render authorized for this script only, no publish",
+  "segments": [
+    {"start": "00:00", "end": "00:30", "title": "Hook — verdict table", "visual": {"label": "GRAPHIC — NOT A SCREENSHOT", "source_file": "v1/img00.png"}},
+    {"start": "00:30", "end": "02:00", "title": "GPT-7 Bel — RUMOR, UNVERIFIED", "visual": {"label": "GRAPHIC — NOT A SCREENSHOT", "source_file": "v1/img01.png"}},
+    {"start": "02:00", "end": "03:30", "title": "Claude REA — NO MODEL FOUND", "visual": {"label": "GRAPHIC — NOT A SCREENSHOT", "source_file": "v1/img02.png"}},
+    {"start": "03:30", "end": "05:00", "title": "Gemini 4 Carbon — LEAK, NOT A PRODUCT", "visual": {"label": "GRAPHIC — NOT A SCREENSHOT", "source_file": "v1/img03.png"}},
+    {"start": "05:00", "end": "05:30", "title": "Qwen 4 — IN TRAINING, NOT SHIPPED", "visual": {"label": "GRAPHIC — NOT A SCREENSHOT", "source_file": "v1/img04.png"}},
+    {"start": "05:30", "end": "06:00", "title": "Close — pick shipped models", "visual": {"label": "GRAPHIC — NOT A SCREENSHOT", "source_file": "v1/img05.png"}}
+  ]
+}

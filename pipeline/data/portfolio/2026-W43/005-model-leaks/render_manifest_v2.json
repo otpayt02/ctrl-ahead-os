@@ -1,0 +1,13 @@
+{
+  "version": "v2",
+  "topic": "GPT-7, Claude REA, Gemini Carbon, Qwen 4 — I checked all four, here's what's actually real",
+  "voiceover": "vo2/vo.mp3, 351.888s, 11 chunks — original evidence + 5 philosophical directive commentary chunks, no new factual claims",
+  "visuals_note": "Live pages were visited in the live browser 2026-10-26 00:08-00:10 EDT, but that browser could not export screenshots as image files. Visuals src0-src4 are page-1 renders of the PDFs saved from those live visits, bannered on their face as RENDERED FROM LIVE PAGE VISIT — NOT A LIVE SCREENSHOT. They are not presented as live screenshots. The 5 live tabs were left open so Oliver can take true screenshots himself if he wants them.",
+  "sources": [
+    {"label": "src0", "url": "https://www.anthropic.com/news/2026-usage-policy-update", "headline": "2026 Usage Policy update, published Oct 8, 2026, effective Nov 12"},
+    {"label": "src1", "url": "https://www.macrumors.com/2026/10/08/anthropic-user-guideline-update/", "headline": "Anthropic Says Users Can't Be Needlessly Cruel to Claude"},
+    {"label": "src2", "url": "https://kie.ai/blog/google-gemini-4-carbon", "headline": "Gemini 4 Carbon: Checkpoint Deep Dive & Analysis"},
+    {"label": "src3", "url": "https://llmcheck.net/blog/qwen-4-release-whats-new-mac/", "headline": "Qwen 4 Release Date: What Alibaba Announced, and What to Run on a Mac, updated Oct 24, 2026"},
+    {"label": "src4", "url": "https://developers.openai.com/api/docs/models", "headline": "Models | OpenAI API — lists GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna; Bel and GPT-7 do not appear"}
+  ]
+}

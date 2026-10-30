@@ -1,0 +1,1 @@
+One video title this week promised four huge model updates. GPT-7, Claude REA banned, Gemini Carbon insane, Qwen 4 leaks. I checked all four against what the companies actually said. One is a rumor, one is a repo mistaken for a model, one is a leak with no product, and one is real but not shipped. Here is the scorecard, so you do not build on a rumor.

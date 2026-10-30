@@ -1,0 +1,300 @@
+{
+ "stage3_manifests": {
+  "Model comparisons": {
+   "refs": {
+    "shorts": 5,
+    "longs": 5,
+    "short_titles": [
+     "\ud074\ub85c\ub4dc\uac00 \ud604\uc7ac \uac1c\uc774\ub4dd\uc778 \uc774\uc720",
+     "Build a Full App Inside ChatGPT With Jotform #JotformPartner #Jotform",
+     "Claude Code + Blender = Insane 3D Renders",
+     "\u4e0d\u8981\u554a\uff0c\u4f60\u7684\u984d\u5ea6\u6703\u6d88\u5931\u7684\uff01#ai #gpt6 #codex #claude",
+     "Don\u2019t make me get claude \ud83d\ude2d#chatgpt #comedy #ai #funnt #pov"
+    ],
+    "long_titles": [
+     "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+     "Anthropic Just Dropped Claude Duet (Full Breakdown)",
+     "Claude + GPT FREE for 1 Year ($0 Setup)",
+     "Claude Makes a New Kind of Video - Full Tutorial",
+     "Fiz 60 V\u00eddeos com Claude Sem Editar"
+    ]
+   },
+   "long_median_s": 648,
+   "hook_pattern": "First line names a dated change or a test result, then a verdict promise - from titles, to be confirmed by watching before a final render",
+   "segment_cadence": "Long: hook 0-30s, evidence beats in 60-120s blocks, verdict/checklist close. Short: one claim, one proof beat, one close, under 60s.",
+   "visual_system_boilerplate": "Dark grid, one headline per claim, pill label, word-pop captions, slow zoom, proof card zoom/pan on evidence beats - existing Ctrl-Ahead boilerplate, not a claim every reference uses it",
+   "source": "Metadata-derived (title, duration, velocity, channel) from YouTube API 2026-10-26, 7d window. NOT a frame-by-frame watch of all references.",
+   "gap": "Shorts below 5 where the 7d pool had fewer than 5 videos under 60s - not padded."
+  },
+  "Open-source model spotlights": {
+   "refs": {
+    "shorts": 3,
+    "longs": 5,
+    "short_titles": [
+     "\uc77c\ub808\ube10\ub7a9\uc2a4 \ub2e4 \ub530\ub77c\uc7a1\uc544\ubc84\ub9b0 \uc624\ud508\uc18c\uc2a4 \ub4f1\uc7a5",
+     "OpenAI Dots Just Got an Open-Source Rival",
+     "This Free AI Tool Turns Any Website Into an Unlimited API"
+    ],
+    "long_titles": [
+     "Your Local AI Is Not as Private as You Think",
+     "The Rise & Fall of India's AI Dream\ud83d\udd3b | Sarvam AI Case Study ",
+     "The Best Open-Source AI for 3D & Blender Is Here - Kimi K3.1 Pro",
+     "Kimi K3.1 Pro Is INSANE! CHEAPER & FASTER Than Claude Opus 5.5?! (Fully Tested)",
+     "DeepSeek Fires Again! (New #1 Open Source Coder Beats Claude)"
+    ]
+   },
+   "long_median_s": 1256,
+   "hook_pattern": "First line names a dated change or a test result, then a verdict promise - from titles, to be confirmed by watching before a final render",
+   "segment_cadence": "Long: hook 0-30s, evidence beats in 60-120s blocks, verdict/checklist close. Short: one claim, one proof beat, one close, under 60s.",
+   "visual_system_boilerplate": "Dark grid, one headline per claim, pill label, word-pop captions, slow zoom, proof card zoom/pan on evidence beats - existing Ctrl-Ahead boilerplate, not a claim every reference uses it",
+   "source": "Metadata-derived (title, duration, velocity, channel) from YouTube API 2026-10-26, 7d window. NOT a frame-by-frame watch of all references.",
+   "gap": "Shorts below 5 where the 7d pool had fewer than 5 videos under 60s - not padded."
+  },
+  "AI video generation": {
+   "refs": {
+    "shorts": 5,
+    "longs": 5,
+    "short_titles": [
+     "\u0926\u0939\u0947\u091c \u0915\u0940 \u0906\u0917 \u092e\u0947\u0902 \u0930\u094b\u091c \u091c\u0932\u0924\u0940 \u0930\u0939\u0940 \u090f\u0915 \u092c\u0947\u091f\u0940 \ud83d\udc94\ud83d\ude2d | \u0938\u092e\u093e\u091c \u091a\u0941\u092a \u0930\u0939\u093e, \u0907\u0902\u0938\u093e\u0928\u093f\u092f\u0924 \u092e\u0930\u0924\u0940 \u0930\u0939\u0940 | #Shorts",
+     "\u0915\u092e\u091c\u094b\u0930\u094b\u0902 \u092a\u0930 \u0924\u093e\u0915\u0924 \u0926\u093f\u0916\u093e\u0928\u093e \u092c\u0939\u093e\u0926\u0941\u0930\u0940 \u0928\u0939\u0940\u0902 \u0939\u0948 \ud83d\udc94\ud83d\ude4f | \u0905\u0938\u0932\u0940 \u0924\u093e\u0915\u0924 \u0915\u093f\u0938\u0940 \u0915\u093e \u0938\u0939\u093e\u0930\u093e \u092c\u0928\u0928\u093e \u0939\u0948 #Shorts",
+     "\u042d\u0442\u043e\u0442 \u044f\u043f\u043e\u043d\u0441\u043a\u0438\u0439 \u043b\u0435\u0441 \u0441\u043e\u0437\u0434\u0430\u043b \u0418\u0418! \ud83c\udf27\ufe0f #shorts #asmr #\u043d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438",
+     "Jason Sanjay | Ai Action Scene you \ud83d\udd25\ud83d\udd25 #jasonsanjay #ai #action #shorts",
+     "China launches free neural network to generate unlimited-length videos #AI #NeuralNetworks"
+    ],
+    "long_titles": [
+     "\ud83d\udc49\u092c\u093f\u0928\u093e Face \u0926\u093f\u0916\u093e\u090f USA AI Video \u092c\u0928\u093e\u0915\u0930 \u0915\u092e\u093e\u0924\u093e \u0939\u0948 \u0932\u093e\u0916\u094b\u0902! Usa Content ideas | facebook ai | Spreading Gyan",
+     "Ai se Cartoon Video Kaise Banaye | Step-by-Step Guide (2026) | ai video kaise banaye | cartoon ",
+     "Google Flow \u091b\u094b\u0921\u093c\u094b! \ud83d\ude31 \u092f\u0947 FREE AI Tool Unlimited Long Video \u092c\u0928\u093e\u0924\u093e \u0939\u0948 | image to video ai free \ud83d\udd25",
+     "Claude Makes a New Kind of Video - Full Tutorial",
+     "3 Hidden FREE AI Video Generators Better Than Paid Ones (UNLIMITED)"
+    ]
+   },
+   "long_median_s": 679,
+   "hook_pattern": "First line names a dated change or a test result, then a verdict promise - from titles, to be confirmed by watching before a final render",
+   "segment_cadence": "Long: hook 0-30s, evidence beats in 60-120s blocks, verdict/checklist close. Short: one claim, one proof beat, one close, under 60s.",
+   "visual_system_boilerplate": "Dark grid, one headline per claim, pill label, word-pop captions, slow zoom, proof card zoom/pan on evidence beats - existing Ctrl-Ahead boilerplate, not a claim every reference uses it",
+   "source": "Metadata-derived (title, duration, velocity, channel) from YouTube API 2026-10-26, 7d window. NOT a frame-by-frame watch of all references.",
+   "gap": "Shorts below 5 where the 7d pool had fewer than 5 videos under 60s - not padded."
+  },
+  "AI coding agents": {
+   "refs": {
+    "shorts": 1,
+    "longs": 5,
+    "short_titles": [
+     "Claude Code integrates with X Tool to build and install iPhone apps via #AI #iOSDevelopment #Swift"
+    ],
+    "long_titles": [
+     "Claude 2.0 is Insane (All Updates Explained)",
+     "COMO MUDAR TODA SUA TV COM CLAUDE CODE DE GRA\u00c7A! (SAMSUNG, ANDROID, GOOGLE E LG!)",
+     "Master Claude Before It\u2019s Too Late! | Ashu Sir",
+     "I Built My Own TV Operating System With Claude Code",
+     "Give Me 24 minutes, I'll Give You 1,000+ hours of Claude Knowledge"
+    ]
+   },
+   "long_median_s": 763,
+   "hook_pattern": "First line names a dated change or a test result, then a verdict promise - from titles, to be confirmed by watching before a final render",
+   "segment_cadence": "Long: hook 0-30s, evidence beats in 60-120s blocks, verdict/checklist close. Short: one claim, one proof beat, one close, under 60s.",
+   "visual_system_boilerplate": "Dark grid, one headline per claim, pill label, word-pop captions, slow zoom, proof card zoom/pan on evidence beats - existing Ctrl-Ahead boilerplate, not a claim every reference uses it",
+   "source": "Metadata-derived (title, duration, velocity, channel) from YouTube API 2026-10-26, 7d window. NOT a frame-by-frame watch of all references.",
+   "gap": "Shorts below 5 where the 7d pool had fewer than 5 videos under 60s - not padded."
+  },
+  "AI for small business": {
+   "refs": {
+    "shorts": 5,
+    "longs": 5,
+    "short_titles": [
+     "The new way scammers are targeting small businesses #ai #scamalert #smallbiz",
+     "Top 3 Google Flow Prompts Every Business Owner Should Know",
+     "20-Year-Old Builds an AI Ecommerce Business to Buy iPhone 18 Pro #business #ai",
+     "Ma perch\u00e9 chiediamo lo sconto sempre ai piccoli artigiani e mai alla grande distribuzione?\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf73",
+     "T\u00fcm Sosyal Medyan\u0131 Tek Yerden Y\u00f6neten Yapay Zeka / Postproxy \u0130\u015fbirli\u011fi"
+    ],
+    "long_titles": [
+     "Small businesses are obsessed with AI slop...",
+     "Meta Muse Will Create 1,000 Millionaires",
+     "I Let AI Make and Save Me Money for 6 Weeks (Here\u2019s What Worked)",
+     "I Spent $300,000 On AI Tools. These 16 Will Make You Rich.",
+     "Small Business Marketing: Two Ads in CapCut's AI Video Editor"
+    ]
+   },
+   "long_median_s": 961,
+   "hook_pattern": "First line names a dated change or a test result, then a verdict promise - from titles, to be confirmed by watching before a final render",
+   "segment_cadence": "Long: hook 0-30s, evidence beats in 60-120s blocks, verdict/checklist close. Short: one claim, one proof beat, one close, under 60s.",
+   "visual_system_boilerplate": "Dark grid, one headline per claim, pill label, word-pop captions, slow zoom, proof card zoom/pan on evidence beats - existing Ctrl-Ahead boilerplate, not a claim every reference uses it",
+   "source": "Metadata-derived (title, duration, velocity, channel) from YouTube API 2026-10-26, 7d window. NOT a frame-by-frame watch of all references.",
+   "gap": "Shorts below 5 where the 7d pool had fewer than 5 videos under 60s - not padded."
+  }
+ },
+ "stage4_chosen": {
+  "chosen_lane": "Model comparisons",
+  "reason": "Highest relevance + artifact fit after outlier correction: median 670 in stage1, top video is the 005 source, plus open-model and Claude Duet breakdowns. Interviews/podcasts and predictions excluded - medians driven by BBC, podcast and drama outliers. Faceless systems excluded as pipeline-as-topic. AI video generation pool is polluted by non-English drama in stage2, so it is weaker than its stage1 median suggested.",
+  "pool": 50,
+  "median_velocity": 157.02,
+  "outliers_gt_3x_median": [
+   {
+    "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+    "channel": "WorldofAI",
+    "velocity": 7600.35,
+    "views": 243009
+   },
+   {
+    "title": "The Open Source Model Beating Claude Now Runs on a 4GB Laptop for Free",
+    "channel": "InsiderForce",
+    "velocity": 3538.74,
+    "views": 594307
+   },
+   {
+    "title": "Anthropic Just Dropped Claude Duet (Full Breakdown)",
+    "channel": "Brock Mesarich | AI for Non Techies",
+    "velocity": 2737.24,
+    "views": 309672
+   },
+   {
+    "title": "Claude + GPT FREE for 1 Year ($0 Setup)",
+    "channel": "SUNRISE GAMER",
+    "velocity": 1916.32,
+    "views": 47041
+   },
+   {
+    "title": "Claude Makes a New Kind of Video - Full Tutorial",
+    "channel": "Futurepedia",
+    "velocity": 1702.0,
+    "views": 285276
+   },
+   {
+    "title": "Fiz 60 V\u00eddeos com Claude Sem Editar",
+    "channel": "LABS",
+    "velocity": 1230.48,
+    "views": 168601
+   },
+   {
+    "title": "\ud074\ub85c\ub4dc\uac00 \ud604\uc7ac \uac1c\uc774\ub4dd\uc778 \uc774\uc720",
+    "channel": "\uc870\ucf54\ub529 JoCoding",
+    "velocity": 1189.95,
+    "views": 96417
+   },
+   {
+    "title": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
+    "channel": "WorldofAI",
+    "velocity": 1101.48,
+    "views": 167432
+   },
+   {
+    "title": "ChatGPT vs Claude Build a Horror Mod From Scratch",
+    "channel": "The Commands Man",
+    "velocity": 930.36,
+    "views": 108759
+   },
+   {
+    "title": "Build a Full App Inside ChatGPT With Jotform #JotformPartner #Jotform",
+    "channel": "Griffin Wooldridge",
+    "velocity": 927.65,
+    "views": 152616
+   }
+  ],
+  "top_channels": [
+   [
+    "AI Cited",
+    3
+   ],
+   [
+    "WorldofAI",
+    2
+   ],
+   [
+    "Brock Mesarich | AI for Non Techies",
+    2
+   ],
+   [
+    "AI simple",
+    2
+   ],
+   [
+    "InsiderForce",
+    1
+   ],
+   [
+    "SUNRISE GAMER",
+    1
+   ],
+   [
+    "Futurepedia",
+    1
+   ],
+   [
+    "LABS",
+    1
+   ],
+   [
+    "\uc870\ucf54\ub529 JoCoding",
+    1
+   ],
+   [
+    "The Commands Man",
+    1
+   ]
+  ],
+  "top_videos": [
+   {
+    "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+    "channel": "WorldofAI",
+    "velocity": 7600.35,
+    "duration_s": 1816
+   },
+   {
+    "title": "The Open Source Model Beating Claude Now Runs on a 4GB Laptop for Free",
+    "channel": "InsiderForce",
+    "velocity": 3538.74,
+    "duration_s": 103
+   },
+   {
+    "title": "Anthropic Just Dropped Claude Duet (Full Breakdown)",
+    "channel": "Brock Mesarich | AI for Non Techies",
+    "velocity": 2737.24,
+    "duration_s": 459
+   },
+   {
+    "title": "Claude + GPT FREE for 1 Year ($0 Setup)",
+    "channel": "SUNRISE GAMER",
+    "velocity": 1916.32,
+    "duration_s": 384
+   },
+   {
+    "title": "Claude Makes a New Kind of Video - Full Tutorial",
+    "channel": "Futurepedia",
+    "velocity": 1702.0,
+    "duration_s": 679
+   },
+   {
+    "title": "Fiz 60 V\u00eddeos com Claude Sem Editar",
+    "channel": "LABS",
+    "velocity": 1230.48,
+    "duration_s": 648
+   },
+   {
+    "title": "\ud074\ub85c\ub4dc\uac00 \ud604\uc7ac \uac1c\uc774\ub4dd\uc778 \uc774\uc720",
+    "channel": "\uc870\ucf54\ub529 JoCoding",
+    "velocity": 1189.95,
+    "duration_s": 23
+   },
+   {
+    "title": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
+    "channel": "WorldofAI",
+    "velocity": 1101.48,
+    "duration_s": 1595
+   },
+   {
+    "title": "ChatGPT vs Claude Build a Horror Mod From Scratch",
+    "channel": "The Commands Man",
+    "velocity": 930.36,
+    "duration_s": 811
+   },
+   {
+    "title": "Build a Full App Inside ChatGPT With Jotform #JotformPartner #Jotform",
+    "channel": "Griffin Wooldridge",
+    "velocity": 927.65,
+    "duration_s": 54
+   }
+  ]
+ }
+}

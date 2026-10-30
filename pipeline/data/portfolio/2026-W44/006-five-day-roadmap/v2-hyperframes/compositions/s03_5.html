@@ -1,0 +1,153 @@
+<template>
+<link rel="stylesheet" href="css/theme.css">
+<style>
+#root{position:absolute;inset:0;background:#0B0E14;overflow:hidden;font-family:Inter,sans-serif;color:#fff}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,7,12,.88) 0%,rgba(5,7,12,.45) 46%,rgba(5,7,12,.05) 75%),linear-gradient(0deg,rgba(5,7,12,.92) 0%,rgba(5,7,12,0) 34%),linear-gradient(180deg,rgba(5,7,12,.55) 0%,rgba(5,7,12,0) 26%)}
+.mute{position:absolute;inset:0;background:rgba(20,22,30,.38)}
+.pill{position:absolute;top:44px;left:56px;padding:10px 22px;border-radius:999px;background:rgba(8,10,16,.82);border:1.5px solid rgba(94,234,212,.55);font-family:"JetBrains Mono",monospace;font-size:21px;font-weight:700;letter-spacing:.18em;color:#5EEAD4}
+.namecard{position:absolute;top:104px;left:56px;max-width:1150px}
+.title{font-size:88px;font-weight:700;letter-spacing:-.02em;line-height:1.02;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.subtitle{font-size:34px;color:rgba(255,255,255,.85);margin-top:10px;font-weight:600}
+.yearchip{display:inline-block;margin-left:20px;padding:8px 20px;border-radius:999px;border:2px solid #FFD166;color:#FFD166;font-size:30px;font-weight:700;vertical-align:middle;position:relative}
+.ule{position:absolute;left:2px;bottom:-16px;height:8px;width:0;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px}
+.headline{position:absolute;left:56px;bottom:196px;width:1080px;font-size:52px;font-weight:700;line-height:1.16;letter-spacing:-.01em;text-shadow:0 3px 22px rgba(0,0,0,.75)}
+.headline .hl-in{position:relative;display:inline-block}
+.headline .bar{position:absolute;left:0;bottom:-14px;height:7px;width:0;background:#5EEAD4;border-radius:4px}
+.rail{position:absolute;right:48px;top:150px;width:520px;display:flex;flex-direction:column;gap:16px}
+.chip{border-radius:18px;padding:16px 20px 14px;background:rgba(8,11,18,.86);border:2px solid rgba(255,255,255,.25);box-shadow:0 10px 34px rgba(0,0,0,.45)}
+.chip .k{font-family:"JetBrains Mono",monospace;font-size:19px;font-weight:700;letter-spacing:.16em;margin-bottom:6px}
+.chip .t{font-size:25px;line-height:1.28;color:rgba(255,255,255,.94);font-weight:600}
+.chip.what{border-color:#22D3EE}.chip.what .k{color:#22D3EE}
+.chip.why{border-color:#A78BFA}.chip.why .k{color:#A78BFA}
+.chip.skip{border-color:#F87171}.chip.skip .k{color:#F87171}
+.chip.how{border-color:#4ADE80}.chip.how .k{color:#4ADE80}
+.chip.gold{border-color:#FFD166}.chip.gold .k{color:#FFD166}
+.laterbadge{position:absolute;top:44px;right:48px;padding:12px 26px;border-radius:12px;background:#B91C1C;color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.22em;font-size:24px;transform:rotate(3deg)}
+.caps{position:absolute;left:0;right:0;bottom:52px;display:flex;justify-content:center}
+.cap{background:rgba(0,0,0,.78);padding:12px 26px;border-radius:10px;font-size:39px;font-weight:600;text-align:center;max-width:1560px}
+.cap span{color:#fff}
+.bigflash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:120px;font-weight:700;letter-spacing:-.01em;text-shadow:0 6px 44px rgba(0,0,0,.8)}
+.daycard{position:absolute;inset:0;background:radial-gradient(1100px 620px at 50% 42%,#1B2436 0%,#0B0E14 70%);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.daycard .d1{font-family:"JetBrains Mono",monospace;letter-spacing:.3em;color:#5EEAD4;font-size:30px;font-weight:700}
+.daycard .d2{font-size:150px;font-weight:700;letter-spacing:-.02em;margin-top:8px}
+.daycard .d3{font-size:44px;color:rgba(255,255,255,.8);font-weight:600;margin-top:6px}
+.daycard .rule{width:0;height:8px;background:linear-gradient(90deg,#FFD166,#FF5DA2);border-radius:4px;margin-top:34px}
+.outro{position:absolute;inset:0;background:#07090F;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.outro img{width:760px;height:428px;object-fit:cover;border-radius:24px;box-shadow:0 0 120px rgba(255,209,102,.25)}
+.outro .o1{font-size:64px;font-weight:700;margin-top:36px}
+.outro .o2{font-size:34px;color:rgba(255,255,255,.75);margin-top:12px;font-weight:600}
+.subpill{margin-top:30px;padding:16px 44px;border-radius:999px;background:#E11D48;font-size:32px;font-weight:700;letter-spacing:.14em}
+.node{position:absolute;width:26px;height:26px;border-radius:50%;background:#223;border:3px solid rgba(255,255,255,.25)}
+.counter{font-size:120px;font-weight:700;color:#FFD166}
+</style>
+<div id="root" data-composition-id="s03_5" data-start="0" data-duration="23.062" data-width="1920" data-height="1080">
+<img id="el-s03_5-1" class="clip bg" data-start="0" data-duration="23.062" src="assets/gen/img-s03-5-amplify.webp">
+<div id="el-s03_5-2" class="clip shade" data-start="0" data-duration="23.062"></div>
+<div id="el-s03_5-3" class="clip" data-start="0" data-duration="23.062"><div class="pill" id="pill-s03_5">DAY 1 — SETUP · 7 HRS</div></div>
+<div id="el-s03_5-4" class="clip" data-start="0" data-duration="23.062"><div class="namecard" id="nc-s03_5"><div class="title">AWS AMPLIFY<span class="yearchip">2017</span><div class="ule" id="ule-s03_5"></div></div><div class="subtitle">A publisher for your site</div></div></div>
+<div id="el-s03_5-5" class="clip headline" data-start="0.4" data-duration="3.19"><span class="hl-in" id="h-s03_5-0">A publisher for your site.<span class="bar" id="h-s03_5-0-bar"></span></span></div>
+<div id="el-s03_5-6" class="clip headline" data-start="3.59" data-duration="7.20"><span class="hl-in" id="h-s03_5-1">a publisher — every push republishes your live site, certificates included<span class="bar" id="h-s03_5-1-bar"></span></span></div>
+<div id="el-s03_5-7" class="clip headline" data-start="10.79" data-duration="3.70"><span class="hl-in" id="h-s03_5-2">launch-day plumbing handled for free<span class="bar" id="h-s03_5-2-bar"></span></span></div>
+<div id="el-s03_5-8" class="clip headline" data-start="14.49" data-duration="4.80"><span class="hl-in" id="h-s03_5-3">manually uploading files and babysitting expired certificates<span class="bar" id="h-s03_5-3-bar"></span></span></div>
+<div id="el-s03_5-9" class="clip headline" data-start="19.29" data-duration="3.77"><span class="hl-in" id="h-s03_5-4">connect your GitHub repo once — never think about it again<span class="bar" id="h-s03_5-4-bar"></span></span></div>
+<div class="rail"><div id="el-s03_5-10" class="clip" data-start="3.59" data-duration="19.47"><div class="chip what" id="chip-s03_5-0"><div class="k">WHAT IT IS</div><div class="t">a publisher — every push republishes your live site, certificates included</div></div></div><div id="el-s03_5-11" class="clip" data-start="10.79" data-duration="12.27"><div class="chip why" id="chip-s03_5-1"><div class="k">WHY YOU NEED IT</div><div class="t">launch-day plumbing handled for free</div></div></div><div id="el-s03_5-12" class="clip" data-start="14.49" data-duration="8.57"><div class="chip skip" id="chip-s03_5-2"><div class="k">IF YOU SKIP IT</div><div class="t">manually uploading files and babysitting expired certificates</div></div></div><div id="el-s03_5-13" class="clip" data-start="19.29" data-duration="3.77"><div class="chip how" id="chip-s03_5-3"><div class="k">HOW</div><div class="t">connect your GitHub repo once — never think about it again</div></div></div></div>
+<div id="el-s03_5-14" class="clip caps" data-start="0.01" data-duration="2.96"><div class="cap" id="cap-s03_5-0"><span id="w-s03_5-0-0">Amplify,</span> <span id="w-s03_5-0-1">born</span> <span id="w-s03_5-0-2">in</span> <span id="w-s03_5-0-3">2017.</span> <span id="w-s03_5-0-4">What</span> <span id="w-s03_5-0-5">it</span> </div></div>
+<div id="el-s03_5-15" class="clip caps" data-start="2.97" data-duration="2.24"><div class="cap" id="cap-s03_5-1"><span id="w-s03_5-1-0">is:</span> <span id="w-s03_5-1-1">a</span> <span id="w-s03_5-1-2">publisher</span> <span id="w-s03_5-1-3">—</span> <span id="w-s03_5-1-4">every</span> <span id="w-s03_5-1-5">time</span> </div></div>
+<div id="el-s03_5-16" class="clip caps" data-start="5.21" data-duration="2.14"><div class="cap" id="cap-s03_5-2"><span id="w-s03_5-2-0">you</span> <span id="w-s03_5-2-1">push</span> <span id="w-s03_5-2-2">code,</span> <span id="w-s03_5-2-3">it</span> <span id="w-s03_5-2-4">automatically</span> <span id="w-s03_5-2-5">republishes</span> </div></div>
+<div id="el-s03_5-17" class="clip caps" data-start="7.35" data-duration="2.18"><div class="cap" id="cap-s03_5-3"><span id="w-s03_5-3-0">your</span> <span id="w-s03_5-3-1">live</span> <span id="w-s03_5-3-2">site,</span> <span id="w-s03_5-3-3">with</span> <span id="w-s03_5-3-4">security</span> <span id="w-s03_5-3-5">certificates</span> </div></div>
+<div id="el-s03_5-18" class="clip caps" data-start="9.53" data-duration="3.30"><div class="cap" id="cap-s03_5-4"><span id="w-s03_5-4-0">included.</span> <span id="w-s03_5-4-1">Why:</span> <span id="w-s03_5-4-2">launch-day</span> <span id="w-s03_5-4-3">plumbing</span> <span id="w-s03_5-4-4">handled</span> <span id="w-s03_5-4-5">for</span> </div></div>
+<div id="el-s03_5-19" class="clip caps" data-start="12.83" data-duration="2.08"><div class="cap" id="cap-s03_5-5"><span id="w-s03_5-5-0">free.</span> <span id="w-s03_5-5-1">Skip</span> <span id="w-s03_5-5-2">it</span> <span id="w-s03_5-5-3">and</span> <span id="w-s03_5-5-4">you&#x27;re</span> <span id="w-s03_5-5-5">manually</span> </div></div>
+<div id="el-s03_5-20" class="clip caps" data-start="14.91" data-duration="2.50"><div class="cap" id="cap-s03_5-6"><span id="w-s03_5-6-0">uploading</span> <span id="w-s03_5-6-1">files</span> <span id="w-s03_5-6-2">and</span> <span id="w-s03_5-6-3">babysitting</span> <span id="w-s03_5-6-4">expired</span> <span id="w-s03_5-6-5">certificates.</span> </div></div>
+<div id="el-s03_5-21" class="clip caps" data-start="18.27" data-duration="2.24"><div class="cap" id="cap-s03_5-7"><span id="w-s03_5-7-0">How:</span> <span id="w-s03_5-7-1">connect</span> <span id="w-s03_5-7-2">your</span> <span id="w-s03_5-7-3">GitHub</span> <span id="w-s03_5-7-4">repo</span> <span id="w-s03_5-7-5">once,</span> </div></div>
+<div id="el-s03_5-22" class="clip caps" data-start="20.51" data-duration="1.46"><div class="cap" id="cap-s03_5-8"><span id="w-s03_5-8-0">and</span> <span id="w-s03_5-8-1">never</span> <span id="w-s03_5-8-2">think</span> <span id="w-s03_5-8-3">about</span> <span id="w-s03_5-8-4">it</span> <span id="w-s03_5-8-5">again.</span> </div></div>
+</div>
+<script src="assets/js/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  var tl = gsap.timeline({ paused: true });
+tl.fromTo("#pill-s03_5",{x:-60,opacity:0},{x:0,opacity:1,duration:.45,ease:"power3.out"},0.05);
+tl.fromTo("#nc-s03_5",{y:44,opacity:0},{y:0,opacity:1,duration:.55,ease:"power3.out"},0.18);
+tl.to("#ule-s03_5",{width:"62%",duration:.6,ease:"power2.inOut"},0.55);
+tl.fromTo("#h-s03_5-0",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},0.4);
+tl.to("#h-s03_5-0-bar",{width:"100%",duration:.5,ease:"power2.out"},0.55);
+tl.fromTo("#h-s03_5-1",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},3.59);
+tl.to("#h-s03_5-1-bar",{width:"100%",duration:.5,ease:"power2.out"},3.7399999999999998);
+tl.fromTo("#h-s03_5-2",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},10.79);
+tl.to("#h-s03_5-2-bar",{width:"100%",duration:.5,ease:"power2.out"},10.94);
+tl.fromTo("#h-s03_5-3",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},14.49);
+tl.to("#h-s03_5-3-bar",{width:"100%",duration:.5,ease:"power2.out"},14.64);
+tl.fromTo("#h-s03_5-4",{y:36,opacity:0},{y:0,opacity:1,duration:.4,ease:"power3.out"},19.29);
+tl.to("#h-s03_5-4-bar",{width:"100%",duration:.5,ease:"power2.out"},19.439999999999998);
+tl.fromTo("#chip-s03_5-0",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},3.59);
+tl.fromTo("#chip-s03_5-1",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},10.79);
+tl.fromTo("#chip-s03_5-2",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},14.49);
+tl.fromTo("#chip-s03_5-3",{scale:1.7,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.42,ease:"back.out(2.2)"},19.29);
+tl.fromTo("#cap-s03_5-0",{opacity:0},{opacity:1,duration:.07,ease:"none"},0.01);
+tl.to("#w-s03_5-0-0",{color:"#FFD166",duration:.05,ease:"none"},0.01);
+tl.to("#w-s03_5-0-1",{color:"#FFD166",duration:.05,ease:"none"},0.81);
+tl.to("#w-s03_5-0-2",{color:"#FFD166",duration:.05,ease:"none"},1.09);
+tl.to("#w-s03_5-0-3",{color:"#FFD166",duration:.05,ease:"none"},1.27);
+tl.to("#w-s03_5-0-4",{color:"#FFD166",duration:.05,ease:"none"},2.75);
+tl.to("#w-s03_5-0-5",{color:"#FFD166",duration:.05,ease:"none"},2.89);
+tl.fromTo("#cap-s03_5-1",{opacity:0},{opacity:1,duration:.07,ease:"none"},2.97);
+tl.to("#w-s03_5-1-0",{color:"#FFD166",duration:.05,ease:"none"},2.97);
+tl.to("#w-s03_5-1-1",{color:"#FFD166",duration:.05,ease:"none"},3.59);
+tl.to("#w-s03_5-1-2",{color:"#FFD166",duration:.05,ease:"none"},3.77);
+tl.to("#w-s03_5-1-3",{color:"#FFD166",duration:.05,ease:"none"},3.77);
+tl.to("#w-s03_5-1-4",{color:"#FFD166",duration:.05,ease:"none"},3.99);
+tl.to("#w-s03_5-1-5",{color:"#FFD166",duration:.05,ease:"none"},4.95);
+tl.fromTo("#cap-s03_5-2",{opacity:0},{opacity:1,duration:.07,ease:"none"},5.21);
+tl.to("#w-s03_5-2-0",{color:"#FFD166",duration:.05,ease:"none"},5.21);
+tl.to("#w-s03_5-2-1",{color:"#FFD166",duration:.05,ease:"none"},5.31);
+tl.to("#w-s03_5-2-2",{color:"#FFD166",duration:.05,ease:"none"},5.49);
+tl.to("#w-s03_5-2-3",{color:"#FFD166",duration:.05,ease:"none"},6.09);
+tl.to("#w-s03_5-2-4",{color:"#FFD166",duration:.05,ease:"none"},6.13);
+tl.to("#w-s03_5-2-5",{color:"#FFD166",duration:.05,ease:"none"},6.53);
+tl.fromTo("#cap-s03_5-3",{opacity:0},{opacity:1,duration:.07,ease:"none"},7.35);
+tl.to("#w-s03_5-3-0",{color:"#FFD166",duration:.05,ease:"none"},7.35);
+tl.to("#w-s03_5-3-1",{color:"#FFD166",duration:.05,ease:"none"},7.59);
+tl.to("#w-s03_5-3-2",{color:"#FFD166",duration:.05,ease:"none"},7.75);
+tl.to("#w-s03_5-3-3",{color:"#FFD166",duration:.05,ease:"none"},8.11);
+tl.to("#w-s03_5-3-4",{color:"#FFD166",duration:.05,ease:"none"},8.65);
+tl.to("#w-s03_5-3-5",{color:"#FFD166",duration:.05,ease:"none"},8.93);
+tl.fromTo("#cap-s03_5-4",{opacity:0},{opacity:1,duration:.07,ease:"none"},9.53);
+tl.to("#w-s03_5-4-0",{color:"#FFD166",duration:.05,ease:"none"},9.53);
+tl.to("#w-s03_5-4-1",{color:"#FFD166",duration:.05,ease:"none"},10.79);
+tl.to("#w-s03_5-4-2",{color:"#FFD166",duration:.05,ease:"none"},10.79);
+tl.to("#w-s03_5-4-3",{color:"#FFD166",duration:.05,ease:"none"},11.95);
+tl.to("#w-s03_5-4-4",{color:"#FFD166",duration:.05,ease:"none"},12.17);
+tl.to("#w-s03_5-4-5",{color:"#FFD166",duration:.05,ease:"none"},12.57);
+tl.fromTo("#cap-s03_5-5",{opacity:0},{opacity:1,duration:.07,ease:"none"},12.83);
+tl.to("#w-s03_5-5-0",{color:"#FFD166",duration:.05,ease:"none"},12.83);
+tl.to("#w-s03_5-5-1",{color:"#FFD166",duration:.05,ease:"none"},13.77);
+tl.to("#w-s03_5-5-2",{color:"#FFD166",duration:.05,ease:"none"},14.05);
+tl.to("#w-s03_5-5-3",{color:"#FFD166",duration:.05,ease:"none"},14.21);
+tl.to("#w-s03_5-5-4",{color:"#FFD166",duration:.05,ease:"none"},14.39);
+tl.to("#w-s03_5-5-5",{color:"#FFD166",duration:.05,ease:"none"},14.49);
+tl.fromTo("#cap-s03_5-6",{opacity:0},{opacity:1,duration:.07,ease:"none"},14.91);
+tl.to("#w-s03_5-6-0",{color:"#FFD166",duration:.05,ease:"none"},14.91);
+tl.to("#w-s03_5-6-1",{color:"#FFD166",duration:.05,ease:"none"},15.31);
+tl.to("#w-s03_5-6-2",{color:"#FFD166",duration:.05,ease:"none"},15.73);
+tl.to("#w-s03_5-6-3",{color:"#FFD166",duration:.05,ease:"none"},16.01);
+tl.to("#w-s03_5-6-4",{color:"#FFD166",duration:.05,ease:"none"},16.53);
+tl.to("#w-s03_5-6-5",{color:"#FFD166",duration:.05,ease:"none"},16.87);
+tl.fromTo("#cap-s03_5-7",{opacity:0},{opacity:1,duration:.07,ease:"none"},18.27);
+tl.to("#w-s03_5-7-0",{color:"#FFD166",duration:.05,ease:"none"},18.27);
+tl.to("#w-s03_5-7-1",{color:"#FFD166",duration:.05,ease:"none"},19.29);
+tl.to("#w-s03_5-7-2",{color:"#FFD166",duration:.05,ease:"none"},19.29);
+tl.to("#w-s03_5-7-3",{color:"#FFD166",duration:.05,ease:"none"},19.49);
+tl.to("#w-s03_5-7-4",{color:"#FFD166",duration:.05,ease:"none"},19.73);
+tl.to("#w-s03_5-7-5",{color:"#FFD166",duration:.05,ease:"none"},20.07);
+tl.fromTo("#cap-s03_5-8",{opacity:0},{opacity:1,duration:.07,ease:"none"},20.51);
+tl.to("#w-s03_5-8-0",{color:"#FFD166",duration:.05,ease:"none"},20.51);
+tl.to("#w-s03_5-8-1",{color:"#FFD166",duration:.05,ease:"none"},20.99);
+tl.to("#w-s03_5-8-2",{color:"#FFD166",duration:.05,ease:"none"},21.17);
+tl.to("#w-s03_5-8-3",{color:"#FFD166",duration:.05,ease:"none"},21.43);
+tl.to("#w-s03_5-8-4",{color:"#FFD166",duration:.05,ease:"none"},21.67);
+tl.to("#w-s03_5-8-5",{color:"#FFD166",duration:.05,ease:"none"},21.77);
+  window.__timelines["s03_5"] = tl;
+})();
+</script>
+</template>

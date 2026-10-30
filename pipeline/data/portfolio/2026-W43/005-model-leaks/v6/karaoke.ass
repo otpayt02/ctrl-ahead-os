@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karaoke,DejaVu Sans,54,&H003DA3E8,&H00FFFFFF,&H00000000,&H80000000,1,0,0,0,100,100,0,0,1,3,1,2,80,80,60,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:03.34,Karaoke,,0,0,0,,{\k33}One {\k33}video {\k33}title {\k33}this {\k33}week {\k33}promised {\k33}four {\k33}huge {\k33}model {\k37}updates.
+Dialogue: 0,0:00:03.34,0:00:06.68,Karaoke,,0,0,0,,{\k33}GPT-7, {\k33}Claude {\k33}REA {\k33}banned, {\k33}Gemini {\k33}Carbon {\k33}insane, {\k33}Qwen {\k33}4 {\k37}leaks.
+Dialogue: 0,0:00:06.68,0:00:10.02,Karaoke,,0,0,0,,{\k33}I {\k33}checked {\k33}all {\k33}four {\k33}against {\k33}what {\k33}the {\k33}companies {\k33}actually {\k37}said.
+Dialogue: 0,0:00:10.02,0:00:18.38,Karaoke,,0,0,0,,{\k33}One {\k33}is {\k33}a {\k33}rumor, {\k33}one {\k33}I {\k33}could {\k33}not {\k33}find {\k33}at {\k33}all, {\k33}one {\k33}is {\k33}a {\k33}leak {\k33}with {\k33}no {\k33}product, {\k33}and {\k33}one {\k33}is {\k33}real {\k33}but {\k33}not {\k44}shipped.
+Dialogue: 0,0:00:18.38,0:00:22.39,Karaoke,,0,0,0,,{\k33}Here {\k33}is {\k33}the {\k33}scorecard, {\k33}so {\k33}you {\k33}do {\k33}not {\k33}build {\k33}on {\k33}a {\k38}rumor.
+Dialogue: 0,0:00:22.39,0:00:27.42,Karaoke,,0,0,0,,{\k33}Before {\k33}the {\k33}evidence, {\k33}here {\k33}is {\k33}the {\k33}thought {\k33}I {\k33}want {\k33}you {\k33}to {\k33}carry {\k33}through {\k33}all {\k40}four.
+Dialogue: 0,0:00:27.42,0:00:30.10,Karaoke,,0,0,0,,{\k33}A {\k33}rumor {\k33}is {\k33}not {\k33}just {\k33}a {\k33}bad {\k37}fact.
+Dialogue: 0,0:00:30.10,0:00:31.44,Karaoke,,0,0,0,,{\k33}It {\k33}is {\k33}a {\k35}mirror.
+Dialogue: 0,0:00:31.44,0:00:34.78,Karaoke,,0,0,0,,{\k33}It {\k33}shows {\k33}you {\k33}what {\k33}you {\k33}already {\k33}wanted {\k33}to {\k33}be {\k38}true.
+Dialogue: 0,0:00:34.78,0:00:45.17,Karaoke,,0,0,0,,{\k33}When {\k33}a {\k33}title {\k33}promises {\k33}the {\k33}next {\k33}giant {\k33}model, {\k33}the {\k33}next {\k33}ban, {\k33}the {\k33}next {\k33}leak, {\k33}it {\k33}is {\k33}not {\k33}only {\k33}selling {\k33}news, {\k33}it {\k33}is {\k33}selling {\k33}certainty {\k33}in {\k33}a {\k33}field {\k33}that {\k33}has {\k33}almost {\k48}none.
+Dialogue: 0,0:00:45.17,0:00:50.86,Karaoke,,0,0,0,,{\k33}The {\k33}directive {\k33}is {\k33}simple, {\k33}and {\k33}it {\k33}is {\k33}hard: {\k33}want {\k33}the {\k33}truth {\k33}more {\k33}than {\k33}you {\k33}want {\k33}the {\k41}headline.
+Dialogue: 0,0:00:50.86,0:00:58.90,Karaoke,,0,0,0,,{\k33}If {\k33}you {\k33}can {\k33}hold {\k33}that {\k33}for {\k33}six {\k33}minutes, {\k33}the {\k33}rest {\k33}of {\k33}this {\k33}video {\k33}will {\k33}feel {\k33}less {\k33}like {\k33}a {\k33}debunk {\k33}and {\k33}more {\k33}like {\k33}a {\k45}discipline.
+Dialogue: 0,0:00:58.89,0:00:59.90,Karaoke,,0,0,0,,{\k33}First, {\k33}GPT-7 {\k35}Bel.
+Dialogue: 0,0:00:59.90,0:01:03.59,Karaoke,,0,0,0,,{\k33}The {\k33}whole {\k33}thing {\k33}traces {\k33}to {\k33}one {\k33}anonymous {\k33}post {\k33}on {\k33}August {\k39}25th.
+Dialogue: 0,0:01:03.59,0:01:09.29,Karaoke,,0,0,0,,{\k33}No {\k33}document, {\k33}no {\k33}named {\k33}source, {\k33}and {\k33}it {\k33}did {\k33}not {\k33}even {\k33}say {\k33}GPT-7 {\k33}— {\k33}that {\k33}label {\k33}came {\k42}later.
+Dialogue: 0,0:01:09.29,0:01:17.67,Karaoke,,0,0,0,,{\k33}OpenAI {\k33}has {\k33}never {\k33}used {\k33}the {\k33}name {\k33}Bel {\k33}in {\k33}public, {\k33}and {\k33}on {\k33}October {\k33}11th {\k33}its {\k33}own {\k33}models {\k33}page {\k33}listed {\k33}GPT-6 {\k33}Astra, {\k33}GPT-6.1 {\k33}Sol, {\k33}and {\k33}GPT-6 {\k46}Luna.
+Dialogue: 0,0:01:17.67,0:01:19.01,Karaoke,,0,0,0,,{\k33}No {\k33}Bel, {\k33}no {\k35}GPT-7.
+Dialogue: 0,0:01:19.01,0:01:25.72,Karaoke,,0,0,0,,{\k33}What {\k33}OpenAI {\k33}did {\k33}say, {\k33}on {\k33}September {\k33}8th, {\k33}is {\k33}that {\k33}it {\k33}has {\k33}an {\k33}internal {\k33}model {\k33}significantly {\k33}more {\k33}capable {\k33}than {\k33}GPT-6 {\k44}Astra.
+Dialogue: 0,0:01:25.72,0:01:32.42,Karaoke,,0,0,0,,{\k33}That {\k33}is {\k33}true, {\k33}and {\k33}it {\k33}is {\k33}not {\k33}the {\k33}same {\k33}as {\k33}saying {\k33}that {\k33}model {\k33}is {\k33}Bel, {\k33}or {\k33}that {\k33}it {\k33}is {\k44}GPT-7.
+Dialogue: 0,0:01:32.42,0:01:33.09,Karaoke,,0,0,0,,{\k33}Verdict: {\k34}unverified.
+Dialogue: 0,0:01:33.09,0:01:34.43,Karaoke,,0,0,0,,{\k33}Second, {\k33}Claude {\k33}REA {\k35}banned.
+Dialogue: 0,0:01:34.43,0:01:39.12,Karaoke,,0,0,0,,{\k33}I {\k33}searched {\k33}for {\k33}a {\k33}model {\k33}called {\k33}Claude {\k33}REA, {\k33}and {\k33}I {\k33}did {\k33}not {\k33}find {\k40}one.
+Dialogue: 0,0:01:39.12,0:01:43.48,Karaoke,,0,0,0,,{\k33}What {\k33}I {\k33}did {\k33}find {\k33}is {\k33}two {\k33}real {\k33}bans, {\k33}and {\k33}neither {\k33}is {\k33}a {\k39}model.
+Dialogue: 0,0:01:43.48,0:01:54.53,Karaoke,,0,0,0,,{\k33}On {\k33}October {\k33}8th, {\k33}Anthropic {\k33}updated {\k33}its {\k33}usage {\k33}policy, {\k33}effective {\k33}November {\k33}12th, {\k33}to {\k33}ban {\k33}sustained, {\k33}needless {\k33}cruelty {\k33}toward {\k33}Claude {\k33}— {\k33}and {\k33}the {\k33}main {\k33}enforcement {\k33}is {\k33}Claude {\k33}ending {\k33}the {\k33}conversation, {\k33}not {\k33}a {\k33}model {\k33}being {\k50}pulled.
+Dialogue: 0,0:01:54.53,0:02:01.23,Karaoke,,0,0,0,,{\k33}And {\k33}on {\k33}October {\k33}12th, {\k33}Anthropic {\k33}said {\k33}it {\k33}banned {\k33}tens {\k33}of {\k33}thousands {\k33}of {\k33}accounts {\k33}for {\k33}trying {\k33}to {\k33}copy {\k33}Claude {\k33}by {\k43}distillation.
+Dialogue: 0,0:02:01.23,0:02:06.59,Karaoke,,0,0,0,,{\k33}So {\k33}banned {\k33}is {\k33}real, {\k33}but {\k33}it {\k33}is {\k33}accounts {\k33}and {\k33}a {\k33}policy, {\k33}not {\k33}a {\k33}model {\k33}called {\k41}REA.
+Dialogue: 0,0:02:06.59,0:02:11.95,Karaoke,,0,0,0,,{\k33}Pause {\k33}on {\k33}that {\k33}word, {\k33}banned, {\k33}because {\k33}it {\k33}is {\k33}doing {\k33}philosophical {\k33}work {\k33}here, {\k33}not {\k33}just {\k33}legal {\k41}work.
+Dialogue: 0,0:02:11.95,0:02:15.97,Karaoke,,0,0,0,,{\k33}To {\k33}ban {\k33}an {\k33}account {\k33}is {\k33}to {\k33}draw {\k33}a {\k33}boundary {\k33}around {\k33}a {\k39}community.
+Dialogue: 0,0:02:15.97,0:02:22.67,Karaoke,,0,0,0,,{\k33}To {\k33}ban {\k33}a {\k33}behavior {\k33}is {\k33}to {\k33}say, {\k33}this {\k33}is {\k33}not {\k33}how {\k33}we {\k33}will {\k33}treat {\k33}a {\k33}mind, {\k33}even {\k33}a {\k33}simulated {\k43}one.
+Dialogue: 0,0:02:22.67,0:02:28.03,Karaoke,,0,0,0,,{\k33}To {\k33}ban {\k33}a {\k33}model {\k33}would {\k33}be {\k33}something {\k33}else {\k33}entirely: {\k33}to {\k33}erase {\k33}a {\k33}capability {\k33}from {\k33}the {\k41}world.
+Dialogue: 0,0:02:28.03,0:02:33.05,Karaoke,,0,0,0,,{\k33}The {\k33}title {\k33}collapses {\k33}all {\k33}three {\k33}into {\k33}one {\k33}scary {\k33}word, {\k33}and {\k33}that {\k33}collapse {\k33}is {\k33}the {\k40}trick.
+Dialogue: 0,0:02:33.05,0:02:38.74,Karaoke,,0,0,0,,{\k33}When {\k33}you {\k33}hear {\k33}a {\k33}word {\k33}that {\k33}big, {\k33}ask {\k33}what {\k33}exactly {\k33}was {\k33}banned, {\k33}by {\k33}whom, {\k33}and {\k33}from {\k41}whom.
+Dialogue: 0,0:02:38.74,0:02:40.42,Karaoke,,0,0,0,,{\k33}Precision {\k33}is {\k33}not {\k33}pedantry {\k35}here.
+Dialogue: 0,0:02:40.42,0:02:43.09,Karaoke,,0,0,0,,{\k33}Precision {\k33}is {\k33}the {\k33}difference {\k33}between {\k33}fear {\k33}and {\k37}understanding.
+Dialogue: 0,0:02:43.09,0:02:44.43,Karaoke,,0,0,0,,{\k33}Third, {\k33}Gemini {\k33}4 {\k35}Carbon.
+Dialogue: 0,0:02:44.43,0:02:49.11,Karaoke,,0,0,0,,{\k33}This {\k33}one {\k33}is {\k33}the {\k33}closest {\k33}to {\k33}real, {\k33}and {\k33}it {\k33}is {\k33}still {\k33}not {\k33}a {\k39}product.
+Dialogue: 0,0:02:49.11,0:02:59.14,Karaoke,,0,0,0,,{\k33}Business {\k33}Insider {\k33}reported {\k33}on {\k33}October {\k33}9th {\k33}that {\k33}Google {\k33}staff {\k33}were {\k33}testing {\k33}Carbon {\k33}inside {\k33}Google, {\k33}on {\k33}its {\k33}internal {\k33}coding {\k33}platform, {\k33}and {\k33}one {\k33}employee {\k33}said {\k33}it {\k33}feels {\k33}like {\k33}Opus {\k33}5.5 {\k33}for {\k46}coding.
+Dialogue: 0,0:02:59.14,0:03:06.50,Karaoke,,0,0,0,,{\k33}Feels {\k33}like {\k33}is {\k33}not {\k33}a {\k33}benchmark, {\k33}there {\k33}is {\k33}no {\k33}model {\k33}card, {\k33}no {\k33}price, {\k33}no {\k33}release {\k33}date, {\k33}and {\k33}Google {\k33}has {\k33}not {\k33}confirmed {\k43}it.
+Dialogue: 0,0:03:06.50,0:03:10.85,Karaoke,,0,0,0,,{\k33}A {\k33}checkpoint {\k33}briefly {\k33}showed {\k33}up {\k33}on {\k33}LMArena {\k33}around {\k33}October {\k33}23rd {\k33}and {\k33}was {\k39}pulled.
+Dialogue: 0,0:03:10.85,0:03:16.19,Karaoke,,0,0,0,,{\k33}So {\k33}Carbon {\k33}is {\k33}a {\k33}leak {\k33}about {\k33}an {\k33}internal {\k33}checkpoint, {\k33}not {\k33}a {\k33}model {\k33}you {\k33}can {\k33}use {\k40}today.
+Dialogue: 0,0:03:16.19,0:03:17.20,Karaoke,,0,0,0,,{\k33}Fourth, {\k33}Qwen {\k34}4.
+Dialogue: 0,0:03:17.20,0:03:20.88,Karaoke,,0,0,0,,{\k33}Alibaba {\k33}said {\k33}on {\k33}September {\k33}22nd {\k33}that {\k33}Qwen {\k33}4 {\k33}is {\k33}in {\k38}training.
+Dialogue: 0,0:03:20.88,0:03:31.58,Karaoke,,0,0,0,,{\k33}It {\k33}named {\k33}tiers {\k33}— {\k33}Max, {\k33}Plus, {\k33}Flash, {\k33}and {\k33}a {\k33}27B {\k33}model {\k33}— {\k33}but {\k33}gave {\k33}no {\k33}specs, {\k33}no {\k33}date, {\k33}and {\k33}as {\k33}of {\k33}October {\k33}24th {\k33}there {\k33}were {\k33}no {\k33}Qwen {\k33}4 {\k33}weights {\k33}on {\k33}Hugging {\k47}Face.
+Dialogue: 0,0:03:31.58,0:03:40.27,Karaoke,,0,0,0,,{\k33}The {\k33}thing {\k33}you {\k33}can {\k33}actually {\k33}look {\k33}at {\k33}today {\k33}is {\k33}Qwen {\k33}3.8 {\k33}Flash-Next, {\k33}which {\k33}Alibaba {\k33}itself {\k33}called {\k33}a {\k33}preview {\k33}of {\k33}the {\k33}architecture {\k33}that {\k33}will {\k33}underpin {\k33}Qwen {\k44}4.
+Dialogue: 0,0:03:40.27,0:03:44.62,Karaoke,,0,0,0,,{\k33}So {\k33}Qwen {\k33}4 {\k33}is {\k33}real {\k33}as {\k33}a {\k33}project, {\k33}not {\k33}shipped {\k33}as {\k33}a {\k39}model.
+Dialogue: 0,0:03:44.62,0:03:47.30,Karaoke,,0,0,0,,{\k33}And {\k33}Qwen {\k33}4 {\k33}Coder {\k33}does {\k33}not {\k33}exist {\k37}yet.
+Dialogue: 0,0:03:47.30,0:03:52.32,Karaoke,,0,0,0,,{\k33}A {\k33}leak {\k33}is {\k33}a {\k33}model {\k33}before {\k33}it {\k33}has {\k33}a {\k33}name, {\k33}a {\k33}price, {\k33}or {\k33}a {\k41}promise.
+Dialogue: 0,0:03:52.32,0:04:01.03,Karaoke,,0,0,0,,{\k33}It {\k33}lives {\k33}in {\k33}the {\k33}gap {\k33}between {\k33}what {\k33}a {\k33}lab {\k33}knows {\k33}and {\k33}what {\k33}the {\k33}public {\k33}is {\k33}allowed {\k33}to {\k33}know, {\k33}and {\k33}that {\k33}gap {\k33}is {\k33}where {\k33}imagination {\k33}rushes {\k46}in.
+Dialogue: 0,0:04:01.03,0:04:03.38,Karaoke,,0,0,0,,{\k33}That {\k33}is {\k33}not {\k33}a {\k33}flaw {\k33}in {\k37}you.
+Dialogue: 0,0:04:03.38,0:04:07.07,Karaoke,,0,0,0,,{\k33}It {\k33}is {\k33}how {\k33}humans {\k33}think {\k33}about {\k33}power {\k33}we {\k33}cannot {\k33}yet {\k39}touch.
+Dialogue: 0,0:04:07.07,0:04:10.75,Karaoke,,0,0,0,,{\k33}We {\k33}fill {\k33}the {\k33}unknown {\k33}with {\k33}the {\k33}biggest {\k33}thing {\k33}we {\k33}can {\k39}picture.
+Dialogue: 0,0:04:10.75,0:04:15.11,Karaoke,,0,0,0,,{\k33}The {\k33}discipline {\k33}is {\k33}to {\k33}let {\k33}the {\k33}unknown {\k33}stay {\k33}unknown {\k33}for {\k33}a {\k33}little {\k40}longer.
+Dialogue: 0,0:04:15.11,0:04:17.12,Karaoke,,0,0,0,,{\k33}A {\k33}checkpoint {\k33}is {\k33}not {\k33}a {\k36}product.
+Dialogue: 0,0:04:17.12,0:04:19.13,Karaoke,,0,0,0,,{\k33}A {\k33}feeling {\k33}is {\k33}not {\k33}a {\k36}benchmark.
+Dialogue: 0,0:04:19.13,0:04:21.47,Karaoke,,0,0,0,,{\k33}A {\k33}training {\k33}run {\k33}is {\k33}not {\k33}a {\k37}release.
+Dialogue: 0,0:04:21.47,0:04:25.49,Karaoke,,0,0,0,,{\k33}Naming {\k33}each {\k33}stage {\k33}honestly {\k33}is {\k33}how {\k33}you {\k33}keep {\k33}your {\k33}own {\k33}thinking {\k39}clean.
+Dialogue: 0,0:04:25.50,0:04:35.55,Karaoke,,0,0,0,,{\k33}So {\k33}if {\k33}you {\k33}are {\k33}picking {\k33}a {\k33}model {\k33}this {\k33}week, {\k33}pick {\k33}from {\k33}the {\k33}ones {\k33}that {\k33}actually {\k33}shipped: {\k33}GPT-6 {\k33}Astra, {\k33}Claude {\k33}Opus {\k33}5.5, {\k33}Gemini {\k33}4 {\k33}Argon {\k33}in {\k33}its {\k33}limited {\k33}form, {\k33}Qwen {\k49}3.8.
+Dialogue: 0,0:04:35.55,0:04:40.92,Karaoke,,0,0,0,,{\k33}The {\k33}other {\k33}four {\k33}names {\k33}are {\k33}a {\k33}rumor, {\k33}a {\k33}missing {\k33}model, {\k33}a {\k33}leak, {\k33}and {\k33}a {\k33}training {\k42}run.
+Dialogue: 0,0:04:40.92,0:04:48.30,Karaoke,,0,0,0,,{\k33}That {\k33}is {\k33}not {\k33}less {\k33}interesting {\k33}— {\k33}it {\k33}is {\k33}just {\k33}the {\k33}difference {\k33}between {\k33}news {\k33}and {\k33}hype, {\k33}and {\k33}that {\k33}difference {\k33}is {\k33}the {\k33}whole {\k45}point.
+Dialogue: 0,0:04:48.30,0:04:51.30,Karaoke,,0,0,0,,{\k33}One {\k33}last {\k33}test {\k33}before {\k33}you {\k33}share {\k33}anything {\k33}this {\k37}week.
+Dialogue: 0,0:04:51.30,0:04:55.31,Karaoke,,0,0,0,,{\k33}Ask {\k33}who {\k33}benefits {\k33}if {\k33}you {\k33}believe {\k33}it {\k33}now, {\k33}before {\k33}it {\k33}is {\k38}confirmed.
+Dialogue: 0,0:04:55.31,0:05:02.33,Karaoke,,0,0,0,,{\k33}If {\k33}the {\k33}answer {\k33}is {\k33}a {\k33}channel {\k33}selling {\k33}urgency, {\k33}a {\k33}seller {\k33}selling {\k33}access, {\k33}or {\k33}your {\k33}own {\k33}desire {\k33}to {\k33}be {\k33}first, {\k33}slow {\k41}down.
+Dialogue: 0,0:05:02.33,0:05:03.66,Karaoke,,0,0,0,,{\k33}Speed {\k33}is {\k33}not {\k35}insight.
+Dialogue: 0,0:05:03.66,0:05:13.68,Karaoke,,0,0,0,,{\k33}Being {\k33}first {\k33}to {\k33}repeat {\k33}a {\k33}rumor {\k33}is {\k33}not {\k33}the {\k33}same {\k33}as {\k33}being {\k33}right, {\k33}and {\k33}in {\k33}a {\k33}field {\k33}that {\k33}moves {\k33}this {\k33}fast, {\k33}the {\k33}person {\k33}who {\k33}waits {\k33}for {\k33}confirmation {\k33}is {\k33}not {\k45}behind.
+Dialogue: 0,0:05:13.68,0:05:18.69,Karaoke,,0,0,0,,{\k33}They {\k33}are {\k33}the {\k33}only {\k33}one {\k33}still {\k33}standing {\k33}on {\k33}solid {\k33}ground {\k33}when {\k33}the {\k33}hype {\k33}cycle {\k39}turns.
+Dialogue: 0,0:05:18.69,0:05:22.38,Karaoke,,0,0,0,,{\k33}And {\k33}here {\k33}is {\k33}the {\k33}directive {\k33}I {\k33}want {\k33}you {\k33}to {\k33}leave {\k39}with.
+Dialogue: 0,0:05:22.38,0:05:23.73,Karaoke,,0,0,0,,{\k33}Build {\k33}on {\k33}what {\k35}shipped.
+Dialogue: 0,0:05:23.73,0:05:29.43,Karaoke,,0,0,0,,{\k33}Watch {\k33}what {\k33}is {\k33}rumored, {\k33}but {\k33}do {\k33}not {\k33}bet {\k33}your {\k33}work, {\k33}your {\k33}money, {\k33}or {\k33}your {\k33}reputation {\k33}on {\k42}it.
+Dialogue: 0,0:05:29.43,0:05:33.12,Karaoke,,0,0,0,,{\k33}Keep {\k33}a {\k33}ledger, {\k33}even {\k33}a {\k33}mental {\k33}one: {\k33}claimed, {\k33}sourced, {\k33}confirmed, {\k39}shipped.
+Dialogue: 0,0:05:33.12,0:05:33.79,Karaoke,,0,0,0,,{\k33}Four {\k34}columns.
+Dialogue: 0,0:05:33.79,0:05:36.80,Karaoke,,0,0,0,,{\k33}Most {\k33}of {\k33}the {\k33}internet {\k33}lives {\k33}in {\k33}the {\k33}first {\k38}two.
+Dialogue: 0,0:05:36.80,0:05:39.49,Karaoke,,0,0,0,,{\k33}Your {\k33}advantage {\k33}is {\k33}living {\k33}in {\k33}the {\k33}last {\k37}two.
+Dialogue: 0,0:05:39.49,0:05:40.83,Karaoke,,0,0,0,,{\k33}That {\k33}is {\k33}not {\k35}cynicism.
+Dialogue: 0,0:05:40.83,0:05:41.83,Karaoke,,0,0,0,,{\k33}That {\k33}is {\k35}stewardship.
+Dialogue: 0,0:05:41.83,0:05:51.89,Karaoke,,0,0,0,,{\k33}The {\k33}future {\k33}will {\k33}arrive {\k33}whether {\k33}you {\k33}hype {\k33}it {\k33}or {\k33}not, {\k33}and {\k33}when {\k33}it {\k33}does, {\k33}you {\k33}will {\k33}be {\k33}ready {\k33}for {\k33}it {\k33}precisely {\k33}because {\k33}you {\k33}did {\k33}not {\k33}pretend {\k33}it {\k33}was {\k33}already {\k49}here.
