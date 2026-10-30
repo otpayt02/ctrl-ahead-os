@@ -1,0 +1,307 @@
+[
+ {
+  "w": "That's",
+  "start": 0.0,
+  "end": 0.44
+ },
+ {
+  "w": "the",
+  "start": 0.44,
+  "end": 0.58
+ },
+ {
+  "w": "real",
+  "start": 0.58,
+  "end": 0.78
+ },
+ {
+  "w": "story:",
+  "start": 0.78,
+  "end": 1.22
+ },
+ {
+  "w": "not",
+  "start": 1.54,
+  "end": 1.66
+ },
+ {
+  "w": "a",
+  "start": 1.66,
+  "end": 2.06
+ },
+ {
+  "w": "model",
+  "start": 2.06,
+  "end": 2.06
+ },
+ {
+  "w": "that",
+  "start": 2.06,
+  "end": 2.3
+ },
+ {
+  "w": "magically",
+  "start": 2.3,
+  "end": 2.76
+ },
+ {
+  "w": "fixes",
+  "start": 2.76,
+  "end": 3.1
+ },
+ {
+  "w": "old",
+  "start": 3.1,
+  "end": 3.46
+ },
+ {
+  "w": "code,",
+  "start": 3.46,
+  "end": 3.82
+ },
+ {
+  "w": "but",
+  "start": 4.14,
+  "end": 4.34
+ },
+ {
+  "w": "a",
+  "start": 4.34,
+  "end": 4.56
+ },
+ {
+  "w": "workflow",
+  "start": 4.56,
+  "end": 4.76
+ },
+ {
+  "w": "that",
+  "start": 4.76,
+  "end": 5.06
+ },
+ {
+  "w": "turns",
+  "start": 5.06,
+  "end": 5.34
+ },
+ {
+  "w": "months",
+  "start": 5.34,
+  "end": 5.66
+ },
+ {
+  "w": "of",
+  "start": 5.66,
+  "end": 5.92
+ },
+ {
+  "w": "mechanical",
+  "start": 5.92,
+  "end": 6.32
+ },
+ {
+  "w": "untangling",
+  "start": 6.32,
+  "end": 6.9
+ },
+ {
+  "w": "into",
+  "start": 6.9,
+  "end": 7.32
+ },
+ {
+  "w": "weeks",
+  "start": 7.32,
+  "end": 7.68
+ },
+ {
+  "w": "\u2014",
+  "start": 7.92,
+  "end": 8.4
+ },
+ {
+  "w": "with",
+  "start": 8.16,
+  "end": 8.32
+ },
+ {
+  "w": "humans",
+  "start": 8.32,
+  "end": 8.54
+ },
+ {
+  "w": "still",
+  "start": 8.54,
+  "end": 8.86
+ },
+ {
+  "w": "holding",
+  "start": 8.86,
+  "end": 9.08
+ },
+ {
+  "w": "the",
+  "start": 9.08,
+  "end": 9.3
+ },
+ {
+  "w": "gate.",
+  "start": 9.3,
+  "end": 9.52
+ },
+ {
+  "w": "If",
+  "start": 10.26,
+  "end": 10.38
+ },
+ {
+  "w": "you're",
+  "start": 10.38,
+  "end": 10.48
+ },
+ {
+  "w": "new",
+  "start": 10.48,
+  "end": 10.66
+ },
+ {
+  "w": "here,",
+  "start": 10.66,
+  "end": 11.04
+ },
+ {
+  "w": "welcome",
+  "start": 11.12,
+  "end": 11.3
+ },
+ {
+  "w": "\u2014",
+  "start": 11.61,
+  "end": 12.23
+ },
+ {
+  "w": "this",
+  "start": 11.92,
+  "end": 12.1
+ },
+ {
+  "w": "channel",
+  "start": 12.1,
+  "end": 12.38
+ },
+ {
+  "w": "breaks",
+  "start": 12.38,
+  "end": 12.58
+ },
+ {
+  "w": "down",
+  "start": 12.58,
+  "end": 12.94
+ },
+ {
+  "w": "one",
+  "start": 12.94,
+  "end": 13.26
+ },
+ {
+  "w": "AI",
+  "start": 13.26,
+  "end": 13.46
+ },
+ {
+  "w": "development",
+  "start": 13.46,
+  "end": 13.8
+ },
+ {
+  "w": "like",
+  "start": 13.8,
+  "end": 14.14
+ },
+ {
+  "w": "this,",
+  "start": 14.14,
+  "end": 14.5
+ },
+ {
+  "w": "with",
+  "start": 14.5,
+  "end": 14.68
+ },
+ {
+  "w": "the",
+  "start": 14.68,
+  "end": 15.0
+ },
+ {
+  "w": "evidence",
+  "start": 15.0,
+  "end": 15.06
+ },
+ {
+  "w": "on",
+  "start": 15.06,
+  "end": 15.38
+ },
+ {
+  "w": "screen,",
+  "start": 15.38,
+  "end": 15.82
+ },
+ {
+  "w": "every",
+  "start": 15.82,
+  "end": 16.18
+ },
+ {
+  "w": "time.",
+  "start": 16.18,
+  "end": 16.68
+ },
+ {
+  "w": "Subscribe,",
+  "start": 17.14,
+  "end": 17.48
+ },
+ {
+  "w": "and",
+  "start": 17.78,
+  "end": 17.88
+ },
+ {
+  "w": "I'll",
+  "start": 17.88,
+  "end": 18.04
+ },
+ {
+  "w": "see",
+  "start": 18.04,
+  "end": 18.14
+ },
+ {
+  "w": "you",
+  "start": 18.14,
+  "end": 18.24
+ },
+ {
+  "w": "in",
+  "start": 18.24,
+  "end": 18.34
+ },
+ {
+  "w": "the",
+  "start": 18.34,
+  "end": 18.44
+ },
+ {
+  "w": "next",
+  "start": 18.44,
+  "end": 18.62
+ },
+ {
+  "w": "one.",
+  "start": 18.62,
+  "end": 18.88
+ }
+]

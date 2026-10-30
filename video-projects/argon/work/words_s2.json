@@ -1,0 +1,467 @@
+[
+ {
+  "w": "The",
+  "start": 0.0,
+  "end": 0.3
+ },
+ {
+  "w": "dates",
+  "start": 0.3,
+  "end": 0.52
+ },
+ {
+  "w": "first,",
+  "start": 0.52,
+  "end": 0.92
+ },
+ {
+  "w": "because",
+  "start": 0.98,
+  "end": 1.22
+ },
+ {
+  "w": "they",
+  "start": 1.22,
+  "end": 1.36
+ },
+ {
+  "w": "matter.",
+  "start": 1.36,
+  "end": 1.76
+ },
+ {
+  "w": "Google",
+  "start": 2.28,
+  "end": 2.48
+ },
+ {
+  "w": "announced",
+  "start": 2.48,
+  "end": 2.88
+ },
+ {
+  "w": "Argon",
+  "start": 3.12,
+  "end": 3.6
+ },
+ {
+  "w": "on",
+  "start": 3.36,
+  "end": 3.54
+ },
+ {
+  "w": "September",
+  "start": 3.54,
+  "end": 3.84
+ },
+ {
+  "w": "thirtieth,",
+  "start": 4.29,
+  "end": 5.19
+ },
+ {
+  "w": "but",
+  "start": 4.74,
+  "end": 4.86
+ },
+ {
+  "w": "only",
+  "start": 4.86,
+  "end": 5.12
+ },
+ {
+  "w": "vetted",
+  "start": 5.12,
+  "end": 5.42
+ },
+ {
+  "w": "cybersecurity",
+  "start": 5.42,
+  "end": 6.04
+ },
+ {
+  "w": "defenders",
+  "start": 6.04,
+  "end": 6.64
+ },
+ {
+  "w": "got",
+  "start": 6.64,
+  "end": 6.92
+ },
+ {
+  "w": "it",
+  "start": 6.92,
+  "end": 7.02
+ },
+ {
+  "w": "at",
+  "start": 7.02,
+  "end": 7.2
+ },
+ {
+  "w": "first.",
+  "start": 7.2,
+  "end": 7.66
+ },
+ {
+  "w": "It",
+  "start": 8.1,
+  "end": 8.16
+ },
+ {
+  "w": "went",
+  "start": 8.16,
+  "end": 8.42
+ },
+ {
+  "w": "generally",
+  "start": 8.42,
+  "end": 8.74
+ },
+ {
+  "w": "available",
+  "start": 8.74,
+  "end": 9.2
+ },
+ {
+  "w": "on",
+  "start": 9.2,
+  "end": 9.4
+ },
+ {
+  "w": "October",
+  "start": 9.4,
+  "end": 9.68
+ },
+ {
+  "w": "thirteenth",
+  "start": 9.97,
+  "end": 10.55
+ },
+ {
+  "w": "\u2014",
+  "start": 10.55,
+  "end": 11.13
+ },
+ {
+  "w": "so",
+  "start": 10.84,
+  "end": 11.0
+ },
+ {
+  "w": "no,",
+  "start": 11.0,
+  "end": 11.32
+ },
+ {
+  "w": "this",
+  "start": 11.32,
+  "end": 11.48
+ },
+ {
+  "w": "is",
+  "start": 11.48,
+  "end": 11.62
+ },
+ {
+  "w": "not",
+  "start": 11.62,
+  "end": 11.82
+ },
+ {
+  "w": "a",
+  "start": 11.82,
+  "end": 11.94
+ },
+ {
+  "w": "leak,",
+  "start": 11.94,
+  "end": 12.12
+ },
+ {
+  "w": "and",
+  "start": 12.52,
+  "end": 12.64
+ },
+ {
+  "w": "it's",
+  "start": 12.64,
+  "end": 12.82
+ },
+ {
+  "w": "not",
+  "start": 12.82,
+  "end": 13.02
+ },
+ {
+  "w": "brand",
+  "start": 13.02,
+  "end": 13.3
+ },
+ {
+  "w": "new",
+  "start": 13.3,
+  "end": 13.54
+ },
+ {
+  "w": "either.",
+  "start": 13.96,
+  "end": 13.96
+ },
+ {
+  "w": "What's",
+  "start": 14.54,
+  "end": 14.76
+ },
+ {
+  "w": "in",
+  "start": 14.76,
+  "end": 14.84
+ },
+ {
+  "w": "it:",
+  "start": 14.84,
+  "end": 15.18
+ },
+ {
+  "w": "a",
+  "start": 15.52,
+  "end": 15.7
+ },
+ {
+  "w": "one-million-token",
+  "start": 16.1,
+  "end": 16.9
+ },
+ {
+  "w": "context",
+  "start": 16.5,
+  "end": 17.0
+ },
+ {
+  "w": "window,",
+  "start": 17.0,
+  "end": 17.5
+ },
+ {
+  "w": "input",
+  "start": 17.86,
+  "end": 18.02
+ },
+ {
+  "w": "and",
+  "start": 18.02,
+  "end": 18.32
+ },
+ {
+  "w": "output",
+  "start": 18.32,
+  "end": 18.62
+ },
+ {
+  "w": "combined,",
+  "start": 18.62,
+  "end": 19.14
+ },
+ {
+  "w": "and",
+  "start": 19.62,
+  "end": 19.76
+ },
+ {
+  "w": "a",
+  "start": 19.76,
+  "end": 20.0
+ },
+ {
+  "w": "seventy-seven",
+  "start": 20.185,
+  "end": 20.555
+ },
+ {
+  "w": "point",
+  "start": 20.555,
+  "end": 20.925
+ },
+ {
+  "w": "nine",
+  "start": 20.925,
+  "end": 21.295
+ },
+ {
+  "w": "percent",
+  "start": 21.295,
+  "end": 21.665
+ },
+ {
+  "w": "score",
+  "start": 21.48,
+  "end": 21.78
+ },
+ {
+  "w": "on",
+  "start": 21.78,
+  "end": 22.04
+ },
+ {
+  "w": "DeepSWE,",
+  "start": 22.77,
+  "end": 24.23
+ },
+ {
+  "w": "Google's",
+  "start": 23.5,
+  "end": 23.94
+ },
+ {
+  "w": "own",
+  "start": 23.94,
+  "end": 24.18
+ },
+ {
+  "w": "reported",
+  "start": 24.18,
+  "end": 24.52
+ },
+ {
+  "w": "number.",
+  "start": 24.52,
+  "end": 25.04
+ },
+ {
+  "w": "Treat",
+  "start": 25.7,
+  "end": 25.92
+ },
+ {
+  "w": "vendor",
+  "start": 25.92,
+  "end": 26.22
+ },
+ {
+  "w": "benchmarks",
+  "start": 26.22,
+  "end": 26.56
+ },
+ {
+  "w": "as",
+  "start": 26.56,
+  "end": 26.94
+ },
+ {
+  "w": "a",
+  "start": 26.94,
+  "end": 27.1
+ },
+ {
+  "w": "claim,",
+  "start": 27.1,
+  "end": 27.38
+ },
+ {
+  "w": "not",
+  "start": 27.58,
+  "end": 27.8
+ },
+ {
+  "w": "a",
+  "start": 27.8,
+  "end": 27.9
+ },
+ {
+  "w": "verdict",
+  "start": 27.9,
+  "end": 28.16
+ },
+ {
+  "w": "\u2014",
+  "start": 28.16,
+  "end": 28.21
+ },
+ {
+  "w": "but",
+  "start": 28.16,
+  "end": 28.8
+ },
+ {
+  "w": "the",
+  "start": 28.8,
+  "end": 29.02
+ },
+ {
+  "w": "Chromium",
+  "start": 29.02,
+  "end": 29.36
+ },
+ {
+  "w": "result",
+  "start": 29.36,
+  "end": 29.64
+ },
+ {
+  "w": "has",
+  "start": 29.64,
+  "end": 30.0
+ },
+ {
+  "w": "something",
+  "start": 30.0,
+  "end": 30.26
+ },
+ {
+  "w": "benchmarks",
+  "start": 30.26,
+  "end": 30.68
+ },
+ {
+  "w": "don't:",
+  "start": 30.68,
+  "end": 31.62
+ },
+ {
+  "w": "commits,",
+  "start": 31.75,
+  "end": 32.01
+ },
+ {
+  "w": "in",
+  "start": 31.88,
+  "end": 32.42
+ },
+ {
+  "w": "a",
+  "start": 32.42,
+  "end": 32.64
+ },
+ {
+  "w": "public",
+  "start": 32.64,
+  "end": 32.84
+ },
+ {
+  "w": "tracker,",
+  "start": 32.84,
+  "end": 33.32
+ },
+ {
+  "w": "reviewed",
+  "start": 33.74,
+  "end": 33.92
+ },
+ {
+  "w": "by",
+  "start": 33.92,
+  "end": 34.28
+ },
+ {
+  "w": "human",
+  "start": 34.28,
+  "end": 34.58
+ },
+ {
+  "w": "engineers.",
+  "start": 34.58,
+  "end": 35.08
+ }
+]

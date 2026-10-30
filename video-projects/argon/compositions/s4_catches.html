@@ -1,0 +1,108 @@
+<template>
+  <link rel="stylesheet" href="css/theme.css" />
+  <style>
+    #root { position:absolute; inset:0; background:var(--dark-bg); overflow:hidden; }
+
+  .stage { position:absolute; inset:0; overflow:hidden; background:radial-gradient(ellipse at 50% 26%, rgba(255,59,59,0.08), rgba(5,7,11,0) 62%); }
+  .scrim-b { position:absolute; inset:0; background:linear-gradient(0deg, rgba(5,7,11,0.92) 0%, rgba(5,7,11,0) 30%); }
+  .kicker { position:absolute; font-family:var(--font-mono); font-weight:600; letter-spacing:0.30em; color:#ff8080; font-size:46px; }
+  .headline { position:absolute; font-weight:700; letter-spacing:-0.02em; color:#fff; }
+  .ccard { position:absolute; top:560px; width:960px; height:1060px; padding:52px 56px; }
+  .ccard .cnum { font-family:var(--font-mono); font-weight:700; font-size:110px; color:var(--skeptic-red); line-height:1; }
+  .ccard .ctitle { font-size:66px; font-weight:700; line-height:1.16; margin-top:30px; color:#fff; }
+  .ccard .csub { font-size:46px; font-weight:600; color:var(--gold); margin-top:30px; line-height:1.3; }
+  .price-old, .price-new { position:absolute; left:56px; top:520px; }
+  .price-num { font-family:var(--font-mono); font-weight:700; font-size:128px; line-height:1; }
+  .price-lbl { font-family:var(--font-mono); font-size:36px; letter-spacing:0.12em; color:rgba(255,255,255,0.65); margin-top:18px; }
+  .chip { position:absolute; padding:20px 34px; border-radius:999px; border:3px solid rgba(255,255,255,0.30); background:rgba(10,13,20,0.88); font-size:42px; font-weight:600; white-space:nowrap; }
+  .chip.red { border-color:var(--skeptic-red); color:#ff8080; }
+  .banner { position:absolute; left:420px; top:1700px; width:3000px; text-align:center; font-weight:700; }
+  .fadeblack { position:absolute; inset:0; background:#000; pointer-events:none; }
+
+  #s4-captions { top:auto; bottom:36px; height:204px; }
+  #s4-captions .caption { position:absolute; left:420px; right:420px; bottom:0; display:block; white-space:nowrap; font-size:62px; }
+  .caption .w { color: rgba(255,255,255,0.42); }
+
+  </style>
+  <div id="root" data-composition-id="s4_catches" data-start="0" data-duration="30.48" data-width="3840" data-height="2160">
+
+    <div id="s4-cam" class="clip" data-start="0" data-duration="30.48" data-track-index="0">
+      <div class="stage">
+        <div class="scrim-b"></div>
+        <div id="s4-kicker" class="kicker" style="left:420px; top:190px; opacity:0;">WHAT BREAKS — THE HONEST CATCH</div>
+        <div id="s4-head" class="headline" style="left:420px; top:270px; font-size:130px; opacity:0;">THREE CATCHES.</div>
+        <div id="s4-card1" class="glass-panel ccard" style="left:420px; opacity:0;">
+          <div class="cnum">1</div>
+          <div class="ctitle">GOOGLE'S OWN ENGINEERS.<br/>GOOGLE'S OWN CODE.</div>
+          <div class="csub" id="s4-c1-sub" style="opacity:0;">INDEPENDENT MILEAGE WILL VARY</div>
+        </div>
+        <div id="s4-card2" class="glass-panel ccard" style="left:1440px; opacity:0;">
+          <div class="cnum">2</div>
+          <div class="ctitle">NO FREE<br/>API TIER.</div>
+          <div class="csub" id="s4-c2-sub" style="opacity:0;">EVERY TOKEN IS PAID</div>
+        </div>
+        <div id="s4-card3" class="glass-panel ccard" style="left:2460px; opacity:0;">
+          <div class="cnum">3</div>
+          <div class="ctitle">THE PRICE<br/>DOUBLES.</div>
+          <div class="price-old" id="s4-pold" style="opacity:0;">
+            <div class="price-num" style="color:var(--gold);">$2 / $10</div>
+            <div class="price-lbl">PER 1M TOKENS · IN / OUT — INTRO PRICE</div>
+          </div>
+          <div class="price-new" id="s4-pnew" style="opacity:0;">
+            <div class="price-num" style="color:var(--skeptic-red);">$4 / $20</div>
+            <div class="price-lbl">PER 1M TOKENS · IN / OUT</div>
+          </div>
+          <div id="s4-dec1" class="chip red" style="left:56px; top:830px; opacity:0;">FROM DEC 1</div>
+        </div>
+        <div id="s4-banner" class="banner" style="opacity:0; font-size:84px;">THE CHEAP WINDOW CLOSES <span id="s4-nov30" style="color:var(--gold); opacity:0;">NOV 30</span></div>
+        <div class="caption-band" id="s4-captions">
+          <div class="caption" id="s4-cap-0" style="opacity:0;"><span class="w" id="s4-w-0-0">Now</span> <span class="w" id="s4-w-0-1">the</span> <span class="w" id="s4-w-0-2">catches,</span> <span class="w" id="s4-w-0-3">and</span> <span class="w" id="s4-w-0-4">there</span> <span class="w" id="s4-w-0-5">are</span> <span class="w" id="s4-w-0-6">three.</span></div>
+          <div class="caption" id="s4-cap-1" style="opacity:0;"><span class="w" id="s4-w-1-0">One:</span></div>
+          <div class="caption" id="s4-cap-2" style="opacity:0;"><span class="w" id="s4-w-2-0">almost</span> <span class="w" id="s4-w-2-1">every</span> <span class="w" id="s4-w-2-2">headline</span> <span class="w" id="s4-w-2-3">result</span> <span class="w" id="s4-w-2-4">so</span> <span class="w" id="s4-w-2-5">far</span> <span class="w" id="s4-w-2-6">comes</span></div>
+          <div class="caption" id="s4-cap-3" style="opacity:0;"><span class="w" id="s4-w-3-0">from</span> <span class="w" id="s4-w-3-1">Google's</span> <span class="w" id="s4-w-3-2">own</span> <span class="w" id="s4-w-3-3">engineers</span> <span class="w" id="s4-w-3-4">on</span> <span class="w" id="s4-w-3-5">Google's</span> <span class="w" id="s4-w-3-6">own</span></div>
+          <div class="caption" id="s4-cap-4" style="opacity:0;"><span class="w" id="s4-w-4-0">code —</span> <span class="w" id="s4-w-4-1">independent</span> <span class="w" id="s4-w-4-2">mileage</span> <span class="w" id="s4-w-4-3">will</span> <span class="w" id="s4-w-4-4">vary.</span></div>
+          <div class="caption" id="s4-cap-5" style="opacity:0;"><span class="w" id="s4-w-5-0">Two:</span></div>
+          <div class="caption" id="s4-cap-6" style="opacity:0;"><span class="w" id="s4-w-6-0">there's</span> <span class="w" id="s4-w-6-1">no</span> <span class="w" id="s4-w-6-2">free</span> <span class="w" id="s4-w-6-3">API</span> <span class="w" id="s4-w-6-4">tier.</span></div>
+          <div class="caption" id="s4-cap-7" style="opacity:0;"><span class="w" id="s4-w-7-0">Three —</span> <span class="w" id="s4-w-7-1">and</span> <span class="w" id="s4-w-7-2">this</span> <span class="w" id="s4-w-7-3">is</span> <span class="w" id="s4-w-7-4">the</span> <span class="w" id="s4-w-7-5">deadline —</span> <span class="w" id="s4-w-7-6">the</span></div>
+          <div class="caption" id="s4-cap-8" style="opacity:0;"><span class="w" id="s4-w-8-0">introductory</span> <span class="w" id="s4-w-8-1">price,</span> <span class="w" id="s4-w-8-2">two</span> <span class="w" id="s4-w-8-3">dollars</span> <span class="w" id="s4-w-8-4">per</span> <span class="w" id="s4-w-8-5">million</span> <span class="w" id="s4-w-8-6">input</span></div>
+          <div class="caption" id="s4-cap-9" style="opacity:0;"><span class="w" id="s4-w-9-0">tokens</span> <span class="w" id="s4-w-9-1">and</span> <span class="w" id="s4-w-9-2">ten</span> <span class="w" id="s4-w-9-3">per</span> <span class="w" id="s4-w-9-4">million</span> <span class="w" id="s4-w-9-5">output,</span></div>
+          <div class="caption" id="s4-cap-10" style="opacity:0;"><span class="w" id="s4-w-10-0">doubles</span> <span class="w" id="s4-w-10-1">on</span> <span class="w" id="s4-w-10-2">December</span> <span class="w" id="s4-w-10-3">first,</span></div>
+          <div class="caption" id="s4-cap-11" style="opacity:0;"><span class="w" id="s4-w-11-0">to</span> <span class="w" id="s4-w-11-1">four</span> <span class="w" id="s4-w-11-2">and</span> <span class="w" id="s4-w-11-3">twenty.</span></div>
+          <div class="caption" id="s4-cap-12" style="opacity:0;"><span class="w" id="s4-w-12-0">Whatever</span> <span class="w" id="s4-w-12-1">you</span> <span class="w" id="s4-w-12-2">plan</span> <span class="w" id="s4-w-12-3">to</span> <span class="w" id="s4-w-12-4">test</span> <span class="w" id="s4-w-12-5">on</span> <span class="w" id="s4-w-12-6">Argon,</span></div>
+          <div class="caption" id="s4-cap-13" style="opacity:0;"><span class="w" id="s4-w-13-0">the</span> <span class="w" id="s4-w-13-1">cheap</span> <span class="w" id="s4-w-13-2">window</span> <span class="w" id="s4-w-13-3">closes</span> <span class="w" id="s4-w-13-4">November</span> <span class="w" id="s4-w-13-5">thirtieth.</span></div>
+        </div>
+        <div id="s4-fade" class="fadeblack"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="js/shared.js"></script>
+  <script>
+    (function () {
+      const tl = makeSceneTimeline("s4_catches", 30.48);
+      window.__timelines["s4_catches"] = tl;
+
+      const cam4 = document.getElementById("s4-cam");
+      cameraPush(cam4, 0.97, 1.0, 0.4, tl, 0);
+      tl.fromTo("#s4-fade", { opacity: 1 }, { opacity: 0, duration: 0.3, ease: "none" }, 0);
+      tl.fromTo("#s4-fade", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none", immediateRender: false }, 30.18);
+      tl.fromTo("#s4-kicker", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5 }, 0.3);
+      tl.fromTo("#s4-head", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.55, ease: "power3.out" }, 0.6);
+      pinCard(document.getElementById("s4-card1"), tl, 2.7);
+      tl.fromTo("#s4-c1-sub", { opacity: 0 }, { opacity: 1, duration: 0.45 }, 9.3);
+      pinCard(document.getElementById("s4-card2"), tl, 10.9);
+      tl.fromTo("#s4-c2-sub", { opacity: 0 }, { opacity: 1, duration: 0.45 }, 12.4);
+      pinCard(document.getElementById("s4-card3"), tl, 13.9);
+      tl.fromTo("#s4-pold", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 16.3);
+      tl.to("#s4-pold", { opacity: 0, scale: 0.88, duration: 0.3, ease: "power2.in" }, 21.6);
+      tl.fromTo("#s4-pnew", { opacity: 0, scale: 1.25 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(1.6)" }, 21.75);
+      stampIn(document.getElementById("s4-dec1"), tl, 21.95);
+      tl.fromTo("#s4-banner", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 26.3);
+      tl.fromTo("#s4-nov30", { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, 27.9);
+      var CAPS = [{el:"s4-cap-0",start:0.00,end:2.16,words:[["s4-w-0-0",0.00,0.36],["s4-w-0-1",0.36,0.56],["s4-w-0-2",0.56,0.92],["s4-w-0-3",1.32,1.42],["s4-w-0-4",1.42,1.70],["s4-w-0-5",1.70,1.76],["s4-w-0-6",1.76,2.16]]},{el:"s4-cap-1",start:2.66,end:3.03,words:[["s4-w-1-0",2.66,3.00]]},{el:"s4-cap-2",start:3.38,end:5.53,words:[["s4-w-2-0",3.38,3.70],["s4-w-2-1",3.70,4.04],["s4-w-2-2",4.04,4.36],["s4-w-2-3",4.55,4.93],["s4-w-2-4",4.74,5.10],["s4-w-2-5",5.10,5.32],["s4-w-2-6",5.32,5.56]]},{el:"s4-cap-3",start:5.56,end:7.91,words:[["s4-w-3-0",5.56,5.80],["s4-w-3-1",5.80,6.24],["s4-w-3-2",6.24,6.48],["s4-w-3-3",6.48,6.90],["s4-w-3-4",6.90,7.26],["s4-w-3-5",7.26,7.68],["s4-w-3-6",7.68,7.94]]},{el:"s4-cap-4",start:7.94,end:10.32,words:[["s4-w-4-0",7.94,9.70],["s4-w-4-1",9.30,9.30],["s4-w-4-2",9.30,9.64],["s4-w-4-3",9.64,9.96],["s4-w-4-4",9.96,10.32]]},{el:"s4-cap-5",start:10.88,end:11.26,words:[["s4-w-5-0",10.88,11.26]]},{el:"s4-cap-6",start:11.50,end:13.22,words:[["s4-w-6-0",11.50,11.82],["s4-w-6-1",11.82,12.08],["s4-w-6-2",12.08,12.38],["s4-w-6-3",12.38,12.72],["s4-w-6-4",12.72,13.22]]},{el:"s4-cap-7",start:13.86,end:16.23,words:[["s4-w-7-0",13.86,14.78],["s4-w-7-1",14.62,14.72],["s4-w-7-2",14.72,14.86],["s4-w-7-3",14.86,15.00],["s4-w-7-4",15.00,15.12],["s4-w-7-5",15.12,16.35],["s4-w-7-6",16.04,16.26]]},{el:"s4-cap-8",start:16.26,end:18.93,words:[["s4-w-8-0",16.26,16.60],["s4-w-8-1",16.60,17.26],["s4-w-8-2",17.45,17.82],["s4-w-8-3",17.82,18.18],["s4-w-8-4",18.00,18.32],["s4-w-8-5",18.32,18.62],["s4-w-8-6",18.62,18.96]]},{el:"s4-cap-9",start:18.96,end:21.00,words:[["s4-w-9-0",18.96,19.34],["s4-w-9-1",19.34,19.78],["s4-w-9-2",19.83,19.93],["s4-w-9-3",19.93,20.03],["s4-w-9-4",19.98,20.26],["s4-w-9-5",20.26,21.00]]},{el:"s4-cap-10",start:21.66,end:22.95,words:[["s4-w-10-0",21.66,21.66],["s4-w-10-1",21.66,21.94],["s4-w-10-2",21.94,22.16],["s4-w-10-3",22.57,23.39]]},{el:"s4-cap-11",start:22.98,end:24.77,words:[["s4-w-11-0",22.98,23.26],["s4-w-11-1",23.41,23.71],["s4-w-11-2",23.56,23.82],["s4-w-11-3",24.31,25.29]]},{el:"s4-cap-12",start:24.80,end:26.29,words:[["s4-w-12-0",24.80,24.98],["s4-w-12-1",24.98,25.20],["s4-w-12-2",25.20,25.36],["s4-w-12-3",25.36,25.52],["s4-w-12-4",25.52,25.76],["s4-w-12-5",25.76,26.02],["s4-w-12-6",26.02,26.32]]},{el:"s4-cap-13",start:26.32,end:29.71,words:[["s4-w-13-0",26.32,26.88],["s4-w-13-1",26.88,27.18],["s4-w-13-2",27.18,27.46],["s4-w-13-3",27.46,27.94],["s4-w-13-4",27.94,28.36],["s4-w-13-5",28.81,29.71]]}];
+      driveCaptions(tl, CAPS.map(function (p) { return { el: document.getElementById(p.el), start: p.start, end: p.end, words: p.words.map(function (w) { return [document.getElementById(w[0]), w[1], w[2]]; }) }; }));
+
+    })();
+  </script>
+</template>

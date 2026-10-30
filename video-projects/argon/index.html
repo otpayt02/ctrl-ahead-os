@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=3840, height=2160" />
+    <script src="assets/js/gsap.min.js"></script>
+    <link rel="stylesheet" href="css/theme.css" />
+    <style>
+      html, body { width: 3840px; height: 2160px; background: var(--dark-bg); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--dark-bg); }
+    </style>
+  </head>
+  <body>
+    <!-- Ahead of Rush AI — Gemini 4 Argon video. Scene durations = real VO + 1.2s
+         tail. Starts: [0.0, 23.568, 60.336, 102.888, 133.368, 161.256], total 181.608s. -->
+    <div id="root" data-composition-id="ctrl-ahead-argon" data-start="0" data-duration="181.608" data-width="3840" data-height="2160">
+      <div id="s1_hook" data-composition-id="s1_hook" data-composition-src="compositions/s1_hook.html" data-start="0" data-duration="23.568" data-track-index="0" data-track-kind="graphics" data-width="3840" data-height="2160"></div>
+      <div id="s2_evidence" data-composition-id="s2_evidence" data-composition-src="compositions/s2_evidence.html" data-start="23.568" data-duration="36.768" data-track-index="0" data-track-kind="graphics" data-width="3840" data-height="2160"></div>
+      <div id="s3_separation" data-composition-id="s3_separation" data-composition-src="compositions/s3_separation.html" data-start="60.336" data-duration="42.552" data-track-index="0" data-track-kind="graphics" data-width="3840" data-height="2160"></div>
+      <div id="s4_catches" data-composition-id="s4_catches" data-composition-src="compositions/s4_catches.html" data-start="102.888" data-duration="30.48" data-track-index="0" data-track-kind="graphics" data-width="3840" data-height="2160"></div>
+      <div id="s5_checklist" data-composition-id="s5_checklist" data-composition-src="compositions/s5_checklist.html" data-start="133.368" data-duration="27.888" data-track-index="0" data-track-kind="graphics" data-width="3840" data-height="2160"></div>
+      <div id="s6_outro" data-composition-id="s6_outro" data-composition-src="compositions/s6_outro.html" data-start="161.256" data-duration="20.352" data-track-index="0" data-track-kind="graphics" data-width="3840" data-height="2160"></div>
+      <audio id="vo-s1" class="clip" data-start="0" data-duration="22.368" data-track-index="1" data-volume="1" src="assets/audio/vo_s1.mp3"></audio>
+      <audio id="vo-s2" class="clip" data-start="23.568" data-duration="35.568" data-track-index="1" data-volume="1" src="assets/audio/vo_s2.mp3"></audio>
+      <audio id="vo-s3" class="clip" data-start="60.336" data-duration="41.352" data-track-index="1" data-volume="1" src="assets/audio/vo_s3.mp3"></audio>
+      <audio id="vo-s4" class="clip" data-start="102.888" data-duration="29.28" data-track-index="1" data-volume="1" src="assets/audio/vo_s4.mp3"></audio>
+      <audio id="vo-s5" class="clip" data-start="133.368" data-duration="26.688" data-track-index="1" data-volume="1" src="assets/audio/vo_s5.mp3"></audio>
+      <audio id="vo-s6" class="clip" data-start="161.256" data-duration="19.152" data-track-index="1" data-volume="1" src="assets/audio/vo_s6.mp3"></audio>
+      <audio id="music" class="clip" data-start="0" data-duration="181.608" data-track-index="2" data-volume="1" src="assets/audio/music.mp3"></audio>
+      <audio id="sfx-0" class="clip" data-start="5.3" data-duration="0.5" data-track-index="3" data-volume="1" src="assets/audio/sfx/thump.wav"></audio>
+      <audio id="sfx-1" class="clip" data-start="6.3" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-2" class="clip" data-start="7.15" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-3" class="clip" data-start="8.2" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-4" class="clip" data-start="11.4" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-5" class="clip" data-start="21.2" data-duration="0.09" data-track-index="3" data-volume="0.9" src="assets/audio/sfx/tick.wav"></audio>
+      <audio id="sfx-6" class="clip" data-start="39.068" data-duration="0.5" data-track-index="3" data-volume="1" src="assets/audio/sfx/thump.wav"></audio>
+      <audio id="sfx-7" class="clip" data-start="43.768" data-duration="0.5" data-track-index="3" data-volume="1" src="assets/audio/sfx/thump.wav"></audio>
+      <audio id="sfx-8" class="clip" data-start="55.368" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-9" class="clip" data-start="56.168" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-10" class="clip" data-start="57.268" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-11" class="clip" data-start="79.636" data-duration="0.45" data-track-index="3" data-volume="0.8" src="assets/audio/sfx/string-snap.wav"></audio>
+      <audio id="sfx-12" class="clip" data-start="84.536" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-13" class="clip" data-start="86.736" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-14" class="clip" data-start="98.936" data-duration="0.5" data-track-index="3" data-volume="1" src="assets/audio/sfx/thump.wav"></audio>
+      <audio id="sfx-15" class="clip" data-start="105.588" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-16" class="clip" data-start="113.788" data-duration="0.14" data-track-index="3" data-volume="0.7" src="assets/audio/sfx/card-pin.wav"></audio>
+      <audio id="sfx-17" class="clip" data-start="124.638" data-duration="0.5" data-track-index="3" data-volume="1" src="assets/audio/sfx/thump.wav"></audio>
+      <audio id="sfx-18" class="clip" data-start="143.668" data-duration="0.09" data-track-index="3" data-volume="0.9" src="assets/audio/sfx/tick.wav"></audio>
+      <audio id="sfx-19" class="clip" data-start="149.868" data-duration="0.09" data-track-index="3" data-volume="0.9" src="assets/audio/sfx/tick.wav"></audio>
+      <audio id="sfx-20" class="clip" data-start="155.168" data-duration="0.09" data-track-index="3" data-volume="0.9" src="assets/audio/sfx/tick.wav"></audio>
+      <audio id="sfx-21" class="clip" data-start="178.356" data-duration="0.5" data-track-index="3" data-volume="1" src="assets/audio/sfx/thump.wav"></audio>
+    </div>
+    <script src="js/shared.js"></script>
+    <script>
+      (function () {
+        const tl = makeSceneTimeline("ctrl-ahead-argon", 181.608);
+        window.__timelines["ctrl-ahead-argon"] = tl;
+      })();
+    </script>
+  </body>
+</html>

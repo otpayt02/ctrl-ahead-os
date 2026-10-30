@@ -1,0 +1,110 @@
+<template>
+  <link rel="stylesheet" href="css/theme.css" />
+  <style>
+    #root { position:absolute; inset:0; background:var(--dark-bg); overflow:hidden; }
+
+  .stage { position:absolute; inset:0; overflow:hidden; }
+  .scrim-b { position:absolute; inset:0; background:linear-gradient(0deg, rgba(5,7,11,0.92) 0%, rgba(5,7,11,0) 30%); }
+  .kicker { position:absolute; font-family:var(--font-mono); font-weight:600; letter-spacing:0.30em; color:var(--neon-cyan); font-size:46px; }
+  .bigcard { position:absolute; left:720px; top:520px; width:2400px; padding:64px 70px; text-align:center; }
+  .bigcard .blab { font-family:var(--font-mono); font-size:52px; letter-spacing:0.26em; font-size:52px; }
+  .bigcard .btext { font-size:86px; font-weight:700; line-height:1.18; color:#fff; margin-top:26px; }
+  #s6-slash { position:absolute; left:-40px; top:56%; width:2480px; height:12px; background:var(--skeptic-red); transform-origin:0 50%; }
+  .mono-big { font-family:var(--font-mono); font-weight:700; font-size:150px; line-height:1.1; margin-top:30px; }
+  .chip { position:absolute; padding:24px 42px; border-radius:999px; border:3px solid rgba(255,255,255,0.30); background:rgba(10,13,20,0.88); font-size:50px; font-weight:600; white-space:nowrap; }
+  .chip.gold { border-color:var(--gold); color:var(--gold); }
+  .welcome { position:absolute; left:0; width:3840px; text-align:center; }
+  .arrowimg { position:absolute; left:540px; top:430px; width:860px; height:860px; object-fit:cover; border-radius:44px; border:4px solid rgba(255,209,102,0.75); box-shadow:0 30px 90px rgba(0,0,0,0.55); }
+  .wordmark { position:absolute; left:1560px; top:520px; font-size:176px; font-weight:700; letter-spacing:-0.02em; color:#fff; }
+  .catch { position:absolute; left:1560px; top:780px; width:1900px; font-size:86px; font-weight:600; line-height:1.25; color:#fff; }
+  .subbtn { position:absolute; left:1560px; top:1140px; background:var(--skeptic-red); color:#fff; font-weight:700; border-radius:999px; padding:34px 76px; font-size:64px; }
+  .tagline { position:absolute; left:1560px; top:1420px; font-family:var(--font-mono); font-size:48px; letter-spacing:0.18em; color:var(--neon-cyan); }
+  .fadeblack { position:absolute; inset:0; background:#000; pointer-events:none; }
+
+  #s6-captions { top:auto; bottom:36px; height:204px; }
+  #s6-captions .caption { position:absolute; left:420px; right:420px; bottom:0; display:block; white-space:nowrap; font-size:62px; }
+  .caption .w { color: rgba(255,255,255,0.42); }
+
+  </style>
+  <div id="root" data-composition-id="s6_outro" data-start="0" data-duration="20.352" data-width="3840" data-height="2160">
+
+    <div id="s6-cam" class="clip" data-start="0" data-duration="20.352" data-track-index="0">
+      <div class="stage">
+        <div class="scrim-b"></div>
+        <div id="s6-kicker" class="kicker" style="left:420px; top:190px; opacity:0;">THE REAL STORY</div>
+        <div id="s6-bad" class="glass-panel bigcard" style="opacity:0;">
+          <div class="blab" style="color:#ff8080;">NOT THIS</div>
+          <div class="btext">A MODEL THAT MAGICALLY<br/>FIXES OLD CODE</div>
+          <div id="s6-slash" style="transform:rotate(-3deg) scaleX(0);"></div>
+        </div>
+        <div id="s6-flow" class="glass-panel bigcard" style="opacity:0;">
+          <div class="blab" style="color:var(--neon-cyan);">THIS</div>
+          <div class="btext">A WORKFLOW THAT TURNS</div>
+          <div class="mono-big"><span id="s6-months" style="opacity:0;">MONTHS</span> <span id="s6-arrow" style="color:rgba(255,255,255,0.55); opacity:0;">→</span> <span id="s6-weeks" style="color:var(--gold); opacity:0;">WEEKS</span></div>
+        </div>
+        <div id="s6-gate" class="chip gold" style="left:1240px; top:1230px; opacity:0;">WITH HUMANS HOLDING THE GATE</div>
+        <div id="s6-welcome" class="welcome" style="top:600px; opacity:0;">
+          <div style="font-size:124px; font-weight:700; color:#fff;">NEW HERE? WELCOME.</div>
+          <div id="s6-wsub1" style="font-size:64px; font-weight:600; color:rgba(255,255,255,0.82); margin-top:44px; opacity:0;">ONE AI DEVELOPMENT AT A TIME.</div>
+          <div id="s6-wsub2" style="font-size:64px; font-weight:700; color:var(--gold); margin-top:20px; opacity:0;">EVIDENCE ON SCREEN — EVERY TIME.</div>
+        </div>
+        <div id="s6-end" style="position:absolute; inset:0; opacity:0;">
+          <img class="arrowimg" id="s6-arrowimg" src="assets/img/brass_arrow.webp" alt="" />
+          <div class="wordmark">AHEAD OF RUSH AI</div>
+          <div class="catch">We don't chase the future.<br/><span style="color:var(--gold);">We check it.</span></div>
+          <div class="subbtn" id="s6-sub">SUBSCRIBE</div>
+          <div class="tagline">AHEAD OF RUSH AI — CONFIRMED, NOT JUST CLAIMED.</div>
+        </div>
+        <div class="caption-band" id="s6-captions">
+          <div class="caption" id="s6-cap-0" style="opacity:0;"><span class="w" id="s6-w-0-0">That's</span> <span class="w" id="s6-w-0-1">the</span> <span class="w" id="s6-w-0-2">real</span> <span class="w" id="s6-w-0-3">story:</span></div>
+          <div class="caption" id="s6-cap-1" style="opacity:0;"><span class="w" id="s6-w-1-0">not</span> <span class="w" id="s6-w-1-1">a</span> <span class="w" id="s6-w-1-2">model</span> <span class="w" id="s6-w-1-3">that</span> <span class="w" id="s6-w-1-4">magically</span> <span class="w" id="s6-w-1-5">fixes</span> <span class="w" id="s6-w-1-6">old</span></div>
+          <div class="caption" id="s6-cap-2" style="opacity:0;"><span class="w" id="s6-w-2-0">code,</span> <span class="w" id="s6-w-2-1">but</span> <span class="w" id="s6-w-2-2">a</span> <span class="w" id="s6-w-2-3">workflow</span> <span class="w" id="s6-w-2-4">that</span> <span class="w" id="s6-w-2-5">turns</span> <span class="w" id="s6-w-2-6">months</span></div>
+          <div class="caption" id="s6-cap-3" style="opacity:0;"><span class="w" id="s6-w-3-0">of</span> <span class="w" id="s6-w-3-1">mechanical</span> <span class="w" id="s6-w-3-2">untangling</span> <span class="w" id="s6-w-3-3">into</span> <span class="w" id="s6-w-3-4">weeks —</span> <span class="w" id="s6-w-3-5">with</span> <span class="w" id="s6-w-3-6">humans</span></div>
+          <div class="caption" id="s6-cap-4" style="opacity:0;"><span class="w" id="s6-w-4-0">still</span> <span class="w" id="s6-w-4-1">holding</span> <span class="w" id="s6-w-4-2">the</span> <span class="w" id="s6-w-4-3">gate.</span></div>
+          <div class="caption" id="s6-cap-5" style="opacity:0;"><span class="w" id="s6-w-5-0">If</span> <span class="w" id="s6-w-5-1">you're</span> <span class="w" id="s6-w-5-2">new</span> <span class="w" id="s6-w-5-3">here,</span></div>
+          <div class="caption" id="s6-cap-6" style="opacity:0;"><span class="w" id="s6-w-6-0">welcome —</span> <span class="w" id="s6-w-6-1">this</span> <span class="w" id="s6-w-6-2">channel</span> <span class="w" id="s6-w-6-3">breaks</span> <span class="w" id="s6-w-6-4">down</span> <span class="w" id="s6-w-6-5">one</span> <span class="w" id="s6-w-6-6">AI</span></div>
+          <div class="caption" id="s6-cap-7" style="opacity:0;"><span class="w" id="s6-w-7-0">development</span> <span class="w" id="s6-w-7-1">like</span> <span class="w" id="s6-w-7-2">this,</span> <span class="w" id="s6-w-7-3">with</span> <span class="w" id="s6-w-7-4">the</span> <span class="w" id="s6-w-7-5">evidence</span> <span class="w" id="s6-w-7-6">on</span></div>
+          <div class="caption" id="s6-cap-8" style="opacity:0;"><span class="w" id="s6-w-8-0">screen,</span> <span class="w" id="s6-w-8-1">every</span> <span class="w" id="s6-w-8-2">time.</span></div>
+          <div class="caption" id="s6-cap-9" style="opacity:0;"><span class="w" id="s6-w-9-0">Subscribe,</span> <span class="w" id="s6-w-9-1">and</span> <span class="w" id="s6-w-9-2">I'll</span> <span class="w" id="s6-w-9-3">see</span> <span class="w" id="s6-w-9-4">you</span> <span class="w" id="s6-w-9-5">in</span> <span class="w" id="s6-w-9-6">the</span></div>
+          <div class="caption" id="s6-cap-10" style="opacity:0;"><span class="w" id="s6-w-10-0">next</span> <span class="w" id="s6-w-10-1">one.</span></div>
+        </div>
+        <div id="s6-fade" class="fadeblack"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="js/shared.js"></script>
+  <script>
+    (function () {
+      const tl = makeSceneTimeline("s6_outro", 20.352);
+      window.__timelines["s6_outro"] = tl;
+
+      const cam6 = document.getElementById("s6-cam");
+      cameraPush(cam6, 0.97, 1.0, 0.4, tl, 0);
+      tl.fromTo("#s6-fade", { opacity: 1 }, { opacity: 0, duration: 0.3, ease: "none" }, 0);
+      tl.fromTo("#s6-fade", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none", immediateRender: false }, 20.052);
+      tl.fromTo("#s6-kicker", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5 }, 0.3);
+      pinCard(document.getElementById("s6-bad"), tl, 1.5);
+      tl.fromTo("#s6-slash", { scaleX: 0, rotation: -3 }, { scaleX: 1, rotation: -3, duration: 0.35, ease: "power2.out" }, 2.8);
+      tl.to("#s6-bad", { opacity: 0, scale: 0.94, duration: 0.35, ease: "power2.in" }, 4.05);
+      pinCard(document.getElementById("s6-flow"), tl, 4.3);
+      tl.fromTo("#s6-months", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.35 }, 5.3);
+      tl.fromTo("#s6-arrow", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 6.4);
+      tl.fromTo("#s6-weeks", { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, 7.3);
+      pinCard(document.getElementById("s6-gate"), tl, 8.2);
+      tl.to(["#s6-flow", "#s6-gate"], { opacity: 0, y: -30, duration: 0.4, ease: "power2.in" }, 10.15);
+      tl.fromTo("#s6-welcome", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 10.4);
+      tl.fromTo("#s6-wsub1", { opacity: 0 }, { opacity: 1, duration: 0.45 }, 12.1);
+      tl.fromTo("#s6-wsub2", { opacity: 0 }, { opacity: 1, duration: 0.45 }, 14.5);
+      tl.to("#s6-welcome", { opacity: 0, y: -30, duration: 0.4, ease: "power2.in" }, 16.35);
+      tl.to("#s6-end", { opacity: 1, duration: 0.5 }, 16.6);
+      tl.fromTo("#s6-arrowimg", { scale: 0.8, rotation: -4 }, { scale: 1, rotation: 0, duration: 0.55, ease: "back.out(1.6)" }, 16.7);
+      tl.fromTo("#s6-sub", { scale: 0.7 }, { scale: 1, duration: 0.4, ease: "back.out(2.2)" }, 17.1);
+      pulseBadge(document.getElementById("s6-sub"), tl, 18.4);
+      var CAPS = [{el:"s6-cap-0",start:0.00,end:1.22,words:[["s6-w-0-0",0.00,0.44],["s6-w-0-1",0.44,0.58],["s6-w-0-2",0.58,0.78],["s6-w-0-3",0.78,1.22]]},{el:"s6-cap-1",start:1.54,end:3.43,words:[["s6-w-1-0",1.54,1.66],["s6-w-1-1",1.66,2.06],["s6-w-1-2",2.06,2.06],["s6-w-1-3",2.06,2.30],["s6-w-1-4",2.30,2.76],["s6-w-1-5",2.76,3.10],["s6-w-1-6",3.10,3.46]]},{el:"s6-cap-2",start:3.46,end:5.63,words:[["s6-w-2-0",3.46,3.82],["s6-w-2-1",4.14,4.34],["s6-w-2-2",4.34,4.56],["s6-w-2-3",4.56,4.76],["s6-w-2-4",4.76,5.06],["s6-w-2-5",5.06,5.34],["s6-w-2-6",5.34,5.66]]},{el:"s6-cap-3",start:5.66,end:8.51,words:[["s6-w-3-0",5.66,5.92],["s6-w-3-1",5.92,6.32],["s6-w-3-2",6.32,6.90],["s6-w-3-3",6.90,7.32],["s6-w-3-4",7.32,8.40],["s6-w-3-5",8.16,8.32],["s6-w-3-6",8.32,8.54]]},{el:"s6-cap-4",start:8.54,end:9.52,words:[["s6-w-4-0",8.54,8.86],["s6-w-4-1",8.86,9.08],["s6-w-4-2",9.08,9.30],["s6-w-4-3",9.30,9.52]]},{el:"s6-cap-5",start:10.26,end:11.04,words:[["s6-w-5-0",10.26,10.38],["s6-w-5-1",10.38,10.48],["s6-w-5-2",10.48,10.66],["s6-w-5-3",10.66,11.04]]},{el:"s6-cap-6",start:11.12,end:13.43,words:[["s6-w-6-0",11.12,12.23],["s6-w-6-1",11.92,12.10],["s6-w-6-2",12.10,12.38],["s6-w-6-3",12.38,12.58],["s6-w-6-4",12.58,12.94],["s6-w-6-5",12.94,13.26],["s6-w-6-6",13.26,13.46]]},{el:"s6-cap-7",start:13.46,end:15.35,words:[["s6-w-7-0",13.46,13.80],["s6-w-7-1",13.80,14.14],["s6-w-7-2",14.14,14.50],["s6-w-7-3",14.50,14.68],["s6-w-7-4",14.68,15.00],["s6-w-7-5",15.00,15.06],["s6-w-7-6",15.06,15.38]]},{el:"s6-cap-8",start:15.38,end:16.79,words:[["s6-w-8-0",15.38,15.82],["s6-w-8-1",15.82,16.18],["s6-w-8-2",16.18,16.68]]},{el:"s6-cap-9",start:17.14,end:18.41,words:[["s6-w-9-0",17.14,17.48],["s6-w-9-1",17.78,17.88],["s6-w-9-2",17.88,18.04],["s6-w-9-3",18.04,18.14],["s6-w-9-4",18.14,18.24],["s6-w-9-5",18.24,18.34],["s6-w-9-6",18.34,18.44]]},{el:"s6-cap-10",start:18.44,end:18.88,words:[["s6-w-10-0",18.44,18.62],["s6-w-10-1",18.62,18.88]]}];
+      driveCaptions(tl, CAPS.map(function (p) { return { el: document.getElementById(p.el), start: p.start, end: p.end, words: p.words.map(function (w) { return [document.getElementById(w[0]), w[1], w[2]]; }) }; }));
+
+    })();
+  </script>
+</template>

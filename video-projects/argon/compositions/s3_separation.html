@@ -1,0 +1,166 @@
+<template>
+  <link rel="stylesheet" href="css/theme.css" />
+  <style>
+    #root { position:absolute; inset:0; background:var(--dark-bg); overflow:hidden; }
+
+  .stage { position:absolute; inset:0; overflow:hidden; }
+  .grid { position:absolute; inset:0; background-image:linear-gradient(rgba(97,218,251,0.05) 2px, transparent 2px), linear-gradient(90deg, rgba(97,218,251,0.05) 2px, transparent 2px); background-size:120px 120px; }
+  .scrim-b { position:absolute; inset:0; background:linear-gradient(0deg, rgba(5,7,11,0.92) 0%, rgba(5,7,11,0) 30%); }
+  .kicker { position:absolute; font-family:var(--font-mono); font-weight:600; letter-spacing:0.30em; color:var(--neon-cyan); font-size:46px; }
+  .headline { position:absolute; font-weight:700; letter-spacing:-0.02em; color:#fff; }
+  .cluster { position:absolute; width:1300px; height:920px; border-radius:28px; border:3px dashed rgba(255,255,255,0.22); }
+  .cluster .clabel { position:absolute; left:44px; top:36px; font-family:var(--font-mono); font-size:44px; letter-spacing:0.14em; font-weight:700; }
+  .node { position:absolute; padding:18px 30px; border-radius:14px; background:rgba(255,255,255,0.07); border:2px solid rgba(255,255,255,0.25); font-family:var(--font-mono); font-size:38px; white-space:nowrap; }
+  .chip { position:absolute; padding:22px 38px; border-radius:999px; border:3px solid rgba(255,255,255,0.30); background:rgba(10,13,20,0.88); font-size:46px; font-weight:600; white-space:nowrap; }
+  .chip.gold { border-color:var(--gold); color:var(--gold); }
+  .chip.red { border-color:var(--skeptic-red); color:#ff8080; }
+  .chip.cyan { border-color:var(--neon-cyan); color:var(--neon-cyan); }
+  .tangle { position:absolute; inset:0; pointer-events:none; }
+  .tangle path { fill:none; stroke-width:6; stroke-linecap:round; opacity:0.75; }
+  .clean { position:absolute; inset:0; pointer-events:none; }
+  .clean path { fill:none; stroke-width:7; stroke-linecap:round; }
+  .take { position:absolute; top:1740px; width:1420px; padding:30px 40px; border-radius:18px; font-size:48px; font-weight:700; }
+  .slam { position:absolute; left:0; width:3840px; text-align:center; font-weight:700; letter-spacing:-0.02em; }
+  .fadeblack { position:absolute; inset:0; background:#000; pointer-events:none; }
+  #s3-rw-strike { position:absolute; left:30px; top:50%; width:92%; height:8px; background:var(--skeptic-red); transform-origin:0 50%; }
+
+  #s3-captions { top:auto; bottom:36px; height:204px; }
+  #s3-captions .caption { position:absolute; left:420px; right:420px; bottom:0; display:block; white-space:nowrap; font-size:62px; }
+  .caption .w { color: rgba(255,255,255,0.42); }
+
+  </style>
+  <div id="root" data-composition-id="s3_separation" data-start="0" data-duration="42.552" data-width="3840" data-height="2160">
+
+    <div id="s3-cam" class="clip" data-start="0" data-duration="42.552" data-track-index="0">
+      <div class="stage" id="s3-stage">
+        <div class="grid"></div>
+        <div class="scrim-b"></div>
+        <div id="s3-kicker" class="kicker" style="left:420px; top:170px; opacity:0;">WHAT IT ACTUALLY DID</div>
+        <div id="s3-head" class="headline" style="left:420px; top:250px; font-size:88px; opacity:0;">THE PART WORTH STEALING</div>
+        <div id="s3-diagram">
+          <svg class="tangle" id="s3-tangle" viewBox="0 0 3840 2160" preserveAspectRatio="none">
+            <path style="stroke-dasharray:100; stroke-dashoffset:100;" id="s3-t1" pathLength="100" stroke="#61dafb" d="M 1500 900 C 1900 500, 1950 1500, 2350 950" />
+            <path style="stroke-dasharray:100; stroke-dashoffset:100;" id="s3-t2" pathLength="100" stroke="#ffd166" d="M 1550 1200 C 1850 1600, 2000 700, 2300 1250" />
+            <path style="stroke-dasharray:100; stroke-dashoffset:100;" id="s3-t3" pathLength="100" stroke="#61dafb" d="M 1480 1050 C 1750 1050, 2100 1080, 2380 1080" />
+            <path style="stroke-dasharray:100; stroke-dashoffset:100;" id="s3-t4" pathLength="100" stroke="#ffd166" d="M 1520 760 C 1980 1250, 1880 800, 2330 780" />
+            <path style="stroke-dasharray:100; stroke-dashoffset:100;" id="s3-t5" pathLength="100" stroke="#61dafb" d="M 1560 1380 C 1900 1000, 1960 1450, 2290 1400" />
+          </svg>
+          <svg class="clean" id="s3-clean" viewBox="0 0 3840 2160" preserveAspectRatio="none">
+            <path style="stroke-dasharray:100; stroke-dashoffset:100;" id="s3-c1" pathLength="100" stroke="#61dafb" d="M 1330 950 L 2510 950" />
+            <path style="stroke-dasharray:100; stroke-dashoffset:100;" id="s3-c2" pathLength="100" stroke="#ffd166" d="M 1330 1250 L 2510 1250" />
+          </svg>
+          <div id="s3-clA" class="cluster" style="left:420px; top:520px; opacity:0;">
+            <div class="clabel" style="color:var(--neon-cyan);">CORE WEBPAGE HANDLING</div>
+            <div class="node" style="left:60px; top:150px;">PAGE RENDER</div>
+            <div class="node" style="left:480px; top:170px;">NAVIGATION</div>
+            <div class="node" style="left:180px; top:400px;">TAB CORE</div>
+            <div class="node" style="left:640px; top:430px;">PAGE LIFECYCLE</div>
+            <div class="node" style="left:330px; top:660px;">INPUT ROUTING</div>
+          </div>
+          <div id="s3-clB" class="cluster" style="left:2120px; top:520px; opacity:0;">
+            <div class="clabel" style="color:var(--gold);">EVERYDAY BROWSER FEATURES</div>
+            <div class="node" style="left:60px; top:150px;">BOOKMARKS</div>
+            <div class="node" style="left:520px; top:170px;">EXTENSIONS</div>
+            <div class="node" style="left:200px; top:400px;">HISTORY</div>
+            <div class="node" style="left:660px; top:430px;">DOWNLOADS</div>
+            <div class="node" style="left:360px; top:660px;">SETTINGS</div>
+          </div>
+          <div id="s3-mv1" class="chip cyan" style="left:1560px; top:600px; opacity:0; font-size:40px;">TAB</div>
+          <div id="s3-mv2" class="chip cyan" style="left:1980px; top:760px; opacity:0; font-size:40px;">PANEL</div>
+          <div id="s3-mv3" class="chip cyan" style="left:1620px; top:1560px; opacity:0; font-size:40px;">FLOATING WINDOW</div>
+          <div id="s3-crash" class="chip red" style="left:1690px; top:1000px; opacity:0; font-size:64px; font-weight:700;">CRASH</div>
+          <div id="s3-rw" class="chip" style="left:1240px; top:330px; opacity:0; font-size:52px;"><span style="position:relative; display:inline-block;">REWRITE SIX MILLION LINES<span id="s3-rw-strike" style="transform:scaleX(0);"></span></span></div>
+          <div id="s3-sep" class="chip gold" style="left:1560px; top:330px; opacity:0; font-size:58px; font-weight:700;">SEPARATED</div>
+          <div id="s3-files" class="chip" style="left:420px; top:1560px; opacity:0;">HUNDREDS OF FILES — CLEAN CHANGES, A FEW AT A TIME</div>
+          <div id="s3-chk1" class="chip cyan" style="left:420px; top:1560px; opacity:0;">PASS — CHROMIUM TEST SUITES</div>
+          <div id="s3-chk2" class="chip gold" style="left:1980px; top:1560px; opacity:0;">SIGNED OFF — BY A HUMAN</div>
+        </div>
+        <div id="s3-take1" class="take" style="left:420px; background:rgba(97,218,251,0.12); border:2px solid var(--neon-cyan); color:#c9f2ff; opacity:0;">THE AGENT → MECHANICAL SEPARATION</div>
+        <div id="s3-take2" class="take" style="left:2000px; background:rgba(255,209,102,0.12); border:2px solid var(--gold); color:#ffe9b0; opacity:0;">THE HUMAN → TESTS + REVIEW GATE</div>
+        <div id="s3-slam1" class="slam" style="top:820px; font-size:140px; color:#fff; opacity:0;">AUTOMATE THE GRIND.</div>
+        <div id="s3-slam2" class="slam" style="top:1010px; font-size:140px; color:var(--gold); opacity:0;">NEVER AUTOMATE THE APPROVAL.</div>
+        <div class="caption-band" id="s3-captions">
+          <div class="caption" id="s3-cap-0" style="opacity:0;"><span class="w" id="s3-w-0-0">Here's</span> <span class="w" id="s3-w-0-1">the</span> <span class="w" id="s3-w-0-2">part</span> <span class="w" id="s3-w-0-3">worth</span> <span class="w" id="s3-w-0-4">stealing</span> <span class="w" id="s3-w-0-5">for</span> <span class="w" id="s3-w-0-6">your</span></div>
+          <div class="caption" id="s3-cap-1" style="opacity:0;"><span class="w" id="s3-w-1-0">own</span> <span class="w" id="s3-w-1-1">projects.</span></div>
+          <div class="caption" id="s3-cap-2" style="opacity:0;"><span class="w" id="s3-w-2-0">Chrome's</span> <span class="w" id="s3-w-2-1">problem</span> <span class="w" id="s3-w-2-2">wasn't</span> <span class="w" id="s3-w-2-3">bad</span> <span class="w" id="s3-w-2-4">code —</span> <span class="w" id="s3-w-2-5">it</span> <span class="w" id="s3-w-2-6">was</span></div>
+          <div class="caption" id="s3-cap-3" style="opacity:0;"><span class="w" id="s3-w-3-0">tangled</span> <span class="w" id="s3-w-3-1">code:</span></div>
+          <div class="caption" id="s3-cap-4" style="opacity:0;"><span class="w" id="s3-w-4-0">core</span> <span class="w" id="s3-w-4-1">webpage</span> <span class="w" id="s3-w-4-2">handling</span> <span class="w" id="s3-w-4-3">glued</span> <span class="w" id="s3-w-4-4">together</span> <span class="w" id="s3-w-4-5">with</span> <span class="w" id="s3-w-4-6">everyday</span></div>
+          <div class="caption" id="s3-cap-5" style="opacity:0;"><span class="w" id="s3-w-5-0">browser</span> <span class="w" id="s3-w-5-1">features,</span> <span class="w" id="s3-w-5-2">so</span> <span class="w" id="s3-w-5-3">moving</span> <span class="w" id="s3-w-5-4">a</span> <span class="w" id="s3-w-5-5">live</span> <span class="w" id="s3-w-5-6">page</span></div>
+          <div class="caption" id="s3-cap-6" style="opacity:0;"><span class="w" id="s3-w-6-0">between</span> <span class="w" id="s3-w-6-1">a</span> <span class="w" id="s3-w-6-2">tab,</span> <span class="w" id="s3-w-6-3">a</span> <span class="w" id="s3-w-6-4">panel,</span></div>
+          <div class="caption" id="s3-cap-7" style="opacity:0;"><span class="w" id="s3-w-7-0">and</span> <span class="w" id="s3-w-7-1">a</span> <span class="w" id="s3-w-7-2">floating</span> <span class="w" id="s3-w-7-3">window</span> <span class="w" id="s3-w-7-4">could</span> <span class="w" id="s3-w-7-5">crash</span> <span class="w" id="s3-w-7-6">the</span></div>
+          <div class="caption" id="s3-cap-8" style="opacity:0;"><span class="w" id="s3-w-8-0">whole</span> <span class="w" id="s3-w-8-1">browser.</span></div>
+          <div class="caption" id="s3-cap-9" style="opacity:0;"><span class="w" id="s3-w-9-0">Argon</span> <span class="w" id="s3-w-9-1">didn't</span> <span class="w" id="s3-w-9-2">rewrite</span> <span class="w" id="s3-w-9-3">six</span> <span class="w" id="s3-w-9-4">million</span> <span class="w" id="s3-w-9-5">lines.</span></div>
+          <div class="caption" id="s3-cap-10" style="opacity:0;"><span class="w" id="s3-w-10-0">It</span> <span class="w" id="s3-w-10-1">separated</span> <span class="w" id="s3-w-10-2">them —</span> <span class="w" id="s3-w-10-3">hundreds</span> <span class="w" id="s3-w-10-4">of</span> <span class="w" id="s3-w-10-5">files,</span></div>
+          <div class="caption" id="s3-cap-11" style="opacity:0;"><span class="w" id="s3-w-11-0">multiple</span> <span class="w" id="s3-w-11-1">clean</span> <span class="w" id="s3-w-11-2">changes</span> <span class="w" id="s3-w-11-3">at</span> <span class="w" id="s3-w-11-4">a</span> <span class="w" id="s3-w-11-5">time,</span></div>
+          <div class="caption" id="s3-cap-12" style="opacity:0;"><span class="w" id="s3-w-12-0">every</span> <span class="w" id="s3-w-12-1">one</span> <span class="w" id="s3-w-12-2">checked</span> <span class="w" id="s3-w-12-3">against</span> <span class="w" id="s3-w-12-4">Chromium's</span> <span class="w" id="s3-w-12-5">test</span> <span class="w" id="s3-w-12-6">suites</span></div>
+          <div class="caption" id="s3-cap-13" style="opacity:0;"><span class="w" id="s3-w-13-0">and</span> <span class="w" id="s3-w-13-1">signed</span> <span class="w" id="s3-w-13-2">off</span> <span class="w" id="s3-w-13-3">by</span> <span class="w" id="s3-w-13-4">a</span> <span class="w" id="s3-w-13-5">human.</span></div>
+          <div class="caption" id="s3-cap-14" style="opacity:0;"><span class="w" id="s3-w-14-0">That's</span> <span class="w" id="s3-w-14-1">the</span> <span class="w" id="s3-w-14-2">pattern</span> <span class="w" id="s3-w-14-3">that</span> <span class="w" id="s3-w-14-4">transfers:</span></div>
+          <div class="caption" id="s3-cap-15" style="opacity:0;"><span class="w" id="s3-w-15-0">give</span> <span class="w" id="s3-w-15-1">the</span> <span class="w" id="s3-w-15-2">agent</span> <span class="w" id="s3-w-15-3">the</span> <span class="w" id="s3-w-15-4">mechanical</span> <span class="w" id="s3-w-15-5">separation</span> <span class="w" id="s3-w-15-6">work,</span></div>
+          <div class="caption" id="s3-cap-16" style="opacity:0;"><span class="w" id="s3-w-16-0">keep</span> <span class="w" id="s3-w-16-1">the</span> <span class="w" id="s3-w-16-2">tests</span> <span class="w" id="s3-w-16-3">and</span> <span class="w" id="s3-w-16-4">the</span> <span class="w" id="s3-w-16-5">review</span> <span class="w" id="s3-w-16-6">gate</span></div>
+          <div class="caption" id="s3-cap-17" style="opacity:0;"><span class="w" id="s3-w-17-0">human.</span></div>
+          <div class="caption" id="s3-cap-18" style="opacity:0;"><span class="w" id="s3-w-18-0">It's</span> <span class="w" id="s3-w-18-1">the</span> <span class="w" id="s3-w-18-2">same</span> <span class="w" id="s3-w-18-3">shape</span> <span class="w" id="s3-w-18-4">as</span> <span class="w" id="s3-w-18-5">any</span> <span class="w" id="s3-w-18-6">serious</span></div>
+          <div class="caption" id="s3-cap-19" style="opacity:0;"><span class="w" id="s3-w-19-0">coding-agent</span> <span class="w" id="s3-w-19-1">pipeline —</span> <span class="w" id="s3-w-19-2">automate</span> <span class="w" id="s3-w-19-3">the</span> <span class="w" id="s3-w-19-4">grind,</span></div>
+          <div class="caption" id="s3-cap-20" style="opacity:0;"><span class="w" id="s3-w-20-0">never</span> <span class="w" id="s3-w-20-1">automate</span> <span class="w" id="s3-w-20-2">the</span> <span class="w" id="s3-w-20-3">approval.</span></div>
+        </div>
+        <div id="s3-fade" class="fadeblack"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="js/shared.js"></script>
+  <script>
+    (function () {
+      const tl = makeSceneTimeline("s3_separation", 42.552);
+      window.__timelines["s3_separation"] = tl;
+
+      const cam3 = document.getElementById("s3-cam");
+      cameraPush(cam3, 0.97, 1.0, 0.4, tl, 0);
+      tl.fromTo("#s3-fade", { opacity: 1 }, { opacity: 0, duration: 0.3, ease: "none" }, 0);
+      tl.fromTo("#s3-fade", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none", immediateRender: false }, 42.252);
+      tl.fromTo("#s3-kicker", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5 }, 0.3);
+      tl.fromTo("#s3-head", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.55, ease: "power3.out" }, 0.5);
+      /* tangled state: clusters fade in, curves draw between them */
+      tl.fromTo("#s3-clA", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 6.7);
+      tl.fromTo("#s3-clB", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 8.6);
+      ["#s3-t1", "#s3-t2", "#s3-t3", "#s3-t4", "#s3-t5"].forEach(function (p, i) {
+        tl.fromTo(p, { strokeDasharray: 100, strokeDashoffset: 100 }, { strokeDashoffset: 0, duration: 0.55, ease: "power2.inOut" }, 9.0 + i * 0.28);
+      });
+      pinCard(document.getElementById("s3-mv1"), tl, 11.4);
+      pinCard(document.getElementById("s3-mv2"), tl, 12.8);
+      pinCard(document.getElementById("s3-mv3"), tl, 13.6);
+      stampIn(document.getElementById("s3-crash"), tl, 14.6);
+      tl.fromTo("#s3-stage", { x: 0, y: 0 }, { keyframes: [
+        { x: -12, y: 7, duration: 0.05 }, { x: 10, y: -5, duration: 0.05 },
+        { x: -6, y: 3, duration: 0.05 }, { x: 0, y: 0, duration: 0.05 } ] }, 14.66);
+      tl.to(["#s3-mv1", "#s3-mv2", "#s3-mv3", "#s3-crash"], { opacity: 0, duration: 0.3 }, 16.0);
+      /* not a rewrite — a separation */
+      pinCard(document.getElementById("s3-rw"), tl, 16.8);
+      tl.fromTo("#s3-rw-strike", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power2.out" }, 18.3);
+      tl.to("#s3-rw", { opacity: 0.35, duration: 0.3 }, 18.6);
+      tl.to("#s3-clA", { x: -240, duration: 1.1, ease: "power3.inOut" }, 19.3);
+      tl.to("#s3-clB", { x: 240, duration: 1.1, ease: "power3.inOut" }, 19.3);
+      tl.to("#s3-tangle", { opacity: 0, duration: 0.6 }, 19.5);
+      ["#s3-c1", "#s3-c2"].forEach(function (p, i) {
+        tl.fromTo(p, { strokeDasharray: 100, strokeDashoffset: 100 }, { strokeDashoffset: 0, duration: 0.7, ease: "power2.inOut" }, 19.9 + i * 0.3);
+      });
+      tl.to("#s3-rw", { opacity: 0, duration: 0.3 }, 20.2);
+      stampIn(document.getElementById("s3-sep"), tl, 20.5);
+      pinCard(document.getElementById("s3-files"), tl, 20.6);
+      tl.to("#s3-files", { opacity: 0, duration: 0.3 }, 23.4);
+      pinCard(document.getElementById("s3-chk1"), tl, 24.2);
+      pinCard(document.getElementById("s3-chk2"), tl, 26.4);
+      tl.to("#s3-sep", { opacity: 0, duration: 0.3 }, 28.2);
+      tl.fromTo("#s3-take1", { opacity: 0, y: 44 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 30.1);
+      tl.fromTo("#s3-take2", { opacity: 0, y: 44 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 32.6);
+      /* closing slam: diagram dims, the rule lands */
+      tl.to("#s3-diagram", { opacity: 0.15, duration: 0.5 }, 38.2);
+      tl.to(["#s3-take1", "#s3-take2"], { opacity: 0.25, duration: 0.5 }, 38.2);
+      tl.fromTo("#s3-slam1", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(1.7)" }, 38.6);
+      tl.fromTo("#s3-slam2", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(1.7)" }, 39.7);
+      var CAPS = [{el:"s3-cap-0",start:0.00,end:1.65,words:[["s3-w-0-0",0.00,0.40],["s3-w-0-1",0.40,0.50],["s3-w-0-2",0.50,0.70],["s3-w-0-3",0.70,0.98],["s3-w-0-4",0.98,1.30],["s3-w-0-5",1.30,1.46],["s3-w-0-6",1.46,1.68]]},{el:"s3-cap-1",start:1.68,end:2.48,words:[["s3-w-1-0",1.68,1.86],["s3-w-1-1",1.86,2.48]]},{el:"s3-cap-2",start:3.00,end:5.35,words:[["s3-w-2-0",3.00,3.30],["s3-w-2-1",3.30,3.62],["s3-w-2-2",3.62,3.98],["s3-w-2-3",3.98,4.38],["s3-w-2-4",4.38,5.12],["s3-w-2-5",5.00,5.08],["s3-w-2-6",5.08,5.38]]},{el:"s3-cap-3",start:5.38,end:6.36,words:[["s3-w-3-0",5.38,5.66],["s3-w-3-1",5.66,6.36]]},{el:"s3-cap-4",start:6.70,end:9.21,words:[["s3-w-4-0",6.70,6.96],["s3-w-4-1",7.21,7.71],["s3-w-4-2",7.46,7.94],["s3-w-4-3",7.94,8.22],["s3-w-4-4",8.22,8.58],["s3-w-4-5",8.58,8.88],["s3-w-4-6",8.88,9.24]]},{el:"s3-cap-5",start:9.24,end:11.59,words:[["s3-w-5-0",9.24,9.58],["s3-w-5-1",9.58,10.18],["s3-w-5-2",10.58,10.66],["s3-w-5-3",10.66,10.86],["s3-w-5-4",10.86,11.12],["s3-w-5-5",11.12,11.36],["s3-w-5-6",11.36,11.62]]},{el:"s3-cap-6",start:11.62,end:13.08,words:[["s3-w-6-0",11.62,11.90],["s3-w-6-1",11.90,12.20],["s3-w-6-2",12.20,12.42],["s3-w-6-3",12.68,12.82],["s3-w-6-4",12.82,13.08]]},{el:"s3-cap-7",start:13.28,end:15.03,words:[["s3-w-7-0",13.28,13.54],["s3-w-7-1",13.54,13.62],["s3-w-7-2",13.62,13.84],["s3-w-7-3",13.84,14.26],["s3-w-7-4",14.26,14.56],["s3-w-7-5",14.56,14.82],["s3-w-7-6",14.82,15.06]]},{el:"s3-cap-8",start:15.06,end:15.68,words:[["s3-w-8-0",15.06,15.26],["s3-w-8-1",15.26,15.68]]},{el:"s3-cap-9",start:16.24,end:18.58,words:[["s3-w-9-0",16.24,17.36],["s3-w-9-1",16.80,17.14],["s3-w-9-2",17.14,17.48],["s3-w-9-3",17.48,17.92],["s3-w-9-4",17.92,18.16],["s3-w-9-5",18.16,18.58]]},{el:"s3-cap-10",start:19.10,end:21.40,words:[["s3-w-10-0",19.10,19.30],["s3-w-10-1",19.30,19.66],["s3-w-10-2",19.66,20.74],["s3-w-10-3",20.56,20.74],["s3-w-10-4",20.74,21.02],["s3-w-10-5",21.02,21.40]]},{el:"s3-cap-11",start:22.04,end:23.42,words:[["s3-w-11-0",22.04,22.08],["s3-w-11-1",22.08,22.40],["s3-w-11-2",22.40,22.72],["s3-w-11-3",22.72,22.92],["s3-w-11-4",22.92,23.10],["s3-w-11-5",23.10,23.42]]},{el:"s3-cap-12",start:23.62,end:26.09,words:[["s3-w-12-0",23.62,24.02],["s3-w-12-1",24.02,24.42],["s3-w-12-2",24.22,24.62],["s3-w-12-3",24.62,25.00],["s3-w-12-4",25.00,25.76],["s3-w-12-5",25.76,25.76],["s3-w-12-6",25.76,26.12]]},{el:"s3-cap-13",start:26.12,end:27.37,words:[["s3-w-13-0",26.12,26.44],["s3-w-13-1",26.44,26.58],["s3-w-13-2",26.58,26.86],["s3-w-13-3",26.86,27.08],["s3-w-13-4",27.08,27.16],["s3-w-13-5",27.16,27.40]]},{el:"s3-cap-14",start:27.40,end:29.44,words:[["s3-w-14-0",27.40,28.36],["s3-w-14-1",28.36,28.48],["s3-w-14-2",28.48,28.70],["s3-w-14-3",28.70,29.12],["s3-w-14-4",29.12,29.44]]},{el:"s3-cap-15",start:30.10,end:32.21,words:[["s3-w-15-0",30.10,30.24],["s3-w-15-1",30.24,30.48],["s3-w-15-2",30.48,30.64],["s3-w-15-3",30.64,30.90],["s3-w-15-4",30.90,31.24],["s3-w-15-5",31.24,31.78],["s3-w-15-6",31.78,32.16]]},{el:"s3-cap-16",start:32.56,end:34.11,words:[["s3-w-16-0",32.56,32.76],["s3-w-16-1",32.76,33.00],["s3-w-16-2",33.00,33.28],["s3-w-16-3",33.28,33.52],["s3-w-16-4",33.52,33.80],["s3-w-16-5",33.80,33.84],["s3-w-16-6",33.84,34.14]]},{el:"s3-cap-17",start:34.14,end:34.44,words:[["s3-w-17-0",34.14,34.44]]},{el:"s3-cap-18",start:35.12,end:36.72,words:[["s3-w-18-0",35.12,35.28],["s3-w-18-1",35.28,35.42],["s3-w-18-2",35.42,35.62],["s3-w-18-3",35.62,35.84],["s3-w-18-4",35.84,36.06],["s3-w-18-5",36.06,36.38],["s3-w-18-6",36.38,36.72]]},{el:"s3-cap-19",start:37.04,end:39.37,words:[["s3-w-19-0",37.04,37.68],["s3-w-19-1",37.36,38.97],["s3-w-19-2",38.60,38.78],["s3-w-19-3",38.78,38.96],["s3-w-19-4",38.96,39.28]]},{el:"s3-cap-20",start:39.72,end:40.86,words:[["s3-w-20-0",39.72,40.08],["s3-w-20-1",40.08,40.32],["s3-w-20-2",40.32,40.62],["s3-w-20-3",40.62,40.86]]}];
+      driveCaptions(tl, CAPS.map(function (p) { return { el: document.getElementById(p.el), start: p.start, end: p.end, words: p.words.map(function (w) { return [document.getElementById(w[0]), w[1], w[2]]; }) }; }));
+
+    })();
+  </script>
+</template>

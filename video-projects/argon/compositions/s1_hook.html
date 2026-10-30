@@ -1,0 +1,112 @@
+<template>
+  <link rel="stylesheet" href="css/theme.css" />
+  <style>
+    #root { position:absolute; inset:0; background:var(--dark-bg); overflow:hidden; }
+
+  .stage { position:absolute; inset:0; overflow:hidden; }
+  .plate { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+  .scrim { position:absolute; inset:0; background:linear-gradient(90deg, rgba(5,7,11,0.86) 0%, rgba(5,7,11,0.52) 52%, rgba(5,7,11,0.18) 100%); }
+  .scrim-b { position:absolute; inset:0; background:linear-gradient(0deg, rgba(5,7,11,0.88) 0%, rgba(5,7,11,0) 30%); }
+  .kicker { position:absolute; font-family:var(--font-mono); font-weight:600; letter-spacing:0.30em; color:var(--neon-cyan); font-size:46px; }
+  .stmt-small { font-size:58px; font-weight:600; color:rgba(255,255,255,0.72); letter-spacing:0.04em; }
+  .stmt-big { font-size:118px; font-weight:700; letter-spacing:-0.02em; color:#fff; line-height:1.08; margin-top:18px; }
+  .chip { position:absolute; padding:22px 38px; border-radius:999px; border:3px solid rgba(255,255,255,0.30); background:rgba(10,13,20,0.82); font-size:46px; font-weight:600; white-space:nowrap; }
+  .chip.gold { border-color:var(--gold); color:var(--gold); }
+  .chip.cyan { border-color:var(--neon-cyan); color:var(--neon-cyan); }
+  .headline { position:absolute; font-weight:700; letter-spacing:-0.02em; line-height:1.02; color:#fff; }
+  .stat { position:absolute; padding:40px 48px; }
+  .stat .num { font-family:var(--font-mono); font-weight:700; font-size:118px; color:var(--gold); line-height:1; }
+  .stat .num.white { color:#fff; font-size:104px; }
+  .stat .lbl { font-size:44px; font-weight:600; color:rgba(255,255,255,0.85); margin-top:16px; line-height:1.25; }
+  .fadeblack { position:absolute; inset:0; background:#000; pointer-events:none; }
+  #s1-underline { position:absolute; left:428px; top:1168px; width:1480px; height:10px; background:var(--gold); transform-origin:0 50%; }
+  #s1-mw-strike { position:absolute; left:34px; top:50%; width:300px; height:8px; background:var(--skeptic-red); transform-origin:0 50%; }
+
+  #s1-captions { top:auto; bottom:36px; height:204px; }
+  #s1-captions .caption { position:absolute; left:420px; right:420px; bottom:0; display:block; white-space:nowrap; font-size:62px; }
+  .caption .w { color: rgba(255,255,255,0.42); }
+
+  </style>
+  <div id="root" data-composition-id="s1_hook" data-start="0" data-duration="23.568" data-width="3840" data-height="2160">
+
+    <div id="s1-cam" class="clip" data-start="0" data-duration="23.568" data-track-index="0">
+      <div class="stage">
+        <img class="plate" src="assets/img/plate_s1.webp" alt="" />
+        <div class="scrim"></div>
+        <div class="scrim-b"></div>
+        <div id="s1-kicker" class="kicker" style="left:420px; top:190px; opacity:0;">AHEAD OF RUSH AI &nbsp;·&nbsp; AI CODING AGENTS</div>
+        <div id="s1-statement" style="position:absolute; left:420px; top:300px; width:2900px; opacity:0;">
+          <div class="stmt-small">GOOGLE POINTED ITS NEWEST CODING MODEL AT</div>
+          <div class="stmt-big">THE HARDEST CODEBASE<br/>IT OWNS.</div>
+        </div>
+        <div id="s1-worked" class="chip gold" style="left:2790px; top:290px; opacity:0;">AND IT WORKED</div>
+        <div id="s1-headline" class="headline" style="left:420px; top:620px; font-size:205px; opacity:0;">GEMINI 4<br/><span style="color:var(--gold);">ARGON</span></div>
+        <div id="s1-underline" style="transform:scaleX(0);"></div>
+        <div id="s1-chip1" class="chip cyan" style="left:420px; top:1250px; opacity:0;">ANNOUNCED — SEP 30</div>
+        <div id="s1-chip2" class="chip cyan" style="left:1330px; top:1250px; opacity:0;">GENERALLY AVAILABLE — OCT 13</div>
+        <div id="s1-card1" class="glass-panel stat" style="left:2380px; top:720px; width:1180px; opacity:0;">
+          <div class="num" id="s1-num1">0</div>
+          <div class="lbl">LINES OF LEGACY CODE,<br/>UNTANGLED</div>
+        </div>
+        <div id="s1-card2" class="glass-panel stat" style="left:2380px; top:1090px; width:1180px; opacity:0;">
+          <div class="num white">40,000,000-LINE</div>
+          <div class="lbl">CHROMIUM CODEBASE<br/>IT WAS BURIED IN</div>
+        </div>
+        <div id="s1-mw" class="chip" style="left:420px; top:1420px; opacity:0; font-size:56px; padding:26px 44px;">
+          <span style="position:relative; display:inline-block;">MONTHS<span id="s1-mw-strike" style="transform:scaleX(0);"></span></span>
+          <span style="color:rgba(255,255,255,0.5);">&nbsp;&nbsp;→&nbsp;&nbsp;</span><span id="s1-weeks" style="color:var(--gold); font-weight:700; opacity:0;">WEEKS</span>
+        </div>
+        <div id="s1-dec" class="chip gold" style="left:2380px; top:1440px; opacity:0;">AFTER DECEMBER FIRST →</div>
+        <div id="s1-brand" class="chip" style="left:1170px; top:1640px; width:1500px; text-align:center; opacity:0; font-family:var(--font-mono); letter-spacing:0.28em; font-size:44px;">THIS IS AHEAD OF RUSH AI</div>
+        <div class="caption-band" id="s1-captions">
+          <div class="caption" id="s1-cap-0" style="opacity:0;"><span class="w" id="s1-w-0-0">Google</span> <span class="w" id="s1-w-0-1">pointed</span> <span class="w" id="s1-w-0-2">its</span> <span class="w" id="s1-w-0-3">newest</span> <span class="w" id="s1-w-0-4">coding</span> <span class="w" id="s1-w-0-5">model</span> <span class="w" id="s1-w-0-6">at</span></div>
+          <div class="caption" id="s1-cap-1" style="opacity:0;"><span class="w" id="s1-w-1-0">the</span> <span class="w" id="s1-w-1-1">hardest</span> <span class="w" id="s1-w-1-2">codebase</span> <span class="w" id="s1-w-1-3">it</span> <span class="w" id="s1-w-1-4">owns —</span> <span class="w" id="s1-w-1-5">and</span> <span class="w" id="s1-w-1-6">it</span></div>
+          <div class="caption" id="s1-cap-2" style="opacity:0;"><span class="w" id="s1-w-2-0">worked.</span></div>
+          <div class="caption" id="s1-cap-3" style="opacity:0;"><span class="w" id="s1-w-3-0">Gemini</span> <span class="w" id="s1-w-3-1">4</span> <span class="w" id="s1-w-3-2">Argon</span> <span class="w" id="s1-w-3-3">helped</span> <span class="w" id="s1-w-3-4">untangle</span> <span class="w" id="s1-w-3-5">a</span> <span class="w" id="s1-w-3-6">six-million-line</span></div>
+          <div class="caption" id="s1-cap-4" style="opacity:0;"><span class="w" id="s1-w-4-0">legacy</span> <span class="w" id="s1-w-4-1">folder</span> <span class="w" id="s1-w-4-2">buried</span> <span class="w" id="s1-w-4-3">inside</span> <span class="w" id="s1-w-4-4">Chromium's</span> <span class="w" id="s1-w-4-5">forty-million-line</span></div>
+          <div class="caption" id="s1-cap-5" style="opacity:0;"><span class="w" id="s1-w-5-0">codebase,</span> <span class="w" id="s1-w-5-1">and</span> <span class="w" id="s1-w-5-2">work</span> <span class="w" id="s1-w-5-3">Google</span> <span class="w" id="s1-w-5-4">says</span> <span class="w" id="s1-w-5-5">would</span> <span class="w" id="s1-w-5-6">have</span></div>
+          <div class="caption" id="s1-cap-6" style="opacity:0;"><span class="w" id="s1-w-6-0">taken</span> <span class="w" id="s1-w-6-1">months</span> <span class="w" id="s1-w-6-2">landed</span> <span class="w" id="s1-w-6-3">in</span> <span class="w" id="s1-w-6-4">weeks.</span></div>
+          <div class="caption" id="s1-cap-7" style="opacity:0;"><span class="w" id="s1-w-7-0">This</span> <span class="w" id="s1-w-7-1">is</span> <span class="w" id="s1-w-7-2">Ahead</span> <span class="w" id="s1-w-7-3">of</span> <span class="w" id="s1-w-7-4">Rush</span> <span class="w" id="s1-w-7-5">AI —</span> <span class="w" id="s1-w-7-6">let's</span></div>
+          <div class="caption" id="s1-cap-8" style="opacity:0;"><span class="w" id="s1-w-8-0">look</span> <span class="w" id="s1-w-8-1">at</span> <span class="w" id="s1-w-8-2">what</span> <span class="w" id="s1-w-8-3">actually</span> <span class="w" id="s1-w-8-4">happened,</span></div>
+          <div class="caption" id="s1-cap-9" style="opacity:0;"><span class="w" id="s1-w-9-0">and</span> <span class="w" id="s1-w-9-1">what</span> <span class="w" id="s1-w-9-2">it</span> <span class="w" id="s1-w-9-3">costs</span> <span class="w" id="s1-w-9-4">you</span> <span class="w" id="s1-w-9-5">after</span> <span class="w" id="s1-w-9-6">December</span></div>
+          <div class="caption" id="s1-cap-10" style="opacity:0;"><span class="w" id="s1-w-10-0">first.</span></div>
+        </div>
+        <div id="s1-fade" class="fadeblack"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="js/shared.js"></script>
+  <script>
+    (function () {
+      const tl = makeSceneTimeline("s1_hook", 23.568);
+      window.__timelines["s1_hook"] = tl;
+
+      const cam1 = document.getElementById("s1-cam");
+      cameraPush(cam1, 0.97, 1.0, 0.4, tl, 0);
+      tl.fromTo("#s1-fade", { opacity: 1 }, { opacity: 0, duration: 0.3, ease: "none" }, 0);
+      tl.fromTo("#s1-fade", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none", immediateRender: false }, 23.268);
+      tl.fromTo("#s1-kicker", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5 }, 0.3);
+      tl.fromTo("#s1-statement", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, 2.3);
+      stampIn(document.getElementById("s1-worked"), tl, 4.2);
+      tl.to("#s1-statement", { opacity: 0, y: -30, duration: 0.4, ease: "power2.in" }, 5.15);
+      tl.fromTo("#s1-headline", { opacity: 0, scale: 0.82, y: 60 }, { opacity: 1, scale: 1, y: 0, duration: 0.55, ease: "back.out(1.6)" }, 5.3);
+      tl.fromTo("#s1-underline", { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power3.out" }, 5.85);
+      stampIn(document.getElementById("s1-chip1"), tl, 6.3);
+      stampIn(document.getElementById("s1-chip2"), tl, 7.15);
+      pinCard(document.getElementById("s1-card1"), tl, 8.2);
+      countUp(document.getElementById("s1-num1"), 0, 6000000, 1.4, tl, 8.2);
+      pinCard(document.getElementById("s1-card2"), tl, 11.4);
+      pinCard(document.getElementById("s1-mw"), tl, 14.2);
+      tl.fromTo("#s1-mw-strike", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power2.out" }, 14.9);
+      tl.fromTo("#s1-weeks", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, 15.35);
+      tl.to(["#s1-card1", "#s1-card2"], { opacity: 0.5, duration: 0.5 }, 16.4);
+      tl.fromTo("#s1-brand", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.5 }, 17.2);
+      stampIn(document.getElementById("s1-dec"), tl, 21.2);
+      var CAPS = [{el:"s1-cap-0",start:0.00,end:2.23,words:[["s1-w-0-0",0.00,0.54],["s1-w-0-1",0.54,0.82],["s1-w-0-2",0.82,1.12],["s1-w-0-3",1.12,1.44],["s1-w-0-4",1.44,1.72],["s1-w-0-5",1.72,1.98],["s1-w-0-6",1.98,2.26]]},{el:"s1-cap-1",start:2.26,end:4.29,words:[["s1-w-1-0",2.26,2.60],["s1-w-1-1",2.60,2.64],["s1-w-1-2",2.64,3.14],["s1-w-1-3",3.14,3.28],["s1-w-1-4",3.28,4.35],["s1-w-1-5",4.10,4.18],["s1-w-1-6",4.18,4.32]]},{el:"s1-cap-2",start:4.32,end:4.68,words:[["s1-w-2-0",4.32,4.68]]},{el:"s1-cap-3",start:5.42,end:8.41,words:[["s1-w-3-0",5.42,5.54],["s1-w-3-1",5.54,6.06],["s1-w-3-2",6.32,6.84],["s1-w-3-3",6.58,6.80],["s1-w-3-4",6.80,7.24],["s1-w-3-5",7.24,7.60],["s1-w-3-6",8.02,8.86]]},{el:"s1-cap-4",start:8.44,end:11.55,words:[["s1-w-4-0",8.44,8.82],["s1-w-4-1",8.82,9.20],["s1-w-4-2",9.20,9.52],["s1-w-4-3",9.52,10.02],["s1-w-4-4",10.02,10.74],["s1-w-4-5",11.16,12.00]]},{el:"s1-cap-5",start:11.58,end:13.95,words:[["s1-w-5-0",11.58,12.12],["s1-w-5-1",12.72,12.82],["s1-w-5-2",12.82,13.04],["s1-w-5-3",13.04,13.28],["s1-w-5-4",13.28,13.68],["s1-w-5-5",13.68,13.82],["s1-w-5-6",13.82,13.98]]},{el:"s1-cap-6",start:13.98,end:15.62,words:[["s1-w-6-0",13.98,14.18],["s1-w-6-1",14.18,14.78],["s1-w-6-2",14.78,15.06],["s1-w-6-3",15.06,15.32],["s1-w-6-4",15.32,15.62]]},{el:"s1-cap-7",start:16.44,end:18.55,words:[["s1-w-7-0",16.44,16.60],["s1-w-7-1",16.60,16.74],["s1-w-7-2",16.85,17.07],["s1-w-7-3",16.96,17.14],["s1-w-7-4",17.14,17.40],["s1-w-7-5",17.40,18.60],["s1-w-7-6",18.34,18.58]]},{el:"s1-cap-8",start:18.58,end:19.79,words:[["s1-w-8-0",18.58,18.72],["s1-w-8-1",18.72,18.82],["s1-w-8-2",18.82,19.10],["s1-w-8-3",19.10,19.44],["s1-w-8-4",19.44,19.82]]},{el:"s1-cap-9",start:19.82,end:21.56,words:[["s1-w-9-0",19.82,20.16],["s1-w-9-1",20.16,20.30],["s1-w-9-2",20.30,20.40],["s1-w-9-3",20.40,20.66],["s1-w-9-4",20.66,20.92],["s1-w-9-5",20.92,21.22],["s1-w-9-6",21.22,21.48]]},{el:"s1-cap-10",start:21.91,end:22.77,words:[["s1-w-10-0",21.91,22.77]]}];
+      driveCaptions(tl, CAPS.map(function (p) { return { el: document.getElementById(p.el), start: p.start, end: p.end, words: p.words.map(function (w) { return [document.getElementById(w[0]), w[1], w[2]]; }) }; }));
+
+    })();
+  </script>
+</template>

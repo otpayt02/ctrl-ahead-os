@@ -1,0 +1,186 @@
+/* theme.css — Muse Comeback Video V2
+ * Shared palette, fonts, and component classes for every composition.
+ * Paths in @font-face are relative to this file (css/), i.e. ../assets/fonts/.
+ * NOTE: this linked sheet must not style a scene root by id (#root) —
+ * HyperFrames lint forbids that for sub-compositions; each scene styles
+ * its own #root in an inline <style> inside its <template>. */
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../assets/fonts/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  /* COLORS (spec Phase 2) */
+  --neon-blue: #61dafb;
+  --neon-pink: #ff2e9a;
+  --neon-cyan: #00f0ff;
+  --warm-film: #c9a876;
+  --skeptic-red: #ff3b3b;
+  --believer-cyan: #2ee6a8;
+  --gold: #ffd166;
+  --dark-bg: #0b0e14;
+
+  /* Type */
+  --font-ui: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--dark-bg);
+  color: #ffffff;
+  font-family: var(--font-ui);
+  overflow: hidden;
+}
+
+/* Shared clip box: a timed element fills its composition frame by default. */
+.clip {
+  position: absolute;
+  inset: 0;
+}
+
+/* Glassmorphic panel (spec Phase 2): radius 12, translucent fill,
+ * 1px light border, soft drop shadow. */
+.glass-panel {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* Evidence-board card built on the glass panel. */
+.evidence-card {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  padding: 36px 44px;
+  font-family: var(--font-ui);
+}
+
+/* Burned-in caption (spec Phase 2): max 2 lines, 64px Inter SemiBold on the
+ * 3840px canvas, positioned in the bottom-third safe area (its band starts
+ * at >= 68% of frame height), white on a 60%-opacity black plate, 4px radius.
+ * The element itself is placed by the scene; this class only styles it. */
+.caption {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  padding: 18px 32px;
+  text-align: center;
+  /* Two-line clamp without layout animation (render-safe, static CSS). */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Caption band helper: a full-width, pointer-free layer whose top edge sits
+ * at 68% of the frame height — scenes put .caption elements inside it. */
+.caption-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 68%;
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Stub-scene title (Phase 1 placeholders only; Phase 3 replaces these). */
+.scene-title {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 96px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* Bar-race pieces (Phase 2 shared lib renders these; styled here so every
+ * scene gets the same bars). */
+.bar-race {
+  position: relative;
+}
+.bar-race-row {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.bar-race-bar {
+  position: relative;
+  height: 100%;
+  border-radius: 8px;
+}
+.bar-race-clone {
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+/* Odometer digit columns (Phase 2 shared lib). */
+.odometer {
+  display: inline-flex;
+  overflow: hidden;
+}
+.odometer-col {
+  display: inline-block;
+  overflow: hidden;
+  height: 1em;
+  line-height: 1;
+}
+.odometer-strip {
+  display: block;
+  line-height: 1;
+}
+.odometer-strip > span {
+  display: block;
+  height: 1em;
+  line-height: 1;
+}

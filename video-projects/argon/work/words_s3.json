@@ -1,0 +1,582 @@
+[
+ {
+  "w": "Here's",
+  "start": 0.0,
+  "end": 0.4
+ },
+ {
+  "w": "the",
+  "start": 0.4,
+  "end": 0.5
+ },
+ {
+  "w": "part",
+  "start": 0.5,
+  "end": 0.7
+ },
+ {
+  "w": "worth",
+  "start": 0.7,
+  "end": 0.98
+ },
+ {
+  "w": "stealing",
+  "start": 0.98,
+  "end": 1.3
+ },
+ {
+  "w": "for",
+  "start": 1.3,
+  "end": 1.46
+ },
+ {
+  "w": "your",
+  "start": 1.46,
+  "end": 1.68
+ },
+ {
+  "w": "own",
+  "start": 1.68,
+  "end": 1.86
+ },
+ {
+  "w": "projects.",
+  "start": 1.86,
+  "end": 2.48
+ },
+ {
+  "w": "Chrome's",
+  "start": 3.0,
+  "end": 3.3
+ },
+ {
+  "w": "problem",
+  "start": 3.3,
+  "end": 3.62
+ },
+ {
+  "w": "wasn't",
+  "start": 3.62,
+  "end": 3.98
+ },
+ {
+  "w": "bad",
+  "start": 3.98,
+  "end": 4.38
+ },
+ {
+  "w": "code",
+  "start": 4.38,
+  "end": 4.76
+ },
+ {
+  "w": "\u2014",
+  "start": 4.88,
+  "end": 5.12
+ },
+ {
+  "w": "it",
+  "start": 5.0,
+  "end": 5.08
+ },
+ {
+  "w": "was",
+  "start": 5.08,
+  "end": 5.38
+ },
+ {
+  "w": "tangled",
+  "start": 5.38,
+  "end": 5.66
+ },
+ {
+  "w": "code:",
+  "start": 5.66,
+  "end": 6.36
+ },
+ {
+  "w": "core",
+  "start": 6.7,
+  "end": 6.96
+ },
+ {
+  "w": "webpage",
+  "start": 7.21,
+  "end": 7.71
+ },
+ {
+  "w": "handling",
+  "start": 7.46,
+  "end": 7.94
+ },
+ {
+  "w": "glued",
+  "start": 7.94,
+  "end": 8.22
+ },
+ {
+  "w": "together",
+  "start": 8.22,
+  "end": 8.58
+ },
+ {
+  "w": "with",
+  "start": 8.58,
+  "end": 8.88
+ },
+ {
+  "w": "everyday",
+  "start": 8.88,
+  "end": 9.24
+ },
+ {
+  "w": "browser",
+  "start": 9.24,
+  "end": 9.58
+ },
+ {
+  "w": "features,",
+  "start": 9.58,
+  "end": 10.18
+ },
+ {
+  "w": "so",
+  "start": 10.58,
+  "end": 10.66
+ },
+ {
+  "w": "moving",
+  "start": 10.66,
+  "end": 10.86
+ },
+ {
+  "w": "a",
+  "start": 10.86,
+  "end": 11.12
+ },
+ {
+  "w": "live",
+  "start": 11.12,
+  "end": 11.36
+ },
+ {
+  "w": "page",
+  "start": 11.36,
+  "end": 11.62
+ },
+ {
+  "w": "between",
+  "start": 11.62,
+  "end": 11.9
+ },
+ {
+  "w": "a",
+  "start": 11.9,
+  "end": 12.2
+ },
+ {
+  "w": "tab,",
+  "start": 12.2,
+  "end": 12.42
+ },
+ {
+  "w": "a",
+  "start": 12.68,
+  "end": 12.82
+ },
+ {
+  "w": "panel,",
+  "start": 12.82,
+  "end": 13.08
+ },
+ {
+  "w": "and",
+  "start": 13.28,
+  "end": 13.54
+ },
+ {
+  "w": "a",
+  "start": 13.54,
+  "end": 13.62
+ },
+ {
+  "w": "floating",
+  "start": 13.62,
+  "end": 13.84
+ },
+ {
+  "w": "window",
+  "start": 13.84,
+  "end": 14.26
+ },
+ {
+  "w": "could",
+  "start": 14.26,
+  "end": 14.56
+ },
+ {
+  "w": "crash",
+  "start": 14.56,
+  "end": 14.82
+ },
+ {
+  "w": "the",
+  "start": 14.82,
+  "end": 15.06
+ },
+ {
+  "w": "whole",
+  "start": 15.06,
+  "end": 15.26
+ },
+ {
+  "w": "browser.",
+  "start": 15.26,
+  "end": 15.68
+ },
+ {
+  "w": "Argon",
+  "start": 16.24,
+  "end": 17.36
+ },
+ {
+  "w": "didn't",
+  "start": 16.8,
+  "end": 17.14
+ },
+ {
+  "w": "rewrite",
+  "start": 17.14,
+  "end": 17.48
+ },
+ {
+  "w": "six",
+  "start": 17.48,
+  "end": 17.92
+ },
+ {
+  "w": "million",
+  "start": 17.92,
+  "end": 18.16
+ },
+ {
+  "w": "lines.",
+  "start": 18.16,
+  "end": 18.58
+ },
+ {
+  "w": "It",
+  "start": 19.1,
+  "end": 19.3
+ },
+ {
+  "w": "separated",
+  "start": 19.3,
+  "end": 19.66
+ },
+ {
+  "w": "them",
+  "start": 19.66,
+  "end": 20.2
+ },
+ {
+  "w": "\u2014",
+  "start": 20.38,
+  "end": 20.74
+ },
+ {
+  "w": "hundreds",
+  "start": 20.56,
+  "end": 20.74
+ },
+ {
+  "w": "of",
+  "start": 20.74,
+  "end": 21.02
+ },
+ {
+  "w": "files,",
+  "start": 21.02,
+  "end": 21.4
+ },
+ {
+  "w": "multiple",
+  "start": 22.04,
+  "end": 22.08
+ },
+ {
+  "w": "clean",
+  "start": 22.08,
+  "end": 22.4
+ },
+ {
+  "w": "changes",
+  "start": 22.4,
+  "end": 22.72
+ },
+ {
+  "w": "at",
+  "start": 22.72,
+  "end": 22.92
+ },
+ {
+  "w": "a",
+  "start": 22.92,
+  "end": 23.1
+ },
+ {
+  "w": "time,",
+  "start": 23.1,
+  "end": 23.42
+ },
+ {
+  "w": "every",
+  "start": 23.62,
+  "end": 24.02
+ },
+ {
+  "w": "one",
+  "start": 24.02,
+  "end": 24.42
+ },
+ {
+  "w": "checked",
+  "start": 24.22,
+  "end": 24.62
+ },
+ {
+  "w": "against",
+  "start": 24.62,
+  "end": 25.0
+ },
+ {
+  "w": "Chromium's",
+  "start": 25.0,
+  "end": 25.76
+ },
+ {
+  "w": "test",
+  "start": 25.76,
+  "end": 25.76
+ },
+ {
+  "w": "suites",
+  "start": 25.76,
+  "end": 26.12
+ },
+ {
+  "w": "and",
+  "start": 26.12,
+  "end": 26.44
+ },
+ {
+  "w": "signed",
+  "start": 26.44,
+  "end": 26.58
+ },
+ {
+  "w": "off",
+  "start": 26.58,
+  "end": 26.86
+ },
+ {
+  "w": "by",
+  "start": 26.86,
+  "end": 27.08
+ },
+ {
+  "w": "a",
+  "start": 27.08,
+  "end": 27.16
+ },
+ {
+  "w": "human.",
+  "start": 27.16,
+  "end": 27.4
+ },
+ {
+  "w": "That's",
+  "start": 27.4,
+  "end": 28.36
+ },
+ {
+  "w": "the",
+  "start": 28.36,
+  "end": 28.48
+ },
+ {
+  "w": "pattern",
+  "start": 28.48,
+  "end": 28.7
+ },
+ {
+  "w": "that",
+  "start": 28.7,
+  "end": 29.12
+ },
+ {
+  "w": "transfers:",
+  "start": 29.12,
+  "end": 29.44
+ },
+ {
+  "w": "give",
+  "start": 30.1,
+  "end": 30.24
+ },
+ {
+  "w": "the",
+  "start": 30.24,
+  "end": 30.48
+ },
+ {
+  "w": "agent",
+  "start": 30.48,
+  "end": 30.64
+ },
+ {
+  "w": "the",
+  "start": 30.64,
+  "end": 30.9
+ },
+ {
+  "w": "mechanical",
+  "start": 30.9,
+  "end": 31.24
+ },
+ {
+  "w": "separation",
+  "start": 31.24,
+  "end": 31.78
+ },
+ {
+  "w": "work,",
+  "start": 31.78,
+  "end": 32.16
+ },
+ {
+  "w": "keep",
+  "start": 32.56,
+  "end": 32.76
+ },
+ {
+  "w": "the",
+  "start": 32.76,
+  "end": 33.0
+ },
+ {
+  "w": "tests",
+  "start": 33.0,
+  "end": 33.28
+ },
+ {
+  "w": "and",
+  "start": 33.28,
+  "end": 33.52
+ },
+ {
+  "w": "the",
+  "start": 33.52,
+  "end": 33.8
+ },
+ {
+  "w": "review",
+  "start": 33.8,
+  "end": 33.84
+ },
+ {
+  "w": "gate",
+  "start": 33.84,
+  "end": 34.14
+ },
+ {
+  "w": "human.",
+  "start": 34.14,
+  "end": 34.44
+ },
+ {
+  "w": "It's",
+  "start": 35.12,
+  "end": 35.28
+ },
+ {
+  "w": "the",
+  "start": 35.28,
+  "end": 35.42
+ },
+ {
+  "w": "same",
+  "start": 35.42,
+  "end": 35.62
+ },
+ {
+  "w": "shape",
+  "start": 35.62,
+  "end": 35.84
+ },
+ {
+  "w": "as",
+  "start": 35.84,
+  "end": 36.06
+ },
+ {
+  "w": "any",
+  "start": 36.06,
+  "end": 36.38
+ },
+ {
+  "w": "serious",
+  "start": 36.38,
+  "end": 36.72
+ },
+ {
+  "w": "coding-agent",
+  "start": 37.04,
+  "end": 37.68
+ },
+ {
+  "w": "pipeline",
+  "start": 37.36,
+  "end": 37.86
+ },
+ {
+  "w": "\u2014",
+  "start": 38.23,
+  "end": 38.97
+ },
+ {
+  "w": "automate",
+  "start": 38.6,
+  "end": 38.78
+ },
+ {
+  "w": "the",
+  "start": 38.78,
+  "end": 38.96
+ },
+ {
+  "w": "grind,",
+  "start": 38.96,
+  "end": 39.28
+ },
+ {
+  "w": "never",
+  "start": 39.72,
+  "end": 40.08
+ },
+ {
+  "w": "automate",
+  "start": 40.08,
+  "end": 40.32
+ },
+ {
+  "w": "the",
+  "start": 40.32,
+  "end": 40.62
+ },
+ {
+  "w": "approval.",
+  "start": 40.62,
+  "end": 40.86
+ }
+]

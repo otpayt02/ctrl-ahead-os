@@ -1,0 +1,387 @@
+[
+ {
+  "w": "Now",
+  "start": 0.0,
+  "end": 0.36
+ },
+ {
+  "w": "the",
+  "start": 0.36,
+  "end": 0.56
+ },
+ {
+  "w": "catches,",
+  "start": 0.56,
+  "end": 0.92
+ },
+ {
+  "w": "and",
+  "start": 1.32,
+  "end": 1.42
+ },
+ {
+  "w": "there",
+  "start": 1.42,
+  "end": 1.7
+ },
+ {
+  "w": "are",
+  "start": 1.7,
+  "end": 1.76
+ },
+ {
+  "w": "three.",
+  "start": 1.76,
+  "end": 2.16
+ },
+ {
+  "w": "One:",
+  "start": 2.66,
+  "end": 3.0
+ },
+ {
+  "w": "almost",
+  "start": 3.38,
+  "end": 3.7
+ },
+ {
+  "w": "every",
+  "start": 3.7,
+  "end": 4.04
+ },
+ {
+  "w": "headline",
+  "start": 4.04,
+  "end": 4.36
+ },
+ {
+  "w": "result",
+  "start": 4.55,
+  "end": 4.93
+ },
+ {
+  "w": "so",
+  "start": 4.74,
+  "end": 5.1
+ },
+ {
+  "w": "far",
+  "start": 5.1,
+  "end": 5.32
+ },
+ {
+  "w": "comes",
+  "start": 5.32,
+  "end": 5.56
+ },
+ {
+  "w": "from",
+  "start": 5.56,
+  "end": 5.8
+ },
+ {
+  "w": "Google's",
+  "start": 5.8,
+  "end": 6.24
+ },
+ {
+  "w": "own",
+  "start": 6.24,
+  "end": 6.48
+ },
+ {
+  "w": "engineers",
+  "start": 6.48,
+  "end": 6.9
+ },
+ {
+  "w": "on",
+  "start": 6.9,
+  "end": 7.26
+ },
+ {
+  "w": "Google's",
+  "start": 7.26,
+  "end": 7.68
+ },
+ {
+  "w": "own",
+  "start": 7.68,
+  "end": 7.94
+ },
+ {
+  "w": "code",
+  "start": 7.94,
+  "end": 8.5
+ },
+ {
+  "w": "\u2014",
+  "start": 8.9,
+  "end": 9.7
+ },
+ {
+  "w": "independent",
+  "start": 9.3,
+  "end": 9.3
+ },
+ {
+  "w": "mileage",
+  "start": 9.3,
+  "end": 9.64
+ },
+ {
+  "w": "will",
+  "start": 9.64,
+  "end": 9.96
+ },
+ {
+  "w": "vary.",
+  "start": 9.96,
+  "end": 10.32
+ },
+ {
+  "w": "Two:",
+  "start": 10.88,
+  "end": 11.26
+ },
+ {
+  "w": "there's",
+  "start": 11.5,
+  "end": 11.82
+ },
+ {
+  "w": "no",
+  "start": 11.82,
+  "end": 12.08
+ },
+ {
+  "w": "free",
+  "start": 12.08,
+  "end": 12.38
+ },
+ {
+  "w": "API",
+  "start": 12.38,
+  "end": 12.72
+ },
+ {
+  "w": "tier.",
+  "start": 12.72,
+  "end": 13.22
+ },
+ {
+  "w": "Three",
+  "start": 13.86,
+  "end": 14.3
+ },
+ {
+  "w": "\u2014",
+  "start": 14.46,
+  "end": 14.78
+ },
+ {
+  "w": "and",
+  "start": 14.62,
+  "end": 14.72
+ },
+ {
+  "w": "this",
+  "start": 14.72,
+  "end": 14.86
+ },
+ {
+  "w": "is",
+  "start": 14.86,
+  "end": 15.0
+ },
+ {
+  "w": "the",
+  "start": 15.0,
+  "end": 15.12
+ },
+ {
+  "w": "deadline",
+  "start": 15.12,
+  "end": 15.42
+ },
+ {
+  "w": "\u2014",
+  "start": 15.73,
+  "end": 16.35
+ },
+ {
+  "w": "the",
+  "start": 16.04,
+  "end": 16.26
+ },
+ {
+  "w": "introductory",
+  "start": 16.26,
+  "end": 16.6
+ },
+ {
+  "w": "price,",
+  "start": 16.6,
+  "end": 17.26
+ },
+ {
+  "w": "two",
+  "start": 17.445,
+  "end": 17.815
+ },
+ {
+  "w": "dollars",
+  "start": 17.815,
+  "end": 18.185
+ },
+ {
+  "w": "per",
+  "start": 18.0,
+  "end": 18.32
+ },
+ {
+  "w": "million",
+  "start": 18.32,
+  "end": 18.62
+ },
+ {
+  "w": "input",
+  "start": 18.62,
+  "end": 18.96
+ },
+ {
+  "w": "tokens",
+  "start": 18.96,
+  "end": 19.34
+ },
+ {
+  "w": "and",
+  "start": 19.34,
+  "end": 19.78
+ },
+ {
+  "w": "ten",
+  "start": 19.83,
+  "end": 19.93
+ },
+ {
+  "w": "per",
+  "start": 19.93,
+  "end": 20.03
+ },
+ {
+  "w": "million",
+  "start": 19.98,
+  "end": 20.26
+ },
+ {
+  "w": "output,",
+  "start": 20.26,
+  "end": 21.0
+ },
+ {
+  "w": "doubles",
+  "start": 21.66,
+  "end": 21.66
+ },
+ {
+  "w": "on",
+  "start": 21.66,
+  "end": 21.94
+ },
+ {
+  "w": "December",
+  "start": 21.94,
+  "end": 22.16
+ },
+ {
+  "w": "first,",
+  "start": 22.57,
+  "end": 23.39
+ },
+ {
+  "w": "to",
+  "start": 22.98,
+  "end": 23.26
+ },
+ {
+  "w": "four",
+  "start": 23.41,
+  "end": 23.71
+ },
+ {
+  "w": "and",
+  "start": 23.56,
+  "end": 23.82
+ },
+ {
+  "w": "twenty.",
+  "start": 24.31,
+  "end": 25.29
+ },
+ {
+  "w": "Whatever",
+  "start": 24.8,
+  "end": 24.98
+ },
+ {
+  "w": "you",
+  "start": 24.98,
+  "end": 25.2
+ },
+ {
+  "w": "plan",
+  "start": 25.2,
+  "end": 25.36
+ },
+ {
+  "w": "to",
+  "start": 25.36,
+  "end": 25.52
+ },
+ {
+  "w": "test",
+  "start": 25.52,
+  "end": 25.76
+ },
+ {
+  "w": "on",
+  "start": 25.76,
+  "end": 26.02
+ },
+ {
+  "w": "Argon,",
+  "start": 26.02,
+  "end": 26.32
+ },
+ {
+  "w": "the",
+  "start": 26.32,
+  "end": 26.88
+ },
+ {
+  "w": "cheap",
+  "start": 26.88,
+  "end": 27.18
+ },
+ {
+  "w": "window",
+  "start": 27.18,
+  "end": 27.46
+ },
+ {
+  "w": "closes",
+  "start": 27.46,
+  "end": 27.94
+ },
+ {
+  "w": "November",
+  "start": 27.94,
+  "end": 28.36
+ },
+ {
+  "w": "thirtieth.",
+  "start": 28.81,
+  "end": 29.71
+ }
+]

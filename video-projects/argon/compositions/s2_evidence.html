@@ -1,0 +1,128 @@
+<template>
+  <link rel="stylesheet" href="css/theme.css" />
+  <style>
+    #root { position:absolute; inset:0; background:var(--dark-bg); overflow:hidden; }
+
+  .stage { position:absolute; inset:0; overflow:hidden; }
+  .plate { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; }
+  .scrim-b { position:absolute; inset:0; background:linear-gradient(0deg, rgba(5,7,11,0.9) 0%, rgba(5,7,11,0) 32%); }
+  .kicker { position:absolute; font-family:var(--font-mono); font-weight:600; letter-spacing:0.30em; color:var(--neon-cyan); font-size:46px; }
+  .beat { position:absolute; left:420px; top:520px; width:3000px; }
+  .beat .blabel { font-family:var(--font-mono); font-size:52px; letter-spacing:0.24em; color:var(--neon-cyan); }
+  .beat .giant { font-family:var(--font-mono); font-weight:700; font-size:330px; line-height:1.05; color:#fff; letter-spacing:-0.02em; margin-top:26px; }
+  .beat .giant.gold { color:var(--gold); }
+  .beat .bsub { font-size:56px; font-weight:600; color:rgba(255,255,255,0.88); margin-top:30px; }
+  .chip { position:absolute; padding:22px 38px; border-radius:999px; border:3px solid rgba(255,255,255,0.30); background:rgba(10,13,20,0.85); font-size:46px; font-weight:600; white-space:nowrap; }
+  .chip.red { border-color:var(--skeptic-red); color:#ff8080; }
+  .chip.gold { border-color:var(--gold); color:var(--gold); }
+  .claim { position:absolute; left:420px; top:640px; width:3000px; font-weight:700; letter-spacing:-0.02em; line-height:1.12; }
+  .fadeblack { position:absolute; inset:0; background:#000; pointer-events:none; }
+
+  #s2-captions { top:auto; bottom:36px; height:204px; }
+  #s2-captions .caption { position:absolute; left:420px; right:420px; bottom:0; display:block; white-space:nowrap; font-size:62px; }
+  .caption .w { color: rgba(255,255,255,0.42); }
+
+  </style>
+  <div id="root" data-composition-id="s2_evidence" data-start="0" data-duration="36.768" data-width="3840" data-height="2160">
+
+    <div id="s2-cam" class="clip" data-start="0" data-duration="36.768" data-track-index="0">
+      <div class="stage">
+        <img class="plate" src="assets/img/plate_s2.webp" alt="" />
+        <div class="scrim-b"></div>
+        <div id="s2-kicker" class="kicker" style="left:420px; top:190px; opacity:0;">THE EVIDENCE — DATES FIRST</div>
+        <div id="s2-gA" class="beat" style="opacity:0;">
+          <div class="blabel">ANNOUNCED</div>
+          <div class="giant">SEP 30</div>
+          <div class="bsub" id="s2-gA-sub" style="opacity:0;">FIRST RELEASE — VETTED CYBERSECURITY DEFENDERS ONLY</div>
+        </div>
+        <div id="s2-gB" class="beat" style="opacity:0;">
+          <div class="blabel">GENERALLY AVAILABLE</div>
+          <div class="giant">OCT 13</div>
+        </div>
+        <div id="s2-stamp1" class="chip red" style="left:420px; top:1420px; opacity:0;">NOT A LEAK</div>
+        <div id="s2-stamp2" class="chip red" style="left:1050px; top:1420px; opacity:0;">NOT BRAND NEW</div>
+        <div id="s2-gC" class="beat" style="opacity:0;">
+          <div class="blabel">CONTEXT WINDOW</div>
+          <div class="giant gold" id="s2-num-ctx">0</div>
+          <div class="bsub" id="s2-gC-sub" style="opacity:0;">TOKENS — INPUT + OUTPUT, COMBINED</div>
+        </div>
+        <div id="s2-gD" class="beat" style="opacity:0;">
+          <div class="blabel">DeepSWE v1.1 SCORE</div>
+          <div class="giant gold" id="s2-num-swe">0.0%</div>
+          <div class="bsub">GOOGLE'S OWN BENCH, GOOGLE'S OWN NUMBER</div>
+        </div>
+        <div id="s2-tag" class="chip gold" style="left:420px; top:1420px; opacity:0;">GOOGLE-REPORTED</div>
+        <div id="s2-gE" class="claim" style="opacity:0;">
+          <div style="font-size:180px; color:#fff;">TREAT IT AS A CLAIM,</div>
+          <div id="s2-verdict" style="font-size:180px; color:var(--skeptic-red); opacity:0;">NOT A VERDICT.</div>
+        </div>
+        <div id="s2-gF" style="position:absolute; left:420px; top:560px; width:3000px; opacity:0;">
+          <div style="font-size:64px; font-weight:600; color:rgba(255,255,255,0.9); line-height:1.3;">THE CHROMIUM RESULT HAS WHAT<br/>BENCHMARKS DON'T:</div>
+        </div>
+        <div id="s2-chip1" class="chip" style="left:420px; top:1020px; opacity:0; font-size:56px;">COMMITS</div>
+        <div id="s2-chip2" class="chip" style="left:420px; top:1200px; opacity:0; font-size:56px;">IN A PUBLIC TRACKER</div>
+        <div id="s2-chip3" class="chip gold" style="left:420px; top:1380px; opacity:0; font-size:56px;">REVIEWED BY HUMAN ENGINEERS</div>
+        <div class="caption-band" id="s2-captions">
+          <div class="caption" id="s2-cap-0" style="opacity:0;"><span class="w" id="s2-w-0-0">The</span> <span class="w" id="s2-w-0-1">dates</span> <span class="w" id="s2-w-0-2">first,</span> <span class="w" id="s2-w-0-3">because</span> <span class="w" id="s2-w-0-4">they</span> <span class="w" id="s2-w-0-5">matter.</span></div>
+          <div class="caption" id="s2-cap-1" style="opacity:0;"><span class="w" id="s2-w-1-0">Google</span> <span class="w" id="s2-w-1-1">announced</span> <span class="w" id="s2-w-1-2">Argon</span> <span class="w" id="s2-w-1-3">on</span> <span class="w" id="s2-w-1-4">September</span> <span class="w" id="s2-w-1-5">thirtieth,</span></div>
+          <div class="caption" id="s2-cap-2" style="opacity:0;"><span class="w" id="s2-w-2-0">but</span> <span class="w" id="s2-w-2-1">only</span> <span class="w" id="s2-w-2-2">vetted</span> <span class="w" id="s2-w-2-3">cybersecurity</span> <span class="w" id="s2-w-2-4">defenders</span> <span class="w" id="s2-w-2-5">got</span> <span class="w" id="s2-w-2-6">it</span></div>
+          <div class="caption" id="s2-cap-3" style="opacity:0;"><span class="w" id="s2-w-3-0">at</span> <span class="w" id="s2-w-3-1">first.</span></div>
+          <div class="caption" id="s2-cap-4" style="opacity:0;"><span class="w" id="s2-w-4-0">It</span> <span class="w" id="s2-w-4-1">went</span> <span class="w" id="s2-w-4-2">generally</span> <span class="w" id="s2-w-4-3">available</span> <span class="w" id="s2-w-4-4">on</span> <span class="w" id="s2-w-4-5">October</span> <span class="w" id="s2-w-4-6">thirteenth —</span></div>
+          <div class="caption" id="s2-cap-5" style="opacity:0;"><span class="w" id="s2-w-5-0">so</span> <span class="w" id="s2-w-5-1">no,</span> <span class="w" id="s2-w-5-2">this</span> <span class="w" id="s2-w-5-3">is</span> <span class="w" id="s2-w-5-4">not</span> <span class="w" id="s2-w-5-5">a</span> <span class="w" id="s2-w-5-6">leak,</span></div>
+          <div class="caption" id="s2-cap-6" style="opacity:0;"><span class="w" id="s2-w-6-0">and</span> <span class="w" id="s2-w-6-1">it's</span> <span class="w" id="s2-w-6-2">not</span> <span class="w" id="s2-w-6-3">brand</span> <span class="w" id="s2-w-6-4">new</span> <span class="w" id="s2-w-6-5">either.</span></div>
+          <div class="caption" id="s2-cap-7" style="opacity:0;"><span class="w" id="s2-w-7-0">What's</span> <span class="w" id="s2-w-7-1">in</span> <span class="w" id="s2-w-7-2">it:</span></div>
+          <div class="caption" id="s2-cap-8" style="opacity:0;"><span class="w" id="s2-w-8-0">a</span> <span class="w" id="s2-w-8-1">one-million-token</span> <span class="w" id="s2-w-8-2">context</span> <span class="w" id="s2-w-8-3">window,</span></div>
+          <div class="caption" id="s2-cap-9" style="opacity:0;"><span class="w" id="s2-w-9-0">input</span> <span class="w" id="s2-w-9-1">and</span> <span class="w" id="s2-w-9-2">output</span> <span class="w" id="s2-w-9-3">combined,</span></div>
+          <div class="caption" id="s2-cap-10" style="opacity:0;"><span class="w" id="s2-w-10-0">and</span> <span class="w" id="s2-w-10-1">a</span> <span class="w" id="s2-w-10-2">seventy-seven</span> <span class="w" id="s2-w-10-3">point</span> <span class="w" id="s2-w-10-4">nine</span> <span class="w" id="s2-w-10-5">percent</span> <span class="w" id="s2-w-10-6">score</span></div>
+          <div class="caption" id="s2-cap-11" style="opacity:0;"><span class="w" id="s2-w-11-0">on</span> <span class="w" id="s2-w-11-1">DeepSWE,</span> <span class="w" id="s2-w-11-2">Google's</span> <span class="w" id="s2-w-11-3">own</span> <span class="w" id="s2-w-11-4">reported</span> <span class="w" id="s2-w-11-5">number.</span></div>
+          <div class="caption" id="s2-cap-12" style="opacity:0;"><span class="w" id="s2-w-12-0">Treat</span> <span class="w" id="s2-w-12-1">vendor</span> <span class="w" id="s2-w-12-2">benchmarks</span> <span class="w" id="s2-w-12-3">as</span> <span class="w" id="s2-w-12-4">a</span> <span class="w" id="s2-w-12-5">claim,</span></div>
+          <div class="caption" id="s2-cap-13" style="opacity:0;"><span class="w" id="s2-w-13-0">not</span> <span class="w" id="s2-w-13-1">a</span> <span class="w" id="s2-w-13-2">verdict —</span> <span class="w" id="s2-w-13-3">but</span> <span class="w" id="s2-w-13-4">the</span> <span class="w" id="s2-w-13-5">Chromium</span> <span class="w" id="s2-w-13-6">result</span></div>
+          <div class="caption" id="s2-cap-14" style="opacity:0;"><span class="w" id="s2-w-14-0">has</span> <span class="w" id="s2-w-14-1">something</span> <span class="w" id="s2-w-14-2">benchmarks</span> <span class="w" id="s2-w-14-3">don't:</span></div>
+          <div class="caption" id="s2-cap-15" style="opacity:0;"><span class="w" id="s2-w-15-0">commits,</span> <span class="w" id="s2-w-15-1">in</span> <span class="w" id="s2-w-15-2">a</span> <span class="w" id="s2-w-15-3">public</span> <span class="w" id="s2-w-15-4">tracker,</span></div>
+          <div class="caption" id="s2-cap-16" style="opacity:0;"><span class="w" id="s2-w-16-0">reviewed</span> <span class="w" id="s2-w-16-1">by</span> <span class="w" id="s2-w-16-2">human</span> <span class="w" id="s2-w-16-3">engineers.</span></div>
+        </div>
+        <div id="s2-fade" class="fadeblack"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="js/shared.js"></script>
+  <script>
+    (function () {
+      const tl = makeSceneTimeline("s2_evidence", 36.768);
+      window.__timelines["s2_evidence"] = tl;
+
+      const cam2 = document.getElementById("s2-cam");
+      cameraPush(cam2, 0.97, 1.0, 0.4, tl, 0);
+      tl.fromTo("#s2-fade", { opacity: 1 }, { opacity: 0, duration: 0.3, ease: "none" }, 0);
+      tl.fromTo("#s2-fade", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none", immediateRender: false }, 36.468);
+      tl.fromTo("#s2-kicker", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5 }, 0.3);
+      tl.fromTo("#s2-gA", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 2.3);
+      tl.fromTo("#s2-gA-sub", { opacity: 0 }, { opacity: 1, duration: 0.45 }, 4.9);
+      tl.to("#s2-gA", { opacity: 0, y: -40, duration: 0.35, ease: "power2.in" }, 7.8);
+      tl.fromTo("#s2-gB", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 8.1);
+      stampIn(document.getElementById("s2-stamp1"), tl, 11.0);
+      stampIn(document.getElementById("s2-stamp2"), tl, 12.9);
+      tl.to(["#s2-gB", "#s2-stamp1", "#s2-stamp2"], { opacity: 0, y: -40, duration: 0.35, ease: "power2.in" }, 15.2);
+      tl.fromTo("#s2-gC", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 15.5);
+      countUp(document.getElementById("s2-num-ctx"), 0, 1000000, 1.6, tl, 15.5);
+      tl.fromTo("#s2-gC-sub", { opacity: 0 }, { opacity: 1, duration: 0.45 }, 17.9);
+      tl.to("#s2-gC", { opacity: 0, y: -40, duration: 0.35, ease: "power2.in" }, 19.9);
+      tl.fromTo("#s2-gD", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 20.2);
+      countUp(document.getElementById("s2-num-swe"), 0, 77.9, 1.5, tl, 20.2, function (v) { return v.toFixed(1) + "%"; });
+      stampIn(document.getElementById("s2-tag"), tl, 23.5);
+      tl.to(["#s2-gD", "#s2-tag"], { opacity: 0, y: -40, duration: 0.35, ease: "power2.in" }, 25.4);
+      tl.fromTo("#s2-gE", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 25.7);
+      tl.fromTo("#s2-verdict", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, 27.6);
+      tl.to("#s2-gE", { opacity: 0, y: -40, duration: 0.35, ease: "power2.in" }, 28.5);
+      tl.fromTo("#s2-gF", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 28.8);
+      pinCard(document.getElementById("s2-chip1"), tl, 31.8);
+      pinCard(document.getElementById("s2-chip2"), tl, 32.6);
+      pinCard(document.getElementById("s2-chip3"), tl, 33.7);
+      var CAPS = [{el:"s2-cap-0",start:0.00,end:1.76,words:[["s2-w-0-0",0.00,0.30],["s2-w-0-1",0.30,0.52],["s2-w-0-2",0.52,0.92],["s2-w-0-3",0.98,1.22],["s2-w-0-4",1.22,1.36],["s2-w-0-5",1.36,1.76]]},{el:"s2-cap-1",start:2.28,end:4.71,words:[["s2-w-1-0",2.28,2.48],["s2-w-1-1",2.48,2.88],["s2-w-1-2",3.12,3.60],["s2-w-1-3",3.36,3.54],["s2-w-1-4",3.54,3.84],["s2-w-1-5",4.29,5.19]]},{el:"s2-cap-2",start:4.74,end:6.99,words:[["s2-w-2-0",4.74,4.86],["s2-w-2-1",4.86,5.12],["s2-w-2-2",5.12,5.42],["s2-w-2-3",5.42,6.04],["s2-w-2-4",6.04,6.64],["s2-w-2-5",6.64,6.92],["s2-w-2-6",6.92,7.02]]},{el:"s2-cap-3",start:7.02,end:7.75,words:[["s2-w-3-0",7.02,7.20],["s2-w-3-1",7.20,7.66]]},{el:"s2-cap-4",start:8.10,end:10.81,words:[["s2-w-4-0",8.10,8.16],["s2-w-4-1",8.16,8.42],["s2-w-4-2",8.42,8.74],["s2-w-4-3",8.74,9.20],["s2-w-4-4",9.20,9.40],["s2-w-4-5",9.40,9.68],["s2-w-4-6",9.97,11.13]]},{el:"s2-cap-5",start:10.84,end:12.17,words:[["s2-w-5-0",10.84,11.00],["s2-w-5-1",11.00,11.32],["s2-w-5-2",11.32,11.48],["s2-w-5-3",11.48,11.62],["s2-w-5-4",11.62,11.82],["s2-w-5-5",11.82,11.94],["s2-w-5-6",11.94,12.12]]},{el:"s2-cap-6",start:12.52,end:13.96,words:[["s2-w-6-0",12.52,12.64],["s2-w-6-1",12.64,12.82],["s2-w-6-2",12.82,13.02],["s2-w-6-3",13.02,13.30],["s2-w-6-4",13.30,13.54],["s2-w-6-5",13.96,13.96]]},{el:"s2-cap-7",start:14.54,end:15.18,words:[["s2-w-7-0",14.54,14.76],["s2-w-7-1",14.76,14.84],["s2-w-7-2",14.84,15.18]]},{el:"s2-cap-8",start:15.52,end:17.51,words:[["s2-w-8-0",15.52,15.70],["s2-w-8-1",16.10,16.90],["s2-w-8-2",16.50,17.00],["s2-w-8-3",17.00,17.50]]},{el:"s2-cap-9",start:17.86,end:19.27,words:[["s2-w-9-0",17.86,18.02],["s2-w-9-1",18.02,18.32],["s2-w-9-2",18.32,18.62],["s2-w-9-3",18.62,19.14]]},{el:"s2-cap-10",start:19.62,end:21.75,words:[["s2-w-10-0",19.62,19.76],["s2-w-10-1",19.76,20.00],["s2-w-10-2",20.18,20.55],["s2-w-10-3",20.55,20.93],["s2-w-10-4",20.93,21.30],["s2-w-10-5",21.30,21.66],["s2-w-10-6",21.48,21.78]]},{el:"s2-cap-11",start:21.78,end:25.04,words:[["s2-w-11-0",21.78,22.04],["s2-w-11-1",22.77,24.23],["s2-w-11-2",23.50,23.94],["s2-w-11-3",23.94,24.18],["s2-w-11-4",24.18,24.52],["s2-w-11-5",24.52,25.04]]},{el:"s2-cap-12",start:25.70,end:27.38,words:[["s2-w-12-0",25.70,25.92],["s2-w-12-1",25.92,26.22],["s2-w-12-2",26.22,26.56],["s2-w-12-3",26.56,26.94],["s2-w-12-4",26.94,27.10],["s2-w-12-5",27.10,27.38]]},{el:"s2-cap-13",start:27.58,end:29.61,words:[["s2-w-13-0",27.58,27.80],["s2-w-13-1",27.80,27.90],["s2-w-13-2",27.90,28.21],["s2-w-13-3",28.16,28.80],["s2-w-13-4",28.80,29.02],["s2-w-13-5",29.02,29.36],["s2-w-13-6",29.36,29.64]]},{el:"s2-cap-14",start:29.64,end:31.62,words:[["s2-w-14-0",29.64,30.00],["s2-w-14-1",30.00,30.26],["s2-w-14-2",30.26,30.68],["s2-w-14-3",30.68,31.62]]},{el:"s2-cap-15",start:31.75,end:33.39,words:[["s2-w-15-0",31.75,32.01],["s2-w-15-1",31.88,32.42],["s2-w-15-2",32.42,32.64],["s2-w-15-3",32.64,32.84],["s2-w-15-4",32.84,33.32]]},{el:"s2-cap-16",start:33.74,end:35.08,words:[["s2-w-16-0",33.74,33.92],["s2-w-16-1",33.92,34.28],["s2-w-16-2",34.28,34.58],["s2-w-16-3",34.58,35.08]]}];
+      driveCaptions(tl, CAPS.map(function (p) { return { el: document.getElementById(p.el), start: p.start, end: p.end, words: p.words.map(function (w) { return [document.getElementById(w[0]), w[1], w[2]]; }) }; }));
+
+    })();
+  </script>
+</template>

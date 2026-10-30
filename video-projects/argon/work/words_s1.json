@@ -1,0 +1,312 @@
+[
+ {
+  "w": "Google",
+  "start": 0.0,
+  "end": 0.54
+ },
+ {
+  "w": "pointed",
+  "start": 0.54,
+  "end": 0.82
+ },
+ {
+  "w": "its",
+  "start": 0.82,
+  "end": 1.12
+ },
+ {
+  "w": "newest",
+  "start": 1.12,
+  "end": 1.44
+ },
+ {
+  "w": "coding",
+  "start": 1.44,
+  "end": 1.72
+ },
+ {
+  "w": "model",
+  "start": 1.72,
+  "end": 1.98
+ },
+ {
+  "w": "at",
+  "start": 1.98,
+  "end": 2.26
+ },
+ {
+  "w": "the",
+  "start": 2.26,
+  "end": 2.6
+ },
+ {
+  "w": "hardest",
+  "start": 2.6,
+  "end": 2.64
+ },
+ {
+  "w": "codebase",
+  "start": 2.64,
+  "end": 3.14
+ },
+ {
+  "w": "it",
+  "start": 3.14,
+  "end": 3.28
+ },
+ {
+  "w": "owns",
+  "start": 3.28,
+  "end": 3.6
+ },
+ {
+  "w": "\u2014",
+  "start": 3.85,
+  "end": 4.35
+ },
+ {
+  "w": "and",
+  "start": 4.1,
+  "end": 4.18
+ },
+ {
+  "w": "it",
+  "start": 4.18,
+  "end": 4.32
+ },
+ {
+  "w": "worked.",
+  "start": 4.32,
+  "end": 4.68
+ },
+ {
+  "w": "Gemini",
+  "start": 5.42,
+  "end": 5.54
+ },
+ {
+  "w": "4",
+  "start": 5.54,
+  "end": 6.06
+ },
+ {
+  "w": "Argon",
+  "start": 6.32,
+  "end": 6.84
+ },
+ {
+  "w": "helped",
+  "start": 6.58,
+  "end": 6.8
+ },
+ {
+  "w": "untangle",
+  "start": 6.8,
+  "end": 7.24
+ },
+ {
+  "w": "a",
+  "start": 7.24,
+  "end": 7.6
+ },
+ {
+  "w": "six-million-line",
+  "start": 8.02,
+  "end": 8.86
+ },
+ {
+  "w": "legacy",
+  "start": 8.44,
+  "end": 8.82
+ },
+ {
+  "w": "folder",
+  "start": 8.82,
+  "end": 9.2
+ },
+ {
+  "w": "buried",
+  "start": 9.2,
+  "end": 9.52
+ },
+ {
+  "w": "inside",
+  "start": 9.52,
+  "end": 10.02
+ },
+ {
+  "w": "Chromium's",
+  "start": 10.02,
+  "end": 10.74
+ },
+ {
+  "w": "forty-million-line",
+  "start": 11.16,
+  "end": 12.0
+ },
+ {
+  "w": "codebase,",
+  "start": 11.58,
+  "end": 12.12
+ },
+ {
+  "w": "and",
+  "start": 12.72,
+  "end": 12.82
+ },
+ {
+  "w": "work",
+  "start": 12.82,
+  "end": 13.04
+ },
+ {
+  "w": "Google",
+  "start": 13.04,
+  "end": 13.28
+ },
+ {
+  "w": "says",
+  "start": 13.28,
+  "end": 13.68
+ },
+ {
+  "w": "would",
+  "start": 13.68,
+  "end": 13.82
+ },
+ {
+  "w": "have",
+  "start": 13.82,
+  "end": 13.98
+ },
+ {
+  "w": "taken",
+  "start": 13.98,
+  "end": 14.18
+ },
+ {
+  "w": "months",
+  "start": 14.18,
+  "end": 14.78
+ },
+ {
+  "w": "landed",
+  "start": 14.78,
+  "end": 15.06
+ },
+ {
+  "w": "in",
+  "start": 15.06,
+  "end": 15.32
+ },
+ {
+  "w": "weeks.",
+  "start": 15.32,
+  "end": 15.62
+ },
+ {
+  "w": "This",
+  "start": 16.44,
+  "end": 16.6
+ },
+ {
+  "w": "is",
+  "start": 16.6,
+  "end": 16.74
+ },
+ {
+  "w": "Ahead",
+  "start": 16.85,
+  "end": 17.07
+ },
+ {
+  "w": "of",
+  "start": 16.96,
+  "end": 17.14
+ },
+ {
+  "w": "Rush",
+  "start": 17.14,
+  "end": 17.4
+ },
+ {
+  "w": "AI",
+  "start": 17.4,
+  "end": 17.82
+ },
+ {
+  "w": "\u2014",
+  "start": 18.08,
+  "end": 18.6
+ },
+ {
+  "w": "let's",
+  "start": 18.34,
+  "end": 18.58
+ },
+ {
+  "w": "look",
+  "start": 18.58,
+  "end": 18.72
+ },
+ {
+  "w": "at",
+  "start": 18.72,
+  "end": 18.82
+ },
+ {
+  "w": "what",
+  "start": 18.82,
+  "end": 19.1
+ },
+ {
+  "w": "actually",
+  "start": 19.1,
+  "end": 19.44
+ },
+ {
+  "w": "happened,",
+  "start": 19.44,
+  "end": 19.82
+ },
+ {
+  "w": "and",
+  "start": 19.82,
+  "end": 20.16
+ },
+ {
+  "w": "what",
+  "start": 20.16,
+  "end": 20.3
+ },
+ {
+  "w": "it",
+  "start": 20.3,
+  "end": 20.4
+ },
+ {
+  "w": "costs",
+  "start": 20.4,
+  "end": 20.66
+ },
+ {
+  "w": "you",
+  "start": 20.66,
+  "end": 20.92
+ },
+ {
+  "w": "after",
+  "start": 20.92,
+  "end": 21.22
+ },
+ {
+  "w": "December",
+  "start": 21.22,
+  "end": 21.48
+ },
+ {
+  "w": "first.",
+  "start": 21.91,
+  "end": 22.77
+ }
+]
