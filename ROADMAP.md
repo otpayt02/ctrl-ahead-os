@@ -13,6 +13,7 @@
 - [ ] Weekly portfolio generator and MoE spin engine
 
 ## Phase 3: Trial Reel Generation & Tracking (02 PIPELINE & 03 TRIALS)
+- [x] Reusable six-second Ahead of Rush AI signal/cloud brand ident, parameter manifest, local MP4 export, and 12-frame visual review (`videos/render/BRAND.md`).
 - [ ] 1 Core -> 5 Variations automation pipeline:
   - Variation 1: Direct contrast / contrarian hook
   - Variation 2: Problem / savings outcome hook

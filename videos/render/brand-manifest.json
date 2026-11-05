@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "waveCount": 9,
+  "amplitudes": [44, 57, 36, 63, 41, 52, 32, 48, 38],
+  "convergenceIntervals": [[300, 555], [346, 610], [316, 580], [398, 650], [365, 622], [335, 600], [420, 670], [379, 640], [355, 615]],
+  "durationSeconds": 6,
+  "fps": 30,
+  "palette": {
+    "background": "#07090e",
+    "gold": "#e6bd69",
+    "purple": "#8253b9",
+    "emerald": "#45d990",
+    "ivory": "#f4efe6"
+  }
+}
