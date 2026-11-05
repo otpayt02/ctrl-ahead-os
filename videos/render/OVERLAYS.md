@@ -12,3 +12,5 @@ npx.cmd remotion render src/overlays/index.tsx OverlayDemo out/overlay-demo.mp4 
 ```
 
 Use FFmpeg to create a lighter 720p copy after rendering. Local base media and renders are ignored. No external services, narration provider or copied reference assets are required.
+
+Verified delivery (2026-11-05): C:\Users\olive\Videos\Ahead-of-Rush-Overlays\overlay-demo-final.mp4; H.264, 1080 x 1920, 30 fps, 300 frames, 10.000 seconds, 1,035,312 bytes. Full decode passed; delivery/master SHA256 both 14886A586B0B79B5043A283BD008B362E515D86EE30701AE9A4A6D5B1742D4A4. A 720p twin and 12-frame contact sheet are beside it. Contact sheet visually inspected. TypeScript and scoped ESLint passed.
