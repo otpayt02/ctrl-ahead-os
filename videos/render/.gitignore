@@ -5,6 +5,7 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+public/overlay-base.mp4
 public/scene-assets/
 public/vo/
 src/generated-media.json
